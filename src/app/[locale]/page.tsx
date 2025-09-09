@@ -1,7 +1,7 @@
 'use client';
 import { useTObject } from '@/hooks/useTObject';
 import useWindowDimensions from '@/hooks/useWindowDimentions';
-import appConfig from './app.config';
+import appConfig from '../app.config';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faCalendarCheck, faLocationDot } from '@fortawesome/free-solid-svg-icons';
 import Title from '@/components/Title';

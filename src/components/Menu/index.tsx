@@ -284,7 +284,7 @@ export default function Menu(props: HTMLAttributes<HTMLDivElement>) {
           <li className={`nav-item ${styles['nav-item']}`}>
             <button onClick={() => switchLocale(locale === 'pt' ? 'en' : 'pt')}>
               <picture>
-                <img src={`images/icon/${locale === 'pt' ? 'pt' : 'en'}.png`} width='40' alt='' />
+                <img src={`/images/icon/${locale === 'pt' ? 'pt' : 'en'}.png`} width='40' alt='' />
               </picture>
             </button>
           </li>

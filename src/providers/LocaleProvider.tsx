@@ -2,7 +2,6 @@
 
 import { createContext, ReactNode, useContext, useState } from 'react';
 import { NextIntlClientProvider } from 'next-intl';
-import { setLocale as setLocaleCookie } from '@/lib/locale';
 import { MessagesContext } from './MessagesContext';
 
 type LocaleContextType = {
@@ -29,10 +28,7 @@ export default function ClientLayout({ children, locale: initialLocale, messages
   const [messages, setMessages] = useState(initialMessages);
 
   async function switchLocale(newLocale: 'pt' | 'en') {
-    setLocaleCookie(newLocale);
-    document.cookie = `locale=${newLocale}; path=/; max-age=31536000`;
-
-    const res = await fetch(`/api/messages/${newLocale}`);
+    const res = await fetch(`/generated/${newLocale}.json`);
     const newMessages = await res.json();
 
     setLocale(newLocale);

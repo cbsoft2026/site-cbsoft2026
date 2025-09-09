@@ -13,6 +13,7 @@ const nextConfig: NextConfig = {
     quietDeps: true,
     includePaths: [path.join(__dirname, 'src/app/styles')],
   },
+  output: "export",
 };
 
 export default withNextIntl(nextConfig) as NextConfig;
