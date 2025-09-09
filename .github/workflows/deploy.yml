@@ -33,6 +33,7 @@ jobs:
           path: out/
 
   deploy:
+    if: ${{ github.repository_visibility == 'public' }}
     environment:
       name: github-pages
       url: ${{steps.deployment.outputs.page_url}}
