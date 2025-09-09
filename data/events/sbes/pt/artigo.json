@@ -1,0 +1,321 @@
+[
+  {
+    "track": "pesquisa",
+    "category": "full",
+    "schedule": {
+      "session": 0,
+      "start": "11:00:00-03:00",
+      "end": "11:20:00-03:00"
+    },
+    "title": "LLMs as Test Generators: A Comparative Benchmarking Study",
+    "authors": "Esdras Caleb Oliveira Silva (UFRN), Roberta Coelho (UFRN), Lyrene Fernandes Silva (UFRN)"
+  },
+  {
+    "track": "ideias",
+    "category": "full",
+    "schedule": {
+      "session": 0,
+      "start": "11:20:00-03:00",
+      "end": "11:35:00-03:00"
+    },
+    "title": "Configuring Parameters of Search-based Software Engineering Tools with Multiple LLM Models",
+    "authors": "Daniel Nouchi, Willian Marques Freire (UEM), Aline Maria M. M. Amaral (UEM), Silvia Regina Vergilio (UFPR), Thelma Elita Colanzi (UEM)"
+  },
+  {
+    "track": "ideias",
+    "category": "full",
+    "schedule": {
+      "session": 0,
+      "start": "11:35:00-03:00",
+      "end": "11:50:00-03:00"
+    },
+    "title": "Automated Generation of Exploratory Test Cases Using Prompt Chaining and Reflective Evaluation",
+    "authors": "Igor Lima (IComp/UFAM), André Carvalho (UFAM), Yan Soares (IComp/UFAM), Gabriel Carvalho (IComp-UFAM), Andres David Peralta de Aguas (IComp/UFAM)"
+  },
+  {
+    "track": "pesquisa",
+    "category": "full",
+    "schedule": {
+      "session": 0,
+      "start": "11:50:00-03:00",
+      "end": "12:10:00-03:00"
+    },
+    "title": "GenIA-E2ETest: A Generative AI-Based Approach for End-to-End Test Automation",
+    "authors": "Elvis Junior (UFF), Alan Valejo (UFSCAR), Jorge Carlos Valverde-Rebaza (Tecnologico de Monterrey, Mexico), Vânia de Oliveira Neves (UFF)"
+  },
+  {
+    "track": "pesquisa",
+    "category": "full",
+    "schedule": {
+      "session": 0,
+      "start": "12:10:00-03:00",
+      "end": "12:30:00-03:00"
+    },
+    "title": "Combining TSL and LLM to Automate REST API Testing: A Comparative Study",
+    "authors": "Thiago da Silva Barradas (UFF), Aline Paes (UFF), Vânia de Oliveira Neves (UFF)"
+  },
+  {
+    "track": "pesquisa",
+    "category": "full",
+    "schedule": {
+      "session": 0,
+      "start": "11:00:00-03:00",
+      "end": "11:20:00-03:00"
+    },
+    "title": "A Real-time data synchronization approach for high-availability micro applications",
+    "authors": "Fernando Moraes (UNESP), Frank José Affonso (UNESP), Daniel Almeida (UNESP)"
+  },
+  {
+    "track": "educacao",
+    "category": "full",
+    "schedule": {
+      "session": 0,
+      "start": "11:20:00-03:00",
+      "end": "11:40:00-03:00"
+    },
+    "title": "Evaluating Strategies for Teaching Micro Frontends: Do Anti-patterns Help?",
+    "authors": "Nabson Paiva Souza Silva (UFAM), Eriky Rodrigues (UFAM), Tayana Conte (UFAM)"
+  },
+  {
+    "track": "tools",
+    "category": "full",
+    "schedule": {
+      "session": 0,
+      "start": "11:40:00-03:00",
+      "end": "11:50:00-03:00"
+    },
+    "title": "JS-Distributor: decomposing monolith applications into microservices",
+    "authors": "Daniel Lucrédio (UFSCAR), Guilherme Escher (UFSCAR), Maurício Almeida (UFSCAR), João Vitor Fidelis Cardozo (UFSCAR), Romeu Leite (UFSCAR), Ivan Capeli Navas (UFSCAR), Vinicius Nordi Esperança (UFSCAR)"
+  },
+  {
+    "track": "tools",
+    "category": "full",
+    "schedule": {
+      "session": 0,
+      "start": "11:50:00-03:00",
+      "end": "12:00:00-03:00"
+    },
+    "title": "FluentArch: uma abordagem moderna para verificação de conformidade arquitetural para C#",
+    "authors": "Arthur Castro, Ricardo Terra (UFLA)"
+  },
+  {
+    "track": "pesquisa",
+    "category": "full",
+    "schedule": {
+      "session": 0,
+      "start": "12:00:00-03:00",
+      "end": "12:20:00-03:00"
+    },
+    "title": "Continuously Managing Microservice Granularity: An Evidence-Based Industrial Approach",
+    "authors": "Yan Justino (CESAR School), Carlos Eduardo da Silva (Sheffield Hallam University, UK), Rafael Duarte (CESAR School)"
+  },
+  {
+    "track": "tools",
+    "category": "full",
+    "schedule": {
+      "session": 0,
+      "start": "12:20:00-03:00",
+      "end": "12:30:00-03:00"
+    },
+    "title": "ResilienceBench-Operator: A Kubernetes Extension for Orchestrating Resilience Experiments on Microservice Applications",
+    "authors": "Carlos Mendes Aderaldo (Unifor), Nabor Mendonca (Unifor)"
+  },
+  {
+    "track": "educacao",
+    "category": "full",
+    "schedule": {
+      "session": 0,
+      "start": "11:00:00-03:00",
+      "end": "11:20:00-03:00"
+    },
+    "title": "Promovendo a Representatividade Feminina na Engenharia de Software por meio de Comunidades Python: Um Relato de Experiência Educacional",
+    "authors": "Sabrina da Silva Frazão (Instituto Federal de Educação, Ciência e Tecnologia do Amazonas), Arlana Braga da Silva (Instituto Federal de Educação, Ciência e Tecnologia do Amazonas), Júlia Giroldo (Instituto Federal de Educação, Ciência e Tecnologia do Amazonas), José Elislande Breno de Souza Linhares (Instituto Federal de Educação, Ciência e Tecnologia do Amazonas), Lia Alessandra da Silva Martins (Instituto Federal de Educação, Ciência e Tecnologia do Amazonas), David Washington Freitas Lima (Instituto Federal de Educação, Ciência e Tecnologia do Amazonas), Fabiann Matthaus Barbosa (Instituto Federal de Educação, Ciência e Tecnologia do Amazonas)"
+  },
+  {
+    "track": "ideias",
+    "category": "full",
+    "schedule": {
+      "session": 0,
+      "start": "11:20:00-03:00",
+      "end": "11:35:00-03:00"
+    },
+    "title": "Pain in a Safe Space: Mapping Emotions and Discourse in the Womenintech Subreddit",
+    "authors": "Jessica Barbara da Silva Ribas (PUCRIO), Joanne Carneiro (LES-DI/PUC-Rio), Theo Sousa (Departamento de Informatica PUC-Rio), Júlia Azevedo (Departamento de Informatica PUC-Rio), Jailma Januario da silva (Departamento de Informatica PUC-Rio), Anderson Uchôa (UFC), Juliana Alves Pereira (PUC Rio)"
+  },
+  {
+    "track": "pesquisa",
+    "category": "full",
+    "schedule": {
+      "session": 0,
+      "start": "11:35:00-03:00",
+      "end": "11:55:00-03:00"
+    },
+    "title": "Diversity Matters: Perceived Inclusion and Discrimination by Brazilian Tech Professionals",
+    "authors": "Theo Sousa (PUC-Rio), Júlia Azevedo (PUC-Rio), Jessica Barbara da Silva Ribas (PUC-Rio), Anderson Uchôa (UFC), Larissa Rocha Soares Bastos (UNEB), Juliana Alves Pereira (PUC-Rio)"
+  },
+  {
+    "track": "tools",
+    "category": "full",
+    "schedule": {
+      "session": 0,
+      "start": "11:55:00-03:00",
+      "end": "12:05:00-03:00"
+    },
+    "title": "womeninoss.com: Supporting women participation in OSS communities",
+    "authors": "Gessyca Moreira (IFMG), Juliana Freitas (FURG), Sarah Burvant (Louisiana State University), Caitlynn Sengchiam (Louisiana State University), Suelen Mapa de Paula (IFMG), Felipe Fronchetti (Louisiana State University)"
+  },
+  {
+    "track": "pesquisa",
+    "category": "journal-first",
+    "schedule": {
+      "session": 0,
+      "start": "12:05:00-03:00",
+      "end": "12:25:00-03:00"
+    },
+    "title": "How does parenthood affect an ICT practitioner’s work? A survey study with fathers",
+    "authors": "Larissa Rocha (UFBA), Edna Dias Canedo (UNB), Claudia Pinto Pereira (UEFS), Carla Bezerra (UFC), Fabiana Freitas Mendes (Aalto University)"
+  },
+  {
+    "track": "pesquisa",
+    "category": "full",
+    "schedule": {
+      "session": 0,
+      "start": "11:00:00-03:00",
+      "end": "11:20:00-03:00"
+    },
+    "title": "Survey-Based Insights into the Replication Crisis and the 3R in Software Engineering",
+    "authors": "Ivanildo de Azevedo (UFPE), Ana Paula Vasconcelos (UFPE), Eudis Oliveira Teixeira (IFSertãoPE), Sergio Soares (UFPE)"
+  },
+  {
+    "track": "pesquisa",
+    "category": "full",
+    "schedule": {
+      "session": 0,
+      "start": "11:20:00-03:00",
+      "end": "11:40:00-03:00"
+    },
+    "title": "Understanding Psychological Safety in Agile Software Development Teams",
+    "authors": "Lidivanio da Conceição do Monte (UEFS), Beatriz Silva de Santana (UEFS), Glauco de Figueiredo Carneiro (UFS), Manoel Mendonca (UFBA), Sávio Freire (IFCE), José Amancio Macedo Santos (UEFS)"
+  },
+  {
+    "track": "ideias",
+    "category": "full",
+    "schedule": {
+      "session": 0,
+      "start": "11:40:00-03:00",
+      "end": "11:55:00-03:00"
+    },
+    "title": "Reimagining Studies’ Replication: A Validity-Driven Analysis of Threats in Empirical Software Engineering",
+    "authors": "Ivanildo de Azevedo (UFPE), Ana Paula Vasconcelos (UFPE), Eudis Oliveira Teixeira (Instituto Federal de Educação, Ciência e Tecnologia do Sertão Pernambucano), Sergio Soares (UFPE)"
+  },
+  {
+    "track": "tools",
+    "category": "full",
+    "schedule": {
+      "session": 0,
+      "start": "11:55:00-03:00",
+      "end": "12:05:00-03:00"
+    },
+    "title": "Thoth 2.0: Advancing an RSL Tool for Enhanced Snowballing Support",
+    "authors": "Diego dos Santos Comis (UNIPAMPA), Elder Macedo Rodrigues (UNIPAMPA)"
+  },
+  {
+    "track": "tools",
+    "category": "full",
+    "schedule": {
+      "session": 0,
+      "start": "12:05:00-03:00",
+      "end": "12:15:00-03:00"
+    },
+    "title": "QAnubis - Uma Ferramenta Web de Apoio ao Processo de Análise Qualitativa",
+    "authors": "Elder Macedo Rodrigues (UNIPAMPA), Ildevana Poltronieri (UNIPAMPA), Maicon Bernardino (UNIPAMPA), Fábio Paulo Basso (UNIPAMPA), Giliardi Schmidt (UNIPAMPA), Lucas Campello Pieva (IFFarroupilha)"
+  },
+  {
+    "track": "ideias",
+    "category": "full",
+    "schedule": {
+      "session": 0,
+      "start": "12:15:00-03:00",
+      "end": "12:30:00-03:00"
+    },
+    "title": "Toward Reliable Forward Snowballing in Systematic Literature Reviews: A Comparative Study and Framework Proposal",
+    "authors": "Jailma Januario da silva (Departamento de Informatica PUC-Rio), Maria Isabel Soares Brandão Nicolau (PUCRIO), Katia Felizardo (UTFPR), Juliana Alves Pereira (PUC Rio)"
+  },
+  {
+    "track": "pesquisa",
+    "category": "full",
+    "schedule": {
+      "session": 0,
+      "start": "14:00:00-03:00",
+      "end": "14:20:00-03:00"
+    },
+    "title": "Investigating the Impact of GitHub Discussions on Maintainers' Workload and Community Dynamics",
+    "authors": "Ana Maciel (UEM), Mairieli Wessel (Radboud University, The Netherlands), Igor Scaliante Wiese (UTFPR), Igor Steinmacher (Northern Arizona University, USA)"
+  },
+  {
+    "track": "pesquisa",
+    "category": "full",
+    "schedule": {
+      "session": 0,
+      "start": "14:20:00-03:00",
+      "end": "14:40:00-03:00"
+    },
+    "title": "PRemo: A Dataset of Emotions Found on Pull Request Discussions",
+    "authors": "Daniel Coutinho (PUC-Rio), Juliana Alves Pereira (PUC-Rio), Breno Neves (PUC-Rio), João Lucas Marques Correia (PUC-Rio), Caio Barbosa Vieira da Silva (PUC-Rio), Wesley K. G. Assunção (North Carolina State University, USA), Igor Steinmacher (Northern Arizona University, USA), Marco Aurelio Gerosa (Northern Arizona University, USA), Augusto Baffa (PUC-Rio), Alessandro Garcia (PUC-Rio)"
+  },
+  {
+    "track": "tools",
+    "category": "full",
+    "schedule": {
+      "session": 0,
+      "start": "14:40:00-03:00",
+      "end": "14:50:00-03:00"
+    },
+    "title": "PeacemakerBot: A LLM-Powered Bot for Identifying and Reducing Signs of Incivility in GitHub Conversations",
+    "authors": "Antonio Gomes, Emanuel Avila (UFC), Eric Mesquita, Carlos Jefté, Arthur Mesquita, Lucas Sousa (UFC), Matheus Rabelo (Universidade Federal do Ceará UFC), Mairieli Wessel (Radboud University), Anderson Uchôa (UFC)"
+  },
+  {
+    "track": "pesquisa",
+    "category": "full",
+    "schedule": {
+      "session": 0,
+      "start": "14:50:00-03:00",
+      "end": "15:10:00-03:00"
+    },
+    "title": "Science Communication of Brazilian Software Engineering Research on LinkedIn",
+    "authors": "Luiza Carolina Miranda Garcia (UFSC), Fabrício Herpich (UFSC), Cleidson de Souza (UFPA), Andréa Sabedra Bordin (UFSC)"
+  },
+  {
+    "track": "pesquisa",
+    "category": "journal-first",
+    "schedule": {
+      "session": 0,
+      "start": "15:10:00-03:00",
+      "end": "15:30:00-03:00"
+    },
+    "title": "Exploring Developer Experience Factors in Software Ecosystems",
+    "authors": "Rodrigo Oliveira Zacarias (UFF/UNIRIO), Léo Carvalho Ramos Antunes (UNIRIO), Márcio de Oliveira Barros (UNIRIO), Rodrigo Pereira dos Santos (UNIRIO), Patricia Lago (Vrije Universiteit Amsterdam)"
+  },
+  {
+    "track": "educacao",
+    "category": "full",
+    "schedule": {
+      "session": 0,
+      "start": "14:10:00-03:00",
+      "end": "14:20:00-03:00"
+    },
+    "title": "Design Thinking as a Toolbox for Requirements Engineering Education: Lessons from the Classroom",
+    "authors": "Maria Alcimar Costa Meireles (UFAM), Eriky Rodrigues (UFAM), Igor Steinmacher (NAU, United States of America), José Carlos Maldonado (SSC/ICMC-USP/ São Carlos), Tayana Conte (UFAM)"
+  },
+  {
+    "track": "tools",
+    "category": "full",
+    "schedule": {
+      "session": 0,
+      "start": "14:20:00-03:00",
+      "end": "14:30:00-03:00"
+    },
+    "title": "SafeSecRETS: A Safety and Security Requirements Tool for Critical IoT Systems",
+    "authors": "Ernesto Fonseca Veiga (UFG), Taciana Novo Kudo (UFG), Renato Bulcão-Neto (UFG)"
+  }
+]

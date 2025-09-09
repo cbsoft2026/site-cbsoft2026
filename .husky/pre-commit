@@ -1,0 +1,10 @@
+#!/usr/bin/env sh
+. "$(dirname -- "$0")/_/husky.sh"
+
+CHANGED=$(git diff)
+
+if [ -n "${CHANGED}" ]; then
+  echo "Running sitemap exporter..."
+  npm run postbuild
+  npm run build
+fi

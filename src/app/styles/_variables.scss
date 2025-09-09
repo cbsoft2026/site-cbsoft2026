@@ -1,0 +1,20 @@
+$primary: #0000fe !default;
+$primary-lighten: rgba(#0000fe, 0.5) !default;
+$primary-alt: #ffc000 !default;
+$secondary: #3e3e3e !default;
+$secondary-lighten: #ebebeb !default;
+
+$text-primary: #222222 !default;
+$text-primary-alt: #ffc000 !default;
+$text-secondary: white !default;
+
+$link-color: $text-primary-alt !default;
+$link-decoration: none !default;
+$link-shade-percentage: 10% !default;
+
+$h1-font-size: 2.8rem !default;
+$h2-font-size: 2.5rem !default;
+$h3-font-size: 2.25rem !default;
+$h4-font-size: 1.6875rem !default;
+$h5-font-size: 1.375rem !default;
+$h6-font-size: 1.25rem !default;

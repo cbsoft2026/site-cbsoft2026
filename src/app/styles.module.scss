@@ -1,0 +1,193 @@
+@use 'variables' as *;
+
+.about {
+  .container > picture > img {
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin-right: auto;
+    margin-left: auto;
+    opacity: 0.05;
+    z-index: -1;
+  }
+
+  ul li {
+    color: black;
+    font-size: 1.0625rem;
+    line-height: 26px;
+    text-align: left;
+  }
+
+  .meta {
+    padding-top: 5%;
+    .info {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: space-around;
+      height: 90%;
+      min-height: 550;
+      margin-top: -5%;
+    }
+    .contagem {
+      .countdown {
+        font-size: 1.75em;
+        font-weight: bold;
+      }
+    }
+    .date,
+    .local {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      font-size: 1.2em;
+      & > svg {
+        color: $primary;
+        font-size: 2.5em;
+      }
+      & > div {
+        text-align: center;
+        padding: 15px 0;
+      }
+    }
+    .descricao {
+      .title {
+        font-weight: bolder;
+      }
+      .subcontent {
+        opacity: 0.5;
+        font-size: 0.75em;
+      }
+    }
+  }
+}
+
+.videoCBSoft {
+  padding: 4em 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  iframe {
+    width: 70%;
+    height: calc(100vw * 9 / 16); // 16: 9
+    max-height: 70vh;
+  }
+
+  @media (max-width: 768px) {
+    padding: 2em 0;
+    iframe {
+      height: calc(100vw * 9 / 16);
+      width: 100%;
+    }
+  }
+}
+
+.sponsors {
+  position: relative;
+  background-color: $secondary-lighten;
+  margin-top: 40;
+  padding-top: 15;
+  padding-bottom: 15;
+
+  .sponsor-title {
+    margin: 10;
+    text-align: center;
+  }
+
+  .block {
+    margin-top: 40;
+
+    /* Base para todas as listas de sponsors */
+    .sponsors-list {
+      list-style: none;
+      padding: 0;
+      margin: 0 0 24px 0;
+      display: grid;
+      gap: 16px 24px;
+      align-items: center;
+      justify-content: center;
+
+      .sponsor-item {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+
+      .image-block {
+        padding: 16px;
+        transition: transform 0.2s ease;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border: 1px solid transparent;
+        img {
+          height: auto;
+          width: auto;
+          max-width: 100%;
+        }
+        &:hover {
+          transform: scale(1.02);
+        }
+      }
+    }
+
+    /* Platina:  1 por linha, logo maior */
+    .tier-platina {
+      grid-template-columns: 1fr;
+      .image-block img {
+        max-height: 100; // destaque maior
+      }
+    }
+    /* Ouro:  2 por linha, aproximação e normalização de área visual */
+    .tier-ouro {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      column-gap: 16px;
+      row-gap: 12px;
+
+      /* cada item ocupa tamanho natural, não 50% fixo */
+      .sponsor-item {
+        flex: 0 1 auto;
+      }
+
+      /* o logo precisa caber nessa caixa comum */
+      .image-block img {
+        max-width: 200; // limita largura para logos mais “quadrados” não dominarem
+        max-height: 80; // limita altura igualmente para todos
+        width: auto;
+        height: auto;
+        object-fit: contain;
+      }
+
+      @media (max-width: 768px) {
+        flex-direction: column;
+        align-items: center;
+        .image-block {
+          width: 220;
+          height: 96;
+        }
+        .image-block img {
+          max-width: 180;
+          max-height: 72;
+        }
+      }
+    }
+
+    /* Prata/Bronze/Restante:  4 por linha (desktop), 3 no tablet, 2 no mobile */
+    .tier-prata,
+    .tier-bronze,
+    .tier-restante {
+      grid-template-columns: repeat(4, minmax(0, 1fr));
+      .image-block img {
+        max-height: 60;
+      }
+      @media (max-width: 1024px) {
+        grid-template-columns: repeat(3, minmax(0, 1fr));
+      }
+      @media (max-width: 768px) {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+      }
+    }
+  }
+}

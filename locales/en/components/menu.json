@@ -1,0 +1,59 @@
+{
+  "cbsoft": {
+    "titulo": "CBSoft { ano }",
+    "organizacao": "Organization",
+    "datas": "Important Dates",
+    "acomodacoes": "Accommodations",
+    "local": "Venue & Location",
+    "jantar": "Dinner",
+    "programacao": "Program",
+    "codigo_conduta": "Code of Conduct",
+    "edicoes_anteriores": "Previous Editions",
+    "turismo": "Tourism"
+  },
+
+  "sbes": {
+    "titulo": "SBES",
+    "pesquisa": "Research Track",
+    "educacao": "Education Track",
+    "ideias_inovadoras": "Insightful Ideas and Emerging Results Track",
+    "ideias_inovadoras2": "",
+    "ferramentas": "Tools Track",
+    "ctic": "Undergraduate Research Competition",
+    "ctd": "Doctoral and Master Theses Competition"
+  },
+
+  "sblp": "SBLP",
+  "sbcars": "SBCARS",
+  "sast": "SAST",
+
+  "workshops": {
+    "titulo": "Workshops",
+    "chamada_workshops": "Call for Workshops",
+    "workshops_aceitos": "Accepted Workshops"
+  },
+
+  "escola": {
+    "titulo": "LATAM School",
+    "call_for_participants": "Call for Participants",
+    "mentoring": "Mentoring",
+    "painel": "Painel",
+    "programacao": "Program",
+    "participantes": "Participants"
+  },
+
+  "artifacts": {
+    "titulo": "Artifacts",
+    "call_for_artifacts": "Artifacts Festival"
+  },
+
+  "palestras": "Keynotes",
+  "tutorial": "Tutorial",
+  "painel": "Panel",
+  "chamada_trabalhos": "Call for Papers",
+  "artigos_aceitos": "Accepted Papers",
+
+  "trilha_industria": "Industry Track",
+
+  "inscricoes": "Registration"
+}

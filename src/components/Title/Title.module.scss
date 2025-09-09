@@ -1,0 +1,36 @@
+@use 'variables' as *;
+
+.title {
+  margin-bottom: 35;
+  font-weight: 'bold';
+
+  &.center {
+    text-align: center;
+  }
+
+  &.right {
+    text-align: right;
+  }
+
+  & > div {
+    display: block;
+    &::after {
+      display: block;
+      content: '';
+      width: 60px;
+      height: 4px;
+      background: $primary-alt;
+      margin-top: 8px;
+    }
+
+    &.left::after {
+      margin-left: 0;
+    }
+    &.center::after {
+      margin-left: 'calc(50% - 30px)';
+    }
+    &.right::after {
+      margin-left: 'calc(100% - 60px)';
+    }
+  }
+}

@@ -1,0 +1,12 @@
+[
+  {
+    "speakers": ["rafael-dueire-lins"],
+    "title": "When re-boot unfreezes a computer",
+    "abstract": "A computer may block or freeze due to a wide variety of hardware or software problems. If rebooting the machine unfreezes it, most possibly the machine ran out of memory. This talk looks at the evolution of dynamic memory management and provides advice to avoid computer freezing."
+  },
+  {
+    "speakers": ["sandrine-blazy"],
+    "title": "From operational semantics to verified compilation: mechanized reasoning on realistic languages in the CompCert compiler",
+    "abstract": "A formally verified compiler ensures that compilation does not introduce any bugs in programs. In the CompCert C compiler, this correctness property requires reasoning about realistic languages by using a semantic framework. This talk explains how this framework has been effectively used to turn CompCert from a prototype in a lab into a real-world compiler. More generally, this approach opens the way to the verification of software tools involved in the production and verification of software."
+  }
+]

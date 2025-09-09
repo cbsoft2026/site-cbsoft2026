@@ -1,7 +1,18 @@
-import type { NextConfig } from "next";
+import createNextIntlPlugin from 'next-intl/plugin';
+import path from 'path';
 
-const nextConfig: NextConfig = {
-  /* config options here */
+const withNextIntl = createNextIntlPlugin();
+
+/** @type {import('next').NextConfig} */
+const nextConfig = {
+  env: {
+    PUBLIC_URL: '/',
+  },
+  reactStrictMode: true,
+  sassOptions: {
+    quietDeps: true,
+    includePaths: [path.join(__dirname, 'src/app/styles')],
+  },
 };
 
-export default nextConfig;
+export default withNextIntl(nextConfig);

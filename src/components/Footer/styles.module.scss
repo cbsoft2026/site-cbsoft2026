@@ -1,0 +1,56 @@
+@use 'variables' as *;
+
+.footer {
+  color: $text-secondary;
+
+  .top {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    column-gap: 2em;
+    padding: 1.5em 0;
+
+    .separator {
+      height: 65;
+      border-right: 1px solid $text-primary-alt;
+    }
+
+    .list-inline {
+      margin-bottom: 0;
+    }
+
+    p,
+    a {
+      font-size: 0.95rem !important;
+    }
+    & a {
+      font-weight: bold;
+    }
+    ul > li:not(:last-child) {
+      padding-right: 10;
+    }
+
+    @media (max-width: 768px) {
+      flexdirection: column;
+      .separator {
+        display: none;
+      }
+      .list-inline {
+        padding: 0.5em 0;
+      }
+    }
+  }
+
+  .bottom {
+    text-align: center;
+
+    @media (max-width: 768px) {
+      padding: 5px 10px;
+      &,
+      a {
+        font-size: 0.85em !important;
+      }
+    }
+  }
+}

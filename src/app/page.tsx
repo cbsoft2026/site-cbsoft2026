@@ -1,103 +1,142 @@
-import Image from "next/image";
+'use client';
+import { useTObject } from '@/hooks/useTObject';
+import useWindowDimensions from '@/hooks/useWindowDimentions';
+import appConfig from './app.config';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faCalendarCheck, faLocationDot } from '@fortawesome/free-solid-svg-icons';
+import Title from '@/components/Title';
 
-export default function Home() {
+import { sponsors } from '@/data';
+import styles from './styles.module.scss';
+import { Sponsor } from '@/types/sponsors';
+import { groupSponsorsByTier } from '@/utils/sortSponsors';
+import { useTranslations } from 'next-intl';
+import Countdown from '@/components/Countdown';
+
+type SponsorSection = {
+  title: string;
+  list: Sponsor[];
+};
+
+function SponsorSection(props: SponsorSection) {
+  const grouped = groupSponsorsByTier(props.list);
+
   return (
-    <div className="font-sans grid grid-rows-[20px_1fr_20px] items-center justify-items-center min-h-screen p-8 pb-20 gap-16 sm:p-20">
-      <main className="flex flex-col gap-[32px] row-start-2 items-center sm:items-start">
-        <Image
-          className="dark:invert"
-          src="/next.svg"
-          alt="Next.js logo"
-          width={180}
-          height={38}
-          priority
-        />
-        <ol className="font-mono list-inside list-decimal text-sm/6 text-center sm:text-left">
-          <li className="mb-2 tracking-[-.01em]">
-            Get started by editing{" "}
-            <code className="bg-black/[.05] dark:bg-white/[.06] font-mono font-semibold px-1 py-0.5 rounded">
-              src/app/page.tsx
-            </code>
-            .
-          </li>
-          <li className="tracking-[-.01em]">
-            Save and see your changes instantly.
-          </li>
-        </ol>
+    <div className='row'>
+      <div className={`col-12 text-center ${styles['sponsor-title']}`}>
+        <h4>{props.title}</h4>
+      </div>
 
-        <div className="flex gap-4 items-center flex-col sm:flex-row">
-          <a
-            className="rounded-full border border-solid border-transparent transition-colors flex items-center justify-center bg-foreground text-background gap-2 hover:bg-[#383838] dark:hover:bg-[#ccc] font-medium text-sm sm:text-base h-10 sm:h-12 px-4 sm:px-5 sm:w-auto"
-            href="https://vercel.com/new?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <Image
-              className="dark:invert"
-              src="/vercel.svg"
-              alt="Vercel logomark"
-              width={20}
-              height={20}
-            />
-            Deploy now
-          </a>
-          <a
-            className="rounded-full border border-solid border-black/[.08] dark:border-white/[.145] transition-colors flex items-center justify-center hover:bg-[#f2f2f2] dark:hover:bg-[#1a1a1a] hover:border-transparent font-medium text-sm sm:text-base h-10 sm:h-12 px-4 sm:px-5 w-full sm:w-auto md:w-[158px]"
-            href="https://nextjs.org/docs?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Read our docs
-          </a>
-        </div>
-      </main>
-      <footer className="row-start-3 flex gap-[24px] flex-wrap items-center justify-center">
-        <a
-          className="flex items-center gap-2 hover:underline hover:underline-offset-4"
-          href="https://nextjs.org/learn?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <Image
-            aria-hidden
-            src="/file.svg"
-            alt="File icon"
-            width={16}
-            height={16}
-          />
-          Learn
-        </a>
-        <a
-          className="flex items-center gap-2 hover:underline hover:underline-offset-4"
-          href="https://vercel.com/templates?framework=next.js&utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <Image
-            aria-hidden
-            src="/window.svg"
-            alt="Window icon"
-            width={16}
-            height={16}
-          />
-          Examples
-        </a>
-        <a
-          className="flex items-center gap-2 hover:underline hover:underline-offset-4"
-          href="https://nextjs.org?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <Image
-            aria-hidden
-            src="/globe.svg"
-            alt="Globe icon"
-            width={16}
-            height={16}
-          />
-          Go to nextjs.org →
-        </a>
-      </footer>
+      <div className={`col-12 block ${styles.block}`}>
+        {grouped.map(({ tier, items }, idx) => (
+          <ul key={idx} className={`${styles['sponsors-list']} ${styles['tier-' + tier]}`}>
+            {items.map((sponsor, index) => (
+              <li className={styles['sponsor-item']} key={index}>
+                <a href={sponsor.href} target='_blank' rel='noreferrer' className={styles['image-block']}>
+                  <picture>
+                    <img
+                      src={`/images/sponsors/${sponsor.image}`}
+                      alt='sponsor-logo'
+                      className='img-fluid'
+                      loading='lazy'
+                    />
+                  </picture>
+                </a>
+              </li>
+            ))}
+          </ul>
+        ))}
+      </div>
     </div>
+  );
+}
+
+export default function HomePage() {
+  const commonT = useTranslations('common');
+  const t = useTObject('pages/cbsoft/index', {
+    ano: appConfig.year,
+    edicao: commonT('edicao'),
+    dataEvento: commonT('dataEvento'),
+    localEvento: commonT('localEvento'),
+    edicoesSbes: commonT('edicoes.sbes'),
+    siglasSbes: commonT('siglas.sbes'),
+    edicoesSblp: commonT('edicoes.sblp'),
+    siglasSblp: commonT('siglas.sblp'),
+    edicoesSbcars: commonT('edicoes.sbcars'),
+    siglasSbcars: commonT('siglas.sbcars'),
+    edicoesSast: commonT('edicoes.sast'),
+    siglasSast: commonT('siglas.sast'),
+  });
+  const { width } = useWindowDimensions();
+
+  return (
+    <article>
+      <section className={styles.about}>
+        <div className={`container ${styles.container}`}>
+          <picture>
+            <img className='img-fluid' src='/images/logos/CBSoft-icon1.png' alt='' />
+          </picture>
+
+          <div className='row'>
+            <div className='col-lg-8 col-md-6 align-self-center'>
+              <Title titulo={t('sobre')} align={width == null || width > 768 ? 'left' : 'center'} />
+              {t('descricao')}
+            </div>
+
+            <div className={`d-md-block col-lg-4 col-md-6 align-top ${styles.meta}`}>
+              <div className={styles.info}>
+                <div className={styles.date}>
+                  <FontAwesomeIcon icon={faCalendarCheck} />
+                  <div className={styles.descricao}>
+                    <div className={styles.title}>{t('data.descricao')}:</div>
+                    <div className={styles.content}>{t('data.periodo')}</div>
+                  </div>
+                </div>
+                <div className={styles.contagem}>
+                  <Countdown date={'2025-09-22T08:00:00.000-04:00'} className={styles.countdown} />
+                </div>
+                <div className={styles.local}>
+                  <FontAwesomeIcon icon={faLocationDot} />
+                  <div className={styles.descricao}>
+                    <div className={styles.title}>{t('local.descricao')}</div>
+                    <div className={styles.content}>{t('local.local')}</div>
+                    <div className={styles.subcontent}>{t('local.detalhes')}</div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section className={styles.videoCBSoft}>
+        <div className='container'>
+          <iframe
+            className={styles['responsive-iframe']}
+            src='https://www.youtube.com/embed/FBHjBs1CF-M?si=KjAkC5UpjwHjaHZt'
+            title='YouTube video player'
+            frameBorder='0'
+            allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share'
+            referrerPolicy='strict-origin-when-cross-origin'
+            allowFullScreen
+          ></iframe>
+        </div>
+      </section>
+
+      {/* ===============================
+          =            Sponsors         =
+          =============================== */}
+
+      <section id='org-apoio-patro' className={styles.sponsors}>
+        <div className='container'>
+          {Object.entries(sponsors).map(
+            ([sectionTitle, list], index) =>
+              list.length > 0 && (
+                <SponsorSection title={t(`sponsors.${sectionTitle}`) as unknown as string} list={list} key={index} />
+              ),
+          )}
+        </div>
+      </section>
+    </article>
   );
 }

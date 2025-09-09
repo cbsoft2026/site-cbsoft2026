@@ -1,0 +1,27 @@
+@use 'variables' as *;
+
+.countdown {
+  display: inline;
+  font-weight: normal;
+  background-color: $primary;
+  color: $text-secondary;
+  padding: 20px 15px 25px;
+
+  & > div {
+    display: inline-flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  & > div:not(.separator) {
+    & span:nth-of-type(1) {
+      line-height: 0.9;
+      color: $text-primary-alt;
+    }
+    & *:nth-of-type(2) {
+      font-size: 0.35em;
+    }
+  }
+  div.separator {
+    min-width: 25;
+  }
+}
