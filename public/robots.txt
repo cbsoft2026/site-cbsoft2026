@@ -4,6 +4,3 @@ Allow: /
 
 # Host
 Host: https://cbsoft2023.ufms.br
-
-# Sitemaps
-Sitemap: https://cbsoft2023.ufms.br/sitemap.xml

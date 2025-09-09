@@ -1,10 +1,10 @@
 import createNextIntlPlugin from 'next-intl/plugin';
 import path from 'path';
+import type { NextConfig } from 'next';
 
 const withNextIntl = createNextIntlPlugin();
 
-/** @type {import('next').NextConfig} */
-const nextConfig = {
+const nextConfig: NextConfig = {
   env: {
     PUBLIC_URL: '/',
   },
@@ -15,4 +15,4 @@ const nextConfig = {
   },
 };
 
-export default withNextIntl(nextConfig);
+export default withNextIntl(nextConfig) as NextConfig;
