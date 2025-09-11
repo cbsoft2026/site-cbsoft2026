@@ -5,6 +5,7 @@ import { PapersSchema, Track, trackValues } from '../types/papers';
 import { TalksSchema } from '../types/talks';
 import { validateData } from '@/data/validator';
 import { slugify } from '@/utils/slugify';
+import { defaultLang, Locale } from '@/types/locales';
 
 export type TipoEvento = 'artigo' | 'palestra' | 'chamada' | 'painel' | 'tutorial';
 
@@ -20,7 +21,6 @@ export type Evento = {
 };
 
 const SIMPOSIOS = ['sbcars', 'sast', 'sblp', 'sbes'];
-const DEFAULT_LANG = 'pt';
 
 const BASE_PATH = path.join(process.cwd(), 'data/events');
 
@@ -32,7 +32,7 @@ function getPath(slug: string, lang: string, eventType: TipoEvento) {
 
   if (fs.existsSync(__path)) return [{ path: __path, track: null }];
 
-  const __fallback = path.join(BASE_PATH, slug, DEFAULT_LANG, `${eventType}.${ext}`);
+  const __fallback = path.join(BASE_PATH, slug, defaultLang, `${eventType}.${ext}`);
   if (fs.existsSync(__path)) return [{ path: __fallback, track: null }];
 
   const __fallbackByTracks = trackValues
@@ -41,7 +41,7 @@ function getPath(slug: string, lang: string, eventType: TipoEvento) {
 
       if (fs.existsSync(__path)) return { path: __path, track: track };
 
-      const __fallback = path.join(BASE_PATH, slug, DEFAULT_LANG, 'tracks', track, `${eventType}.${ext}`);
+      const __fallback = path.join(BASE_PATH, slug, defaultLang, 'tracks', track, `${eventType}.${ext}`);
       if (fs.existsSync(__path)) return { path: __fallback, track: track };
     })
     .filter((x): x is { path: string; track: Track } => !!x);
@@ -49,7 +49,7 @@ function getPath(slug: string, lang: string, eventType: TipoEvento) {
   return __fallbackByTracks;
 }
 
-export function loadProgramacao(lang: 'pt' | 'en' = DEFAULT_LANG): Evento[] {
+export function loadProgramacao(lang: Locale = defaultLang): Evento[] {
   const eventos: Evento[] = [];
 
   SIMPOSIOS.forEach((slug) => {
@@ -121,7 +121,7 @@ export async function loadEventoDetalhado(
   slug: string,
   tipo: TipoEvento,
   id?: string,
-  lang: 'pt' | 'en' = DEFAULT_LANG,
+  lang: Locale = defaultLang,
 ): Promise<Evento | null> {
   const basePath = `../data/events/${slug}/${lang}`;
 
@@ -142,7 +142,7 @@ export async function loadEventoDetalhado(
   }
 }
 
-export function loadChamada(slug: string, track: Track | undefined, lang: 'pt' | 'en' = 'pt'): string {
+export function loadChamada(slug: string, track: Track | undefined, lang: Locale = defaultLang): string {
   const chamadaPaths = getPath(slug, lang, 'chamada');
   const chamadaPath = chamadaPaths.filter((pathInfo) => {
     if (track) {
@@ -157,7 +157,7 @@ export function loadChamada(slug: string, track: Track | undefined, lang: 'pt' |
   return fs.readFileSync(chamadaPath[0].path, 'utf-8');
 }
 
-export function loadMeta(slug: string, lang: 'pt' | 'en' = 'pt'): any {
+export function loadMeta(slug: string, lang: Locale = defaultLang): any {
   const filePath = path.join(BASE_PATH, slug, lang, 'meta.json');
 
   if (fs.existsSync(filePath)) {
@@ -170,7 +170,7 @@ export function loadMeta(slug: string, lang: 'pt' | 'en' = 'pt'): any {
     }
   }
 
-  const fallback = path.join(BASE_PATH, slug, 'pt', 'meta.json');
+  const fallback = path.join(BASE_PATH, slug, defaultLang, 'meta.json');
   if (fs.existsSync(fallback)) {
     const fileContents = fs.readFileSync(fallback, 'utf-8');
     try {

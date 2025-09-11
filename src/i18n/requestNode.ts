@@ -1,11 +1,25 @@
 import * as fs from 'fs';
 import * as path from 'path';
 
+/**
+ * Separador usado para gerar chaves hierárquicas a partir das pastas.
+ */
 const SEPARATOR_FOLDER = '/';
+
 const EXT = 'json';
 
 export type LoadMessagesParamsNode = { locale: string };
 
+/**
+ * Carregar todas as mensagens de um determinado idioma a partir da pasta
+ * `locales/<locale>`.
+ *
+ * A função percorre recursivamente subpastas e arquivos JSON, gerando um objeto
+ * aninhado de mensagens. As chaves correspondem à estrutura de pastas.
+ *
+ * @param locale Idioma a ser carregado (ex: 'pt', 'en')
+ * @returns Objeto contendo todas as mensagens do idioma, estruturadas por chave
+ */
 export async function requestMessagesNode({ locale }: LoadMessagesParamsNode) {
   const basePath = path.join(process.cwd(), 'locales', locale);
 

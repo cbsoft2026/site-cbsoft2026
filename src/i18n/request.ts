@@ -1,12 +1,13 @@
 import { getRequestConfig } from 'next-intl/server';
 import { LoadMessagesParamsNode, requestMessagesNode } from './requestNode';
+import { defaultLang } from '@/types/locales';
 
 export default getRequestConfig(async (params) => {
-  const locale = (await params.requestLocale) || 'pt';
+  const locale = (await params.requestLocale) || defaultLang;
 
   return {
     locale,
-    defaultLocale: 'pt',
+    defaultLocale: defaultLang,
   };
 });
 

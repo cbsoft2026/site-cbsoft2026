@@ -3,10 +3,11 @@
 import { createContext, ReactNode, useContext, useState } from 'react';
 import { NextIntlClientProvider } from 'next-intl';
 import { MessagesContext } from './MessagesContext';
+import { Locale } from '@/types/locales';
 
 type LocaleContextType = {
   locale: string;
-  switchLocale: (newLocale: 'pt' | 'en') => Promise<void>;
+  switchLocale: (newLocale: Locale) => Promise<void>;
 };
 
 const LocaleContext = createContext<LocaleContextType | undefined>(undefined);
@@ -27,7 +28,12 @@ export default function ClientLayout({ children, locale: initialLocale, messages
   const [locale, setLocale] = useState(initialLocale);
   const [messages, setMessages] = useState(initialMessages);
 
-  async function switchLocale(newLocale: 'pt' | 'en') {
+  /**
+   * Função para trocar o idioma.
+   *
+   * @param newLocale Novo idioma
+   */
+  async function switchLocale(newLocale: Locale) {
     const res = await fetch(`/generated/${newLocale}.json`);
     const newMessages = await res.json();
 

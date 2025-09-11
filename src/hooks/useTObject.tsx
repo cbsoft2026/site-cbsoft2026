@@ -4,13 +4,38 @@ import { JSX, useMemo } from 'react';
 import { useMessagesContext } from '@/providers/MessagesContext';
 import ReactMarkdown from 'react-markdown';
 
+/**
+ * Tipos para mapear renderizadores de nós de mensagens.
+ * Cada tipo de nó (string, link, markdown, ul, etc.) deve ter uma função
+ * que recebe o nó, uma key para React e parâmetros de interpolação.
+ */
 type RendererMap = Record<string, (node: any, key: number, params: Record<string, any>) => JSX.Element>;
+
 type Params = Record<string, any>;
 
+/**
+ * Hook customizado para retornar funções de renderização de mensagens
+ * baseadas em um namespace específico.
+ *
+ * Suporta:
+ * - Interpolação de parâmetros `{param}` nas strings.
+ * - Renderização de nós estruturados (`string`, `link`, `markdown`, `ul`, etc.).
+ *
+ * @param namespace Namespace das mensagens (ex: 'home/cbsoft', 'common').
+ * @param hookParams Parâmetros padrão para interpolação.
+ * @returns Função `tObject` que recebe um path da mensagem e retorna JSX.
+ */
 export function useTObject(namespace: string, hookParams: Params = {}) {
   const messages = useMessagesContext();
 
   const t = useMemo(() => {
+    /**
+     * Substitui placeholders `{param}` em uma string pelos valores fornecidos.
+     *
+     * @param str String original contendo placeholders
+     * @param params Parâmetros para interpolação
+     * @returns String interpolada
+     */
     function interpolate(str: string, params: Record<string, any>): string {
       if (!str || typeof str !== 'string') return '';
       return str.replace(/\{\s*(\w+)\s*\}/g, (_, p) => params[p] ?? `{${p}}`);

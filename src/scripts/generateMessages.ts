@@ -1,10 +1,19 @@
+import { locales } from '@/types/locales';
 import { requestMessagesNode as requestMessages } from '../i18n/requestNode';
 import * as fs from 'fs';
 import * as path from 'path';
 
-const locales = ['en', 'pt'];
 const outputDir = path.join(process.cwd(), 'public', 'generated');
 
+/**
+ * Gera arquivos JSON contendo mensagens traduzidas para cada idioma
+ * definido em `locales`, para uso em aplicações que necessitam de
+ * internacionalização (i18n) **estática**.
+ *
+ * Para cada idioma:
+ * 1. Busca as mensagens traduzidas usando `requestMessages`.
+ *
+ */
 async function generate() {
   fs.mkdirSync(outputDir, { recursive: true });
 
