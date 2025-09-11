@@ -3,7 +3,7 @@ User-agent: *
 Allow: /
 
 # Host
-Host: https://cbsoft2023.ufms.br
+Host: https://cbsoft2026.ime.usp.br
 
 # Sitemaps
-Sitemap: https://cbsoft2023.ufms.br/sitemap.xml
+Sitemap: https://cbsoft2026.ime.usp.br/sitemap.xml

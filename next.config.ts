@@ -14,10 +14,6 @@ const nextConfig: NextConfig = {
     includePaths: [path.join(__dirname, 'src/app/styles')],
   },
   output: "export",
-  i18n: {
-    locales: ['en', 'pt'],
-    defaultLocale: 'pt',
-  },
 };
 
 export default withNextIntl(nextConfig) as NextConfig;

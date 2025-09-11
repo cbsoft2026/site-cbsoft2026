@@ -3,7 +3,8 @@
 import { createContext, ReactNode, useContext, useState } from 'react';
 import { NextIntlClientProvider } from 'next-intl';
 import { MessagesContext } from './MessagesContext';
-import { Locale } from '@/types/locales';
+import { Locale, locales } from '@/types/locales';
+import { usePathname, useRouter } from 'next/navigation';
 
 type LocaleContextType = {
   locale: string;
@@ -27,6 +28,8 @@ type Props = {
 export default function ClientLayout({ children, locale: initialLocale, messages: initialMessages }: Props) {
   const [locale, setLocale] = useState(initialLocale);
   const [messages, setMessages] = useState(initialMessages);
+  const router = useRouter();
+  const pathname = usePathname();
 
   /**
    * Função para trocar o idioma.
@@ -34,11 +37,24 @@ export default function ClientLayout({ children, locale: initialLocale, messages
    * @param newLocale Novo idioma
    */
   async function switchLocale(newLocale: Locale) {
+    if (newLocale === locale) return;
+
     const res = await fetch(`/generated/${newLocale}.json`);
     const newMessages = await res.json();
 
     setLocale(newLocale);
     setMessages(newMessages);
+
+    const segments = pathname.split('/').filter(Boolean);
+
+    if (segments.length === 0 || !locales.includes(segments[0] as Locale)) {
+      segments.unshift(newLocale);
+    } else {
+      segments[0] = newLocale;
+    }
+
+    const newPath = '/' + segments.join('/');
+    router.push(newPath);
   }
 
   return (
