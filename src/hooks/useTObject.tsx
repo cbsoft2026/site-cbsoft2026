@@ -9,9 +9,14 @@ import ReactMarkdown from 'react-markdown';
  * Cada tipo de nó (string, link, markdown, ul, etc.) deve ter uma função
  * que recebe o nó, uma key para React e parâmetros de interpolação.
  */
-type RendererMap = Record<string, (node: any, key: number, params: Record<string, any>) => JSX.Element>;
+type RendererMap = Record<string, (node: any, key: string, params: Record<string, any>) => JSX.Element>;
 
 type Params = Record<string, any>;
+
+export type TObjectType = JSX.Element | null;
+export type TObjectFn = (keyPath: string, callParams?: Params) => TObjectType;
+
+export type TableNode = { header: string[]; rows: string[][] | { categoria: string; grouped: string[][] }[] };
 
 /**
  * Hook customizado para retornar funções de renderização de mensagens
@@ -42,7 +47,11 @@ export function useTObject(namespace: string, hookParams: Params = {}) {
     }
 
     const renderers: RendererMap = {
-      string: (node, key, params) => <span key={key}>{interpolate(node, params)}</span>,
+      string: (node, key, params) => (
+        <>
+          <span key={key}>{interpolate(node, params)}</span>
+        </>
+      ),
       link: (node, key, params) => (
         <a key={key} href={node.href}>
           {interpolate(node.label, params)}
@@ -56,20 +65,72 @@ export function useTObject(namespace: string, hookParams: Params = {}) {
       ul: (node, key, params) => (
         <ul key={key}>
           {node.itens.map((item: any, i: number) => (
-            <li key={i}>{renderNode(item, i, params)}</li>
+            <li key={i}>{renderNode(item, i.toString(), params)}</li>
           ))}
         </ul>
       ),
+      table: (node: TableNode, key, params) => {
+        return (
+          <table className='table table-hover'>
+            <thead>
+              <tr>
+                {node.header.map((header: string, index: number) => (
+                  <th key={`${key}-header-${index}`} style={{ minWidth: '200px' }}>
+                    {interpolate(header, params)}
+                  </th>
+                ))}
+              </tr>
+            </thead>
+            <tbody>
+              {node.rows.map((row, rowIndex) => {
+                if (Array.isArray(row)) {
+                  return (
+                    <tr key={`${key}-row-${rowIndex}`}>
+                      {row.map((item, itemIndex) => (
+                        <td key={`${key}-row-${rowIndex}-${itemIndex}`}>{interpolate(item, params)}</td>
+                      ))}
+                    </tr>
+                  );
+                } else {
+                  return row.grouped.map((items, itemIndex) => {
+                    return (
+                      <tr key={`${key}-row-${rowIndex}-${itemIndex}`}>
+                        {itemIndex === 0 ? (
+                          <td key={`${key}-row-${rowIndex}-${itemIndex}`} rowSpan={row.grouped.length}>
+                            {interpolate(row.categoria, params)}
+                          </td>
+                        ) : (
+                          <></>
+                        )}
+                        {items.map((item, valueIndex) => (
+                          <td key={`${key}-row-${rowIndex}-${itemIndex}-${valueIndex}`}>{interpolate(item, params)}</td>
+                        ))}
+                      </tr>
+                    );
+                  });
+                }
+              })}
+            </tbody>
+          </table>
+        );
+      },
     };
 
-    function renderNode(node: any, key: number, params: Params = {}): JSX.Element {
+    function renderNode(node: any, key: string, params: Params = {}): JSX.Element {
       if (typeof node === 'string') return renderers.string(node, key, params);
-      if (Array.isArray(node)) return <>{node.map((n, i) => renderNode(n, i, params))}</>;
+      if (Array.isArray(node))
+        return (
+          <>
+            {node.map((n, i) => renderNode(n, i.toString(), params))}
+            <br />
+            <br />
+          </>
+        );
       if (node?.tipo && renderers[node.tipo]) return renderers[node.tipo](node, key, params);
       return <></>;
     }
 
-    return function tObject(keyPath: string, callParams: Params = {}): JSX.Element | null {
+    return function tObject(keyPath: string, callParams: Params = {}): TObjectType {
       const finalParams = { ...hookParams, ...callParams };
       const fullPath = namespace ? `${namespace}.${keyPath}` : keyPath;
 
@@ -85,8 +146,8 @@ export function useTObject(namespace: string, hookParams: Params = {}) {
         return null;
       }
 
-      if (Array.isArray(value)) return <>{value.map((v, i) => renderNode(v, i, finalParams))}</>;
-      return renderNode(value, 0, finalParams);
+      if (Array.isArray(value)) return <>{value.map((v, i) => renderNode(v, i.toString(), finalParams))}</>;
+      return renderNode(value, fullPath, finalParams);
     };
   }, [messages, namespace, hookParams]);
 

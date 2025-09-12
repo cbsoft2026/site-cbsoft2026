@@ -1,0 +1,167 @@
+{
+    "titulo": "Inscrições",
+    "informacoes": {
+        "descricao": [
+            [
+                "O Congresso Brasileiro de Software (CBSoft) é um evento realizado pela ",
+                {
+                    "tipo": "link",
+                    "href": "http://www.sbc.org.br",
+                    "label": "Sociedade Brasileira de Computação (SBC)"
+                }, 
+                " A SBC é uma associação civil sem fins lucrativos que reúne estudantes, professores, profissionais, pesquisadores e entusiastas em Computação de todo o Brasil, sendo a maior sociedade científica da área na América do Sul. Com 45 anos de existência, a SBC estimula o desenvolvimento científico e tecnológico no país, promovendo a inclusão digital, incentivando atividades de ensino, pesquisa e desenvolvimento em Computação no Brasil e contribuindo para a formação do profissional de Computação com responsabilidade social."
+            ],
+            [
+                "Os valores de inscrição no CBSoft { year } estão listados a seguir.",
+                "Estudantes e profissionais não associados à SBC podem se associar ou renovar sua associação no processo de inscrição com desconto. Inscrever-se no evento e se associar à SBC (combo) é a opção mais vantajosa para o participante que ainda não é associado à Sociedade, pois pagará um valor menor que a opção sem associação e ainda aproveitará os benefícios de ser associado à SBC. Os benefícios de se associar à SBC podem ser encontrados neste ",
+                {
+                    "tipo": "link",
+                    "href": "http://www.sbc.org.br/associe-se-2/269-beneficios",
+                    "label": "link"
+                }
+            ]
+        ],
+        "inscricoes": {
+            "tipo": "table",
+            "header": [
+                "Tipo de Inscrição",
+                "",
+                "até 12/08",
+                "de 13/08 a 07/09",
+                "De 08/09 até 26/09"
+            ],
+            "rows": [
+                {
+                    "categoria": "Estudantes de Graduação",
+                    "grouped": [ 
+                        [
+                            "Associado à SBC com anuidade vigente.",
+                            "R$ 135,00", 
+                            "R$ 146,00", 
+                            "R$ 160,00"
+                        ],
+                        [
+                            "Estudante associado à SBC com anuidade vencendo em até 90 dias (Melhor opção: COMBO inscrição no evento + renovação da associação à SBC).",
+                            "R$ 168,00", 
+                            "R$ 179,00", 
+                            "R$ 193,00"
+                        ],
+                        [
+                            "Estudante não associado ou com associação não vigente à SBC (Melhor opção: COMBO inscrição no evento + associação à SBC).",
+                            "R$ 168", 
+                            "R$ 179", 
+                            "R$ 193"
+                        ],
+                        [
+                            "Estudante não associado à SBC (Somente inscrição no evento) .",
+                            "R$ 182,00", 
+                            "R$ 194,00", 
+                            "R$ 209,00"
+                        ]
+                    ]
+                },
+                {
+                    "categoria": "Estudantes de Pós-Graduação ou Professores de Educação Básica Municipal/Estadual ",
+                    "grouped": [ 
+                        [
+                            "Associado à SBC com anuidade vigente.",
+                            "R$ 245,00", 
+                            "R$ 267,00", 
+                            "R$ 294,00"
+                        ],
+                        [
+                            "Associado à SBC com anuidade vencendo em até 90 dias (Melhor opção: COMBO inscrição no evento + renovação da associação à SBC).",
+                            "R$ 380,00", 
+                            "R$ 402,00", 
+                            "R$ 429,00"
+                        ],
+                        [
+                            "Não associado ou com associação não vigente à SBC (Melhor opção: COMBO inscrição no evento + associação à SBC).",
+                            "R$ 380,00", 
+                            "R$ 402,00", 
+                            "R$ 429,00"
+                        ],
+                        [
+                            "Não associado à SBC (Somente inscrição no evento).",
+                            "R$ 405,00", 
+                            "R$ 429,00", 
+                            "R$ 459,00"
+                        ]
+                    ]
+                },
+                {
+                    "categoria": "Profissionais/Efetivos",
+                    "grouped": [
+                        [
+                            "Profissional associado à SBC com anuidade vigente",
+                            "R$ 644,00", 
+                            "R$ 688,00", 
+                            "R$ 756,00"
+                        ],
+                        [
+                            "Profissional associado à SBC com anuidade vencendo em até 90 dias (Melhor opção: COMBO inscrição no evento + renovação da associação à SBC).",
+                            "R$ 1019,00", 
+                            "R$ 1063,00", 
+                            "R$ 1131,00"
+                        ],
+                        [
+                            "Profissional não associado ou com associação não vigente à SBC (Melhor opção: COMBO inscrição no evento + associação à SBC).",
+                            "R$ 1019,00", 
+                            "R$ 1063,00", 
+                            "R$ 1131,00"
+                        ],
+                        [
+                            "Profissional não associado à SBC (Somente inscrição no evento).",
+                            "R$ 1084,00", 
+                            "R$ 1132,00", 
+                            "R$ 1207,00"
+                        ]
+                    ]
+                }
+            ]
+        },
+        "taxas": {
+            "tipo": "table",
+            "header": ["Taxas extras", "Valor"],
+            "rows": [
+                [ 
+                    "Taxa de publicação por artigo",
+                    "R$ 70,00"
+                ],
+                [
+                    "CBSoft store - Camisa CBSoft 2025 (T-shirt algodão azul royal)",
+                    "R$ 60,00"
+                ]
+            ]
+        },
+        "adicional": {
+            "titulo": "Informações adicionais",
+            "descricao": [
+                {
+                    "tipo": "markdown",
+                    "conteudo": [
+                        "**FAQ - Perguntas frequentes**",
+                        "Se você é autor(a) e também estudante ou professor da educação básica federal, veja as dúvidas frequentes no nosso [link](https://docs.google.com/document/d/1L_pGalsbnX84AN8PI5GNpgEvEVjCodMGT_gF21LvOLc/)",
+                        "**Inscrição + associação (ou renovação de associação) à SBC**",
+                        "Estas categorias referem-se a um valor com desconto aplicado quando da inscrição no evento e associação à SBC. Tal modalidade foi criada com a intenção de tornar a soma desses dois benefícios mais barata que a aquisição de cada um deles em separado, sendo, portanto, a opção mais vantajosa para quem ainda não é associado à SBC ou está com a anuidade prestes a vencer ou vencida. Maiores informações podem ser encontradas na página de perguntas frequentes (FAQ) do site da SBC, disponível em português.",
+                        "**Inscrição de estudantes**.",
+                        "Os valores de inscrição para estudantes estão disponíveis apenas para aqueles que possuam matrícula atualmente ativa em cursos de graduação ou de pós-graduação de instituições de ensino superior, não se aplicando a pesquisadores em pós-doutorado. No momento da inscrição pro meio do sistema ECOS, será exigido o envio eletrônico de um comprovante de vínculo estudantil contendo afiliação, nome do participante, curso no qual está matriculado e data atual. Somente após a SBC verificar o documento (o que pode demorar até 1 dia útil para ser analisado) será possível dar prosseguimento ao pagamento da inscrição. Para evitar algum transtorno, sugere-se que a inscrição no evento não seja feita no último dia da faixa de inscrição. Somente após a validação por parte da SBC as formas de pagamento serão liberadas. O inscrito receberá e-mails informativos em todas as etapas da evolução da sua inscrição no CBSoft { year }",
+                        "**Inscrição para autores**",
+                        "Todos os artigos aceitos serão publicados na SBC OpenLibrary (SOL). São obrigatórias (i) a inscrição de pelo menos um autor de cada artigo aceito na categoria profissional e (ii) o pagamento da taxa de publicação para cada artigo aceito. Além disso, o artigo precisa ser apresentado no evento. Essas são condições mandatórias para a publicação do artigo nos anais do evento. A inscrição e taxa de publicação de cada artigo devem ser pagas até o dia 12/08/2025 (final da primeira faixa de preços).",
+                        "**Formas de pagamento**",
+                        "O pagamento da inscrição poderá ser feito por meio de boleto bancário, cartão de crédito, débito em conta do Banco do Brasil, nota de empenho ou faturamento por meio do sistema ECOS. As inscrições poderão ser feitas até o último dia de realização do CBSoft { year }, porém pagamentos por débito em conta e boleto bancário serão encerrados no dia 18/09/2025. Após essa data, será possível efetuar o pagamento de inscrição apenas por cartão de crédito, nota de empenho ou faturamento.",
+                        "**Inscrição por nota de empenho ou faturamento**",
+                        "O participante deverá acessar o sistema ECOS e realizar sua inscrição selecionando as opções de pagamento \"Nota de empenho\" ou \"Faturamento\". Uma vez solicitado o pagamento, o sistema fornecerá as informações necessárias que deverão constar na nota de empenho ou no pedido de faturamento.",
+                        "**Benefício para associados institucionais**",
+                        "Como benefício aos Associados Institucionais, a SBC prevê 5 inscrições gratuitas e 50% de desconto para outras 5 inscrições, a escolher, de qualquer evento realizado pela SBC (limitado a 5 participantes por evento para cada associado Institucional). Mais informações em https://www.sbc.org.br/associe-se-2/269-beneficios.",
+                        "Será permitido aos autores de artigos o máximo de 1 (uma) isenção de inscrição (taxa de publicação não isenta), seja ela de 100% ou 50%, por Instituição de Ensino Superior (IES) associada à SBC. A IES é responsável por definir quem será o beneficiário por meio de uma Carta de Concessão emitida pela autoridade responsável na IES atestando a sua indicação. O beneficiário deve encaminhar um email para cbsoft2025@cin.ufpe.br com o assunto [CBSoft { year }] ISENÇÃO DE INSCRIÇÃO INSTITUCIONAL e incluir a sua Carta de Concessão. Apenas após a avaliação do documento, a inscrição será confirmada. O pedido de isenção deve ser feito até o dia 19/09/2025.",
+                        "**Alimentação durante o evento**",
+                        "A inscrição inclui apenas alimentação nos coffee-breaks. O almoço é por conta de cada participante e, da mesma forma, o jantar do evento será por adesão.",
+                        "**Política de cancelamento**",
+                        "Solicitações de cancelamento de inscrição feitas até o dia 05/09/2025 poderão ter reembolso de 70% do valor pago pela inscrição no CBSoft { year }, sendo os 30% restantes utilizados para cobrir custos administrativos da inscrição. Após essa data, não haverá devolução de qualquer valor pago. Essa política aplica-se tanto ao cancelamento da inscrição quanto da taxa de publicação. Para solicitar o cancelamento, o participante deverá enviar e-mail para faturamento@sbc.org.br."
+                    ]
+                }
+            ]
+        }
+    }
+}

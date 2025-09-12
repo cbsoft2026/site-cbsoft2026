@@ -1,0 +1,24 @@
+@use 'variables' as *;
+
+.button {
+  text-align: center;
+  background-color: $primary; /* substitua por var(--primary) se desejar usar variáveis CSS */
+  color: #ffc000; /* substitua por var(--primary-alt) se desejar usar variáveis CSS */
+  font-weight: bold;
+  padding: 1em 1.5em;
+  font-size: 1.1em;
+  text-transform: uppercase;
+  box-shadow: 0 0 0 0 $primary-alt;
+  transform: scale(1);
+  text-decoration: none;
+}
+
+.button-container {
+  background-color: $primary;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 1em; /* Adicionando padding para evitar que o container ocupe a página toda */
+  width: fit-content; /* Ajustando a largura do container para caber o conteúdo */
+  margin: auto; /* Centralizando o container na página */
+}

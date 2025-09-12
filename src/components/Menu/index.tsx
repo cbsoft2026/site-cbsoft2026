@@ -82,14 +82,14 @@ export default function Menu(props: HTMLAttributes<HTMLDivElement>) {
 
   const cbsoftMenuItem: NavbarItemProps = {
     title: t('cbsoft.titulo', { ano: appConfig.year }),
-    href: '/cbsoft',
+    href: '/',
     items: [
       { title: t('cbsoft.organizacao'), href: '/cbsoft/organization' },
       { title: t('cbsoft.acomodacoes'), href: '/cbsoft/accommodation' },
-      { title: t('cbsoft.local'), href: '/cbsoft/local' },
-      { title: t('cbsoft.programacao'), href: '/cbsoft/programacao' },
-      { title: t('cbsoft.codigo_conduta'), href: '/cbsoft/codigo-conduta' },
-      { title: t('cbsoft.edicoes_anteriores'), href: '/cbsoft/edicoes-anteriores' },
+      { title: t('cbsoft.local'), href: '/cbsoft/location' },
+      { title: t('cbsoft.programacao'), href: '/cbsoft/schedule' },
+      { title: t('cbsoft.codigo_conduta'), href: '/cbsoft/code-of-conduct' },
+      { title: t('cbsoft.edicoes_anteriores'), href: '/cbsoft/previous-editions' },
     ],
   };
 
@@ -282,7 +282,7 @@ export default function Menu(props: HTMLAttributes<HTMLDivElement>) {
           ))}
 
           <li className={`nav-item ${styles['nav-item']}`}>
-            <button onClick={() => switchLocale(locale === 'pt' ? 'en' : 'pt')}>
+            <button className={styles.flag} onClick={() => switchLocale(locale === 'pt' ? 'en' : 'pt')}>
               <picture>
                 <img src={`/images/icon/${locale === 'pt' ? 'pt' : 'en'}.png`} width='40' alt='' />
               </picture>
@@ -290,7 +290,7 @@ export default function Menu(props: HTMLAttributes<HTMLDivElement>) {
           </li>
         </ul>
         {
-          <Link href={{ pathname: '/inscricoes' }} className={styles.ticket} onClick={collapse}>
+          <Link href={{ pathname: '/registration' }} className={styles.ticket} onClick={collapse}>
             <FontAwesomeIcon icon={faTicket} size='lg' />
             <span> {t('inscricoes')}</span>
           </Link>

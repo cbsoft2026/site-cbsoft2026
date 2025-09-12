@@ -18,7 +18,7 @@ export default async function LocaleLayout({ children }: Props) {
       <body>
         <ClientLayout locale={locale} messages={messages}>
           <Menu />
-          {children}
+          <main style={{ paddingTop: '48px', paddingBottom: '64px' }}>{children}</main>
           <Footer />
         </ClientLayout>
       </body>

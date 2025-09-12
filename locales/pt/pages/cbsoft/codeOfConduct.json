@@ -1,0 +1,15 @@
+{
+  "titulo": "Código de Conduta",
+  "descricao": [
+    "A troca aberta de ideias e a liberdade de pensamento e expressão são fundamentais para os objetivos do CBSoft. Isso requer um ambiente que reconheça o valor inerente de cada pessoa e grupo, que promova a dignidade, a compreensão e o respeito mútuo e que envolva a diversidade. Por essas razões, o CBSoft dedica-se a proporcionar uma experiência livre de assédio aos participantes do evento e em seus canais oficiais de comunicação, incluindo mídias sociais. A meta é que todo e qualquer participante sinta-se bem-vindo, incluído, respeitado e seguro. Não há qualquer tipo de tolerância para comportamento hostil ou indesejado ou para discurso que intimide, crie desconforto ou interfira na participação de alguém no evento.",
+    {
+      "tipo": "markdown",
+      "conteudo":  "**Comportamentos inaceitáveis incluem:** linguagem abusiva ou degradante, interrupção prolongada de uma palestra, discussão ou outra atividade, discriminação, intimidação deliberada, perseguição, gravação de vídeo ou imagens com viés de assédio, contato físico inapropriado, imagens sexuais ou atenção sexual indesejada."
+    },
+    { 
+      "tipo": "markdown",
+      "conteudo": "**Assédio inclui:** comentários pejorativos, escritos ou ações relacionadas a raça, cor, sexo, gênero, orientação sexual, identidade de gênero ou expressão, idade, estado civil, religião, nacionalidade, deficiência, gravidez, condições médicas, status de veterano ou qualquer outro status protegido pelas leis brasileiras."
+    },
+    "Qualquer pessoa que testemunhe ou seja vítima de comportamento inaceitável ou assédio deve notificar um membro do Comitê Organizador do CBSoft { ano } ou segurança do evento. Respostas do tipo que o participante estava \"brincando\" ou que o comportamento em questão tenha sido uma \"brincadeira\" não serão aceitas. Os indivíduos que violarem esses padrões poderão ser punidos ou excluídos de participarem do evento, sem qualquer tipo de reembolso ou compensação, a critério do Comitê Organizador do CBSoft { ano }."
+  ]
+}

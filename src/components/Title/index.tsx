@@ -12,7 +12,7 @@ export default function Title(props: {
   align?: AlignTypes;
 }): JSX.Element {
   return (
-    <h2 className={`${styles.title} ${props.className} text-${props.align || 'left'} ${styles[props.align || 'left']}`}>
+    <h1 className={`${styles.title} ${props.className} text-${props.align || 'left'} ${styles[props.align || 'left']}`}>
       {typeof props.titulo === 'string' ? (
         <div
           className={`text-${props.align || 'left'} ${styles[props.align || 'left']}`}
@@ -21,6 +21,6 @@ export default function Title(props: {
       ) : (
         <div className={`text-${props.align || 'left'} ${styles[props.align || 'left']}`}>{props.titulo}</div>
       )}
-    </h2>
+    </h1>
   );
 }

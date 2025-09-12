@@ -1,0 +1,15 @@
+{
+  "titulo": "Code of Conduct",
+  "descricao": [
+    "The open exchange of ideas and the freedom of thought and expression are central to CBSoft goals. This requires an environment that acknowledges the inherent worth of every person and group, fosters dignity, understanding, and mutual respect, and embraces diversity. For these reasons, CBSoft is committed to provide a harassment-free experience to participants and in its official communication channels, including social media. The aim is every and any participant to feel welcome, included, respected, and safe. There is no any tolerance for hostile or unwelcome behavior or for speech that intimidates, creates discomfort or interferes with a person’s participation at the conference.",
+    {
+      "tipo": "markdown",
+      "conteudo": "**Unacceptable behavior include:** abusive or degrading language, sustained disruption of a talk, discussion or other activity, discrimination, deliberate intimidation, stalking, harassing photography or recording, inappropriate physical contact, sexual imagery, and undesired sexual attention."
+    },
+    {
+      "tipo": "markdown",
+      "conteudo": "**Harassment includes:** harmful comments, writings or actions related to race, color, sex, gender, sexual orientation, gender identity or expression, age, marital status, religion, national origin, disability, pregnancy, medical conditions, veteran status or any other status protected by Brazilian laws."
+    },
+    "Anyone witnessing or subject to unacceptable behavior should notify a member of the CBSoft { ano } Organizing Committee or security staff. A response that the participant was \"joking\" or that the behavior was \"playful\" will not be accepted. Individuals violating these standards may be punished or excluded from the conference without any reimbursement or refund at the discretion of the CBSoft { ano } Organizing Committee."
+  ]
+}

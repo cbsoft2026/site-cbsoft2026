@@ -1,0 +1,58 @@
+@use 'variables' as *;
+
+.descricao {
+  padding: 1em 0 3em 0;
+  font-size: 1.25em;
+  text-align: center;
+  a {
+    display: inline;
+    width: fit-content;
+    margin: 0;
+    padding: 0;
+    font-size: 1.05em;
+    font-weight: bold;
+    text-decoration: underline;
+    color: $primary;
+  }
+}
+
+.local {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: 1.2em;
+  & > svg {
+    color: var(--primary);
+    font-size: 2.5em;
+  }
+  & > div {
+    text-align: center;
+    padding: 15px 0;
+  }
+  .descricao {
+    .title {
+      font-weight: bolder;
+    }
+    .subcontent {
+      opacity: 0.5;
+      font-size: 0.75em;
+    }
+  }
+}
+
+.map {
+  padding: 4em 0;
+  iframe {
+    width: 100%;
+  }
+
+  @media (max-width: 768px) {
+    padding: 2em 0;
+  }
+}
+
+.subtitle {
+  font-size: 1.5em;
+  text-align: center;
+  padding-bottom: 0.85em;
+}

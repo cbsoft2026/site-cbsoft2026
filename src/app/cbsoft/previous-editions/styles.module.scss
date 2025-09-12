@@ -1,0 +1,39 @@
+@use 'variables' as *;
+
+.edicao {
+  display: flex;
+  flex-direction: column;
+
+  width: 250;
+  height: 300;
+
+  border: 1px solid $primary;
+
+  .image {
+    text-align: center;
+    flex-grow: 1;
+    img {
+      height: 175;
+    }
+  }
+
+  .content {
+    height: 85;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: $primary;
+    color: #fff;
+    font-weight: bold;
+    margin: 0;
+  }
+}
+
+.description {
+  padding: 2em 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  gap: 2.5em;
+}
