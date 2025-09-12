@@ -1,7 +1,7 @@
 'use client';
 
+import { useLocaleContext } from '@/providers/LocaleProvider';
 import { JSX, useMemo } from 'react';
-import { useMessagesContext } from '@/providers/MessagesContext';
 import ReactMarkdown from 'react-markdown';
 
 /**
@@ -26,7 +26,7 @@ type Params = Record<string, any>;
  * @returns Função `tObject` que recebe um path da mensagem e retorna JSX.
  */
 export function useTObject(namespace: string, hookParams: Params = {}) {
-  const messages = useMessagesContext();
+  const { messages } = useLocaleContext();
 
   const t = useMemo(() => {
     /**

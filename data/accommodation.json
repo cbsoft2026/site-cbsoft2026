@@ -1,0 +1,54 @@
+[
+    {
+        "nome": "Mar Hotel Convention",
+        "endereco": "Rua Barão de Souza Leão, 451 – Boa Viagem, Recife - PE",
+        "mapa": "https://maps.google.com/?q=Mar+Hotel+Convention+Recife",
+        "distancia": "Hotel Oficial do Evento",
+        "recomendado": true,
+        "precoLocal": "À vista via pix, depósito ou boleto bancário. Também disponível em até 6x no cartão (com acréscimo).",
+        "valores": [
+            "R$ 388,55 para 1 Pessoa, 1 noite – Individual",
+            "R$ 459,55 para 2 Pessoas, 1 noite – Duplo",
+            "Valor sob consulta para 3 Pessoas – Triplo"
+        ]
+    },
+    {
+        "nome": "Hotel Enseada Boa Viagem",
+        "endereco": "R. Charles Darwin, 235 - B1 - Boa Viagem, Recife - PE",
+        "mapa": "https://maps.google.com/?q=Hotel+Enseada+Boa+Viagem+Recife",
+        "distancia": "500 m do evento",
+        "recomendado": false,
+        "precoLocal": "À vista via pix, depósito ou boleto bancário. Também disponível em até 6x sem juros no cartão.",
+        "valores": [
+            "R$ 335,00 para 1 Pessoa, 1 noite – Individual",
+            "R$ 420,00 para 2 Pessoas, 1 noite – Duplo",
+            "Valor sob consulta para a 3 Pessoas – Triplo"
+        ]
+    },
+    {
+        "nome": "Beach Class Convention by HÔM",
+        "endereco": "Rua Maria Carolina, 661 – Boa Viagem, Recife - PE",
+        "mapa": "https://maps.google.com/?q=Beach+Class+Convention+by+H%C3%94M+Recife",
+        "distancia": "2,4 km do evento",
+        "recomendado": false,
+        "precoLocal": "À vista via pix, depósito ou boleto bancário. Também disponível em até 6x sem juros no cartão.",
+        "valores": [
+            "R$ 420,00 para 1 Pessoa, 1 noite – Individual",
+            "R$ 492,00 para 2 Pessoas, 1 noite – Duplo",
+            "Valor sob consulta para 3 Pessoas – Triplo"
+        ]
+    },
+    {
+        "nome": "FIT Transamerica Recife",
+        "endereco": "R. Faustino Pôrto, 458 – Boa Viagem, Recife - PE",
+        "mapa": "https://maps.google.com/?q=FIT+Transamerica+Recife",
+        "distancia": "3,6 km do evento",
+        "recomendado": false,
+        "precoLocal": "À vista via pix, depósito ou boleto bancário. Também disponível em até 6x sem juros no cartão.",
+        "valores": [
+            "R$ 345,00 para 1 Pessoa, 1 noite – Individual",
+            "R$ 387,00 para 2 Pessoas, 1 noite – Duplo",
+            "Valor sob consulta para 3 Pessoas – Triplo"
+        ]
+    }
+]

@@ -1,3 +1,5 @@
+'use client';
+
 import styles from './Title.module.scss';
 
 import { JSX, ReactNode } from 'react';
@@ -10,11 +12,14 @@ export default function Title(props: {
   align?: AlignTypes;
 }): JSX.Element {
   return (
-    <h2 className={`${styles.title} ${props.className} ${props.align || 'left'}`}>
+    <h2 className={`${styles.title} ${props.className} text-${props.align || 'left'} ${styles[props.align || 'left']}`}>
       {typeof props.titulo === 'string' ? (
-        <div className={props.align || 'left'} dangerouslySetInnerHTML={{ __html: props.titulo }}></div>
+        <div
+          className={`text-${props.align || 'left'} ${styles[props.align || 'left']}`}
+          dangerouslySetInnerHTML={{ __html: props.titulo }}
+        ></div>
       ) : (
-        <div className={props.align || 'left'}>{props.titulo}</div>
+        <div className={`text-${props.align || 'left'} ${styles[props.align || 'left']}`}>{props.titulo}</div>
       )}
     </h2>
   );

@@ -14,6 +14,9 @@ const nextConfig: NextConfig = {
     includePaths: [path.join(__dirname, 'src/app/styles')],
   },
   output: "export",
+  images: { unoptimized: true },
+  trailingSlash: true,
+  skipTrailingSlashRedirect: true
 };
 
 export default withNextIntl(nextConfig) as NextConfig;

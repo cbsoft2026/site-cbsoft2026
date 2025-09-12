@@ -9,7 +9,7 @@ import useWindowDimensions from '@/hooks/useWindowDimentions';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faBars, faTicket } from '@fortawesome/free-solid-svg-icons';
 import appConfig from '@/app/app.config';
-import { useLocale } from '@/providers/LocaleProvider';
+import { useLocaleContext } from '@/providers/LocaleProvider';
 
 type NavbarItemProps = {
   title: string;
@@ -75,7 +75,7 @@ export default function Menu(props: HTMLAttributes<HTMLDivElement>) {
   const { width } = useWindowDimensions();
 
   const t = useTranslations('components/menu');
-  const { locale, switchLocale } = useLocale();
+  const { locale, switchLocale } = useLocaleContext();
 
   const collapse = () => setCollapsed(true);
   const link = useCallback((url: string) => (width == null || width > 768 ? url : '#'), [width]);
@@ -84,8 +84,8 @@ export default function Menu(props: HTMLAttributes<HTMLDivElement>) {
     title: t('cbsoft.titulo', { ano: appConfig.year }),
     href: '/cbsoft',
     items: [
-      { title: t('cbsoft.organizacao'), href: '/cbsoft/organizacao' },
-      { title: t('cbsoft.acomodacoes'), href: '/cbsoft/acomodacoes' },
+      { title: t('cbsoft.organizacao'), href: '/cbsoft/organization' },
+      { title: t('cbsoft.acomodacoes'), href: '/cbsoft/accommodation' },
       { title: t('cbsoft.local'), href: '/cbsoft/local' },
       { title: t('cbsoft.programacao'), href: '/cbsoft/programacao' },
       { title: t('cbsoft.codigo_conduta'), href: '/cbsoft/codigo-conduta' },

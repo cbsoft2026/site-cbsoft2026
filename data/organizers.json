@@ -32,7 +32,7 @@
   },
   {
     "category": "sbes",
-    "subcategory": "ideias_inovadoras",
+    "subcategory": "ideias",
     "chairs": [
       {
         "image": "Ivan_Machado.jpg",
@@ -64,7 +64,7 @@
   },
   {
     "category": "sbes",
-    "subcategory": "ferramentas",
+    "subcategory": "tools",
     "chairs": [
       {
         "image": "Thelma_Colanzi.jpg",

@@ -2,7 +2,7 @@
 
 .title {
   margin-bottom: 35;
-  font-weight: 'bold';
+  font-weight: bold;
 
   &.center {
     text-align: center;
@@ -27,10 +27,10 @@
       margin-left: 0;
     }
     &.center::after {
-      margin-left: 'calc(50% - 30px)';
+      margin-left: calc(50% - 30px);
     }
     &.right::after {
-      margin-left: 'calc(100% - 60px)';
+      margin-left: calc(100% - 60px);
     }
   }
 }
