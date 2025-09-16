@@ -12,7 +12,7 @@ import { Participant, Participants } from '@/types/participants';
 import { Rooms } from '@/types/rooms';
 import { Events, EventType } from '@/types/event';
 
-const SIMPOSIOS = ['sbcars', 'sast', 'sblp', 'sbes', 'industry-track', 'mssis', 'vem', 'latam-school'];
+export const SIMPOSIOS = ['sbcars', 'sast', 'sblp', 'sbes', 'industry-track', 'mssis', 'vem', 'latam-school'];
 
 const BASE_PATH = path.join(process.cwd(), 'data/events');
 

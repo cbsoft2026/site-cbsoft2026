@@ -1,4 +1,4 @@
-@use 'variables' as *;
+@use 'variables' as vars;
 
 @use 'bootstrap/scss/bootstrap' as *;
 
@@ -14,4 +14,16 @@ h5,
 h6 {
   font-weight: 900;
   font-family: var(--font-gotham-black), sans-serif;
+}
+
+a {
+  color: vars.$link-color;
+
+  &:hover {
+    color: vars.$link-hover-color;
+  }
+}
+
+img {
+  max-width: 100%;
 }

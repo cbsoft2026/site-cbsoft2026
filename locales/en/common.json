@@ -1,13 +1,21 @@
 {
   "edicao": "XVI",
   "localEvento": "Recife, Pernambuco",
-  "dataEvento": "September 22th to 26th, 2025",
+  "dataEvento": "September 22th to 26th, 2026",
   "edicoes": {
     "sbes": "XXXIX",
     "sblp": "XXIX",
     "sbcars": "XIX",
     "sast": "X"
   },
+  "sbcars": "SBCARS",
+  "sast": "SAST",
+  "sblp": "SBLP",
+  "sbes": "SBES", 
+  "industry-track": "Industry Track", 
+  "mssis": "MSSIS",
+  "vem": "VEM", 
+  "latam-school": "LATAM School",
   "siglas": {
     "cbsoft": "Brazilian Conference on Software: Practice and Theory",
     "sbes": "Brazilian Symposium on Software Engineering",
@@ -15,13 +23,13 @@
     "sblp": "Brazilian Symposium on Programming Languages",
     "sbcars": "Brazilian Symposium on Software Components, Architectures, and Reuse",
     "sast": "Brazilian Symposium on Systematic and Automated Software Testing",
-    "industria": "Industry Track",
+    "industry-track": "Industry Track",
     "workshops": "Workshops",
     "vem": "12th Workshop on Software Visualization, Maintenance and Evolution",
     "mssis": "VI Workshop de Modelagem e Simulação de Sistemas intensivos em Software",
     "wbots": "1º Workshop sobre Bots na Engenharia de Software",
     "openSciense": "IV Workshop on Open Science Practices for Software Engineering (OpenScienSE)",
-    "school": "Third LATAM School in Software Engineering",
+    "latam-school": "Third LATAM School in Software Engineering",
 
     "trilhas": {
       "pesquisa": "Research Track",

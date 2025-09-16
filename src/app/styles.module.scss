@@ -12,7 +12,7 @@
   }
 
   ul li {
-    color: black;
+    color: $body-color;
     font-size: 1.0625rem;
     line-height: 26px;
     text-align: left;
@@ -84,7 +84,7 @@
 
 .sponsors {
   position: relative;
-  background-color: $secondary-lighten;
+  background-color: $overlay-bg;
   margin-top: 40;
   padding-top: 15;
   padding-bottom: 15;

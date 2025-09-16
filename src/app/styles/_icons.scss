@@ -1,0 +1,93 @@
+@use 'variables' as *;
+
+.icon {
+  width: 32px;
+  height: 32px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  color: $text-primary;
+  border-radius: 32px;
+
+  transition: background-color 0.2s ease;
+
+  svg {
+    max-width: 18px;
+  }
+
+  &.icon--small {
+    width: 41px;
+    height: 41px;
+  }
+}
+
+.icon.less:hover {
+  background-color: #faf3e9;
+  color: $primary;
+}
+
+.grouped-icons {
+  display: flex;
+  align-items: center;
+  background: $body-bg;
+  border-radius: 32px;
+  border: 1px solid #d9dbdd;
+  overflow: hidden;
+
+  > a {
+    color: $text-primary;
+    border-right: 1px solid #d9dbdd;
+    padding: 4px 8px;
+
+    &:last-child {
+      border: none;
+    }
+
+    &.active {
+      background: #fffaf3;
+
+      &:hover {
+        background: #faf3e9;
+      }
+    }
+
+    &:hover {
+      background: #f8f8f8;
+    }
+  }
+}
+
+.collapser {
+  user-select: none;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  cursor: pointer;
+  padding: 1px 1px 1px 16px;
+  border-radius: 32px;
+  margin-bottom: 12px;
+
+  transition: background-color 0.2s ease;
+
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    margin: 0;
+  }
+
+  &:hover {
+    background-color: #faf3e9;
+
+    .icon {
+      color: $primary;
+    }
+  }
+}
+
+.collapser__items {
+  margin-bottom: 12px;
+}

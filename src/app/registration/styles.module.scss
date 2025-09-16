@@ -3,7 +3,7 @@
 .button {
   text-align: center;
   background-color: $primary; /* substitua por var(--primary) se desejar usar variáveis CSS */
-  color: #ffc000; /* substitua por var(--primary-alt) se desejar usar variáveis CSS */
+  color: $text-secondary; /* substitua por var(--primary-alt) se desejar usar variáveis CSS */
   font-weight: bold;
   padding: 1em 1.5em;
   font-size: 1.1em;

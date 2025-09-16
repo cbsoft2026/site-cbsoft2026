@@ -1,59 +1,5 @@
 @use 'variables' as *;
-
-.icon {
-  width: 32px;
-  height: 32px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  cursor: pointer;
-  color: #000;
-  border-radius: 32px;
-
-  svg {
-    max-width: 18px;
-  }
-
-  &.icon--small {
-    width: 41px;
-    height: 41px;
-  }
-}
-
-.icon.less:hover {
-  background: #faf3e9;
-}
-
-.grouped-items {
-  display: flex;
-  align-items: center;
-  background: #ffffff;
-  border-radius: 32px;
-  border: 1px solid #d9dbdd;
-  overflow: hidden;
-
-  > a {
-    color: #000;
-    border-right: 1px solid #d9dbdd;
-    padding: 4px 8px;
-
-    &:last-child {
-      border: none;
-    }
-
-    &.active {
-      background: #fffaf3;
-
-      &:hover {
-        background: #faf3e9;
-      }
-    }
-
-    &:hover {
-      background: #f8f8f8;
-    }
-  }
-}
+@use 'icons' as *;
 
 .schedule {
   display: flex;
@@ -127,9 +73,6 @@
 }
 
 .aside-logo {
-  img {
-    max-width: 100%;
-  }
   margin-bottom: 36px;
   display: block;
 }
@@ -147,7 +90,7 @@
 
   input[type='checkbox'] {
     appearance: none;
-    background-color: #fff;
+    background-color: $body-bg;
     margin: 0;
     font: inherit;
     color: #37352f;
@@ -176,29 +119,6 @@
 
   .checkbox-control + .checkbox-control {
     margin-top: 0.35em;
-  }
-}
-
-.collapser {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  cursor: pointer;
-  padding: 1px 1px 1px 16px;
-  border-radius: 32px;
-  margin-bottom: 12px;
-
-  h1,
-  h2,
-  h3,
-  h4,
-  h5,
-  h6 {
-    margin: 0;
-  }
-
-  &:hover {
-    background: #faf3e9;
   }
 }
 

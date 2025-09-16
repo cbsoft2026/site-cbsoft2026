@@ -30,7 +30,7 @@
 
   .schedule-default__wrapper {
     border-radius: 16px;
-    box-shadow: 0px 4px 16px rgba(0, 0, 0, 0.12);
+    box-shadow: $box-shadow;
     display: flex;
     flex-direction: row;
     height: 100%;
@@ -38,18 +38,18 @@
 
   .schedule__info {
     padding: 12px 16px;
-    background-color: #d5491d;
+    background-color: $primary;
     text-align: center;
-    color: #fff;
-    border-left: 1px solid #d5491d;
-    border-bottom: 1px solid #d5491d;
-    border-top: 1px solid #d5491d;
+    color: $text-secondary;
+    border-left: 1px solid $primary;
+    border-bottom: 1px solid $primary;
+    border-top: 1px solid $primary;
     border-top-left-radius: 16px;
     border-bottom-left-radius: 16px;
     transition: border ease-in-out 0.1s;
 
     p {
-      color: #e0e0e0;
+      color: $text-secondary-alt;
     }
   }
 
@@ -61,13 +61,13 @@
 
   .schedule__content {
     height: 100%;
-    border: 1px solid #d9dbdd;
-    border-top: 1px solid #d9dbdd;
+    border: 1px solid $border-color;
+    border-top: 1px solid $border-color;
     display: flex;
     flex-grow: 1;
     flex-direction: column;
     justify-content: space-between;
-    background-color: #ffffff;
+    background-color: $body-bg;
     border-radius: 16px;
     padding: 12px 16px;
     transition: border ease-in-out 0.1s;
@@ -77,14 +77,14 @@
 .schedule-default:hover {
   .schedule__info,
   .schedule__content {
-    border-color: #d5491d;
+    border-color: $primary;
   }
 }
 
 .schedule--info:hover {
   .schedule__info,
   .schedule__content {
-    border-color: #d9dbdd;
+    border-color: $border-color;
   }
 }
 
@@ -104,10 +104,10 @@
 
 .schedule--info {
   .schedule__info {
-    background-color: #087a76 !important;
-    border-left: 1px solid #087a76;
-    border-bottom: 1px solid #087a76;
-    border-top: 1px solid #087a76;
+    background-color: $secondary !important;
+    border-left: 1px solid $secondary;
+    border-bottom: 1px solid $secondary;
+    border-top: 1px solid $secondary;
   }
 }
 
@@ -137,7 +137,7 @@
     align-items: center;
     > * {
       margin-right: -6px;
-      border: 2px solid #fff;
+      border: 2px solid $body-bg;
     }
   }
   .content__image {

@@ -4,6 +4,7 @@ import ClientLayout from '@/providers/LocaleProvider';
 import { LayoutProvider } from '@/providers/LayoutProvider';
 
 import localFont from 'next/font/local';
+import appConfig from './app.config';
 
 const gothamBlack = localFont({
   src: '../../public/fonts/gotham-font/Gotham-Black.otf',
@@ -11,6 +12,13 @@ const gothamBlack = localFont({
   weight: '900',
   style: 'normal',
 });
+
+export const metadata = {
+  title: `CBSoft ${appConfig.year}`,
+  icons: {
+    icon: '/favicon.ico',
+  },
+};
 
 type Props = {
   children: React.ReactNode;

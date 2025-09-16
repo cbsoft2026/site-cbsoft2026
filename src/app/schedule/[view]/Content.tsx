@@ -24,6 +24,7 @@ import useWindowDimensions from '@/hooks/useWindowDimentions';
 type Props = {
   commonEvents: { salas: Rooms; startsInDate: string };
   events: Events;
+  symposiums: string[];
 };
 
 const typeMapper = {
@@ -35,8 +36,9 @@ const typeMapper = {
   session: 'Sessão',
 };
 
-export default function SchedulePage({ commonEvents, events }: Props) {
+export default function SchedulePage({ commonEvents, events, symposiums }: Props) {
   const t = useTranslations('pages/schedule');
+  const commonT = useTranslations('common');
 
   const { width } = useWindowDimensions();
 
@@ -46,7 +48,13 @@ export default function SchedulePage({ commonEvents, events }: Props) {
   const [openFilter, setOpenFilter] = useState(true);
   const toggleOpenFilter = useCallback(() => setOpenFilter((prev) => !prev), []);
 
-  const { eventType, toggleType, filteredEvents } = useEventFilter(events);
+  const [openSymposiums, setOpenSymposiums] = useState(true);
+  const toggleOpenSymposiums = useCallback(() => setOpenSymposiums((prev) => !prev), []);
+
+  const { eventType, toggleType, eventSymposiums, toggleSymposiums, filteredEvents } = useEventFilter(
+    events,
+    symposiums,
+  );
   const { startsIn, finishIn, formattedDateLocale, backParams, nextParams } = useDayNavigation(
     new Date(commonEvents.startsInDate),
   );
@@ -79,7 +87,7 @@ export default function SchedulePage({ commonEvents, events }: Props) {
               </div>
             </div>
             {openFilter && (
-              <div>
+              <div className={styles['collapser__items']}>
                 {eventTypeConst.map((type, index) =>
                   type != null && type !== 'info' ? (
                     <label key={`label-${index}`} className={styles['checkbox-control']}>
@@ -90,6 +98,35 @@ export default function SchedulePage({ commonEvents, events }: Props) {
                         onChange={() => toggleType(type)}
                       />
                       {typeMapper[type]}
+                    </label>
+                  ) : (
+                    ''
+                  ),
+                )}
+              </div>
+            )}
+            <div onClick={toggleOpenSymposiums} className={styles.collapser}>
+              <h6>{t('simposiosetrilha')}</h6>
+              <div className={`${styles.icon} ${styles.less} ${styles['icon--small']}`}>
+                {openSymposiums ? (
+                  <FontAwesomeIcon icon={faChevronDown} style={{ width: '8px' }} />
+                ) : (
+                  <FontAwesomeIcon icon={faChevronUp} style={{ width: '8px' }} />
+                )}
+              </div>
+            </div>
+            {openSymposiums && (
+              <div className={styles['collapser__items']}>
+                {symposiums.map((symposium, index) =>
+                  symposium != null ? (
+                    <label key={`label-${index}`} className={styles['checkbox-control']}>
+                      <input
+                        type='checkbox'
+                        value={symposium}
+                        checked={eventSymposiums.includes(symposium)}
+                        onChange={() => toggleSymposiums(symposium)}
+                      />
+                      {commonT.has(symposium) ? commonT(symposium) : symposium.toUpperCase()}
                     </label>
                   ) : (
                     ''

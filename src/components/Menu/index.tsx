@@ -258,14 +258,14 @@ export default function Menu(props: HTMLAttributes<HTMLDivElement>) {
 
   const menuItemsCollection = [
     scheduleMenuItem,
-    sbesMenuItem,
-    sblpMenuItem,
-    sbcarsMenuItem,
-    sastMenuItem,
-    industriaMenuItem,
-    workshopsMenuItem,
-    schoolMenuItem,
-    artifactsMenuItem,
+    // sbesMenuItem,
+    // sblpMenuItem,
+    // sbcarsMenuItem,
+    // sastMenuItem,
+    // industriaMenuItem,
+    // workshopsMenuItem,
+    // schoolMenuItem,
+    // artifactsMenuItem,
     cbsoftMenuItem,
   ];
 

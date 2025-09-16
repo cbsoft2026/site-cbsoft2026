@@ -11,7 +11,7 @@ export default function ChangeView() {
   const searchParams = useSearchParams();
 
   return (
-    <div className={styles['grouped-items']}>
+    <div className={styles['grouped-icons']}>
       <Link
         href={{ pathname: '/schedule/calender', query: searchParams.toString() }}
         className={view === 'calender' ? styles.active : ''}

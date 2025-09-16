@@ -2,19 +2,19 @@
 
 .navbar {
   padding: 0;
-  border-bottom: 1px solid $secondary-lighten;
+  border-bottom: 1px solid $border-color;
   position: fixed;
   top: 0;
   left: 0;
   width: 100%;
-  background-color: #fff;
+  background-color: $body-bg;
   z-index: 999;
   font-size: 1.075rem;
 
   .navbar-brand {
     padding: 0;
     width: 300px;
-    border-right: 1px solid $secondary-lighten;
+    border-right: 1px solid $border-color;
     text-align: center;
 
     img {
@@ -77,8 +77,8 @@
       margin-top: 0;
       border-radius: 0;
       padding: 5px 15px;
-      border: 1px solid #ebebeb;
-      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+      border: 1px solid $border-color;
+      box-shadow: $box-shadow;
       position: absolute;
       display: none;
       visibility: hidden;
@@ -106,13 +106,13 @@
       .dropdown-item {
         font-size: 15px;
         padding: 10px 0;
-        background: #fff;
+        background: $body-bg;
         width: 90%;
         word-wrap: break-word;
         white-space: normal;
 
         &:not(.last) {
-          border-bottom: 1px solid $secondary-lighten;
+          border-bottom: 1px solid $overlay-bg;
         }
 
         &:hover {
@@ -145,17 +145,17 @@
   }
 
   .ticket {
-    background: #0000fe;
+    background: $primary;
     display: block;
-    padding: 45px 24px;
+    padding: 24px 36px;
     font-weight: bold;
 
     svg {
-      color: #fff;
+      color: $text-secondary;
     }
 
     span {
-      color: #fff;
+      color: $text-secondary;
       font-size: 0.9rem;
       text-transform: uppercase;
     }

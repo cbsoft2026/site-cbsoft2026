@@ -7,9 +7,10 @@
     margin: 1em 0;
     font-size: 1em;
     text-align: left;
-    background-color: #f9f9f9;
-    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    background-color: $overlay-bg-1;
     border-radius: 8px;
+    border: 1px solid $border-color;
+    box-shadow: $box-shadow;
 
     th,
     td {
@@ -28,17 +29,17 @@
     }
 
     th {
-      background-color: #0044cc;
-      color: #ffffff;
+      background-color: $primary;
+      color: $text-secondary;
       font-weight: bold;
     }
 
     tbody tr:nth-of-type(even) {
-      background-color: #f3f3f3;
+      background-color: $body-bg;
     }
 
     tbody tr:hover {
-      background-color: #ddd;
+      background-color: $overlay-bg;
     }
   }
 }

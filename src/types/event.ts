@@ -4,16 +4,14 @@ import { ParticipantsSchema } from './participants';
 
 export const EventType = Type.Union([
   Type.Literal('info'),
-  Type.Literal('artigo'),
   Type.Literal('palestra'),
-  Type.Literal('chamada'),
   Type.Literal('painel'),
   Type.Literal('tutorial'),
   Type.Literal('session'),
   Type.Null(),
 ]);
 
-export const eventType = ['info', 'artigo', 'palestra', 'chamada', 'painel', 'tutorial', 'session', null] as const;
+export const eventType = ['info', 'palestra', 'painel', 'tutorial', 'session', null] as const;
 
 export const EventSchema = Type.Object({
   ...ScheduleSchema.properties,
