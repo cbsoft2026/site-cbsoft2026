@@ -1,0 +1,29 @@
+{
+    "salas": [
+        {
+            "nome": "Sala Manuel Bandeira I",
+            "label": "Manuel Bandeira I"
+        },
+        {
+            "nome": "Sala Manuel Bandeira II",
+            "label": "Manuel Bandeira II"
+        },
+        {
+            "nome": "Sala Manuel Bandeira III",
+            "label": "Manuel Bandeira III"
+        },
+        {
+            "nome": "Sala Manuel Bandeira IV",
+            "label": "Manuel Bandeira IV"
+        },
+        {
+            "nome": "Sala Mauro Mota I",
+            "label": "Mauro Mota I"
+        },
+        {
+            "nome": "Sala Mauro Mota II",
+            "label": "Mauro Mota II"
+        }
+    ],
+    "startsInDate": "2025-09-22T08:30:00-03:00"
+}

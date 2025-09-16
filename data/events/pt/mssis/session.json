@@ -1,0 +1,11 @@
+[
+    { 
+        "title": "MSSiS: Opening + Keynote",
+        "schedule": {
+            "start": "2025-09-22T14:00:00-03:00",
+            "end": "2025-09-22T15:30:00-03:00"
+        },
+        "rooms": ["Mauro Mota I"],
+        "description": "Sessão Técnica 1"
+    }
+]

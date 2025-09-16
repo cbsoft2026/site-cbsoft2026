@@ -1,0 +1,20 @@
+[
+    { 
+        "title": "SAST: ST1",
+        "schedule": {
+            "start": "2025-09-22T09:00:00-03:00",
+            "end": "2025-09-22T10:30:00-03:00"
+        },
+        "rooms": ["Mauro Mota II"],
+        "description": "AI and LLMs for Test Automation"
+    },
+    { 
+        "title": "SAST: ST2",
+        "schedule": {
+            "start": "2025-09-22T11:00:00-03:00",
+            "end": "2025-09-22T12:30:00-03:00"
+        },
+        "rooms": ["Mauro Mota II"],
+        "description": "Test Smells and Quality in Software Testing"
+    }
+]

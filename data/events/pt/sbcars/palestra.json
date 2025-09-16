@@ -1,0 +1,12 @@
+[
+  {
+    "speakers": ["mathieu-acher"],
+    "title": "Software Variability for Replicable Science ",
+    "abstract": "The ability to recreate computational results provides a solid foundation for scientific research. Yet, reproducibility and getting identical results with the original data, code, and environment are challenging, due to many uncontrolled or undocumented variability factors. When reproduction is achieved, replicability can be envisioned to check whether conclusions still hold or generalize when well-controlled changes—created by inevitable software variability—are introduced. In this talk, I will first provide evidence that deep software variability — spanning operating systems, compilers, input data, versions, and configurations, etc. — is impacting reproducibility and replicability in numerous fiels of computational science. I will then present an approach based on \"modelling, sampling, measuring, learning\" to systematically explore variability spaces of neuroimaging pipelines. I will also illustrate how Masters` students et INSA Rennes leverage variability to reproduce and replicate studies in soccer, chess, and energy consumption.  <br> Throughout this talk, I will try to convince the audience that software-engineering and variability researchers have a key role to play for truly replicable science.",
+    "schedule": {
+      "start": "2025-09-23T09:00:00-03:00",
+      "end": "2025-09-23T10:30:00-03:00"
+    },
+    "rooms": ["Manuel Bandeira I"]
+  }
+]

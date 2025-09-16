@@ -16,7 +16,7 @@ export default function Footer(props: HTMLAttributes<HTMLDivElement>) {
       <div className={styles.top}>
         <div className='block text-center'>
           <picture>
-            <img src='/images/logos/CBSoft-H2.png' alt='logo' width='220px' height='34px' className='img-fluid' />
+            <img src='/images/logos/cbsoft-logo.svg' alt='logo' width='220px' height='34px' className='img-fluid' />
           </picture>
         </div>
 

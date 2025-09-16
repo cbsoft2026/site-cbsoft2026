@@ -1,6 +1,6 @@
 {
   "cbsoft": {
-    "titulo": "CBSoft { ano }",
+    "titulo": "Sobre",
     "organizacao": "Organização",
     "datas": "Datas Importantes",
     "acomodacoes": "Acomodações",
@@ -45,6 +45,10 @@
   "artifacts": {
     "titulo": "Artefatos",
     "call_for_artifacts": "Festival de artefatos"
+  },
+
+  "schedule": {
+    "titulo": "Programação"
   },
 
   "palestras": "Palestras",

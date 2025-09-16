@@ -1,8 +1,7 @@
 import './styles/globals.scss';
 import getRequestConfig from '@/i18n/request';
-import Menu from '@/components/Menu';
-import Footer from '@/components/Footer';
 import ClientLayout from '@/providers/LocaleProvider';
+import { LayoutProvider } from '@/providers/LayoutProvider';
 
 type Props = {
   children: React.ReactNode;
@@ -17,9 +16,7 @@ export default async function LocaleLayout({ children }: Props) {
     <html lang={locale}>
       <body>
         <ClientLayout locale={locale} messages={messages}>
-          <Menu />
-          <main style={{ paddingTop: '48px', paddingBottom: '64px' }}>{children}</main>
-          <Footer />
+          <LayoutProvider>{children}</LayoutProvider>
         </ClientLayout>
       </body>
     </html>

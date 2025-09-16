@@ -1,10 +1,11 @@
 @use 'variables' as *;
 
 .navbar {
-  position: sticky;
   padding: 0;
   border-bottom: 1px solid $secondary-lighten;
+  position: fixed;
   top: 0;
+  left: 0;
   width: 100%;
   background-color: #fff;
   z-index: 999;

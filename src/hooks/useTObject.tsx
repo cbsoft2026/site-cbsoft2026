@@ -1,6 +1,7 @@
 'use client';
 
 import { useLocaleContext } from '@/providers/LocaleProvider';
+import React from 'react';
 import { JSX, useMemo } from 'react';
 import ReactMarkdown from 'react-markdown';
 
@@ -47,11 +48,7 @@ export function useTObject(namespace: string, hookParams: Params = {}) {
     }
 
     const renderers: RendererMap = {
-      string: (node, key, params) => (
-        <>
-          <span key={key}>{interpolate(node, params)}</span>
-        </>
-      ),
+      string: (node, key, params) => <span key={key}>{interpolate(node, params)}</span>,
       link: (node, key, params) => (
         <a key={key} href={node.href}>
           {interpolate(node.label, params)}
@@ -120,11 +117,11 @@ export function useTObject(namespace: string, hookParams: Params = {}) {
       if (typeof node === 'string') return renderers.string(node, key, params);
       if (Array.isArray(node))
         return (
-          <>
+          <React.Fragment key={key}>
             {node.map((n, i) => renderNode(n, i.toString(), params))}
             <br />
             <br />
-          </>
+          </React.Fragment>
         );
       if (node?.tipo && renderers[node.tipo]) return renderers[node.tipo](node, key, params);
       return <></>;

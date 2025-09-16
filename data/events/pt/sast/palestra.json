@@ -1,0 +1,13 @@
+[
+  {
+    "speakers": ["marcio-ribeiro"],
+    "title": "An LLM a Day Keeps Manual Testing OK",
+    "abstract": "Manual tests, tests which are written in natural language, are essential in contexts where automated testing is infeasible or insufficient. However, they often suffer from incompleteness, ambiguities, outdated steps, and test smells, which can increase maintenance costs and reduce reliability. In this talk, we will explore applications on how Large Language Models (LLMs) can assist in the generation and maintenance of manual tests. We will discuss and show techniques to create tests from requirements and from screenshots of system interfaces, as well as strategies to update tests when requirements or user interfaces change. We will also focus on how LLMs can help with the task of removing test smells from manual tests. The talk will focus on real-practice manual tests and also will discuss open challenges and research opportunities.",
+    "schedule": {
+        "start": "2025-09-22T14:00:00-03:00",
+        "end": "2025-09-22T15:30:00-03:00"
+    },
+    "rooms": ["Mauro Mota II"],
+    "description": "Using Large Language Models to Generate and Maintain Manual Tests"
+  }
+]

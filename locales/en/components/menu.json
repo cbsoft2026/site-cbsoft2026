@@ -1,6 +1,6 @@
 {
   "cbsoft": {
-    "titulo": "CBSoft { ano }",
+    "titulo": "About",
     "organizacao": "Organization",
     "datas": "Important Dates",
     "acomodacoes": "Accommodations",
@@ -46,6 +46,11 @@
     "titulo": "Artifacts",
     "call_for_artifacts": "Artifacts Festival"
   },
+
+  "schedule": {
+    "titulo": "Programação"
+  },
+
 
   "palestras": "Keynotes",
   "tutorial": "Tutorial",

@@ -75,7 +75,7 @@ export default function HomePage() {
       <section className={styles.about}>
         <div className={`container ${styles.container}`}>
           <picture>
-            <img className='img-fluid' src='/images/logos/CBSoft-icon1.png' alt='' />
+            <img className='img-fluid' src='/images/logos/cbsoft-logo-icon.svg' alt='' />
           </picture>
 
           <div className='row'>

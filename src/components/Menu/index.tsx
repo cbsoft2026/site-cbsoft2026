@@ -37,34 +37,36 @@ function NavbarItem(props: NavbarItemProps) {
           {title}
         </Link>
       )}
-      <ul className={`dropdown-menu ${styles['dropdown-menu']}`}>
-        {items?.map((item, i) => (
-          <li key={i}>
-            <Link
-              className={`dropdown-item ${styles['dropdown-item']}`}
-              href={{ pathname: item.href }}
-              onClick={!item.items?.length ? onClick : undefined}
-            >
-              {item.title} {item.items?.length && <>&raquo;</>}
-            </Link>
-            {item.items && (
-              <ul className={`submenu ${styles['submenu']}`}>
-                {item.items.map((subItem, j) => (
-                  <li key={j}>
-                    <Link
-                      className={`dropdown-item ${styles['dropdown-item']}`}
-                      href={{ pathname: subItem.href }}
-                      onClick={onClick}
-                    >
-                      {subItem.title}
-                    </Link>
-                  </li>
-                ))}
-              </ul>
-            )}
-          </li>
-        ))}
-      </ul>
+      {items && (
+        <ul className={`dropdown-menu ${styles['dropdown-menu']}`}>
+          {items?.map((item, i) => (
+            <li key={i}>
+              <Link
+                className={`dropdown-item ${styles['dropdown-item']}`}
+                href={{ pathname: item.href }}
+                onClick={!item.items?.length ? onClick : undefined}
+              >
+                {item.title} {item.items?.length && <>&raquo;</>}
+              </Link>
+              {item.items && (
+                <ul className={`submenu ${styles['submenu']}`}>
+                  {item.items.map((subItem, j) => (
+                    <li key={j}>
+                      <Link
+                        className={`dropdown-item ${styles['dropdown-item']}`}
+                        href={{ pathname: subItem.href }}
+                        onClick={onClick}
+                      >
+                        {subItem.title}
+                      </Link>
+                    </li>
+                  ))}
+                </ul>
+              )}
+            </li>
+          ))}
+        </ul>
+      )}
     </li>
   );
 }
@@ -82,14 +84,13 @@ export default function Menu(props: HTMLAttributes<HTMLDivElement>) {
 
   const cbsoftMenuItem: NavbarItemProps = {
     title: t('cbsoft.titulo', { ano: appConfig.year }),
-    href: '/',
+    href: '/about',
     items: [
-      { title: t('cbsoft.organizacao'), href: '/cbsoft/organization' },
-      { title: t('cbsoft.acomodacoes'), href: '/cbsoft/accommodation' },
-      { title: t('cbsoft.local'), href: '/cbsoft/location' },
-      { title: t('cbsoft.programacao'), href: '/cbsoft/schedule' },
-      { title: t('cbsoft.codigo_conduta'), href: '/cbsoft/code-of-conduct' },
-      { title: t('cbsoft.edicoes_anteriores'), href: '/cbsoft/previous-editions' },
+      { title: t('cbsoft.organizacao'), href: '/about/organization' },
+      { title: t('cbsoft.acomodacoes'), href: '/about/accommodation' },
+      { title: t('cbsoft.local'), href: '/about/location' },
+      { title: t('cbsoft.codigo_conduta'), href: '/about/code-of-conduct' },
+      { title: t('cbsoft.edicoes_anteriores'), href: '/about/previous-editions' },
     ],
   };
 
@@ -250,8 +251,13 @@ export default function Menu(props: HTMLAttributes<HTMLDivElement>) {
     items: [{ title: t('artifacts.call_for_artifacts'), href: '/artefatos' }],
   };
 
+  const scheduleMenuItem: NavbarItemProps = {
+    title: t('schedule.titulo'),
+    href: link('/schedule/calender'),
+  };
+
   const menuItemsCollection = [
-    cbsoftMenuItem,
+    scheduleMenuItem,
     sbesMenuItem,
     sblpMenuItem,
     sbcarsMenuItem,
@@ -260,6 +266,7 @@ export default function Menu(props: HTMLAttributes<HTMLDivElement>) {
     workshopsMenuItem,
     schoolMenuItem,
     artifactsMenuItem,
+    cbsoftMenuItem,
   ];
 
   const div = useRef<HTMLDivElement | null>(null);
@@ -268,7 +275,7 @@ export default function Menu(props: HTMLAttributes<HTMLDivElement>) {
     <nav {...props} ref={div} className={`navbar navbar-expand-lg ${styles.navbar}`}>
       <Link className={`navbar-brand ${styles['navbar-brand']}`} href={{ pathname: '/' }} onClick={collapse}>
         <picture>
-          <img src='/images/logos/CBSoft25-H1.png' alt='logo' />
+          <img src='/images/logos/cbsoft-logo.svg' alt='logo' />
         </picture>
       </Link>
 
