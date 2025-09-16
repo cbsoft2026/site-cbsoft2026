@@ -17,8 +17,8 @@ export const SIMPOSIOS = ['sbcars', 'sast', 'sblp', 'sbes', 'industry-track', 'm
 const BASE_PATH = path.join(process.cwd(), 'data/events');
 
 function getPath(slug: string, lang: string, eventType: EventType) {
-  let ext = 'json';
-  if (eventType === 'chamada') ext = 'md';
+  const ext = 'json';
+  //if (eventType === 'chamada') ext = 'md';
 
   const __path = path.join(BASE_PATH, lang, slug, `${eventType}.${ext}`);
 
