@@ -253,7 +253,7 @@ export default function Menu(props: HTMLAttributes<HTMLDivElement>) {
 
   const scheduleMenuItem: NavbarItemProps = {
     title: t('schedule.titulo'),
-    href: link('/schedule/calender'),
+    href: '/schedule/calender',
   };
 
   const menuItemsCollection = [
