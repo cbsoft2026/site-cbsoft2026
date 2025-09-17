@@ -1,0 +1,7 @@
+[
+  {
+    "title": "Desvendando o MLIR: Do Alto Nível ao LLVM com Redes Neurais e Otimizações",
+    "description": "O tutorial do SBLP 2025, patrocinado pela Cadence Design Systems, apresentará uma introdução à Multi-Level Intermediate Representation (MLIR), voltada para pessoas que estudam, pesquisam ou trabalham com compiladores, otimizações e machine learning. Conhecimentos prévios em LLVM ou MLIR não são obrigatórios — apenas curiosidade e vontade de aprender! <p> O MLIR é uma infraestrutura poderosa para representar e transformar programas em múltiplos níveis de abstração. Este tutorial explorará como o MLIR pode ser usado para compilar e otimizar representações de grafos computacionais, como os encontrados em redes neurais. Serão apresentados os conceitos fundamentais do MLIR: representações intermediárias e suas estruturas, dialetos e passes. Também será discutido como o MLIR se encaixa no ecossistema de compiladores modernos e por que tem se tornado essencial em aplicações de machine learning e além.<p>O tutorial também permitirá que os participantes botem a mão na massa! Através de um exercício prático, acompanharemos o rebaixamento (lowering) de uma multiplicação de matrizes 2D escrita no dialeto linalg até o nível de representação intermediária (IR) do LLVM. Durante o processo, aplicaremos transformações como unroll de laços e uso do dialeto scf, proporcionando uma visão concreta de como o MLIR permite otimizações progressivas e controladas.",
+    "speakers": ["guilherme-silva", "rafael-sumitani", "michael-canesch"]
+  }
+]

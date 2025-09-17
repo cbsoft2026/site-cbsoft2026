@@ -6,7 +6,7 @@ export function generateStaticParams() {
   return [{ view: 'calender' }, { view: 'list' }];
 }
 
-export default function SchedulePage() {
+export default async function SchedulePage() {
   const commonEvents = loadCommonEvents();
   const events = loadEvents();
 

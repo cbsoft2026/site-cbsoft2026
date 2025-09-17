@@ -1,7 +1,7 @@
-import { Organizers, OrganizersSchema } from '@/types/organizers';
-import { Sponsors, SponsorsSchema } from '@/types/sponsors';
-import { Accommodations, AccommodationsSchema } from '@/types/accommodation';
-import { PreviousEditions, PreviousEditionsSchema } from '@/types/previousEditions';
+import { Organizers, OrganizersSchema } from '../../src/types/organizers';
+import { Sponsors, SponsorsSchema } from '../../src/types/sponsors';
+import { Accommodations, AccommodationsSchema } from '../../src/types/accommodation';
+import { PreviousEditions, PreviousEditionsSchema } from '../../src/types/previousEditions';
 
 import { validateData } from './validator';
 

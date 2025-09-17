@@ -19,13 +19,12 @@
         "description": "Requirements, software architecture, coding, and building"
     },
     { 
-        "title": "LATAM School: Google",
+        "title": "LATAM School", 
+        "rooms": ["Manuel Bandeira II"],
+        "chair": "lina-garces",
         "schedule": {
             "start": "2025-09-22T14:00:00-03:00",
             "end": "2025-09-22T15:30:00-03:00"
-        },
-        "rooms": ["Manuel Bandeira II"],
-        "chair": "lina-garces",
-        "description": "Workshop by Google Professions"
+        }
     }
 ]

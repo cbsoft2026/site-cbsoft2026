@@ -15,4 +15,5 @@ export const ScheduleSchema = Type.Object({
 
 export const SchedulesSchema = Type.Array(ScheduleSchema);
 
+export type Schedule = Static<typeof ScheduleSchema>;
 export type Schedules = Static<typeof SchedulesSchema>;

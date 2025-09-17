@@ -2,16 +2,13 @@
 
 .schedule-type--calender.schedule--info {
   .schedule__content {
-    justify-content: center;
+    // justify-content: center;
     align-items: center;
   }
 }
 
 .schedule-type--list {
   padding: 8px 8px 0 8px !important;
-  .schedule__info {
-    min-width: 120px;
-  }
 
   .schedule-default__wrapper {
     display: grid !important;
@@ -25,7 +22,7 @@
 .schedule-default {
   display: flex;
   flex-direction: column;
-  padding: 8px 8px 24px 8px;
+  padding: 8px;
   min-width: 300px;
 
   .schedule-default__wrapper {
@@ -37,6 +34,7 @@
   }
 
   .schedule__info {
+    min-width: 90px;
     padding: 12px 16px;
     background-color: $primary;
     text-align: center;
@@ -71,6 +69,20 @@
     border-radius: 16px;
     padding: 12px 16px;
     transition: border ease-in-out 0.1s;
+
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6,
+    p {
+      overflow: hidden;
+      display: -webkit-box;
+      -webkit-box-orient: vertical;
+      -webkit-line-clamp: 3;
+      white-space: normal;
+    }
   }
 }
 
@@ -81,33 +93,27 @@
   }
 }
 
-.schedule--info:hover {
-  .schedule__info,
-  .schedule__content {
-    border-color: $border-color;
-  }
-}
-
-.schedule--session:hover {
-  .schedule__info,
-  .schedule__content {
-    border-color: #f09415;
-  }
-}
-
-.schedule--painel:hover {
-  .schedule__info,
-  .schedule__content {
-    border-color: #515c4d;
-  }
-}
-
 .schedule--info {
   .schedule__info {
-    background-color: $secondary !important;
-    border-left: 1px solid $secondary;
-    border-bottom: 1px solid $secondary;
-    border-top: 1px solid $secondary;
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6,
+    p {
+      color: $text-primary-alt;
+    }
+    background-color: $overlay-bg !important;
+    border-left: 1px solid $border-color;
+    border-bottom: 1px solid $border-color;
+    border-top: 1px solid $border-color;
+  }
+  &:hover {
+    .schedule__info,
+    .schedule__content {
+      border-color: $border-color;
+    }
   }
 }
 
@@ -119,6 +125,28 @@
     border-bottom: 1px solid #f09415;
     border-top: 1px solid #f09415;
   }
+  &:hover {
+    .schedule__info,
+    .schedule__content {
+      border-color: #f09415;
+    }
+  }
+}
+
+.schedule--artigo {
+  cursor: pointer;
+  .schedule__info {
+    background-color: $secondary !important;
+    border-left: 1px solid $secondary;
+    border-bottom: 1px solid $secondary;
+    border-top: 1px solid $secondary;
+  }
+  &:hover {
+    .schedule__info,
+    .schedule__content {
+      border-color: $secondary;
+    }
+  }
 }
 
 .schedule--painel {
@@ -129,6 +157,16 @@
     border-bottom: 1px solid #515c4d;
     border-top: 1px solid #515c4d;
   }
+  &:hover {
+    .schedule__info,
+    .schedule__content {
+      border-color: #515c4d;
+    }
+  }
+}
+
+.schedule--palestra {
+  cursor: pointer;
 }
 
 .schedule__content {

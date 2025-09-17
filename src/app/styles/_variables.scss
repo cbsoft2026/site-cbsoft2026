@@ -6,6 +6,7 @@ $secondary-alt: #1d656d !default;
 $body-color: #222222 !default;
 
 $text-primary: #000000 !default;
+$text-primary-alt: #3a3a3a !default;
 
 $text-secondary: #ffffff !default;
 $text-secondary-alt: #e0e0e0 !default;
@@ -13,8 +14,8 @@ $text-secondary-alt: #e0e0e0 !default;
 $border-color: #d9dbdd !default;
 
 $body-bg: #ffffff !default;
-$overlay-bg: rgba(#000000, 0.05) !default;
-$overlay-bg-1: rgba(#000000, 0.01) !default;
+$overlay-bg: #f2f2f2 !default;
+$overlay-bg-1: #fcfcfc !default;
 
 $link-color: $primary !default;
 $link-hover-color: $primary-alt !default;

@@ -14,16 +14,17 @@ import ChangeView from './ChangeView';
 import Schedule from './Schedule';
 import Link from 'next/link';
 import { useCallback, useState } from 'react';
-import { Events, eventType as eventTypeConst } from '@/types/event';
+import { Event, eventType as eventTypeConst } from '@/types/event';
 import { Rooms } from '@/types/rooms';
 import useEventFilter from '@/hooks/useEventFilter';
 import useDayNavigation from '@/hooks/useDayNavigation';
 import { useTranslations } from 'next-intl';
 import useWindowDimensions from '@/hooks/useWindowDimentions';
+import { useParams } from 'next/navigation';
 
 type Props = {
   commonEvents: { salas: Rooms; startsInDate: string };
-  events: Events;
+  events: Map<string, Event>;
   symposiums: string[];
 };
 
@@ -34,11 +35,15 @@ const typeMapper = {
   painel: 'Painel',
   tutorial: 'Tutorial',
   session: 'Sessão',
+  info: 'Informações',
 };
 
 export default function SchedulePage({ commonEvents, events, symposiums }: Props) {
   const t = useTranslations('pages/schedule');
   const commonT = useTranslations('common');
+  const { view } = useParams();
+
+  const [typeView, setTypeView] = useState('day');
 
   const { width } = useWindowDimensions();
 
@@ -89,7 +94,7 @@ export default function SchedulePage({ commonEvents, events, symposiums }: Props
             {openFilter && (
               <div className={styles['collapser__items']}>
                 {eventTypeConst.map((type, index) =>
-                  type != null && type !== 'info' ? (
+                  type != null ? (
                     <label key={`label-${index}`} className={styles['checkbox-control']}>
                       <input
                         type='checkbox'
@@ -143,21 +148,34 @@ export default function SchedulePage({ commonEvents, events, symposiums }: Props
             <div onClick={toggleOpenAsideBar} className={`${styles.icon} ${styles.less} ${styles['icon--small']}`}>
               <FontAwesomeIcon icon={faBars} />
             </div>
-            <Link
-              href={{ query: backParams.toString() }}
-              className={`${styles.icon} ${styles.less} ${styles['icon--small']}`}
-            >
-              <FontAwesomeIcon icon={faChevronLeft} width={8} style={{ width: '8px' }} />
-            </Link>
-            <Link
-              href={{ query: nextParams.toString() }}
-              className={`${styles.icon} ${styles.less} ${styles['icon--small']}`}
-            >
-              <FontAwesomeIcon icon={faChevronRight} width={8} style={{ width: '8px' }} />
-            </Link>
-            <h5>{formattedDateLocale}</h5>
+            {typeView === 'day' && (
+              <>
+                <Link
+                  href={{ query: backParams.toString() }}
+                  className={`${styles.icon} ${styles.less} ${styles['icon--small']}`}
+                >
+                  <FontAwesomeIcon icon={faChevronLeft} width={8} style={{ width: '8px' }} />
+                </Link>
+                <Link
+                  href={{ query: nextParams.toString() }}
+                  className={`${styles.icon} ${styles.less} ${styles['icon--small']}`}
+                >
+                  <FontAwesomeIcon icon={faChevronRight} width={8} style={{ width: '8px' }} />
+                </Link>
+                <h5>{formattedDateLocale}</h5>
+              </>
+            )}
           </div>
-          <div>{width && width > 768 && <ChangeView />}</div>
+
+          <div>
+            {view === 'list' && (
+              <select className={styles.select} onChange={(value) => setTypeView(value.target.value)}>
+                <option value='day'>Dia</option>
+                <option value='complete'>Completo</option>
+              </select>
+            )}
+            {width && width > 768 && <ChangeView />}
+          </div>
         </header>
         <div className={styles['grid-shedule__wrapper']}>
           <Schedule
@@ -165,6 +183,7 @@ export default function SchedulePage({ commonEvents, events, symposiums }: Props
             events={filteredEvents}
             startsIn={startsIn.toUTCString()}
             finishIn={finishIn.toUTCString()}
+            typeView={typeView}
           />
         </div>
       </main>

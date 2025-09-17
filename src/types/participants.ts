@@ -1,6 +1,6 @@
 import { Type, Static } from '@sinclair/typebox';
 
-export const Participant = Type.Object({
+export const ParticipantSchema = Type.Object({
   id: Type.String(),
   image: Type.Optional(Type.String()),
   name: Type.Optional(Type.String()),
@@ -8,7 +8,7 @@ export const Participant = Type.Object({
   bio: Type.Optional(Type.String()),
 });
 
-export const ParticipantsSchema = Type.Array(Participant);
+export const ParticipantsSchema = Type.Array(ParticipantSchema);
 
-export type Participant = Static<typeof Participant>;
+export type Participant = Static<typeof ParticipantSchema>;
 export type Participants = Static<typeof ParticipantsSchema>;

@@ -21,8 +21,8 @@
     "paths": {
       "@/*": ["./src/*"],
       "@/lib/*": ["./src/lib/*"],
-      "@/data": ["./data/index.ts"],
-      "@/data/*": ["./data/*"],
+      "@/data": ["./public/data/index.ts"],
+      "@/data/*": ["./public/data/*"],
       "@/hooks/*": ["./src/hooks/*"]
     }
   },

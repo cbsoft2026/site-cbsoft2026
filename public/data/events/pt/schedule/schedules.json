@@ -36,51 +36,12 @@
         "rooms": ["Manuel Bandeira I", "Manuel Bandeira II", "Manuel Bandeira III", "Manuel Bandeira IV", "Mauro Mota I", "Mauro Mota II"]
     },
     {
-        "title": "Reunião Comitê Diretivo VEM",
-        "schedule": {
-            "start": "2025-09-22T17:30:00-03:00",
-            "end": "2025-09-22T19:00:00-03:00"
-        },
-        "rooms": ["Manuel Bandeira III"]
-    },
-    { 
-        "title": "CBSoft Ensino Médio", 
+        "title": "CBSoft Ensino Médio",
         "schedule": {
             "start": "2025-09-22T09:00:00-03:00",
             "end": "2025-09-22T10:30:00-03:00"
         },
+        "type": "info",
         "rooms": ["Manuel Bandeira I"]
-    },
-    { 
-        "title": "CBSoft Ensino Médio", 
-        "schedule": {
-            "start": "2025-09-22T11:00:00-03:00",
-            "end": "2025-09-22T12:30:00-03:00"
-        },
-        "rooms": ["Manuel Bandeira I"]
-    },
-    { 
-        "title": "AIWare LATAM",
-        "schedule": {
-            "start": "2025-09-22T11:00:00-03:00",
-            "end": "2025-09-22T12:30:00-03:00"
-        },
-        "rooms": ["Manuel Bandeira IV"]
-    },
-    { 
-        "title": "WBOTS ST2",
-        "schedule": {
-            "start": "2025-09-22T11:00:00-03:00",
-            "end": "2025-09-22T12:30:00-03:00"
-        },
-        "rooms": ["Mauro Mota I"]
-    },
-    { 
-        "title": "AIWare LATAM",
-        "schedule": {
-            "start": "2025-09-22T14:00:00-03:00",
-            "end": "2025-09-22T15:30:00-03:00"
-        },
-        "rooms": ["Manuel Bandeira IV"]
     }
 ]

@@ -32,11 +32,10 @@ export function labelSlice(datetime: Date) {
   return `slice-${datetime.getDay()}-${datetime.getMonth()}-${datetime.getHours()}-${datetime.getMinutes()}`;
 }
 
-export default function EventCard(props: { event: Event; rooms: Rooms; view: string }) {
+export default function EventCard(props: { event: Event; rooms: Rooms; view: string; onClick?: () => void }) {
   const t = useTranslations('components/eventCard');
 
   if (!props.event.schedule?.start || !props.event.schedule?.start) return <></>;
-
   const start = new Date(props.event.schedule.start);
   const end = new Date(props.event.schedule.end);
 
@@ -51,24 +50,21 @@ export default function EventCard(props: { event: Event; rooms: Rooms; view: str
 
   return (
     <div
+      onClick={props.onClick}
       className={`${styles['schedule-default']} ${props.event?.type ? styles['schedule--' + props.event.type] : ''} ${styles['schedule-type--' + props.view]}`}
       style={{
         gridArea: `${labelSlice(start)} / ${avaiblesRooms[0] + 2} / ${labelSlice(end)} / ${avaiblesRooms[avaiblesRooms.length - 1] + 3}`,
       }}
     >
       <div className={styles['schedule-default__wrapper']}>
-        {props.view === 'list' || diffTime.day > 0 || diffTime.hour > 0 ? (
-          <div className={styles['schedule__info']}>
-            <h6>{timeFormat(start)}</h6>
-            <p>{diffTime.formated}</p>
-          </div>
-        ) : (
-          <></>
-        )}
+        <div className={styles['schedule__info']}>
+          <h6>{timeFormat(start)}</h6>
+          <p>{diffTime.formated}</p>
+        </div>
         <div className={styles['schedule__content']}>
           <div>
             <h6>{props.event.title}</h6>
-            <p>{props.event.description}</p>
+            {props.event.description && <p title={props.event.description}>{props.event.description}</p>}
             {props.view === 'list' && props.rooms.length >= props.event.rooms.length ? (
               <>
                 <p>{props.event.rooms.join(', ')}</p>
@@ -78,10 +74,13 @@ export default function EventCard(props: { event: Event; rooms: Rooms; view: str
             )}
           </div>
 
-          <div className={styles['content__images']}>
-            {props.event.participants &&
-              props.event.participants.map(
+          {props.event.participants && (
+            <div className={styles['content__images']}>
+              {props.event.participants.map(
                 (participant) =>
+                  typeof participant === 'object' &&
+                  participant !== null &&
+                  !Array.isArray(participant) &&
                   participant.image &&
                   participant.name && (
                     <div key={participant.id} className={styles['content__image']}>
@@ -99,7 +98,8 @@ export default function EventCard(props: { event: Event; rooms: Rooms; view: str
                     </div>
                   ),
               )}
-          </div>
+            </div>
+          )}
         </div>
       </div>
     </div>

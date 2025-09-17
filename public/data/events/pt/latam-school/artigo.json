@@ -1,0 +1,99 @@
+[
+    { 
+        "title": "Investigating the Impact of GitHub Discussions on Maintainers' Workload and Community Dynamics", 
+        "schedule": {
+            "start": "2025-09-22T14:00:00-03:00",
+            "end": "2025-09-22T14:20:00-03:00"
+        },
+        "track": "pesquisa",
+        "category": "full",
+        "rooms": ["Manuel Bandeira II"],
+        "chair": "lina-garces",
+        "authors": [
+            "Ana Maciel (UEM)", 
+            "Mairieli Wessel (Radboud University, The Netherlands)",
+            "Igor Scaliante Wiese (UTFPR)", 
+            "Igor Steinmacher (Northern Arizona University, USA)"
+        ]
+    },
+    { 
+        "title": "PRemo: A Dataset of Emotions Found on Pull Request Discussions", 
+        "schedule": {
+            "start": "2025-09-22T14:20:00-03:00",
+            "end": "2025-09-22T14:40:00-03:00"
+        },
+        "track": "pesquisa",
+        "category": "full",
+        "rooms": ["Manuel Bandeira II"],
+        "chair": "lina-garces",
+        "authors": [
+            "Daniel Coutinho (PUC-Rio)", 
+            "Juliana Alves Pereira (PUC-Rio)",
+            "Breno Neves (PUC-Rio)", 
+            "João Lucas Marques Correia (PUC-Rio)",
+            "Caio Barbosa Vieira da Silva (PUC-Rio)",
+            "Wesley K. G. Assunção (North Carolina State University, USA)",
+            "Igor Steinmacher (Northern Arizona University, USA)",
+            "Marco Aurelio Gerosa (Northern Arizona University, USA)",
+            "Augusto Baffa (PUC-Rio)",
+            "Alessandro Garcia (PUC-Rio)"
+        ]
+    },
+    { 
+        "title": "PeacemakerBot: A LLM-Powered Bot for Identifying and Reducing Signs of Incivility in GitHub Conversations", 
+        "schedule": {
+            "start": "2025-09-22T14:40:00-03:00",
+            "end": "2025-09-22T14:50:00-03:00"
+        },
+        "track": "tools",
+        "category": "full",
+        "rooms": ["Manuel Bandeira II"],
+        "chair": "lina-garces",
+        "authors": [
+            "Antonio Gomes", 
+            "Emanuel Avila (UFC)",
+            "Eric Mesquita", 
+            "Carlos Jefté",
+            "Arthur Mesquita",
+            "Lucas Sousa (UFC)",
+            "Matheus Rabelo (Universidade Federal do Ceará UFC)",
+            "Mairieli Wessel (Radboud University)",
+            "Anderson Uchôa (UFC)"
+        ]
+    },
+    { 
+        "title": "Science Communication of Brazilian Software Engineering Research on LinkedIn", 
+        "schedule": {
+            "start": "2025-09-22T14:50:00-03:00",
+            "end": "2025-09-22T15:10:00-03:00"
+        },
+        "track": "pesquisa",
+        "category": "full",
+        "rooms": ["Manuel Bandeira II"],
+        "chair": "lina-garces",
+        "authors": [
+            "Luiza Carolina Miranda Garcia (UFSC)", 
+            "Fabrício Herpich (UFSC)",
+            "Cleidson de Souza (UFPA)",
+            "Andréa Sabedra Bordin (UFSC)"
+        ]
+    },
+    { 
+        "title": "Exploring Developer Experience Factors in Software Ecosystems", 
+        "schedule": {
+            "start": "2025-09-22T15:10:00-03:00",
+            "end": "2025-09-22T15:30:00-03:00"
+        },
+        "track": "pesquisa",
+        "category": "journal-first",
+        "rooms": ["Manuel Bandeira II"],
+        "chair": "lina-garces",
+        "authors": [
+            "Rodrigo Oliveira Zacarias (UFF/UNIRIO)",
+            "Léo Carvalho Ramos Antunes (UNIRIO)",
+            "Márcio de Oliveira Barros (UNIRIO)",
+            "Rodrigo Pereira dos Santos (UNIRIO)",
+            "Patricia Lago (Vrije Universiteit Amsterdam)"
+        ]
+    }
+]

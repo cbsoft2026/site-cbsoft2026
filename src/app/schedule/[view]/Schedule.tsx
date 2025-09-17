@@ -3,57 +3,61 @@
 import { Rooms } from '@/types/rooms';
 import styles from './styles.module.scss';
 import EventCard, { labelSlice, timeFormat } from '@/components/EventCard';
-import { useParams } from 'next/navigation';
+import { useParams, useRouter } from 'next/navigation';
 import { Events } from '@/types/event';
 import useWindowDimensions from '@/hooks/useWindowDimentions';
+import generateTimes from '@/utils/generateTimes';
 
-type Props = { rooms: Rooms; events: Events; startsIn: string; finishIn: string };
+type Props = { rooms: Rooms; events: Events; startsIn: string; finishIn: string; typeView: string };
 
 export default function Schedule(props: Props) {
-  const { rooms, events, startsIn, finishIn } = props;
+  const router = useRouter();
+  const { rooms, events, startsIn, finishIn, typeView } = props;
   const { view } = useParams();
 
   const { width } = useWindowDimensions();
 
-  const spaceTime = 30; //minutes
   const startInProcess = new Date(startsIn);
   const finishInProcess = new Date(finishIn);
-  const times = [];
-  while (finishInProcess > startInProcess) {
-    times.push(new Date(startInProcess));
-    startInProcess.setMinutes(startInProcess.getMinutes() + spaceTime);
-  }
-  times.push(new Date(startInProcess));
+
+  const timeslice = generateTimes(startInProcess, finishInProcess, 60);
+  const timebreak = generateTimes(startInProcess, finishInProcess, 10);
 
   if (view === 'calender' && width && width > 768) {
     return (
       <div
         style={{
           gridTemplateColumns: `78px repeat(${rooms.length}, 1fr) auto`,
-          gridTemplateRows: `[header] 52px ${times.map((time) => `[${labelSlice(time)}] minmax(60px, auto)`).join(' ')}`,
+          gridTemplateRows: `[header] 52px ${timebreak.map((time) => `[${labelSlice(time)}] minmax(15px, auto)`).join(' ')}`,
         }}
         className={styles['grid-schedule']}
       >
-        {times.map((time) => (
-          <div
-            className={styles.timeslice}
-            key={`timeslice-${time.toString()}`}
-            data-slice={time.toString()}
-            style={{ gridArea: `${labelSlice(time)} / 1 / auto` }}
-          >
-            {timeFormat(time)}
-          </div>
-        ))}
-        {times.map((time) =>
-          Array.from(Array(rooms.length + 3).keys()).map((index) => (
+        {timeslice.map((time, index) => {
+          const startRow = labelSlice(time);
+          const endRow = labelSlice(timeslice[index + 1] ?? time);
+          return (
+            <div
+              className={styles.timeslice}
+              key={`timeslice-${time.toString()}`}
+              data-slice={time.toString()}
+              style={{ gridArea: `${startRow} / 1 / ${endRow} / 2` }}
+            >
+              {timeFormat(time)}
+            </div>
+          );
+        })}
+        {timeslice.map((time, index) => {
+          const startRow = labelSlice(time);
+          const endRow = labelSlice(timeslice[index + 1] ?? time);
+          return (
             <div
               className={styles.timebreak}
-              key={`timebreak-${index}-${time.toString()}`}
+              key={`timebreak-${time.toString()}`}
               data-slice={time.toString()}
-              style={{ gridArea: `${labelSlice(time)} / 1 / ${labelSlice(time)} / ${index}` }}
+              style={{ gridArea: `${startRow} / 1 / ${endRow} / ${rooms.length + 3}` }}
             />
-          )),
-        )}
+          );
+        })}
         <div className={styles.rooms} style={{ gridArea: '1 / 1' }}></div>
         {rooms.map((room, roomIndex) => (
           <div key={`room-${roomIndex}`} className={styles.rooms} style={{ gridArea: `1 / ${roomIndex + 2}` }}>
@@ -67,8 +71,17 @@ export default function Schedule(props: Props) {
             if (start < new Date(startsIn) || finish > new Date(finishIn)) {
               return;
             }
+            if (event.parentIds && event.parentIds.length === 1) return;
 
-            return <EventCard key={`event-${eventIndex}`} event={event} rooms={rooms} view={view} />;
+            return (
+              <EventCard
+                key={`event-${eventIndex}`}
+                onClick={() => router.push(`/event?id=${event.id}`)}
+                event={event}
+                rooms={rooms}
+                view={view}
+              />
+            );
           }
         })}
       </div>
@@ -82,11 +95,21 @@ export default function Schedule(props: Props) {
             if (event.schedule?.start && event.schedule?.start) {
               const start = new Date(event.schedule.start);
               const finish = new Date(event.schedule.end);
-              if (start < new Date(startsIn) || finish > new Date(finishIn)) {
+
+              if (typeView === 'day' && (start < new Date(startsIn) || finish > new Date(finishIn))) {
                 return;
               }
+              if (event.parentIds && event.parentIds.length === 1) return;
 
-              return <EventCard key={`event-${eventIndex}`} event={event} rooms={rooms} view={'list'} />;
+              return (
+                <EventCard
+                  key={`event-${eventIndex}`}
+                  onClick={() => router.push(`/event/?id=${event.id}`)}
+                  event={event}
+                  rooms={rooms}
+                  view={'list'}
+                />
+              );
             }
           })}
       </div>
