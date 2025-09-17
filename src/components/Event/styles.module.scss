@@ -30,9 +30,20 @@
   }
 }
 
+@media (max-width: 768px) {
+  .main-content {
+    flex-direction: column;
+    aside {
+      min-width: auto;
+      padding: 0;
+    }
+  }
+}
+
 .content__images {
   display: flex;
   align-items: center;
+  flex-wrap: wrap;
   gap: 32px;
   p {
     text-align: center;

@@ -37,6 +37,11 @@
   @media (max-width: 768px) {
     main {
       min-width: 0;
+
+      header {
+        gap: 12px;
+        flex-direction: column;
+      }
     }
     aside {
       position: absolute;

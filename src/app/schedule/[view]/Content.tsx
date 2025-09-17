@@ -168,7 +168,7 @@ export default function SchedulePage({ commonEvents, events, symposiums }: Props
           </div>
 
           <div>
-            {view === 'list' && (
+            {(view === 'list' || (width && width < 768)) && (
               <select className={styles.select} onChange={(value) => setTypeView(value.target.value)}>
                 <option value='day'>Dia</option>
                 <option value='complete'>Completo</option>
