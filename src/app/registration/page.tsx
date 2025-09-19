@@ -10,7 +10,7 @@ import Image from 'next/image';
 export default function RegistrationPage() {
   const t = useTObject('pages/registration', { year: appConfig.year });
   return (
-    <section className='container'>
+    <section className='container' style={{ paddingTop: '50px' }}>
       <div className='row'>
         <div className='col-lg-12 align-self-center'>
           <Title titulo={t('titulo')} align='center' />

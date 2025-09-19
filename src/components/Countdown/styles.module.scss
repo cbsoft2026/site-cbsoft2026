@@ -5,7 +5,8 @@
   font-weight: normal;
   background-color: $primary;
   color: $text-secondary-alt;
-  padding: 20px 15px 25px;
+  padding: 25px 25px 40px 25px;
+  border-radius: 32px;
 
   & > div {
     display: inline-flex;

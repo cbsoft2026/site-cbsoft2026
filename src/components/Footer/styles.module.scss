@@ -1,56 +1,37 @@
 @use 'variables' as *;
 
 .footer {
-  color: $text-secondary;
+  margin-top: 50px;
+  border-top: 1px solid $border-color;
 
-  .top {
+  .footer__wrapper {
     display: flex;
-    flex-direction: row;
-    justify-content: center;
     align-items: center;
-    column-gap: 2em;
-    padding: 1.5em 0;
-
-    .separator {
-      height: 65;
-      border-right: 1px solid $border-color;
-    }
-
-    .list-inline {
-      margin-bottom: 0;
-    }
-
-    p,
-    a {
-      font-size: 0.95rem !important;
-    }
-    & a {
-      font-weight: bold;
-    }
-    ul > li:not(:last-child) {
-      padding-right: 10;
-    }
-
-    @media (max-width: 768px) {
-      flexdirection: column;
-      .separator {
-        display: none;
-      }
-      .list-inline {
-        padding: 0.5em 0;
-      }
-    }
+    justify-content: space-between;
+    padding: 23px;
   }
 
-  .bottom {
-    text-align: center;
+  p {
+    margin-bottom: 0;
+  }
 
-    @media (max-width: 768px) {
-      padding: 5px 10px;
-      &,
-      a {
-        font-size: 0.85em !important;
-      }
+  .social {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 24px;
+    flex-wrap: wrap;
+    a {
+      color: $text-primary-alt;
     }
+  }
+}
+
+@media (max-width: 992px) {
+  .footer__wrapper {
+    flex-direction: column;
+    justify-content: center;
+    gap: 12px;
+    text-align: center;
   }
 }

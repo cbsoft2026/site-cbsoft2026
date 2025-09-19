@@ -24,7 +24,7 @@ export default function PreviousEditionsPage() {
   const t = useTranslations('pages/cbsoft/previousEditions');
 
   return (
-    <section className={`speakers overlay-lighter about`}>
+    <section className={`speakers overlay-lighter about`} style={{ paddingTop: '50px' }}>
       <div className='container'>
         <div className='row'>
           <div className='col-12'>

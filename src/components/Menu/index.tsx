@@ -298,7 +298,6 @@ export default function Menu(props: HTMLAttributes<HTMLDivElement>) {
         </ul>
         {
           <Link href={{ pathname: '/registration' }} className={styles.ticket} onClick={collapse}>
-            <FontAwesomeIcon icon={faTicket} size='lg' />
             <span> {t('inscricoes')}</span>
           </Link>
         }

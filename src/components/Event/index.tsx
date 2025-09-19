@@ -4,6 +4,8 @@ import { Event } from '@/types/event';
 import Image from 'next/image';
 
 import styles from './styles.module.scss';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faCalendar } from '@fortawesome/free-regular-svg-icons';
 
 type Props = {
   events: Record<string, Event>;
@@ -42,6 +44,25 @@ export default function EventComponent({ events, event }: Props) {
           </div>
         </header>
 
+        {event.schedule && (
+          <p className={`${styles['schedule-time']} h4`}>
+            <FontAwesomeIcon icon={faCalendar} />
+            <span className='text-secondary'>
+              {new Date(event.schedule.start).toLocaleDateString('pt', {
+                month: 'short',
+                day: '2-digit',
+                hour: '2-digit',
+                minute: '2-digit',
+              })}{' '}
+              -{' '}
+              {new Date(event.schedule.end).toLocaleTimeString('pt', {
+                hour: '2-digit',
+                minute: '2-digit',
+              })}
+            </span>
+          </p>
+        )}
+
         {event.description ? <p>{event.description}</p> : ''}
         <table className={styles.table}>
           <tbody>
@@ -50,7 +71,7 @@ export default function EventComponent({ events, event }: Props) {
                 const parentEvent = events[parentId] as Event;
                 return (
                   <tr key={index}>
-                    <th style={{ display: 'flex', minWidth: 180 }}>
+                    <th style={{ display: 'flex', minWidth: 150 }}>
                       {parentEvent.schedule ? (
                         <p>
                           {new Date(parentEvent.schedule.start).toLocaleDateString('pt', {
@@ -98,6 +119,7 @@ export default function EventComponent({ events, event }: Props) {
                   <div key={index}>
                     <div key={participant.id} className={styles['content__image']}>
                       <Image
+                        loading='lazy'
                         src={
                           participant.image.startsWith('http')
                             ? participant.image

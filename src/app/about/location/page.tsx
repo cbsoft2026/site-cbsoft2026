@@ -10,7 +10,7 @@ export default function LocationPage() {
   const indexT = useTranslations('pages/cbsoft/index');
 
   return (
-    <section>
+    <section style={{ paddingTop: '50px' }}>
       <Title titulo={t('titulo')} align='center' />
       <div className='text-center mb-4'>
         <a href='https://www.marhotel.com.br' target='_blank' rel='noopener noreferrer'>

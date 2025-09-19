@@ -21,7 +21,7 @@ export default function EventsPage() {
   const event: Event = events[searchParams.get('id') || ''];
 
   return (
-    <div>
+    <div style={{ paddingTop: '50px' }}>
       <EventComponent events={events} event={event} />
     </div>
   );

@@ -43,7 +43,7 @@ export default function AccommodationPage() {
   const t = useTranslations('pages/cbsoft/accommodation');
 
   return (
-    <section className={styles['local-acomodacoes']}>
+    <section className={styles['local-acomodacoes']} style={{ paddingTop: '50px' }}>
       <Title titulo={t('titulo')} align='center' />
       <div className='container'>
         <div className='row justify-content-center'>

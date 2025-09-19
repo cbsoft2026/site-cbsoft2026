@@ -18,7 +18,7 @@ export const LayoutProvider = ({ children }: Props) => {
       ) : (
         <>
           <Menu />
-          <main style={{ paddingTop: '163.8px', paddingBottom: '64px' }}>{children}</main>
+          <main style={{ paddingTop: '75px' }}>{children}</main>
           <Footer />
         </>
       )}

@@ -15,7 +15,7 @@ export default function OrganizationPage() {
   });
 
   return (
-    <section>
+    <section style={{ paddingTop: '50px' }}>
       <Title titulo={t('titulo')} align='center' />
       {Object.entries(groups).reduce((components, [group, data]) => {
         const [groupName] = group.split('-');

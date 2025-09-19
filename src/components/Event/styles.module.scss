@@ -5,6 +5,12 @@
   margin-bottom: 36px;
 }
 
+.schedule-time {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
 .chips__grouped {
   display: flex;
   align-items: center;
@@ -30,12 +36,30 @@
   }
 }
 
-@media (max-width: 768px) {
+@media (max-width: 1200px) {
+  .main-content {
+    aside {
+      min-width: 320px;
+    }
+  }
+}
+
+@media (max-width: 994px) {
   .main-content {
     flex-direction: column;
     aside {
       min-width: auto;
       padding: 0;
+    }
+  }
+}
+
+@media (max-width: 576px) {
+  .main-content {
+    tr {
+      display: flex;
+      flex-direction: column;
+      margin-bottom: 36px;
     }
   }
 }

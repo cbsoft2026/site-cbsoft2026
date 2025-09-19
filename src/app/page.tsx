@@ -2,7 +2,7 @@
 
 import useWindowDimensions from '@/hooks/useWindowDimentions';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faCalendarCheck, faLocationDot } from '@fortawesome/free-solid-svg-icons';
+import { faArrowDown, faCalendarCheck, faLocationDot } from '@fortawesome/free-solid-svg-icons';
 import Title from '@/components/Title';
 
 import { sponsors } from '@/data';
@@ -13,6 +13,9 @@ import Countdown from '@/components/Countdown';
 import { useTranslations } from 'next-intl';
 import { useTObject } from '@/hooks/useTObject';
 import appConfig from './app.config';
+import { useEffect, useMemo, useState } from 'react';
+import { Participants } from '@/types/participants';
+import Image from 'next/image';
 
 type SponsorSection = {
   title: string;
@@ -69,43 +72,107 @@ export default function HomePage() {
     siglasSast: commonT('siglas.sast'),
   });
   const { width } = useWindowDimensions();
+  const [speakers, setSpeaker] = useState<Participants>([]);
+
+  const speakersElement = useMemo(() => {
+    return speakers.map(
+      (speaker, index) =>
+        typeof speaker === 'object' &&
+        speaker !== null &&
+        !Array.isArray(speaker) &&
+        speaker.image &&
+        speaker.name && (
+          <div key={index}>
+            <div key={speaker.id}>
+              <Image
+                className={styles[`image--${Math.floor(Math.random() * 2)}`]}
+                loading='lazy'
+                src={
+                  speaker.image.startsWith('http')
+                    ? speaker.image
+                    : `/images/speakers/${speaker.image || 'default.jpg'}`
+                }
+                width={240}
+                height={240}
+                alt={speaker.name}
+                title={speaker.name}
+              />
+            </div>
+            <h4>{speaker.name}</h4>
+            <p className={styles.institution}>{speaker.institution}</p>
+          </div>
+        ),
+    );
+  }, [speakers]);
+
+  useEffect(() => {
+    fetch('/data/shared/speakers.json')
+      .then((res) => res.json())
+      .then((json) => setSpeaker(json));
+  }, [setSpeaker]);
 
   return (
     <article>
-      <section className={styles.about}>
-        <div className={`container ${styles.container}`}>
-          <picture>
-            <img className='img-fluid' src='/images/logos/cbsoft-logo-icon.svg' alt='' />
-          </picture>
-
-          <div className='row'>
-            <div className='col-lg-8 col-md-6 align-self-center'>
-              <Title titulo={t('sobre')} align={width == null || width > 768 ? 'left' : 'center'} />
-              {t('descricao')}
+      <section className={styles.hero}>
+        <div className={styles['hero__background']}>
+          <div className={styles['bottom-left']}>
+            <img src='/images/group--1.svg' alt='' />
+          </div>
+          <div className={styles['top-right']}>
+            <img src='/images/group--2.svg' alt='' />
+          </div>
+          <div className={`${styles['bottom-right']} ${styles['arrow-down']}`}>
+            <div>
+              <img src='/images/group--3.svg' alt='' />
+              <FontAwesomeIcon icon={faArrowDown} size='4x' />
             </div>
+          </div>
+        </div>
 
-            <div className={`d-md-block col-lg-4 col-md-6 align-top ${styles.meta}`}>
-              <div className={styles.info}>
-                <div className={styles.date}>
-                  <FontAwesomeIcon icon={faCalendarCheck} />
-                  <div className={styles.descricao}>
-                    <div className={styles.title}>{t('data.descricao')}:</div>
-                    <div className={styles.content}>{t('data.periodo')}</div>
-                  </div>
-                </div>
-                <div className={styles.contagem}>
-                  <Countdown date={'2025-09-22T08:00:00.000-04:00'} className={styles.countdown} />
-                </div>
-                <div className={styles.local}>
-                  <FontAwesomeIcon icon={faLocationDot} />
-                  <div className={styles.descricao}>
-                    <div className={styles.title}>{t('local.descricao')}</div>
-                    <div className={styles.content}>{t('local.local')}</div>
-                    <div className={styles.subcontent}>{t('local.detalhes')}</div>
-                  </div>
-                </div>
+        <div className={`${styles['hero__wrapper']}`}>
+          <h1>CBSOFT&apos;26</h1>
+          <p>
+            Evento realizado anualmente pela Sociedade Brasileira de Computação (SBC) desde 2010 como agregador de
+            simpósios brasileiros área de software, o CBSoft tornou-se um dos principais eventos da comunidade
+            científica brasileira na área de Computação.
+          </p>
+
+          <div className={styles.local}>
+            <FontAwesomeIcon icon={faLocationDot} />
+            <div className={styles.descricao}>
+              <p>{t('local.local')}</p>
+              <p>{t('local.detalhes')}</p>
+            </div>
+          </div>
+
+          <div className={styles.date}>
+            <FontAwesomeIcon icon={faCalendarCheck} />
+            <div className={styles.descricao}>
+              <p>{t('data.periodo')}</p>
+            </div>
+          </div>
+
+          <div className={styles.contagem}>
+            <Countdown date={'2025-09-22T08:00:00.000-04:00'} className={styles.countdown} />
+          </div>
+        </div>
+      </section>
+
+      <section>
+        <div className={styles.content}>
+          <h1 className={`text-center ${styles['content-title']}`}>Simpósios</h1>
+        </div>
+      </section>
+
+      <section>
+        <div className={styles.content}>
+          <h1 className={`text-center ${styles['content-title']}`}>Participantes</h1>
+          <div className={styles['content__wrapper']}>
+            {speakers && (
+              <div className={styles['content__images']} style={{ animationDuration: `${speakers.length * 5}s` }}>
+                {speakersElement}
               </div>
-            </div>
+            )}
           </div>
         </div>
       </section>
