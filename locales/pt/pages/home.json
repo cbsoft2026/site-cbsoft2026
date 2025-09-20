@@ -1,0 +1,12 @@
+{
+    "titulo": "CBSOFT'{ year_two_places }",
+    "descricao": "Evento realizado anualmente pela Sociedade Brasileira de Computação (SBC) desde 2010 como agregador de simpósios brasileiros área de software, o CBSoft tornou-se um dos principais eventos da comunidade científica brasileira na área de Computação.",
+    "simposios": "Simpósios",
+    "participantes": "Palestrantes e Convidados de 2025",
+    "sponsors": {
+        "realizacao": "Realização",
+        "organizadores": "Organização",
+        "apoio": "Apoio",
+        "patrocinio": "Patrocínio"
+    }
+}

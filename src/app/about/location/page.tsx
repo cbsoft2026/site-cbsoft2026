@@ -1,13 +1,19 @@
+"use client"
+
 import Image from 'next/image';
 
 import { useTranslations } from 'next-intl';
 import Title from '@/components/Title';
 
 import styles from './styles.module.scss';
+import { formatDate } from '@/utils/dates';
+import { common } from '@/data';
+import { useLocaleContext } from '@/providers/LocaleProvider';
 
 export default function LocationPage() {
   const t = useTranslations('pages/cbsoft/location');
-  const indexT = useTranslations('pages/cbsoft/index');
+  const commonT = useTranslations('common');
+  const { locale } = useLocaleContext();
 
   return (
     <section style={{ paddingTop: '50px' }}>
@@ -25,8 +31,8 @@ export default function LocationPage() {
       </div>
       <div className={styles.local}>
         <div className={styles.descricao}>
-          <div className='content'>{indexT('local.local')}</div>
-          <div className={styles.subcontent}>{indexT('local.detalhes')}</div>
+          <div className='content'>{formatDate(common.dates.start, locale)}</div>
+          <div className={styles.subcontent}>{commonT('localDetalhes')}</div>
         </div>
       </div>
       <section className={styles.map}>

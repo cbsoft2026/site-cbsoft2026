@@ -46,20 +46,5 @@
       ]
     },
     "The CBSoft programme will include technical sessions with presentation of scientific papers, keynotes by nationally and internationally renowned Brazilian and foreign researchers, discussion panels, workshops, and tool demonstrations. All these activites of interest of the Software Engineering community and fields related to the development of software systems go towards the diffusion of knowledge and discussion of important issues related to research, development, and innovation in both Brazil and the world."
-  ],
-  "data": {
-    "descricao": "Conference Date",
-    "periodo": "{ dataEvento }"
-  },
-  "local": {
-    "descricao": "Venue",
-    "local": "Mar Hotel",
-    "detalhes": "Recife, Pernambuco"
-  },
-  "sponsors": {
-    "realizacao": "Held by",
-    "organizadores": "Hosted by",
-    "apoio": "Supported by",
-    "patrocinio": "Sponsorship"
-  }
+  ]
 }

@@ -6,13 +6,17 @@ import useWindowDimensions from '@/hooks/useWindowDimentions';
 import appConfig from '../app.config';
 import { useTranslations } from 'next-intl';
 import styles from './styles.module.scss';
+import { common } from '@/data';
+import { formatDateRange } from '@/utils/dates';
+import { useLocaleContext } from '@/providers/LocaleProvider';
 
 export default function CbsoftPage() {
   const commonT = useTranslations('common');
+  const { locale } = useLocaleContext();
   const t = useTObject('pages/cbsoft/index', {
     ano: appConfig.year,
     edicao: commonT('edicao'),
-    dataEvento: commonT('dataEvento'),
+    dataEvento: formatDateRange(common.dates.start, common.dates.end, locale),
     localEvento: commonT('localEvento'),
     edicoesSbes: commonT('edicoes.sbes'),
     siglasSbes: commonT('siglas.sbes'),

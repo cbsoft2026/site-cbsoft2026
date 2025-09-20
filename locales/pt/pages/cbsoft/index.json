@@ -46,20 +46,5 @@
       ]
     },
     "A programação do CBSoft incluirá sessões técnicas com apresentações de artigos científicos, palestras proferidas por pesquisadores brasileiros e estrangeiros de renome nacional e internacional, painéis de discussão, workshops, e demonstrações de ferramentas. Todas essas diversas atividades de interesse da comunidade de Engenharia de Software e de áreas relacionadas ao desenvolvimento de sistemas de software direcionam-se para a difusão do conhecimento e discussão de questões importantes relacionadas à pesquisa, desenvolvimento e inovação, tanto no Brasil quanto no mundo."
-  ],
-  "data": {
-    "descricao": "Data do evento",
-    "periodo": "{ dataEvento }"
-  },
-  "local": {
-    "descricao": "Local do evento",
-    "local": "Mar Hotel",
-    "detalhes": "Recife, Pernambuco"
-  },
-  "sponsors": {
-    "realizacao": "Realização",
-    "organizadores": "Organização",
-    "apoio": "Apoio",
-    "patrocinio": "Patrocínio"
-  }
+  ]
 }
