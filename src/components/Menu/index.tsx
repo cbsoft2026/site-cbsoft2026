@@ -14,7 +14,7 @@ import { useLocaleContext } from '@/providers/LocaleProvider';
 type NavbarItemProps = {
   title: string;
   title2?: string;
-  href: string;
+  href?: string;
   items?: Array<NavbarItemProps>;
   className?: string;
   onClick?: () => any;
@@ -26,9 +26,9 @@ function NavbarItem(props: NavbarItemProps) {
 
   return (
     <li
-      className={`nav-item dropdown-slide ${styles['nav-item']} ${styles['dropdown-slide']} ${pathname.startsWith(href) ? styles.active : ''} ${className || ''}`}
+      className={`nav-item dropdown-slide ${styles['nav-item']} ${styles['dropdown-slide']} ${href && pathname.startsWith(href) ? styles.active : ''} ${className || ''}`}
     >
-      {href.startsWith('https') ? (
+      {href && href.startsWith('https') ? (
         <a className={`nav-link ${styles['nav-link']}`} href={href} target='_blank' rel='noopener noreferrer'>
           {title}
         </a>
@@ -84,13 +84,14 @@ export default function Menu(props: HTMLAttributes<HTMLDivElement>) {
 
   const cbsoftMenuItem: NavbarItemProps = {
     title: t('cbsoft.titulo', { ano: appConfig.year }),
-    href: '/about',
     items: [
-      { title: t('cbsoft.organizacao'), href: '/about/organization' },
-      { title: t('cbsoft.acomodacoes'), href: '/about/accommodation' },
-      { title: t('cbsoft.local'), href: '/about/location' },
-      { title: t('cbsoft.codigo_conduta'), href: '/about/code-of-conduct' },
-      { title: t('cbsoft.edicoes_anteriores'), href: '/about/previous-editions' },
+      { title: t('cbsoft.sobre'), href: '/cbsoft' },
+      // { title: t('cbsoft.organizacao'), href: '/about/organization' },
+      // { title: t('cbsoft.acomodacoes'), href: '/about/accommodation' },
+      { title: t('schedule.titulo'), href: '/schedule/calender' },
+      { title: t('cbsoft.local'), href: '/cbsoft/location' },
+      { title: t('cbsoft.codigo_conduta'), href: '/cbsoft/code-of-conduct' },
+      { title: t('cbsoft.edicoes_anteriores'), href: '/cbsoft/previous-editions' },
     ],
   };
 
@@ -251,13 +252,7 @@ export default function Menu(props: HTMLAttributes<HTMLDivElement>) {
   //   items: [{ title: t('artifacts.call_for_artifacts'), href: '/artefatos' }],
   // };
 
-  const scheduleMenuItem: NavbarItemProps = {
-    title: t('schedule.titulo'),
-    href: '/schedule/calender',
-  };
-
   const menuItemsCollection = [
-    scheduleMenuItem,
     // sbesMenuItem,
     // sblpMenuItem,
     // sbcarsMenuItem,

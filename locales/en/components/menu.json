@@ -1,6 +1,7 @@
 {
   "cbsoft": {
-    "titulo": "About",
+    "titulo": "CBSoft { ano }",
+    "sobre": "About",
     "organizacao": "Organization",
     "datas": "Important Dates",
     "acomodacoes": "Accommodations",
