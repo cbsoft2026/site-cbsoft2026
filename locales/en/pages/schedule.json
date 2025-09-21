@@ -1,5 +1,12 @@
 {
     "titulo": "Schedule",
     "filtros": "Filters",
-    "simposiosetrilha": "Symposium and Track"
+    "simposiosetrilha": "Symposium and Track",
+    "dia": "Day",
+    "completo": "Complete",
+    "labelParticipantes": {
+        "coordenadores": "Chairs",
+        "palestrantes": "Talks",
+        "autores": "Authors"
+    }
 }

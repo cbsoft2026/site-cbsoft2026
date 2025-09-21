@@ -22,8 +22,8 @@ export function loadParticipants(): Participants {
   return JSON.parse(fs.readFileSync(pessoasPath, 'utf-8'));
 }
 
-export function loadCommonEvents(): { salas: Rooms; startsInDate: string } {
-  const pessoasPath = path.join(BASE_PATH, '../events/pt/schedule/common.json');
+export function loadCommonEvents(lang: string = 'pt'): { salas: Rooms; startsInDate: string } {
+  const pessoasPath = path.join(BASE_PATH, `../events/${lang}/schedule/common.json`);
   if (!fs.existsSync(pessoasPath)) return { salas: [], startsInDate: '' };
   return JSON.parse(fs.readFileSync(pessoasPath, 'utf-8'));
 }
@@ -73,7 +73,7 @@ export function formatParticipants(
   return [];
 }
 
-export function loadEvents(): Map<string, Event> {
+export function loadEvents(lang: string = 'pt'): Map<string, Event> {
   const participants: { [key: string]: Participant } = loadParticipants().reduce(
     (previous, value) => ({ ...previous, [value.id]: value }),
     {},
@@ -84,82 +84,100 @@ export function loadEvents(): Map<string, Event> {
   SIMPOSIOS.forEach((slug) => {
     const sessionMap: Events = [];
 
-    loadEvent(slug, 'session', SessionsSchema, (schedule) => {
-      schedule.forEach((p) => {
-        const id = slugify(p.title);
-        const participantsSession = [];
-        if (p.chair) participantsSession.push(participants[p.chair]);
+    loadEvent(
+      slug,
+      'session',
+      SessionsSchema,
+      (schedule) => {
+        schedule.forEach((p) => {
+          const id = slugify(p.title);
+          const participantsSession = [];
+          if (p.chair) participantsSession.push(participants[p.chair]);
 
-        const sessionEvent: Event = {
-          type: (p.type as EventType) || 'session',
-          simposio: slug,
-          id,
-          track: null,
-          schedule: p.schedule,
-          rooms: p.rooms,
-          title: p.title,
-          description: p.description,
-          participants: participantsSession,
-          parentIds: [],
-        };
+          const sessionEvent: Event = {
+            type: (p.type as EventType) || 'session',
+            simposio: slug,
+            id,
+            track: null,
+            schedule: p.schedule,
+            rooms: p.rooms,
+            title: p.title,
+            description: p.description,
+            participants: participantsSession,
+            parentIds: [],
+          };
 
-        // events.push(sessionEvent);
+          // events.push(sessionEvent);
 
-        sessionMap.push(sessionEvent);
-      });
-    });
-
-    loadEvent(slug, 'artigo', PapersSchema, (schedule) => {
-      schedule.forEach((p) => {
-        const id = slugify(p.title);
-        const participantsArticle = formatParticipants(participants, p.authors);
-        if (p.chair) participantsArticle.push(participants[p.chair]);
-
-        const parentSession = sessionMap.find((session) => {
-          if (!p.schedule || !session.schedule) return false;
-          const articleStart = new Date(p.schedule.start).getTime();
-          const articleEnd = new Date(p.schedule.end).getTime();
-          const sessionStart = new Date(session.schedule.start).getTime();
-          const sessionEnd = new Date(session.schedule.end).getTime();
-          const isParentSession = articleStart >= sessionStart && articleEnd <= sessionEnd;
-          if (isParentSession) session.parentIds?.push(id);
-          return isParentSession;
+          sessionMap.push(sessionEvent);
         });
+      },
+      lang,
+    );
 
-        events.push({
-          type: (p.type as EventType) || 'artigo',
-          simposio: slug,
-          id,
-          track: p.track || '',
-          schedule: p.schedule,
-          rooms: p.rooms,
-          title: p.title,
-          description: p.description,
-          participants: participantsArticle,
-          parentIds: parentSession ? [parentSession.id] : [],
+    loadEvent(
+      slug,
+      'artigo',
+      PapersSchema,
+      (schedule) => {
+        schedule.forEach((p) => {
+          const id = slugify(p.title);
+          const participantsArticle = formatParticipants(participants, p.authors);
+          if (p.chair) participantsArticle.push(participants[p.chair]);
+
+          const parentSession = sessionMap.find((session) => {
+            if (!p.schedule || !session.schedule) return false;
+            const articleStart = new Date(p.schedule.start).getTime();
+            const articleEnd = new Date(p.schedule.end).getTime();
+            const sessionStart = new Date(session.schedule.start).getTime();
+            const sessionEnd = new Date(session.schedule.end).getTime();
+            const isParentSession = articleStart >= sessionStart && articleEnd <= sessionEnd;
+            if (isParentSession) session.parentIds?.push(id);
+            return isParentSession;
+          });
+
+          events.push({
+            type: (p.type as EventType) || 'artigo',
+            simposio: slug,
+            id,
+            track: p.track || '',
+            schedule: p.schedule,
+            rooms: p.rooms,
+            title: p.title,
+            description: p.description,
+            participants: participantsArticle,
+            parentIds: parentSession ? [parentSession.id] : [],
+          });
         });
-      });
-    });
+      },
+      lang,
+    );
 
-    loadEvent(slug, 'painel', TalksSchema, (schedule) => {
-      schedule.forEach((p) => {
-        const id = slugify(p.title);
-        const participantsPainel = formatParticipants(participants, p.speakers);
-        if (p.moderator) participantsPainel.push(participants[p.moderator]);
+    loadEvent(
+      slug,
+      'painel',
+      TalksSchema,
+      (schedule) => {
+        schedule.forEach((p) => {
+          const id = slugify(p.title);
+          const participantsPainel = formatParticipants(participants, p.speakers);
+          if (p.moderator) participantsPainel.push(participants[p.moderator]);
 
-        events.push({
-          type: (p.type as EventType) || 'painel',
-          simposio: slug,
-          id,
-          track: null,
-          schedule: p.schedule,
-          rooms: p.rooms,
-          title: p.title,
-          description: p.description,
-          participants: participantsPainel,
+          events.push({
+            type: (p.type as EventType) || 'painel',
+            simposio: slug,
+            id,
+            track: null,
+            schedule: p.schedule,
+            rooms: p.rooms,
+            title: p.title,
+            description: p.description,
+            participants: participantsPainel,
+          });
         });
-      });
-    });
+      },
+      lang,
+    );
 
     loadEvent(slug, 'palestra', TalksSchema, (schedule) => {
       schedule.forEach((p) => {
@@ -181,7 +199,7 @@ export function loadEvents(): Map<string, Event> {
       });
     });
     events.push(...Array.from(sessionMap.values()));
-  });
+  }, lang);
 
   const schedule = path.join(BASE_PATH, '../events/pt/schedule/schedules.json');
   if (fs.existsSync(schedule)) {

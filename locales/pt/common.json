@@ -3,10 +3,10 @@
   "localEvento": "Mar Hotel",
   "localDetalhes": "Recife, Pernambuco",
   "edicoes": {
-    "sbes": "XXXIX",
-    "sblp": "XXIX",
-    "sbcars": "XIX",
-    "sast": "X"
+    "sbes": "XXXX",
+    "sblp": "XXX",
+    "sbcars": "XX",
+    "sast": "XI"
   },
   "sbcars": "SBCARS",
   "sast": "SAST",
@@ -39,5 +39,14 @@
       "ctic": "Concurso de Trabalhos de Iniciação Científica",
       "ctd": "Concursos de Teses e Dissertações em Engenharia de Software"
     }
+  },
+  "eventos": {
+    "artigo": "Artigo",
+    "palestra": "Palestra",
+    "chamada": "Chamada",
+    "painel": "Painel",
+    "tutorial": "Tutorial",
+    "session": "Sessão",
+    "info": "Informações"
   }
 }

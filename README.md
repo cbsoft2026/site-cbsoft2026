@@ -1,36 +1,82 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+![CBSOFT Logo](./public/images/logos/cbsoft-logo.svg)
 
-## Getting Started
+## Iniciando o projeto
 
-First, run the development server:
+Caso queira usar o Docker Compose como alternativa à instalação manual, veja a seção [Docker Compose](#docker-compose).
+
+Antes de começar, é necessário ter o [Node.js](https://nodejs.org/pt/download) instalado e criar um arquivo `.env` para configurar parâmetros do `sitemap.xml`.
+
+1. **Instalar dependências**
+
+```bash
+npm install
+```
+
+2. **Rodar em modo desenvolvimento**
+
+Caso queira rodar em modo desenvolvimento, basta
 
 ```bash
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+A aplicação ficará disponível em: [http://localhost:3000](http://localhost:3000).
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+3. **Gerar o build do projeto**
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+```bash
+npm run build
+```
 
-## Learn More
+gerando todos os arquivos necessários na pasta `out/`.
 
-To learn more about Next.js, take a look at the following resources:
+## Docker Compose
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+Para gerar os arquivos na pasta `out/`
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+```bash
+docker-compose -f docker-compose.yml up --build 
+```
 
-## Deploy on Vercel
+Para usar o modo watch do docker para desenvolvimento
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+```bash
+docker-compose up --build 
+```
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+> [!NOTE]
+> O modo desenvolvimento do nextjs consome bastante memória ram.
+
+## Alterações de informações
+
+| Tipo | Localização | Observação |
+|------|------------|------------|
+| Dados anuais | `public/data/` | Atualizados anualmente[^1] |
+| Traduções | `locale/` (`pt` e `en`) | Textos traduzidos |
+
+* **Dados anuais:** Arquivos que precisam ser atualizados todo ano devem ser colocados na pasta `public/data/`.
+
+* **Traduções:** Textos para os idiomas `pt` e `en` devem estar na pasta `locale/`.
+
+Para observar as alterações na página é necessário compilar os *jsons*
+
+```bash
+npm run generate-messages
+npm run generate-events
+```
+ou simplesmente realizar o build.
+
+## Deploy
+
+No momento está sendo realizado manualmente usando `scp`
+
+```bash
+# opcional
+username@server $ rm -rf /var/www/cbsoft2026/*
+```
+
+```bash
+scp -r ./out/* username@server:/var/www/cbsoft2026
+```
+
+[^1]: Idealmente

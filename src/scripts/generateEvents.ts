@@ -9,7 +9,7 @@ async function generate() {
   fs.mkdirSync(outputDir, { recursive: true });
 
   for (const locale of locales) {
-    const events = loadEvents();
+    const events = loadEvents(locale);
     const filePath = path.join(outputDir, `events_${locale}.json`);
     const json = JSON.stringify(Object.fromEntries(Array.from(events.entries()).map(([k, set]) => [k, set])), null, 2);
     fs.writeFileSync(filePath, json);

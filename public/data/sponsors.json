@@ -1,8 +1,13 @@
 {
   "organizadores": [
     {
-      "href": "https://www.cin.ufpe.br/",
-      "image": "cin.png",
+      "href": "https://www.ime.usp.br/",
+      "image": "ime.png",
+      "tier": "platina"
+    },
+    {
+      "href": "https://ic.unicamp.br/",
+      "image": "ic-unicamp.jpeg",
       "tier": "platina"
     }
   ],
@@ -14,81 +19,11 @@
     }
   ],
   "patrocinio": [
-    {
-      "href": "https://banco.bradesco/",
-      "image": "bradesco.png",
-      "tier": "platina"
-    },
-    {
-      "href": "https://google.com/",
-      "image": "google.png",
-      "tier": "ouro"
-    },
-    {
-      "href": "https://unico.io/",
-      "image": "unico-color.png",
-      "tier": "ouro"
-    },
-    {
-      "href": "https://www.cesar.org.br",
-      "image": "cesar.png",
-      "tier": "ouro"
-    },
-    {
-      "href": "https://www.cesar.school",
-      "image": "cschool.png",
-      "tier": "ouro"
-    },
-    {
-      "href": "https://www.geppetto.com.br/",
-      "image": "gepetto.png",
-      "tier": "prata"
-    },
-    {
-      "href": "https://dashbit.co/",
-      "image": "dashbit.png",
-      "tier": "prata"
-    },
-    {
-      "href": "https://datastreambrasil.com.br/",
-      "image": "datastream-brasil.png",
-      "tier": "prata"
-    },
-    {
-      "href": "https://strateegia.digital/",
-      "image": "strateegia.png",
-      "tier": "prata"
-    }
   ],
   "apoio": [
     {
-      "href": "https://www.sigsoft.org",
-      "image": "sigsoft.png",
-      "tier": "ouro"
-    },
-    {
-      "href": "https://www.gov.br/capes/pt-br",
-      "image": "capes.png",
-      "tier": "ouro"
-    },
-    {
       "href": "https://www.gov.br/cnpq/pt-br",
       "image": "cnpq.png",
-      "tier": "ouro"
-    },
-    {
-      "href": "https://www.facepe.br",
-      "image": "facepe.png",
-      "tier": "ouro"
-    },
-    {
-      "href": "https://www.empetur.pe.gov.br/",
-      "image": "empetur.png",
-      "tier": "ouro"
-    },
-    {
-      "href": "https://www.recifecvb.com.br/",
-      "image": "rcb.png",
       "tier": "ouro"
     }
   ]

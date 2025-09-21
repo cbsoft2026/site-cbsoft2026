@@ -3,12 +3,11 @@
 import { faEnvelope } from '@fortawesome/free-solid-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { useTranslations } from 'next-intl';
-import { HTMLAttributes } from 'react';
 
 import styles from './styles.module.scss';
 import { faFacebook, faInstagram, faTwitter } from '@fortawesome/free-brands-svg-icons';
 
-export default function Footer(props: HTMLAttributes<HTMLDivElement>) {
+export default function Footer() {
   const t = useTranslations('components/footer');
 
   return (

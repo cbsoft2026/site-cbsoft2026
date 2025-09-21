@@ -1,0 +1,12 @@
+services:
+  site:
+    build:
+      context: .
+      dockerfile: docker/Dockerfile
+    env_file:
+      - ./.env
+    environment:
+      NODE_ENV: production
+    command: /bin/sh -c "npm run build && cp -r out/. /tmp/out_host"
+    volumes:
+      - ./out:/tmp/out_host

@@ -107,7 +107,10 @@ export default function Schedule(props: Props) {
               return (
                 <EventCard
                   key={`event-${eventIndex}`}
-                  onClick={() => router.push(`/event/?id=${event.id}`)}
+                  onClick={() => {
+                    if (event.type == 'info') return;
+                    router.push(`/event?id=${event.id}`);
+                  }}
                   event={event}
                   rooms={rooms}
                   view={'list'}

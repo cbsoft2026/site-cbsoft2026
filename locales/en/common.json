@@ -39,5 +39,14 @@
       "ctic": "Undergraduate Research on Software Engineering Competition",
       "ctd": "Doctoral and Master Theses Competition"
     }
+  },
+  "eventos": {
+    "artigo": "Article",
+    "palestra": "Lecture",
+    "chamada": "Call",
+    "painel": "Panel",
+    "tutorial": "Tutorial",
+    "session": "Session",
+    "info": "Information"
   }
 }

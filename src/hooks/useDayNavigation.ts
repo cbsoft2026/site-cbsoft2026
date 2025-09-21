@@ -1,7 +1,8 @@
+import { formatDate } from '@/utils/dates';
 import { useSearchParams } from 'next/navigation';
 import { useMemo } from 'react';
 
-export default function useDayNavigation(startsInDate: Date) {
+export default function useDayNavigation(startsInDate: Date, lang: string) {
   const searchParams = useSearchParams();
 
   const startsIn = useMemo(() => {
@@ -18,7 +19,7 @@ export default function useDayNavigation(startsInDate: Date) {
     return new Date(2025, startsIn.getMonth(), startsIn.getDate(), 19, 0);
   }, [startsIn]);
 
-  const formattedDateLocale = startsIn.toLocaleDateString('pt', {
+  const formattedDateLocale = formatDate(startsIn, lang, {
     month: 'short',
     day: '2-digit',
   });

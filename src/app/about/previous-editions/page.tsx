@@ -1,3 +1,5 @@
+'use client';
+
 import Title from '@/components/Title';
 import { previousEditions } from '@/data';
 import { useTranslations } from 'next-intl';

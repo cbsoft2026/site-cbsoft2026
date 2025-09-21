@@ -21,21 +21,12 @@ import useDayNavigation from '@/hooks/useDayNavigation';
 import { useTranslations } from 'next-intl';
 import useWindowDimensions from '@/hooks/useWindowDimentions';
 import { useParams } from 'next/navigation';
+import { useLocaleContext } from '@/providers/LocaleProvider';
 
 type Props = {
   commonEvents: { salas: Rooms; startsInDate: string };
   events: Map<string, Event>;
   symposiums: string[];
-};
-
-const typeMapper = {
-  artigo: 'Artigo',
-  palestra: 'Palestra',
-  chamada: 'Chamada',
-  painel: 'Painel',
-  tutorial: 'Tutorial',
-  session: 'Sessão',
-  info: 'Informações',
 };
 
 export default function SchedulePage({ commonEvents, events, symposiums }: Props) {
@@ -60,8 +51,11 @@ export default function SchedulePage({ commonEvents, events, symposiums }: Props
     events,
     symposiums,
   );
+  const { locale } = useLocaleContext();
+
   const { startsIn, finishIn, formattedDateLocale, backParams, nextParams } = useDayNavigation(
     new Date(commonEvents.startsInDate),
+    locale,
   );
 
   return (
@@ -102,7 +96,7 @@ export default function SchedulePage({ commonEvents, events, symposiums }: Props
                         checked={eventType.includes(type)}
                         onChange={() => toggleType(type)}
                       />
-                      {typeMapper[type]}
+                      {commonT.has(`eventos.${type}`) ? commonT(`eventos.${type}`) : type}
                     </label>
                   ) : (
                     ''
@@ -170,8 +164,8 @@ export default function SchedulePage({ commonEvents, events, symposiums }: Props
           <div>
             {(view === 'list' || (width && width < 768)) && (
               <select className={styles.select} onChange={(value) => setTypeView(value.target.value)}>
-                <option value='day'>Dia</option>
-                <option value='complete'>Completo</option>
+                <option value='day'>{t('dia')}</option>
+                <option value='complete'>{t('completo')}</option>
               </select>
             )}
             {width && width > 768 && <ChangeView />}

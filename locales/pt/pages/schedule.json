@@ -1,5 +1,12 @@
 {
     "titulo": "Programação",
     "filtros": "Filtros",
-    "simposiosetrilha": "Simpósio e Trilha"
+    "simposiosetrilha": "Simpósio e Trilha",
+    "dia": "Dia",
+    "completo": "Completo",
+    "labelParticipantes": {
+        "coordenadores": "Coordenadores",
+        "palestrantes": "Palestrantes",
+        "autores": "Autores"
+    }
 }

@@ -10,7 +10,7 @@
     "lint": "eslint src --ext .js,.ts,.jsx,.tsx",
     "prettier:check": "prettier src --check",
     "prettier:fix": "prettier src --write",
-    "prepare": "husky install",
+    "prepare": "husky",
     "generate-messages": "npx tsc src/scripts/generateMessages.ts --outDir dist && node dist/scripts/generateMessages.js",
     "generate-events": "tsc -p tsconfig.scripts.json && node dist/src/scripts/generateEvents.js",
     "test": "echo \"No tests yet\""
@@ -42,7 +42,6 @@
     "next-sitemap": "^4.2.3",
     "prettier": "^3.6.2",
     "sass": "^1.92.1",
-    "ts-node": "^10.9.2",
     "typescript": "^5.9.2"
   }
 }

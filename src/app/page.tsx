@@ -3,7 +3,6 @@
 import useWindowDimensions from '@/hooks/useWindowDimentions';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faArrowDown, faCalendarCheck, faLocationDot } from '@fortawesome/free-solid-svg-icons';
-import Title from '@/components/Title';
 
 import { common, sponsors } from '@/data';
 import styles from './styles.module.scss';
@@ -60,13 +59,15 @@ function SponsorSection(props: SponsorSection) {
 export default function HomePage() {
   const commonT = useTranslations('common');
 
-  const year = appConfig.year.toString()
+  const year = appConfig.year.toString();
   const homeT = useTObject('pages/home', {
-    year_two_places: year.slice(-2)
-  })
+    year_two_places: year.slice(-2),
+  });
 
   const [speakers, setSpeaker] = useState<Participants>([]);
   const { locale } = useLocaleContext();
+
+  const { width } = useWindowDimensions();
 
   const speakersElement = useMemo(() => {
     return speakers.map(
@@ -110,27 +111,29 @@ export default function HomePage() {
       <section className={styles.hero}>
         <div className={styles['hero__background']}>
           <div className={styles['bottom-left']}>
-            <img src='/images/group--1.svg' alt='' />
+            <Image width={115} height={115} src='/images/group--1.svg' alt='' />
           </div>
           <div className={styles['top-right']}>
-            <img src='/images/group--2.svg' alt='' />
+            <Image width={232} height={232} src='/images/group--2.svg' alt='' />
           </div>
           <div className={`${styles['bottom-right']} ${styles['arrow-down']}`}>
             <div>
-              <img src='/images/group--3.svg' alt='' />
+              <Image width={197} height={197} src='/images/group--3.svg' alt='' />
               <FontAwesomeIcon icon={faArrowDown} size='4x' />
             </div>
           </div>
         </div>
 
         <div className={`${styles['hero__wrapper']}`}>
-          <h1>{homeT("titulo")}</h1>
-          <p>{homeT("descricao")}</p>
+          <h1>{homeT('titulo')}</h1>
+          <p>{homeT('descricao')}</p>
 
           <div className={styles.local}>
             <FontAwesomeIcon icon={faLocationDot} />
             <div className={styles.descricao}>
-              <p>{commonT('localEvento')} {commonT('localDetalhes')}</p>
+              <p>
+                {commonT('localEvento')} {commonT('localDetalhes')}
+              </p>
             </div>
           </div>
 
@@ -149,16 +152,19 @@ export default function HomePage() {
 
       <section>
         <div className={styles.content}>
-          <h1 className={`text-center ${styles['content-title']}`}>{homeT("simposios")}</h1>
+          <h1 className={`text-center ${styles['content-title']}`}>{homeT('simposios')}</h1>
         </div>
       </section>
 
       <section>
         <div className={styles.content}>
-          <h1 className={`text-center ${styles['content-title']}`}>{homeT("participantes")}</h1>
+          <h1 className={`text-center ${styles['content-title']}`}>{homeT('participantes')}</h1>
           <div className={styles['content__wrapper']}>
             {speakers && (
-              <div className={styles['content__images']} style={{ animationDuration: `${speakers.length * 5}s` }}>
+              <div
+                className={styles['content__images']}
+                style={{ animationDuration: `${width ? (speakers.length * width) / 200 : 100}s` }}
+              >
                 {speakersElement}
               </div>
             )}
@@ -169,8 +175,9 @@ export default function HomePage() {
       <section className={styles.videoCBSoft}>
         <div className='container'>
           <iframe
-            className={styles['responsive-iframe']}
-            src='https://www.youtube.com/embed/FBHjBs1CF-M?si=KjAkC5UpjwHjaHZt'
+            width='560'
+            height='315'
+            src='https://www.youtube.com/embed/B9fVcSapkUQ?si=LEJIDCc2XIKknsU-&amp;controls=0'
             title='YouTube video player'
             frameBorder='0'
             allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share'
@@ -185,7 +192,11 @@ export default function HomePage() {
           {Object.entries(sponsors).map(
             ([sectionTitle, list], index) =>
               list.length > 0 && (
-                <SponsorSection title={homeT(`sponsors.${sectionTitle}`) as unknown as string} list={list} key={index} />
+                <SponsorSection
+                  title={homeT(`sponsors.${sectionTitle}`) as unknown as string}
+                  list={list}
+                  key={index}
+                />
               ),
           )}
         </div>
