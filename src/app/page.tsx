@@ -1,6 +1,5 @@
 'use client';
 
-import useWindowDimensions from '@/hooks/useWindowDimentions';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faArrowDown, faCalendarCheck, faLocationDot } from '@fortawesome/free-solid-svg-icons';
 
@@ -17,6 +16,8 @@ import { Participants } from '@/types/participants';
 import Image from 'next/image';
 import { useLocaleContext } from '@/providers/LocaleProvider';
 import { formatDateRange } from '@/utils/dates';
+import Link from 'next/link';
+import InfiniteScroll from '@/components/InfiniteScroll';
 
 type SponsorSection = {
   title: string;
@@ -67,37 +68,37 @@ export default function HomePage() {
   const [speakers, setSpeaker] = useState<Participants>([]);
   const { locale } = useLocaleContext();
 
-  const { width } = useWindowDimensions();
-
   const speakersElement = useMemo(() => {
-    return speakers.map(
-      (speaker, index) =>
-        typeof speaker === 'object' &&
-        speaker !== null &&
-        !Array.isArray(speaker) &&
-        speaker.image &&
-        speaker.name && (
-          <div key={index}>
-            <div key={speaker.id}>
-              <Image
-                className={styles[`image--${Math.floor(Math.random() * 2)}`]}
-                loading='lazy'
-                src={
-                  speaker.image.startsWith('http')
-                    ? speaker.image
-                    : `/images/speakers/${speaker.image || 'default.jpg'}`
-                }
-                width={240}
-                height={240}
-                alt={speaker.name}
-                title={speaker.name}
-              />
+    return speakers
+      .filter(
+        (speaker) =>
+          typeof speaker === 'object' && speaker !== null && !Array.isArray(speaker) && speaker.image && speaker.name,
+      )
+      .map(
+        (speaker, index) =>
+          speaker.image &&
+          speaker.name && (
+            <div key={index}>
+              <div key={speaker.id}>
+                <Image
+                  className={styles[`image--${Math.floor(Math.random() * 2)}`]}
+                  loading='lazy'
+                  src={
+                    speaker.image.startsWith('http')
+                      ? speaker.image
+                      : `/images/speakers/${speaker.image || 'default.jpg'}`
+                  }
+                  width={240}
+                  height={240}
+                  alt={speaker.name}
+                  title={speaker.name}
+                />
+              </div>
+              <h4>{speaker.name}</h4>
+              <p className={styles.institution}>{speaker.institution}</p>
             </div>
-            <h4>{speaker.name}</h4>
-            <p className={styles.institution}>{speaker.institution}</p>
-          </div>
-        ),
-    );
+          ),
+      );
   }, [speakers]);
 
   useEffect(() => {
@@ -116,12 +117,12 @@ export default function HomePage() {
           <div className={styles['top-right']}>
             <Image width={232} height={232} src='/images/group--2.svg' alt='' />
           </div>
-          <div className={`${styles['bottom-right']} ${styles['arrow-down']}`}>
+          <Link href='#first-section' className={`${styles['bottom-right']} ${styles['arrow-down']}`}>
             <div>
               <Image width={197} height={197} src='/images/group--3.svg' alt='' />
               <FontAwesomeIcon icon={faArrowDown} size='4x' />
             </div>
-          </div>
+          </Link>
         </div>
 
         <div className={`${styles['hero__wrapper']}`}>
@@ -150,25 +151,25 @@ export default function HomePage() {
         </div>
       </section>
 
-      <section>
-        <div className={styles.content}>
+      <section id='first-section'>
+        <div className={`${styles.content} ${styles.simposios} container`}>
           <h1 className={`text-center ${styles['content-title']}`}>{homeT('simposios')}</h1>
+          <div className={styles['content__wrapper']}>
+            {[commonT('siglas.sbes'), commonT('siglas.sblp'), commonT('siglas.sbcars'), commonT('siglas.sast')].map(
+              (item, index) => (
+                <Link href='#' key={index}>
+                  <h4>{item}</h4>
+                </Link>
+              ),
+            )}
+          </div>
         </div>
       </section>
 
       <section>
         <div className={styles.content}>
           <h1 className={`text-center ${styles['content-title']}`}>{homeT('participantes')}</h1>
-          <div className={styles['content__wrapper']}>
-            {speakers && (
-              <div
-                className={styles['content__images']}
-                style={{ animationDuration: `${width ? (speakers.length * width) / 200 : 100}s` }}
-              >
-                {speakersElement}
-              </div>
-            )}
-          </div>
+          <InfiniteScroll className={styles['content__images']} items={speakersElement} />
         </div>
       </section>
 
