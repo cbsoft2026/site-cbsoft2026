@@ -1,12 +1,12 @@
 {
-  "edicao": "XVI",
-  "localEvento": "Mar Hotel",
-  "localDetalhes": "Recife, Pernambuco",
+  "edicao": "XVII",
+  "localEvento": "IME USP",
+  "localDetalhes": "São Paulo, SP",
   "edicoes": {
-    "sbes": "XXXIX",
-    "sblp": "XXIX",
-    "sbcars": "XIX",
-    "sast": "X"
+    "sbes": "XXXX",
+    "sblp": "XXX",
+    "sbcars": "XX",
+    "sast": "XI"
   },
   "sbcars": "SBCARS",
   "sast": "SAST",
