@@ -39,13 +39,14 @@ jobs:
       - name: Download build artifact
         uses: actions/download-artifact@v4
         with:
-          name: github-pages
+          name: site-build
           path: ./out
       - uses: webfactory/ssh-agent@v0.9.0
         with:
             ssh-private-key: ${{ secrets.SSH_PRIVATE_KEY }}
       - name: Deploy to GitHub Server
         run: |
+          ssh -o StrictHostKeyChecking=no ${{ secrets.SSH_USER }}@${{ secrets.SSH_HOST }} "mkdir -p /tmp/deploy_temp && rm -rf /tmp/deploy_temp/*"
           scp -o StrictHostKeyChecking=no -r ./out/* ${{ secrets.SSH_USER }}@${{ secrets.SSH_HOST }}:/tmp/deploy_temp
       - name: Activate new version on server
         run: |
