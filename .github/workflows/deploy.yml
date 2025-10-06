@@ -54,13 +54,15 @@ jobs:
           ssh -o StrictHostKeyChecking=no ${{ secrets.SSH_USER }}@${{ secrets.SSH_HOST }} "
             set -e
 
-            tar -xf /tmp/deploy_temp/artifact.tar
+            echo 'Extraindo artifact.tar'
+            tar -xf /tmp/deploy_temp/artifact.tar -C /tmp/deploy_temp/
+            rm /tmp/deploy_temp/artifact.tar
 
             echo 'Substituindo versão'
             rsync -a --delete /tmp/deploy_temp/ ${{ secrets.APP_PATH }}/
 
             echo 'Limpando temporários'
-            #rm -rf /tmp/deploy_temp
+            rm -rf /tmp/deploy_temp
           "
         
   deploy-github-pages:
