@@ -55,13 +55,12 @@ jobs:
             set -e
 
             tar -xf /tmp/deploy_temp/artifact.tar
-            rm -rf /tmp/deploy_temp/artifact.tar
 
             echo 'Substituindo versão'
             rsync -a --delete /tmp/deploy_temp/ ${{ secrets.APP_PATH }}/
 
             echo 'Limpando temporários'
-            rm -rf /tmp/deploy_temp
+            #rm -rf /tmp/deploy_temp
           "
         
   deploy-github-pages:
