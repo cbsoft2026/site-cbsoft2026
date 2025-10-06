@@ -32,7 +32,26 @@ jobs:
         with:
           path: out/
 
-  deploy:
+  deploy-production-server:
+    - uses: webfactory/ssh-agent@v0.9.0
+      with:
+          ssh-private-key: ${{ secrets.SSH_PRIVATE_KEY }}
+    - name: Deploy to GitHub Server
+      run: |
+        scp -o StrictHostKeyChecking=no -r ./out/* ${{ secrets.SSH_USER }}@{ secrets.SSH_HOST }}:/tmp/deploy_temp
+    - name: Activate new version on server
+      run: |
+        ssh -o StrictHostKeyChecking=no ${{ secrets.SSH_USER }}@${{ secrets.SSH_HOST }} "
+          set -e
+
+          echo 'Substituindo versão'
+          rsync -a --delete /tmp/deploy_temp/ ${{ secrets.APP_PATH }}/
+
+          echo 'Limpando temporários'
+          rm -rf /tmp/deploy_temp
+        "
+        
+  deploy-github-pages:
     if: ${{ github.repository_visibility == 'public' }}
     environment:
       name: github-pages
