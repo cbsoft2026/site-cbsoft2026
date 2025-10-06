@@ -41,7 +41,7 @@ jobs:
             ssh-private-key: ${{ secrets.SSH_PRIVATE_KEY }}
       - name: Deploy to GitHub Server
         run: |
-          scp -o StrictHostKeyChecking=no -r ./out/* ${{ secrets.SSH_USER }}@{ secrets.SSH_HOST }}:/tmp/deploy_temp
+          scp -o StrictHostKeyChecking=no -r $GITHUB_WORKSPACE/out/* ${{ secrets.SSH_USER }}@{ secrets.SSH_HOST }}:/tmp/deploy_temp
       - name: Activate new version on server
         run: |
           ssh -o StrictHostKeyChecking=no ${{ secrets.SSH_USER }}@${{ secrets.SSH_HOST }} "
