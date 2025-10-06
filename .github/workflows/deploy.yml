@@ -36,12 +36,17 @@ jobs:
     runs-on: ubuntu-latest
     needs: build
     steps:
+      - name: Download build artifact
+        uses: actions/download-artifact@v4
+        with:
+          name: github-pages
+          path: ./out
       - uses: webfactory/ssh-agent@v0.9.0
         with:
             ssh-private-key: ${{ secrets.SSH_PRIVATE_KEY }}
       - name: Deploy to GitHub Server
         run: |
-          scp -o StrictHostKeyChecking=no -r $GITHUB_WORKSPACE/out/* ${{ secrets.SSH_USER }}@{ secrets.SSH_HOST }}:/tmp/deploy_temp
+          scp -o StrictHostKeyChecking=no -r ./out/* ${{ secrets.SSH_USER }}@{ secrets.SSH_HOST }}:/tmp/deploy_temp
       - name: Activate new version on server
         run: |
           ssh -o StrictHostKeyChecking=no ${{ secrets.SSH_USER }}@${{ secrets.SSH_HOST }} "
