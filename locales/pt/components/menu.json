@@ -12,7 +12,9 @@
     "edicoes_anteriores": "Edições Anteriores",
     "turismo": "Turismo"
   },
-
+  "symposiums": {
+    "title": "Simpósios"
+  },
   "sbes": {
     "titulo": "SBES",
     "pesquisa": "Trilha de Pesquisa",

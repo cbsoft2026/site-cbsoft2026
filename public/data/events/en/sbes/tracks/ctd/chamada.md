@@ -55,9 +55,9 @@ This phase will take place during the event. The author who defended the doctora
 
 ## Important Dates
 
-- Submission of the thesis (including all required documentation): ~~May 19 2025~~ ~~May 29 2025~~ June 6 2025
-- Notification date: ~~June 28 2025~~ ~~July 9 2025~~ ~~July 17 2025~~ July 21 2025
-- Camera ready: ~~July 14 2025~~ ~~July 21 2025~~ July 30 2025
+- Submission of the thesis (including all required documentation): <s>May 19 2025</s> <s>May 29 2025</s> June 6 2025
+- Notification date: <s>June 28 2025</s> <s>July 9 2025</s> <s>July 17 2025</s> July 21 2025
+- Camera ready: <s>July 14 2025</s> <s>July 21 2025</s> July 30 2025
 
 ## Organization
 

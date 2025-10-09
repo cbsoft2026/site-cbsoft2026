@@ -77,6 +77,7 @@ export default function Menu(props: HTMLAttributes<HTMLDivElement>) {
   // const { width } = useWindowDimensions();
 
   const t = useTranslations('components/menu');
+  const commonT = useTranslations('common');
   const { locale, switchLocale } = useLocaleContext();
 
   const collapse = () => setCollapsed(true);
@@ -93,6 +94,13 @@ export default function Menu(props: HTMLAttributes<HTMLDivElement>) {
       { title: t('cbsoft.codigo_conduta'), href: '/cbsoft/code-of-conduct' },
       { title: t('cbsoft.edicoes_anteriores'), href: '/cbsoft/previous-editions' },
     ],
+  };
+
+  const symposiumsMenuItem: NavbarItemProps = {
+    title: t('symposiums.title'),
+    items: ['sbcars', 'sast', 'sblp', 'sbes'].map((symposiums) => {
+      return { title: commonT(symposiums), href: `/symposiums/${symposiums}/call` };
+    }),
   };
 
   // const sbesMenuItem: NavbarItemProps = {
@@ -262,6 +270,7 @@ export default function Menu(props: HTMLAttributes<HTMLDivElement>) {
     // schoolMenuItem,
     // artifactsMenuItem,
     cbsoftMenuItem,
+    symposiumsMenuItem,
   ];
 
   const div = useRef<HTMLDivElement | null>(null);

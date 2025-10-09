@@ -59,9 +59,9 @@ Nessa fase, que ocorrerá durante o evento, o autor que defendeu a tese de douto
 
 ## Datas Importantes
 
-- Data limite para submissão de trabalhos: ~~19 de Maio de 2025~~ ~~29 de Maio de 2025~~ 6 de Junho de 2025
-- Notificação de aceitação: ~~28 de Junho de 2025~~ ~~9 de Julho de 2025~~ ~~16 de Julho de 2025~~ 21 de Julho de 2025
-- Data limite para envio da versão final: ~~14 de Julho de 2025~~ ~~21 de Julho de 2025~~ 30 de Julho de 2025
+- Data limite para submissão de trabalhos: <s>19 de Maio de 2025</s> <s>29 de Maio de 2025</s> 6 de Junho de 2025
+- Notificação de aceitação: <s>28 de Junho de 2025</s> <s>9 de Julho de 2025</s> <s>16 de Julho de 2025</s> 21 de Julho de 2025
+- Data limite para envio da versão final: <s>14 de Julho de 2025</s> <s>21 de Julho de 2025</s> 30 de Julho de 2025
 
 ## Organização
 

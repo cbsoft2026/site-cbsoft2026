@@ -8,10 +8,10 @@ Em sua décima edição como simpósio co-localizado ao Congresso Brasileiro de 
 
 ## Datas Importantes
 
-- Registro de artigos regulares (submissão do resumo): ~~23 de Junho de 2025~~ 30 Junho de 2025
-- Registro de artigos da indústria (submissão do resumo): ~~23 de Junho de 2025~~ 30 Junho de 2025
-- Submissão dos artigos regulares completos: ~~27 de Junho de 2025~~ 04 Julho de 2025
-- Submissão dos artigos completos da indústria: ~~27 de Junho de 2025~~ 04 Julho de 2025
+- Registro de artigos regulares (submissão do resumo): <s>23 de Junho de 2025</s> 30 Junho de 2025
+- Registro de artigos da indústria (submissão do resumo): <s>23 de Junho de 2025</s> 30 Junho de 2025
+- Submissão dos artigos regulares completos: <s>27 de Junho de 2025</s> 04 Julho de 2025
+- Submissão dos artigos completos da indústria: <s>27 de Junho de 2025</s> 04 Julho de 2025
 - Notificação de aceitação: 04 de Agosto de 2025
 - Submissão da versão final: 11 de Agosto de 2025
 

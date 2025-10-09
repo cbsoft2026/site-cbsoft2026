@@ -1,0 +1,45 @@
+@use 'variables' as *;
+
+.container {
+  display: flex;
+  flex-direction: row;
+  position: relative;
+  top: 15px;
+
+  .sidebar {
+    border-right: 1px solid $border-color;
+    bottom: 43px;
+    height: calc(100vh - 64px);
+    min-width: 300px;
+    padding-top: 24px;
+    position: sticky;
+    top: 64px;
+    transition: 0.2s cubic-bezier(0.36, -0.01, 0, 0.77);
+    width: 300px;
+    z-index: 2;
+
+    ul,
+    li {
+      padding: 0 10px;
+      list-style-type: none;
+    }
+
+    a {
+      align-items: center;
+      display: flex;
+      font-size: 14px;
+      margin-bottom: 4px;
+      padding: 12px 24px;
+      width: 100%;
+
+      &:hover {
+        background: $overlay-bg;
+      }
+    }
+  }
+
+  .content {
+    max-width: 1160px;
+    padding: 40px 60px 0;
+  }
+}

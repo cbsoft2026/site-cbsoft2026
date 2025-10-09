@@ -22,11 +22,14 @@
     "@fortawesome/react-fontawesome": "^3.0.2",
     "@sinclair/typebox": "^0.34.41",
     "bootstrap": "^5.3.8",
+    "highlight.js": "^11.11.1",
     "next": "15.5.2",
     "next-intl": "^4.3.6",
     "react": "19.1.0",
     "react-dom": "19.1.0",
-    "react-markdown": "^10.1.0"
+    "react-markdown": "^10.1.0",
+    "rehype-highlight": "^7.0.2",
+    "rehype-raw": "^7.0.0"
   },
   "devDependencies": {
     "@commitlint/cli": "^19.8.1",

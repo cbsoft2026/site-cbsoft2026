@@ -14,10 +14,10 @@ O SBLP 2025 será a 29ª edição do Simpósio Brasileiro de Linguagens de Progr
 
 ## Datas Importantes
 
-- Submissão do resumo: ~~28 de Abril, 2025~~ 16 de Junho, 2025
-- Submissão do artigo: ~~12 de Maio, 2025~~ 16 de Junho, 2025
-- Notificação de aceitação: ~~7 de Julho, 2025~~ 28 de Julho, 2025
-- Envio da versão final: ~~21 de Julho, 2025~~ 8 de Agosto, 2025
+- Submissão do resumo: <s>28 de Abril, 2025</s> 16 de Junho, 2025
+- Submissão do artigo: <s>12 de Maio, 2025</s> 16 de Junho, 2025
+- Notificação de aceitação: <s>7 de Julho, 2025</s> 28 de Julho, 2025
+- Envio da versão final: <s>21 de Julho, 2025</s> 8 de Agosto, 2025
 
 ## Submissão de trabalhos
 

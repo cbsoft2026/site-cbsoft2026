@@ -8,10 +8,10 @@ In its tenth edition as a symposium co-located with the Brazilian Congress of So
 
 ## Important Dates
 
-- Regular paper registration (abstract submission): ~~23 June, 2025~~ 30 June, 2025
-- Industry paper registration (abstract submission): ~~23 June, 2025~~ 30 June, 2025
-- Regular paper submission: ~~27 June, 2025~~ 04 July, 2025
-- Industry paper submission: ~~27 June, 2025~~ 04 July, 2025
+- Regular paper registration (abstract submission): <s>23 June, 2025</s> 30 June, 2025
+- Industry paper registration (abstract submission): <s>23 June, 2025</s> 30 June, 2025
+- Regular paper submission: <s>27 June, 2025</s> 04 July, 2025
+- Industry paper submission: <s>27 June, 2025</s> 04 July, 2025
 - Notification of acceptance: 04 August, 2025
 - Camera-ready: 11 August, 2025
 

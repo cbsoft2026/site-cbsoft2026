@@ -1,5 +1,5 @@
 import styles from './styles.module.scss';
-import { loadCommonEvents, loadEvents, SIMPOSIOS } from '@/lib/api';
+import { loadCommonEvents, loadEvents, EVENTS_LIST } from '@/lib/api';
 import Content from './Content';
 
 export function generateStaticParams() {
@@ -12,7 +12,7 @@ export default async function SchedulePage() {
 
   return (
     <section className={styles.schedule}>
-      <Content commonEvents={commonEvents} events={events} symposiums={SIMPOSIOS} />
+      <Content commonEvents={commonEvents} events={events} symposiums={EVENTS_LIST} />
     </section>
   );
 }

@@ -8,7 +8,7 @@ No caso de dúvidas, contactar os organizadores, Allysson Allex Araújo (allysso
 
 ## Datas Importantes
 
-- Data limite para submissão de trabalhos: ~~23 de Junho de 2025~~ 26 de Junho de 2025
+- Data limite para submissão de trabalhos: <s>23 de Junho de 2025</s> 26 de Junho de 2025
 - Notificação de aceitação: 30 de Julho de 2025
 - Data limite para envio da versão final: 11 de agosto de 2025
 

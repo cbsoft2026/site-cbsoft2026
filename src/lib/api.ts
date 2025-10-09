@@ -5,14 +5,15 @@ import { PapersSchema, Track, trackValues } from '../types/papers';
 import { TalksSchema } from '../types/talks';
 import { validateData } from '../../public/data/validator';
 import { slugify } from '../utils/slugify';
-import { defaultLang } from '../types/locales';
+import { defaultLang, Locale } from '../types/locales';
 import { Static, TSchema } from '@sinclair/typebox';
 import { SessionsSchema } from '../types/session';
 import { Participant, Participants } from '../types/participants';
 import { Rooms } from '../types/rooms';
 import { Event, Events, EventType } from '../types/event';
 
-export const SIMPOSIOS = ['sbcars', 'sast', 'sblp', 'sbes', 'industry-track', 'mssis', 'vem', 'latam-school'];
+export const SYMPOSIUMS = ['sbcars', 'sast', 'sblp', 'sbes'];
+export const EVENTS_LIST = [...SYMPOSIUMS, 'industry-track', 'mssis', 'vem', 'latam-school'];
 
 const BASE_PATH = path.join(process.cwd(), 'public/data/events');
 
@@ -28,6 +29,22 @@ export function loadCommonEvents(lang: string = 'pt'): { salas: Rooms; startsInD
   return JSON.parse(fs.readFileSync(pessoasPath, 'utf-8'));
 }
 
+const getPathsToTry = (
+  lang: string,
+  slug: string,
+  eventType: EventType | 'chamada',
+  ext: string = 'json',
+): { path: string; track: Track | null }[] => {
+  return [
+    { path: path.join(BASE_PATH, lang, slug, `${eventType}.${ext}`), track: null },
+    { path: path.join(BASE_PATH, defaultLang, slug, `${eventType}.${ext}`), track: null },
+    ...trackValues.flatMap((track) => [
+      { path: path.join(BASE_PATH, lang, slug, 'tracks', track, `${eventType}.${ext}`), track },
+      { path: path.join(BASE_PATH, defaultLang, slug, 'tracks', track, `${eventType}.${ext}`), track },
+    ]),
+  ];
+};
+
 export function loadEvent<T extends TSchema>(
   slug: string,
   eventType: EventType,
@@ -36,15 +53,7 @@ export function loadEvent<T extends TSchema>(
   lang = 'pt',
   name = 'VALIDATE_DATA',
 ) {
-  const ext = 'json';
-  const pathsToTry: { path: string; track: Track | null }[] = [
-    { path: path.join(BASE_PATH, lang, slug, `${eventType}.${ext}`), track: null },
-    { path: path.join(BASE_PATH, defaultLang, slug, `${eventType}.${ext}`), track: null },
-    ...trackValues.flatMap((track) => [
-      { path: path.join(BASE_PATH, lang, slug, 'tracks', track, `${eventType}.${ext}`), track },
-      { path: path.join(BASE_PATH, defaultLang, slug, 'tracks', track, `${eventType}.${ext}`), track },
-    ]),
-  ];
+  const pathsToTry = getPathsToTry(lang, slug, eventType);
 
   for (const path of pathsToTry) {
     if (fs.existsSync(path.path)) {
@@ -81,7 +90,7 @@ export function loadEvents(lang: string = 'pt'): Map<string, Event> {
 
   const events: Events = [];
 
-  SIMPOSIOS.forEach((slug) => {
+  EVENTS_LIST.forEach((slug) => {
     const sessionMap: Events = [];
 
     loadEvent(
@@ -216,4 +225,35 @@ export function loadEvents(lang: string = 'pt'): Map<string, Event> {
   const eventsById = new Map(events.map((e) => [e.id, e]));
 
   return eventsById;
+}
+
+export function loadCalls(lang: Locale = defaultLang, symposiums = EVENTS_LIST, tracks = trackValues) {
+  const calls: Record<string, string> = {};
+  symposiums.forEach((slug) => {
+    const pathsToTry = getPathsToTry(lang, slug, 'chamada', 'md');
+    if (tracks.length <= 0) tracks.push('EMPTY_VALUE');
+    tracks.forEach((track) => {
+      for (const path of pathsToTry) {
+        if (fs.existsSync(path.path)) {
+          const value = fs.readFileSync(path.path, 'utf-8');
+          if (path.track == track) {
+            calls[`${slug}_${track}_${lang}`] = value;
+          } else {
+            calls[`${slug}_${lang}`] = value;
+          }
+          break;
+        }
+      }
+    });
+  });
+  return calls;
+}
+
+export function loadTracks(symposium: string, lang: Locale = defaultLang) {
+  if (fs.existsSync(path.join(BASE_PATH, lang, symposium, 'tracks'))) {
+    const dirents = fs.readdirSync(path.join(BASE_PATH, lang, symposium, 'tracks'), { withFileTypes: true });
+    const folders = dirents.filter((dirent) => dirent.isDirectory()).map((dirent) => dirent.name);
+    if (folders) return folders;
+  }
+  return [];
 }

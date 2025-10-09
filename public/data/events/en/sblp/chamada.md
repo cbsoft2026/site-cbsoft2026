@@ -16,10 +16,10 @@ The Conference will be held from 22 to 26 September, 2025, in Recife, Pernambuco
 
 ## Important dates
 
-- Abstract submission: ~~April 28, 2025~~ June 16, 2025
-- Paper submission: ~~May 12, 2025~~ June 16, 2025
-- Author notification: ~~July 7, 2025~~ July 28, 2025
-- Camera-ready deadline: ~~July 21, 2025~~ August 8, 2025
+- Abstract submission: ~April 28, 2025~ June 16, 2025
+- Paper submission: ~May 12, 2025~ June 16, 2025
+- Author notification: ~July 7, 2025~ July 28, 2025
+- Camera-ready deadline: ~July 21, 2025~ August 8, 2025
 
 ## Submission Guidelines
 
