@@ -98,7 +98,7 @@ export default function Menu(props: HTMLAttributes<HTMLDivElement>) {
 
   const symposiumsMenuItem: NavbarItemProps = {
     title: t('symposiums.title'),
-    items: ['sbcars', 'sast', 'sblp', 'sbes'].map((symposiums) => {
+    items: ['sast', 'sblp', 'sbes', 'sbcars'].map((symposiums) => {
       return { title: commonT(symposiums), href: `/symposiums/${symposiums}/call` };
     }),
   };

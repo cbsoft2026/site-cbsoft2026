@@ -188,6 +188,27 @@ export function loadEvents(lang: string = 'pt'): Map<string, Event> {
       lang,
     );
 
+    loadEvent(slug, 'tutorial', TalksSchema, (schedule) => {
+      schedule.forEach((p) => {
+        const id = slugify(p.title);
+        const participantsSession = formatParticipants(participants, p.speakers);
+
+        if (p.moderator) participantsSession.push(participants[p.moderator]);
+        events.push({
+          type: (p.type as EventType) || 'tutorial',
+          simposio: slug,
+          id,
+          track: null,
+          schedule: p.schedule,
+          rooms: p.rooms,
+          title: p.title,
+          description: p.description,
+          participants: participantsSession,
+        });
+      });
+    });
+    events.push(...Array.from(sessionMap.values()));
+
     loadEvent(slug, 'palestra', TalksSchema, (schedule) => {
       schedule.forEach((p) => {
         const id = slugify(p.title);

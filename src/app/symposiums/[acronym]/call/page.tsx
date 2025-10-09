@@ -1,5 +1,7 @@
 import CallComponent from '@/components/Call';
 
+import styles from './styles.module.scss';
+
 type Props = {
   children: React.ReactNode;
   params: Promise<{ acronym: string }>;
@@ -7,5 +9,9 @@ type Props = {
 
 export default async function CallPage({ params }: Props) {
   const { acronym } = await params;
-  return <CallComponent acronym={acronym}></CallComponent>;
+  return (
+    <div className={styles.content}>
+      <CallComponent acronym={acronym}></CallComponent>
+    </div>
+  );
 }

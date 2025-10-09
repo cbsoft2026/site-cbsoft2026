@@ -3,7 +3,6 @@ import Link from 'next/link';
 import styles from './styles.module.scss';
 import getRequestConfig from '@/i18n/request';
 import React from 'react';
-import { useTranslations } from 'next-intl';
 
 type Props = {
   children: React.ReactNode;
