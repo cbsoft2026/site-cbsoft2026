@@ -1,8 +1,9 @@
-import { loadCalls, loadTracks, SYMPOSIUMS } from '@/lib/api';
+import { loadCalls, loadEvents, loadTracks, SYMPOSIUMS } from '@/lib/api';
 import Link from 'next/link';
 import styles from './styles.module.scss';
 import getRequestConfig from '@/i18n/request';
 import React from 'react';
+import { Event } from '@/types/event';
 
 type Props = {
   children: React.ReactNode;
@@ -35,6 +36,12 @@ function createTree(acronym: string, locale: string, track?: string) {
   );
 }
 
+function getAmountByEvent(events: Record<string, Event>, acronym: string, type: string) {
+  return Object.entries(events).filter(([key, value]) => {
+    return value.type === type && value.simposio === acronym;
+  }).length;
+}
+
 export default async function AcronymLayout({ children, params }: Props) {
   const { locale, messages } = await getRequestConfig({
     requestLocale: Promise.resolve('pt'),
@@ -42,10 +49,15 @@ export default async function AcronymLayout({ children, params }: Props) {
 
   const { acronym } = await params;
   const tracks = loadTracks(acronym);
+  const events = Object.fromEntries(loadEvents(locale));
+  const amountPapers = getAmountByEvent(events, acronym, 'artigo');
+  const amountPainel = getAmountByEvent(events, acronym, 'painel');
+  const amountTalks = getAmountByEvent(events, acronym, 'palestra');
+  const amountTutorial = getAmountByEvent(events, acronym, 'tutorial');
 
   return (
     <section className={styles.container}>
-      <aside className={styles.sidebar}>
+      {/* <aside className={styles.sidebar}>
         <ul>
           {Array.isArray(tracks) && tracks.length > 0
             ? tracks.map((track) => {
@@ -57,20 +69,28 @@ export default async function AcronymLayout({ children, params }: Props) {
                 );
               })
             : createTree(acronym, locale)}
-          <li>
-            <Link href={{ pathname: `/symposiums/${acronym}/papers` }}>Artigos aceitos</Link>
-          </li>
-          <li>
-            <Link href={{ pathname: `/symposiums/${acronym}/painel` }}>Painel</Link>
-          </li>
-          <li>
-            <Link href={{ pathname: `/symposiums/${acronym}/talks` }}>Palestras</Link>
-          </li>
-          <li>
-            <Link href={{ pathname: `/symposiums/${acronym}/tutorials` }}>Tutoriais</Link>
-          </li>
+          {amountPapers > 0
+            ? (<li>
+                <Link href={{ pathname: `/symposiums/${acronym}/papers` }}>Artigos aceitos</Link>
+              </li>)
+            : (<></>)}
+          {amountPainel > 0
+            ? (<li>
+                <Link href={{ pathname: `/symposiums/${acronym}/painel` }}>Painel</Link>
+              </li>)
+            : (<></>)}
+          {amountTalks > 0
+            ? (<li>
+                <Link href={{ pathname: `/symposiums/${acronym}/talks` }}>Palestras</Link>
+              </li>)
+            : (<></>)}
+          {amountTutorial > 0
+              ? (<li>
+                  <Link href={{ pathname: `/symposiums/${acronym}/tutorials` }}>Tutoriais</Link>
+                </li>)
+              : (<></>)}
         </ul>
-      </aside>
+      </aside> */}
       <main className={styles.content}>{children}</main>
     </section>
   );

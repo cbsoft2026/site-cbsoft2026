@@ -3,7 +3,6 @@
 import CallComponent from '@/components/Call';
 import Title from '@/components/Title';
 import { useTranslations } from 'next-intl';
-import { useParams } from 'next/navigation';
 
 export default function CallPage() {
   const commonT = useTranslations('common');

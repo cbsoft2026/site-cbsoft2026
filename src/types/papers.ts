@@ -12,7 +12,7 @@ export const TrackType = Type.Union([
   Type.Null(),
 ]);
 
-export const trackValues = ['pesquisa', 'ideias', 'tools', 'educacao', 'industry', 'ctd', 'ctic'];
+export const trackValues = ['pesquisa', 'educacao', 'ideias', 'tools', 'ctic', 'ctd', 'industry'];
 
 export const PaperSchema = Type.Object({
   track: Type.Optional(TrackType),

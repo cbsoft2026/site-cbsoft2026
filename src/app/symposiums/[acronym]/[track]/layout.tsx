@@ -1,3 +1,4 @@
+import { trackValues } from '@/types/papers';
 import React from 'react';
 
 type Props = {
@@ -6,7 +7,9 @@ type Props = {
 };
 
 export async function generateStaticParams() {
-  return [{ track: 'educacao' }, { track: 'ctd' }, { track: 'ctic' }, { track: 'pesquisa' }];
+  return trackValues.map((track) => {
+    return { track: track };
+  });
 }
 
 export default async function AcronymLayout({ children }: Props) {
