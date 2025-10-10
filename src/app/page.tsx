@@ -155,13 +155,11 @@ export default function HomePage() {
         <div className={`${styles.content} ${styles.simposios} container`}>
           <h1 className={`text-center ${styles['content-title']}`}>{homeT('simposios')}</h1>
           <div className={styles['content__wrapper']}>
-            {[commonT('siglas.sbes'), commonT('siglas.sblp'), commonT('siglas.sbcars'), commonT('siglas.sast')].map(
-              (item, index) => (
-                <Link href='#' key={index}>
-                  <h4>{item}</h4>
-                </Link>
-              ),
-            )}
+            {['sbes', 'sblp', 'sbcars', 'sast'].map((item, index) => (
+              <Link href={{ pathname: `symposiums/${item}` }} key={index}>
+                <h4>{commonT(`siglas.${item}`)}</h4>
+              </Link>
+            ))}
           </div>
         </div>
       </section>
