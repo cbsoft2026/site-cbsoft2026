@@ -5,11 +5,16 @@ import { Event } from '@/types/event';
 import { useEffect, useState } from 'react';
 import EventComponent from '@/components/Event';
 import { useParams } from 'next/navigation';
+import { useTranslations } from 'next-intl';
+import Title from '@/components/Title';
 
 export default function EventsPage() {
   const { acronym } = useParams();
   const [events, setEvents] = useState<Record<string, Event>>();
   const { locale } = useLocaleContext();
+  const commonT = useTranslations('common');
+  const t = useTranslations('components/menu');
+  const symposiumsT = useTranslations('pages/symposiums');
   useEffect(() => {
     fetch(`/generated/events_${locale}.json`)
       .then((res) => res.json())
@@ -29,11 +34,16 @@ export default function EventsPage() {
 
   return (
     <>
-      {Object.keys(events).map((key) => (
+      <div className='container' style={{ marginBottom: 56, paddingRight: 560 }}>
+        <Title titulo={`${commonT(`siglas.${acronym}`)} (${commonT(`${acronym}`)}) - ${t("painel")}`}></Title>
+      </div>
+      {Object.keys(events).length > 0 ? Object.keys(events).map((key) => (
         <div key={key} style={{ marginBottom: 56 }}>
           <EventComponent key={key} events={events} event={events[key]} />
         </div>
-      ))}
+      )) : (<div className='container'>
+        <p>{symposiumsT("emptyPainel")}</p>
+      </div>)}
     </>
   );
 }
