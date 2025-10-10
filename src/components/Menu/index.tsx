@@ -2,7 +2,7 @@
 
 import Link from 'next/link';
 import { usePathname } from 'next/navigation';
-import { HTMLAttributes, useRef, useState } from 'react';
+import { HTMLAttributes, useCallback, useRef, useState } from 'react';
 import styles from './styles.module.scss';
 import { useTranslations } from 'next-intl';
 // import useWindowDimensions from '@/hooks/useWindowDimentions';
@@ -10,6 +10,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faBars } from '@fortawesome/free-solid-svg-icons';
 import appConfig from '@/app/app.config';
 import { useLocaleContext } from '@/providers/LocaleProvider';
+import useWindowDimensions from '@/hooks/useWindowDimentions';
 
 type NavbarItemProps = {
   title: string;
@@ -74,14 +75,14 @@ function NavbarItem(props: NavbarItemProps) {
 export default function Menu(props: HTMLAttributes<HTMLDivElement>) {
   const [collapsed, setCollapsed] = useState(true);
 
-  // const { width } = useWindowDimensions();
+  const { width } = useWindowDimensions();
 
   const t = useTranslations('components/menu');
   const commonT = useTranslations('common');
   const { locale, switchLocale } = useLocaleContext();
 
   const collapse = () => setCollapsed(true);
-  // const link = useCallback((url: string) => (width == null || width > 768 ? url : '#'), [width]);
+  const link = useCallback((url: string) => (width == null || width > 768 ? url : '#'), [width]);
 
   const cbsoftMenuItem: NavbarItemProps = {
     title: t('cbsoft.titulo', { ano: appConfig.year }),
@@ -103,79 +104,68 @@ export default function Menu(props: HTMLAttributes<HTMLDivElement>) {
     }),
   };
 
-  // const industriaMenuItem: NavbarItemProps = {
-  //   title: t('trilha_industria'),
-  //   href: '/trilha-industria',
-  //   items: [
-  //     { title: t('chamada_trabalhos'), href: '/trilha-industria' },
-  //     { title: t('artigos_aceitos'), href: '/trilha-industria/artigos' },
-  //   ],
-  // };
+  const workshopsMenuItem: NavbarItemProps = {
+    title: t('workshops.titulo'),
+    href: link('/workshops'),
+    items: [
+      { title: t('workshops.chamada_workshops'), href: '/workshops' },
+      // { title: t('workshops.workshops_aceitos'), href: '/workshops/aceitos' },
+      // {
+      //   title: 'VEM',
+      //   href: 'https://vemworkshop.github.io/vem2025',
+      // },
+      // {
+      //   title: 'MSSIS',
+      //   href: 'https://ww2.inf.ufg.br/mssis',
+      // },
+      // {
+      //   title: 'ISE',
+      //   href: 'https://www.virtus.ufcg.edu.br/iseworkshop',
+      // },
+      // {
+      //   title: 'AIWARE LatAm',
+      //   href: 'https://aiware-latam.github.io',
+      // },
+      // {
+      //   title: 'WBots',
+      //   href: 'https://w-bots.github.io/wbots/2025/',
+      // },
+      // {
+      //   title: 'SE4Games',
+      //   href: 'https://se4games2025.vercel.app',
+      // },
+      // {
+      //   title: 'SE4FP',
+      //   href: 'https://se4fp.github.io/2025',
+      // },
+      // {
+      //   title: 'SEDT',
+      //   href: 'https://sedt-workshop.github.io',
+      // },
+    ],
+  };
 
-  // const workshopsMenuItem: NavbarItemProps = {
-  //   title: t('workshops.titulo'),
-  //   href: '/workshops',
-  //   items: [
-  //     { title: t('workshops.chamada_workshops'), href: '/workshops' },
-  //     { title: t('workshops.workshops_aceitos'), href: '/workshops/aceitos' },
-  //     {
-  //       title: 'VEM',
-  //       href: 'https://vemworkshop.github.io/vem2025',
-  //     },
-  //     {
-  //       title: 'MSSIS',
-  //       href: 'https://ww2.inf.ufg.br/mssis',
-  //     },
-  //     {
-  //       title: 'ISE',
-  //       href: 'https://www.virtus.ufcg.edu.br/iseworkshop',
-  //     },
-  //     {
-  //       title: 'AIWARE LatAm',
-  //       href: 'https://aiware-latam.github.io',
-  //     },
-  //     {
-  //       title: 'WBots',
-  //       href: 'https://w-bots.github.io/wbots/2025/',
-  //     },
-  //     {
-  //       title: 'SE4Games',
-  //       href: 'https://se4games2025.vercel.app',
-  //     },
-  //     {
-  //       title: 'SE4FP',
-  //       href: 'https://se4fp.github.io/2025',
-  //     },
-  //     {
-  //       title: 'SEDT',
-  //       href: 'https://sedt-workshop.github.io',
-  //     },
-  //   ],
-  // };
+  const schoolMenuItem: NavbarItemProps = {
+    title: t('escola.titulo'),
+    href: link('/latam-school'),
+    items: [{ title: t('escola.call_for_participants'), href: '/latam-school' }],
+  };
 
-  // const schoolMenuItem: NavbarItemProps = {
-  //   title: t('escola.titulo'),
-  //   href: link('/escola'),
-  //   items: [{ title: t('escola.call_for_participants'), href: '/escola' }],
-  // };
-
-  // const artifactsMenuItem: NavbarItemProps = {
-  //   title: t('artifacts.titulo'),
-  //   href: link('/artefatos'),
-  //   items: [{ title: t('artifacts.call_for_artifacts'), href: '/artefatos' }],
-  // };
+  const artifactsMenuItem: NavbarItemProps = {
+    title: t('artifacts.titulo'),
+    href: '/artifacts',
+  };
 
   const menuItemsCollection = [
     // sbesMenuItem,
     // sblpMenuItem,
     // sbcarsMenuItem,
     // sastMenuItem,
-    // industriaMenuItem,
-    // workshopsMenuItem,
-    // schoolMenuItem,
-    // artifactsMenuItem,
     cbsoftMenuItem,
     symposiumsMenuItem,
+    workshopsMenuItem,
+    artifactsMenuItem,
+    schoolMenuItem,
   ];
 
   const div = useRef<HTMLDivElement | null>(null);

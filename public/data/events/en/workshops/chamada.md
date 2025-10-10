@@ -1,0 +1,1 @@
+CBSoft includes workshops related to the themes of SBES, SBLP, SBCARS, and SAST. The goal is to create a space where members of academia and industry can share and discuss their experiences and ideas.

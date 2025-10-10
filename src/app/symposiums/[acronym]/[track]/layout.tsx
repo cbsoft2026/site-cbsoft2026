@@ -6,7 +6,7 @@ type Props = {
 };
 
 export async function generateStaticParams() {
-  return [{ track: 'ctd' }, { track: 'ctic' }, { track: 'pesquisa' }];
+  return [{ track: 'educacao' },{ track: 'ctd' }, { track: 'ctic' }, { track: 'pesquisa' }];
 }
 
 export default async function AcronymLayout({ children }: Props) {

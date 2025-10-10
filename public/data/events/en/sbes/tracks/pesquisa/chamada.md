@@ -2,4 +2,4 @@ The Brazilian Symposium on Software Engineering (SBES), annually promoted by the
 
 The SBES Research Track is the main track of the symposium and publishes solid contributions that are rigorously evaluated by the program committee considering the criteria of novelty, relevance to Software Engineering, significance, verifiability and transparency, and quality of presentation.
 
-> Education Track
+> Research Track

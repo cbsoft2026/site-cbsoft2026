@@ -13,7 +13,8 @@ import { Rooms } from '../types/rooms';
 import { Event, Events, EventType } from '../types/event';
 
 export const SYMPOSIUMS = ['sbcars', 'sast', 'sblp', 'sbes'];
-export const EVENTS_LIST = [...SYMPOSIUMS, 'industry-track', 'mssis', 'vem', 'latam-school'];
+export const WORKSHOPS = ['workshops']
+export const EVENTS_LIST = [...SYMPOSIUMS, ...WORKSHOPS, 'latam-school', 'artifacts'];
 
 const BASE_PATH = path.join(process.cwd(), 'public/data/events');
 
@@ -259,7 +260,7 @@ export function loadCalls(lang: Locale = defaultLang, symposiums = EVENTS_LIST, 
           if (path.track == track) {
             calls[`${slug}_${track}_${lang}`] = value;
             break;
-          } else if (path.path.includes(lang)) {
+          } else if (track == null && path.path.includes(lang)) {
             calls[`${slug}_${lang}`] = value;
             break;
           } else {

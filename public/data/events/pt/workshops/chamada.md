@@ -1,0 +1,1 @@
+O CBSoft inclui workshops relacionados às temáticas do SBES, SBLP, SBCARS e SAST. O objetivo é criar um espaço para que membros da academia e da indústria possam trocar e discutir suas experiências e ideias.
