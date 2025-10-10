@@ -133,7 +133,7 @@ export default function HomePage() {
             <FontAwesomeIcon icon={faLocationDot} />
             <div className={styles.descricao}>
               <p>
-                {commonT('localEvento')} {commonT('localDetalhes')}
+                {commonT('localEvento')} - {commonT('localDetalhes')}
               </p>
             </div>
           </div>

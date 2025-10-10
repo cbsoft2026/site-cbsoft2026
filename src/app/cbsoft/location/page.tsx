@@ -10,7 +10,7 @@ export default function LocationPage() {
   const commonT = useTranslations('common');
 
   return (
-    <section style={{ paddingTop: '50px' }}>
+    <section className='container' style={{ paddingTop: '50px' }}>
       <Title titulo={t('titulo')} align='center' />
       <div className={styles.local}>
         <div className={styles.descricao}>

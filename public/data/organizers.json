@@ -3,230 +3,39 @@
     "category": "cbsoft",
     "chairs": [
       {
-        "image": "Kiev_Gama.png",
-        "name": "Kiev Gama",
-        "university": "UFPE"
+        "image": "Paulo_Meirelles.jpeg",
+        "name": "Paulo Meirelles",
+        "university": "IME-USP"
       },
       {
-        "image": "Vinicius_Garcia.png",
-        "name": "Vinicius Garcia",
-        "university": "UFPE"
+        "image": "Bruno_Cafeo.jpeg",
+        "name": "Bruno Cafeo",
+        "university": "IC-UNICAMP"
+      },
+      {
+        "image": "Fabio_Kon.png",
+        "name": "Fabio Kon",
+        "university": "IME-USP"
+      },
+      {
+        "image": "Eduardo_Guerra.png",
+        "name": "Eduardo Guerra",
+        "university": "UniBz, Itália"
       }
     ]
   },
   {
-    "category": "sbes",
-    "subcategory": "pesquisa",
+    "category": "local",
     "chairs": [
       {
-        "image": "Leopoldo_Teixeira.jpg",
-        "name": "Leopoldo Motta Teixeira",
-        "university": "UFPE"
+        "image": "Pedro_Valle.jpg",
+        "name": "Pedro Valle",
+        "university": "IME-USP"
       },
       {
-        "image": "Silvia_Vergilio.jpg",
-        "name": "Silvia Vergílio",
-        "university": "UFPR"
-      }
-    ]
-  },
-  {
-    "category": "sbes",
-    "subcategory": "ideias",
-    "chairs": [
-      {
-        "image": "Ivan_Machado.jpg",
-        "name": "Ivan Machado",
-        "university": "UFBA"
-      },
-      {
-        "image": "Monalessa_Barcelos.jpg",
-        "name": "Monalessa Barcelos",
-        "university": "UFES"
-      }
-    ]
-  },
-  {
-    "category": "sbes",
-    "subcategory": "educacao",
-    "chairs": [
-      {
-        "image": "Edna_Canedo.jpg",
-        "name": "Edna Canedo",
-        "university": "UnB"
-      },
-      {
-        "image": "Marcelo_Maia.jpg",
-        "name": "Marcelo Maia",
-        "university": "UFU"
-      }
-    ]
-  },
-  {
-    "category": "sbes",
-    "subcategory": "tools",
-    "chairs": [
-      {
-        "image": "Thelma_Colanzi.jpg",
-        "name": "Thelma Colanzi",
-        "university": "UEM"
-      },
-      {
-        "image": "Cleidson_Souza.jpg",
-        "name": "Cleidson de Souza",
-        "university": "UFPA"
-      }
-    ]
-  },
-  {
-    "category": "sbes",
-    "subcategory": "ctd",
-    "chairs": [
-      {
-        "image": "Roberta_Coelho.png",
-        "name": "Roberta Coelho",
-        "university": "UFRN"
-      },
-      {
-        "image": "Simone_Souza.jpg",
-        "name": "Simone Souza",
-        "university": "USP"
-      }
-    ]
-  },
-  {
-    "category": "sbes",
-    "subcategory": "ctic",
-    "chairs": [
-      {
-        "image": "Allysson_Araujo.jpg",
-        "name": "Allysson Alex Araújo",
-        "university": "UFCA"
-      },
-      {
-        "image": "Liliane_Fonseca.jpg",
-        "name": "Liliane Fonseca",
-        "university": "UPE"
-      }
-    ]
-  },
-  {
-    "category": "sblp",
-    "chairs": [
-      {
-        "image": "Andre_Maidl.png",
-        "name": "Andre Maidl",
-        "university": "ClickHouse"
-      },
-      {
-        "image": "Hugo_Gualandi.jpg",
-        "name": "Hugo Gualandi",
-        "university": "UFRJ"
-      }
-    ]
-  },
-  {
-    "category": "sbcars",
-    "chairs": [
-      {
-        "image": "Aline_Amaral.png",
-        "name": "Aline Miotto Amaral",
-        "university": "UEM"
-      },
-      {
-        "image": "Anderson_Uchoa.png",
-        "name": "Anderson Uchôa",
-        "university": "UFC"
-      }
-    ]
-  },
-  {
-    "category": "sast",
-    "chairs": [
-      {
-        "image": "Fabiano_Ferrari.jpg",
-        "name": "Fabiano Ferrari",
-        "university": "UFSCar"
-      },
-      {
-        "image": "Rohit_Gheyi.jpg",
-        "name": "Rohit Gheyi",
-        "university": "UFCG"
-      }
-    ]
-  },
-  {
-    "category": "industry",
-    "chairs": [
-      {
-        "image": "Cesar_Franca.png",
-        "name": "César França",
-        "university": "UFRPE e CESAR School"
-      },
-      {
-        "image": "Karina_Kohl.jpg",
-        "name": "Karina Kohl",
-        "university": "UFRGS"
-      }
-    ]
-  },
-  {
-    "category": "latam-school",
-    "chairs": [
-      {
-        "image": "Lina_Garces.jpg",
-        "name": "Lina Garcés",
-        "university": "USP"
-      }
-    ]
-  },
-  {
-    "category": "workshops",
-    "chairs": [
-      {
-        "image": "Igor_Wiese.jpg",
-        "name": "Igor Wiese",
-        "university": "UTFPR"
-      },
-      {
-        "image": "Johnny_Marques.jpg",
-        "name": "Johnny Marques",
-        "university": "ITA"
-      }
-    ]
-  },
-  {
-    "category": "artifacts",
-    "chairs": [
-      {
-        "image": "Fernanda_Madeiral.png",
-        "name": "Fernanda Madeiral",
-        "university": "UFPE"
-      },
-      {
-        "image": "Christina_Flach.jpg",
-        "name": "Christina Flach",
-        "university": "UFBA"
-      }
-    ]
-  },
-  {
-    "category": "proceedings",
-    "chairs": [
-      {
-        "image": "Carla_Silva.png",
-        "name": "Carla Silva",
-        "university": "UFPE"
-      },
-      {
-        "image": "Jessyka_Vilela.jpg",
-        "name": "Jéssyka Vilela",
-        "university": "UFPE"
-      },
-      {
-        "image": "Mariana_Peixoto.jpg",
-        "name": "Mariana Peixoto",
-        "university": "UPE"
+        "image": "Higor_Amario.jpg",
+        "name": "Higor Amário",
+        "university": "Poli-USP"
       }
     ]
   },
@@ -237,16 +46,6 @@
         "image": "Adolfo_Neto.jpg",
         "name": "Adolfo Neto",
         "university": "UTFPR"
-      }
-    ]
-  },
-  {
-    "category": "web",
-    "chairs": [
-      {
-        "image": "Estagiario.jpg",
-        "name": "Estagiário",
-        "university": "UFPE"
       }
     ]
   }
