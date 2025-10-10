@@ -13,7 +13,7 @@ import { Rooms } from '../types/rooms';
 import { Event, Events, EventType } from '../types/event';
 
 export const SYMPOSIUMS = ['sbcars', 'sast', 'sblp', 'sbes'];
-export const WORKSHOPS = ['workshops']
+export const WORKSHOPS = ['workshops'];
 export const EVENTS_LIST = [...SYMPOSIUMS, ...WORKSHOPS, 'latam-school', 'artifacts'];
 
 const BASE_PATH = path.join(process.cwd(), 'public/data/events');
@@ -254,16 +254,33 @@ export function loadCalls(lang: Locale = defaultLang, symposiums = EVENTS_LIST, 
   symposiums.forEach((slug) => {
     const pathsToTry = getPathsToTry(lang, slug, 'chamada', 'md');
     (tracks.length > 0 ? tracks : [null]).forEach((track) => {
+      let findPath = false;
       for (const path of pathsToTry) {
         if (fs.existsSync(path.path)) {
           const value = fs.readFileSync(path.path, 'utf-8');
-          if (path.track == track) {
+          if (path.track == track && path.path.includes(lang)) {
             calls[`${slug}_${track}_${lang}`] = value;
+            findPath = true;
             break;
-          } else if (track == null && path.path.includes(lang)) {
-            calls[`${slug}_${lang}`] = value;
-            break;
-          } else {
+          }
+        }
+      }
+      if (!findPath) {
+        for (const path of pathsToTry) {
+          if (fs.existsSync(path.path)) {
+            const value = fs.readFileSync(path.path, 'utf-8');
+            if (path.path.includes(lang)) {
+              calls[`${slug}_${lang}`] = value;
+              findPath = true;
+              break;
+            }
+          }
+        }
+      }
+      if (!findPath) {
+        for (const path of pathsToTry) {
+          if (fs.existsSync(path.path)) {
+            const value = fs.readFileSync(path.path, 'utf-8');
             calls[`${slug}_${lang}`] = value;
           }
         }
