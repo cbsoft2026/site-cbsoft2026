@@ -51,11 +51,9 @@ export function OrganizadorGrupo(props: { title: string; chairs: Chair[] }) {
     <div>
       <div className={styles['group__title']}>{props.title}</div>
       <div className={styles['group__content']}>
-        {[...props.chairs]
-          .sort((a, b) => a.name.localeCompare(b.name))
-          .map((gc, index) => (
-            <OrganizadorCard {...gc} key={index} />
-          ))}
+        {[...props.chairs].map((gc, index) => (
+          <OrganizadorCard {...gc} key={index} />
+        ))}
       </div>
     </div>
   );
