@@ -11,5 +11,5 @@ export default async function CallPage({ params }: Props) {
     <div className='container'>
       <CallComponent acronym={acronym}></CallComponent>
     </div>
-  )
+  );
 }

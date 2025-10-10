@@ -35,15 +35,19 @@ export default function EventsPage() {
   return (
     <>
       <div className='container' style={{ marginBottom: 56, paddingRight: 560 }}>
-        <Title titulo={`${commonT(`siglas.${acronym}`)} (${commonT(`${acronym}`)}) - ${t("tutorial")}`}></Title>
+        <Title titulo={`${commonT(`siglas.${acronym}`)} (${commonT(`${acronym}`)}) - ${t('tutorial')}`}></Title>
       </div>
-      {Object.keys(events).length > 0 ? Object.keys(events).map((key) => (
-        <div key={key} style={{ marginBottom: 56 }}>
-          <EventComponent key={key} events={events} event={events[key]} />
+      {Object.keys(events).length > 0 ? (
+        Object.keys(events).map((key) => (
+          <div key={key} style={{ marginBottom: 56 }}>
+            <EventComponent key={key} events={events} event={events[key]} />
+          </div>
+        ))
+      ) : (
+        <div className='container'>
+          <p>{symposiumsT('emptyTutorial')}</p>
         </div>
-      )) : (<div className='container'>
-        <p>{symposiumsT("emptyTutorial")}</p>
-      </div>)}
+      )}
     </>
   );
 }
