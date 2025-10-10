@@ -1,0 +1,3 @@
+The Brazilian Symposium on Software Engineering (SBES), held annually by the Brazilian Computer Society (SBC), is the leading Software Engineering event in Latin America. SBES is organized in conjunction with the Brazilian Conference on Software: Theory and Practice (CBSoft). The SBES Research Track is the main track of the symposium and publishes solid contributions that are rigorously evaluated by the program committee based on criteria such as originality, quality of presentation, and the work’s relevance to the state of the art in the field of Software Engineering.
+
+> Education Track

@@ -1,15 +1,21 @@
+'use client';
+
 import CallComponent from '@/components/Call';
+import Title from '@/components/Title';
+import { useTranslations } from 'next-intl';
+import { useParams } from 'next/navigation';
 
-type Props = {
-  children: React.ReactNode;
-  params: Promise<{ acronym: string; track: string }>;
-};
-
-export default async function CallPage({ params }: Props) {
-  const { acronym, track } = await params;
+export default function CallPage() {
+  const { acronym, track }: { acronym: string; track: string } = useParams();
+  const commonT = useTranslations('common');
   return (
-    <div className='container'>
-      <CallComponent acronym={acronym}></CallComponent>
-    </div>
+    <>
+      <div className='container' style={{ marginBottom: 56, paddingRight: 560 }}>
+        <Title titulo={`${commonT(`siglas.${acronym}`)} (${commonT(`${acronym}`)})`}></Title>
+      </div>
+      <div className='container'>
+        <CallComponent acronym={acronym} track={track}></CallComponent>
+      </div>
+    </>
   );
 }

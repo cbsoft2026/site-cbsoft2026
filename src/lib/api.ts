@@ -36,12 +36,12 @@ const getPathsToTry = (
   ext: string = 'json',
 ): { path: string; track: Track | null }[] => {
   return [
-    { path: path.join(BASE_PATH, lang, slug, `${eventType}.${ext}`), track: null },
-    { path: path.join(BASE_PATH, defaultLang, slug, `${eventType}.${ext}`), track: null },
     ...trackValues.flatMap((track) => [
       { path: path.join(BASE_PATH, lang, slug, 'tracks', track, `${eventType}.${ext}`), track },
       { path: path.join(BASE_PATH, defaultLang, slug, 'tracks', track, `${eventType}.${ext}`), track },
     ]),
+    { path: path.join(BASE_PATH, lang, slug, `${eventType}.${ext}`), track: null },
+    { path: path.join(BASE_PATH, defaultLang, slug, `${eventType}.${ext}`), track: null },
   ];
 };
 
@@ -252,17 +252,19 @@ export function loadCalls(lang: Locale = defaultLang, symposiums = EVENTS_LIST, 
   const calls: Record<string, string> = {};
   symposiums.forEach((slug) => {
     const pathsToTry = getPathsToTry(lang, slug, 'chamada', 'md');
-    if (tracks.length <= 0) tracks.push('EMPTY_VALUE');
-    tracks.forEach((track) => {
+    (tracks.length > 0 ? tracks : [null]).forEach((track) => {
       for (const path of pathsToTry) {
         if (fs.existsSync(path.path)) {
           const value = fs.readFileSync(path.path, 'utf-8');
           if (path.track == track) {
             calls[`${slug}_${track}_${lang}`] = value;
+            break;
+          } else if (path.path.includes(lang)) {
+            calls[`${slug}_${lang}`] = value;
+            break;
           } else {
             calls[`${slug}_${lang}`] = value;
           }
-          break;
         }
       }
     });
