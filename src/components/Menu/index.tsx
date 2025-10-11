@@ -106,9 +106,9 @@ export default function Menu(props: HTMLAttributes<HTMLDivElement>) {
 
   const workshopsMenuItem: NavbarItemProps = {
     title: t('workshops.titulo'),
-    href: link('/workshops'),
-    items: [
-      { title: t('workshops.chamada_workshops'), href: '/workshops' },
+    href: '/workshops',
+    // items: [
+      // { title: t('workshops.chamada_workshops'), href: '/workshops' },
       // { title: t('workshops.workshops_aceitos'), href: '/workshops/aceitos' },
       // {
       //   title: 'VEM',
@@ -142,13 +142,13 @@ export default function Menu(props: HTMLAttributes<HTMLDivElement>) {
       //   title: 'SEDT',
       //   href: 'https://sedt-workshop.github.io',
       // },
-    ],
+    // ],
   };
 
   const schoolMenuItem: NavbarItemProps = {
     title: t('escola.titulo'),
-    href: link('/latam-school'),
-    items: [{ title: t('escola.call_for_participants'), href: '/latam-school' }],
+    href: '/latam-school',
+    // items: [{ title: t('escola.call_for_participants'), href: '/latam-school' }],
   };
 
   const artifactsMenuItem: NavbarItemProps = {
