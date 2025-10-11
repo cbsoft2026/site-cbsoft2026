@@ -156,7 +156,7 @@ export default function HomePage() {
           <h1 className={`text-center ${styles['content-title']}`}>{homeT('simposios')}</h1>
           <div className={styles['content__wrapper']}>
             {['sbes', 'sblp', 'sbcars', 'sast'].map((item, index) => (
-              <Link href={{ pathname: `symposiums/${item}` }} key={index}>
+              <Link href={{ pathname: `symposiums/${item}/call` }} key={index}>
                 <h4>{commonT(`siglas.${item}`)}</h4>
               </Link>
             ))}
