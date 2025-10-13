@@ -22,7 +22,7 @@ export default function Footer() {
         <div>
           <ul className={`list-inline ${styles.social}`}>
             <li className={`list-inline-item ${styles['list-inline-item']}`}>
-              <a href='mailto:cbsoft2025@cin.ufpe.br'>
+              <a href='mailto:cbsoft2026@ime.usp.br'>
                 <FontAwesomeIcon icon={faEnvelope} size='2x' />
               </a>
             </li>

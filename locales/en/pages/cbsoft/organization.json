@@ -1,15 +1,15 @@
 {
   "titulo": "Organization",
-  "local": "General Chairs",
-  "proceedings": "Proceedings Chairs",
-  "artifacts": "Artifacts Chairs",
+  "local": "Local Organization Co-chairs",
+  "proceedings": "Proceedings Co-chairs",
+  "artifacts": "Artifacts Co-chairs",
   "communication": "Communication Co-chairs",
   "voluntarios": "Volunteers",
 
-  "cbsoft": "General Chairs",
+  "cbsoft": "General Co-chairs",
   "publicity": "Publicity Chair",
   "volunteers": "Volunteers",
-  "volunteers_coord": "Volunteers Chairs",
+  "volunteers_coord": "Volunteers Co-chairs",
   "workshops": "Workshops",
   "web": "Web Chair"
 }
