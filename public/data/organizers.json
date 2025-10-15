@@ -3,22 +3,22 @@
     "category": "cbsoft",
     "chairs": [
       {
-        "image": "Paulo_Meirelles.jpeg",
+        "image": "pauloMeirelles.jpg",
         "name": "Paulo Meirelles",
         "university": "IME-USP"
       },
       {
-        "image": "Bruno_Cafeo.jpeg",
+        "image": "brunoCafeo.jpg",
         "name": "Bruno Cafeo",
         "university": "IC-UNICAMP"
       },
       {
-        "image": "Fabio_Kon.png",
+        "image": "fabioKon.jpg",
         "name": "Fabio Kon",
         "university": "IME-USP"
       },
       {
-        "image": "Eduardo_Guerra.png",
+        "image": "eduardoGuerra.jpg",
         "name": "Eduardo Guerra",
         "university": "UniBz, Itália"
       }
@@ -28,14 +28,241 @@
     "category": "local",
     "chairs": [
       {
-        "image": "Pedro_Valle.jpg",
+        "image": "pedroValle.jpg",
         "name": "Pedro Valle",
         "university": "IME-USP"
       },
       {
-        "image": "Higor_Amario.jpg",
+        "image": "higorAmario.jpg",
         "name": "Higor Amário",
         "university": "Poli-USP"
+      }
+    ]
+  },
+  {
+    "category": "sbes",
+    "subcategory": "pesquisa",
+    "chairs": [
+      {
+        "image": "monalessaBarcellos.jpg",
+        "name": "Monalessa Barcellos",
+        "university": "UFES"
+      },
+      {
+        "image": "ivanMachado.jpg",
+        "name": "Ivan Machado",
+        "university": "UFBA"
+      }
+    ]
+  },
+  {
+    "category": "sbes",
+    "subcategory": "ideias",
+    "chairs": [
+      {
+        "image": "thelmaColanzi.jpg",
+        "name": "Thelma Colanzi",
+        "university": "UEM"
+      },
+      {
+        "image": "cleidsonSouza.jpg",
+        "name": "Cleidson de Souza",
+        "university": "UFPA"
+      }
+    ]
+  },
+  {
+    "category": "sbes",
+    "subcategory": "tools",
+    "chairs": [
+      {
+        "image": "ednaCanedo.jpg",
+        "name": "Edna Canedo",
+        "university": "UnB"
+      },
+      {
+        "image": "rodrigoSantos.jpg",
+        "name": "Rodrigo Santos",
+        "university": "UNIRIO"
+      }
+    ]
+  },
+  {
+    "category": "sbes",
+    "subcategory": "educacao",
+    "chairs": [
+      {
+        "image": "carlaBezerra.jpg",
+        "name": "Carla Bezerra",
+        "university": "UFC"
+      },
+      {
+        "image": "awdrenFontao.jpg",
+        "name": "Awdren Fontão",
+        "university": "UFMS"
+      }
+    ]
+  },
+  {
+    "category": "sbes",
+    "subcategory": "ctd",
+    "chairs": [
+      {
+        "image": "katiaFelizardo.jpg",
+        "name": "Katia Romero Felizardo",
+        "university": "UTFPR"
+      },
+      {
+        "image": "guilhermeTravassos.jpg",
+        "name": "Guilherme Travassos",
+        "university": "UFRJ"
+      }
+    ]
+  },
+  {
+    "category": "sbes",
+    "subcategory": "ctic",
+    "chairs": [
+      {
+        "image": "paolaAccioly.jpg",
+        "name": "Paola Accioly",
+        "university": "UFPE"
+      },
+      {
+        "image": "phyllipeLima.jpg",
+        "name": "Phyllipe Lima",
+        "university": "UNIFEI"
+      }
+    ]
+  },
+  {
+    "category": "sbes",
+    "subcategory": "industry",
+    "chairs": [
+      {
+        "image": "mauricioAniche.jpg",
+        "name": "Maurício Aniche",
+        "university": "Uber"
+      },
+      {
+        "image": "joeYoder.jpg",
+        "name": "Joe Yoder",
+        "university": "Refactory"
+      }
+    ]
+  },
+  {
+    "category": "sblp",
+    "chairs": [
+      {
+        "image": "andersonFaustino.jpg",
+        "name": "Anderson Faustino",
+        "university": "UEM"
+      }
+    ]
+  },
+  {
+    "category": "sbcars",
+    "chairs": [
+      {
+        "image": "julianaAlves.jpg",
+        "name": "Juliana Alves Pereira",
+        "university": "PUC-Rio"
+      },
+      {
+        "image": "brenoFranca.jpg",
+        "name": "Breno de França",
+        "university": "UNICAMP"
+      }
+    ]
+  },
+  {
+    "category": "sast",
+    "chairs": [
+      {
+        "image": "robertaCoelho.jpg",
+        "name": "Roberta Coelho",
+        "university": "UFRN"
+      },
+      {
+        "image": "elvysSoares.jpg",
+        "name": "Elvys Soares",
+        "university": "IFAL"
+      }
+    ]
+  },
+  {
+    "category": "workshops",
+    "chairs": [
+      {
+        "image": "genainaRodrigues.jpg",
+        "name": "Genaína Rodrigues",
+        "university": "UnB"
+      },
+      {
+        "image": "naborMendonca.jpg",
+        "name": "Nabor Mendonça",
+        "university": "UNIFOR"
+      }
+    ]
+  },
+  {
+    "category": "artifacts",
+    "chairs": [
+      {
+        "image": "edsonOliveira.jpg",
+        "name": "Edson Oliveira",
+        "university": "UEM"
+      },
+      {
+        "image": "matheusPaixao.jpg",
+        "name": "Matheus Paixão",
+        "university": "UECE"
+      }
+    ]
+  },
+  {
+    "category": "school",
+    "chairs": [
+      {
+        "image": "fernandaMadeiral.jpg",
+        "name": "Fernanda Madeiral",
+        "university": "UFPE"
+      },
+      {
+        "image": "lincolnRocha.jpg",
+        "name": "Lincoln Rocha",
+        "university": "UFC"
+      }
+    ]
+  },
+  {
+    "category": "proceedings",
+    "chairs": [
+      {
+        "image": "vaniaNeves.jpg",
+        "name": "Vânia Neves",
+        "university": "UFF"
+      },
+      {
+        "image": "evertonCavalcante.jpg",
+        "name": "Everton Cavalcante",
+        "university": "UFRN"
+      },
+      {
+        "image": "silvanaMorita.jpg",
+        "name": "Silvana Morita",
+        "university": "UFGD"
+      },
+      {
+        "image": "helenoCampos.jpg",
+        "name": "Heleno Campos",
+        "university": "UFF"
+      },
+      {
+        "image": "arthurPilone.jpg",
+        "name": "Arthur Pilone",
+        "university": "IME-USP"
       }
     ]
   },
@@ -43,9 +270,39 @@
     "category": "publicity",
     "chairs": [
       {
-        "image": "Adolfo_Neto.jpg",
+        "image": "adolfoNeto.jpg",
         "name": "Adolfo Neto",
         "university": "UTFPR"
+      }
+    ]
+  },
+  {
+    "category": "volunteers",
+    "chairs": [
+      {
+        "image": "kellyBraghetto.jpg",
+        "name": "Kelly Braghetto",
+        "university": "IME-USP"
+      },
+      {
+        "image": "davidTadokoro.jpg",
+        "name": "David Tadokoro",
+        "university": "IME-USP"
+      }
+    ]
+  },
+  {
+    "category": "web",
+    "chairs": [
+      {
+        "image": "rafaelPassos.jpg",
+        "name": "Rafael Passos",
+        "university": "IME-USP"
+      },
+      {
+        "image": "guilhermeIvo.jpg",
+        "name": "Guilherme Ivo",
+        "university": "IME-USP"
       }
     ]
   }
