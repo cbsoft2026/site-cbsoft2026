@@ -15,7 +15,7 @@ function OrganizadorCard(props: Chair) {
       <div className={styles['card__image']}>
         <Image
           width={200}
-          height={180}
+          height={200}
           src={image?.startsWith('http') ? image : `/images/organizadores/${image || 'default.jpg'}`}
           alt={'perfil'}
         />
