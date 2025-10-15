@@ -23,7 +23,6 @@
     "sblp": "Brazilian Symposium on Programming Languages",
     "sbcars": "Brazilian Symposium on Software Components, Architectures, and Reuse",
     "sast": "Brazilian Symposium on Systematic and Automated Software Testing",
-    "industry-track": "Industry Track",
     "workshops": "Workshops",
     "vem": "12th Workshop on Software Visualization, Maintenance and Evolution",
     "mssis": "VI Workshop de Modelagem e Simulação de Sistemas intensivos em Software",
@@ -37,6 +36,7 @@
       "educacao": "Education Track",
       "ideias": "Insightful Ideas and Emerging Results Track",
       "tools": "Tools Track",
+      "industry": "Industry Track",
       "ctic": "Undergraduate Research on Software Engineering Competition",
       "ctd": "Doctoral and Master Theses Competition"
     }
