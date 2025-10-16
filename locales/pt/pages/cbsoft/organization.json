@@ -1,16 +1,16 @@
 {
   "titulo": "Organização",
   "local": "Coordenação Local",
-  "proceedings": "Coordenadores dos Anais",
-  "artifacts": "Coordenação de Artefatos",
+  "proceedings": "Anais",
+  "artifacts": "Festival de Artefatos",
   "communication": "Comunicação",
   "voluntarios": "Voluntários",
 
   "cbsoft": "Coordenação Geral",
-  "publicity": "Coordenador de Publicidade",
-  "volunteers": "Time de Voluntários",
-  "volunteers_coord": "Coordenação do Time de Voluntários",
+  "publicity": "Publicidade",
+  "volunteers": "Voluntários",
+  "volunteers_coord": "Coordenação de Voluntários",
   "workshops": "Workshops",
   "school": "LATAM School",
-  "web": "Web Chair"
+  "web": "Site"
 }
