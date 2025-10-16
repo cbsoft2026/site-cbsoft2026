@@ -237,6 +237,26 @@
     ]
   },
   {
+    "category": "high_school",
+    "chairs": [
+      {
+        "image": "linaGarces.jpg",
+        "name": "Lina Garcés",
+        "university": "ICMC-USP"
+      },
+      {
+        "image": "lucasBueno.jpg",
+        "name": "Lucas Bueno",
+        "university": "IFSP"
+      },
+      {
+        "image": "carlosDantas.jpg",
+        "name": "Carlos Eduardo Dantas",
+        "university": "IFTM"
+      }
+    ]
+  },
+  {
     "category": "proceedings",
     "chairs": [
       {
