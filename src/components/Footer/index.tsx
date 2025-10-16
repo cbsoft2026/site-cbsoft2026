@@ -5,7 +5,15 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { useTranslations } from 'next-intl';
 
 import styles from './styles.module.scss';
-import { faFacebook, faInstagram, faTwitter } from '@fortawesome/free-brands-svg-icons';
+import {
+  faBluesky,
+  faFacebook,
+  faInstagram,
+  faLinkedin,
+  faSquareInstagram,
+  faTwitter,
+  faXTwitter,
+} from '@fortawesome/free-brands-svg-icons';
 
 export default function Footer() {
   const t = useTranslations('components/footer');
@@ -23,65 +31,37 @@ export default function Footer() {
           <ul className={`list-inline ${styles.social}`}>
             <li className={`list-inline-item ${styles['list-inline-item']}`}>
               <a href='mailto:cbsoft2026@ime.usp.br'>
-                <FontAwesomeIcon icon={faEnvelope} size='2x' />
+                <FontAwesomeIcon icon={faEnvelope} style={{ fontSize: '1.35rem' }} />
               </a>
             </li>
             <li className={`list-inline-item ${styles['list-inline-item']}`}>
-              <a href='https://x.com/congressocbsoft' target='_blank' rel='noreferrer'>
-                <FontAwesomeIcon icon={faTwitter} size='2x' />
+              <a href='https://www.instagram.com/congresso.cbsoft' target='_blank' rel='noreferrer'>
+                <FontAwesomeIcon icon={faSquareInstagram} style={{ fontSize: '1.35rem' }} />
               </a>
             </li>
             <li className={`list-inline-item ${styles['list-inline-item']}`}>
               <a href='https://www.facebook.com/congresso.cbsoft/' target='_blank' rel='noreferrer'>
-                <FontAwesomeIcon icon={faFacebook} size='2x' />
+                <FontAwesomeIcon icon={faFacebook} style={{ fontSize: '1.35rem' }} />
               </a>
             </li>
             <li className={`list-inline-item ${styles['list-inline-item']}`}>
-              <a href='https://www.instagram.com/congresso.cbsoft/?hl=pt-br' target='_blank' rel='noreferrer'>
-                <FontAwesomeIcon icon={faInstagram} size='2x' />
+              <a href='https://x.com/congressocbsoft' target='_blank' rel='noreferrer'>
+                <FontAwesomeIcon icon={faXTwitter} style={{ fontSize: '1.35rem' }} />
+              </a>
+            </li>
+            <li className={`list-inline-item ${styles['list-inline-item']}`}>
+              <a href='https://bsky.app/profile/cbsoft.bsky.social' target='_blank' rel='noreferrer'>
+                <FontAwesomeIcon icon={faBluesky} style={{ fontSize: '1.2rem' }} />
+              </a>
+            </li>
+            <li className={`list-inline-item ${styles['list-inline-item']}`}>
+              <a href='https://linkedin.com/company/congressocbsoft' target='_blank' rel='noreferrer'>
+                <FontAwesomeIcon icon={faLinkedin} style={{ fontSize: '1.35rem' }} />
               </a>
             </li>
           </ul>
         </div>
       </div>
     </footer>
-    // <footer {...props} className={`${props.className} bg-secondary ${styles.footer}`}>
-    //   <div className={styles.top}>
-    //     <div className='block text-center'>
-    //       <picture>
-    //         <img src='/images/logos/cbsoft-logo.svg' alt='logo' width='220px' height='34px' className='img-fluid' />
-    //       </picture>
-    //     </div>
-
-    //     <span className={styles.separator}></span>
-
-    //     <ul className={`list-inline ${styles['list-inline']}`}>
-    //       <li className={`list-inline-item ${styles['list-inline-item']}`}>
-    //         <a href='mailto:cbsoft2025@cin.ufpe.br'>
-    //           <FontAwesomeIcon icon={faEnvelope} size='2x' />
-    //         </a>
-    //       </li>
-    //       <li className={`list-inline-item ${styles['list-inline-item']}`}>
-    //         <a href='https://x.com/congressocbsoft' target='_blank' rel='noreferrer'>
-    //           <FontAwesomeIcon icon={faTwitter} size='2x' />
-    //         </a>
-    //       </li>
-    //       <li className={`list-inline-item ${styles['list-inline-item']}`}>
-    //         <a href='https://www.facebook.com/congresso.cbsoft/' target='_blank' rel='noreferrer'>
-    //           <FontAwesomeIcon icon={faFacebook} size='2x' />
-    //         </a>
-    //       </li>
-    //       <li className={`list-inline-item ${styles['list-inline-item']}`}>
-    //         <a href='https://www.instagram.com/congresso.cbsoft/?hl=pt-br' target='_blank' rel='noreferrer'>
-    //           <FontAwesomeIcon icon={faInstagram} size='2x' />
-    //         </a>
-    //       </li>
-    //     </ul>
-    //   </div>
-
-    //   <div className={styles.bottom}>
-    //     CBSoft &#169; 2023-2025 | <span>{t('copyright')}</span>
-    //   </div>
-    // </footer>
   );
 }

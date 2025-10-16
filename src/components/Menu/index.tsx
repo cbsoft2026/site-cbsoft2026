@@ -108,40 +108,40 @@ export default function Menu(props: HTMLAttributes<HTMLDivElement>) {
     title: t('workshops.titulo'),
     href: '/workshops',
     // items: [
-      // { title: t('workshops.chamada_workshops'), href: '/workshops' },
-      // { title: t('workshops.workshops_aceitos'), href: '/workshops/aceitos' },
-      // {
-      //   title: 'VEM',
-      //   href: 'https://vemworkshop.github.io/vem2025',
-      // },
-      // {
-      //   title: 'MSSIS',
-      //   href: 'https://ww2.inf.ufg.br/mssis',
-      // },
-      // {
-      //   title: 'ISE',
-      //   href: 'https://www.virtus.ufcg.edu.br/iseworkshop',
-      // },
-      // {
-      //   title: 'AIWARE LatAm',
-      //   href: 'https://aiware-latam.github.io',
-      // },
-      // {
-      //   title: 'WBots',
-      //   href: 'https://w-bots.github.io/wbots/2025/',
-      // },
-      // {
-      //   title: 'SE4Games',
-      //   href: 'https://se4games2025.vercel.app',
-      // },
-      // {
-      //   title: 'SE4FP',
-      //   href: 'https://se4fp.github.io/2025',
-      // },
-      // {
-      //   title: 'SEDT',
-      //   href: 'https://sedt-workshop.github.io',
-      // },
+    // { title: t('workshops.chamada_workshops'), href: '/workshops' },
+    // { title: t('workshops.workshops_aceitos'), href: '/workshops/aceitos' },
+    // {
+    //   title: 'VEM',
+    //   href: 'https://vemworkshop.github.io/vem2025',
+    // },
+    // {
+    //   title: 'MSSIS',
+    //   href: 'https://ww2.inf.ufg.br/mssis',
+    // },
+    // {
+    //   title: 'ISE',
+    //   href: 'https://www.virtus.ufcg.edu.br/iseworkshop',
+    // },
+    // {
+    //   title: 'AIWARE LatAm',
+    //   href: 'https://aiware-latam.github.io',
+    // },
+    // {
+    //   title: 'WBots',
+    //   href: 'https://w-bots.github.io/wbots/2025/',
+    // },
+    // {
+    //   title: 'SE4Games',
+    //   href: 'https://se4games2025.vercel.app',
+    // },
+    // {
+    //   title: 'SE4FP',
+    //   href: 'https://se4fp.github.io/2025',
+    // },
+    // {
+    //   title: 'SEDT',
+    //   href: 'https://sedt-workshop.github.io',
+    // },
     // ],
   };
 
