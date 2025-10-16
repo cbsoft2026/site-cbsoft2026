@@ -273,6 +273,11 @@
         "image": "adolfoNeto.jpg",
         "name": "Adolfo Neto",
         "university": "UTFPR"
+      },
+      {
+        "image": "emaMiranda.jpg",
+        "name": "Ema Miranda",
+        "university": "UNIFAP"
       }
     ]
   },
