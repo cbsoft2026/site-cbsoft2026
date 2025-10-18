@@ -1,0 +1,39 @@
+name: Solicitação de Correção de Informação
+description: Use este formulário para solicitar ajustes de informações no site (nomes, fotos, cargos, afiliações, descrições, etc.).
+title: "[Correção]: "
+labels: ["content-fix"]
+body:
+- type: dropdown
+  id: section
+  attributes:
+    label: Selecione a seção do site onde a informação incorreta está localizada. Caso não esteja listada ou se refira a um subtópico, descreva manualmente no campo de texto.
+    options:
+      - Sobre
+      - Organização
+      - Local do Evento
+      - Código de Conduta
+      - Simpósios
+      - Workshops
+      - Artefatos
+      - LATAM School
+      - Outro (especificar no texto)
+  validations:
+    required: true
+
+- type: dropdown
+  id: symposia
+  attributes:
+    label: Simpósio relacionado (se aplicável). Caso também se refira a uma trilha específica (por exemplo, "SBES - Trilha de Ideias Inovadoras e Resultados Emergentes"), descreva manualmente no campo de texto.
+    options:
+      - SBES
+      - SBLP
+      - SBCARS
+      - SAST
+
+- type: textarea
+  id: correction
+  attributes:
+    label: Informação incorreta e correção sugerida
+    description: Descreva o que está incorreto (por exemplo, nome, foto, afiliação, cargo, etc.) e indique a forma correta. Inclua links ou evidências, se necessário.
+  validations:
+    required: true
