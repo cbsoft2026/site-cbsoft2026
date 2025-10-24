@@ -213,6 +213,12 @@
   padding: 80px 0;
 }
 
+@media (max-width: 768px) {
+  .section-style {
+    padding: 40px 0;
+  }
+}
+
 .hero {
   min-height: max(calc(100svh - 75px), 500px);
   position: relative;
