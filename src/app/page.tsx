@@ -184,9 +184,9 @@ export default function HomePage() {
               <FontAwesomeIcon icon={faLocationDot} />
               {locationT('location')}
             </span>
-            <h4>
+            <h3>
               {commonT('localEvento')} &ndash; {commonT('localDetalhes')}
-            </h4>
+            </h3>
             <div className={styles['description_grid']}>
               <div>
                 <p>{locationT('location_tips.1')}</p>
@@ -202,8 +202,6 @@ export default function HomePage() {
           </div>
           <div className={styles['location__slides']}>
             <iframe
-              width='560'
-              height='315'
               src='https://www.youtube.com/embed/L7Md62Cfq5k?si=Xw1Tq2Y7GVe7ZnEt&amp;controls=0'
               title='YouTube video player'
               frameBorder='0'
