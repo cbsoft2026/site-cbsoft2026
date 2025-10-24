@@ -1,4 +1,10 @@
 {
   "titulo": "Local do Evento",
-  "comochegar": "Como chegar?"
+  "comochegar": "Como chegar?",
+  "location_tips": {
+    "1": "Estação mais próxima é a Estação Butantã, na linha 4 – Amarela",
+    "2": "Ônibus circulares operados pela USP"
+  },
+  "location": "Localização",
+  "more_informations": "Mais informações"
 }

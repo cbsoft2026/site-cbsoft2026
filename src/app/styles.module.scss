@@ -1,4 +1,5 @@
 @use 'variables' as *;
+@use 'elements' as *;
 
 .about {
   .container > picture > img {
@@ -23,21 +24,78 @@
   }
 }
 
-.videoCBSoft {
-  padding: 4em 0;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+.location {
+  > div {
+    display: flex;
+    justify-content: space-between;
+    gap: 64px;
+    flex-wrap: wrap;
+  }
+
+  .location__description {
+    flex: 1;
+
+    span {
+      margin-bottom: 24px;
+    }
+
+    h4 {
+      margin-bottom: 32px;
+    }
+
+    .description_grid {
+      width: 70%;
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 16px;
+      margin-bottom: 32px;
+
+      > div {
+        padding: 16px;
+        border: 1px solid $body-color;
+        border-radius: 8px;
+        color: $text-primary;
+
+        p {
+          margin-bottom: 0;
+        }
+      }
+    }
+  }
+
+  .location__slides {
+    flex: 1;
+    min-height: 452px;
+    width: 100%;
+  }
+
   iframe {
     border-radius: 32px;
     width: 100%;
-    height: calc(100vw * 9 / 16); // 16: 9
-    max-height: 70vh;
+    height: 100%;
     box-shadow: $box-shadow;
   }
+}
 
-  @media (max-width: 768px) {
-    padding: 2em 0;
+@media (max-width: 1024px) {
+  .location {
+    > div {
+      gap: 32px;
+    }
+    .location__description .description_grid {
+      grid-template-columns: 1fr;
+    }
+  }
+}
+
+@media (max-width: 768px) {
+  .location {
+    > div {
+      flex-direction: column;
+    }
+    .location__slides {
+      min-height: calc(100vw * 3 / 4);
+    }
   }
 }
 
@@ -151,6 +209,10 @@
   }
 }
 
+.section-style {
+  padding: 80px 0;
+}
+
 .hero {
   min-height: max(calc(100svh - 75px), 500px);
   position: relative;
@@ -262,22 +324,27 @@
 }
 
 .content {
-  padding: 12px 0;
   position: relative;
 
   .content-title {
     margin-bottom: 64px;
+    font-variant: small-caps;
   }
 
   .content__images {
     > div {
-      min-width: 240px;
-      text-align: center;
+      min-width: 300px;
+      // text-align: center;
 
       img {
-        filter: grayscale(100%);
-        margin-bottom: 24px;
-        transition: color ease-in 0.1s;
+        border: $border-color 1px solid;
+        margin-bottom: 16px;
+        object-fit: cover;
+        object-position: 50% 35%;
+        width: 100%;
+        transition:
+          color ease-in 0.1s,
+          filter ease-in 0.02s;
       }
 
       h4 {
@@ -290,6 +357,7 @@
         }
         img {
           box-shadow: $box-shadow;
+          filter: grayscale(100%);
         }
       }
     }

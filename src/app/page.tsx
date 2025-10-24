@@ -1,7 +1,7 @@
 'use client';
 
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faArrowDown, faCalendarCheck, faLocationDot } from '@fortawesome/free-solid-svg-icons';
+import { faArrowDown, faCalendarCheck, faLocationDot, faPlus } from '@fortawesome/free-solid-svg-icons';
 
 import { common, sponsors } from '@/data';
 import styles from './styles.module.scss';
@@ -59,6 +59,7 @@ function SponsorSection(props: SponsorSection) {
 
 export default function HomePage() {
   const commonT = useTranslations('common');
+  const locationT = useTranslations('pages/cbsoft/location');
 
   const year = appConfig.year.toString();
   const homeT = useTObject('pages/home', {
@@ -88,8 +89,8 @@ export default function HomePage() {
                       ? speaker.image
                       : `/images/speakers/${speaker.image || 'default.jpg'}`
                   }
-                  width={240}
-                  height={240}
+                  width={300}
+                  height={300}
                   alt={speaker.name}
                   title={speaker.name}
                 />
@@ -133,7 +134,7 @@ export default function HomePage() {
             <FontAwesomeIcon icon={faLocationDot} />
             <div className={styles.descricao}>
               <p>
-                {commonT('localEvento')} - {commonT('localDetalhes')}
+                {commonT('localEvento')} &ndash; {commonT('localDetalhes')}
               </p>
             </div>
           </div>
@@ -151,6 +152,11 @@ export default function HomePage() {
         </div>
       </section>
 
+      {/* TODO: 
+        mostrar informacoes extras dos simposios, 
+        como, quantidade de eventos, quantidade
+        de artigos, ...
+      */}
       <section id='first-section'>
         <div className={`${styles.content} ${styles.simposios} container`}>
           <h1 className={`text-center ${styles['content-title']}`}>{homeT('simposios')}</h1>
@@ -164,25 +170,48 @@ export default function HomePage() {
         </div>
       </section>
 
-      <section>
+      <section className={styles['section-style']}>
         <div className={styles.content}>
           <h1 className={`text-center ${styles['content-title']}`}>{homeT('participantes')}</h1>
           <InfiniteScroll className={styles['content__images']} items={speakersElement} />
         </div>
       </section>
 
-      <section className={styles.videoCBSoft}>
+      <section className={`${styles.location} ${styles['section-style']}`}>
         <div className='container'>
-          <iframe
-            width='560'
-            height='315'
-            src='https://www.youtube.com/embed/L7Md62Cfq5k?si=Xw1Tq2Y7GVe7ZnEt&amp;controls=0'
-            title='YouTube video player'
-            frameBorder='0'
-            allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share'
-            referrerPolicy='strict-origin-when-cross-origin'
-            allowFullScreen
-          ></iframe>
+          <div className={styles['location__description']}>
+            <span className={styles.chip}>
+              <FontAwesomeIcon icon={faLocationDot} />
+              {locationT('location')}
+            </span>
+            <h4>
+              {commonT('localEvento')} &ndash; {commonT('localDetalhes')}
+            </h4>
+            <div className={styles['description_grid']}>
+              <div>
+                <p>{locationT('location_tips.1')}</p>
+              </div>
+              <div>
+                <p>{locationT('location_tips.2')}</p>
+              </div>
+            </div>
+            <Link href={'/cbsoft/location'} className={styles.button}>
+              {locationT('more_informations')}
+              <FontAwesomeIcon icon={faPlus} />
+            </Link>
+          </div>
+          <div className={styles['location__slides']}>
+            <iframe
+              width='560'
+              height='315'
+              src='https://www.youtube.com/embed/L7Md62Cfq5k?si=Xw1Tq2Y7GVe7ZnEt&amp;controls=0'
+              title='YouTube video player'
+              frameBorder='0'
+              allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share'
+              referrerPolicy='strict-origin-when-cross-origin'
+              allowFullScreen
+            ></iframe>
+          </div>
         </div>
       </section>
 

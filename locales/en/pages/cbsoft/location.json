@@ -1,4 +1,10 @@
 {
   "titulo": "Venue & Location",
-  "comochegar": "How to get here?"
+  "comochegar": "How to get here?",
+    "location_tips": {
+    "1": "The nearest station is Butantã Station, on Line 4 – Yellow",
+    "2": "Shuttle buses operated by USP"
+  },
+  "location": "Location",
+  "more_informations": "More information"
 }

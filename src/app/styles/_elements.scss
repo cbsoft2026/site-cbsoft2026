@@ -11,8 +11,18 @@
   color: $primary;
   padding: 4px 8px;
   user-select: none;
+  width: fit-content;
 
   transition: background-color 0.2s ease;
+
+  p,
+  span {
+    margin-bottom: 0 !important;
+  }
+
+  svg {
+    margin-right: 4px;
+  }
 }
 
 .icon {
@@ -112,4 +122,20 @@
   border-radius: 32px;
   border: 1px solid #d9dbdd;
   padding: 10px 16px;
+}
+
+.button {
+  background: #fffaf3;
+  display: block;
+  padding: 10px 16px;
+  border-radius: 32px;
+  border: 1px solid #d9dbdd;
+  font-weight: bold;
+  text-align: center;
+  width: fit-content;
+  text-decoration: none;
+
+  svg {
+    margin-left: 10px;
+  }
 }
