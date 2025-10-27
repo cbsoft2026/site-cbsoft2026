@@ -1,12 +1,7 @@
 'use client';
 
-import ReactMarkdown from 'react-markdown';
-import rehypeHighlight from 'rehype-highlight';
-import latex from 'highlight.js/lib/languages/latex';
-import rehypeRaw from 'rehype-raw';
 import { useEffect, useState } from 'react';
 import { useLocaleContext } from '@/providers/LocaleProvider';
-import styles from './styles.module.scss';
 import TemplateMarkdown from '../TemplateMarkdown';
 
 type Props = {
@@ -26,9 +21,7 @@ export default function CallComponent({ acronym, track }: Props) {
 
   return (
     <>
-      <TemplateMarkdown>
-        {call}
-      </TemplateMarkdown>
+      <TemplateMarkdown>{call}</TemplateMarkdown>
     </>
   );
 }
