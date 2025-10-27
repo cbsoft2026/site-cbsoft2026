@@ -5,7 +5,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { useTranslations } from 'next-intl';
 
 import styles from './styles.module.scss';
-import { faBluesky, faFacebook, faLinkedin, faSquareInstagram, faXTwitter } from '@fortawesome/free-brands-svg-icons';
+import { faBluesky, faFacebook, faGithub, faLinkedin, faSquareInstagram, faXTwitter } from '@fortawesome/free-brands-svg-icons';
 
 export default function Footer() {
   const t = useTranslations('components/footer');
@@ -49,6 +49,11 @@ export default function Footer() {
             <li className={`list-inline-item ${styles['list-inline-item']}`}>
               <a href='https://linkedin.com/company/congressocbsoft' target='_blank' rel='noreferrer'>
                 <FontAwesomeIcon icon={faLinkedin} style={{ fontSize: '1.35rem' }} />
+              </a>
+            </li>
+            <li className={`list-inline-item ${styles['list-inline-item']}`}>
+              <a href='https://github.com/cbsoft2026' target='_blank' rel='noreferrer'>
+                <FontAwesomeIcon icon={faGithub} style={{ fontSize: '1.35rem' }} />
               </a>
             </li>
           </ul>
