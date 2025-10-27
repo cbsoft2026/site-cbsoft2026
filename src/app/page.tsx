@@ -11,7 +11,7 @@ import Countdown from '@/components/Countdown';
 import { useTranslations } from 'next-intl';
 import { useTObject } from '@/hooks/useTObject';
 import appConfig from './app.config';
-import { useEffect, useMemo, useState } from 'react';
+import { useEffect, useMemo, useRef, useState } from 'react';
 import { Participants } from '@/types/participants';
 import Image from 'next/image';
 import { useLocaleContext } from '@/providers/LocaleProvider';
@@ -30,7 +30,7 @@ function SponsorSection(props: SponsorSection) {
   return (
     <div>
       <div className={`col-12 text-center ${styles['sponsor-title']}`}>
-        <h4>{props.title}</h4>
+        <h3>{props.title}</h3>
       </div>
 
       <div className={`col-12 block ${styles.block}`}>
@@ -107,6 +107,24 @@ export default function HomePage() {
       .then((res) => res.json())
       .then((json) => setSpeaker(json));
   }, [setSpeaker]);
+
+  const ref = useRef(null);
+  const [isVisible, setVisible] = useState(false);
+
+  useEffect(() => {
+    const observer = new IntersectionObserver(
+      ([entry]) => {
+        if (entry.isIntersecting) {
+          setVisible(true);
+          observer.unobserve(entry.target);
+        }
+      },
+      { threshold: 1 }
+    );
+
+    if (ref.current) observer.observe(ref.current);
+    return () => observer.disconnect();
+  },);
 
   return (
     <article>
@@ -213,8 +231,18 @@ export default function HomePage() {
         </div>
       </section>
 
+      <div ref={ref} className={`container ${styles["sponsors__above"]} ${isVisible ? styles.show : ""}`}>
+        <div></div>
+        <div></div>
+        <div><div></div></div>
+        <div></div>
+      </div>
+      
       <section id='org-apoio-patro' className={styles.sponsors}>
-        <div className='container'>
+        <div className={`container ${styles["sponsors__description"]}`}>
+          <p>Quem está contribuindo</p>
+        </div>
+        <div className={`container ${styles["sponsors__container"]}`}>
           {Object.entries(sponsors).map(
             ([sectionTitle, list], index) =>
               list.length > 0 && (

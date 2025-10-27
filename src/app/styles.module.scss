@@ -103,21 +103,107 @@
   }
 }
 
+.sponsors__above {
+  display: flex;
+  padding: 0 !important;
+  margin-top: -30px;
+
+  &.show {
+    > div {
+      transform: translateY(+50%);
+      > div {
+        transform: scale(1);
+      }
+    }
+  }
+
+  > div {
+    flex: 1 1;
+    width: 25%;
+    aspect-ratio: 1;
+    background: red;
+    border-radius: 32px;
+    transform: translateY(+150%);
+    transition: 1s cubic-bezier(0.46,0.24,0.04,1);
+    position: relative;
+
+    > div {
+      width: 25%;
+      background: $body-bg;
+      border-radius: 50%;
+      aspect-ratio: 1;
+      position: absolute;
+      top: 15%;
+      right: 15%;
+      transform: scale(0);
+      transition: 1s cubic-bezier(0.46,0.24,0.04,1);
+    }
+
+    &:nth-child(2) {
+      border-radius: 50%;
+    }
+
+    &:nth-child(1) {
+      transition-delay: 0s;
+      background: $primary;
+      > div {
+        transition-delay: .3s;
+      }
+    }
+    &:nth-child(2) {
+      transition-delay: .3s;
+      background: $secondary;
+      > div {
+        transition-delay: .6s;
+      }
+    }
+    &:nth-child(3) {
+      transition-delay: .6s;
+      background: #f09415;
+      > div {
+        transition-delay: .9s;
+      }
+    }
+    &:nth-child(4) {
+      transition-delay: .9s;
+      background: $primary-alt;
+      > div {
+        transition-delay: 1.2s;
+      }
+    }
+  }
+}
+
 .sponsors {
   position: relative;
   background-color: $overlay-bg;
-  margin-top: 40;
-  padding-top: 15;
-  padding-bottom: 15;
+
+  .sponsors__description {
+    padding: calc(var(--bs-gutter-x) * .5);
+    user-select: none;
+    font-size: 12px;
+    font-weight: bold;
+    text-transform: uppercase;
+  }
+
+  .sponsors__container {
+    padding-top: 60px;
+    padding-bottom: 60px;
+  }
+
+  @media (max-width: 768px) {
+    .sponsors__container {
+      padding-top: 40px;
+      padding-bottom: 40px;
+    }
+  }
+
 
   .sponsor-title {
-    margin: 10;
     text-align: center;
   }
 
   .block {
-    margin-top: 40;
-
     /* Base para todas as listas de sponsors */
     .sponsors-list {
       list-style: none;
