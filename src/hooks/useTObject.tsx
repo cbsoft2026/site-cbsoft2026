@@ -1,9 +1,9 @@
 'use client';
 
+import TemplateMarkdown from '@/components/TemplateMarkdown';
 import { useLocaleContext } from '@/providers/LocaleProvider';
 import React from 'react';
 import { JSX, useMemo } from 'react';
-import ReactMarkdown from 'react-markdown';
 
 /**
  * Tipos para mapear renderizadores de nós de mensagens.
@@ -57,7 +57,7 @@ export function useTObject(namespace: string, hookParams: Params = {}) {
       markdown: (node, key, params) => {
         const content = Array.isArray(node.conteudo) ? node.conteudo.join('\n\n') : node.conteudo;
 
-        return <ReactMarkdown key={key}>{interpolate(content, params)}</ReactMarkdown>;
+        return <TemplateMarkdown key={key}>{interpolate(content, params)}</TemplateMarkdown>;
       },
       ul: (node, key, params) => (
         <ul key={key}>

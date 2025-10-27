@@ -28,7 +28,7 @@ function SponsorSection(props: SponsorSection) {
   const grouped = groupSponsorsByTier(props.list);
 
   return (
-    <div className='row'>
+    <div>
       <div className={`col-12 text-center ${styles['sponsor-title']}`}>
         <h4>{props.title}</h4>
       </div>

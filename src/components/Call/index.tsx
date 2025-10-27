@@ -7,6 +7,7 @@ import rehypeRaw from 'rehype-raw';
 import { useEffect, useState } from 'react';
 import { useLocaleContext } from '@/providers/LocaleProvider';
 import styles from './styles.module.scss';
+import TemplateMarkdown from '../TemplateMarkdown';
 
 type Props = {
   acronym: string;
@@ -25,11 +26,9 @@ export default function CallComponent({ acronym, track }: Props) {
 
   return (
     <>
-      <div className={`row ${styles['markdown-body']}`}>
-        <ReactMarkdown skipHtml={false} rehypePlugins={[[rehypeHighlight, { languages: { latex } }], rehypeRaw]}>
-          {call}
-        </ReactMarkdown>
-      </div>
+      <TemplateMarkdown>
+        {call}
+      </TemplateMarkdown>
     </>
   );
 }

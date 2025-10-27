@@ -28,14 +28,12 @@ export default function PreviousEditionsPage() {
   return (
     <section className={`speakers overlay-lighter about`} style={{ paddingTop: '50px' }}>
       <div className='container'>
-        <div className='row'>
           <div className='col-12'>
             <Title titulo={t('titulo')} align='center' />
             <div className={styles.description}>
               {previousEditions.map((edicao, index) => (
                 <Edicao {...edicao} key={index} />
               ))}
-            </div>
           </div>
         </div>
       </div>

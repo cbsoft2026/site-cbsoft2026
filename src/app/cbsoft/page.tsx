@@ -36,7 +36,7 @@ export default function CbsoftPage() {
             <img className='img-fluid' src='/images/logos/cbsoft-logo-icon.svg' alt='cbsoft-logo' />
           </picture>
 
-          <div className='row'>
+          <div>
             <Title titulo={t('sobre')} align={width == null || width > 768 ? 'left' : 'center'} />
             {t('descricao')}
           </div>

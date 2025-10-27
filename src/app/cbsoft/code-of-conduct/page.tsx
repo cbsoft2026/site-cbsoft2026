@@ -9,11 +9,9 @@ export default function CodeOfConductPage() {
 
   return (
     <section className='container' style={{ paddingTop: '50px' }}>
-      <div className='row'>
-        <div className='col-lg-8 col-md-6 align-self-center'>
-          <Title titulo={t('titulo')} />
-          {t('descricao', { ano: appConfig.year })}
-        </div>
+      <div>
+        <Title titulo={t('titulo')} />
+        {t('descricao', { ano: appConfig.year })}
       </div>
     </section>
   );

@@ -6,12 +6,15 @@
   justify-content: center;
   color: $text-primary;
   border-radius: 32px;
-  background-color: #faf3e9;
-  border: 1px solid #d9dbdd;
+  background-color: #faece8;
+  border: 1px solid #eeb6a4;
   color: $primary;
-  padding: 4px 8px;
+  padding: 4px 12px;
   user-select: none;
   width: fit-content;
+  font-size: 12px;
+  font-weight: bold;
+  text-transform: uppercase;
 
   transition: background-color 0.2s ease;
 
@@ -21,7 +24,7 @@
   }
 
   svg {
-    margin-right: 4px;
+    margin-right: 8px;
   }
 }
 
@@ -57,12 +60,12 @@
   align-items: center;
   background: $body-bg;
   border-radius: 32px;
-  border: 1px solid #d9dbdd;
+  border: 1px solid #eeb6a4;
   overflow: hidden;
 
   > a {
     color: $text-primary;
-    border-right: 1px solid #d9dbdd;
+    border-right: 1px solid #eeb6a4;
     padding: 4px 8px;
 
     &:last-child {
@@ -70,7 +73,7 @@
     }
 
     &.active {
-      background: #fffaf3;
+      background: #faece8;
 
       &:hover {
         background: #faf3e9;
@@ -118,24 +121,31 @@
 }
 
 .select {
-  background: #fffaf3;
+  background: #faece8;
   border-radius: 32px;
-  border: 1px solid #d9dbdd;
+  border: 1px solid #eeb6a4;
   padding: 10px 16px;
 }
 
 .button {
-  background: #fffaf3;
+  background: #faece8;
   display: block;
-  padding: 10px 16px;
+  padding: 10px 24px;
   border-radius: 32px;
-  border: 1px solid #d9dbdd;
+  border: 1px solid #eeb6a4;
   font-weight: bold;
   text-align: center;
   width: fit-content;
   text-decoration: none;
 
   svg {
-    margin-left: 10px;
+    margin-left: 12px;
+    transition: transform .1s ease-in;
+  }
+
+  &:hover {
+    svg {
+      transform: rotate(30deg);
+    }
   }
 }
