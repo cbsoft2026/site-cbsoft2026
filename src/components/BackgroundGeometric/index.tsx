@@ -89,6 +89,7 @@ const BackgroundGeometric = (amount: number) => {
   );
 
   useEffect(() => {
+    if (animate == true) return
     const timer = setTimeout(() => {
       setAnimate(true);
       shapes.forEach((shape, index) => {
