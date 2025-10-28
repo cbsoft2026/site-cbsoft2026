@@ -119,26 +119,37 @@ export default function HomePage() {
           observer.unobserve(entry.target);
         }
       },
-      { threshold: 1 }
+      { threshold: 1 },
     );
 
     if (ref.current) observer.observe(ref.current);
     return () => observer.disconnect();
-  },);
+  });
 
   return (
     <article>
       <section className={styles.hero}>
         <div className={styles['hero__background']}>
           <div className={styles['bottom-left']}>
-            <Image width={115} height={115} src='/images/group--1.svg' alt='' />
+            <svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 41 41' className={styles['abstract-blocks']}>
+              <path fill='#1d656d' d='M0 0v20.5h20.5A20.5 20.5 0 0 0 0 0z'></path>
+              <path fill='#f09415' d='M20 20.5v20.5h20.5A20.5 20.5 0 0 0 20.5 20.5z'></path>
+              <path fill='#b43425' d='M0 20.5h20.5v20.5H0z'></path>
+            </svg>
           </div>
           <div className={styles['top-right']}>
-            <Image width={232} height={232} src='/images/group--2.svg' alt='' />
+            <svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 61.5 61.5' className={styles['abstract-blocks']}>
+              <path fill='#d5491d' d='M20.5 20.47V0H0a20.5 20.5 0 0 1 20.5 20.47z'></path>
+              <path fill='#f09415' d='M61.5 61.5V41H41a20.5 20.5 0 0 0 20.5 20.5z'></path>
+              <path fill='#077875' d='M20.5 0h41v41h-41z'></path>
+              <circle cx='51.25' cy='10.25' r='4.5' fill='#fff'></circle>
+            </svg>
           </div>
           <Link href='#first-section' className={`${styles['bottom-right']} ${styles['arrow-down']}`}>
             <div>
-              <Image width={197} height={197} src='/images/group--3.svg' alt='' />
+              <svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 52 52' className={styles['abstract-blocks']}>
+                <path fill='#d5491d' d='M52 0v0 52 0H0v0z'></path>
+              </svg>
               <FontAwesomeIcon icon={faArrowDown} size='4x' />
             </div>
           </Link>
@@ -231,18 +242,20 @@ export default function HomePage() {
         </div>
       </section>
 
-      <div ref={ref} className={`container ${styles["sponsors__above"]} ${isVisible ? styles.show : ""}`}>
+      <div ref={ref} className={`container ${styles['sponsors__above']} ${isVisible ? styles.show : ''}`}>
         <div></div>
         <div></div>
-        <div><div></div></div>
+        <div>
+          <div></div>
+        </div>
         <div></div>
       </div>
-      
+
       <section id='org-apoio-patro' className={styles.sponsors}>
-        <div className={`container ${styles["sponsors__description"]}`}>
+        <div className={`container ${styles['sponsors__description']}`}>
           <p>Quem está contribuindo</p>
         </div>
-        <div className={`container ${styles["sponsors__container"]}`}>
+        <div className={`container ${styles['sponsors__container']}`}>
           {Object.entries(sponsors).map(
             ([sectionTitle, list], index) =>
               list.length > 0 && (

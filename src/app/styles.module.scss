@@ -1,29 +1,6 @@
 @use 'variables' as *;
 @use 'elements' as *;
 
-.about {
-  .container > picture > img {
-    position: absolute;
-    left: 0;
-    right: 0;
-    margin-right: auto;
-    margin-left: auto;
-    opacity: 0.05;
-    z-index: -1;
-  }
-
-  ul li {
-    color: $body-color;
-    font-size: 1.0625rem;
-    line-height: 26px;
-    text-align: left;
-  }
-
-  .meta {
-    padding-top: 5%;
-  }
-}
-
 .location {
   > div {
     display: flex;
@@ -124,7 +101,7 @@
     background: red;
     border-radius: 32px;
     transform: translateY(+150%);
-    transition: 1s cubic-bezier(0.46,0.24,0.04,1);
+    transition: 1s cubic-bezier(0.46, 0.24, 0.04, 1);
     position: relative;
 
     > div {
@@ -136,7 +113,7 @@
       top: 15%;
       right: 15%;
       transform: scale(0);
-      transition: 1s cubic-bezier(0.46,0.24,0.04,1);
+      transition: 1s cubic-bezier(0.46, 0.24, 0.04, 1);
     }
 
     &:nth-child(2) {
@@ -147,25 +124,25 @@
       transition-delay: 0s;
       background: $primary;
       > div {
-        transition-delay: .3s;
+        transition-delay: 0.3s;
       }
     }
     &:nth-child(2) {
-      transition-delay: .3s;
+      transition-delay: 0.3s;
       background: $secondary;
       > div {
-        transition-delay: .6s;
+        transition-delay: 0.6s;
       }
     }
     &:nth-child(3) {
-      transition-delay: .6s;
+      transition-delay: 0.6s;
       background: #f09415;
       > div {
-        transition-delay: .9s;
+        transition-delay: 0.9s;
       }
     }
     &:nth-child(4) {
-      transition-delay: .9s;
+      transition-delay: 0.9s;
       background: $primary-alt;
       > div {
         transition-delay: 1.2s;
@@ -179,7 +156,7 @@
   background-color: $overlay-bg;
 
   .sponsors__description {
-    padding: calc(var(--bs-gutter-x) * .5);
+    padding: calc(var(--bs-gutter-x) * 0.5);
     user-select: none;
     font-size: 12px;
     font-weight: bold;
@@ -197,7 +174,6 @@
       padding-bottom: 40px;
     }
   }
-
 
   .sponsor-title {
     text-align: center;
@@ -318,38 +294,45 @@
   margin-bottom: 45px;
 
   .hero__background {
-    .bottom-left {
+    svg.abstract-blocks {
+      width: 100%;
+      height: 100%;
+    }
+    > div,
+    a {
+      aspect-ratio: 1;
       position: absolute;
+    }
+
+    .bottom-left {
+      width: 200px;
       bottom: 0;
       left: 0;
-      > a,
       > div {
+        width: 100%;
+        height: 100%;
         z-index: -1;
       }
     }
 
     .bottom-right {
-      position: absolute;
+      width: 197px;
       bottom: 0;
       right: 0;
-      > a,
       > div {
+        width: 100%;
+        height: 100%;
         z-index: -1;
       }
     }
 
-    @media (max-width: 768px) {
-      .top-right {
-        display: none;
-      }
-    }
-
     .top-right {
-      position: absolute;
+      width: 232px;
       top: 0;
       right: 0;
-      > a,
       > div {
+        width: 100%;
+        height: 100%;
         z-index: -1;
       }
     }
@@ -364,6 +347,21 @@
         left: 75%;
         transform: translate(-75%, -75%);
         color: #fff;
+      }
+    }
+
+    @media (max-width: 768px) {
+      .bottom-left {
+        width: 115px;
+      }
+      .top-right {
+        display: none;
+      }
+      .bottom-right {
+        width: 150px;
+      }
+      .arrow-down svg {
+        font-size: 3em;
       }
     }
   }

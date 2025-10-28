@@ -5,7 +5,14 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { useTranslations } from 'next-intl';
 
 import styles from './styles.module.scss';
-import { faBluesky, faFacebook, faGithub, faLinkedin, faSquareInstagram, faXTwitter } from '@fortawesome/free-brands-svg-icons';
+import {
+  faBluesky,
+  faFacebook,
+  faGithub,
+  faLinkedin,
+  faSquareInstagram,
+  faXTwitter,
+} from '@fortawesome/free-brands-svg-icons';
 
 export default function Footer() {
   const t = useTranslations('components/footer');
