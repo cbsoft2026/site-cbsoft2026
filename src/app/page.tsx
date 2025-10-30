@@ -20,6 +20,7 @@ import Link from 'next/link';
 import InfiniteScroll from '@/components/InfiniteScroll';
 import React from 'react';
 import BackgroundGeometric from '@/components/BackgroundGeometric';
+import AddCalendar from '@/components/AddCalendar';
 
 type SponsorSection = {
   title: string;
@@ -113,8 +114,6 @@ export default function HomePage() {
   const ref = useRef(null);
   const [isVisible, setVisible] = useState(false);
 
-  const backgroundGeometric = BackgroundGeometric(9);
-
   useEffect(() => {
     const observer = new IntersectionObserver(
       ([entry]) => {
@@ -123,7 +122,7 @@ export default function HomePage() {
           observer.unobserve(entry.target);
         }
       },
-      { threshold: 1 },
+      { threshold: 0.2 },
     );
 
     if (ref.current) observer.observe(ref.current);
@@ -149,7 +148,14 @@ export default function HomePage() {
           <div className={styles.date}>
             <FontAwesomeIcon icon={faCalendarCheck} />
             <div className={styles.descricao}>
-              <p>{formatDateRange(common.dates.start, common.dates.end, locale)}</p>
+              <AddCalendar
+                label={formatDateRange(common.dates.start, common.dates.end, locale)}
+                text={`${commonT('edicao')} ${commonT('siglas.cbsoft')}`}
+                dateStart={new Date(common.dates.start)}
+                dateEnd={new Date(common.dates.end)}
+                location={commonT('localDetalhes')}
+                fullDay={true}
+              />
             </div>
           </div>
 
@@ -158,7 +164,9 @@ export default function HomePage() {
           </div>
         </div>
 
-        <div className={styles['hero__background']}>{backgroundGeometric}</div>
+        <div className={styles['hero__background']}>
+          <BackgroundGeometric amount={9} />
+        </div>
         <div className={styles['hero__background--mobile']}>
           <Link href='#first-section' className={`${styles['bottom-right']} ${styles['arrow-down']}`}>
             <div>

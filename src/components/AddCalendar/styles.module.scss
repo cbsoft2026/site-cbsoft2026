@@ -1,0 +1,43 @@
+@use 'variables' as *;
+@use 'elements' as *;
+
+.add-calender {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+
+  .items__wrapper {
+    position: relative;
+  }
+
+  .collapser {
+    margin: 0;
+  }
+
+  .collapser__items {
+    z-index: 1000;
+    width: 100%;
+    background: $body-bg;
+    position: absolute;
+    top: 10px;
+    padding: 10px 16px;
+    border: 1px solid $border-color;
+    border-radius: 16px;
+    box-shadow: $box-shadow;
+    display: flex;
+    align-items: start;
+    flex-direction: column;
+    gap: 4px;
+
+    > a {
+      padding: 4px 12px;
+      text-decoration: none;
+      color: $text-primary;
+
+      &:hover {
+        background: $overlay-bg;
+        width: 100%;
+      }
+    }
+  }
+}

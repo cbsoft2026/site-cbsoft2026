@@ -51,7 +51,7 @@
 }
 
 .icon.less:hover {
-  background-color: #faf3e9;
+  background-color: #faece8;
   color: $primary;
 }
 
@@ -76,7 +76,7 @@
       background: #faece8;
 
       &:hover {
-        background: #faf3e9;
+        background: #faece8;
       }
     }
 
@@ -95,6 +95,7 @@
   padding: 1px 1px 1px 16px;
   border-radius: 32px;
   margin-bottom: 12px;
+  border: 1px solid transparent;
 
   transition: background-color 0.2s ease;
 
@@ -108,7 +109,8 @@
   }
 
   &:hover {
-    background-color: #faf3e9;
+    background-color: #faece8;
+    border: 1px solid #eeb6a4;
 
     .icon {
       color: $primary;
@@ -128,6 +130,7 @@
 }
 
 .button {
+  cursor: pointer;
   background: #faece8;
   display: block;
   padding: 10px 24px;
@@ -137,6 +140,11 @@
   text-align: center;
   width: fit-content;
   text-decoration: none;
+
+  &.less {
+    background: none;
+    border: none;
+  }
 
   svg {
     margin-left: 12px;

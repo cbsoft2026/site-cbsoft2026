@@ -46,7 +46,11 @@ const colors = ['#1d656d', '#f09415', '#b43425', '#d5491d', '#077875'];
 
 const rotations = [0, 90, 180, 270];
 
-const BackgroundGeometric = (amount: number) => {
+type Props = {
+  amount: number;
+};
+
+export default function BackgroundGeometric({ amount }: Props) {
   const getRandomGeometric = useCallback(() => {
     const Geometric = weightedRandom(geometrics);
     const color = colors[Math.floor(Math.random() * colors.length)];
@@ -89,7 +93,7 @@ const BackgroundGeometric = (amount: number) => {
   );
 
   useEffect(() => {
-    if (animate == true) return
+    if (animate == true) return;
     const timer = setTimeout(() => {
       setAnimate(true);
       shapes.forEach((shape, index) => {
@@ -98,7 +102,7 @@ const BackgroundGeometric = (amount: number) => {
       });
     }, 500);
     return () => clearTimeout(timer);
-  }, [handleClick, shapes]);
+  }, [animate, handleClick, shapes]);
 
   const backgroundGeometric = useMemo(() => {
     return (
@@ -123,6 +127,4 @@ const BackgroundGeometric = (amount: number) => {
   }, [shapes, animateIds, handleClick]);
 
   return backgroundGeometric;
-};
-
-export default BackgroundGeometric;
+}
