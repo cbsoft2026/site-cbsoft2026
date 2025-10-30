@@ -99,7 +99,7 @@ export default function AddCalendar({
           {openFilter && (
             <div className={styles['collapser__items']}>
               <a target='_blank' href={`http://www.google.com/calendar/event?${googleCalendar}`}>
-                Google Agenda
+                Google Calendar
               </a>
               <a target='_blank' href={`https://outlook.office.com/owa/?path=/calendar/action/compose&${outlok365}`}>
                 Outlook 356
