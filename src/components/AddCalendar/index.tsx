@@ -88,7 +88,7 @@ export default function AddCalendar({
         <div className={styles.collapser} ref={ref}>
           <h6>{label}</h6>
           <div className={`${styles.icon} ${styles.less} ${styles['icon--small']}`}>
-            {openFilter ? (
+            {!openFilter ? (
               <FontAwesomeIcon icon={faChevronDown} style={{ width: '8px' }} />
             ) : (
               <FontAwesomeIcon icon={faChevronUp} style={{ width: '8px' }} />
