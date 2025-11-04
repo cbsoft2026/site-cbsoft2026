@@ -29,7 +29,7 @@ export default function CbsoftPage() {
   });
   const { width } = useWindowDimensions();
   return (
-    <article style={{ paddingTop: '50px' }}>
+    <div style={{ paddingTop: '50px' }}>
       <section className={styles.about}>
         <div className={`container ${styles.container}`}>
           <picture>
@@ -42,6 +42,6 @@ export default function CbsoftPage() {
           </div>
         </div>
       </section>
-    </article>
+    </div>
   );
 }

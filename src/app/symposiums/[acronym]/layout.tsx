@@ -4,6 +4,7 @@ import styles from './styles.module.scss';
 import getRequestConfig from '@/i18n/request';
 import React from 'react';
 import { Event } from '@/types/event';
+import { Metadata } from 'next';
 
 type Props = {
   children: React.ReactNode;
@@ -56,7 +57,7 @@ export default async function AcronymLayout({ children, params }: Props) {
   const amountTutorial = getAmountByEvent(events, acronym, 'tutorial');
 
   return (
-    <section className={styles.container}>
+    <div className={styles.container}>
       {/* <aside className={styles.sidebar}>
         <ul>
           {Array.isArray(tracks) && tracks.length > 0
@@ -91,7 +92,7 @@ export default async function AcronymLayout({ children, params }: Props) {
               : (<></>)}
         </ul>
       </aside> */}
-      <main className={styles.content}>{children}</main>
-    </section>
+      <div className={styles.content}>{children}</div>
+    </div>
   );
 }

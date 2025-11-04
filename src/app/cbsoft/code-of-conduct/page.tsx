@@ -8,11 +8,13 @@ export default function CodeOfConductPage() {
   const t = useTObject('pages/cbsoft/codeOfConduct');
 
   return (
-    <section className='container' style={{ paddingTop: '50px' }}>
-      <div>
+    <article className='container' style={{ paddingTop: '50px' }}>
+      <header>
         <Title titulo={t('titulo')} />
+      </header>
+      <section>
         {t('descricao', { ano: appConfig.year })}
-      </div>
-    </section>
+      </section>
+    </article>
   );
 }

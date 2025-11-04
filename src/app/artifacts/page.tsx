@@ -1,19 +1,27 @@
-'use client';
-
 import CallComponent from '@/components/Call';
 import Title from '@/components/Title';
-import { useTranslations } from 'next-intl';
+import { Metadata } from 'next';
+import { getTranslations } from 'next-intl/server';
 
-export default function CallPage() {
-  const commonT = useTranslations('common');
+export async function generateMetadata(): Promise<Metadata> {
+  const t = await getTranslations('common');
+  return {
+    title: t('siglas.artifacts'),
+    openGraph: {
+      type: 'article',
+      title: t('siglas.artifacts'),
+    },
+  };
+}
+
+export default async function CallPage() {
+  const commonT = await getTranslations('common');
   return (
-    <div style={{ padding: '30px 60px 0' }}>
-      <div className='container' style={{ marginBottom: 56, paddingRight: 560 }}>
+    <article style={{ padding: '30px 60px 0' }}>
+      <header className='container' style={{ marginBottom: 56 }}>
         <Title titulo={`${commonT(`siglas.artifacts`)}`}></Title>
-      </div>
-      <div className='container'>
-        <CallComponent acronym={'artifacts'}></CallComponent>
-      </div>
-    </div>
+      </header>
+      <CallComponent className='container' acronym={'artifacts'}></CallComponent>
+    </article>
   );
 }

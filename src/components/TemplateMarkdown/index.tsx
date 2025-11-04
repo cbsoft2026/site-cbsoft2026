@@ -8,14 +8,15 @@ import styles from './styles.module.scss';
 
 type Props = {
   children: string | null | undefined;
+  className?: string;
 };
 
-export default function TemplateMarkdown({ children }: Props) {
+export default function TemplateMarkdown({ children, className }: Props) {
   return (
-    <div className={styles['markdown-body']}>
+    <section className={`${styles['markdown-body']} ${className}`}>
       <ReactMarkdown skipHtml={false} rehypePlugins={[[rehypeHighlight, { languages: { latex } }], rehypeRaw]}>
         {children}
       </ReactMarkdown>
-    </div>
+    </section>
   );
 }

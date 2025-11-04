@@ -171,43 +171,45 @@ export default function Menu(props: HTMLAttributes<HTMLDivElement>) {
   const div = useRef<HTMLDivElement | null>(null);
 
   return (
-    <nav {...props} ref={div} className={`navbar navbar-expand-lg ${styles.navbar}`}>
-      <Link className={`navbar-brand ${styles['navbar-brand']}`} href={{ pathname: '/' }} onClick={collapse}>
-        <picture>
-          <img src='/images/logos/cbsoft-logo.svg' alt='logo' />
-        </picture>
-      </Link>
+    <header>
+      <nav {...props} ref={div} className={`navbar navbar-expand-lg ${styles.navbar}`}>
+        <Link className={`navbar-brand ${styles['navbar-brand']}`} href={{ pathname: '/' }} onClick={collapse}>
+          <picture>
+            <img src='/images/logos/cbsoft-logo.svg' alt='logo' />
+          </picture>
+        </Link>
 
-      <button
-        className={`navbar-toggler ${styles['navbar-toggler']}`}
-        aria-label='Toggle navigation'
-        onClick={() => setCollapsed(!collapsed)}
-      >
-        <FontAwesomeIcon icon={faBars} />
-      </button>
-      <div
-        className={`${collapsed ? `collapse ${styles['collapse']}` : ''} navbar-collapse ${styles['navbar-collapse']}`}
-        id='navbarNav'
-      >
-        <ul className={`navbar-nav ${styles['navbar-nav']}`} id='flags'>
-          {menuItemsCollection.map((menuItem, index) => (
-            <NavbarItem {...menuItem} key={index} onClick={collapse} />
-          ))}
+        <button
+          className={`navbar-toggler ${styles['navbar-toggler']}`}
+          aria-label='Toggle navigation'
+          onClick={() => setCollapsed(!collapsed)}
+        >
+          <FontAwesomeIcon icon={faBars} />
+        </button>
+        <div
+          className={`${collapsed ? `collapse ${styles['collapse']}` : ''} navbar-collapse ${styles['navbar-collapse']}`}
+          id='navbarNav'
+        >
+          <ul className={`navbar-nav ${styles['navbar-nav']}`} id='flags'>
+            {menuItemsCollection.map((menuItem, index) => (
+              <NavbarItem {...menuItem} key={index} onClick={collapse} />
+            ))}
 
-          <li className={`nav-item ${styles['nav-item']}`}>
-            <button className={styles.flag} onClick={() => switchLocale(locale === 'pt' ? 'en' : 'pt')}>
-              <picture>
-                <img src={`/images/icon/${locale === 'pt' ? 'pt' : 'en'}.png`} width='40' alt='' />
-              </picture>
-            </button>
-          </li>
-        </ul>
-        {/* {
-          <Link href={{ pathname: '/registration' }} className={styles.ticket} onClick={collapse}>
-            <span> {t('inscricoes')}</span>
-          </Link>
-        } */}
-      </div>
-    </nav>
+            <li className={`nav-item ${styles['nav-item']}`}>
+              <button className={styles.flag} onClick={() => switchLocale(locale === 'pt' ? 'en' : 'pt')}>
+                <picture>
+                  <img src={`/images/icon/${locale === 'pt' ? 'pt' : 'en'}.png`} width='40' alt='' />
+                </picture>
+              </button>
+            </li>
+          </ul>
+          {/* {
+            <Link href={{ pathname: '/registration' }} className={styles.ticket} onClick={collapse}>
+              <span> {t('inscricoes')}</span>
+            </Link>
+          } */}
+        </div>
+      </nav>
+    </header>
   );
 }

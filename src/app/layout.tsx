@@ -5,6 +5,7 @@ import { LayoutProvider } from '@/providers/LayoutProvider';
 
 import localFont from 'next/font/local';
 import appConfig from './app.config';
+import { Metadata } from 'next';
 
 const gothamBlack = localFont({
   src: '../../public/fonts/gotham-font/Gotham-Black.otf',
@@ -13,8 +14,11 @@ const gothamBlack = localFont({
   style: 'normal',
 });
 
-export const metadata = {
-  title: `CBSoft ${appConfig.year}`,
+export const metadata: Metadata = {
+  title: {
+    default: `CBSoft ${appConfig.year}`,
+    template: `%s | CBSoft ${appConfig.year}`,
+  },
   icons: {
     icon: '/favicon.ico',
   },

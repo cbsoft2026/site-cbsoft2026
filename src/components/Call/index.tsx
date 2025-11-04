@@ -7,9 +7,10 @@ import TemplateMarkdown from '../TemplateMarkdown';
 type Props = {
   acronym: string;
   track?: string;
+  className?: string;
 };
 
-export default function CallComponent({ acronym, track }: Props) {
+export default function CallComponent({ acronym, track, className }: Props) {
   const [call, setCall] = useState<string>();
   const { locale } = useLocaleContext();
   useEffect(() => {
@@ -19,9 +20,5 @@ export default function CallComponent({ acronym, track }: Props) {
       .then((text) => setCall(text));
   }, [setCall, locale, acronym, track]);
 
-  return (
-    <>
-      <TemplateMarkdown>{call}</TemplateMarkdown>
-    </>
-  );
+  return (<TemplateMarkdown className={className}>{call}</TemplateMarkdown>);
 }
