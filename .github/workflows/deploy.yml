@@ -21,6 +21,9 @@ jobs:
       - name: Setup Node.js
         uses: actions/setup-node@v5
 
+      - name: Check Node version
+        run: node -v
+
       - name: Install dependencies
         run: npm ci
 
