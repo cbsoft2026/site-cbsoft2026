@@ -4,7 +4,7 @@
   "private": true,
   "scripts": {
     "dev": "next dev --turbopack",
-    "build": "NEXT_PUBLIC_STATIC=true npm run generate-events && npm run generate-messages && next build --turbopack",
+    "build": "NEXT_PUBLIC_STATIC=true npm run generate-events && npm run generate-messages && next build --turbopack && cp -r out/pt/* out/",
     "start": "next start",
     "postbuild": "next-sitemap",
     "lint": "eslint src --ext .js,.ts,.jsx,.tsx",

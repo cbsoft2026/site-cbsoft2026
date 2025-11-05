@@ -16,7 +16,7 @@ const nextConfig: NextConfig = {
   output: "export",
   images: { unoptimized: true },
   trailingSlash: true,
-  skipTrailingSlashRedirect: true
+  skipTrailingSlashRedirect: true,
 };
 
 export default withNextIntl(nextConfig) as NextConfig;

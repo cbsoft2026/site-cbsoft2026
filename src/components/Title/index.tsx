@@ -1,5 +1,3 @@
-'use client';
-
 import styles from './Title.module.scss';
 
 import { JSX, ReactNode } from 'react';

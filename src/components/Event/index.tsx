@@ -1,22 +1,19 @@
-'use client';
-
 import { Event } from '@/types/event';
 import Image from 'next/image';
 
 import styles from './styles.module.scss';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faCalendar } from '@fortawesome/free-regular-svg-icons';
-import { useLocaleContext } from '@/providers/LocaleProvider';
-import { useTranslations } from 'next-intl';
+import { getTranslations } from 'next-intl/server';
 
 type Props = {
   events: Record<string, Event>;
   event?: Event;
+  locale: string;
 };
 
-export default function EventComponent({ events, event }: Props) {
-  const t = useTranslations('pages/schedule');
-  const { locale } = useLocaleContext();
+export default async function EventComponent({ events, event, locale }: Props) {
+  const t = await getTranslations({ locale, namespace: 'pages/schedule' });
 
   return (
     <section className={`container ${styles['main-content']}`}>
@@ -81,7 +78,6 @@ export default function EventComponent({ events, event }: Props) {
             {((event && event.parentIds) || (!event && events)) &&
               (event?.parentIds || Object.values(events)).map((parentId, index) => {
                 const parentEvent = typeof parentId === 'string' ? (events[parentId] as Event) : parentId;
-                console.log(event);
                 return (
                   <tr key={index}>
                     <th style={{ display: 'flex', minWidth: 150 }}>

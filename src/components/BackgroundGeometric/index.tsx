@@ -1,3 +1,5 @@
+'use client';
+
 import React, { useMemo, JSX, useState, useCallback, useEffect } from 'react';
 import styles from './styles.module.scss';
 

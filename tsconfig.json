@@ -24,7 +24,8 @@
       "@/data": ["./public/data/index.ts"],
       "@/data/*": ["./public/data/*"],
       "@/hooks/*": ["./src/hooks/*"],
-      "@/images/*": ["./public/images/*"]
+      "@/images/*": ["./public/images/*"],
+      "@/public/*": ["./public/*"]
     }
   },
   "include": ["next-env.d.ts", "src/**/*.ts", "src/**/*.tsx", ".next/types/**/*.ts", "next.config.ts"],

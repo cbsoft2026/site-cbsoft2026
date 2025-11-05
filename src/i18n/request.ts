@@ -1,18 +1,15 @@
-import { getRequestConfig } from 'next-intl/server';
+import { getRequestConfig, GetRequestConfigParams, RequestConfig } from 'next-intl/server';
 import { routing } from './routing';
-// import { LoadMessagesParamsNode, requestMessagesNode } from './requestNode';
 
-export default getRequestConfig(async () => {
-  let locale = routing.defaultLocale;
+type Locales = (typeof routing.locales)[number];
 
-  if (!locale || !routing.locales.includes(locale as any)) {
-    locale = routing.defaultLocale;
-  }
+export default getRequestConfig(async (params: GetRequestConfigParams): Promise<RequestConfig> => {
+  const currentLocale =
+    params.locale && routing.locales.includes(params.locale as Locales) ? params.locale : routing.defaultLocale;
 
   return {
-    locale,
-    defaultLocale: routing.defaultLocale,
-    messages: await requestMessages({ locale }),
+    locale: currentLocale,
+    messages: await requestMessages({ locale: currentLocale }),
     timeZone: 'America/Sao_Paulo',
   };
 });

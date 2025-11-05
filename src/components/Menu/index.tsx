@@ -1,16 +1,14 @@
 'use client';
 
-import Link from 'next/link';
 import { usePathname } from 'next/navigation';
 import { HTMLAttributes, useCallback, useRef, useState } from 'react';
 import styles from './styles.module.scss';
-import { useTranslations } from 'next-intl';
-// import useWindowDimensions from '@/hooks/useWindowDimentions';
+import { useLocale, useTranslations } from 'next-intl';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faBars } from '@fortawesome/free-solid-svg-icons';
 import appConfig from '@/app/app.config';
-import { useLocaleContext } from '@/providers/LocaleProvider';
 import useWindowDimensions from '@/hooks/useWindowDimentions';
+import LinkLocale from '../LinkLocale';
 
 type NavbarItemProps = {
   title: string;
@@ -24,42 +22,45 @@ type NavbarItemProps = {
 function NavbarItem(props: NavbarItemProps) {
   const { title, href, items, className, onClick } = props;
   const pathname = usePathname();
+  const locale = useLocale();
 
   return (
     <li
-      className={`nav-item dropdown-slide ${styles['nav-item']} ${styles['dropdown-slide']} ${href && pathname.startsWith(href) ? styles.active : ''} ${className || ''}`}
+      className={`nav-item dropdown-slide ${styles['nav-item']} ${styles['dropdown-slide']} ${href && pathname.includes(href) ? styles.active : ''} ${className || ''}`}
     >
       {href && href.startsWith('https') ? (
         <a className={`nav-link ${styles['nav-link']}`} href={href} target='_blank' rel='noopener noreferrer'>
           {title}
         </a>
       ) : (
-        <Link className={`nav-link ${styles['nav-link']}`} href={{ pathname: href }}>
+        <LinkLocale className={`nav-link ${styles['nav-link']}`} href={{ pathname: href }} locale={locale}>
           {title}
-        </Link>
+        </LinkLocale>
       )}
       {items && (
         <ul className={`dropdown-menu ${styles['dropdown-menu']}`}>
           {items?.map((item, i) => (
             <li key={i}>
-              <Link
+              <LinkLocale
                 className={`dropdown-item ${styles['dropdown-item']}`}
                 href={{ pathname: item.href }}
                 onClick={!item.items?.length ? onClick : undefined}
+                locale={locale}
               >
-                {item.title} {item.items?.length && <>&raquo;</>}
-              </Link>
+                {`${item.title} ${item.items?.length ? '&raquo;' : ''}`}
+              </LinkLocale>
               {item.items && (
                 <ul className={`submenu ${styles['submenu']}`}>
                   {item.items.map((subItem, j) => (
                     <li key={j}>
-                      <Link
+                      <LinkLocale
                         className={`dropdown-item ${styles['dropdown-item']}`}
                         href={{ pathname: subItem.href }}
                         onClick={onClick}
+                        locale={locale}
                       >
                         {subItem.title}
-                      </Link>
+                      </LinkLocale>
                     </li>
                   ))}
                 </ul>
@@ -75,14 +76,15 @@ function NavbarItem(props: NavbarItemProps) {
 export default function Menu(props: HTMLAttributes<HTMLDivElement>) {
   const [collapsed, setCollapsed] = useState(true);
 
-  const { width } = useWindowDimensions();
+  // const { width } = useWindowDimensions();
+  const pathname = usePathname();
+  const locale = useLocale();
 
   const t = useTranslations('components/menu');
   const commonT = useTranslations('common');
-  const { locale, switchLocale } = useLocaleContext();
 
   const collapse = () => setCollapsed(true);
-  const link = useCallback((url: string) => (width == null || width > 768 ? url : '#'), [width]);
+  // const link = useCallback((url: string) => (width == null || width > 768 ? url : '#'), [width]);
 
   const cbsoftMenuItem: NavbarItemProps = {
     title: t('cbsoft.titulo', { ano: appConfig.year }),
@@ -171,45 +173,48 @@ export default function Menu(props: HTMLAttributes<HTMLDivElement>) {
   const div = useRef<HTMLDivElement | null>(null);
 
   return (
-    <header>
-      <nav {...props} ref={div} className={`navbar navbar-expand-lg ${styles.navbar}`}>
-        <Link className={`navbar-brand ${styles['navbar-brand']}`} href={{ pathname: '/' }} onClick={collapse}>
-          <picture>
-            <img src='/images/logos/cbsoft-logo.svg' alt='logo' />
-          </picture>
-        </Link>
+    <nav {...props} ref={div} className={`navbar navbar-expand-lg ${styles.navbar}`}>
+      <LinkLocale
+        className={`navbar-brand ${styles['navbar-brand']}`}
+        href={{ pathname: '/' }}
+        locale={locale}
+        onClick={collapse}
+      >
+        <picture>
+          <img src='/images/logos/cbsoft-logo.svg' alt='logo' />
+        </picture>
+      </LinkLocale>
 
-        <button
-          className={`navbar-toggler ${styles['navbar-toggler']}`}
-          aria-label='Toggle navigation'
-          onClick={() => setCollapsed(!collapsed)}
-        >
-          <FontAwesomeIcon icon={faBars} />
-        </button>
-        <div
-          className={`${collapsed ? `collapse ${styles['collapse']}` : ''} navbar-collapse ${styles['navbar-collapse']}`}
-          id='navbarNav'
-        >
-          <ul className={`navbar-nav ${styles['navbar-nav']}`} id='flags'>
-            {menuItemsCollection.map((menuItem, index) => (
-              <NavbarItem {...menuItem} key={index} onClick={collapse} />
-            ))}
+      <button
+        className={`navbar-toggler ${styles['navbar-toggler']}`}
+        aria-label='Toggle navigation'
+        onClick={() => setCollapsed(!collapsed)}
+      >
+        <FontAwesomeIcon icon={faBars} />
+      </button>
+      <div
+        className={`${collapsed ? `collapse ${styles['collapse']}` : ''} navbar-collapse ${styles['navbar-collapse']}`}
+        id='navbarNav'
+      >
+        <ul className={`navbar-nav ${styles['navbar-nav']}`} id='flags'>
+          {menuItemsCollection.map((menuItem, index) => (
+            <NavbarItem {...menuItem} key={index} onClick={collapse} />
+          ))}
 
-            <li className={`nav-item ${styles['nav-item']}`}>
-              <button className={styles.flag} onClick={() => switchLocale(locale === 'pt' ? 'en' : 'pt')}>
-                <picture>
-                  <img src={`/images/icon/${locale === 'pt' ? 'pt' : 'en'}.png`} width='40' alt='' />
-                </picture>
-              </button>
-            </li>
-          </ul>
-          {/* {
-            <Link href={{ pathname: '/registration' }} className={styles.ticket} onClick={collapse}>
-              <span> {t('inscricoes')}</span>
-            </Link>
-          } */}
-        </div>
-      </nav>
-    </header>
+          <li className={`nav-item ${styles['nav-item']}`}>
+            <LinkLocale href={pathname} locale={locale === 'pt' ? 'en' : 'pt'} className={styles.flag}>
+              <picture>
+                <img src={`/images/icon/${locale === 'pt' ? 'pt' : 'en'}.png`} width='40' alt='' />
+              </picture>
+            </LinkLocale>
+          </li>
+        </ul>
+        {/* {
+          <LinkLocale href={{ pathname: '/registration' }} className={styles.ticket} onClick={collapse} locale={locale}>
+            <span> {t('inscricoes')}</span>
+          </LinkLocale>
+        } */}
+      </div>
+    </nav>
   );
 }

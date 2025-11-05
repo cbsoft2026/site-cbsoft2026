@@ -117,8 +117,6 @@ export function loadEvents(lang: string = 'pt'): Map<string, Event> {
             parentIds: [],
           };
 
-          // events.push(sessionEvent);
-
           sessionMap.push(sessionEvent);
         });
       },

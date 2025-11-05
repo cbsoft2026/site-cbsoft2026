@@ -1,0 +1,70 @@
+@use 'variables' as *;
+
+.sponsors__above {
+  display: flex;
+  padding: 0 !important;
+  margin-top: -30px;
+
+  &.show {
+    > div {
+      transform: translateY(+50%);
+      > div {
+        transform: scale(1);
+      }
+    }
+  }
+
+  > div {
+    flex: 1 1;
+    width: 25%;
+    aspect-ratio: 1;
+    transform: translateY(+150%);
+    transition: 0.6s ease;
+    position: relative;
+
+    > div {
+      width: 25%;
+      background: $body-bg;
+      border-radius: 50%;
+      aspect-ratio: 1;
+      position: absolute;
+      top: 15%;
+      right: 15%;
+      transform: scale(0);
+      transition: 0.6s ease;
+    }
+
+    &:nth-child(2) {
+      border-radius: 50%;
+    }
+
+    &:nth-child(1) {
+      transition-delay: 0s;
+      background: $primary;
+      > div {
+        transition-delay: 0.3s;
+      }
+    }
+    &:nth-child(2) {
+      transition-delay: 0.3s;
+      background: $secondary;
+      > div {
+        transition-delay: 0.6s;
+      }
+    }
+    &:nth-child(3) {
+      transition-delay: 0.6s;
+      background: #f09415;
+      > div {
+        transition-delay: 0.9s;
+      }
+    }
+    &:nth-child(4) {
+      transition-delay: 0.9s;
+      background: $primary-alt;
+      > div {
+        transition-delay: 1.2s;
+      }
+    }
+  }
+}

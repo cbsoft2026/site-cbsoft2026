@@ -1,24 +1,15 @@
-'use client';
-
-import { useEffect, useState } from 'react';
-import { useLocaleContext } from '@/providers/LocaleProvider';
+import { loadCalls } from '@/lib/api';
 import TemplateMarkdown from '../TemplateMarkdown';
 
 type Props = {
   acronym: string;
   track?: string;
   className?: string;
+  locale: string;
 };
 
-export default function CallComponent({ acronym, track, className }: Props) {
-  const [call, setCall] = useState<string>();
-  const { locale } = useLocaleContext();
-  useEffect(() => {
-    const url = `/generated/${acronym}${track ? `_${track}` : ''}_${locale}.md`;
-    fetch(url)
-      .then((res) => res.text())
-      .then((text) => setCall(text));
-  }, [setCall, locale, acronym, track]);
+export default async function CallComponent({ acronym, track, className, locale }: Props) {
+  const call = loadCalls(locale, [acronym], track ? [track] : []);
 
-  return (<TemplateMarkdown className={className}>{call}</TemplateMarkdown>);
+  return <TemplateMarkdown className={className}>{Object.values(call)[0]}</TemplateMarkdown>;
 }

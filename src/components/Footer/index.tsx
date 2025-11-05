@@ -2,7 +2,6 @@
 
 import { faEnvelope } from '@fortawesome/free-solid-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { useTranslations } from 'next-intl';
 
 import styles from './styles.module.scss';
 import {
@@ -13,6 +12,7 @@ import {
   faSquareInstagram,
   faXTwitter,
 } from '@fortawesome/free-brands-svg-icons';
+import { useTranslations } from 'next-intl';
 
 export default function Footer() {
   const t = useTranslations('components/footer');
