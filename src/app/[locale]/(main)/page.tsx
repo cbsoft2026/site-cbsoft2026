@@ -37,16 +37,18 @@ function SponsorSection(props: SponsorSection) {
           <ul key={idx} className={`${styles['sponsors-list']} ${styles['tier-' + tier]}`}>
             {items.map((sponsor, index) => (
               <li className={styles['sponsor-item']} key={index}>
-                <a href={sponsor.href} target='_blank' rel='noreferrer' className={styles['image-block']}>
+                {sponsor.map((sponsorLine, indexLine) => (
+                  <a key={indexLine} href={sponsorLine.href} target='_blank' rel='noreferrer' className={styles['image-block']}>
                   <picture>
                     <img
-                      src={`/images/sponsors/${sponsor.image}`}
+                      src={`/images/sponsors/${sponsorLine.image}`}
                       alt='sponsor-logo'
                       className='img-fluid'
                       loading='lazy'
                     />
                   </picture>
                 </a>
+                ))}
               </li>
             ))}
           </ul>

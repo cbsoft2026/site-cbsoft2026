@@ -1,30 +1,54 @@
 {
   "organizadores": [
     {
-      "href": "https://www.ime.usp.br/",
-      "image": "ime.png",
-      "tier": "platina"
+      "tier": "platina",
+      "items": [
+        {
+          "href": "https://www5.usp.br/",
+          "image": "usp.png"
+        },
+        {
+          "href": "https://www.ime.usp.br/",
+          "image": "ime.png"
+        }
+      ]
     },
     {
-      "href": "https://ic.unicamp.br/",
-      "image": "ic-unicamp.jpeg",
-      "tier": "platina"
+      "tier": "platina",
+      "items": [
+        {
+          "href": "https://unicamp.br/",
+          "image": "unicamp.svg"
+        },
+        {
+          "href": "https://ic.unicamp.br/",
+          "image": "ic-unicamp.png"
+        }
+      ]
     }
   ],
   "realizacao": [
     {
-      "href": "http://www.sbc.org.br/",
-      "image": "sbc.png",
-      "tier": "platina"
+      "tier": "platina",
+      "items": [
+        {
+          "href": "http://www.sbc.org.br/",
+          "image": "sbc.png"
+        }
+      ]
     }
   ],
   "patrocinio": [
   ],
   "apoio": [
     {
-      "href": "https://www.gov.br/cnpq/pt-br",
-      "image": "cnpq.png",
-      "tier": "ouro"
+      "tier": "ouro",
+      "items": [
+        {
+          "href": "https://www.gov.br/cnpq/pt-br",
+          "image": "cnpq.png"
+        }
+      ]
     }
   ]
 }

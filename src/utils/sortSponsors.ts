@@ -20,7 +20,7 @@ export function groupSponsorsByTier(sponsors: Sponsor[]) {
   return Object.keys(tierOrder)
     .map((tier) => ({
       tier,
-      items: sponsors.filter((sponsor) => sponsor.tier === tier),
+      items: sponsors.filter((sponsor) => sponsor.tier === tier).map((sponsor) => sponsor.items),
     }))
     .filter((group) => group.items.length > 0);
 }
