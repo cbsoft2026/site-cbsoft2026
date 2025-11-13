@@ -21,6 +21,20 @@ export const metadata: Metadata = {
     default: `CBSoft ${appConfig.year}`,
     template: `%s | CBSoft ${appConfig.year}`,
   },
+  openGraph: {
+    type: "website",
+    url: `${process.env.NEXT_PUBLIC_SITE_URL}`,
+    title: `CBSoft ${appConfig.year}`,
+    images: [
+      {
+        url: `${process.env.NEXT_PUBLIC_ASSET_PREFIX}/images/logos/cbsoft-logo.png`,
+        width: 1200,
+        height: 630,
+        alt: "logo",
+        type: "image/png",
+      },
+    ],
+  },
   icons: {
     icon: `${process.env.NEXT_PUBLIC_ASSET_PREFIX}/favicon.ico`,
   },
