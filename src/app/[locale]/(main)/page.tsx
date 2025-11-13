@@ -41,7 +41,7 @@ function SponsorSection(props: SponsorSection) {
                   <a key={indexLine} href={sponsorLine.href} target='_blank' rel='noreferrer' className={styles['image-block']}>
                   <picture>
                     <img
-                      src={`/images/sponsors/${sponsorLine.image}`}
+                      src={`${process.env.NEXT_PUBLIC_ASSET_PREFIX}/images/sponsors/${sponsorLine.image}`}
                       alt='sponsor-logo'
                       className='img-fluid'
                       loading='lazy'
@@ -94,7 +94,7 @@ export default async function HomePage({ params }: Props) {
                   src={
                     speaker.image.startsWith('http')
                       ? speaker.image
-                      : `/images/speakers/${speaker.image || 'default.jpg'}`
+                      : `${process.env.NEXT_PUBLIC_ASSET_PREFIX}/images/speakers/${speaker.image || 'default.jpg'}`
                   }
                   width={300}
                   height={300}

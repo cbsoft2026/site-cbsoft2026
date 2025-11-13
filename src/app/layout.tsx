@@ -22,7 +22,7 @@ export const metadata: Metadata = {
     template: `%s | CBSoft ${appConfig.year}`,
   },
   icons: {
-    icon: '/favicon.ico',
+    icon: `${process.env.NEXT_PUBLIC_ASSET_PREFIX}/favicon.ico`,
   },
 };
 

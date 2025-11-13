@@ -14,7 +14,7 @@ function OrganizadorCard(props: Chair) {
         <Image
           width={200}
           height={200}
-          src={image?.startsWith('http') ? image : `/images/organizadores/${image || 'default.jpg'}`}
+          src={image?.startsWith('http') ? image : `${process.env.NEXT_PUBLIC_ASSET_PREFIX}/images/organizadores/${image || 'default.jpg'}`}
           alt={'perfil'}
         />
       </div>
@@ -27,7 +27,7 @@ function OrganizadorCard(props: Chair) {
             {link &&
               (link.includes('lattes') ? (
                 <picture>
-                  <img src={'/images/icon/lattes.svg'} alt='' />
+                  <img src={`${process.env.NEXT_PUBLIC_ASSET_PREFIX}/images/icon/lattes.svg`} alt='' />
                 </picture>
               ) : (
                 <FontAwesomeIcon icon={faGlobe} />

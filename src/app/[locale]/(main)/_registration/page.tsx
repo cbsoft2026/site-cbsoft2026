@@ -37,7 +37,7 @@ export default async function RegistrationPage({ params }: Props) {
             <div>
               <h4>CBSoft store</h4>
               <Image
-                src={`/images/cbsoft_tshirt.png`}
+                src={`${process.env.NEXT_PUBLIC_ASSET_PREFIX}/images/cbsoft_tshirt.png`}
                 alt='Camisa CBSoft'
                 width={300}
                 height={360}

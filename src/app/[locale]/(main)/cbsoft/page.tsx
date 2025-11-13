@@ -36,7 +36,7 @@ export default async function CbsoftPage({ params }: Props) {
       <section className={styles.about}>
         <div className={`container ${styles.container}`}>
           <picture>
-            <img className='img-fluid' src='/images/logos/cbsoft-logo-icon.svg' alt='cbsoft-logo' />
+            <img className='img-fluid' src={`${process.env.NEXT_PUBLIC_ASSET_PREFIX}/images/logos/cbsoft-logo-icon.svg`} alt='cbsoft-logo' />
           </picture>
 
           <div>

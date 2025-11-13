@@ -13,7 +13,7 @@ function Edicao(props: { year: string; url: string; local: string; className?: s
     <a className={styles.edicao} href={props.url} target='_blank' rel='noreferrer'>
       <div className={styles.image}>
         <picture>
-          <img src={`/images/edicoes-anteriores/cbsoft${props.year}.png`} alt='edition' className='img-fluid' />
+          <img src={`${process.env.NEXT_PUBLIC_ASSET_PREFIX}/images/edicoes-anteriores/cbsoft${props.year}.png`} alt='edition' className='img-fluid' />
         </picture>
       </div>
       <div className={styles.content}>

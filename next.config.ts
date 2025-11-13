@@ -5,8 +5,11 @@ import type { NextConfig } from 'next';
 const withNextIntl = createNextIntlPlugin();
 
 const nextConfig: NextConfig = {
+  basePath: process.env.NEXT_PUBLIC_BASE_PATH || '/.',
+  assetPrefix: process.env.NEXT_PUBLIC_ASSET_PREFIX || '/.',
   env: {
-    PUBLIC_URL: '/',
+    PUBLIC_URL: process.env.NEXT_PUBLIC_URL || '/',
+    NEXT_PUBLIC_ASSET_PREFIX: process.env.NEXT_PUBLIC_ASSET_PREFIX || '/.',
   },
   reactStrictMode: true,
   sassOptions: {

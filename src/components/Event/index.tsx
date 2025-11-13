@@ -145,7 +145,7 @@ export default async function EventComponent({ events, event, locale }: Props) {
                             src={
                               participant.image.startsWith('http')
                                 ? participant.image
-                                : `/images/speakers/${participant.image || 'default.jpg'}`
+                                : `${process.env.NEXT_PUBLIC_ASSET_PREFIX}/images/speakers/${participant.image || 'default.jpg'}`
                             }
                             width={240}
                             height={240}

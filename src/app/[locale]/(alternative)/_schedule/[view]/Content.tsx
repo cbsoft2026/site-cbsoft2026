@@ -64,7 +64,7 @@ export default function SchedulePage({ commonEvents, events, symposiums }: Props
           <header>
             <LinkLocale className={`${styles['aside-logo']}`} href={{ pathname: '/' }} locale={locale}>
               <picture>
-                <img src='/images/logos/cbsoft-logo.svg' alt='logo' />
+                <img src={`${process.env.NEXT_PUBLIC_ASSET_PREFIX}/images/logos/cbsoft-logo.svg`} alt='logo' />
               </picture>
             </LinkLocale>
             {width && width <= 768 && (

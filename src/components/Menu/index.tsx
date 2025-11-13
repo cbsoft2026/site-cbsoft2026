@@ -181,7 +181,7 @@ export default function Menu(props: HTMLAttributes<HTMLDivElement>) {
         onClick={collapse}
       >
         <picture>
-          <img src='/images/logos/cbsoft-logo.svg' alt='logo' />
+          <img src={`${process.env.NEXT_PUBLIC_ASSET_PREFIX}/images/logos/cbsoft-logo.svg`} alt='logo' />
         </picture>
       </LinkLocale>
 
@@ -204,7 +204,7 @@ export default function Menu(props: HTMLAttributes<HTMLDivElement>) {
           <li className={`nav-item ${styles['nav-item']}`}>
             <LinkLocale href={pathname} locale={locale === 'pt' ? 'en' : 'pt'} className={styles.flag}>
               <picture>
-                <img src={`/images/icon/${locale === 'pt' ? 'pt' : 'en'}.png`} width='40' alt='' />
+                <img src={`${process.env.NEXT_PUBLIC_ASSET_PREFIX}/images/icon/${locale === 'pt' ? 'pt' : 'en'}.png`} width='40' alt='' />
               </picture>
             </LinkLocale>
           </li>

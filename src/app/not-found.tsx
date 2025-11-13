@@ -25,7 +25,7 @@ export default async function NotFound() {
       <div className={styles['background-geometric']} style={{ marginBottom: '72px' }}>
         <BackgroundGeometric amount={9} />
       </div>
-      <Link href={'/'}>Voltar para a página inicial.</Link>
+      <Link prefetch={false} href={'/'}>Voltar para a página inicial.</Link>
     </article>
   );
 }
