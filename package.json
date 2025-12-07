@@ -23,7 +23,7 @@
     "@sinclair/typebox": "^0.34.41",
     "bootstrap": "^5.3.8",
     "highlight.js": "^11.11.1",
-    "next": "15.5.2",
+    "next": "15.5.7",
     "next-intl": "^4.3.6",
     "react": "19.1.0",
     "react-dom": "19.1.0",
