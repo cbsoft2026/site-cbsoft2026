@@ -17,8 +17,9 @@
 
   .navbar-brand {
     padding: 0;
-    width: 300px;
     border-right: 1px solid $border-color;
+    padding-left: 24px;
+    padding-right: 24px;
     text-align: center;
 
     img {
@@ -30,7 +31,8 @@
 
   .navbar-toggler {
     position: absolute;
-    right: 32px;
+    right: 24px;
+    padding: 4px;
 
     &:focus,
     &:hover {
@@ -57,7 +59,6 @@
   @media (max-width: 768px) {
     .navbar-brand {
       border-right: none;
-      margin: auto;
     }
   }
 

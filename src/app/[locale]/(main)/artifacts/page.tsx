@@ -23,7 +23,7 @@ export default async function CallPage({ params }: Props) {
   const { locale } = await params;
   const commonT = await getTranslations({ locale, namespace: 'common' });
   return (
-    <article style={{ padding: '30px 60px 0' }}>
+    <article style={{ padding: '30px 0 0' }}>
       <header className='container' style={{ marginBottom: 56 }}>
         <Title titulo={`${commonT(`siglas.artifacts`)}`}></Title>
       </header>
