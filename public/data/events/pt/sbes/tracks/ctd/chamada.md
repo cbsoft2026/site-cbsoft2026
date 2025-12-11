@@ -1,3 +1,5 @@
+O Simpósio Brasileiro de Engenharia de Software (SBES), promovido anualmente pela Sociedade Brasileira de Computação (SBC), é o principal evento de Engenharia de Software da América Latina. O SBES é realizado em conjunto com o Congresso Brasileiro de Software: Teoria e Prática (CBSoft). 
+
 #### Chamada de Trabalhos
 
 O Concurso de Teses e Dissertações em Engenharia de Software (CTD-ES) visa divulgar e premiar as melhores teses de doutorado e dissertações de mestrado na área de Engenharia de Software concluídas, defendidas e aprovadas no Brasil no ano de 2025. Serão premiadas as teses e dissertações com contribuição significativa e destacada para a área científica de Engenharia de Software, além de relevante impacto para a sociedade e para a indústria de software.
@@ -76,7 +78,7 @@ Guilherme Horta Travassos – Programa de Engenharia de Sistemas e Computação,
 
 ###### Comitê de Programa do CTD-ES 2026
 
-*A ser indicado*
+*em formação*
 
 
 <br/>
