@@ -27,4 +27,25 @@
   h6 {
     margin: 20px 0 8px;
   }
+  pre {
+    background-color: #faece8;
+    border: 1px solid #eeb6a4;
+    padding: 1rem 1.25rem;
+  }
+  code {
+    background-color: #faece8;
+    padding: 0.15rem 0.4rem;
+    border-radius: 6px;
+    color: #000000;
+  }
+  pre code {
+    padding: 0;
+    background: none;
+    color: inherit;
+  }
+  :global(.hljs) {
+    :global(.hljs-keyword) {
+      font-weight: bold;
+    }
+  }
 }
