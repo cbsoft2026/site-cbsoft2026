@@ -78,7 +78,7 @@ It is prohibited to:
 
 It is allowed to -- with explicit mention in the acknowledgments:
 
-* Use generative AI tools to create parts of the content, with a disclosure in the acknowledgments indicating what was generated and which tool was used. Authors must check the tool’s terms of use. Example: “ChatGPT was used to generate the first paragraph of Section 3 and Table 3.2.”
+* Use generative AI tools to create parts of the content, with a disclosure in the acknowledgments indicating what was generated and which tool was used. Authors must check the tool’s terms of use. Example: "ChatGPT was used to generate the first paragraph of Section 3 and Table 3.2."
 
 It is allowed to -- without mention in the paper:
 
@@ -100,7 +100,8 @@ Additionally, some sections must be removed from the standard ACM template using
 ```latex
 \setcopyright{none}
 \settopmatter{printccs=false}
-\settopmatter{printacmref=false} \renewcommand\footnotetextcopyrightpermission[1]{} 
+\settopmatter{printacmref=false}
+\renewcommand\footnotetextcopyrightpermission[1]{} 
 ```
 
 Authors must use the `ACM-Reference-Format.bst` bibliography style also provided in the template:
