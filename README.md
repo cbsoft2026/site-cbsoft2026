@@ -20,7 +20,7 @@ Caso queira rodar em modo desenvolvimento, basta
 npm run dev
 ```
 
-A aplicação ficará disponível em: [http://localhost:3000](http://localhost:3000).
+A aplicação ficará disponível em: [http://localhost:3000/{NEXT_PUBLIC_URL}/{LOCALE}](http://localhost:3000/{NEXT_PUBLIC_URL}/{LOCALE}).
 
 3. **Gerar o build do projeto**
 
@@ -65,18 +65,5 @@ npm run generate-messages
 npm run generate-events
 ```
 ou simplesmente realizar o build.
-
-## Deploy
-
-No momento está sendo realizado manualmente usando `scp`
-
-```bash
-# opcional
-username@server $ rm -rf /var/www/cbsoft2026/*
-```
-
-```bash
-scp -r ./out/* username@server:/var/www/cbsoft2026
-```
 
 [^1]: Idealmente
