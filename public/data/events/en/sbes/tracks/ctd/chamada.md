@@ -78,7 +78,7 @@ Guilherme Horta Travassos – Programa de Engenharia de Sistemas e Computação,
 
 ###### Comitê de Programa do CTD-ES 2026
 
-*A ser indicado*
+*em formação*
 
 
 <br/>
