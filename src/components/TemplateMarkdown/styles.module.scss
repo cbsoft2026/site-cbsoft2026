@@ -4,4 +4,27 @@
     margin: 1rem 0;
     font-style: italic;
   }
+  table {
+    th, td {
+      padding: 5px 15px;
+    }
+  }
+  h1 {
+    margin: 48px 0 24px;
+  }
+  h2 {
+    margin: 40px 0 20px;
+  }
+  h3 {
+    margin: 32px 0 16px;
+  }
+  h4 {
+    margin: 28px 0 12px;
+  }
+  h5 {
+    margin: 24px 0 10px;
+  }
+  h6 {
+    margin: 20px 0 8px;
+  }
 }

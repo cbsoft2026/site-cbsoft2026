@@ -1,5 +1,6 @@
 import ReactMarkdown from 'react-markdown';
 import rehypeHighlight from 'rehype-highlight';
+import remarkGfm from 'remark-gfm';
 import latex from 'highlight.js/lib/languages/latex';
 import rehypeRaw from 'rehype-raw';
 import styles from './styles.module.scss';
@@ -12,7 +13,7 @@ type Props = {
 export default function TemplateMarkdown({ children, className }: Props) {
   return (
     <section className={`${styles['markdown-body']} ${className}`}>
-      <ReactMarkdown skipHtml={false} rehypePlugins={[[rehypeHighlight, { languages: { latex } }], rehypeRaw]}>
+      <ReactMarkdown skipHtml={false} rehypePlugins={[remarkGfm, [rehypeHighlight, { languages: { latex } }], rehypeRaw]}>
         {children}
       </ReactMarkdown>
     </section>

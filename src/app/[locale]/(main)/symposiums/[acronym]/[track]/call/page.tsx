@@ -12,7 +12,7 @@ export default async function CallPage({ params }: Props) {
   return (
     <>
       <div className='container' style={{ marginBottom: 56 }}>
-        <Title titulo={`${commonT(`siglas.${acronym}`)} (${commonT(`${acronym}`)})`}></Title>
+        <Title titulo={`${commonT(`siglas.trilhas.${track}`)}`}></Title>
       </div>
       <div className='container'>
         <CallComponent acronym={acronym} track={track} locale={locale}></CallComponent>
