@@ -68,11 +68,11 @@ Os artigos regulares serão avaliados de acordo com sua adequação ao escopo do
 
 Todos os resumos da indústria passarão por um processo de revisão anônima por pares: faremos um esforço para incluir pelo menos um especialista da indústria entre os revisores. Preferencialmente o autor que apresentará o artigo não terá afiliações acadêmicas. Incentivamos contribuições com foco em inovação industrial ou lições aprendidas que possam inspirar trabalhos acadêmicos futuros. Também aceitamos submissões que ainda estejam em estado inicial de desenvolvimento e que possam levar a novas perspectivas e novas ideias. O objetivo desta trilha é promover a troca de conhecimento e experiência entre acadêmicos e profissionais.
 
-A publicação dos artigos aceitos no simpósio está vinculada à apresentação do artigo no SAST 2025 e à inscrição de pelo menos um de seus autores no CBSoft 2025.
+A publicação dos artigos aceitos no simpósio está vinculada à apresentação do artigo no SAST 2026 e à inscrição de pelo menos um de seus autores no CBSoft 2026.
 
 #### Sobre o uso de IA (Inteligência Artificial) ou tecnologias assistidas por IA em artigos científicos
 
-Ao submeter trabalhos para o SAST 2025, os autores reconhecem que estão em conformidade com a política de uso de IA generativa, baseada em políticas existentes propostas pelo IEEE, ACM e Springer.
+Ao submeter trabalhos para o SAST 2026, os autores reconhecem que estão em conformidade com a política de uso de IA generativa, baseada em políticas existentes propostas pelo IEEE, ACM e Springer.
 
 É proibido:
 
