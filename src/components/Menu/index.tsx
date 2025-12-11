@@ -99,11 +99,32 @@ export default function Menu(props: HTMLAttributes<HTMLDivElement>) {
     ],
   };
 
-  const symposiumsMenuItem: NavbarItemProps = {
-    title: t('symposiums.title'),
-    items: ['sbes', 'sblp', 'sbcars', 'sast'].map((symposiums) => {
-      return { title: commonT(symposiums), href: `/symposiums/${symposiums}/call` };
-    }),
+  const sbesMenuItem: NavbarItemProps = {
+    title: t('sbes.titulo'),
+    items: [
+      { title: t('sbes.pesquisa'), href: '/symposiums/sbes/pesquisa/call' },
+      { title: t('sbes.educacao'), href: '/symposiums/sbes/educacao/call' },
+      { title: t('sbes.ideias_inovadoras'), href: '/symposiums/sbes/ideias/call' },
+      { title: t('sbes.ferramentas'), href: '/symposiums/sbes/tools/call' },
+      { title: t('sbes.ctic'), href: '/symposiums/sbes/ctic/call' },
+      { title: t('sbes.ctd'), href: '/symposiums/sbes/ctd/call' },
+      { title: t('sbes.industry'), href: '/symposiums/sbes/industry/call' },
+    ],
+  };
+
+  const sblpMenuItem: NavbarItemProps = {
+    title: t('sblp'),
+    href: '/symposiums/sblp/call'
+  };
+
+  const sbcarsMenuItem: NavbarItemProps = {
+    title: t('sbcars'),
+    href: '/symposiums/sbcars/call'
+  };
+
+  const sastMenuItem: NavbarItemProps = {
+    title: t('sast'),
+    href: '/symposiums/sast/call'
   };
 
   const workshopsMenuItem: NavbarItemProps = {
@@ -159,12 +180,11 @@ export default function Menu(props: HTMLAttributes<HTMLDivElement>) {
   };
 
   const menuItemsCollection = [
-    // sbesMenuItem,
-    // sblpMenuItem,
-    // sbcarsMenuItem,
-    // sastMenuItem,
     cbsoftMenuItem,
-    symposiumsMenuItem,
+    sbesMenuItem,
+    sblpMenuItem,
+    sbcarsMenuItem,
+    sastMenuItem,
     workshopsMenuItem,
     artifactsMenuItem,
     schoolMenuItem,
