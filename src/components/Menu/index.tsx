@@ -106,9 +106,9 @@ export default function Menu(props: HTMLAttributes<HTMLDivElement>) {
       { title: t('sbes.educacao'), href: '/symposiums/sbes/educacao/call' },
       { title: t('sbes.ideias_inovadoras'), href: '/symposiums/sbes/ideias/call' },
       { title: t('sbes.ferramentas'), href: '/symposiums/sbes/tools/call' },
+      { title: t('sbes.industry'), href: '/symposiums/sbes/industry/call' },
       { title: t('sbes.ctic'), href: '/symposiums/sbes/ctic/call' },
       { title: t('sbes.ctd'), href: '/symposiums/sbes/ctd/call' },
-      { title: t('sbes.industry'), href: '/symposiums/sbes/industry/call' },
     ],
   };
 
