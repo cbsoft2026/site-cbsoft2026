@@ -14,7 +14,11 @@ function OrganizadorCard(props: Chair) {
         <Image
           width={200}
           height={200}
-          src={image?.startsWith('http') ? image : `${process.env.NEXT_PUBLIC_ASSET_PREFIX}/images/organizadores/${image || 'default.jpg'}`}
+          src={
+            image?.startsWith('http')
+              ? image
+              : `${process.env.NEXT_PUBLIC_ASSET_PREFIX}/images/organizadores/${image || 'default.jpg'}`
+          }
           alt={'perfil'}
         />
       </div>

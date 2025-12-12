@@ -16,7 +16,18 @@ type Props = {
 export default function TemplateMarkdown({ children, className }: Props) {
   return (
     <section className={`${styles['markdown-body']} ${className}`}>
-      <ReactMarkdown skipHtml={false} remarkPlugins={[remarkMath]} rehypePlugins={[rehypeKatex, remarkGfm, [rehypeHighlight, { languages: { latex } }], rehypeRaw]}>
+      <ReactMarkdown
+        skipHtml={false}
+        remarkPlugins={[remarkMath]}
+        rehypePlugins={[rehypeKatex, remarkGfm, [rehypeHighlight, { languages: { latex } }], rehypeRaw]}
+        components={{
+          a: ({ node, ...props }) => (
+            <a {...props} target='_blank' rel='noopener noreferrer'>
+              {props.children}
+            </a>
+          ),
+        }}
+      >
         {children}
       </ReactMarkdown>
     </section>

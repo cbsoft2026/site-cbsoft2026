@@ -38,16 +38,22 @@ function SponsorSection(props: SponsorSection) {
             {items.map((sponsor, index) => (
               <li className={styles['sponsor-item']} key={index}>
                 {sponsor.map((sponsorLine, indexLine) => (
-                  <a key={indexLine} href={sponsorLine.href} target='_blank' rel='noreferrer' className={styles['image-block']}>
-                  <picture>
-                    <img
-                      src={`${process.env.NEXT_PUBLIC_ASSET_PREFIX}/images/sponsors/${sponsorLine.image}`}
-                      alt='sponsor-logo'
-                      className='img-fluid'
-                      loading='lazy'
-                    />
-                  </picture>
-                </a>
+                  <a
+                    key={indexLine}
+                    href={sponsorLine.href}
+                    target='_blank'
+                    rel='noreferrer'
+                    className={styles['image-block']}
+                  >
+                    <picture>
+                      <img
+                        src={`${process.env.NEXT_PUBLIC_ASSET_PREFIX}/images/sponsors/${sponsorLine.image}`}
+                        alt='sponsor-logo'
+                        className='img-fluid'
+                        loading='lazy'
+                      />
+                    </picture>
+                  </a>
                 ))}
               </li>
             ))}

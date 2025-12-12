@@ -114,17 +114,17 @@ export default function Menu(props: HTMLAttributes<HTMLDivElement>) {
 
   const sblpMenuItem: NavbarItemProps = {
     title: t('sblp'),
-    href: '/symposiums/sblp/call'
+    href: '/symposiums/sblp/call',
   };
 
   const sbcarsMenuItem: NavbarItemProps = {
     title: t('sbcars'),
-    href: '/symposiums/sbcars/call'
+    href: '/symposiums/sbcars/call',
   };
 
   const sastMenuItem: NavbarItemProps = {
     title: t('sast'),
-    href: '/symposiums/sast/call'
+    href: '/symposiums/sast/call',
   };
 
   const workshopsMenuItem: NavbarItemProps = {
@@ -224,7 +224,11 @@ export default function Menu(props: HTMLAttributes<HTMLDivElement>) {
           <li className={`nav-item ${styles['nav-item']}`}>
             <LinkLocale href={pathname} locale={locale === 'pt' ? 'en' : 'pt'} className={styles.flag}>
               <picture>
-                <img src={`${process.env.NEXT_PUBLIC_ASSET_PREFIX}/images/icon/${locale === 'pt' ? 'pt' : 'en'}.png`} width='40' alt='' />
+                <img
+                  src={`${process.env.NEXT_PUBLIC_ASSET_PREFIX}/images/icon/${locale === 'pt' ? 'pt' : 'en'}.png`}
+                  width='40'
+                  alt=''
+                />
               </picture>
             </LinkLocale>
           </li>

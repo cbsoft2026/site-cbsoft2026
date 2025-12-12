@@ -4,10 +4,12 @@ export const Sponsor = Type.Object({
   tier: Type.Optional(
     Type.Union([Type.Literal('platina'), Type.Literal('ouro'), Type.Literal('prata'), Type.Literal('bronze')]),
   ),
-  items: Type.Array(Type.Object({
-    href: Type.String(),
-    image: Type.String(),
-  }))
+  items: Type.Array(
+    Type.Object({
+      href: Type.String(),
+      image: Type.String(),
+    }),
+  ),
 });
 
 export const SponsorsSchema = Type.Object({

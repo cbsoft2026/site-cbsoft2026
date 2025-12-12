@@ -22,7 +22,7 @@ export const metadata: Metadata = {
     template: `%s | CBSoft ${appConfig.year}`,
   },
   openGraph: {
-    type: "website",
+    type: 'website',
     url: `${process.env.NEXT_PUBLIC_SITE_URL}`,
     title: `CBSoft ${appConfig.year}`,
     images: [
@@ -30,8 +30,8 @@ export const metadata: Metadata = {
         url: `${process.env.NEXT_PUBLIC_SITE_URL}/images/logos/cbsoft-logo.png`,
         width: 1200,
         height: 630,
-        alt: "logo",
-        type: "image/png",
+        alt: 'logo',
+        type: 'image/png',
       },
     ],
   },
