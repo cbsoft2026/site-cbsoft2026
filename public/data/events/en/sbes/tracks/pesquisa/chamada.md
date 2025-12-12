@@ -141,6 +141,9 @@ Submissions that fall outside the scope of the SBES 2026 Research Track or do no
 
 If a previous publication of the paper or simultaneous submission for a refereed venue (event or journal) is identified, the paper will be rejected at any time, and authors may be prevented from submitting papers in future SBES editions. Additionally, the organizers of the other venue will be informed about the fact.
 
+If evidence is found that generative AI tools were used in the submission in ways that do not comply with the guidelines for the use of generative AI in this call, the paper will be rejected without review, and the authors may be prevented from submitting papers in future SBES editions.
+
+
 #### Paper Review
 
 Papers meeting all the submission requirements will be reviewed by at least three Program Committee members, according to the following criteria:

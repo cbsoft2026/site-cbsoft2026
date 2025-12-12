@@ -1,6 +1,6 @@
-O Simpósio Brasileiro de Engenharia de Software (SBES), promovido anualmente pela Sociedade Brasileira de Computação (SBC), é o principal evento de Engenharia de Software da América Latina. O SBES é realizado em conjunto com o Congresso Brasileiro de Software: Teoria e Prática (CBSoft). 
-
 #### Chamada de Trabalhos
+
+O Simpósio Brasileiro de Engenharia de Software (SBES), promovido anualmente pela Sociedade Brasileira de Computação (SBC), é o principal evento de Engenharia de Software da América Latina. O SBES é realizado em conjunto com o Congresso Brasileiro de Software: Teoria e Prática (CBSoft). 
 
 A Trilha de Pesquisa do SBES é a principal trilha do simpósio e publica contribuições sólidas que são rigorosamente avaliadas pelo Comitê de Programa considerando os critérios de originalidade, relevância, rigor, verificabilidade e transparência, e qualidade da apresentação  do trabalho.  
 
@@ -140,6 +140,8 @@ Dúvidas sobre a preparação de artigos segundo as regras de anonimização do 
 Artigos fora do escopo da Trilha de Pesquisa do SBES 2026 ou que não estiverem em conformidade com o formato exigido e as regras de anonimização serão desclassificados e rejeitados sem passar pelo processo de revisão.
 
 Se uma submissão simultânea ou publicação prévia em outro fórum (evento ou periódico) de artigo submetido ao SBES for identificada e reportada a qualquer tempo, o artigo será rejeitado e os autores poderão ficar impedidos de submeter artigos nas próximas edições do SBES. Além disso, os organizadores do outro fórum serão comunicados sobre a ocorrência. 
+
+Caso sejam observadas evidências da utilização de ferramentas de IA generativa na submissão que não esteja em conformidade com as  recomendações para o uso de IA generativa especificadas nesta chamada, o artigo será rejeitado sem revisão e os autores poderão ficar impedidos de submeter artigos nas próximas edições do SBES.
 
 #### Revisão de Artigos
 
