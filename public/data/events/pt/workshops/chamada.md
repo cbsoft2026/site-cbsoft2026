@@ -1,112 +1,108 @@
-#### Context and Objective
+#### Contexto e Objetivo
 
-The Brazilian Conference on Software: Practice and Theory (CBSoft) is an event annually promoted by the Brazilian Computer Society (SBC) aimed at fostering the exchange of experience among researchers and practitioners from industry and academia regarding recent research, tendencies, and innovations in software. Held since 2010 as an aggregating event of Brazilian symposia promoted by SBC on software, CBSoft has become one of the main conferences in the Brazilian Computing community.
+O Congresso Brasileiro de Software: Teoria e Prática (CBSoft) é um evento promovido anualmente pela Sociedade Brasileira de Computação (SBC), com o objetivo de promover a troca de experiências entre pesquisadores e profissionais da indústria e da academia sobre pesquisas recentes, tendências e inovações em software. Realizado desde 2010 como um evento agregador dos simpósios brasileiros promovidos pela SBC na área de software, o CBSoft tornou-se um dos principais eventos da comunidade de Computação no Brasil.
 
-In 2026, the sixteenth edition of CBSoft will be held in person, from September 8th to 12th, in São Paulo, integrating four traditional annual events:
+Em 2026, a décima sexta edição do CBSoft será realizada presencialmente, de 8 a 12 de setembro, em São Paulo, integrando quatro eventos anuais tradicionais:
 
-* **XXXX** Brazilian Symposium on Software Engineering
-* **XXX** Brazilian Symposium on Programming Languages
-* **XX** Brazilian Symposium on Components, Architectures, and Reuse
-* **XI** Brazilian Symposium on Systematic and Automated Software Testing
+* **XXXX** Simpósio Brasileiro de Engenharia de Software
+* **XXX** Simpósio Brasileiro de Linguagens de Programação
+* **XX** Simpósio Brasileiro de Componentes, Arquiteturas e Reutilização de Software
+* **XI** Simpósio Brasileiro de Teste de Software Sistemático e Automatizado
 
-In addition, CBSoft includes workshops related to the themes of these events. The aim is to create a space for members of academia and industry to exchange and discuss experiences and ideas. Workshops traditionally held at CBSoft may be promoted to pre-approved workshops (see details below).
-
----
-
-#### General Information
-
-Workshop selection for CBSoft 2026 will be based on submitted proposals. Proposals will be evaluated considering:
-
-* Relevance of the workshop’s main topic
-* Experience of the workshop chair
-* Adequacy of the Program Committee
-* Evaluation of previous editions, if applicable
-
-Workshops may last **3 hours (half-day)** or **6 hours (full day)**.
-
-Workshops will be held in person on:
-
-* September 8th, and
-* September 12th, 2026
-
-Organizers may express a preferred date, but the final schedule will be defined by the Workshop Committee in coordination with CBSoft 2026 organization.
-
-> **IMPORTANT:** Workshop proceedings will be prepared jointly by workshop organizers and the CBSoft proceedings chairs. Deadlines for delivering workshop papers to the CBSoft organizing committee must be followed.
+Além disso, o CBSoft inclui workshops relacionados aos temas desses eventos. O objetivo é criar um espaço para que membros da academia e da indústria troquem e discutam experiências e ideias. Workshops tradicionalmente realizados no CBSoft podem ser promovidos a workshops pré-aprovados (ver detalhes abaixo).
 
 ---
 
-#### Submission Instructions
+#### Informações Gerais
 
-(See next section for pre-approved workshops.)
+A seleção de workshops para o CBSoft 2026 será baseada nas propostas submetidas. As propostas serão avaliadas considerando:
 
-Workshop proposals must be submitted through: [https://jems3.sbc.org.br/cbsoftworkshops2026](https://jems3.sbc.org.br/cbsoftworkshops2026)
+* Relevância do tema principal do workshop
+* Experiência do coordenador do workshop
+* Adequação do Comitê de Programa
+* Avaliação de edições anteriores, quando aplicável
 
-The proposal must include (in Portuguese or English):
+Os workshops podem ter duração de **3 horas (meio período)** ou **6 horas (período completo)**.
 
-* Name of the workshop
-* Duration: 3 or 6 hours
-* Preferred date: September 8th or September 12th
-* Description of the main topic and its relevance
-* Workshop history (participants, submissions, acceptance rate)
-* Workshop format, including:
+Os workshops serão realizados presencialmente em:
 
-  * Topics of interest
-  * Acceptance criteria
-  * Presentation format
-  * Activities to promote debate and community engagement
-* Invited speakers
-* Expected audience and maximum number of participants
-* Program committee
-* Support and equipment required from local organization
-* Name, contact information, and curriculum of the workshop chair
+* 8 de setembro, e
+* 12 de setembro de 2026
 
-  * If Brazilian: link to Lattes CV
-  * If not: brief résumé included in the proposal
+Os organizadores podem indicar uma data preferencial, mas a programação final será definida pelo Comitê de Workshops em coordenação com a organização do CBSoft 2026.
+
+> **IMPORTANTE:** Os anais dos workshops serão preparados em conjunto pelos organizadores do workshop e pelos chairs dos anais do CBSoft. Os prazos para envio dos artigos dos workshops à organização do CBSoft devem ser seguidos.
 
 ---
 
-#### Submission Instructions for Pre-Approved Workshops
+#### Instruções de Submissão
 
-Workshops qualify as *pre-approved* if:
+(Consulte a próxima seção para workshops pré-aprovados.)
 
-* Their first edition was in 2025, or
-* They have held at least three editions
+As propostas de workshop devem ser submetidas em: [https://jems3.sbc.org.br/cbsoftworkshops2026](https://jems3.sbc.org.br/cbsoftworkshops2026)
 
-Pre-approved workshops must submit a simplified proposal at: [https://jems3.sbc.org.br/cbsoftworkshops2026](https://jems3.sbc.org.br/cbsoftworkshops2026)
+A proposta deve incluir (em português ou inglês):
 
-The simplified proposal must include:
-
-* Name of the workshop
-* Duration: 3 or 6 hours
-* Preferred date: September 8th or September 12th
-* Organizing committee
-* Steering committee (if applicable)
-* Name, contact information, and curriculum of the workshop chair
-
-  * Lattes CV if Brazilian, otherwise a brief résumé
-* For workshops with 3+ editions: statistics from the last three editions
-
-  * Number of participants
-  * Number of submissions
-  * Acceptance rate
-
-Pre-approved workshops are automatically accepted once the required information is submitted. The Workshops Evaluation Committee may provide feedback or revoke pre-approved status based on declining submissions or other considerations.
-
----
-
-#### Important Dates
-
-| Activity                                       | Date                    |
-| ---------------------------------------------- | ----------------------- |
-| Workshop proposal submission              | February 26th, 2026 |
-| Notification of acceptance                | March 9th, 2026     |
-| Camera-ready papers (for Workshops Chairs) | August 10th, 2026   |
+* Nome do workshop
+* Duração: 3 ou 6 horas
+* Data preferencial: 8 ou 12 de setembro
+* Descrição do tema principal e sua relevância
+* Histórico do workshop (participantes, submissões, taxa de aceitação)
+* Formato do workshop, incluindo:
+  * Tópicos de interesse
+  * Critérios de aceitação
+  * Formato das apresentações
+  * Atividades para promover debate e engajamento da comunidade
+* Palestrantes convidados
+* Público esperado e número máximo de participantes
+* Comitê de programa
+* Suporte e equipamentos necessários da organização local
+* Nome, informações de contato e currículo do coordenador do workshop
+  * Se brasileiro: link para o Currículo Lattes
+  * Se estrangeiro: breve currículo incluído na proposta
 
 ---
 
-#### Organization
+#### Instruções de Submissão para Workshops Pré-Aprovados
 
-###### Workshops Committee Chairs
+Workshops são considerados *pré-aprovados* se:
+
+* Sua primeira edição ocorreu em 2025, ou
+* Já realizaram pelo menos três edições
+
+Workshops pré-aprovados devem submeter uma proposta simplificada em: [https://jems3.sbc.org.br/cbsoftworkshops2026](https://jems3.sbc.org.br/cbsoftworkshops2026)
+
+A proposta simplificada deve incluir:
+
+* Nome do workshop
+* Duração: 3 ou 6 horas
+* Data preferencial: 8 ou 12 de setembro
+* Comitê organizador
+* Comitê diretivo (se aplicável)
+* Nome, informações de contato e currículo do coordenador do workshop
+  * Currículo Lattes, se brasileiro; caso contrário, um breve currículo
+* Para workshops com 3 ou mais edições: estatísticas das três últimas edições
+  * Número de participantes
+  * Número de submissões
+  * Taxa de aceitação
+
+Workshops pré-aprovados são automaticamente aceitos após o envio das informações requeridas. O Comitê de Avaliação de Workshops pode fornecer feedback ou revogar o status de pré-aprovado com base em queda no número de submissões ou outros fatores.
+
+---
+
+#### Datas Importantes
+
+| Atividade | Data |
+|---|---|
+| Submissão de propostas de workshop | 26 de fevereiro de 2026 |
+| Notificação de aceitação | 9 de março de 2026 |
+| Versão final dos artigos (para Chairs de Workshops) | 10 de agosto de 2026 |
+
+---
+
+#### Organização
+
+###### Coordenadores do Comitê de Workshops
 
 Genaína Nunes Rodrigues, Universidade de Brasília (UnB) — genaina@unb.br
 
