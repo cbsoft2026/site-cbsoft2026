@@ -110,7 +110,7 @@ Authors must use the `ACM-Reference-Format.bst` bibliography style also provided
 \bibliographystyle{ACM-Reference-Format}
 ```
 
-After the Conclusion section, authors must include an unnumbered section titled “Artifacts Availability":
+After the Conclusion section, authors must include an unnumbered section titled "Artifacts Availability":
 
 ```latex
 \section*{Artifacts Availability}

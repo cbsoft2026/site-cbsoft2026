@@ -61,7 +61,7 @@ Todas as submissões passarão por revisão por pares em dupla avaliação cega 
 Regras de anonimização:
 
 * Não incluir nomes ou afiliações no corpo do artigo.
-* Trabalhos próprios devem ser citados em terceira pessoa (ex.: “o trabalho anterior de XYZ” ao invés de “em nosso trabalho anterior …”).
+* Trabalhos próprios devem ser citados em terceira pessoa (ex.: "o trabalho anterior de XYZ" ao invés de "em nosso trabalho anterior …").
 * Evitar links para páginas que identifiquem autoria; se necessário, disponibilizar versão anonimizada.
 * Nomes de empresas ou instituições relacionadas ao estudo também devem ser anonimizados, mantendo apenas características gerais quando necessárias ao contexto.
 

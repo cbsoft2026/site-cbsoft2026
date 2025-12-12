@@ -167,8 +167,8 @@
 
       /* o logo precisa caber nessa caixa comum */
       .image-block img {
-        max-width: 200; // limita largura para logos mais “quadrados” não dominarem
-        max-height: 80; // limita altura igualmente para todos
+        max-width: 200;
+        max-height: 80;
         width: auto;
         height: auto;
         object-fit: contain;

@@ -72,7 +72,7 @@ Ao submeterem trabalhos ao SBES 2026, os autores reconhecem que estão em confor
 
 É permitido (com menção explícita nos agradecimentos):
 
-* Utilizar ferramentas de IA generativa para criar partes do conteúdo, com menção nos agradecimentos do artigo indicando o que foi gerado e qual ferramenta foi utilizada. É importante verificar os termos de uso da ferramenta, ficando tal verificação sob responsabilidade dos autores do artigo. Por exemplo, nos agradecimentos: “ChatGPT foi utilizado para gerar o primeiro parágrafo da Seção 3 e para gerar a Tabela 3.2”.
+* Utilizar ferramentas de IA generativa para criar partes do conteúdo, com menção nos agradecimentos do artigo indicando o que foi gerado e qual ferramenta foi utilizada. É importante verificar os termos de uso da ferramenta, ficando tal verificação sob responsabilidade dos autores do artigo. Por exemplo, nos agradecimentos: "ChatGPT foi utilizado para gerar o primeiro parágrafo da Seção 3 e para gerar a Tabela 3.2".
 
 É permitido (sem necessidade de menção):
 
