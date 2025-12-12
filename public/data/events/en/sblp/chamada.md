@@ -56,7 +56,7 @@ All accepted papers will be published in the conference proceedings, indexed by 
     
 A selection of the best papers from recent editions of SBLP has been invited to be extended and considered for publication in a special issue of the <em>Journal of Computer Languages (COLA)</em>, published by Elsevier. For SBLP 2026, the organizers plan to approach COLA for a similar special issue, inviting authors of the most highly ranked and promising papers to submit extended versions of their work for further peer review. Such extensions typically require a significant addition of new material, deeper evaluation, and a broader discussion of the results.
     
-To recognize outstanding contributions, <strong>three best paper awards</strong> will be granted among the full paper submissions. The selection will consider scientific quality, originality, clarity of presentation, and potential impact on the programming languages community. Awarded papers will be highlighted during the symposium and in the conference publicity, and the authors will receive a formal certificate.    
+To recognize outstanding contributions, **four best paper awards** will be granted: two among the full paper submissions in the Main Track and **two** among the full paper submissions in the Undergraduate Track. The selection will consider scientific quality, originality, clarity of presentation, and potential impact on the programming languages community. Awarded papers will be highlighted during the symposium and in the conference publicity, and the authors will receive a formal certificate.   
 
 #### Organization
 
