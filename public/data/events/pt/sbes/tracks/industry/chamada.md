@@ -30,7 +30,7 @@ Exemplos de tópicos de interesse incluem - mas não se limitam a:
 | Notificação Final de Aceitação | 10/07/2026 |
 | Envio da Versão Final | 20/07/2026 |
 
-**Os deadlines de todas as datas são fixos e eles não serão postergados.**
+> **Nota:** Os deadlines de todas as datas são **fixos** e eles não serão postergados.
 
 #### Preparando a Submissão
 
@@ -64,8 +64,6 @@ A submissão do trabalho será exclusivamente eletrônica, através do sistema [
 #### Organização
 
 Maurício Aniche - Uber
-
-Marden Neubert
 
 Joseph Yoder - The Refactory
 

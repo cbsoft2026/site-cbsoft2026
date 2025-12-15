@@ -1,80 +1,91 @@
-#### Apresentação
+#### Overview
 
-A Trilha da Indústria do Simpósio Brasileiro de Engenharia de Software 2026 tem por objetivo fomentar a cooperação entre a academia, o mercado e o governo, com palestras, artigos e discussões. Ela visa reunir profissionais dos três setores para compartilhar seus conhecimentos e suas experiências com a comunidade.
+The **Industry Track** of the Brazilian Symposium on Software Engineering (**CBSoft 2026**) aims to foster cooperation among academia, the indrustry, and the government through talks, articles, and discussions. Its goal is to bring together professionals from all three sectors to share their knowledge and experiences with the community.
 
-Essa é uma excelente oportunidade para estabelecer relações de cooperação entre a comunidade acadêmica e as comunidades de profissionais. É ainda uma oportunidade para estabelecer relações de pesquisa aplicada, fomentando o desenvolvimento do mercado e a inovação com transferência de tecnologias.
+This is an excellent opportunity to establish cooperative relationships between the academic and professional communities. It is also a venue for establishing applied research partnerships, fostering market development, and promoting innovation through technology transfer.
 
-#### Chamada de Apresentações (Industry Talks)
+#### Call for Presentations (Industry Talks)
 
-A trilha está aberta para acadêmicos e profissionais do setor produtivo (organizações públicas ou privadas) que queiram compartilhar seus conhecimentos teóricos e tecnológicos e conjuntamente identificar possibilidades no desenvolvimento de redes de colaboração e de pesquisa na relação entre academia e empresas.
+The track invites submissions from academics and practitioners from the productive sector (public or private organizations) who wish to share theoretical and technological knowledge and jointly identify opportunities for developing collaborative networks and research at the intersection of academia and industry.
 
-Submissões de propostas de apresentações sobre experiências práticas com desenvolvimento de plataformas, sistemas, ferramentas, aplicativos e produtos de código aberto, que descrevam desafios de mercado (problemas em aberto) e soluções aplicáveis à indústria, são bem-vindas.
+We welcome proposals for presentations on practical experiences regarding the development of platforms, systems, tools, applications, and open-source products. Proposals should describe market challenges (open problems) and solutions applicable to the industry.
 
-Exemplos de tópicos de interesse incluem - mas não se limitam a:
+**Topics of interest include, but are not limited to:**
 
-* Engenharia de software empírica / experimental, como aplicações ou uso de ferramentas, diferentes processos e práticas de software e como elas impactaram a organização
-* Detalhamento de ferramentas internas, suas decisões arquiteturais e de usabilidade, e impacto na produtividade do time e resiliência da aplicação
-* Práticas, processos e ferramentas relacionadas a testes e resiliência de software
-* Engenharia de Software para Inteligência Artificial e Inteligência Artificial para Engenharia de Software
-* Arquiteturas para sistemas multi-cloud
-* Engenharia de software seguro
-* Engenharia para sustentabilidade e otimização energética
-* Reflexões sobre interação academia-indústria, modelos, métodos, e lições aprendidas
+* **Empirical/Experimental Software Engineering:** Applications or usage of tools, different software processes/practices, and their impact on the organization.
+Internal Tools: Architectural and usability decisions regarding internal tools, and their impact on team productivity and application resilience.
+* **Testing & Resilience:** Practices, processes, and tools related to software testing and resilience.
+* **AI & SE:** Software Engineering for Artificial Intelligence and Artificial Intelligence for Software Engineering.
+* **Multi-cloud:** Architectures for multi-cloud systems.
+* **Security:** Secure Software Engineering.
+* **Sustainability:** Green software engineering and energy optimization.
+* **Collaboration Models:** Reflections on academia-industry interaction, models, methods, and lessons learned.
 
-#### Datas Importantes
+#### Important Dates
 
 | | |
 |---|---|
-| Registro do artigo (envio do resumo) |22/05/2026 |
-| Submissão do artigo | 29/05/2026 |
-| Notificação Final de Aceitação | 10/07/2026 |
-| Envio da Versão Final | 20/07/2026 |
+| Abstract Registration | May 22, 2026 |
+| Paper Submission | May 29, 2026 |
+| Notification of Acceptance | July 10, 2026 |
+| Camera-Ready Version | July 20, 2026 |
 
-**Os deadlines de todas as datas são fixos e eles não serão postergados.**
+> **Note:** All deadlines are **strict (hard deadlines)** and will not be extended.
 
-#### Preparando a Submissão
 
-Resumo Estendido da Apresentação (mínimo de 2 páginas e no máximo 4 páginas)
+#### Submission Guidelines
 
-Os resumos estendidos deverão conter os seguintes elementos, utilizando o Modelo para Publicação de Artigos da SBC:
+#### Extended Abstract
 
-* Abstract e Resumo
-* Relato da Apresentação contendo: 
-    * Relevância, impacto e benefícios da apresentação para a indústria de software;
-    * Para as apresentações que discorrem sobre desafios, conter clareza na descrição do problema, incluindo motivação, contexto e dificuldades;
-    * Para as apresentações que discorrem sobre soluções para o mercado, descrição da aplicabilidade da solução e indicadores de sucesso (por exemplo, prova de conceito, protótipo, etc.);
-    * Pequenas provas de evidência, como questionários ou números mostrando o impacto da solução discutida na equipe de desenvolvimento de software
-* Referências Bibliográficas
-* Breve biografia dos autores: para cada autor, formação, experiência profissional e afiliação atual.
+* **Length:** Minimum of 2 pages, maximum of 4 pages.
+* **Template:** Submissions must use the SBC Article Template.
 
-As propostas de apresentações serão revisadas e selecionadas pelo Comitê Técnico da Trilha da Indústria do SBES 2026 e as aprovadas terão seus resumos publicados nos anais estendidos do SBES 2026. Pelo menos um autor ou autora de cada trabalho selecionado deverá fazer sua inscrição no SBES 2026 para participar do evento. 
+The extended abstract must include:
 
-Por essa ser uma trilha dedicada à trabalhos feitos em contexto industrial e por pessoas que trabalhavam ativamente na indústria, é obrigatório:
+1. **Abstract:** A concise summary of the work.
+1. **Presentation Report:**
+    * **Relevance:** The impact and benefits of the presentation for the software industry.
+    * **For Challenge-based talks:** Clarity in the problem description, including motivation, context, and difficulties.
+    * **For Solution-based talks:** Description of the solution's applicability and success indicators (e.g., Proof of Concept, prototype, etc.).
+    * **Evidence:** Brief proofs of evidence, such as surveys or metrics showing the impact of the discussed solution on the software development team.
+1. **References:** Bibliographic references.
+1. **Author Biographies:** A brief bio for each author, including education, professional experience, and current affiliation.
 
-* Trabalhos devem ter pelo menos um autor ou autora vinculado(a) à indústria
-* Ao menos 50% dos autores do artigo devem ser da indústria
-* O apresentador do trabalho também deve ser o autor(a) da indústria
+**Review & Publication** Proposals will be reviewed by the **CBSoft 2026 Industry Track Technical Committee**. Accepted proposals will have their extended abstracts published in the **CBSoft 2026 Extended Proceedings**. At least one author of each selected work must register for CBSoft 2026 to present.
 
-A submissão do trabalho será exclusivamente eletrônica, através do sistema [JEMS](https://jems3.sbc.org.br/cbsoft-industria2025). As submissões podem ser redigidas em inglês ou português.
+#### Mandatory Industry Requirements
 
-#### Em caso de aceite
+As this track is dedicated to work performed in an industrial context by active industry practitioners, the following constraints are **mandatory**:
 
-É obrigatório o envio do [Termo de Autorização de Publicação de Artigos da SBC](https://www.sbc.org.br/documentos-da-sbc/summary/164-publicacoes/1231-termo-de-autorizacao-de-publicacao), o qual deve ser assinado por um dos autores de cada artigo aceito. É necessário também preencher o formulário eletrônico de coleta de metadados para cada artigo aceito.
+* **Industry Affiliation:** The work must have at least one author affiliated with the industry.
 
-#### Organização
+* **Author Composition:** At least **50% of the authors** must be from the industry.
 
-Maurício Aniche - Uber
+* **Presenter:** The presenter of the work must be one of the industry authors.
 
-Marden Neubert
+#### Submission System
 
-Joseph Yoder - The Refactory
+Submissions must be made exclusively electronically via the **JEMS** system.
 
-###### Comitê de Programa
+* **Language:** Submissions may be written in English or Portuguese.
 
-*em formação*
+#### Upon Acceptance
 
+If accepted, authors must:
+
+1. Submit the **SBC Publication Authorization Form** (Copyright Form), signed by one of the authors.
+1. Complete the electronic metadata collection form for the accepted article.
+
+#### Organization
+
+###### Track Chairs
+
+Maurício Aniche – Uber
+
+Joseph Yoder – The Refactory
+
+###### Program Committee
+
+*in formation*
 
 <br/>
-
-
-> Trilha da Indústria
