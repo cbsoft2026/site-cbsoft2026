@@ -4,6 +4,12 @@ on:
   push:
     branches:
       - main
+  workflow_dispatch:
+    inputs:
+      deploy:
+        description: "Executar deploy no servidor?"
+        type: boolean
+        default: false
 
 permissions:
   pages: write
@@ -40,6 +46,7 @@ jobs:
           path: out/
 
   deploy-approval-server:
+    if: ${{ github.event.inputs.deploy == 'true' }}
     runs-on: ubuntu-latest
     needs: build
     steps:
