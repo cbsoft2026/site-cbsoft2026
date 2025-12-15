@@ -89,30 +89,30 @@ jobs:
           "
   
   add-redirect:
-  if: ${{ github.event.inputs.redirect_homolog_to_prod == 'true' }}
-  runs-on: ubuntu-latest
-  needs: build
-  steps:
-    - name: Add redirect page on homolog server
-      run: |
-        ssh -o StrictHostKeyChecking=no ${{ secrets.SSH_USER }}@${{ secrets.SSH_HOST }} "
-          set -e
+    if: ${{ github.event.inputs.redirect_homolog_to_prod == 'true' }}
+    runs-on: ubuntu-latest
+    needs: build
+    steps:
+      - name: Add redirect page on homolog server
+        run: |
+          ssh -o StrictHostKeyChecking=no ${{ secrets.SSH_USER }}@${{ secrets.SSH_HOST }} "
+            set -e
 
-          mkdir -p ${{ secrets.APP_PATH }}
+            mkdir -p ${{ secrets.APP_PATH }}
 
-          cat > ${{ secrets.APP_PATH }}/index.html << 'HTML'
-            <!DOCTYPE html>
-            <html lang="pt-BR">
-              <head>
-                <meta charset="UTF-8">
-                <title>Redirecionando...</title>
-                <meta http-equiv="refresh" content="0; url=https://cbsoft.sbc.org.br/2026">
-              </head>
-              <body>
-                <p>Redirecionando para o site oficial...</p>
-              </body>
-              </html>
-          HTML
+            cat > ${{ secrets.APP_PATH }}/index.html << 'HTML'
+              <!DOCTYPE html>
+              <html lang="pt-BR">
+                <head>
+                  <meta charset="UTF-8">
+                  <title>Redirecionando...</title>
+                  <meta http-equiv="refresh" content="0; url=https://cbsoft.sbc.org.br/2026">
+                </head>
+                <body>
+                  <p>Redirecionando para o site oficial...</p>
+                </body>
+                </html>
+            HTML
 
-          echo "Redirect aplicado com sucesso"
-        "
+            echo "Redirect aplicado com sucesso"
+          "
