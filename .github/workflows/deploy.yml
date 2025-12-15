@@ -104,7 +104,7 @@ jobs:
           ssh -o StrictHostKeyChecking=no ${{ secrets.SSH_USER }}@${{ secrets.SSH_HOST }} "
             set -e
 
-            rm -rf '${{ secrets.APP_PATH }}'
+            rm -rf '${{ secrets.APP_PATH }}'/*
 
             echo '<!DOCTYPE html><html lang=\"pt-BR\"><head><meta charset=\"UTF-8\"><meta http-equiv=\"refresh\" content=\"0; url=https://cbsoft.sbc.org.br/2026\"></head><body><p>Redirecionando para o site oficial...</p></body></html>' > '${{ secrets.APP_PATH }}/index.html'
           "
