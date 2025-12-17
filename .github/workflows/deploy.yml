@@ -133,7 +133,9 @@ jobs:
             --auth-user-pass vpn-auth.txt \
             --daemon
 
-          sleep 15
+          sleep 30
+      - name: Check folder
+        run: ls -la ./out
       - name: Deploy to GitHub Server
         run: |
           sshpass -p "${{ secrets.SSH_SBC_PASSWORD }}" ssh -T \
