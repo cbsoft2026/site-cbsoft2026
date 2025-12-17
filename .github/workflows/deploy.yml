@@ -133,7 +133,12 @@ jobs:
             --auth-user-pass vpn-auth.txt \
             --daemon
 
-          sleep 30
+          echo "Esperando a VPN conectar e o servidor ficar acessível..."
+          for i in {1..30}; do
+            ping -c1 -W1 ${{ secrets.SSH_SBC_HOSTNAME }} && break
+            echo "Aguardando conexão VPN ($i/30)..."
+            sleep 2
+          done
       - name: Check folder
         run: ls -la ./out
       - name: Deploy to GitHub Server
