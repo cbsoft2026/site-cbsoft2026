@@ -136,5 +136,11 @@ jobs:
           sleep 15
       - name: Deploy to GitHub Server
         run: |
-          sshpass -p ${{ secrets.SSH_SBC_PASSWORD }} ssh -o StrictHostKeyChecking=no ${{ secrets.SSH_SBC_USERNAME }}@${{ secrets.SSH_SBC_HOSTNAME }} "mkdir -p ~/tmp/deploy_temp && rm -rf ~/tmp/deploy_temp/*"
-          sshpass -p ${{ secrets.SSH_SBC_PASSWORD }} scp -o StrictHostKeyChecking=no -r ./out/* ${{ secrets.SSH_SBC_USERNAME }}@${{ secrets.SSH_SBC_HOSTNAME }}:~/tmp/deploy_temp
+          sshpass -p "${{ secrets.SSH_SBC_PASSWORD }}" ssh -T \
+            -o StrictHostKeyChecking=no \
+            ${{ secrets.SSH_SBC_USERNAME }}@${{ secrets.SSH_SBC_HOSTNAME }} \
+            "mkdir -p ~/tmp/deploy_temp && rm -rf ~/tmp/deploy_temp/*"
+          sshpass -p "${{ secrets.SSH_SBC_PASSWORD }}" scp -T \
+            -o StrictHostKeyChecking=no \
+            -r ./out/. \
+            ${{ secrets.SSH_SBC_USERNAME }}@${{ secrets.SSH_SBC_HOSTNAME }}:~/tmp/deploy_temp
