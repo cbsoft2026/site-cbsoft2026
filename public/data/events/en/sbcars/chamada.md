@@ -10,7 +10,7 @@ In 2026, SBCARS marks its 20th edition, reaffirming its role as the premier Braz
 | Full Paper Submission Deadline | June 26, 2026 |
 | Notification of Acceptance | August 03, 2026 |
 | Camera-Ready Submission | August 10, 2026 |
-| Symposium Dates | From September 08 to 12, 2026 |
+| Symposium Dates | September 9, 2026 |
 
 #### Scope
 
