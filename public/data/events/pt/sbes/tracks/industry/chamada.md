@@ -51,9 +51,9 @@ As propostas de apresentações serão revisadas e selecionadas pelo Comitê Té
 
 Por essa ser uma trilha dedicada à trabalhos feitos em contexto industrial e por pessoas que trabalhavam ativamente na indústria, é obrigatório:
 
-* Trabalhos devem ter pelo menos um autor ou autora vinculado(a) à indústria
-* Ao menos 50% dos autores do artigo devem ser da indústria
-* O apresentador do trabalho também deve ser o autor(a) da indústria
+* Trabalhos devem ter pelo menos um autor ou autora vinculado(a) à indústria ou governo
+* Ao menos 50% dos autores do artigo devem ser da indústria ou governo
+* O apresentador do trabalho também deve ser o autor(a) da indústria ou governo
 
 A submissão do trabalho será exclusivamente eletrônica, através do sistema [JEMS](https://jems3.sbc.org.br/cbsoft-industria2025). As submissões podem ser redigidas em inglês ou português.
 
