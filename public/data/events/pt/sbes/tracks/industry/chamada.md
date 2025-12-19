@@ -6,7 +6,7 @@ Essa é uma excelente oportunidade para estabelecer relações de cooperação e
 
 #### Chamada de Apresentações (Industry Talks)
 
-A trilha está aberta para acadêmicos e profissionais do setor produtivo (organizações públicas ou privadas) que queiram compartilhar seus conhecimentos teóricos e tecnológicos e conjuntamente identificar possibilidades no desenvolvimento de redes de colaboração e de pesquisa na relação entre academia e empresas.
+A trilha está aberta para acadêmicos e profissionais do setor produtivo (organizações públicas ou privadas) que queiram compartilhar suas experiências ("experience reports") ou seus conhecimentos teóricos e tecnológicos e conjuntamente identificar possibilidades no desenvolvimento de redes de colaboração e de pesquisa na relação entre academia e empresas.
 
 Submissões de propostas de apresentações sobre experiências práticas com desenvolvimento de plataformas, sistemas, ferramentas, aplicativos e produtos de código aberto, que descrevam desafios de mercado (problemas em aberto) e soluções aplicáveis à indústria, são bem-vindas.
 
