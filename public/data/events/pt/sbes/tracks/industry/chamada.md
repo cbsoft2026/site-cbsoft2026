@@ -55,6 +55,8 @@ Por essa ser uma trilha dedicada à trabalhos feitos em contexto industrial e po
 * Ao menos 50% dos autores do artigo devem ser da indústria ou governo
 * O apresentador do trabalho também deve ser o autor(a) da indústria ou governo
 
+Note que os trabalhos também podem ser submetidos mesmo sem a participação de pessoas da academia. Caso o time de autores ou a empresa tenha interesse em submeter, mas não tenha experiência em escrever trabalhos para essa trilha, os organizadores estão à disposição para conversar.
+
 A submissão do trabalho será exclusivamente eletrônica, através do sistema [JEMS](https://jems3.sbc.org.br/cbsoft-industria2025). As submissões podem ser redigidas em inglês ou português.
 
 #### Em caso de aceite
