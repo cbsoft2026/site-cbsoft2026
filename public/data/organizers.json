@@ -21,21 +21,26 @@
         "image": "eduardoGuerra.jpg",
         "name": "Eduardo Guerra",
         "university": "UniBz, Itália"
-      }
-    ]
-  },
-  {
-    "category": "local",
-    "chairs": [
+      },
       {
         "image": "pedroValle.jpg",
         "name": "Pedro Valle",
         "university": "IME-USP"
-      },
+      }
+    ]
+  },
+  {
+    "category": "sponsorship",
+    "chairs": [
       {
         "image": "higorAmario.jpg",
         "name": "Higor Amário",
         "university": "Poli-USP"
+      },
+      {
+        "image": "lucasBueno.jpg",
+        "name": "Lucas Bueno",
+        "university": "IFSP"
       }
     ]
   },
@@ -158,6 +163,11 @@
         "image": "andersonFaustino.jpg",
         "name": "Anderson Faustino",
         "university": "UEM"
+      },
+      {
+        "image": "sergioQueirozMedeiros.jpg",
+        "name": "Sérgio Queiroz de Medeiros",
+        "university": "UFRN"
       }
     ]
   },

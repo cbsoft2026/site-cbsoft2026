@@ -14,8 +14,7 @@
 }
 
 .group__card {
-  width: 200;
-  height: 275;
+  width: 200px;
 
   display: flex;
   flex-direction: column;
@@ -23,6 +22,7 @@
   .card__image {
     width: 200px;
     height: 200px;
+    min-height: 200px;
     overflow: hidden;
     display: flex;
     align-items: center;
@@ -41,7 +41,6 @@
     flex-grow: 1;
     display: flex;
     flex-direction: column;
-    justify-content: center;
 
     .info__name {
       text-align: center;
