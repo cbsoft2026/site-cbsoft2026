@@ -9,10 +9,11 @@ export const TrackType = Type.Union([
   Type.Literal('industry'),
   Type.Literal('ctd'),
   Type.Literal('ctic'),
+  Type.Literal('special'),
   Type.Null(),
 ]);
 
-export const trackValues = ['pesquisa', 'educacao', 'ideias', 'tools', 'ctic', 'ctd', 'industry'];
+export const trackValues = ['pesquisa', 'educacao', 'ideias', 'tools', 'ctic', 'ctd', 'industry', 'special'];
 
 export const PaperSchema = Type.Object({
   track: Type.Optional(TrackType),

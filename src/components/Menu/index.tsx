@@ -102,6 +102,7 @@ export default function Menu(props: HTMLAttributes<HTMLDivElement>) {
   const sbesMenuItem: NavbarItemProps = {
     title: t('sbes.titulo'),
     items: [
+      { title: t('sbes.special'), href: '/symposiums/sbes/special/call' },
       { title: t('sbes.pesquisa'), href: '/symposiums/sbes/pesquisa/call' },
       { title: t('sbes.educacao'), href: '/symposiums/sbes/educacao/call' },
       { title: t('sbes.ideias_inovadoras'), href: '/symposiums/sbes/ideias/call' },
