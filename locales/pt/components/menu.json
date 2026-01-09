@@ -3,53 +3,14 @@
     "titulo": "CBSoft { ano }",
     "sobre": "Sobre",
     "organizacao": "Organização",
-    "datas": "Datas Importantes",
     "acomodacoes": "Acomodações",
     "local": "Local do Evento",
-    "jantar": "Jantar por adesão",
-    "programacao": "Programação",
     "codigo_conduta": "Código de Conduta",
     "edicoes_anteriores": "Edições Anteriores",
     "turismo": "Turismo"
   },
   "symposiums": {
     "title": "Simpósios"
-  },
-  "sbes": {
-    "titulo": "SBES",
-    "pesquisa": "Trilha de Pesquisa",
-    "educacao": "Trilha de Educação",
-    "ideias_inovadoras": "Trilha de Ideias Inovadoras e Resultados Emergentes",
-    "ideias_inovadoras2": "",
-    "ferramentas": "Trilha de Ferramentas",
-    "ctic": "Concurso de Trabalhos de Iniciação Científica",
-    "ctd": "Concurso de Teses e Dissertações",
-    "industry": "Trilha da Indústria",
-    "special": "Trilha Especial SBES 40 Anos"
-  },
-
-  "sblp": "SBLP",
-  "sbcars": "SBCARS",
-  "sast": "SAST",
-
-  "workshops": {
-    "titulo": "Workshops",
-    "chamada_workshops": "Chamada de Workshops",
-    "workshops_aceitos": "Workshops Aceitos"
-  },
-
-  "escola": {
-    "titulo": "LATAM School",
-    "call_for_participants": "Chamada para Participantes",
-    "mentoring": "Mentoria",
-    "painel": "Painel",
-    "programacao": "Programação",
-    "participantes": "Participantes"
-  },
-
-  "artifacts": {
-    "titulo": "Artefatos",
-    "call_for_artifacts": "Festival de artefatos"
   },
 
   "schedule": {
@@ -62,8 +23,6 @@
 
   "chamada_trabalhos": "Chamada de Trabalhos",
   "artigos_aceitos": "Artigos Aceitos",
-
-  "trilha_industria": "Trilha da Indústria",
 
   "inscricoes": "Inscrições"
 }

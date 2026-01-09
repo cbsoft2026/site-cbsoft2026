@@ -12,9 +12,6 @@
   "sast": "SAST",
   "sblp": "SBLP",
   "sbes": "SBES", 
-  "industry-track": "Industry Track", 
-  "mssis": "MSSIS",
-  "vem": "VEM", 
   "latam-school": "LATAM School",
   "siglas": {
     "cbsoft": "Brazilian Conference on Software: Practice and Theory",
@@ -24,10 +21,6 @@
     "sbcars": "Brazilian Symposium on Software Components, Architectures, and Reuse",
     "sast": "Brazilian Symposium on Systematic and Automated Software Testing",
     "workshops": "Workshops",
-    "vem": "12th Workshop on Software Visualization, Maintenance and Evolution",
-    "mssis": "VI Workshop de Modelagem e Simulação de Sistemas intensivos em Software",
-    "wbots": "1º Workshop sobre Bots na Engenharia de Software",
-    "openSciense": "IV Workshop on Open Science Practices for Software Engineering (OpenScienSE)",
     "latam-school": "LATAM School in Software Engineering",
     "artifacts": "Artifacts",
 
