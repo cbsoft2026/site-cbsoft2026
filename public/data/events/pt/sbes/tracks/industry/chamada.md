@@ -38,21 +38,20 @@ Resumo Estendido da Apresentação (mínimo de 2 páginas e no máximo 4 página
 
 Os resumos estendidos deverão conter os seguintes elementos, utilizando o Modelo para Publicação de Artigos da SBC:
 
-* Abstract e Resumo
-* Relato da Apresentação contendo: 
+1. Abstract e Resumo
+1. Relato da Apresentação contendo: 
     * Relevância, impacto e benefícios da apresentação para a indústria de software;
     * Para as apresentações que discorrem sobre desafios, conter clareza na descrição do problema, incluindo motivação, contexto e dificuldades;
     * Para as apresentações que discorrem sobre soluções para o mercado, descrição da aplicabilidade da solução e indicadores de sucesso (por exemplo, prova de conceito, protótipo, etc.);
     * Pequenas provas de evidência, como questionários ou números mostrando o impacto da solução discutida na equipe de desenvolvimento de software
-* Referências Bibliográficas
-* Breve biografia dos autores: para cada autor, formação, experiência profissional e afiliação atual.
+1. Referências Bibliográficas
+1. Breve biografia dos autores: para cada autor, formação, experiência profissional e afiliação atual.
 
 As propostas de apresentações serão revisadas e selecionadas pelo Comitê Técnico da Trilha da Indústria do SBES 2026 e as aprovadas terão seus resumos publicados nos anais estendidos do SBES 2026. Pelo menos um autor ou autora de cada trabalho selecionado deverá fazer sua inscrição no SBES 2026 para participar do evento. 
 
-Por essa ser uma trilha dedicada à trabalhos feitos em contexto industrial e por pessoas que trabalhavam ativamente na indústria, é obrigatório:
+Por essa ser uma trilha dedicada a trabalhos feitos em contexto industrial e por pessoas que trabalhavam ativamente na indústria, é obrigatório:
 
-* Trabalhos devem ter pelo menos um autor ou autora vinculado(a) à indústria ou governo
-* Ao menos 50% dos autores do artigo devem ser da indústria ou governo
+* Pelo menos 50% dos autores do artigo devem ser da indústria ou governo
 * O apresentador do trabalho também deve ser o autor(a) da indústria ou governo
 
 Note que os trabalhos também podem ser submetidos mesmo sem a participação de pessoas da academia. Caso o time de autores ou a empresa tenha interesse em submeter, mas não tenha experiência em escrever trabalhos para essa trilha, os organizadores estão à disposição para conversar.

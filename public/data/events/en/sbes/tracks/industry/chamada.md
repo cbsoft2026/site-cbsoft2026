@@ -57,8 +57,6 @@ The extended abstract must include:
 
 As this track is dedicated to work performed in an industrial context by active industry practitioners, the following constraints are **mandatory**:
 
-* **Industry Affiliation:** The work must have at least one author affiliated with the industry.
-
 * **Author Composition:** At least **50% of the authors** must be from the industry.
 
 * **Presenter:** The presenter of the work must be one of the industry authors.
