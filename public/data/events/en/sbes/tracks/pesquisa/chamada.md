@@ -9,7 +9,7 @@ The SBES Research Track is the primary track of the symposium, featuring solid c
 | | |
 |---|---|
 | Paper registration | April 27, 2026 **(HARD DEADLINE)** |
-| Full paper submission | May 4, 2026 **(HARD DEADLINE)** |
+| Full paper submission | {submission_date} **(HARD DEADLINE)** |
 | 1st notification | June 16, 2026 | 
 | Authors' response (rebuttal) | June 16-24, 2026 |
 | Second notification | July 3, 2026 | 

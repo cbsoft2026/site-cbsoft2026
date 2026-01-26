@@ -9,7 +9,7 @@ Pesquisadores são encorajados a submeter ferramentas resultantes de seus projet
 | | |
 |---|---|
 | Registro do artigo (submissão do resumo) | 18 de Maio de 2026 **(PRAZO FIRME)** |
-| Submissão de artigo e vídeo |25 de Maio de 2026 **(PRAZO FIRME)** |
+| Submissão de artigo e vídeo | {submission_date} **(PRAZO FIRME)** |
 | Envio de notificação aos autores | 10 de Julho de 2026 |
 | Submissão da versão final | 20 de Julho de 2026 |
 

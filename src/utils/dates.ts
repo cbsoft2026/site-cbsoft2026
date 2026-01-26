@@ -44,3 +44,9 @@ export function formatDate(
 ): string {
   return new Intl.DateTimeFormat(locale, options).format(new Date(date));
 }
+
+export function dateOnlyFromISO(date: string): Date {
+  if (!date.includes("-")) return new Date(date)
+  const [y, m, d] = date.split('-').map(Number);
+  return new Date(y, m - 1, d);
+}

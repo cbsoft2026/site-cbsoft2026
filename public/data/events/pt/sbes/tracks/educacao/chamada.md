@@ -19,7 +19,7 @@ A Trilha de Educação do SBES convida pesquisadores e educadores da área para 
 | | |
 |---|---|
 | Registro do artigo | 04 de maio de 2026 **(HARD DEADLINE)** |
-| Submissão do artigo completo | 11 de maio de 2026 **(HARD DEADLINE)** |
+| Submissão do artigo completo | {submission_date} **(HARD DEADLINE)** |
 | 1ª notificação | 22 de junho de 2026 |
 | Resposta dos autores (rebuttal) | 22 a 29 de junho de 2026 |
 | 2ª notificação | 10 de julho de 2026 | 

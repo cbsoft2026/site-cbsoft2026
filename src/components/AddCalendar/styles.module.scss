@@ -5,6 +5,10 @@
   display: flex;
   flex-direction: column;
   position: relative;
+  margin-right: 4px;
+  p {
+    margin: 0;
+  }
 
   .items__wrapper {
     position: relative;
@@ -37,6 +41,36 @@
       &:hover {
         background: $overlay-bg;
         width: 100%;
+      }
+    }
+  }
+}
+
+.add-calender.simplified {
+  .collapser {
+    padding: 0;
+
+    .icon {
+      width: 24px;
+      height: 24px;
+    }
+
+    p {
+      margin-right: 12px;
+    }
+
+    &:hover {
+      background-color: unset;
+      border: 1px solid transparent;
+
+      p {
+        color: $text-primary-alt;
+      }
+
+      .icon {
+        background-color: #faece8;
+        border: 1px solid #eeb6a4;
+        color: $primary;
       }
     }
   }

@@ -1,5 +1,7 @@
 import { loadCalls } from '@/lib/api';
 import TemplateMarkdown from '../TemplateMarkdown';
+import dates from '@/data/shared/dates.json';
+import { dateOnlyFromISO } from '@/utils/dates';
 
 type Props = {
   acronym: string;
@@ -8,8 +10,19 @@ type Props = {
   locale: string;
 };
 
+type DateKey = keyof typeof dates;
+
 export default async function CallComponent({ acronym, track, className, locale }: Props) {
   const call = loadCalls(locale, [acronym], track ? [track] : []);
 
-  return <TemplateMarkdown className={className}>{Object.values(call)[0]}</TemplateMarkdown>;
+  const label = `submission_${acronym}${track ? `_${track}` : ''}` as DateKey
+  const submissionDate = dates[label] ? dateOnlyFromISO(dates[label]) : ""
+  
+  return (<TemplateMarkdown 
+    className={className}
+    variables={{submission_date: submissionDate}}
+    locale={locale}
+  >
+    {Object.values(call)[0]}
+  </TemplateMarkdown>);
 }

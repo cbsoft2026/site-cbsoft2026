@@ -13,7 +13,7 @@ In case of questions, please approach the Program Co-Chairs via e-mail.
 
 | | |
 |---|---|
-| Submission deadline | 26/06/2026 |
+| Submission deadline | {submission_date} |
 | Notification date | 24/07/2026 |
 | Camera ready | 03/08/2026 |
 

@@ -17,6 +17,10 @@ h6 {
   font-family: var(--font-gotham-black), sans-serif;
 }
 
+body {
+  color: vars.$text-primary;
+}
+
 a {
   color: vars.$link-color;
 

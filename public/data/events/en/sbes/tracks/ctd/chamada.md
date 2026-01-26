@@ -85,7 +85,7 @@ Up to three papers per category will be invited for presentation at SBES 2026.
 
 | | |
 |---|---|
-| Submission Deadline | June 05, 2026 |
+| Submission Deadline | {submission_date} |
 | Notification of Classification | July 20, 2026 |
 | Camera-Ready Deadline | August 10, 2026 |
 

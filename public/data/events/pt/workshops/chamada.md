@@ -94,7 +94,7 @@ Workshops pré-aprovados são automaticamente aceitos após o envio das informa�
 
 | Atividade | Data |
 |---|---|
-| Submissão de propostas de workshop | 26 de fevereiro de 2026 |
+| Submissão de propostas de workshop | {submission_date} |
 | Notificação de aceitação | 9 de março de 2026 |
 | Versão final dos artigos (para Chairs de Workshops) | 10 de agosto de 2026 |
 

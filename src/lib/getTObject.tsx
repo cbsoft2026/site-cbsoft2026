@@ -1,6 +1,7 @@
 // 'use client';
 
 import TemplateMarkdown from '@/components/TemplateMarkdown';
+import { formatDate } from '@/utils/dates';
 import { getMessages } from 'next-intl/server';
 import React from 'react';
 import { JSX } from 'react';
@@ -20,6 +21,24 @@ export type TObjectFn = (keyPath: string, callParams?: Params) => TObjectType;
 export type TableNode = { header: string[]; rows: string[][] | { categoria: string; grouped: string[][] }[] };
 
 /**
+ * Substitui placeholders `{param}` em uma string pelos valores fornecidos.
+ *
+ * @param str String original contendo placeholders
+ * @param params Parâmetros para interpolação
+ * @returns String interpolada
+ */
+export function interpolate(str: string, params: Record<string, any>, locale?: string): string {
+  if (!str || typeof str !== 'string') return '';
+  return str.replace(/\{\s*(\w+)\s*\}/g, (_, p) => {
+    const value = params[p]
+    if (value instanceof Date) {
+      return `<time datetime="${value}">${formatDate(value, locale)}</time>`;
+    }
+    return params[p] ?? `{${p}}`
+  });
+}
+
+/**
  * Hook customizado para retornar funções de renderização de mensagens
  * baseadas em um namespace específico.
  *
@@ -36,18 +55,6 @@ export function getTObject(namespace: string, hookParams: Params = {}, locale?: 
 
   // const t = useMemo(() => {
   const t = (() => {
-    /**
-     * Substitui placeholders `{param}` em uma string pelos valores fornecidos.
-     *
-     * @param str String original contendo placeholders
-     * @param params Parâmetros para interpolação
-     * @returns String interpolada
-     */
-    function interpolate(str: string, params: Record<string, any>): string {
-      if (!str || typeof str !== 'string') return '';
-      return str.replace(/\{\s*(\w+)\s*\}/g, (_, p) => params[p] ?? `{${p}}`);
-    }
-
     const renderers: RendererMap = {
       string: (node, key, params) => <span key={key}>{interpolate(node, params)}</span>,
       link: (node, key, params) => (

@@ -9,7 +9,7 @@ Researchers are welcome to submit the tools that are outcomes of applied researc
 | | |
 |---|---|
 | Paper registration (abstract submission) |18-May-2026 **(HARD DEADLINE)** |
-| Paper (with video link) submission |25-May-2026 **(HARD DEADLINE)** |
+| Paper (with video link) submission | {submission_date} **(HARD DEADLINE)** |
 | Author notification |10-Jul-2026 |
 | Camera ready | 20-Jul-2026 |
 
