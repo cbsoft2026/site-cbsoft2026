@@ -58,11 +58,12 @@ docker-compose up --build
 
 * **Traduções:** Textos para os idiomas `pt` e `en` devem estar na pasta `locale/`.
 
-Para observar as alterações na página é necessário compilar os *jsons*
+Para observar as alterações na página é necessário compilar os *json*'s e os *yaml*'s
 
 ```bash
 npm run generate-messages
 npm run generate-events
+npm run generate-data
 ```
 ou simplesmente realizar o build.
 
