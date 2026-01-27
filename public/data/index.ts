@@ -8,7 +8,7 @@ import { validateData } from './validator';
 import sponsorsJson from './sponsors.json';
 import organizersJson from './organizers.json';
 import accommodationJson from './accommodation.json';
-import previousEditionsJson from './previous-editions.json'
+import previousEditionsJson from '../generated/previous-editions.json'
 import commonJson from './common.json'
 
 export const sponsors: Sponsors = validateData(SponsorsSchema, sponsorsJson, 'Sponsors');
@@ -20,3 +20,6 @@ export const accommodations: Accommodations = validateData(AccommodationsSchema,
 export const previousEditions: PreviousEditions = validateData(PreviousEditionsSchema, previousEditionsJson, 'PreviousEditions');
 
 export const common = commonJson
+
+export { default as dates } from "../generated/shared/dates.json";
+export { default as speakers } from "../generated/shared/speakers.json";

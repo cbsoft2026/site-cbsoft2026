@@ -1,6 +1,6 @@
 import { loadCalls } from '@/lib/api';
 import TemplateMarkdown from '../TemplateMarkdown';
-import dates from '@/data/shared/dates.json';
+import { dates } from '@/data';
 import { dateOnlyFromISO } from '@/utils/dates';
 
 type Props = {
@@ -10,13 +10,13 @@ type Props = {
   locale: string;
 };
 
-type DateKey = keyof typeof dates;
+type DateKey = keyof typeof dates["submission"];
 
 export default async function CallComponent({ acronym, track, className, locale }: Props) {
   const call = loadCalls(locale, [acronym], track ? [track] : []);
 
-  const label = `submission_${acronym}${track ? `_${track}` : ''}` as DateKey
-  const submissionDate = dates[label] ? dateOnlyFromISO(dates[label]) : ""
+  const label = `${acronym}${track ? `_${track}` : ''}` as DateKey
+  const submissionDate = dates["submission"][label] ? dateOnlyFromISO(dates["submission"][label]) : ""
   
   return (<TemplateMarkdown 
     className={className}

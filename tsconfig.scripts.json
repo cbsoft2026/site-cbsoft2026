@@ -10,6 +10,6 @@
     "outDir": "dist",
     "resolveJsonModule": true
   },
-  "include": ["src/scripts/*.ts", "public/data/**/*.ts"],
+  "include": ["src/scripts/*.ts"],
   "exclude": ["node_modules"]
 }

@@ -1,0 +1,127 @@
+-
+  id: marcio-ribeiro
+  image: Marcio_Ribeiro.jpg
+  name: Márcio Ribeiro
+  bio: >-
+    Márcio Ribeiro is an Associate Professor in the Computing Institute at Federal University of Alagoas. He holds a Doctoral degree in Computer Science from the Federal University of Pernambuco (2012). He was the recipient of the ACM SIGPLAN John Vlissides Award (2010). In addition, his PhD thesis has been awarded as the Best in Computer Science of Brazil in 2012. He has experience in Software Engineering and Artificial Intelligence. Ribeiro was the President of the Special Interest Group on Software Engineering (CEES) of the Brazilian Computer Society (SBC) in 2021-2022. His main research interests are Configurable Systems, Empirical Software Engineering, Software Testing, and Refactoring. Ribeiro has published papers in top-ranked conferences and journals such as ICSE, ESEC/FSE, ECOOP, PLDI, AOSD/Modularity, ICSME, SPLC, GPCE, ICPC, ISSRE, TSE, IST, and JSS. In 2014, Ribeiro was the General Chair of the most important academic event on Software of Brazil, CBSoft 2014 (https://cbsoft.sbc.org.br/2014/). He designed and created the "Aglomerações" app, an app to register and track agglomerations. The app pioneered the idea in which the own user registers agglomerations during the COVID-19 pandemic in Brazil. He is the coordinator of the Research Center on Engineering and Systems (EASY) at the Federal University of Alagoas (https://easy.ufal.br). The center has executed several R&D&I projects. Some of the projects are used in all Brazilian states and has brought savings of millions of reais to brazilian public departments. The center also executes a telehealth project in the context of the brazilian state Alagoas, in partnership with the Ministry of Health of Brazil.
+
+-
+  id: mathieu-acher
+  image: Mathieu_Acher.jpg
+  name: Mathieu Acher
+  institution: University of Rennes/IRISA/Inria
+  webpage: https://mathieuacher.com/
+  bio: >-
+    Mathieu Acher is Professor at University of Rennes/IRISA/Inria, France. His research focuses on modelling, reverse engineering, and learning (deep) variability of software-intensive systems. Beyond its applicability, his research is original in combining software engineering and artificial intelligence techniques (symbolic reasoning, machine learning, generative AI). He is the author of more than 150 peer-reviewed publications in international journals and conferences. His work has received Most Influential Paper Award (SLE’19) and Best Paper Awards (SPLC’13, ICPE’19, SPLC’21, ICSR’22, MODELS’23, AST'24, ISSTA'24). Since 2021, he is a junior research fellow at Institut Universitaire de France (IUF). He is also co-chairing the défi Inria LLM4Code (2024-2028).
+
+-
+  id: rafael-dueire-lins
+  image: Rafael_Dueire_Lins.jpg
+  name: Rafael Dueire Lins
+  institution: Universidade Federal Rural de Pernambuco and Universidade Federal de Pernambuco, Recife, Brazil
+
+-
+  id: sandrine-blazy
+  image: Sandrine_Blazy.jpg
+  name: Sandrine Blazy
+  institution: University of Rennes, France
+  bio: >-
+    Sandrine Blazy is professor at the University of Rennes and deputy director of the IRISA CNRS laboratory. Her research interests include verified compilation with the CompCert C compiler, formal semantics, deductive verification, static analysis and software security. CompCert has won several awards, including the ACM software system award (2021), the ACM SIGPLAN Programming Languages Software Award (2022). Sandrine Blazy received in 2023 the CNRS silver medal.
+
+-
+  id: guilherme-silva
+  name: Guilherme Silva
+  image: Guilherme_Silva.jpg
+  institution: Cadence Design Systems
+  bio: >-
+    Guilherme Silva é mestre em Ciência da Computação pela Universidade Federal de Minas Gerais. Durante a pós-graduação, trabalhou no desenvolvimento de um SDK para um projeto nacional de microchip baseado em RISC-V e desenvolveu uma técnica de compilação certificada. Atualmente, é engenheiro de compiladores na Cadence e trabalha na otimização de redes neurais para execução em DSPs da empresa.
+
+-
+  id: rafael-sumitani
+  name: Rafael Sumitani
+  institution: Cadence Design Systems
+  bio: >-
+    Rafael Sumitani é bacharel em Ciência da Computação pela Universidade Federal de Minas Gerais. Durante a graduação, teve experiência com pesquisa na área de compiladores, com foco em análise automática de complexidade e em fuzzing. Atualmente é Engenheiro de Software na Cadence Design Systems, onde trabalha no desenvolvimento de compiladores voltados para a otimização de modelos de inteligência artificial.
+  image: Rafael_Sumitani.png
+
+-
+  id: michael-canesch
+  name: Michael Canesche
+  institution: Cadence Design Systems
+  bio: >-
+    Michael Canesche é doutor em Ciência da Computação pela Universidade Federal de Minas Gerais (UFMG), com ênfase em Compiladores. É também mestre e bacharel em Ciência da Computação pela Universidade Federal de Viçosa (UFV), com foco em Arquitetura de Computadores. Atualmente, atua como Engenheiro de Software Líder na Cadence Design Systems, onde trabalha no desenvolvimento de compiladores voltados para a otimização de modelos de inteligência artificial.
+  image: Michael_Canesche.jpg
+
+-
+  id: foutse-khomh
+  name: Foutse Khomh
+  bio: >-
+    Foutse Khomh is a Full Professor of Software Engineering at Polytechnique Montréal, a Canada CIFAR AI Chair on Trustworthy Machine Learning Software Systems, an NSERC Arthur B. McDonald Fellow, and an FRQ-IVADO Research Chair on Software Quality Assurance for Machine Learning Applications. He received a Ph.D. in Software Engineering from the University of Montreal in 2011, with the Award of Excellence. He also received a CS-Can/Info-Can Outstanding Young Computer Science Researcher Prize for 2019. His research interests include software maintenance and evolution, machine learning systems engineering, cloud engineering, and dependable and trustworthy ML/AI. His work has received four ten-year Most Influential Paper (MIP) Awards, and seven Best/Distinguished Paper Awards. He initiated and co-organized the Software Engineering for Machine Learning Applications (SEMLA) symposium and the RELENG (Release Engineering) workshop series. He is co-founder of the NSERC CREATE SE4AI: A Training Program on the Development, Deployment, and Servicing of Artificial Intelligence-based Software Systems and one of the Principal Investigators of the DEpendable Explainable Learning (DEEL) project. He is also a co-founder of Quebec's initiative on Trustworthy AI (<a href='https://www.confianceia.ca/'>Confiance IA Quebec</a>) and Scientific co-director of <a href='https://ivado.ca/en/'>IVADO</a>. He is on the editorial board of multiple international software engineering journals (e.g., IEEE Software, EMSE, JSEP) and is a Senior Member of IEEE.
+
+-
+  id: leonardo-murta
+  name: Leonardo Murta
+  institution: UFF
+  webpage: http://www.ic.uff.br/~leomurta
+  awards: Pesquisador Homenageado da CEES.
+  bio: >-
+    Leonardo Gresta Paulino Murta is an Associate Professor at the Computer Science Institute of Universidade Federal Fluminense (UFF). He holds a Ph.D. (2006) and a M.S. (2002) degree in Systems Engineering and Computer Science from COPPE/UFRJ, and a B.S. (1999) degree in Informatics from IM/UFRJ. He has a productivity research grant level D from CNPq and a scientist research grant from FAPERJ. He has published around 50 journal papers and 150 conference papers, and received two ACM SIGSOFT Distinguished Paper Awards at ASE 2006 and MSR 2019 and five best paper awards at SBES, in 2009, 2014, 2016, 2020, and 2022. He has served as program committee member of ICSE 2014, program chair of SBQS 2009, SBES 2015, ICSE NIER 2019, AICCSA 2019, and CIbSE 2020, among others. He is also associate editor of JBCS since 2013 and was editor in chief of JSERD from 2017 to 2020. His research area is software engineering, and his current research interests include configuration management and provenance. Please find more information at http://www.ic.uff.br/~leomurta.
+
+-
+  id: saman-amarasinghe
+  name: Saman Amarasinghe
+  awards: Pesquisador Homenageado da CEES.
+  bio: >-
+    Saman Amarasinghe is a Professor in the Department of Electrical Engineering and Computer Science at Massachusetts Institute of Technology and a member of its Computer Science and Artificial Intelligence Laboratory (CSAIL) where he leads the Commit compiler group. Under Saman's guidance, the Commit group has developed a myriad of pioneering programming languages and compilers including the StreamIt, StreamJIT, PetaBricks, Halide, Simit, MILK, Cimple, TACO, GraphIt, BioStream, CoLa and Seq programming languages and compilers, DynamoRIO, Helium, Tiramisu, Codon and BuildIt compiler/runtime frameworks, Superword Level Parallelism (SLP), goSLP and VeGen for vectorization, Ithemal machine learning based performance predictor, Program Shepherding to protect programs against external attacks, the OpenTuner extendable autotuner, and the Kendo deterministic execution system. He was the co-leader of the Raw architecture project. Beyond academia, Saman was a co-founder of Determina, Lanka Internet Services Ltd., Venti Technologies, DataCebo and Exaloop corporations.  Saman received his BS in Electrical Engineering and Computer Science from Cornell University in 1988, and his MSEE and Ph.D. from Stanford University in 1990 and 1997, respectively.  He is an ACM Fellow.
+
+-
+  id: lionel-briand
+  image: Lionel_Briand.png
+  name: Lionel Briand
+  institution: University of Ottawa and Lero
+  webpage: https://www.lbriand.info
+  bio: >-
+    Lionel C. Briand é professor de engenharia de software com posições conjuntas na (1) Universidade de Ottawa, no Canadá, e (2) no Lero Centre — o centro nacional de pesquisa em software da Irlanda — sediado na Universidade de Limerick. Ao longo de mais de 30 anos, em colaboração com colegas, ele liderou inúmeros projetos de pesquisa colaborativa com empresas dos setores automotivo, de satélites, aeroespacial, de energia, financeiro e jurídico. Lionel ocupou diferentes cargos como engenheiro, acadêmico e líder em sete países. Atualmente, é Catedrático de Pesquisa do Canadá (Tier 1) e diretor do Lero. Lionel foi promovido ao título de Fellow do IEEE e da ACM por suas contribuições para testes e verificação de software. Ele também recebeu o Prêmio Harlan Mills da IEEE Computer Society, o Prêmio de Pesquisa Excepcional da ACM SIGSOFT e o Prêmio Engenheiro do Ano da IEEE Reliability Society. É membro da Royal Society of Canada e da Academia Europaea, a Academia Europeia de Ciências. Seus interesses de pesquisa incluem inteligência artificial confiável, testes e verificação de software (incluindo aspectos de segurança) e engenharia de requisitos.
+
+-
+  id: sarah-nadi
+  image: Sarah_Nadi.jpg
+  name: Sarah Nadi
+  institution: New York University Abu Dhabi
+  webpage: https://sarahnadi.org
+  bio: >-
+    Sarah Nadi é Professora Associada no Programa de Ciência da Computação da New York University Abu Dhabi (NYUAD). Antes de ingressar na NYUAD, ela passou quase oito anos na Universidade de Alberta, no Canadá, onde ocupou uma Cátedra de Pesquisa do Canadá (Tier II) em Reutilização de Software e liderou o laboratório de Manutenção e Reutilização de Software (SMR). Sarah obteve seu Mestrado (2010) e Doutorado (2014) pela Universidade de Waterloo, no Canadá, e passou aproximadamente dois anos como pesquisadora de pós-doutorado na Technische Universität Darmstadt, na Alemanha. Na NYUAD, Sarah co-dirige o laboratório SANAD, cujo objetivo é aprimorar como engenheiros de software desenvolvem e mantêm sistemas, fornecendo as ferramentas e insights de que precisam. Sua expertise de pesquisa está em engenharia de software empírica e análise de software. Sarah trabalhou em uma ampla gama de problemas na engenharia de software, incluindo a identificação de bugs e inconsistências em linhas de produto de software, a detecção de uso inseguro de APIs e o aproveitamento de modelos de linguagem de grande porte (LLMs) para diversas tarefas de desenvolvimento e manutenção. Seu trabalho recente foca em apoiar desenvolvedores no uso de bibliotecas de software, abrangendo desde o processo de seleção inicial, o uso correto da API da biblioteca, até a migração para versões mais recentes ou bibliotecas alternativas.
+
+-
+  id: rohit-gheyi
+  image: Rohit_Gheyi.jpg
+  name: Rohit Gheyi
+  institution: UFCG
+  awards: Pesquisador Homenageado da CEES.
+  webpage: http://www.dsc.ufcg.edu.br/~rohit/
+  bio: >-
+    Rohit obteve seu doutorado na Universidade Federal de Pernambuco (UFPE) em 2007. Durante o doutorado, realizou um estágio no Massachusetts Institute of Technology (MIT). Desde 2009, é professor associado no Departamento de Ciência da Computação da Universidade Federal de Campina Grande (UFCG). Seu grupo de pesquisa propôs diversas técnicas para tornar a evolução de programas mais segura, publicando artigos nas mais importantes conferências de Engenharia de Software (ICSE, FSE, ICSME, SBES) e em revistas de destaque (TSE, EMSE, IST, JSS, TOSEM), recebendo mais de 25 prêmios nacionais e internacionais. Desde 2008, ele também coordena um projeto que organiza competições de programação (como a Olimpíada Paraibana de Informática) e acampamentos de treinamento para estudantes do ensino fundamental, médio e graduação em nosso estado. Estudantes da UFCG conquistaram mais de 70 prêmios em competições de programação nacionais e internacionais (veja alguns deles aqui). Ele recebeu o prêmio de técnico do ICPC em 2017.
+
+-
+  id: fabio-kon
+  image: Fabio_Kon.jpg
+  name: Fabio Kon
+  institution: IME (USP)
+  bio: >-
+    Fabio Kon is a Full Professor at the Department of Computer Science (IME), University of São Paulo and carries out research in Distributed Computing, Applied Data Science, and Software Engineering. His current project is 'InterSCity: the future internet enabling smart cities.' He is an Assistant Editor of the Communications of the ACM. In the past, Fabio has worked as a visiting professor at the MIT Senseable City Lab with a Fulbright fellowship and at the Technion with a FAPESP fellowship.
+
+-
+  id: armando-fox
+  image: Armando_Fox.png
+  name: Armando Fox
+  institution: University of California at Berkeley
+  bio: >-
+    Armando Fox is a Professor of Computer Science, Faculty Advisor for Digital Learning Strategy, Campus Equity Advisor, and Computer Science Diversity Officer at UC Berkeley. With his colleague David Patterson, he co-designed and co-taught Berkeley’s first Massive Open Online Course on “Engineering Software as a Service”, offered through edX, and co-authored the award-winning accompanying textbook of the same name; this work was recognized in 2015 by the ACM Karl V. Karlstrom Outstanding Educator Award. His current research in CS education focuses on creating novel technologies to help students learn advanced programming concepts at scale. He has given invited keynotes on these topics in Spanish and English in the US, Asia, Spain, and Latin America. In an earlier faculty position at Stanford, he received teaching and mentoring awards from the Associated Students of Stanford University, the Society of Women Engineers, and Tau Beta Pi Engineering Honor Society. His degrees are in electrical engineering (BS MIT, MS University of Illinois), computer science (PhD UC Berkeley), and piano performance and musicology (Mannes College of Music Certificate Program, 1986). He is a classically-trained musician and performer, an avid musical theater fan and freelance Music Director, and multilingual/bicultural (Cuban-American) New Yorker who lives in San Francisco.
+
+-
+  id: lina-garces
+  image: Lina_Garces.jpg
+  name: Lina Garcés
+  institution: Instituto de Ciências Matemáticas e de Computação, Universidade de São Paulo (ICMC/USP)
+  bio: >-
+    Armando Fox is a Professor of Computer Science, Faculty Advisor for Digital Learning Strategy, Campus Equity Advisor, and Computer Science Diversity Officer at UC Berkeley. With his colleague David Patterson, he co-designed and co-taught Berkeley’s first Massive Open Online Course on “Engineering Software as a Service”, offered through edX, and co-authored the award-winning accompanying textbook of the same name; this work was recognized in 2015 by the ACM Karl V. Karlstrom Outstanding Educator Award. His current research in CS education focuses on creating novel technologies to help students learn advanced programming concepts at scale. He has given invited keynotes on these topics in Spanish and English in the US, Asia, Spain, and Latin America. In an earlier faculty position at Stanford, he received teaching and mentoring awards from the Associated Students of Stanford University, the Society of Women Engineers, and Tau Beta Pi Engineering Honor Society. His degrees are in electrical engineering (BS MIT, MS University of Illinois), computer science (PhD UC Berkeley), and piano performance and musicology (Mannes College of Music Certificate Program, 1986). He is a classically-trained musician and performer, an avid musical theater fan and freelance Music Director, and multilingual/bicultural (Cuban-American) New Yorker who lives in San Francisco.

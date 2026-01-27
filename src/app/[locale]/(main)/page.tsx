@@ -11,7 +11,7 @@ import Countdown from '@/components/Countdown';
 import BackgroundGeometric from '@/components/BackgroundGeometric';
 import InfiniteScroll from '@/components/InfiniteScroll';
 import Image from 'next/image';
-import speakers from '@/data/shared/speakers.json';
+import { speakers } from '@/data';
 import { groupSponsorsByTier } from '@/utils/sortSponsors';
 import { Sponsor } from '@/types/sponsors';
 import { getTObject } from '@/lib/getTObject';

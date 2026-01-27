@@ -19,7 +19,7 @@ export const EVENTS_LIST = [...SYMPOSIUMS, ...WORKSHOPS, 'latam-school', 'artifa
 const BASE_PATH = path.join(process.cwd(), 'public/data/events');
 
 export function loadParticipants(): Participants {
-  const pessoasPath = path.join(BASE_PATH, '../shared/speakers.json');
+  const pessoasPath = path.join(BASE_PATH, '../generated/shared/speakers.json');
   if (!fs.existsSync(pessoasPath)) return [];
   return JSON.parse(fs.readFileSync(pessoasPath, 'utf-8'));
 }
