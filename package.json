@@ -1,9 +1,11 @@
 {
   "name": "cbsoft",
   "version": "0.1.0",
-  "private": true,
   "scripts": {
     "dev": "next dev --turbopack",
+    "generate-messages": "tsx src/scripts/generateMessages.js",
+    "generate-events": "tsx src/scripts/generateEvents.js",
+    "generate-data": "tsx src/scripts/generateData.js",
     "build": "NEXT_PUBLIC_STATIC=true npm run generate-data && npm run generate-events && npm run generate-messages && next build --turbopack && cp -r out/pt/* out/",
     "start": "next start",
     "postbuild": "next-sitemap",
@@ -11,9 +13,6 @@
     "prettier:check": "prettier src --check",
     "prettier:fix": "prettier src --write",
     "prepare": "husky",
-    "generate-messages": "npx tsc src/scripts/generateMessages.ts --outDir dist && node dist/scripts/generateMessages.js",
-    "generate-events": "tsc -p tsconfig.scripts.json && node dist/src/scripts/generateEvents.js",
-    "generate-data": "tsc -p tsconfig.scripts.json && node dist/src/scripts/generateData.js",
     "test": "echo \"No tests yet\""
   },
   "dependencies": {
@@ -51,6 +50,7 @@
     "next-sitemap": "^4.2.3",
     "prettier": "^3.6.2",
     "sass": "^1.92.1",
+    "tsx": "^4.21.0",
     "typescript": "^5.9.2",
     "yaml": "^2.8.2"
   }
