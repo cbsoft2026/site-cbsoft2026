@@ -13,6 +13,7 @@
     "prepare": "husky",
     "generate-messages": "npx tsc src/scripts/generateMessages.ts --outDir dist && node dist/scripts/generateMessages.js",
     "generate-events": "tsc -p tsconfig.scripts.json && node dist/src/scripts/generateEvents.js",
+    "generate-data": "tsc -p tsconfig.scripts.json && node dist/src/scripts/generateData.js",
     "test": "echo \"No tests yet\""
   },
   "dependencies": {
@@ -45,10 +46,12 @@
     "autoprefixer": "^10.4.21",
     "eslint": "^9",
     "eslint-config-next": "15.5.2",
+    "glob": "^13.0.0",
     "husky": "^9.1.7",
     "next-sitemap": "^4.2.3",
     "prettier": "^3.6.2",
     "sass": "^1.92.1",
-    "typescript": "^5.9.2"
+    "typescript": "^5.9.2",
+    "yaml": "^2.8.2"
   }
 }
