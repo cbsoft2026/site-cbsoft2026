@@ -64,14 +64,37 @@ A submissão do trabalho será exclusivamente eletrônica, através do sistema [
 
 #### Organização
 
-Maurício Aniche - Uber
+###### Track Chairs
 
-Joseph Yoder - The Refactory
+Maurício Aniche, Uber
+
+Joseph Yoder, The Refactory
 
 ###### Comitê de Programa
 
-*em formação*
+Hugo Marques, Netflix
 
+Diego Marcilio, Uber
+
+Natali Moreira Rocha, Nubank
+
+Bruno Lucattelli, Uber
+
+Rafael Ponte, Zup Innovation
+
+Alberto Luiz Oliveira Tavares de Souza, Nubank
+
+Matheus Scarpato Fidelis, Itau Unibanco
+
+Marden Silveira Neubert, MVLM Tecnologia
+
+Wagner Mendes Voltz, Irrah Tech
+
+Luiz Lula Rodrigues, OBONOBO
+
+Rafael Pugliese Werner, Independent consultant
+
+Suelen Goularte Carvalho, Independent consultant
 
 <br/>
 
