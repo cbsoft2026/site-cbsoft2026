@@ -11,10 +11,10 @@ This track has been organized since SBES 2015 and the previous proceedings are a
 
 | | |
 |---|---|
-| Paper registration (abstract submission) | 14-May-2026 **(Hard deadline)** |
+| Paper registration (abstract submission) | May 14, 2026 **(Hard deadline)** |
 | Paper submission | {submission_date} **(Hard deadline)** |
-| Author notification | 10-Jul-2026 |
-| Camera ready | 24-Jul-2026 |
+| Author notification | July 10, 2026 |
+| Camera ready | July 24, 2026 |
 
 #### Topics of Interest
 

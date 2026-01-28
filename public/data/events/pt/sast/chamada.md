@@ -10,12 +10,12 @@ Em sua décima primeira edição como simpósio co-localizado ao Congresso Brasi
 
 | | |
 |---|---|
-| Registro de artigos regulares (submissão do resumo) | 22/06/2026 |
-| Registro de artigos da indústria (submissão do resumo) | 22/06/2026 |
+| Registro de artigos regulares (submissão do resumo) | 22 de junho de 2026 |
+| Registro de artigos da indústria (submissão do resumo) | 22 de junho de 2026 |
 | Submissão dos artigos regulares completos | {submission_date} |
 | Submissão dos artigos completos da indústria | {submission_date} |
-| Notificação de aceitação | 31/07/2026 |
-| Submissão da versão final | 07/08/2026 |
+| Notificação de aceitação | 31 de julho de 2026 |
+| Submissão da versão final | 7 de agosto de 2026 |
 
 #### Tópicos de Interesse
 

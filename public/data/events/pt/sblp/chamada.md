@@ -20,7 +20,7 @@ O SBLP 2026 é a 30ª edição do Simpósio Brasileiro de Linguagens de Programa
 | Envio de resumos | 20 de maio de 2026 |
 | Envio de artigos | {submission_date} |
 | Notificação aos autores | 15 de julho de 2026 |
-| Envio da versão final (camera-ready) | 1º de agosto de 2026 |
+| Envio da versão final (camera-ready) | 1 de agosto de 2026 |
      
 O envio de resumos serve para registrar o artigo (título, autores e resumo), enquanto o envio de artigos é para submeter o PDF completo do trabalho. **Todos os prazos são firmes e não serão prorrogados.**
     

@@ -11,8 +11,8 @@ No caso de dúvidas, contactar os organizadores, Paola Accioly (prga@cin.ufpe.br
 | | |
 |---|---|
 | Data limite para submissão de trabalhos | {submission_date} |
-| Notificação de aceitação | 24/07/2026 |
-| Data limite para envio da versão final | 03/08/2026 |
+| Notificação de aceitação | 24 de julho de 2026 |
+| Data limite para envio da versão final | 3 de agosto de 2026 |
 
 #### Tópicos de Interesse
 
