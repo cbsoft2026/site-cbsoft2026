@@ -25,7 +25,7 @@ Exemplos de tópicos de interesse incluem - mas não se limitam a:
 
 | | |
 |---|---|
-| Registro do artigo (envio do resumo) | 22 de maio de 2026 |
+| Registro do artigo (envio do resumo) | {paper_registration} |
 | Submissão do artigo | {submission_date} |
 | Notificação Final de Aceitação | {notification_acceptance} |
 | Envio da Versão Final | {camera_ready} |

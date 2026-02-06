@@ -25,7 +25,7 @@ Internal Tools: Architectural and usability decisions regarding internal tools, 
 
 | | |
 |---|---|
-| Abstract Registration | May 22, 2026 |
+| Abstract Registration | {paper_registration} |
 | Paper Submission | {submission_date} |
 | Notification of Acceptance | {notification_acceptance} |
 | Camera-Ready Version | {camera_ready} |

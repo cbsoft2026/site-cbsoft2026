@@ -6,7 +6,7 @@ Em 2026, o SBCARS celebra sua 20ª edição, reafirmando seu papel como o princi
 
 | | |
 |---|---|
-| Prazo para registro de resumos | 19 de junho de 2026 |
+| Prazo para registro de resumos | {abstract_submission} |
 | Prazo para submissão de artigos completos | {submission_date} |
 | Notificação de aceitação | {notification_acceptance} | 
 | Envio da versão final (camera-ready) | {camera_ready} |

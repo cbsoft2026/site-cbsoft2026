@@ -10,8 +10,8 @@ In its eleventh edition as a symposium co-located with the **Brazilian Conferenc
 
 | | |
 |---|---|
-| Regular Paper Registration (Abstract Submission) | June 22, 2026 |
-| Industry Paper Registration (Abstract Submission) | June 22, 2026 |
+| Regular Paper Registration (Abstract Submission) | {paper_registration} |
+| Industry Paper Registration (Abstract Submission) | {paper_registration} |
 | Full Regular Paper Submission | {submission_date} |
 | Full Industry Paper Submission | {submission_date} | 
 | Notification of Acceptance | {notification_acceptance} |

@@ -11,7 +11,7 @@ Esta trilha é organizada desde o SBES 2015 e os anais anteriores estão dispon�
 
 | | |
 |---|---|
-| Registro do artigo (submissão do resumo) | 14 de maio de 2026 **(Hard deadline)** |
+| Registro do artigo (submissão do resumo) | {paper_registration} **(Hard deadline)** |
 | Submissão de artigo | {submission_date} **(Hard deadline)** |
 | Envio de notificação aos autores | {notification_acceptance} |
 | Submissão da versão final | {camera_ready} |
