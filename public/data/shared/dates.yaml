@@ -207,8 +207,8 @@ sbcars:
     abstract_submission:
         date: 2026-06-19
         label:
-            pt: "Abstract Submission Deadline"
-            en: "Prazo para registro de resumos"
+            pt: "Prazo para registro de resumos"
+            en: "Abstract Submission Deadline"
     submission_date:
         date: 2026-06-26
         label: 

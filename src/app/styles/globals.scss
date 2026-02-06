@@ -43,3 +43,7 @@ img {
 .container-sm {
   --bs-gutter-x: 3rem;
 }
+
+.table thead tr {
+  border-bottom-width: 2px;
+}

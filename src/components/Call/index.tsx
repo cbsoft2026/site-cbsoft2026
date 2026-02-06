@@ -67,7 +67,7 @@ export default async function CallComponent({ acronym, track, className, locale 
                         <AddCalendar
                           simplifiedMode={true}
                           label={`${formatDate(dateOnlyFromISO(value.date), locale)}\n${dateLabel}`}
-                          text={`${formatDate(dateOnlyFromISO(value.date), locale)} - ${dateLabel}`}
+                          text={dateLabel}
                           dateStart={new Date(value.date ?? '')}
                           dateEnd={new Date(value.date ?? '')}
                           fullDay={true}

@@ -27,7 +27,7 @@ function hrefToString(href: HrefType): string | null | undefined {
   return undefined;
 }
 
-export default function LinkLocale({ href, locale, ...props }: Props) {
+function useLocalizedHref({ href, locale }: Props) {
   const defaultLocale = useLocale();
 
   if (!locale) {
@@ -36,7 +36,7 @@ export default function LinkLocale({ href, locale, ...props }: Props) {
 
   let path = hrefToString(href);
   if (path == undefined) {
-    return <Link prefetch={false} href={href} {...props} />;
+    return href;
   }
 
   locales.forEach((locale) => {
@@ -50,6 +50,12 @@ export default function LinkLocale({ href, locale, ...props }: Props) {
   if (path) {
     localizedHref += path?.startsWith('/') ? path : `/${path}`;
   }
+
+  return localizedHref;
+}
+
+export default function LinkLocale({ href, locale, ...props }: Props) {
+  const localizedHref = useLocalizedHref({ href, locale });
 
   return <Link prefetch={false} href={localizedHref} {...props} />;
 }
