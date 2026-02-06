@@ -27,7 +27,7 @@ Exemplos de tópicos de interesse incluem - mas não se limitam a:
 |---|---|
 | Registro do artigo (envio do resumo) | 22 de maio de 2026 |
 | Submissão do artigo | {submission_date} |
-| Notificação Final de Aceitação | 10 de julho de 2026 |
+| Notificação Final de Aceitação | {notification_acceptance} |
 | Envio da Versão Final | 20 de julho de 2026 |
 
 > **Nota:** Os deadlines de todas as datas são **fixos** e eles não serão postergados.

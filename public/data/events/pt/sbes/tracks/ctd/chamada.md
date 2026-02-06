@@ -65,7 +65,7 @@ Nessa fase, que ocorrerá durante o evento, o(a) autor(a) que defendeu a tese de
 | | |
 |-----|-----|
 | Data-limite para submissão de trabalhos | {submission_date} |
-| Notificação de classificação |  20 de julho de 2026 |
+| Notificação de classificação | {notification_acceptance} |
 | Data-limite para envio da versão final | 10 de agosto de 2026 |
 
 #### Organização

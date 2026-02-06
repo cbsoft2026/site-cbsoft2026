@@ -26,7 +26,7 @@ A Trilha Especial SBES 40 Anos convida pesquisadores e educadores da área a sub
 |---|---|
 | Registro do artigo | 1 de junho de 2026 (HARD DEADLINE) |
 | Submissão do artigo completo | {submission_date}  (HARD DEADLINE) |
-| Notificação | 20 de julho de 2026 |
+| Notificação | {notification_acceptance} |
 | Submissão da versão final | 27 de julho de 2026 |
 
 ##### Políticas de Ciência Aberta

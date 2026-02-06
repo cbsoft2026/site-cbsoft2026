@@ -1,5 +1,7 @@
-# Datas são ordenadas cronologicamente
+# Datas são ordenadas cronologicamente via código
 # `label` com `pt` e `en` para não ficar mantendo dois arquivos com datas
+
+# NOTE: os simpósios podem ter formas diferentes de organizar as datas
 
 sbes_industry: 
     submission_date:
@@ -7,6 +9,11 @@ sbes_industry:
         label: 
             pt: "Submissão do artigo"
             en: "Paper Submission"
+    notification_acceptance:
+        date: 2026-07-10
+        label:
+            pt: "Notificação Final de Aceitação"
+            en: "Notification of Acceptance"
 
 sbes_ctd: 
     submission_date:
@@ -14,6 +21,11 @@ sbes_ctd:
         label:
             pt: "Data-limite para submissão de trabalhos"
             en: "Submission Deadline"
+    notification_acceptance:
+        date: 2026-07-20
+        label:
+            pt: "Notificação de classificação"
+            en: "Notification of Classification"
         
 sbes_ctic: 
     submission_date:
@@ -21,6 +33,11 @@ sbes_ctic:
         label: 
             pt: "Data limite para submissão de trabalhos"
             en: "Submission deadline"
+    notification_acceptance:
+        date: 2026-07-24
+        label:
+            pt: "Notificação de aceitação"
+            en: "Notification date"
 
 sbes_educacao: 
     submission_date:
@@ -28,6 +45,11 @@ sbes_educacao:
         label:
             pt: "Submissão do artigo completo"
             en: "Paper submission"
+    first_notification_acceptance:
+        date: 2026-06-22
+        label:
+            pt: "1ª notificação"
+            en: "1st Notification of Acceptance"
 
 sbes_ideias: 
     submission_date:
@@ -35,6 +57,11 @@ sbes_ideias:
         label: 
             pt: "Submissão de artigo"
             en: "Paper submission"
+    notification_acceptance:
+        date: 2026-07-10
+        label:
+            pt: "Envio de notificação aos autores"
+            en: "Author notification"
 
 sbes_pesquisa: 
     submission_date:
@@ -42,6 +69,11 @@ sbes_pesquisa:
         label:
             pt: "Submissão do artigo completo"
             en: "Full paper submission"
+    first_notification_acceptance:
+        date: 2026-06-16
+        label:
+            pt: "1ª notificação"
+            en: "1st notification"
 
 sbes_special: 
     submission_date:
@@ -49,6 +81,11 @@ sbes_special:
         label: 
             pt: "Submissão do artigo completo"
             en: "Full paper submission"
+    notification_acceptance:
+        date: 2026-07-20
+        label:
+            pt: "Notificação"
+            en: "Notification"
 
 sbes_tools: 
     submission_date:
@@ -56,6 +93,11 @@ sbes_tools:
         label: 
             pt: "Submissão de artigo e vídeo"
             en: "Paper (with video link) submission"
+    notification_acceptance:
+        date: 2026-07-10
+        label:
+            pt: "Envio de notificação aos autores"
+            en: "Author notification"
 
 sast: 
     submission_date:
@@ -63,6 +105,11 @@ sast:
         label: 
             pt: "Submissão dos artigos regulares completos"
             en: "Full Regular Paper Submission"
+    notification_acceptance:
+        date: 2026-07-31
+        label:
+            pt: "Notificação de aceitação"
+            en: "Notification of Acceptance"
 
 sbcars: 
     submission_date:
@@ -70,6 +117,11 @@ sbcars:
         label: 
             pt: "Prazo para submissão de artigos completos"
             en: "Full Paper Submission Deadline"
+    notification_acceptance:
+        date: 2026-08-03
+        label:
+            pt: "Notificação de aceitação"
+            en: "Notification of Acceptance"
 
 sblp: 
     submission_date:
@@ -77,6 +129,11 @@ sblp:
         label: 
             pt: "Envio de artigos"
             en: "Paper submission"
+    notification_acceptance:
+        date: 2026-07-15
+        label:
+            pt: "Notificação aos autores"
+            en: "Author notification"
 
 workshops: 
     submission_date:
@@ -84,3 +141,8 @@ workshops:
         label: 
             pt: "Submissão de propostas de workshop"
             en: "Workshop proposal submission"
+    notification_acceptance:
+        date: 2026-03-09
+        label:
+            pt: "Notificação de aceitação"
+            en: "Notification of acceptance"

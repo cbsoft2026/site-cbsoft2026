@@ -19,7 +19,7 @@ SBLP 2026 is the 30th edition of the Brazilian Symposium on Programming Language
 |---|---|
 | Abstract submission | May 20, 2026 |
 | Paper submission | {submission_date} | 
-| Author notification | July 15, 2026 |
+| Author notification | {notification_acceptance} |
 | Camera-ready deadline | August 1, 2026 |
     
 Abstract submission is for registering the paper (title, authors, and abstract), and paper submission is for uploading the full paper PDF. <strong>All deadlines are firm and will not be extended.</strong>

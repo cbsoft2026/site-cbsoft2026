@@ -14,7 +14,7 @@ In its eleventh edition as a symposium co-located with the **Brazilian Conferenc
 | Industry Paper Registration (Abstract Submission) | June 22, 2026 |
 | Full Regular Paper Submission | {submission_date} |
 | Full Industry Paper Submission | {submission_date} | 
-| Notification of Acceptance | July 31, 2026 |
+| Notification of Acceptance | {notification_acceptance} |
 | Camera-Ready Version | August 7, 2026 |
 
 #### Topics of Interest

@@ -14,7 +14,7 @@ In case of questions, please approach the Program Co-Chairs via e-mail.
 | | |
 |---|---|
 | Submission deadline | {submission_date} |
-| Notification date | July 24, 2026 |
+| Notification date | {notification_acceptance} |
 | Camera ready | August 3, 2026 |
 
 #### Topics of Interest
