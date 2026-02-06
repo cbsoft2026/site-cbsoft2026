@@ -10,9 +10,9 @@ import '@fortawesome/fontawesome-svg-core/styles.css';
 config.autoAddCss = false;
 
 const gothamBlack = localFont({
-  src: '../../public/fonts/gotham-font/Gotham-Black.otf',
-  variable: '--font-gotham-black',
-  weight: '900',
+  src: '../../public/fonts/gotham-font/Gotham-Bold.otf',
+  variable: '--font-gotham-bold',
+  weight: '700',
   style: 'normal',
 });
 

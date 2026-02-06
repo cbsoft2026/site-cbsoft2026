@@ -13,8 +13,9 @@ h4,
 h5,
 h6 {
   font-variant: small-caps;
-  font-weight: 900;
-  font-family: var(--font-gotham-black), sans-serif;
+  font-weight: bold;
+  font-family: var(--font-gotham-bold), sans-serif;
+  color: vars.$text-primary;
 }
 
 body {
