@@ -1,13 +1,86 @@
-submission:
-    sbes_industry: 2026-05-29
-    sbes_ctd: 2026-06-05
-    sbes_ctic: 2026-06-26
-    sbes_educacao: 2026-05-11
-    sbes_ideias: 2026-05-22
-    sbes_pesquisa: 2026-05-04
-    sbes_special: 2026-06-08
-    sbes_tools: 2026-05-25
-    sast: 2026-06-29
-    sbcars: 2026-06-26
-    sblp: 2026-06-01
-    workshops: 2026-02-26
+# Datas são ordenadas cronologicamente
+# `label` com `pt` e `en` para não ficar mantendo dois arquivos com datas
+
+sbes_industry: 
+    submission_date:
+        date: 2026-05-29
+        label: 
+            pt: "Submissão do artigo"
+            en: "Paper Submission"
+
+sbes_ctd: 
+    submission_date:
+        date: 2026-06-05
+        label:
+            pt: "Data-limite para submissão de trabalhos"
+            en: "Submission Deadline"
+        
+sbes_ctic: 
+    submission_date:
+        date: 2026-06-26
+        label: 
+            pt: "Data limite para submissão de trabalhos"
+            en: "Submission deadline"
+
+sbes_educacao: 
+    submission_date:
+        date: 2026-05-11
+        label:
+            pt: "Submissão do artigo completo"
+            en: "Paper submission"
+
+sbes_ideias: 
+    submission_date:
+        date: 2026-05-22
+        label: 
+            pt: "Submissão de artigo"
+            en: "Paper submission"
+
+sbes_pesquisa: 
+    submission_date:
+        date: 2026-05-04
+        label:
+            pt: "Submissão do artigo completo"
+            en: "Full paper submission"
+
+sbes_special: 
+    submission_date:
+        date: 2026-06-08
+        label: 
+            pt: "Submissão do artigo completo"
+            en: "Full paper submission"
+
+sbes_tools: 
+    submission_date:
+        date: 2026-05-25
+        label: 
+            pt: "Submissão de artigo e vídeo"
+            en: "Paper (with video link) submission"
+
+sast: 
+    submission_date:
+        date: 2026-06-29
+        label: 
+            pt: "Submissão dos artigos regulares completos"
+            en: "Full Regular Paper Submission"
+
+sbcars: 
+    submission_date:
+        date: 2026-06-26
+        label: 
+            pt: "Prazo para submissão de artigos completos"
+            en: "Full Paper Submission Deadline"
+
+sblp: 
+    submission_date:
+        date: 2026-06-01
+        label: 
+            pt: "Envio de artigos"
+            en: "Paper submission"
+
+workshops: 
+    submission_date:
+        date: 2026-02-26
+        label: 
+            pt: "Submissão de propostas de workshop"
+            en: "Workshop proposal submission"

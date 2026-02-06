@@ -6,6 +6,7 @@
   flex-direction: column;
   position: relative;
   margin-right: 4px;
+  justify-content: space-between;
   p {
     margin: 0;
   }
@@ -51,6 +52,7 @@
     padding: 0;
 
     .icon {
+      min-width: 24px;
       width: 24px;
       height: 24px;
     }

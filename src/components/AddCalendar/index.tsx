@@ -92,7 +92,7 @@ export default function AddCalendar({
         <div className={styles.collapser} ref={ref}>
           {
             simplifiedMode
-              ? <p>{label}</p>
+              ? <p style={{ whiteSpace: 'pre-wrap' }}>{label}</p>
               : <h6>{label}</h6>
           }
           <div 

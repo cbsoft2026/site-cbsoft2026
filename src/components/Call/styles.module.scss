@@ -1,0 +1,58 @@
+@use 'variables' as *;
+
+.call {
+    display: flex;
+    justify-content: space-between;
+    gap: 32px;
+    .call__content {
+        width: 75%;
+    }
+    .call__sidebar {
+        width: 25%;
+
+        .sidebar__list {
+            border: 1px solid #eeb6a4;
+            border-radius: 8px;
+            p {
+                margin: 0;
+            }
+            header {
+                background: #faece8;
+                border-bottom: 1px solid #eeb6a4;
+                padding: 4px 12px;
+                border-top-right-radius: 8px;
+                border-top-left-radius: 8px;
+            }
+            table {
+                width: 100%;
+            }
+            table tbody tr td {
+                padding: 4px 12px;
+                border-bottom: 1px solid #faece8;
+            }   
+            table tbody tr td:last-child {
+                border: 0;
+            }
+        }
+    }
+    @media (max-width: 1200px) {
+        .call__content {
+            width: 66%;
+        }
+        .call__sidebar {
+            width: 33%;
+        }
+    }
+}
+
+@media (max-width: 768px) {
+    .call {
+        flex-direction: column;
+        .call__content {
+            width: 100%;
+        }
+        .call__sidebar {
+            width: 100%;
+        }
+    }
+}
