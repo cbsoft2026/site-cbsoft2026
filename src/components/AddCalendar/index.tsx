@@ -11,7 +11,7 @@ import { useEffect, useRef, useState } from 'react';
  * @param dateEnd YYYYMMDDToHHMMSSZ
  */
 type Props = {
-  label?: string;
+  label?: React.ReactNode;
   text: string;
   description?: string;
   dateStart: Date;

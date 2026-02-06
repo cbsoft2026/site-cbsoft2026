@@ -1,0 +1,82 @@
+@use 'variables' as *;
+@use 'elements' as *;
+
+.carousel {
+  display: flex;
+  background: linear-gradient(135deg, #eeb6a4, #faece8);
+  border-radius: 16px;
+  overflow: hidden;
+  min-height: 420px;
+}
+
+.content {
+  flex: 3;
+  padding: 48px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  position: relative;
+  .empty_space {
+    padding: 13px;
+    opacity: 0;
+  }
+}
+
+.badge {
+  position: absolute;
+  top: 0;
+  background: #fff;
+  border-bottom-left-radius: 16px;
+  border-bottom-right-radius: 16px;
+  padding: 13px 23px;
+}
+
+.tableWrapper {
+  flex: 2;
+  padding: 48px;
+  justify-content: space-between;
+  display: flex;
+  flex-direction: column;
+  align-items: end;
+
+  table {
+    width: 100%;
+  }
+  table tbody tr td {
+    padding: 4px 12px;
+    border-bottom: 1px solid #faece8;
+  }
+  table tbody tr:last-child td {
+    border: 0;
+  }
+}
+
+.controls {
+  display: flex;
+  gap: 12px;
+  margin-top: 32px;
+}
+
+@media (max-width: 994px) {
+  .content {
+  flex: 1;
+  padding: 32px;
+}
+
+.tableWrapper {
+  flex: 1;
+  padding: 32px;
+}
+}
+
+@media (max-width: 768px) {
+  .carousel {
+    flex-direction: column-reverse;
+  }
+  .badge {
+  border-top-left-radius: 16px;
+  border-top-right-radius: 16px;
+  border-bottom-left-radius: 0;
+  border-bottom-right-radius: 0;
+}
+}

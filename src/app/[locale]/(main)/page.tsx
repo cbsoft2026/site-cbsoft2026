@@ -17,6 +17,7 @@ import { Sponsor } from '@/types/sponsors';
 import { getTObject } from '@/lib/getTObject';
 import AboveGeometric from '@/components/AboveGeometric';
 import LinkLocale from '@/components/LinkLocale';
+import InboundCarousel from '@/components/InboundCarousel';
 
 type SponsorSection = {
   title: string;
@@ -170,16 +171,10 @@ export default async function HomePage({ params }: Props) {
             como, quantidade de eventos, quantidade
             de artigos, ...
         */}
+
       <section id='first-section'>
-        <div className={`${styles.content} ${styles.simposios} container`}>
-          <h1 className={`text-center ${styles['content-title']}`}>{homeT('simposios')}</h1>
-          <div className={styles['content__wrapper']}>
-            {['sbes', 'sblp', 'sbcars', 'sast'].map((item, index) => (
-              <LinkLocale href={{ pathname: `symposiums/${item}/call` }} key={index} locale={locale}>
-                <h4>{commonT(`siglas.${item}`)}</h4>
-              </LinkLocale>
-            ))}
-          </div>
+        <div className={`container ${styles.simposios}`}>
+          <InboundCarousel></InboundCarousel>
         </div>
       </section>
 
@@ -209,7 +204,7 @@ export default async function HomePage({ params }: Props) {
               </div>
             </div>
             <LinkLocale href={'/cbsoft/location'} className={styles.button} locale={locale}>
-              {locationT('more_informations')}
+              <span>{locationT('more_informations')}</span>
               <FontAwesomeIcon icon={faPlus} />
             </LinkLocale>
           </div>

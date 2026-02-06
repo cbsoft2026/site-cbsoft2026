@@ -29,14 +29,15 @@
 }
 
 .icon {
-  width: 32px;
-  height: 32px;
+  width: 32px !important;
+  height: 32px !important;
   display: flex;
   align-items: center;
   justify-content: center;
   cursor: pointer;
   color: $text-primary;
   border-radius: 32px;
+  padding: 0 !important;
 
   transition: background-color 0.2s ease;
 
@@ -146,13 +147,13 @@
     border: none;
   }
 
-  svg {
+  > svg:not(:only-child) {
     margin-left: 12px;
     transition: transform 0.1s ease-in;
   }
 
   &:hover {
-    svg {
+    > svg:not(:only-child) {
       transform: rotate(30deg);
     }
   }

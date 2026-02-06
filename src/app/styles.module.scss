@@ -426,30 +426,4 @@
 
 .simposios {
   padding-top: 32px;
-  margin-bottom: 64px;
-}
-
-.simposios .content__wrapper {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  gap: 32px;
-
-  @media (max-width: 768px) {
-    grid-template-columns: 1fr;
-  }
-
-  > a {
-    padding: 64px;
-    border: 1px solid $body-color;
-    border-radius: 32px;
-    box-shadow: $box-shadow;
-    color: $text-primary;
-    text-decoration: none;
-    text-align: center;
-    transition: border ease-in 0.1s;
-
-    &:hover {
-      border: 1px solid $primary;
-    }
-  }
 }
