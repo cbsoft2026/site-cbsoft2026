@@ -39,7 +39,7 @@ export default function AddCalendar({
   dateEnd,
   location,
   fullDay = false,
-  simplifiedMode = false
+  simplifiedMode = false,
 }: Props) {
   const [openFilter, setOpenFilter] = useState(false);
 
@@ -88,16 +88,10 @@ export default function AddCalendar({
 
   return (
     <>
-      <div className={`${styles['add-calender']} ${simplifiedMode ? styles['simplified'] : ""}`}>
+      <div className={`${styles['add-calender']} ${simplifiedMode ? styles['simplified'] : ''}`}>
         <div className={styles.collapser} ref={ref}>
-          {
-            simplifiedMode
-              ? <p style={{ whiteSpace: 'pre-wrap' }}>{label}</p>
-              : <h6>{label}</h6>
-          }
-          <div 
-            className={`${styles.icon} ${styles.less} ${styles['icon--small']}`}
-          >
+          {simplifiedMode ? <p style={{ whiteSpace: 'pre-wrap' }}>{label}</p> : <h6>{label}</h6>}
+          <div className={`${styles.icon} ${styles.less} ${styles['icon--small']}`}>
             {!openFilter ? (
               <FontAwesomeIcon icon={faChevronDown} style={{ width: '8px' }} />
             ) : (

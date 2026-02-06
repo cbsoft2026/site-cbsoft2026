@@ -1,4 +1,3 @@
-import { useLocale } from 'next-intl';
 import ReactMarkdown from 'react-markdown';
 import rehypeHighlight from 'rehype-highlight';
 import remarkGfm from 'remark-gfm';
@@ -15,14 +14,11 @@ type Props = {
   children: string | null | undefined;
   className?: string;
   variables?: Record<string, any>;
-  locale?: string
+  locale?: string;
 };
 
 export default function TemplateMarkdown({ children, className, variables, locale }: Props) {
-  const content =
-    typeof children === 'string'
-      ? interpolate(children, variables ?? {}, locale)
-      : '';
+  const content = typeof children === 'string' ? interpolate(children, variables ?? {}, locale) : '';
 
   return (
     <section className={`${styles['markdown-body']} ${className}`}>
@@ -37,17 +33,17 @@ export default function TemplateMarkdown({ children, className, variables, local
             </a>
           ),
           time: ({ node, ...props }) => (
-            <div style={{float: 'left'}}>
+            <div style={{ float: 'left' }}>
               <AddCalendar
                 simplifiedMode={true}
                 label={props.children?.toString()}
-                text={props.children?.toString() ?? ""}
-                dateStart={new Date(props.dateTime ?? "")}
-                dateEnd={new Date(props.dateTime ?? "")}
+                text={props.children?.toString() ?? ''}
+                dateStart={new Date(props.dateTime ?? '')}
+                dateEnd={new Date(props.dateTime ?? '')}
                 fullDay={true}
               />
             </div>
-          )   
+          ),
         }}
       >
         {content}

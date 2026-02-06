@@ -46,7 +46,7 @@ export function formatDate(
 }
 
 export function dateOnlyFromISO(date: string): Date {
-  if (!date.includes("-")) return new Date(date)
+  if (!date.includes('-')) return new Date(date);
   const [y, m, d] = date.split('-').map(Number);
   return new Date(y, m - 1, d);
 }

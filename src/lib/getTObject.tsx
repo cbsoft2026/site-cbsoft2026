@@ -30,11 +30,11 @@ export type TableNode = { header: string[]; rows: string[][] | { categoria: stri
 export function interpolate(str: string, params: Record<string, any>, locale?: string): string {
   if (!str || typeof str !== 'string') return '';
   return str.replace(/\{\s*(\w+)\s*\}/g, (_, p) => {
-    const value = params[p]
+    const value = params[p];
     if (value instanceof Date) {
       return `<time datetime="${value}">${formatDate(value, locale)}</time>`;
     }
-    return params[p] ?? `{${p}}`
+    return params[p] ?? `{${p}}`;
   });
 }
 
