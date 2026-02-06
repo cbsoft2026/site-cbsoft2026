@@ -23,7 +23,7 @@ A Trilha de Educação do SBES convida pesquisadores e educadores da área para 
 | 1ª notificação | {first_notification_acceptance} |
 | Resposta dos autores (rebuttal) | 22 a 29 de junho de 2026 |
 | 2ª notificação | 10 de julho de 2026 | 
-| Submissão da versão final | 17 de julho de 2026 |
+| Submissão da versão final | {camera_ready} |
 
 #### Tópicos de Interesse
 

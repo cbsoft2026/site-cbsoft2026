@@ -96,7 +96,7 @@ Pre-approved workshops are automatically accepted once the required information 
 | ---------------------------------------------- | ----------------------- |
 | Workshop proposal submission              | {submission_date} |
 | Notification of acceptance                | {notification_acceptance}     |
-| Camera-ready papers (for Workshops Chairs) | August 10, 2026   |
+| Camera-ready papers (for Workshops Chairs) | {camera_ready}   |
 
 ---
 

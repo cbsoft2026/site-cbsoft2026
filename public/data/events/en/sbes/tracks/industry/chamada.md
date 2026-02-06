@@ -28,7 +28,7 @@ Internal Tools: Architectural and usability decisions regarding internal tools, 
 | Abstract Registration | May 22, 2026 |
 | Paper Submission | {submission_date} |
 | Notification of Acceptance | {notification_acceptance} |
-| Camera-Ready Version | July 20, 2026 |
+| Camera-Ready Version | {camera_ready} |
 
 > **Note:** All deadlines are **strict (hard deadlines)** and will not be extended.
 

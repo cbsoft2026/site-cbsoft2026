@@ -13,7 +13,7 @@ A Trilha de Pesquisa do SBES é a principal trilha do simpósio e publica contri
 | 1ª notificação | {first_notification_acceptance} |
 | Resposta dos autores (rebuttal) | 16 a 24 de junho de 2026 |
 | 2ª notificação | 3 de julho de 2026 |
-| Submissão da versão final | 17 de julho de 2026 |
+| Submissão da versão final | {camera_ready} |
 
 #### Tópicos de Interesse
 

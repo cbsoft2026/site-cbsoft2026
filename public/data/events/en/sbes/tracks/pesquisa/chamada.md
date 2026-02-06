@@ -13,7 +13,7 @@ The SBES Research Track is the primary track of the symposium, featuring solid c
 | 1st notification | {first_notification_acceptance} | 
 | Authors' response (rebuttal) | June 16-24, 2026 |
 | Second notification | July 3, 2026 | 
-| Final version submission | July 17, 2026 |
+| Final version submission | {camera_ready} |
 
 
 #### Topics of Interest

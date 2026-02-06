@@ -15,7 +15,7 @@ In its eleventh edition as a symposium co-located with the **Brazilian Conferenc
 | Full Regular Paper Submission | {submission_date} |
 | Full Industry Paper Submission | {submission_date} | 
 | Notification of Acceptance | {notification_acceptance} |
-| Camera-Ready Version | August 7, 2026 |
+| Camera-Ready Version | {camera_ready} |
 
 #### Topics of Interest
 

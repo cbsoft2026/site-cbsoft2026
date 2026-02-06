@@ -11,7 +11,7 @@ Researchers are welcome to submit the tools that are outcomes of applied researc
 | Paper registration (abstract submission) | May 18, 2026 **(HARD DEADLINE)** |
 | Paper (with video link) submission | {submission_date} **(HARD DEADLINE)** |
 | Author notification | {notification_acceptance} |
-| Camera ready | July 20, 2026 |
+| Camera ready | {camera_ready} |
 
 #### Manuscript/Video Preparation and Submission
 

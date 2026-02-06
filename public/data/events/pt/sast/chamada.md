@@ -15,7 +15,7 @@ Em sua décima primeira edição como simpósio co-localizado ao Congresso Brasi
 | Submissão dos artigos regulares completos | {submission_date} |
 | Submissão dos artigos completos da indústria | {submission_date} |
 | Notificação de aceitação | {notification_acceptance} |
-| Submissão da versão final | 7 de agosto de 2026 |
+| Submissão da versão final | {camera_ready} |
 
 #### Tópicos de Interesse
 

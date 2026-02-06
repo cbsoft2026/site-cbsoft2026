@@ -26,7 +26,7 @@ The SBES 40 Years Special Track invites researchers and educators to submit pape
 | Paper registration | June 1, 2026 (HARD DEADLINE) |
 | Full paper submission | {submission_date} (HARD DEADLINE) |
 | Notification | {notification_acceptance} |
-| Camera-ready submission | July 27, 2026 |
+| Camera-ready submission | {camera_ready} |
 
 ##### Open Science Policies
 
