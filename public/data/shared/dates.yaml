@@ -77,6 +77,11 @@ sbes_educacao:
         label:
             pt: "1ª notificação"
             en: "1st Notification of Acceptance"
+    second_notification_acceptance:
+        date: 2026-07-10
+        label:
+            pt: "2ª notificação"
+            en: "Final Notification of Acceptance"
     camera_ready:
         date: 2026-07-17
         label:
@@ -121,6 +126,11 @@ sbes_pesquisa:
         label:
             pt: "1ª notificação"
             en: "1st notification"
+    second_notification_acceptance:
+        date: 2026-07-03
+        label:
+            pt: "2ª notificação"
+            en: "Second notification"
     camera_ready:
         date: 2026-07-17
         label:

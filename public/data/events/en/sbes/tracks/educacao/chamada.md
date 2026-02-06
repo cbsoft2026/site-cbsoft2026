@@ -19,7 +19,7 @@ The SBES Education track invites researchers and educators in the area to submit
 | Paper submission | {submission_date} **(HARD DEADLINE)** |
 | 1st Notification of Acceptance | {first_notification_acceptance} |
 | Rebuttal period | June 22 to June 29, 2026 |
-| Final Notification of Acceptance | July 10, 2026 |
+| Final Notification of Acceptance | {second_notification_acceptance} |
 | Camera-ready submission | {camera_ready} |
 
 #### Topics of Interest
