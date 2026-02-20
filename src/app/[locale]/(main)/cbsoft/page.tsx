@@ -10,6 +10,23 @@ type Props = {
   params: Promise<{ locale: string }>;
 };
 
+export async function generateMetadata({ params }: Props) {
+  const { locale } = await params;
+  const t = await getTranslations({ locale, namespace: 'pages/cbsoft/index' });
+
+  const title = t('sobre');
+
+  return {
+    title: {
+      absolute: title,
+    },
+    openGraph: {
+      type: 'article',
+      title,
+    },
+  };
+}
+
 export default async function CbsoftPage({ params }: Props) {
   const { locale } = await params;
   const commonT = await getTranslations({ locale, namespace: 'common' });

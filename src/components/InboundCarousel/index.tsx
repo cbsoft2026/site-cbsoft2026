@@ -67,11 +67,11 @@ export default function InboundCarousel() {
       return {
         pathname: `symposiums/${item}/call`,
         title: `${commonT(`siglas.${item}`)} (${commonT(`${item}`)})`,
-        button: componentT("read_more"),
+        button: componentT('read_more'),
         dates: withUniqueKeys,
       };
     });
-  }, [commonT]);
+  }, [commonT, componentT]);
 
   const prev = () => setIndex((index - 1 + slides.length) % slides.length);
   const next = () => setIndex((index + 1) % slides.length);
@@ -82,9 +82,9 @@ export default function InboundCarousel() {
     <div className={styles.carousel}>
       <div className={styles.content}>
         <div className={styles.badge}>
-          <h5>{componentT("symposiums")}</h5>
+          <h5>{componentT('symposiums')}</h5>
         </div>
-        <div className={styles.empty_space}>{componentT("symposiums")}</div>
+        <div className={styles.empty_space}>{componentT('symposiums')}</div>
 
         <div>
           <h2>{slide.title}</h2>
@@ -128,9 +128,14 @@ export default function InboundCarousel() {
                     <td>
                       <AddCalendar
                         simplifiedMode={true}
-                        label={<>
-                          <b>{formatDate(dateOnlyFromISO(value.date), locale)}</b><br/>{track}{dateLabel}
-                        </>}
+                        label={
+                          <>
+                            <b>{formatDate(dateOnlyFromISO(value.date), locale)}</b>
+                            <br />
+                            {track}
+                            {dateLabel}
+                          </>
+                        }
                         text={dateLabel as string}
                         dateStart={new Date(value.date ?? '')}
                         dateEnd={new Date(value.date ?? '')}

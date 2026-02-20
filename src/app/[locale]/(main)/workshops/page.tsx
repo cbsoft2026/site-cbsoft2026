@@ -1,22 +1,15 @@
 import CallComponent from '@/components/Call';
 import Title from '@/components/Title';
-import { Metadata } from 'next';
+import { createPageMetadata } from '@/lib/metadata';
 import { getTranslations } from 'next-intl/server';
 
 type Props = {
   params: Promise<{ locale: string }>;
 };
 
-export async function generateMetadata({ params }: Props): Promise<Metadata> {
+export async function generateMetadata({ params }: Props) {
   const { locale } = await params;
-  const t = await getTranslations({ locale, namespace: 'common' });
-  return {
-    title: t('siglas.workshops'),
-    openGraph: {
-      type: 'article',
-      title: t('siglas.workshops'),
-    },
-  };
+  return createPageMetadata(locale, 'common', 'siglas.workshops');
 }
 
 export default async function CallPage({ params }: Props) {

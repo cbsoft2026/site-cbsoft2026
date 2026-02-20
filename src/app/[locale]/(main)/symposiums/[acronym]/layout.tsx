@@ -4,11 +4,17 @@ import getRequestConfig from '@/i18n/request';
 import React from 'react';
 import { Event } from '@/types/event';
 import LinkLocale from '@/components/LinkLocale';
+import { createPageMetadata } from '@/lib/metadata';
 
 type Props = {
   children: React.ReactNode;
-  params: Promise<{ acronym: string }>;
+  params: Promise<{ acronym: string; locale: string }>;
 };
+
+export async function generateMetadata({ params }: Props) {
+  const { acronym, locale } = await params;
+  return createPageMetadata(locale, 'common', `${acronym}`);
+}
 
 export async function generateStaticParams() {
   const params = [];

@@ -1,12 +1,18 @@
 import AddCalendar from '@/components/AddCalendar';
 import Title from '@/components/Title';
 import { dates } from '@/data';
+import { createPageMetadata } from '@/lib/metadata';
 import { dateOnlyFromISO, formatDate } from '@/utils/dates';
 import { getTranslations } from 'next-intl/server';
 
 type Props = {
   params: Promise<{ locale: string }>;
 };
+
+export async function generateMetadata({ params }: Props) {
+  const { locale } = await params;
+  return createPageMetadata(locale, 'pages/dates', 'important_dates');
+}
 
 export default async function DatesPage({ params }: Props) {
   const { locale } = await params;

@@ -3,10 +3,16 @@ import { previousEditions } from '@/data';
 
 import styles from './styles.module.scss';
 import { getTranslations } from 'next-intl/server';
+import { createPageMetadata } from '@/lib/metadata';
 
 type Props = {
   params: Promise<{ locale: string }>;
 };
+
+export async function generateMetadata({ params }: Props) {
+  const { locale } = await params;
+  return createPageMetadata(locale, 'pages/cbsoft/previousEditions', 'titulo');
+}
 
 function Edicao(props: { year: string; url: string; local: string; className?: string }) {
   return (

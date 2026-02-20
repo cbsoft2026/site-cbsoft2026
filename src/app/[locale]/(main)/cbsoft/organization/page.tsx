@@ -1,12 +1,18 @@
 import { OrganizadorGrupo } from '@/components/Organizers';
 import Title from '@/components/Title';
 import { organizers } from '@/data';
+import { createPageMetadata } from '@/lib/metadata';
 import { getTranslations } from 'next-intl/server';
 import { JSX } from 'react';
 
 type Props = {
   params: Promise<{ locale: string }>;
 };
+
+export async function generateMetadata({ params }: Props) {
+  const { locale } = await params;
+  return createPageMetadata(locale, 'pages/cbsoft/organization', 'titulo');
+}
 
 export default async function OrganizationPage({ params }: Props) {
   const { locale } = await params;

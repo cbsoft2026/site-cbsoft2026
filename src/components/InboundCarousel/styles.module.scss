@@ -59,14 +59,14 @@
 
 @media (max-width: 994px) {
   .content {
-  flex: 1;
-  padding: 32px;
-}
+    flex: 1;
+    padding: 32px;
+  }
 
-.tableWrapper {
-  flex: 1;
-  padding: 32px;
-}
+  .tableWrapper {
+    flex: 1;
+    padding: 32px;
+  }
 }
 
 @media (max-width: 768px) {
@@ -74,9 +74,9 @@
     flex-direction: column-reverse;
   }
   .badge {
-  border-top-left-radius: 16px;
-  border-top-right-radius: 16px;
-  border-bottom-left-radius: 0;
-  border-bottom-right-radius: 0;
-}
+    border-top-left-radius: 16px;
+    border-top-right-radius: 16px;
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+  }
 }
