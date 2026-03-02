@@ -116,6 +116,10 @@ Papers must have a maximum of 10 pages, including figures, tables and acknowledg
 
 The publication of accepted papers in the Education Track requires that at least one author be registered for CBSoft 2026 (according to the registration rules established by the local organizing committee) and that the paper be presented in person during SBES 2026. Papers that are not presented will not be included in the SBES 2026 proceedings.
 
+#### Publication Ethics and Code of Conduct
+
+All submitted papers must comply with the Code of Conduct for Authors in Publications of the Brazilian Computer Society (SBC), available at: https://sol.sbc.org.br/index.php/indice/conduta.
+
 #### Anonymization
 
 The SBES 2026 Education Track adopts a double-anonymous review process. All submitted papers should conceal the identity of the authors. Both author names and affiliations must be omitted. In addition, the following rules should be addressed:

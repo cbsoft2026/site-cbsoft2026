@@ -67,6 +67,10 @@ Submissions must be made exclusively electronically via the **JEMS** system.
 
 * **Language:** Submissions may be written in English or Portuguese.
 
+#### Publication Ethics and Code of Conduct
+
+All submitted papers must comply with the Code of Conduct for Authors in Publications of the Brazilian Computer Society (SBC), available at: https://sol.sbc.org.br/index.php/indice/conduta.
+
 #### Upon Acceptance
 
 If accepted, authors must:

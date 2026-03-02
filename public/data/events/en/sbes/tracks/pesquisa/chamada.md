@@ -123,6 +123,10 @@ Papers must have a maximum of 10 pages, including all figures, tables, and ackno
 
 Publication of accepted papers requires at least one author to register for CBSoft 2026 (according to the event’s registration rules), and present the paper in person during SBES 2026. Papers not presented will not appear in the proceedings.
 
+#### Publication Ethics and Code of Conduct
+
+All submitted papers must comply with the Code of Conduct for Authors in Publications of the Brazilian Computer Society (SBC), available at: https://sol.sbc.org.br/index.php/indice/conduta.
+
 #### Anonimization
 
 The SBES 2026 Research Track adopts a double-anonymous review process. All submitted papers should conceal the identity of the authors. Both author names and affiliations must be omitted. In addition, the following rules should be addressed:

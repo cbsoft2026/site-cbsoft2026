@@ -118,6 +118,10 @@ Accepted papers will be published in the SBCARS 2026 proceedings. At least one a
 
 We look forward to receiving your valuable contributions and to welcoming you to São Paulo for SBCARS 2026!
 
+#### Publication Ethics and Code of Conduct
+
+All submitted papers must comply with the Code of Conduct for Authors in Publications of the Brazilian Computer Society (SBC), available at: https://sol.sbc.org.br/index.php/indice/conduta.
+
 ###### SBCARS 2026 Program Committee Chairs
 
 Juliana Alves Pereira (PUC-Rio) and Breno Bernard Nicolau de França (UNICAMP)

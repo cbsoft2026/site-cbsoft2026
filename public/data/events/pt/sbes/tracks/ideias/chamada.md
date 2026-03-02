@@ -125,6 +125,10 @@ O processo de submissão ocorre em duas etapas:
 1. Registro do artigo: Deve-se informar o título, autores, resumo, tópicos de interesse e idioma do artigo; e
 1. Submissão do artigo completo: Deve-se submeter o arquivo em formato PDF contendo o artigo.
 
+#### Ética e Conduta na Publicação
+
+Todos os trabalhos submetidos devem estar em conformidade com o Código de Conduta para Autores em Publicações da Sociedade Brasileira de Computação (SBC), disponível em: https://sol.sbc.org.br/index.php/indice/conduta.
+
 #### Anonimização
 
 A Trilha de Ideias Inovadoras e Resultados Emergentes do SBES 2025 seguirá um processo de revisão duplo-anônimo. Todos os trabalhos submetidos devem ocultar a identidade dos autores. Ambos os nomes dos autores e afiliações devem ser omitidos. Além disso, as seguintes regras devem ser abordadas:

@@ -50,6 +50,10 @@ Manuscripts must therefore be submitted <strong>anonymously</strong>: the author
 
 Papers must be original and not simultaneously submitted to another journal or conference. Submissions that substantially extend previously published work must clearly state and justify the differences. At least one author of each accepted paper must register for the symposium and present the paper. A no-show will result in the paper being removed from the proceedings.
     
+#### Publication Ethics and Code of Conduct
+
+All submitted papers must comply with the Code of Conduct for Authors in Publications of the Brazilian Computer Society (SBC), available at: https://sol.sbc.org.br/index.php/indice/conduta.
+
 #### Publication, Indexing, and Awards
 
 All accepted papers will be published in the conference proceedings, indexed by SBC-OpenLib (SOL), ensuring wide visibility and long-term accessibility for the contributions presented at SBLP 2026.

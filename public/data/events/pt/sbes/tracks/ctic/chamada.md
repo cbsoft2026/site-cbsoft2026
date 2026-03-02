@@ -131,6 +131,10 @@ Fase 2 (Avaliação da Apresentação Oral):
 
 A organização orienta fortemente que as pessoas autoras se atentem aos critérios detalhados para cada fase do processo. Por sua vez, as pessoas avaliadoras serão instruídas a considerar os critérios de maneira <u>alinhada ao contexto e escopo de uma pesquisa de iniciação científica</u>, buscando uma avaliação justa, consistente e coerente.
 
+#### Ética e Conduta na Publicação
+
+Todos os trabalhos submetidos devem estar em conformidade com o Código de Conduta para Autores em Publicações da Sociedade Brasileira de Computação (SBC), disponível em: https://sol.sbc.org.br/index.php/indice/conduta.
+
 #### II Mostra de Trabalhos dos Concursos do Simpósio Brasileiro de Engenharia de Software
 
 Durante o evento, será realizada a II Mostra de Trabalhos dos Concursos do Simpósio Brasileiro de Engenharia de Software, na qual serão expostos os trabalhos selecionados para a Fase 2 do CTIC-ES, em formato de sessão de pôsteres, juntamente com os trabalhos do Concurso de Teses e Dissertações em Engenharia de Software (CTD-ES).

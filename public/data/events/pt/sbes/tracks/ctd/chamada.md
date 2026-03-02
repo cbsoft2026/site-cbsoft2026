@@ -60,6 +60,10 @@ Para essa fase, os trabalhos passarão por um processo de avaliação e seleçã
 
 Nessa fase, que ocorrerá durante o evento, o(a) autor(a) que defendeu a tese de doutorado ou a dissertação de mestrado (e somente ele/ela) deverá fazer uma apresentação oral do seu trabalho para uma banca que avaliará a qualidade da apresentação e poderá fazer perguntas ao(à) autor(a). Em situações especiais, as apresentações inerentes ao CTD-ES poderão ser remotas. A não participação nesta fase implica eliminação do processo de seleção. Ao final, a banca se reunirá em sala reservada e determinará os trabalhos premiados em cada categoria. A banca se reserva o direito de indicar para premiação apenas os trabalhos que ela considerar adequados para isso, estando inclusive prevista a possibilidade de não haver trabalhos indicados para premiação em uma ou mais categorias.
 
+#### Ética e Conduta na Publicação
+
+Todos os trabalhos submetidos devem estar em conformidade com o Código de Conduta para Autores em Publicações da Sociedade Brasileira de Computação (SBC), disponível em: https://sol.sbc.org.br/index.php/indice/conduta.
+
 #### Datas Importantes
 
 | | |

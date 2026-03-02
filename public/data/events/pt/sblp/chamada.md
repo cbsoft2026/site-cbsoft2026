@@ -50,6 +50,10 @@ Os manuscritos devem, portanto, ser submetidos de forma **anônima**: nomes dos 
     
 Os artigos devem ser originais e não podem estar simultaneamente submetidos a outro periódico ou conferência. Submissões que representem extensões substanciais de trabalhos já publicados devem indicar e justificar claramente as diferenças. Pelo menos um autor de cada artigo aceito deve se inscrever no simpósio e apresentar o trabalho. O não comparecimento à apresentação resultará na remoção do artigo dos anais.
     
+#### Ética e Conduta na Publicação
+
+Todos os trabalhos submetidos devem estar em conformidade com o Código de Conduta para Autores em Publicações da Sociedade Brasileira de Computação (SBC), disponível em: https://sol.sbc.org.br/index.php/indice/conduta.
+
 #### Publicação, Indexação e Prêmios
     
 Todos os artigos aceitos serão publicados nos anais do evento, indexados pela SBC-OpenLib (SOL), garantindo ampla visibilidade e acesso de longo prazo às contribuições apresentadas no SBLP 2026.

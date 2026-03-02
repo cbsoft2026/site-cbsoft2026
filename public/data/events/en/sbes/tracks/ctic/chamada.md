@@ -166,6 +166,10 @@ To avoid possible biases, the Phase 2 panel will not have access to the scores f
 
 The program chair strongly advises authors to pay close attention to the detailed criteria for each phase of the process. In turn, evaluators will be instructed to consider the criteria in alignment with the context and scope of undergraduate research assistant programs, aiming for a fair, consistent, and coherent evaluation.
 
+#### Publication Ethics and Code of Conduct
+
+All submitted papers must comply with the Code of Conduct for Authors in Publications of the Brazilian Computer Society (SBC), available at: https://sol.sbc.org.br/index.php/indice/conduta.
+
 #### II Exhibition of  Works Undergraduate Research Assistant Competition of the Brazilian Symposium of Software Engineering
 
 During the event, an exhibition will take place in which the papers selected for Phase 2 will be displayed in a poster session format, alongside the works from the Software Engineering Thesis and Dissertation Contest (CTD-ES).

@@ -69,6 +69,10 @@ Authors are strongly encouraged to make the code and datasets of their academic 
 
 Submissions that do not include a paper AND a video demo, are not in compliance with the required submission format, are out of the scope of the track, or were submitted or published in any other forum (conference or journal), will be desk-rejected without review and the program chairs of the other(s) venue(s) will be notified. All other papers will be reviewed by at least three program committee members.
 
+#### Publication Ethics and Code of Conduct
+
+All submitted papers must comply with the Code of Conduct for Authors in Publications of the Brazilian Computer Society (SBC), available at: https://sol.sbc.org.br/index.php/indice/conduta.
+
 #### On the use of AI (Artificial Intelligence) or AI-assisted technologies
 
 When submitting papers to SBES 2026 - Tools Track, authors acknowledge that they comply with the Generative AI usage policy, based on existing policies proposed by IEEE, ACM, and Springer.

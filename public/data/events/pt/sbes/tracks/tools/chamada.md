@@ -68,6 +68,10 @@ Logo após a seção de Conclusão, deve ser incluída uma seção não-numerada
 
 Submissões que não incluam um artigo BEM COMO um vídeo de demonstração, que não estejam em conformidade com o formato de envio necessário, que estejam fora do escopo da trilha ou que tenham sido submetidos ou publicados em qualquer outro fórum (conferência ou revista), serão rejeitadas sem revisão e os coordenadores do(s) outro(s) fóruns serão notificados. Todos os outros trabalhos serão revisados por pelo menos três membros do comitê do programa.
 
+#### Ética e Conduta na Publicação
+
+Todos os trabalhos submetidos devem estar em conformidade com o Código de Conduta para Autores em Publicações da Sociedade Brasileira de Computação (SBC), disponível em: https://sol.sbc.org.br/index.php/indice/conduta.
+
 #### Sobre o uso de IA (Inteligência Artificial) ou tecnologias assistidas por IA em trabalhos de pesquisa
 
 Ao submeterem trabalhos ao SBES 2026, os autores reconhecem que estão em conformidade com a política de uso de IA Generativa, baseada nas políticas existentes propostas pela IEEE, ACM, e Springer.

@@ -124,7 +124,11 @@ The submission is a two-step process:
 
 1. Abstract submission: Authors must provide the paper title, authors, abstract, associated topic(s), and the language; and 
 1. Full paper submission: Authors must upload a PDF file containing the paper.
- 
+
+#### Publication Ethics and Code of Conduct
+
+All submitted papers must comply with the Code of Conduct for Authors in Publications of the Brazilian Computer Society (SBC), available at: https://sol.sbc.org.br/index.php/indice/conduta.
+
 #### Anonymization
 
 The SBES 2026 Insightful Ideas and Emerging Results Track will follow a double-anonymous review process. All submitted papers should conceal the identity of the authors. Both author names and affiliations must be omitted. In addition, the following rules should be addressed:

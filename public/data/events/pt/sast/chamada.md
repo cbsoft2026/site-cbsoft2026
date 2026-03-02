@@ -70,6 +70,10 @@ Todos os resumos da indústria passarão por um processo de revisão anônima po
 
 A publicação dos artigos aceitos no simpósio está vinculada à apresentação do artigo no SAST 2026 e à inscrição de pelo menos um de seus autores no CBSoft 2026.
 
+#### Ética e Conduta na Publicação
+
+Todos os trabalhos submetidos devem estar em conformidade com o Código de Conduta para Autores em Publicações da Sociedade Brasileira de Computação (SBC), disponível em: https://sol.sbc.org.br/index.php/indice/conduta.
+
 #### Sobre o uso de IA (Inteligência Artificial) ou tecnologias assistidas por IA em artigos científicos
 
 Ao submeter trabalhos para o SAST 2026, os autores reconhecem que estão em conformidade com a política de uso de IA generativa, baseada em políticas existentes propostas pelo IEEE, ACM e Springer.

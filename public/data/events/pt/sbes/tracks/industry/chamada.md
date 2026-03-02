@@ -58,6 +58,10 @@ Note que os trabalhos também podem ser submetidos mesmo sem a participação de
 
 A submissão do trabalho será exclusivamente eletrônica, através do sistema [JEMS](https://jems3.sbc.org.br/cbsoft-industria2025). As submissões podem ser redigidas em inglês ou português.
 
+#### Ética e Conduta na Publicação
+
+Todos os trabalhos submetidos devem estar em conformidade com o Código de Conduta para Autores em Publicações da Sociedade Brasileira de Computação (SBC), disponível em: https://sol.sbc.org.br/index.php/indice/conduta.
+
 #### Em caso de aceite
 
 É obrigatório o envio do [Termo de Autorização de Publicação de Artigos da SBC](https://www.sbc.org.br/documentos-da-sbc/summary/164-publicacoes/1231-termo-de-autorizacao-de-publicacao), o qual deve ser assinado por um dos autores de cada artigo aceito. É necessário também preencher o formulário eletrônico de coleta de metadados para cada artigo aceito.

@@ -122,6 +122,10 @@ Os artigos devem ter no máximo 10 páginas, incluindo todas as figuras, tabelas
 
 A publicação de artigos aceitos na Trilha de Pesquisa requer a inscrição de pelo menos um de seus autores no CBSoft 2026 (segundo as regras de inscrição estabelecidas pela organização local do evento), bem como a apresentação do artigo **presencialmente** durante o SBES 2026. Os artigos que não forem apresentados não serão incluídos nos anais do SBES 2026.
 
+#### Ética e Conduta na Publicação
+
+Todos os trabalhos submetidos devem estar em conformidade com o Código de Conduta para Autores em Publicações da Sociedade Brasileira de Computação (SBC), disponível em: https://sol.sbc.org.br/index.php/indice/conduta.
+
 #### Anonimização
 
 A Trilha de Pesquisa do SBES 2026 adota um processo de revisão duplo-anônimo ("double-anonymous"). Os artigos submetidos devem ocultar os nomes e a afiliação dos autores. Além disso, as seguintes regras devem ser seguidas:

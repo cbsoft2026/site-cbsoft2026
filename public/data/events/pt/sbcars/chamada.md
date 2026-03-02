@@ -116,6 +116,10 @@ Os artigos aceitos serão publicados nos anais do SBCARS 2026. Pelo menos um aut
 
 Aguardamos suas valiosas contribuições e esperamos recebê-lo(a) em São Paulo para o SBCARS 2026!
 
+#### Ética e Conduta na Publicação
+
+Todos os trabalhos submetidos devem estar em conformidade com o Código de Conduta para Autores em Publicações da Sociedade Brasileira de Computação (SBC), disponível em: https://sol.sbc.org.br/index.php/indice/conduta.
+
 ###### Coordenadores do Comitê de Programa – SBCARS 2026
 
 Juliana Alves Pereira (PUC-Rio) e Breno Bernard Nicolau de França (UNICAMP)

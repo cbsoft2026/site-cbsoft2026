@@ -102,6 +102,10 @@ Two types of papers are eligible. Full papers must be at most 10 (ten) pages lon
 
 The publication of papers accepted to the SBES 40 Years Special Track requires that at least one of the authors be registered for CBSoft 2026 (in accordance with the registration rules established by the local organizing committee), as well as that the paper be presented in person during SBES 2026. Papers that are not presented will not be included in the SBES 2026 proceedings.
 
+#### Publication Ethics and Code of Conduct
+
+All submitted papers must comply with the Code of Conduct for Authors in Publications of the Brazilian Computer Society (SBC), available at: https://sol.sbc.org.br/index.php/indice/conduta.
+
 ##### Anonymization
 
 The SBES 40 Years Special Track adopts a double-anonymous review process. Submitted papers must conceal the authors’ names and affiliations. In addition, the following rules must be observed:

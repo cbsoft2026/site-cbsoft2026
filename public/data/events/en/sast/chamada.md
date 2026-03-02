@@ -70,6 +70,10 @@ All **industry abstracts** will undergo an **anonymous peer review process**: we
 
 The publication of accepted papers in the symposium is conditional upon the presentation of the paper at SAST 2026 and the registration of at least one of its authors at CBSoft 2026.
 
+#### Publication Ethics and Code of Conduct
+
+All submitted papers must comply with the Code of Conduct for Authors in Publications of the Brazilian Computer Society (SBC), available at: https://sol.sbc.org.br/index.php/indice/conduta.
+
 #### About the use of AI (Artificial Intelligence) or AI-assisted technologies in scientific papers
 
 By submitting work to SAST 2026, authors acknowledge that they are in compliance with the policy on the use of generative AI, based on existing policies proposed by IEEE, ACM, and Springer.
