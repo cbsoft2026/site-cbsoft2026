@@ -44,15 +44,15 @@ export default function TemplateMarkdown({ children, className, variables, local
               />
             </div>
           ),
-          table({ children }) {
-            return (
-              <div style={{ overflowX: "auto" }}>
-                <table>
-                  {children}
-                </table>
-              </div>
-            );
-          }
+          // table({ children }) {
+          //   return (
+          //     <div style={{ overflowX: "auto" }}>
+          //       <table>
+          //         {children}
+          //       </table>
+          //     </div>
+          //   );
+          // }
         }}
       >
         {content}
