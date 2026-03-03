@@ -8,7 +8,7 @@ type Props = {
 
 export async function generateStaticParams() {
   return trackValues.map((track) => {
-    return { track: track };
+    return { acronym: "sbes", track: track };
   });
 }
 
