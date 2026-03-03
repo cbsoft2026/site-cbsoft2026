@@ -45,6 +45,10 @@
       "tier": "ouro",
       "items": [
         {
+          "href": "https://www.gov.br/capes",
+          "image": "capes.png"
+        },
+        {
           "href": "https://www.gov.br/cnpq/pt-br",
           "image": "cnpq.png"
         }
