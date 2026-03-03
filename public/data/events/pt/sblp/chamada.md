@@ -54,6 +54,33 @@ Os artigos devem ser originais e não podem estar simultaneamente submetidos a o
 
 Todos os trabalhos submetidos devem estar em conformidade com o [Código de Conduta para Autores em Publicações da Sociedade Brasileira de Computação (SBC)](https://sol.sbc.org.br/index.php/indice/conduta).
 
+#### Política de Uso de IA Generativa para Submissões SBLP 2026
+
+Ao submeter um artigo para o SBLP 2026, os autores confirmam a sua adesão à política de uso de IA generativa, que está em conformidade com as diretrizes estabelecidas por IEEE, ACM e Springer.
+
+Usos Proibidos:
+
+- Atribuir autoria a ferramentas de IA generativa (ex: ChatGPT).
+- Submeter artigos ou seções que foram inteiramente gerados por ferramentas de IA.
+
+Usos Permitidos (Requerendo Reconhecimento Explícito):
+
+- Utilizar ferramentas de IA generativa para criar partes do conteúdo. Tal uso deve ser claramente divulgado na seção de agradecimentos, especificando o conteúdo gerado e a ferramenta empregada. Os autores são responsáveis por garantir a conformidade com os termos de uso da ferramenta.
+- Exemplo de Divulgação: "ChatGPT foi utilizado para gerar o parágrafo introdutório da Seção 3 e a Tabela 3.2."
+
+Usos Permitidos (Sem Necessidade de Reconhecimento Explícito):
+
+- Melhorar a qualidade de imagens (ex: contraste, clareza) usando IA ou tecnologias assistidas por IA.
+- Empregar ferramentas de IA generativa para refinar e aprimorar a qualidade de textos existentes, de forma similar a corretores gramaticais e de estilo (ex: Grammarly) para ortografia, gramática, pontuação e clareza geral.
+
+#### Critérios de Rejeição
+
+Submissões que não se enquadrarem no escopo do SBLP 2026, ou que não atenderem aos requisitos de formatação e anonimização especificados, serão imediatamente rejeitadas sem revisão por pares.
+
+Qualquer artigo identificado como já publicado ou submetido concomitantemente a outro evento ou periódico revisado por pares será rejeitado em qualquer etapa do processo de revisão. Autores envolvidos em tais casos poderão enfrentar sanções, incluindo a proibição de submeter a futuras edições do SBLP, e os organizadores do outro evento serão notificados.
+
+Caso surjam evidências de que ferramentas de IA generativa foram utilizadas na submissão de forma inconsistente com as diretrizes estabelecidas nesta chamada de trabalhos, a submissão será rejeitada sem revisão. Autores encontrados em violação também poderão ser impedidos de submeter a edições subsequentes do SBLP.
+
 #### Publicação, Indexação e Prêmios
     
 Todos os artigos aceitos serão publicados nos anais do evento, indexados pela SBC-OpenLib (SOL), garantindo ampla visibilidade e acesso de longo prazo às contribuições apresentadas no SBLP 2026.
