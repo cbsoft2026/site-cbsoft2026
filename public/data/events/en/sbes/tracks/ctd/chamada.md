@@ -83,7 +83,7 @@ Up to three papers per category will be invited for presentation at SBES 2026.
 
 #### Publication Ethics and Code of Conduct
 
-All submitted papers must comply with the Code of Conduct for Authors in Publications of the Brazilian Computer Society (SBC), available at: https://sol.sbc.org.br/index.php/indice/conduta.
+All submitted works must comply with the [Code of Conduct for Authors in Publications of the Brazilian Computer Society (SBC)](https://sol.sbc.org.br/index.php/indice/conduta).
 
 #### Important Dates
 

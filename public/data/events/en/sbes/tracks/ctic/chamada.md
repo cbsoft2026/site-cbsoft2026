@@ -168,7 +168,7 @@ The program chair strongly advises authors to pay close attention to the detaile
 
 #### Publication Ethics and Code of Conduct
 
-All submitted papers must comply with the Code of Conduct for Authors in Publications of the Brazilian Computer Society (SBC), available at: https://sol.sbc.org.br/index.php/indice/conduta.
+All submitted works must comply with the [Code of Conduct for Authors in Publications of the Brazilian Computer Society (SBC)](https://sol.sbc.org.br/index.php/indice/conduta).
 
 #### II Exhibition of  Works Undergraduate Research Assistant Competition of the Brazilian Symposium of Software Engineering
 

@@ -70,7 +70,7 @@ Submissões que não incluam um artigo BEM COMO um vídeo de demonstração, que
 
 #### Ética e Conduta na Publicação
 
-Todos os trabalhos submetidos devem estar em conformidade com o Código de Conduta para Autores em Publicações da Sociedade Brasileira de Computação (SBC), disponível em: https://sol.sbc.org.br/index.php/indice/conduta.
+Todos os trabalhos submetidos devem estar em conformidade com o [Código de Conduta para Autores em Publicações da Sociedade Brasileira de Computação (SBC)](https://sol.sbc.org.br/index.php/indice/conduta).
 
 #### Sobre o uso de IA (Inteligência Artificial) ou tecnologias assistidas por IA em trabalhos de pesquisa
 

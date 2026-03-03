@@ -127,7 +127,7 @@ O processo de submissão ocorre em duas etapas:
 
 #### Ética e Conduta na Publicação
 
-Todos os trabalhos submetidos devem estar em conformidade com o Código de Conduta para Autores em Publicações da Sociedade Brasileira de Computação (SBC), disponível em: https://sol.sbc.org.br/index.php/indice/conduta.
+Todos os trabalhos submetidos devem estar em conformidade com o [Código de Conduta para Autores em Publicações da Sociedade Brasileira de Computação (SBC)](https://sol.sbc.org.br/index.php/indice/conduta).
 
 #### Anonimização
 

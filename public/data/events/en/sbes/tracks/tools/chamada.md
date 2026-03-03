@@ -71,7 +71,7 @@ Submissions that do not include a paper AND a video demo, are not in compliance 
 
 #### Publication Ethics and Code of Conduct
 
-All submitted papers must comply with the Code of Conduct for Authors in Publications of the Brazilian Computer Society (SBC), available at: https://sol.sbc.org.br/index.php/indice/conduta.
+All submitted works must comply with the [Code of Conduct for Authors in Publications of the Brazilian Computer Society (SBC)](https://sol.sbc.org.br/index.php/indice/conduta).
 
 #### On the use of AI (Artificial Intelligence) or AI-assisted technologies
 

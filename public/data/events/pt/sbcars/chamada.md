@@ -118,7 +118,7 @@ Aguardamos suas valiosas contribuições e esperamos recebê-lo(a) em São Paulo
 
 #### Ética e Conduta na Publicação
 
-Todos os trabalhos submetidos devem estar em conformidade com o Código de Conduta para Autores em Publicações da Sociedade Brasileira de Computação (SBC), disponível em: https://sol.sbc.org.br/index.php/indice/conduta.
+Todos os trabalhos submetidos devem estar em conformidade com o [Código de Conduta para Autores em Publicações da Sociedade Brasileira de Computação (SBC)](https://sol.sbc.org.br/index.php/indice/conduta).
 
 ###### Coordenadores do Comitê de Programa – SBCARS 2026
 
