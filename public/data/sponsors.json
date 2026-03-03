@@ -4,11 +4,11 @@
       "tier": "platina",
       "items": [
         {
-          "href": "https://www5.usp.br/",
+          "href": "https://www5.usp.br",
           "image": "usp.png"
         },
         {
-          "href": "https://www.ime.usp.br/",
+          "href": "https://www.ime.usp.br",
           "image": "ime.png"
         }
       ]
@@ -17,11 +17,11 @@
       "tier": "platina",
       "items": [
         {
-          "href": "https://unicamp.br/",
+          "href": "https://unicamp.br",
           "image": "unicamp.svg"
         },
         {
-          "href": "https://ic.unicamp.br/",
+          "href": "https://ic.unicamp.br",
           "image": "ic-unicamp.png"
         }
       ]
@@ -32,7 +32,7 @@
       "tier": "platina",
       "items": [
         {
-          "href": "http://www.sbc.org.br/",
+          "href": "http://www.sbc.org.br",
           "image": "sbc.png"
         }
       ]
@@ -49,8 +49,12 @@
           "image": "capes.png"
         },
         {
-          "href": "https://www.gov.br/cnpq/pt-br",
+          "href": "https://www.gov.br/cnpq",
           "image": "cnpq.png"
+        },
+        {
+          "href": "https://fapesp.br",
+          "image": "fapesp.png"
         }
       ]
     }
