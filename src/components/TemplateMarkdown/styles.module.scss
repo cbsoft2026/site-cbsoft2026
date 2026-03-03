@@ -12,6 +12,8 @@
     }
   }
   table {
+    width: max-content;
+    table-layout: auto;
     th,
     td {
       padding: 5px 15px;
