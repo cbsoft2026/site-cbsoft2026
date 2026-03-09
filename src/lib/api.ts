@@ -249,6 +249,8 @@ export function loadEvents(lang: string = 'pt'): Map<string, Event> {
 
 export function loadCalls(lang: Locale = defaultLang, symposiums = EVENTS_LIST, tracks = trackValues) {
   const calls: Record<string, string> = {};
+  let resSlug = null
+  let resTrack = null
   symposiums.forEach((slug) => {
     const pathsToTry = getPathsToTry(lang, slug, 'chamada', 'md');
     (tracks.length > 0 ? tracks : [null]).forEach((track) => {
@@ -258,6 +260,8 @@ export function loadCalls(lang: Locale = defaultLang, symposiums = EVENTS_LIST, 
           const value = fs.readFileSync(path.path, 'utf-8');
           if (path.track == track && path.path.includes(lang)) {
             calls[`${slug}_${track}_${lang}`] = value;
+            resSlug = slug
+            resTrack = track
             findPath = true;
             break;
           }
@@ -269,6 +273,8 @@ export function loadCalls(lang: Locale = defaultLang, symposiums = EVENTS_LIST, 
             const value = fs.readFileSync(path.path, 'utf-8');
             if (path.path.includes(lang)) {
               calls[`${slug}_${lang}`] = value;
+              resSlug = slug
+              resTrack = path.track
               findPath = true;
               break;
             }
@@ -279,13 +285,15 @@ export function loadCalls(lang: Locale = defaultLang, symposiums = EVENTS_LIST, 
         for (const path of pathsToTry) {
           if (fs.existsSync(path.path)) {
             const value = fs.readFileSync(path.path, 'utf-8');
+            resSlug = slug
+            resTrack = path.track
             calls[`${slug}_${lang}`] = value;
           }
         }
       }
     });
   });
-  return calls;
+  return {body: calls, slug: resSlug, track: resTrack};
 }
 
 export function loadTracks(symposium: string, lang: Locale = defaultLang) {

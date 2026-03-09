@@ -19,9 +19,9 @@ type DateKey = keyof typeof dates;
 export default async function CallComponent({ acronym, track, className, locale }: Props) {
   const t = await getTranslations({ locale, namespace: 'components/call' });
 
-  const call = loadCalls(locale, [acronym], track ? [track] : []);
+  const {body, slug, track: realTrack} = loadCalls(locale, [acronym], track ? [track] : []);
 
-  const label = `${acronym}${track ? `_${track}` : ''}` as DateKey;
+  const label = `${slug}${realTrack ? `_${realTrack}` : ''}` as DateKey;
   const date = dates[label];
   const sortedDate = Object.entries(date != undefined ? date : {})
     .sort(([, a], [, b]) => new Date(a.date).getTime() - new Date(b.date).getTime())
@@ -40,7 +40,7 @@ export default async function CallComponent({ acronym, track, className, locale 
   return (
     <div className={`${styles.call} ${className}`}>
       <TemplateMarkdown className={styles.call__content} variables={templateVariables} locale={locale}>
-        {Object.values(call)[0]}
+        {Object.values(body)[0]}
       </TemplateMarkdown>
       <aside className={styles.call__sidebar}>
         {Object.keys(sortedDate).length > 0 ? (
