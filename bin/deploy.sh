@@ -94,8 +94,12 @@ check_command npm
 
 npm run build
 
+cat <<EOF > out/.htaccess
+ErrorDocument 404 /2026/404/
+EOF
+
 sshpass -p "$SSH_PASSWORD" ssh -o StrictHostKeyChecking=no "$SSH_USER@$SSH_HOST" "mkdir -p ~/tmp/deploy_temp && rm -rf ~/tmp/deploy_temp/*"
-sshpass -p "$SSH_PASSWORD" scp -o StrictHostKeyChecking=no -r ./out/* "$SSH_USER@$SSH_HOST:~/tmp/deploy_temp"
+sshpass -p "$SSH_PASSWORD" scp -o StrictHostKeyChecking=no -r ./out/. "$SSH_USER@$SSH_HOST:~/tmp/deploy_temp"
 sshpass -p "$SSH_PASSWORD" ssh -o StrictHostKeyChecking=no "$SSH_USER@$SSH_HOST" "rsync -rpz --no-times --chown=$SSH_USER:cbsoft --delete ~/tmp/deploy_temp/ "$APP_PATH"; rm -rf ~/tmp/deploy_temp/*"
 
 exit 0
