@@ -29,7 +29,7 @@ export async function generateStaticParams() {
 function createTree(acronym: string, locale: string, track?: string) {
   const tracks = [];
   if (track) tracks.push(track);
-  const call = loadCalls(locale, [acronym], tracks);
+  const {body:call} = loadCalls(locale, [acronym], tracks);
 
   const href = track ? `/symposiums/${acronym}/${track}/call` : `/symposiums/${acronym}/call`;
 

@@ -14,7 +14,7 @@ async function generate() {
     const json = JSON.stringify(Object.fromEntries(Array.from(events.entries()).map(([k, set]) => [k, set])), null, 2);
     fs.writeFileSync(filePath, json);
 
-    const calls = loadCalls(locale);
+    const {body:calls} = loadCalls(locale);
     Object.keys(calls).map((key) => {
       const value = calls[key];
       const filePath = path.join(outputDir, `${key}.md`);
