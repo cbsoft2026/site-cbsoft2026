@@ -33,7 +33,7 @@ export default async function DatesPage({ params }: Props) {
         }
       }
       return {
-        name: nameParts.length > 1 ? commonT(`siglas.trilhas.${nameParts[1]}`) : commonT(`${nameKey}`),
+        name: nameParts.length > 1 ? commonT(nameParts[0]) + " - " + commonT(`siglas.trilhas.${nameParts[1]}`) : commonT(nameKey),
         when: info.date,
         what: dateLabel,
       };
