@@ -83,7 +83,7 @@ export default async function HomePage({ params }: Props) {
     locale,
   );
 
-  const speakersElement = await (async () => {
+  const infiniteScrollElements = await (async () => {
     return speakers
       .filter(
         (speaker) =>
@@ -181,7 +181,7 @@ export default async function HomePage({ params }: Props) {
       <section className={styles['section-style']}>
         <div className={styles.content}>
           <h1 className={`text-center ${styles['content-title']}`}>{homeT('participantes')}</h1>
-          <InfiniteScroll className={styles['content__images']} items={speakersElement} />
+          <InfiniteScroll className={styles['content__images']} items={infiniteScrollElements} />
         </div>
       </section>
 
