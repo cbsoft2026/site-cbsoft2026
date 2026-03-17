@@ -148,10 +148,82 @@ O Comitê Diretivo do SBES nomeará um comitê para premiar os melhores trabalho
 
 **Coordenadores de Comitê de Programa - Especial SBES 40 Anos**
     
-   * Itana Maria de Souza Gimenes (UEM)
-   * Rodrigo Bonifácio (UFPE)
+* Itana Maria de Souza Gimenes (Universidade Estadual de Maringá)
 
+* Rodrigo Bonifácio (Universidade Federal de Pernambuco)
 
 **Comitê de Programa**
 
-   * A ser anunciado em breve.
+* Adenilso Simao (Universidade de São Paulo)
+
+* Ana Regina C. Rocha (Universidade Federal do Rio de Janeiro)
+
+* Andre Hora (Universidade Federal de Minas Gerais)
+
+* Auri Marcelo Rizzo Vincenzi  (Universidade Federal de São Carlos)
+
+* Avelino Francisco Zorzo (Pontífica Universidade Católoca do Rio Grande do Sul)
+
+* Claudia Werner (Universidade Federal do Rio de Janeiro)
+
+* Daltro Jose Nunes (Universidade Federal do Rio Grande do Sul)
+
+* Davi Viana (Universidade Federal do Maranão)
+
+* Edna Dias Canedo (Universidade de Brasília)
+
+* Elisa Y. Nakagawa (Universidade de São Paulo)
+
+* Everton Cavalcante (Universidade Federal do Rio Grande do Norte)
+
+* Fabiano Cutigi Ferrari (Universidade Federal de São Carlos)
+
+* Fernando Antonio Mota Trinta (Universidade Federal do Cerá)
+
+* Fernando Castor (University of Twente)
+
+* Guilherme Horta Travassos (Universidade Federal do Rio de Janeiro)
+
+* Igor Steinmacher (Northern Arizona University)
+
+* Jaelson F. B. Castro (Universidade Federal de Pernambuco)
+
+* Jéssyka  Vilela (Universidade Federal de Pernambuco)
+
+* José Carlos Maldonado (Universidade de São Paulo)
+
+* Kathia Oliveira (UPHF France)
+
+* Leila Ribeiro (Universidade Federal do Rio Grande do Sul)
+
+* Leonardo Gresta Paulino Murta (Universidade Federal Fluminense)
+
+* Leopoldo Motta Teixeira (Universidade Federal de Pernambuco)
+
+* Márcio O. Barros (Universidade Federal do Estado do Rio de Janeiro)
+
+* Marco Tulio Valente (Universidade Federal de Minas Gerais)
+
+* Nabor Mendonca (Universidade de Fortaleza)
+
+* Paulo Cesar Masiero (Universidade de São Paulo)
+
+* Rafael Prikladnicki (Pontífica Universidade Católica do Rio Grande do Sul)
+
+* Sheila Reinehr (Pontífica Universidade Católica do Paraná)
+
+* Silvia Regina Vergilio (Universidade Federal do Paraná)
+
+* Thais Vasconcelos Batista (Universidade Federal do Rio Grande do Norte)
+
+* Thelma Elita Colanzi (Universidade Estadual de Maringá)
+
+* Tiago Massoni (Universidade Federal de Campina Grande)
+
+* Uirá Kulesza (Universidade Federal do Rio Grande do Norte)
+
+* Vânia de Oliveira Neves (Universidade Federal Fluminense)
+
+* Vinicius Cardoso Garcia (Universidade Federal de Pernambuco)
+
+* Wilkerson L. Andrade (Universidade Federal de Campina Grande)
