@@ -31,8 +31,8 @@ sbes_ctd:
     submission_date:
         date: 2026-06-05
         label:
-            pt: "Data-limite para submissão de trabalhos"
-            en: "Submission Deadline"
+            pt: "Submissão de trabalhos"
+            en: "Paper Submission"
     notification_acceptance:
         date: 2026-07-20
         label:
@@ -41,15 +41,15 @@ sbes_ctd:
     camera_ready:
         date: 2026-08-10
         label:
-            pt: "Data-limite para envio da versão final"
-            en: "Camera-Ready Deadline"
+            pt: "Envio da versão final"
+            en: "Camera-Ready"
         
 sbes_ctic: 
     submission_date:
         date: 2026-06-26
         label: 
-            pt: "Data limite para submissão de trabalhos"
-            en: "Submission deadline"
+            pt: "Submissão de trabalhos"
+            en: "Paper Submission"
     notification_acceptance:
         date: 2026-07-24
         label:
@@ -58,8 +58,8 @@ sbes_ctic:
     camera_ready:
         date: 2026-08-03
         label:
-            pt: "Data limite para envio da versão final"
-            en: "Camera ready"
+            pt: "Envio da versão final"
+            en: "Camera-ready"
 
 sbes_educacao: 
     paper_registration:
@@ -207,13 +207,13 @@ sbcars:
     abstract_submission:
         date: 2026-06-19
         label:
-            pt: "Prazo para registro de resumos"
-            en: "Abstract Submission Deadline"
+            pt: "Registro de resumos"
+            en: "Abstract Submission"
     submission_date:
         date: 2026-06-26
         label: 
-            pt: "Prazo para submissão de artigos completos"
-            en: "Full Paper Submission Deadline"
+            pt: "Submissão de artigos completos"
+            en: "Full Paper Submission"
     notification_acceptance:
         date: 2026-08-03
         label:
