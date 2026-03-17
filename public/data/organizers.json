@@ -340,5 +340,65 @@
         "university": "IME-USP"
       }
     ]
+  },
+  {
+    "category": "local_embassadors",
+    "chairs": [
+      {
+        "image": "elisaYumiNakagawa.jpg",
+        "name": "Elisa Yumi Nakagawa",
+        "university": "ICMC-USP"
+      },
+      {
+        "image": "lucyMariTabuti.jpg",
+        "name": "Lucy Mari Tabuti",
+        "university": "FECAP/PUC-SP/IPT"
+      },
+      {
+        "image": "cassiaOliveiraFernandez.jpg",
+        "name": "Cassia de Oliveira Fernandez",
+        "university": "Insper"
+      },
+      {
+        "image": "jeffersonSilva.jpeg",
+        "name": "Jefferson Silva",
+        "university": "Inteli"
+      },
+      {
+        "image": "marceloDuduchi.jpg",
+        "name": "Marcelo Duduchi",
+        "university": "Centro Paula Souza"
+      },
+      {
+        "image": "andreLuisDebiasoRossi.jpeg",
+        "name": "André Luís Debiaso Rossi",
+        "university": "UNESP (Bauru)"
+      },
+      {
+        "image": "ismarFrangoSilveira.jpg",
+        "name": "Ismar Frango Silveira",
+        "university": "Mackenzie"
+      },
+      {
+        "image": "fabioFagundesSilveira.jpeg",
+        "name": "Fábio Fagundes Silveira",
+        "university": "UNIFESP"
+      },
+      {
+        "image": "emilioFrancesquini.jpeg",
+        "name": "Emilio Francesquini",
+        "university": "UFABC"
+      },
+      {
+        "image": "marcoVallim.jpeg",
+        "name": "Marco Vallim",
+        "university": "Mackenzie Alphaville"
+      },
+      {
+        "image": "fabianoCutigiFerrari.jpeg",
+        "name": "Fabiano Cutigi Ferrari",
+        "university": "UFSCar"
+      }
+    ]
   }
 ]
