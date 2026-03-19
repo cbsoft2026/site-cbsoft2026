@@ -9,10 +9,10 @@ import '@fortawesome/fontawesome-svg-core/styles.css';
 
 config.autoAddCss = false;
 
-const gothamBlack = localFont({
-  src: '../../public/fonts/gotham-font/Gotham-Bold.otf',
-  variable: '--font-gotham-bold',
-  weight: '700',
+const alegreyaSansUltraBold = localFont({
+  src: '../../public/fonts/alegreya-sans/AlegreyaSans-ExtraBold.ttf',
+  variable: '--font-alegreya-sans-ultra-bold',
+  weight: '800',
   style: 'normal',
 });
 
@@ -46,7 +46,7 @@ type Props = {
 
 export default async function RootLayout({ children }: Props) {
   return (
-    <html className={gothamBlack.variable}>
+    <html className={alegreyaSansUltraBold.variable}>
       <body>{children}</body>
     </html>
   );

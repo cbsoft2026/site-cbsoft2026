@@ -12,9 +12,10 @@ h3,
 h4,
 h5,
 h6 {
-  font-variant: small-caps;
-  font-weight: bold;
-  font-family: var(--font-gotham-bold), sans-serif;
+  font-weight: 800;
+  font-variant-numeric: lining-nums proportional-nums;
+  font-variant-caps: small-caps;
+  font-family: var(--font-alegreya-sans-ultra-bold), sans-serif;
   color: vars.$text-primary;
 }
 
