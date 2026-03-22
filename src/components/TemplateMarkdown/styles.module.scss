@@ -11,6 +11,17 @@
       margin-bottom: 0;
     }
   }
+  :global(.footnotes) {
+    margin-top: 56px;
+    > h1, > h2, > h3 {
+      display: none;
+    }
+  }
+  sup {
+    a {
+      text-decoration: none;
+    }
+  }
   table {
     // width: max-content;
     // table-layout: auto;

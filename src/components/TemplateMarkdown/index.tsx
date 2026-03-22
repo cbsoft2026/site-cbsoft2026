@@ -27,11 +27,16 @@ export default function TemplateMarkdown({ children, className, variables, local
         remarkPlugins={[remarkMath]}
         rehypePlugins={[rehypeKatex, remarkGfm, [rehypeHighlight, { languages: { latex } }], rehypeRaw]}
         components={{
-          a: ({ node, ...props }) => (
-            <a {...props} target='_blank' rel='noopener noreferrer'>
-              {props.children}
-            </a>
-          ),
+          a: ({ node, ...props }) => {
+            if (props.href?.startsWith("#user-content-fn")) {
+              return <a {...props}>{props.children}</a>;
+            }
+            return (
+              <a {...props} target="_blank" rel="noopener noreferrer">
+                {props.children}
+              </a>
+            );
+          },
           time: ({ node, ...props }) => (
             <div style={{ float: 'left' }}>
               <AddCalendar
@@ -43,6 +48,11 @@ export default function TemplateMarkdown({ children, className, variables, local
                 fullDay={true}
               />
             </div>
+          ),
+          sup: ({ node, ...props }) => (
+            <sup style={{ fontSize: "0.8em", cursor: "pointer", marginLeft: 4 }}>
+              [{props.children}]
+            </sup>
           ),
           // table({ children }) {
           //   return (
