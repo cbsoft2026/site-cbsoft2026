@@ -38,7 +38,9 @@ Ambas as trilhas aceitam submissões como **artigos completos** ou **artigos cur
         
 * **Artigos curtos:** até 4 páginas (excluindo referências). Artigos curtos podem relatar ideias em estágio inicial, resultados preliminares, resultados negativos ou inconclusivos com lições relevantes, ou resultados parciais de projetos em andamento, dissertações ou teses.    
         
-Autores de ambas as trilhas, Principal e de Graduação, podem escolher o formato mais adequado (completo ou curto) de acordo com a maturidade e o escopo de seu trabalho. Todas as submissões devem estar em formato PDF, de acordo com o modelo da conferência, e ser submetidas via [JEMS](https://jems3.sbc.org.br/).
+Autores de ambas as trilhas, Principal e de Graduação, podem escolher o formato mais adequado (completo ou curto) de acordo com a maturidade e o escopo de seu trabalho. Todas as submissões devem estar em formato PDF, de acordo com o [modelo da conferência](https://www.overleaf.com/read/cyhpwwkngcwk)[^1], e ser submetidas via [JEMS](https://jems3.sbc.org.br/).
+
+[^1]: O modelo também está disponível para download: [link](/2026/Template_para_eventos_do_CBSoft.zip)
 
 #### Processo de Revisão e Política de Submissão
     
