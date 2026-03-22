@@ -86,41 +86,23 @@ Ao submeterem trabalhos ao SBES 2026, os autores reconhecem que estão em confor
 
 #### Preparação e Submissão de Artigos
 
-Os autores devem enviar trabalhos originais que não tenham sido publicados em outro lugar, nem que estejam sob revisão. Os artigos para a Trilha de Pesquisa do SBES 2026 podem ser escritos em português ou inglês, sendo que artigos em inglês proporcionam maior visibilidade internacional.  
+Os artigos devem ser submetidos no formato Adobe Portable Document Format (PDF) e seguir estritamente o [modelo da conferência](https://www.overleaf.com/read/cyhpwwkngcwk)[^1]. É importante salientar que, embora esse modelo seja uma adaptação do formato adotado pela ACM para conferências, o modelo original (`ACM_SigConf`) **não** deve ser utilizado. Esse mesmo modelo adaptado será utilizado em todos os simpósios e workshops integrantes do CBSoft 2026.
 
-Os artigos devem ser submetidos no formato Adobe Portable Document Format (PDF) e seguir estritamente o formato ACM_SigConf de 2 colunas disponível em: [https://www.acm.org/publications/proceedings-template](https://www.acm.org/publications/proceedings-template). Usuários de LaTeX devem utilizar a classe `acmart.cls` fornecida no modelo, com o formato de conferência habilitado no preâmbulo do documento:
+[^1]: O modelo também está disponível para download: [link](/2026/Template_para_eventos_do_CBSoft.zip)
+
+Para garantir a dupla anonimização no processo de submissão inicial e de revisão, os autores deverão adicionar a opção `anonymous` no preâmbulo do documento:
 
 ```latex
 \documentclass[sigconf,anonymous]{acmart}
 ```
 
-Além disso, será necessário remover algumas seções do template padrão da ACM. Para tal, utilize os comandos a seguir:
+Para todas as Trilhas do SBES 2026, deverá ainda ser utilizado o seguinte comando contendo as informações do evento:
 
 ```latex
-\setcopyright{none}
-\settopmatter{printccs=false}
-\settopmatter{printacmref=false}
-\renewcommand\footnotetextcopyrightpermission[1]{} 
+\acmConference[SBES 2026]{40th Brazilian Symposium on Software Engineering}{September 8--12, 2026}{São Paulo, SP, Brazil}
 ```
 
-O estilo de bibliografia fornecido no modelo `ACM-Reference-Format.bst` deve ser utilizado:
-
-```latex
-\bibliographystyle{ACM-Reference-Format}
-```
-
-Após a seção de Conclusão, deve-se incluir uma seção não numerada denominada "Disponibilidade de Artefatos":
-
-```latex
-\section*{Disponibilidade de Artefatos}
-```
-
-Os artigos devem ter no máximo 10 páginas, incluindo todas as figuras, tabelas e agradecimentos, e 2 páginas adicionais para referências bibliográficas. Os artigos devem ser registrados e submetidos no sistema [JEMS 3](https://jems3.sbc.org.br/events/456).
-
-* Registro do artigo: Deve-se informar o título, autores, resumo, tópicos de interesse e idioma do artigo.
-* Submissão do artigo completo: Deve-se submeter o arquivo em formato PDF contendo o artigo.
-
-A publicação de artigos aceitos na Trilha de Pesquisa requer a inscrição de pelo menos um de seus autores no CBSoft 2026 (segundo as regras de inscrição estabelecidas pela organização local do evento), bem como a apresentação do artigo **presencialmente** durante o SBES 2026. Os artigos que não forem apresentados não serão incluídos nos anais do SBES 2026.
+Orienta-se que todos os autores atentem ao checklist disponibilizado no final do arquivo `samples/cbsoft-acm-like.tex` para se certificarem de que seus artigos estejam em conformidade com o modelo e as instruções fornecidas.
 
 #### Ética e Conduta na Publicação
 
