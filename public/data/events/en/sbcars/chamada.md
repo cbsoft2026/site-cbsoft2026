@@ -111,8 +111,11 @@ Authors of accepted papers (Technical, Industrial, or Data Papers) will be invit
 #### Submission Guidelines
 
 * All submissions must be in Adobe Portable Document Format (PDF) format.
-* All submissions must be written in Portuguese or English and, temporarily, must adhere to the ACM two-column format (ACM_SigConf), available at this [link](https://www.acm.org/publications/proceedings-template). The final format will be available soon.
+* All submissions must be written in Portuguese or English and, must strictly follow the [conference template](https://www.overleaf.com/read/cyhpwwkngcwk)[^1]. It is important to note that, although this template is an adaptation of the format adopted by ACM for conferences, the original template (`ACM_SigConf`) must **not** be used. This same adapted template will be used across all symposia and workshops that are part of CBSoft 2026.
+* Authors are advised to carefully follow the checklist provided at the end of the file `samples/cbsoft-acm-like.tex` to ensure that their papers comply with the template and the given instructions.
 * Submit your papers electronically through [JEMS3](https://jems3.sbc.org.br/events/452).
+
+[^1]: The template is also available for download: [link](/2026/Template_para_eventos_do_CBSoft.zip)
 
 Accepted papers will be published in the SBCARS 2026 proceedings. At least one author is expected to attend the conference and present the accepted paper. More details on submission guidelines, paper formatting, and the technical program committee are  available at: https://cbsoft.sbc.org.br/2026/en/symposiums/sbcars
 

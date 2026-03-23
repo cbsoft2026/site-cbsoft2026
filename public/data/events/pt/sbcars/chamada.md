@@ -108,9 +108,12 @@ Autores de artigos aceitos (técnicos ou de dados) serão convidados a submeter 
 
 #### Instruções de Submissão
 
-* Todas as submissões devem estar em formato PDF.
-* Os artigos podem ser escritos em português ou inglês e, provisoriamente, devem seguir o formato ACM de duas colunas (ACM_SigConf), disponível neste [link](https://www.acm.org/publications/proceedings-template). O formato final, baseado neste, será divulgado em breve.
+* Todas as submissões devem estar no formato Adobe Portable Document Format (PDF).
+* Os artigos podem ser escritos em português ou inglês e, devem seguir estritamente o [modelo da conferência](https://www.overleaf.com/read/cyhpwwkngcwk)[^1]. É importante salientar que, embora esse modelo seja uma adaptação do formato adotado pela ACM para conferências, o modelo original (`ACM_SigConf`) **não** deve ser utilizado. Esse mesmo modelo adaptado será utilizado em todos os simpósios e workshops integrantes do CBSoft 2026.
+* Orienta-se que todos os autores atentem ao checklist disponibilizado no final do arquivo `samples/cbsoft-acm-like.tex` para se certificarem de que seus artigos estejam em conformidade com o modelo e as instruções fornecidas.
 * A submissão deve ser realizada via [JEMS3](https://jems3.sbc.org.br/events/452).
+
+[^1]: O modelo também está disponível para download: [link](/2026/Template_para_eventos_do_CBSoft.zip)
 
 Os artigos aceitos serão publicados nos anais do SBCARS 2026. Pelo menos um autor deve se inscrever no evento e apresentar o trabalho. Mais detalhes sobre formatação, submissão e comitê de programa em: https://cbsoft.sbc.org.br/2026/pt/symposiums/sbcars
 
