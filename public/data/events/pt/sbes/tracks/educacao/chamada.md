@@ -81,6 +81,8 @@ Ao submeterem trabalhos ao SBES 2026, os autores reconhecem que estão em confor
 
 #### Preparação e Submissão de Artigos
 
+Os autores devem enviar trabalhos originais que não tenham sido publicados em outro lugar, nem que estejam sob revisão. Os artigos para a Trilha de Educação do SBES 2026 podem ser escritos em português ou inglês, sendo que artigos em inglês proporcionam maior visibilidade internacional.  
+
 Os artigos devem ser submetidos no formato Adobe Portable Document Format (PDF) e seguir estritamente o [modelo da conferência](https://www.overleaf.com/read/cyhpwwkngcwk)[^1]. É importante salientar que, embora esse modelo seja uma adaptação do formato adotado pela ACM para conferências, o modelo original (`ACM_SigConf`) **não** deve ser utilizado. Esse mesmo modelo adaptado será utilizado em todos os simpósios e workshops integrantes do CBSoft 2026.
 
 [^1]: O modelo também está disponível para download: [link](/2026/Template_para_eventos_do_CBSoft.zip)
@@ -98,6 +100,13 @@ Para todas as Trilhas do SBES 2026, deverá ainda ser utilizado o seguinte coman
 ```
 
 Orienta-se que todos os autores atentem ao checklist disponibilizado no final do arquivo `samples/cbsoft-acm-like.tex` para se certificarem de que seus artigos estejam em conformidade com o modelo e as instruções fornecidas.
+
+Os artigos devem ter no máximo 10 páginas, incluindo todas as figuras, tabelas e agradecimentos, e 2 páginas adicionais para referências bibliográficas. Os artigos devem ser registrados e submetidos no [sistema JEMS 3](https://jems3.sbc.org.br/events/485).
+
+* Registro do artigo: Deve-se informar o título, autores, resumo, tópicos de interesse e idioma do artigo.
+* Submissão do artigo completo: Deve-se submeter o arquivo em formato PDF contendo o artigo.
+
+A publicação de artigos aceitos na Trilha de Educação requer a inscrição de pelo menos um de seus autores no CBSoft 2026 (segundo as regras de inscrição estabelecidas pela organização local do evento), bem como a apresentação do artigo **presencialmente** durante o SBES 2026. Os artigos que não forem apresentados não serão incluídos nos anais do SBES 2026.
 
 #### Ética e Conduta na Publicação
 

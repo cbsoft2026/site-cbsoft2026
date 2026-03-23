@@ -5,7 +5,7 @@ The Brazilian Symposium on Software Engineering (SBES) is a leading Software Eng
 
 The SBES 40 Years Special Track marks its fortieth anniversary. It aims to discuss the evolution of software engineering in Brazilian academia and industry. SBES is a reference for the Brazilian scientific community, bringing together senior researchers and undergraduate and graduate students, always seeking integration and alignment with the international community. Its main axes address research, education, products (tools), industry, innovative ideas, and emerging topics. Since its first edition, SBES tracks have progressively improved; currently, they are highly competitive. SBES is a precursor of CBSoft, a conference that currently brings together several events such as SBCARS (Brazilian Symposium on Software Components, Architectures, and Reuse), SBLP (Brazilian Symposium on Programming Languages), and SAST (Brazilian Symposium on Systematic and Automated Software Testing); it also initially brought together communities that later evolved into events such as the Brazilian Symposium on Formal Methods (SBMF) and the Brazilian Symposium on Software Quality (SBQS). This special track is expected to provide an opportunity for researchers, practitioners, and educators to discuss trends, experiences, and concerns in Brazilian Software Engineering research, as well as to reflect on actions that may improve community integration.
 
-##### Topics of Interest
+#### Topics of Interest
 
 The SBES 40 Years Special Track invites researchers and educators to submit papers on the evolution of software engineering in Brazilian academia and industry, including retrospective and prospective views of Software Engineering research and practice in Brazil. Papers may be full (10 pages of content plus up to 2 pages of references) or short (4 pages of content plus up to 1 page of references). Submissions may address the impact of Software Engineering on Brazilian industry and society, and may also propose future research challenges. Examples of topics include, but are not limited to:
 
@@ -19,7 +19,7 @@ The SBES 40 Years Special Track invites researchers and educators to submit pape
    * analysis of the impact of Brazilian software engineering research in the international landscape;
    * reflections on software engineering education, including technical programs, undergraduate and graduate education.
 
-##### Important Dates
+#### Important Dates
 
 | | |
 |---|---|
@@ -28,7 +28,7 @@ The SBES 40 Years Special Track invites researchers and educators to submit pape
 | Notification | {notification_acceptance} |
 | Camera-ready submission | {camera_ready} |
 
-##### Open Science Policies
+#### Open Science Policies
 
 SBES 2026 encourages authors to adopt Open Science principles and practices to promote transparency, replicability, and reproducibility. Authors are encouraged to share curated and anonymized data and/or artifacts whenever possible. We acknowledge that reproducibility or replicability may not apply to qualitative research and that, as in industrial studies, qualitative research often faces challenges in data sharing
 .
@@ -40,7 +40,7 @@ Following international practices, submissions to the SBES 40 Years Special Trac
 
 The document [SBES 2026 – Open Science Policies](https://drive.google.com/file/d/1xI6iPLxaX-fvgy334fVw_cUixnBK-DRx/view) presents Open Science principles and practices to support authors of the SBES 40 Years Special Track. Questions may be directed to the SBES 2026 Open Science Chairs during paper preparation without breaking anonymity.
 
-##### Use of Artificial Intelligence (AI) or AI-Assisted Technologies
+#### Use of Artificial Intelligence (AI) or AI-Assisted Technologies
 
 By submitting a paper to SBES 2026, authors acknowledge compliance with the generative AI usage policy, based on existing policies from IEEE, ACM, and Springer.
 
@@ -59,40 +59,27 @@ By submitting a paper to SBES 2026, authors acknowledge compliance with the gene
    * Using generative AI tools to edit and improve the quality of existing text (e.g., grammar, spelling, clarity).
 
 
-##### Paper Preparation and Submission
+#### Paper Preparation and Submission
 
 Submissions must be original and not under review elsewhere. Papers may be written in Portuguese or English; English submissions provide greater international visibility.
 
-Papers must be submitted in PDF format and strictly follow the ACM SIGCONF two-column format available at:
+Papers must be submitted in Adobe Portable Document Format (PDF) and must strictly follow the [conference template](https://www.overleaf.com/read/cyhpwwkngcwk)[^1]. It is important to note that, although this template is an adaptation of the format adopted by ACM for conferences, the original template (`ACM_SigConf`) must **not** be used. This same adapted template will be used across all symposia and workshops that are part of CBSoft 2026.
 
-   * [Template ACM ](https://www.acm.org/publications/proceedings-template)
+[^1]: The template is also available for download: [link](/2026/Template_para_eventos_do_CBSoft.zip)
 
-LaTeX users must use the `acmart.cls` class provided in the template, with the conference format enabled in the document preamble:
+To ensure double anonymization during the initial submission and review process, authors must include the `anonymous` option in the document preamble:
 
 ```latex
 \documentclass[sigconf,anonymous]{acmart}
 ```
 
-In addition, some sections of the standard ACM template must be removed. To do so, use the following commands:
+For all SBES 2026 tracks, the following command containing the event information must also be used:
 
 ```latex
-\setcopyright{none}
-\settopmatter{printccs=false}
-\settopmatter{printacmref=false}
-\renewcommand\footnotetextcopyrightpermission[1]{}
+\acmConference[SBES 2026]{40th Brazilian Symposium on Software Engineering}{September 8--12, 2026}{São Paulo, SP, Brazil}
 ```
 
-The bibliography style provided in the template, ACM-Reference-Format.bst, must be used:
-
-```latex
-\bibliographystyle{ACM-Reference-Format}
-```
-
-After the Conclusion section, authors must include an unnumbered section entitled "Artifact Availability":
-
-```latex
-\section*{Artifact Availability}
-```
+Authors are advised to carefully follow the checklist provided at the end of the file `samples/cbsoft-acm-like.tex` to ensure that their papers comply with the template and the given instructions.
 
 Two types of papers are eligible. Full papers must be at most 10 (ten) pages long, including all figures, tables, appendices, and acknowledgments, with up to 2 (two) additional pages allowed for references. Short papers must be at most 6 (six) pages long, including all figures, tables, appendices, and acknowledgments, with up to 1 (one) additional page allowed for references. Papers must be registered and submitted through the [JEMS system](https://jems3.sbc.org.br/sbes40). 
 
@@ -106,7 +93,7 @@ The publication of papers accepted to the SBES 40 Years Special Track requires t
 
 All submitted works must comply with the [Code of Conduct for Authors in Publications of the Brazilian Computer Society (SBC)](https://sol.sbc.org.br/index.php/indice/conduta).
 
-##### Anonymization
+#### Anonymization
 
 The SBES 40 Years Special Track adopts a double-anonymous review process. Submitted papers must conceal the authors’ names and affiliations. In addition, the following rules must be observed:
 
@@ -124,7 +111,7 @@ Reviewers will not be encouraged to search for information that may identify the
 
 In the event of paper acceptance, all information omitted during submission must be included in the final version. Questions regarding the preparation of papers according to the anonymization rules of the SBES 40 Years Special Track may be addressed to the Program Committee Chairs.
 
-##### Desk rejection
+#### Desk rejection
 
 Papers that are out of scope for the SBES 40 Years Special Track, or that do not comply with the required format or anonymization rules, will be desk-rejected without review.
 
@@ -132,7 +119,7 @@ If a simultaneous submission or prior publication of a paper submitted to SBES i
 
 If evidence of the use of generative AI tools in a submission is observed and such use does not comply with the recommendations for generative AI usage specified in this call, the paper will be rejected without review, and the authors may be barred from submitting papers to future editions of SBES.
 
-##### Paper Review Criteria
+#### Paper Review Criteria
 
 The evaluation criteria for papers submitted to the SBES 40 Years Special Track are defined as follows:
 
@@ -144,13 +131,13 @@ The evaluation criteria for papers submitted to the SBES 40 Years Special Track 
    * **Presentation:** The extent to which the organization and writing quality of the paper meet expected standards: the paper is well structured, uses clear and correct academic language, avoids ambiguity, includes clearly readable figures and tables, and is properly formatted.
 
 
-##### Best Paper Award
+#### Best Paper Award
 
 The SBES Steering Committee will appoint a committee to select the best papers from the symposium tracks, which will be announced during the event.
 
 The Program Committee Chairs reserve the right to nominate for the award only those papers deemed suitable, including the possibility that no paper from this track will be nominated.
 
-##### Organization
+#### Organization
 
 **Program Committee Chairs — SBES 40 Years Special Track**
 

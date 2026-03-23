@@ -87,6 +87,8 @@ It is allowed to -- without mention in the paper:
 
 #### Paper Preparation and Submission
 
+Authors must submit original work that has not been published elsewhere nor is under review. Papers for the SBES 2026 Research Track may be written in Portuguese or English, with English papers offering greater international visibility.
+
 Papers must be submitted in Adobe Portable Document Format (PDF) and must strictly follow the [conference template](https://www.overleaf.com/read/cyhpwwkngcwk)[^1]. It is important to note that, although this template is an adaptation of the format adopted by ACM for conferences, the original template (`ACM_SigConf`) must **not** be used. This same adapted template will be used across all symposia and workshops that are part of CBSoft 2026.
 
 [^1]: The template is also available for download: [link](/2026/Template_para_eventos_do_CBSoft.zip)
@@ -104,6 +106,13 @@ For all SBES 2026 tracks, the following command containing the event information
 ```
 
 Authors are advised to carefully follow the checklist provided at the end of the file `samples/cbsoft-acm-like.tex` to ensure that their papers comply with the template and the given instructions.
+
+Papers must have a maximum of 10 pages, including all figures, tables, and acknowledgments, and 2 additional pages for bibliographic references. Papers must be registered and submitted through the [JEMS3 system](https://jems3.sbc.org.br/events/456).
+
+* Abstract submission: Authors must provide the paper title, authors, abstract, associated topic(s), and the language.
+* Full paper submission: Authors must upload a PDF file containing the paper.
+
+Publication of accepted papers requires at least one author to register for CBSoft 2026 (according to the event’s registration rules), and present the paper in person during SBES 2026. Papers not presented will not appear in the proceedings.
 
 #### Publication Ethics and Code of Conduct
 
