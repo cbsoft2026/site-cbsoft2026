@@ -91,31 +91,20 @@ O documento "[SBES 2026- Políticas de Ciência Aberta](https://drive.google.com
 
 Os artigos podem ser escritos em português ou inglês. Submissões em inglês são fortemente encorajadas. Os trabalhos submetidos não devem ter sido submetidos simultaneamente a qualquer outro fórum (conferência ou periódico), nem devem ter sido publicados em outro veículo. Pelo menos um autor de cada trabalho aceito deve se inscrever no CBSoft 2026 e apresentar o artigo durante o simpósio; caso contrário, o trabalho não será incluído nos anais.
 
-Os artigos devem ser submetidos no formato Adobe Portable Document Format (PDF) e seguir estritamente o formato ACM_SigConf de 2 colunas disponível em: [https://www.acm.org/publications/proceedings-template](https://www.acm.org/publications/proceedings-template). Usuários de LaTeX devem utilizar a classe `acmart.cls` fornecida no modelo, com o formato de conferência habilitado no preâmbulo do documento:
+Os artigos devem ser submetidos no formato Adobe Portable Document Format (PDF) e seguir estritamente o [modelo da conferência](https://www.overleaf.com/read/cyhpwwkngcwk)[^1]. É importante salientar que, embora esse modelo seja uma adaptação do formato adotado pela ACM para conferências, o modelo original (`ACM_SigConf`) **não** deve ser utilizado. Esse mesmo modelo adaptado será utilizado em todos os simpósios e workshops integrantes do CBSoft 2026.
+
+[^1]: O modelo também está disponível para download: [link](/2026/Template_para_eventos_do_CBSoft.zip)
+
+Para garantir a dupla anonimização no processo de submissão inicial e de revisão, os autores deverão adicionar a opção `anonymous` no preâmbulo do documento:
 
 ```latex
 \documentclass[sigconf,anonymous]{acmart}
 ```
 
-Além disso, será necessário remover algumas seções do template padrão da ACM. Para tal, utilize os comandos a seguir:
+Para todas as Trilhas do SBES 2026, deverá ainda ser utilizado o seguinte comando contendo as informações do evento:
 
 ```latex
-\setcopyright{none}
-\settopmatter{printccs=false}
-\settopmatter{printacmref=false}
-\renewcommand\footnotetextcopyrightpermission[1]{} 
-```
-
-O estilo de bibliografia fornecido no modelo `ACM-Reference-Format.bst` deve ser utilizado:
-
-```latex
-\bibliographystyle{ACM-Reference-Format}
-```
-
-Após a seção de Conclusão, deve-se incluir uma seção não numerada denominada "Disponibilidade de Artefatos":
-
-```latex
-\section*{Disponibilidade de Artefatos}
+\acmConference[SBES 2026]{40th Brazilian Symposium on Software Engineering}{September 8--12, 2026}{São Paulo, SP, Brazil}
 ```
 
 Os artigos devem ter no máximo **6 (seis) páginas**, incluindo figuras (em boa qualidade), tabelas, apêndices e agradecimentos, e **até 1 (uma) página adicional para referências**. Os artigos podem ser escritos em português ou inglês. Artigos em português também devem incluir um resumo em inglês. Os artigos devem ser submetidos eletronicamente por meio do [JEMS 3](https://jems3.sbc.org.br/sbes-iier2026) em Adobe Portable Document Format (PDF). 

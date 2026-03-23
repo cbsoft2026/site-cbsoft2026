@@ -92,30 +92,20 @@ The document "[SBES 2025 - Open Science Policies](https://drive.google.com/file/
 
 Papers can be written in Portuguese or English. English Submissions are strongly encouraged. Submitted papers must not have been simultaneously submitted to any other forum (conference or journal) nor should already have been published elsewhere. At least one author of each accepted paper must register at CBSoft 2026 and present in-person the paper during the symposium; otherwise, the paper will not be included in the proceedings.
 
-Papers must be submitted in Adobe Portable Document Format (PDF) format and strictly follow the 2-column ACM_SigConf format, available at: [https://www.acm.org/publications/proceedings-template](https://www.acm.org/publications/proceedings-template). LaTeX users must use the `acmart.cls` class provided in the template with the conference format enabled at the document preamble:
+Papers must be submitted in Adobe Portable Document Format (PDF) and must strictly follow the [conference template](https://www.overleaf.com/read/cyhpwwkngcwk)[^1]. It is important to note that, although this template is an adaptation of the format adopted by ACM for conferences, the original template (`ACM_SigConf`) must **not** be used. This same adapted template will be used across all symposia and workshops that are part of CBSoft 2026.
+
+[^1]: The template is also available for download: [link](/2026/Template_para_eventos_do_CBSoft.zip)
+
+To ensure double anonymization during the initial submission and review process, authors must include the `anonymous` option in the document preamble:
 
 ```latex
 \documentclass[sigconf,anonymous]{acmart}
 ```
 
-Additionally, some sections must be removed from the standard ACM template using:
+For all SBES 2026 tracks, the following command containing the event information must also be used:
 
 ```latex
-\setcopyright{none}
-\settopmatter{printccs=false}
-\settopmatter{printacmref=false}
-\renewcommand\footnotetextcopyrightpermission[1]{} 
-```
-
-Authors must use the `ACM-Reference-Format.bst` bibliography style also provided in the template:
-
-```latex
-\bibliographystyle{ACM-Reference-Format}
-```
-After the Conclusion section, authors must include an unnumbered section titled "Artifacts Availability":
-
-```latex
-\section*{Artifacts Availability}
+\acmConference[SBES 2026]{40th Brazilian Symposium on Software Engineering}{September 8--12, 2026}{São Paulo, SP, Brazil}
 ```
 
 Submissions must be no up to 6 pages, including all figures, and might use an additional page for references. Papers must be electronically submitted through the jems3.sbc.org.br/sbes2025-iier'>JEMS 3 system. Each paper will be reviewed by at least three PC members. Paper must be submitted electronically through [JEMS 3](https://jems3.sbc.org.br/sbes-iier2026) in Adobe Portable Document Format (PDF).
