@@ -84,7 +84,9 @@ If the paper is part of a larger project, the content of the paper should clearl
 
 #### Submissions
 
-The paper must contain a maximum of 10 and a minimum of 6 pages, in PDF format and follow the SBC article style. The submission of papers will be exclusively electronic, through the JEMS submission system of the SBC.
+The paper must contain a maximum of 6 and a minimum of 3 pages, in PDF format and follow the [conference template](https://www.overleaf.com/read/cyhpwwkngcwk)[^1]. The submission of papers will be exclusively electronic, through the [JEMS](https://jems3.sbc.org.br/sbes-ctic-es) submission system of the SBC.
+
+[^1]: The template is also available for download: [link](/2026/Template_para_eventos_do_CBSoft.zip)
 
 The names of the authors must be included in the submitted paper. The student must appear as the first author. Software, tools, and data collection must be presented in the paper through links to the repositories. Authors are encouraged to make available packages with open data (replication package) to facilitate the reproducibility of the work.
 
@@ -100,7 +102,7 @@ For papers developed by higher education students, it must be stated if they are
 The paper will be published in the extended proceedings of the SBES 2026 in the SBC OpenLib following these rules:
 
 * If the paper is original, the full paper will be published.
-* If the paper is not original, meaning it has already been published in another publication (including in SBES), the version to be published in the extended proceedings of the event will be a 2-page summary in the SBC article publication format, prepared by the authors. The paper must include a summary in Portuguese and an abstract in English. In case of acceptance, this 2-page summary will be submitted as the final version.
+* If the paper is not original, meaning it has already been published in another publication (including in SBES), the version to be published in the extended proceedings of the event will be a 2-page summary in the [CBSoft 2026 template]((https://www.overleaf.com/read/cyhpwwkngcwk)), prepared by the authors. The paper must include a summary in Portuguese and an abstract in English. In case of acceptance, this 2-page summary will be submitted as the final version.
 
 #### Selection and Awards
 

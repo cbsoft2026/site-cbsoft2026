@@ -80,7 +80,9 @@ No caso do trabalho ser integrante de um projeto mais amplo, o conteúdo do trab
 
 #### Submissão de Trabalhos
 
-O trabalho deverá conter no máximo 10 páginas, e no mínimo 6 páginas, sendo aceitos somente artigos em formato PDF utilizando o [estilo dos artigos da SBC](https://www.overleaf.com/latex/templates/sbc-conferences-template/blbxwjwzdngr). A submissão dos trabalhos será exclusivamente eletrônica, através do sistema [JEMS](https://jems3.sbc.org.br/sbes-ctic-es) de submissões de artigos da SBC.
+O trabalho deverá conter no máximo 6 páginas, e no mínimo 3 páginas, sendo aceitos somente artigos em formato PDF utilizando o [modelo da conferência](https://www.overleaf.com/read/cyhpwwkngcwk)[^1]. A submissão dos trabalhos será exclusivamente eletrônica, através do sistema [JEMS](https://jems3.sbc.org.br/sbes-ctic-es) de submissões de artigos da SBC.
+
+[^1]: O modelo também está disponível para download: [link](/2026/Template_para_eventos_do_CBSoft.zip)
 
 Os nomes dos autores devem ser incluídos no artigo submetido. O(a) aluno(a) deve figurar como o(a) primeiro(a) autor(a). Software, ferramentas, e coleta de dados devem ser apresentados no artigo através de *links* para os repositórios. Os autores são encorajados a disponibilizar pacotes com dados abertos (*replication package*) que facilitem a reprodutibilidade do trabalho.
 
@@ -91,12 +93,12 @@ Para os trabalhos desenvolvidos para alunos(as) do ensino superior, devem inform
 * Se for uma iniciação científica, os autores devem informar o link para o simpósio interno da IES da qual o artigo foi publicado/apresentado.
 * Se for um trabalho de conclusão de curso (TCC), os autores devem informar o link para o repositório da IES (normalmente a página da biblioteca) 
 * Se for um trabalho que já foi publicado (simpósio da IES ou o repositório com o TCC não contam) os autores devem informar o link com a publicação original.
-* Recomenda-se que essa informação seja colocada em uma seção após a conclusão como "Trabalho Anterior / Previous Work".  
+* Recomenda-se que essa informação seja colocada em uma seção após a conclusão como "Trabalho Anterior / *Previous Work*".  
 
 A publicação do artigo nos anais estendidos do SBES 2026 na SBC OpenLib (SOL) obedecerá às seguintes regras:
 
 * Se o artigo for original, será publicado o artigo completo;
-* Se o artigo não for original, ou seja, já tiver sido publicado em outro veículo (inclusive no SBES), a versão a ser publicada nos anais estendidos do evento será um resumo de 2 páginas no Modelo para Publicação de Artigos da SBC preparado pelas pessoas autoras. O artigo deve incluir um resumo em Português e um em Inglês (abstract). Em caso de aceite, esse resumo será enviado como versão final.
+* Se o artigo não for original, ou seja, já tiver sido publicado em outro veículo (inclusive no SBES), a versão a ser publicada nos anais estendidos do evento será um resumo de 2 páginas no [Modelo para Publicação de Artigos definidos para o CBSoft](https://www.overleaf.com/read/cyhpwwkngcwk) preparado pelas pessoas autoras. O artigo deve incluir um resumo em Português e um em Inglês (*abstract*). Em caso de aceite, esse resumo será enviado como versão final.
 
 #### Seleção e Premiação
 

@@ -15,13 +15,16 @@ High school students, especially from public schools.
 The event will be structured around interactive and inspiring activities, including:
 
 * Introductory Lectures
- Presenting the field of Software Engineering, covering basic concepts, career opportunities, and an overview of the job market.
+
+    Presenting the field of Software Engineering, covering basic concepts, career opportunities, and an overview of the job market.
 
 * Participation of Industry Professionals
- Guests will share their career paths, experiences, and challenges to connect with students and enhance their sense of belonging and representation in the field.
+
+    Guests will share their career paths, experiences, and challenges to connect with students and enhance their sense of belonging and representation in the field.
 
 * Panel with Public School Alumni
- A space for dialogue with students and professionals who came from public schools, discussing their academic and professional journeys in Software Engineering, highlighting paths, challenges, and strategies for success.
+
+    A space for dialogue with students and professionals who came from public schools, discussing their academic and professional journeys in Software Engineering, highlighting paths, challenges, and strategies for success.
 
 #### Differentiators
 

@@ -15,12 +15,15 @@ Estudantes do ensino médio, especialmente da rede pública.
 O evento será estruturado em atividades interativas e inspiradoras, incluindo:
 
 * Palestras introdutórias
+
     Apresentação da área de Engenharia de Software, abordando conceitos básicos, possibilidades de atuação e panorama do mercado de trabalho.
 
 * Participação de profissionais do mercado
+
     Convidados compartilharão suas trajetórias, experiências e desafios, com o objetivo de criar conexão com os estudantes e ampliar a percepção de pertencimento e de representatividade na área.
 
 * Painel com egressos do ensino público
+
     Espaço de diálogo com estudantes e profissionais que vieram da escola pública, para discutir suas jornadas acadêmicas e profissionais em Engenharia de Software, destacando caminhos, dificuldades e estratégias de superação.
 
 #### Diferenciais
