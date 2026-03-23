@@ -36,10 +36,8 @@ Papers must be submitted in Adobe Portable Document Format (PDF) and must strict
 
 [^1]: The template is also available for download: [link](/2026/Template_para_eventos_do_CBSoft.zip)
 
-To ensure double anonymization during the initial submission and review process, authors must include the `anonymous` option in the document preamble:
-
 ```latex
-\documentclass[sigconf,anonymous]{acmart}
+\documentclass[sigconf]{acmart}
 ```
 
 For all SBES 2026 tracks, the following command containing the event information must also be used:

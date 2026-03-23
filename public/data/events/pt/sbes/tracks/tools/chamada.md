@@ -36,10 +36,8 @@ Os artigos devem ser submetidos no formato Adobe Portable Document Format (PDF) 
 
 [^1]: O modelo também está disponível para download: [link](/2026/Template_para_eventos_do_CBSoft.zip)
 
-Para garantir a dupla anonimização no processo de submissão inicial e de revisão, os autores deverão adicionar a opção `anonymous` no preâmbulo do documento:
-
 ```latex
-\documentclass[sigconf,anonymous]{acmart}
+\documentclass[sigconf]{acmart}
 ```
 
 Para todas as Trilhas do SBES 2026, deverá ainda ser utilizado o seguinte comando contendo as informações do evento:
