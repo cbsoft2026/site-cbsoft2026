@@ -24,11 +24,9 @@ Os candidatos deverão submeter os trabalhos eletronicamente pelo [sistema JEMS3
 Os seguintes documentos deverão ser submetidos, em conjunto:
 
 * Texto integral da tese ou dissertação, no formato PDF
-* Artigo-resumo do trabalho, que pode ser original ou já ter sido publicado ou aceito para publicação. Caso o artigo seja original, este deve ter tamanho de até 15 páginas, incluindo todas as figuras e referências. O artigo deve estar no formato PDF e em conformidade com o [modelo da conferência](https://www.overleaf.com/read/cyhpwwkngcwk)[^1]. Os artigos devem ter resumos em português e em inglês. Caso o artigo já tenha sido publicado ou aceito para publicação, deve ser enviado o artigo original em PDF.
+* Artigo-resumo do trabalho, que pode ser original ou já ter sido publicado ou aceito para publicação. Caso o artigo seja original, este deve ter tamanho de até 15 páginas, incluindo todas as figuras e referências. O artigo deve estar no formato PDF e em conformidade com o Modelo para Publicação de Artigos da SBC disponível neste [link](http://www.sbc.org.br/documentos-da-sbc/category/169-templates-para-artigos-e-capitulos-de-livros). Os artigos devem ter resumos em português e em inglês. Caso o artigo já tenha sido publicado ou aceito para publicação, deve ser enviado o artigo original em PDF.
 * Uma carta do(a) orientador(a) principal.
 * Uma carta do(a) candidato(a).
-
-[^1]: O modelo também está disponível para download: [link](/2026/Template_para_eventos_do_CBSoft.zip)
 
 O conteúdo da carta do(a) orientador(a) principal deve:
 
@@ -44,7 +42,7 @@ O conteúdo da carta do candidato deve:
 A publicação do artigo nos anais estendidos do SBES 2026 na SBC OpenLib (SOL) obedecerá às seguintes regras:
 
 * Se o artigo for original, será publicado em sua totalidade.
-* Se o artigo não for original, ou seja, já tiver sido publicado em outro veículo (inclusive no SBES), a versão a ser publicada nos anais estendidos do evento será um resumo de 2 páginas, no modelo da conferência, preparado pelos autores, indicando a referência completa do evento da outra publicação. O resumo deve incluir um resumo em português e outro em inglês.
+* Se o artigo não for original, ou seja, já tiver sido publicado em outro veículo (inclusive no SBES), a versão a ser publicada nos anais estendidos do evento será um resumo de 2 páginas, no Modelo para Publicação de Artigos da SBC, preparado pelos autores, indicando a referência completa do evento da outra publicação. O resumo deve incluir um resumo em português e outro em inglês.
 
 #### Seleção
 
