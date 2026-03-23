@@ -4,11 +4,12 @@
   display: flex;
   justify-content: space-between;
   gap: 32px;
-  .call__content {
-    width: 75%;
-  }
   .call__sidebar {
-    width: 25%;
+    min-width: 25%;
+
+    &:empty {
+      display: none;
+    }
 
     .sidebar__list {
       border: 1px solid #eeb6a4;
@@ -36,11 +37,8 @@
     }
   }
   @media (max-width: 1200px) {
-    .call__content {
-      width: 66%;
-    }
     .call__sidebar {
-      width: 33%;
+      min-width: 33%;
     }
   }
 }
