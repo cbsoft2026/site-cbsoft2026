@@ -44,7 +44,7 @@ O conteúdo da carta do candidato deve:
 A publicação do artigo nos anais estendidos do SBES 2026 na SBC OpenLib (SOL) obedecerá às seguintes regras:
 
 * Se o artigo for original, será publicado em sua totalidade.
-* Se o artigo não for original, ou seja, já tiver sido publicado em outro veículo (inclusive no SBES), a versão a ser publicada nos anais estendidos do evento será um resumo de 2 páginas, no Modelo para Publicação de Artigos da SBC, preparado pelos autores, indicando a referência completa do evento da outra publicação. O resumo deve incluir um resumo em português e outro em inglês.
+* Se o artigo não for original, ou seja, já tiver sido publicado em outro veículo (inclusive no SBES), a versão a ser publicada nos anais estendidos do evento será um resumo de 2 páginas, no modelo da conferência, preparado pelos autores, indicando a referência completa do evento da outra publicação. O resumo deve incluir um resumo em português e outro em inglês.
 
 #### Seleção
 

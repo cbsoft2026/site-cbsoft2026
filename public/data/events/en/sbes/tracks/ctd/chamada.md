@@ -56,7 +56,7 @@ The candidate's letter must:
 The publication of the article in the **SBES 2026 Extended Proceedings** (SBC OpenLib - SOL) will follow these rules:
 
 * **Original Articles:** Will be published in full.
-* **Previously Published Articles:** If the article has already been published in another venue (including previous editions of SBES), the version to be published in the extended proceedings will be a **2-page abstract**. This abstract must use the SBC Article Template, be prepared by the authors, and include the full reference to the original publication. It must include an abstract in both Portuguese and English.
+* **Previously Published Articles:** If the article has already been published in another venue (including previous editions of SBES), the version to be published in the extended proceedings will be a **2-page abstract**. This abstract must use the conference template, be prepared by the authors, and include the full reference to the original publication. It must include an abstract in both Portuguese and English.
 
 #### Selection Process
 
