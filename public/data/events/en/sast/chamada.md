@@ -48,17 +48,23 @@ SAST accepts two types of submissions:
 1. **Regular Papers** (no fewer than 6 pages and no more than 10 pages, including all figures, references, and appendices); and
 1. **Industry Abstracts** (not exceeding 3 pages for the entire content of the paper).
 
-All submissions must present original contributions to the software testing research area. Submissions must comply with the ACM two-column conference format (ACM_SigConf) available at [ACM link]. LaTeX users must use the `acmart.cls` class provided in the template with the conference format enabled in the document preamble:
+Papers must be submitted in Adobe Portable Document Format (PDF) and must strictly follow the [conference template](https://www.overleaf.com/read/cyhpwwkngcwk)[^1]. It is important to note that, although this template is an adaptation of the format adopted by ACM for conferences, the original template (`ACM_SigConf`) must **not** be used. This same adapted template will be used across all symposia and workshops that are part of CBSoft 2026.
+
+[^1]: The template is also available for download: [link](/2026/Template_para_eventos_do_CBSoft.zip)
+
+To ensure double anonymization during the initial submission and review process, authors must include the `anonymous` option in the document preamble:
 
 ```latex
-\documentclass[sigconf]{acmart}
+\documentclass[sigconf,anonymous]{acmart}
 ```
 
-Authors must use the `ACM-Reference-Format.bst` bibliography style also provided in the template:
+The following command containing the event information must also be used:
 
 ```latex
-\bibliographystyle{ACM-Reference-Format}
+\acmConference[SAST 2026]{11st Brazilian Symposium on Systematic and Automated Software Testing}{September 8--12, 2026}{São Paulo, SP, Brazil}
 ```
+
+Authors are advised to carefully follow the checklist provided at the end of the file `samples/cbsoft-acm-like.tex` to ensure that their papers comply with the template and the given instructions.
 
 Regular papers and industry abstracts may be written in **Portuguese** or **English**. Submissions must be made in Adobe Portable Document Format (PDF) using the SBC JEMS system (https://jems3.sbc.org.br/sast2026).
 

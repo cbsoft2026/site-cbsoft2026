@@ -48,25 +48,31 @@ O SAST aceita dois tipos de submissões:
 * Artigos Regulares (não menos que 6 páginas e não mais que 10 páginas, incluindo todas as figuras, referências e apêndices); e
 * Resumos da Indústria (não podendo exceder 3 páginas para todo o conteúdo do artigo).
 
-Todas as submissões devem apresentar contribuições originais para a área de pesquisa em teste de software. As submissões devem estar em conformidade com o formato em duas colunas para conferências da ACM (ACM_SigConf) disponível neste [link](https://www.acm.org/publications/proceedings-template). Usuários do LaTeX devem usar a classe `acmart.cls` fornecido no modelo com o formato de conferência habilitado no preâmbulo do documento:
+Os artigos devem ser submetidos no formato Adobe Portable Document Format (PDF) e seguir estritamente o [modelo da conferência](https://www.overleaf.com/read/cyhpwwkngcwk)[^1]. É importante salientar que, embora esse modelo seja uma adaptação do formato adotado pela ACM para conferências, o modelo original (`ACM_SigConf`) **não** deve ser utilizado. Esse mesmo modelo adaptado será utilizado em todos os simpósios e workshops integrantes do CBSoft 2026.
+
+[^1]: O modelo também está disponível para download: [link](/2026/Template_para_eventos_do_CBSoft.zip)
+
+Para garantir a dupla anonimização no processo de submissão inicial e de revisão, os autores deverão adicionar a opção `anonymous` no preâmbulo do documento:
 
 ```latex
-\documentclass[sigconf]{acmart}
+\documentclass[sigconf,anonymous]{acmart}
 ```
 
-Os autores devem usar o estilo de bibliografia `ACM-Reference-Format.bst` bibliography também fornecido no modelo:
+Deverá ainda ser utilizado o seguinte comando contendo as informações do evento:
 
 ```latex
-\bibliographystyle{ACM-Reference-Format}
+\acmConference[SAST 2026]{11st Brazilian Symposium on Systematic and Automated Software Testing}{September 8--12, 2026}{São Paulo, SP, Brazil}
 ```
 
-Artigos regulares e resumos da indústria podem ser escritos em português ou inglês. As submissões devem ser realizadas em Adobe Portable Document Format (PDF) utilizando o sistema JEMS da SBC (https://jems3.sbc.org.br/sast2026).
+Orienta-se que todos os autores atentem ao checklist disponibilizado no final do arquivo `samples/cbsoft-acm-like.tex` para se certificarem de que seus artigos estejam em conformidade com o modelo e as instruções fornecidas.
 
-Os artigos regulares seguirão um processo de revisão anônimo (double-anonymous review). As submissões iniciais dos artigos não devem possuir nenhum tipo de identificação dos autores. Todas as informações sobre os autores e suas instituições devem ser removidas do artigo, incluindo referências aos próprios autores e eventuais links que remetam aos autores ou suas instituições. Em relação às referências, se necessário, sugerimos escrever "[Anonymous 2025]" no texto e "[Anonymous 2025] Information omitted for double-anonymous review" na lista de referências. Em relação aos links, sugerimos substituir possíveis identificações nos mesmos por "Link omitted for double-anonymous review". Solicitamos a rígida observância dos autores para estas questões relativas ao double-anonymous review. Após a aceitação do artigo, todas as informações ocultadas devem ser incluídas na versão final do mesmo.
+Artigos regulares e resumos da indústria podem ser escritos em **português** ou **inglês**. As submissões devem ser realizadas em Adobe Portable Document Format (PDF) utilizando o sistema JEMS da SBC (https://jems3.sbc.org.br/sast2026).
+
+Os **artigos regulares** seguirão um processo de **revisão anônimo** (double-anonymous review). As submissões iniciais dos artigos não devem possuir nenhum tipo de identificação dos autores. Todas as informações sobre os autores e suas instituições devem ser removidas do artigo, incluindo referências aos próprios autores e eventuais links que remetam aos autores ou suas instituições. Em relação às referências, se necessário, sugerimos escrever "[Anonymous 2025]" no texto e "[Anonymous 2025] Information omitted for double-anonymous review" na lista de referências. Em relação aos links, sugerimos substituir possíveis identificações nos mesmos por "Link omitted for double-anonymous review". Solicitamos a rígida observância dos autores para estas questões relativas ao double-anonymous review. Após a aceitação do artigo, todas as informações ocultadas devem ser incluídas na versão final do mesmo.
 
 Os artigos regulares serão avaliados de acordo com sua adequação ao escopo do SAST, relevância, solidez técnica e originalidade. Artigos regulares devem indicar sua relação com trabalhos anteriores, principalmente trabalhos publicados anteriormente pelos próprios autores. Artigos sobre estudos empíricos devem descrever os métodos utilizados e interpretar qualitativa e quantitativamente seus resultados. Pelo menos três membros do Comitê de Programa revisarão todas as submissões.
 
-Todos os resumos da indústria passarão por um processo de revisão anônima por pares: faremos um esforço para incluir pelo menos um especialista da indústria entre os revisores. Preferencialmente o autor que apresentará o artigo não terá afiliações acadêmicas. Incentivamos contribuições com foco em inovação industrial ou lições aprendidas que possam inspirar trabalhos acadêmicos futuros. Também aceitamos submissões que ainda estejam em estado inicial de desenvolvimento e que possam levar a novas perspectivas e novas ideias. O objetivo desta trilha é promover a troca de conhecimento e experiência entre acadêmicos e profissionais.
+Todos os **resumos da indústria** passarão por um processo de **revisão anônima por pares**: faremos um esforço para incluir pelo menos um especialista da indústria entre os revisores. Preferencialmente o autor que apresentará o artigo não terá afiliações acadêmicas. Incentivamos contribuições com foco em inovação industrial ou lições aprendidas que possam inspirar trabalhos acadêmicos futuros. Também aceitamos submissões que ainda estejam em estado inicial de desenvolvimento e que possam levar a novas perspectivas e novas ideias. O objetivo desta trilha é promover a troca de conhecimento e experiência entre acadêmicos e profissionais.
 
 A publicação dos artigos aceitos no simpósio está vinculada à apresentação do artigo no SAST 2026 e à inscrição de pelo menos um de seus autores no CBSoft 2026.
 

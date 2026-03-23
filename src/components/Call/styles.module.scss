@@ -4,6 +4,9 @@
   display: flex;
   justify-content: space-between;
   gap: 32px;
+  .call__content {
+    min-width: 66%;
+  }
   .call__sidebar {
     min-width: 25%;
 

@@ -67,7 +67,7 @@ We encourage authors to make their artifacts open and accessible, although it is
 
 #### On the use of AI (Artificial Intelligence) or AI-assisted technologies in Research Papers
 
-By submitting papers to SBES 2026, authors acknowledge compliance with the generative AI usage policy, based on existing policies proposed by IEEE, ACM, and Springer.
+By submitting papers to SBCARS 2026, authors acknowledge compliance with the generative AI usage policy, based on existing policies proposed by IEEE, ACM, and Springer.
 
 It is prohibited to:
 
