@@ -31,33 +31,24 @@ Each submission consists of a paper and a demo video about the tool. Submissions
     * Description of the tool architecture, core components, and their interfaces;
     * A brief comparison with existing related tools; and
     * The type of software license.
-* Papers must be formatted according to the ACM 2-column conference (ACM_SigConf) format available at this link [https://www.acm.org/publications/proceedings-template](https://www.acm.org/publications/proceedings-template). LaTeX users must use the `acmart.cls` class provided in the template with the conference format enabled in the document preamble:
+
+Papers must be submitted in Adobe Portable Document Format (PDF) and must strictly follow the [conference template](https://www.overleaf.com/read/cyhpwwkngcwk)[^1]. It is important to note that, although this template is an adaptation of the format adopted by ACM for conferences, the original template (`ACM_SigConf`) must **not** be used. This same adapted template will be used across all symposia and workshops that are part of CBSoft 2026.
+
+[^1]: The template is also available for download: [link](/2026/Template_para_eventos_do_CBSoft.zip)
+
+To ensure double anonymization during the initial submission and review process, authors must include the `anonymous` option in the document preamble:
 
 ```latex
-\documentclass[sigconf]{acmart}
+\documentclass[sigconf,anonymous]{acmart}
 ```
 
-
-Additionally, some sections must be removed from the standard ACM template using:
+For all SBES 2026 tracks, the following command containing the event information must also be used:
 
 ```latex
-\setcopyright{none}
-\settopmatter{printccs=false}
-\settopmatter{printacmref=false}
-\renewcommand\footnotetextcopyrightpermission[1]{}
+\acmConference[SBES 2026]{40th Brazilian Symposium on Software Engineering}{September 8--12, 2026}{São Paulo, SP, Brazil}
 ```
 
-Authors must use the `ACM-Reference-Format.bst` bibliography style also provided in the template:
-
-```latex
-\bibliographystyle{ACM-Reference-Format}
-```
-
-Below the Conclusion section, authors must include an unnumbered section named "Artefact Availability":
-
-```latex
-\section*{Artefact Availability}
-```
+Authors are advised to carefully follow the checklist provided at the end of the file `samples/cbsoft-acm-like.tex` to ensure that their papers comply with the template and the given instructions.
 
 * Papers must be no longer than 6 (six) pages, including all figures (in good quality), tables, appendices, and acknowledgments, plus up to 1 (one) additional page for references. Papers can be written in Portuguese or English. Papers in Portuguese must also include an abstract in English. Papers must be submitted in Adobe Portable Document Format (PDF).
 * A link to a high-resolution demo video with audio describing the steps (details of the tool's functionality should be clearly visible) MUST be appended at the end of the paper abstract. The video must be from three to five minutes long. It should demonstrate tool usage and highlight its main contributions. The video should also provide an overview of the tool, its goals and envisioned users, main features, and outputs.

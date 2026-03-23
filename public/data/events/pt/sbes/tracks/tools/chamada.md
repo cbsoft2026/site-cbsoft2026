@@ -31,32 +31,24 @@ Cada submissão consiste em um artigo acompanhado por um vídeo de demonstraçã
     * Descrição da arquitetura da ferramenta, seus componentes principais e suas interfaces;
     * Uma breve comparação com ferramentas relacionadas existentes; e
     * Tipo de licença de software.
-Os artigos devem ser formatados de acordo com o formato de 2 colunas para artigos de conferência da ACM (ACM_SigConf), disponível em [https://www.acm.org/publications/proceedings-template](https://www.acm.org/publications/proceedings-template). Usuários de LaTeX devem utilizar a classe `acmart.cls` fornecida no modelo, com o formato de conferência habilitado no preâmbulo do documento:
+
+Os artigos devem ser submetidos no formato Adobe Portable Document Format (PDF) e seguir estritamente o [modelo da conferência](https://www.overleaf.com/read/cyhpwwkngcwk)[^1]. É importante salientar que, embora esse modelo seja uma adaptação do formato adotado pela ACM para conferências, o modelo original (`ACM_SigConf`) **não** deve ser utilizado. Esse mesmo modelo adaptado será utilizado em todos os simpósios e workshops integrantes do CBSoft 2026.
+
+[^1]: O modelo também está disponível para download: [link](/2026/Template_para_eventos_do_CBSoft.zip)
+
+Para garantir a dupla anonimização no processo de submissão inicial e de revisão, os autores deverão adicionar a opção `anonymous` no preâmbulo do documento:
 
 ```latex
-\documentclass[sigconf]{acmart}
+\documentclass[sigconf,anonymous]{acmart}
 ```
 
-Além disso, será necessário remover algumas seções do template padrão da ACM. Para tal, utilize os comandos a seguir:
+Para todas as Trilhas do SBES 2026, deverá ainda ser utilizado o seguinte comando contendo as informações do evento:
 
 ```latex
-\setcopyright{none}
-\settopmatter{printccs=false}
-\settopmatter{printacmref=false}
-\renewcommand\footnotetextcopyrightpermission[1]{}
+\acmConference[SBES 2026]{40th Brazilian Symposium on Software Engineering}{September 8--12, 2026}{São Paulo, SP, Brazil}
 ```
 
-Os(as) autores(as) devem utilizar o estilo bibliográfico `ACM-Reference-Format.bst` disponível no template:
-
-```latex
-\bibliographystyle{ACM-Reference-Format}
-```
-
-Logo após a seção de Conclusão, deve ser incluída uma seção não-numerada intitulada "Disponibilidade dos Artefatos":
-
-```latex
-\section*{Disponibilidade dos Artefatos}
-```
+Orienta-se que todos os autores atentem ao checklist disponibilizado no final do arquivo `samples/cbsoft-acm-like.tex` para se certificarem de que seus artigos estejam em conformidade com o modelo e as instruções fornecidas.
 
 * Os artigos devem ter no máximo 6 (seis) páginas, incluindo figuras (em boa qualidade), tabelas, apêndices e agradecimentos, e até 1 (uma) página adicional para referências. Os artigos podem ser escritos em português ou inglês. Artigos em português também devem incluir um resumo em inglês. Os artigos devem ser submetidos em Adobe Portable Document Format (PDF).
 * Um link para um vídeo de demonstração com alta resolução com áudio descrevendo os passos (os detalhes da funcionalidade da ferramenta devem estar claramente visíveis) DEVE constar no final do resumo do artigo. O vídeo de demonstração deve ter duração de três a cinco minutos e deve mostrar o uso da ferramenta, destacando suas principais contribuições. O vídeo deve também fornecer uma visão geral da ferramenta, seus objetivos e usuários em potencial, além das principais características e resultados.
