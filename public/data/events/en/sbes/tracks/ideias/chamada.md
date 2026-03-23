@@ -108,6 +108,8 @@ For all SBES 2026 tracks, the following command containing the event information
 \acmConference[SBES 2026]{40th Brazilian Symposium on Software Engineering}{September 8--12, 2026}{São Paulo, SP, Brazil}
 ```
 
+Authors are advised to carefully follow the checklist provided at the end of the file `samples/cbsoft-acm-like.tex` to ensure that their papers comply with the template and the given instructions.
+
 Submissions must be no up to 6 pages, including all figures, and might use an additional page for references. Papers must be electronically submitted through the jems3.sbc.org.br/sbes2025-iier'>JEMS 3 system. Each paper will be reviewed by at least three PC members. Paper must be submitted electronically through [JEMS 3](https://jems3.sbc.org.br/sbes-iier2026) in Adobe Portable Document Format (PDF).
 
 The submission is a two-step process:

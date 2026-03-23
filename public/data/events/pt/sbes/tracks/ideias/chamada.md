@@ -107,6 +107,8 @@ Para todas as Trilhas do SBES 2026, deverá ainda ser utilizado o seguinte coman
 \acmConference[SBES 2026]{40th Brazilian Symposium on Software Engineering}{September 8--12, 2026}{São Paulo, SP, Brazil}
 ```
 
+Orienta-se que todos os autores atentem ao checklist disponibilizado no final do arquivo `samples/cbsoft-acm-like.tex` para se certificarem de que seus artigos estejam em conformidade com o modelo e as instruções fornecidas.
+
 Os artigos devem ter no máximo **6 (seis) páginas**, incluindo figuras (em boa qualidade), tabelas, apêndices e agradecimentos, e **até 1 (uma) página adicional para referências**. Os artigos podem ser escritos em português ou inglês. Artigos em português também devem incluir um resumo em inglês. Os artigos devem ser submetidos eletronicamente por meio do [JEMS 3](https://jems3.sbc.org.br/sbes-iier2026) em Adobe Portable Document Format (PDF). 
 
 O processo de submissão ocorre em duas etapas:
