@@ -29,10 +29,12 @@ During submission, the candidate must choose the track corresponding to their wo
 1. **Full Text:** The complete text of the thesis or dissertation (PDF format).
 1. **Article/Abstract:**
     * This may be an original article or one that has already been published/accepted.
-    * **If original:** Maximum of 15 pages (including figures and references), in PDF format, following the SBC Article Template. It must include abstracts in Portuguese and English.
+    * **If original:** Maximum of 15 pages (including figures and references), in PDF format, following the [conference template](https://www.overleaf.com/read/cyhpwwkngcwk)[^1]. It must include abstracts in Portuguese and English.
     * **If already published/accepted:** Submit the original PDF of the published paper.
 1. **Advisor's Letter:** A letter from the main advisor.
 1. **Candidate's Letter:** A letter from the candidate.
+
+[^1]: The template is also available for download: [link](/2026/Template_para_eventos_do_CBSoft.zip)
 
 #### Content of the Advisor's Letter
 
