@@ -130,9 +130,14 @@ export default function Menu(props: HTMLAttributes<HTMLDivElement>) {
     href: '/workshops',
   };
 
-  const schoolMenuItem: NavbarItemProps = {
+  const latamSchoolMenuItem: NavbarItemProps = {
     title: commonT('latam-school'),
     href: '/latam-school',
+  };
+
+  const highSchoolMenuItem: NavbarItemProps = {
+    title: commonT('high-school'),
+    href: '/high-school',
   };
 
   const artifactsMenuItem: NavbarItemProps = {
@@ -148,7 +153,8 @@ export default function Menu(props: HTMLAttributes<HTMLDivElement>) {
     sastMenuItem,
     workshopsMenuItem,
     artifactsMenuItem,
-    schoolMenuItem,
+    latamSchoolMenuItem,
+    highSchoolMenuItem,
   ];
 
   const div = useRef<HTMLDivElement | null>(null);
@@ -162,6 +168,9 @@ export default function Menu(props: HTMLAttributes<HTMLDivElement>) {
         onClick={collapse}
       >
         <picture>
+          <source srcSet={`${process.env.NEXT_PUBLIC_ASSET_PREFIX}/images/logos/cbsoft-logo-icon.svg`} media="(max-width: 576px)" />
+          <source srcSet={`${process.env.NEXT_PUBLIC_ASSET_PREFIX}/images/logos/cbsoft-logo.svg`} media="(max-width: 994px)" />
+          <source srcSet={`${process.env.NEXT_PUBLIC_ASSET_PREFIX}/images/logos/cbsoft-logo-icon.svg`} media="(max-width: 1200px)" />
           <img src={`${process.env.NEXT_PUBLIC_ASSET_PREFIX}/images/logos/cbsoft-logo.svg`} alt='logo' />
         </picture>
       </LinkLocale>

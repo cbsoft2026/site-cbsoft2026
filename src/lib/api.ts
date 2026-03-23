@@ -14,7 +14,7 @@ import { Event, Events, EventType } from '../types/event';
 
 export const SYMPOSIUMS = ['sbcars', 'sast', 'sblp', 'sbes'];
 export const WORKSHOPS = ['workshops'];
-export const EVENTS_LIST = [...SYMPOSIUMS, ...WORKSHOPS, 'latam-school', 'artifacts'];
+export const EVENTS_LIST = [...SYMPOSIUMS, ...WORKSHOPS, 'latam-school', 'high-school', 'artifacts'];
 
 const BASE_PATH = path.join(process.cwd(), 'public/data/events');
 
