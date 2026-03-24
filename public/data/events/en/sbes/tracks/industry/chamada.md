@@ -37,8 +37,10 @@ Internal Tools: Architectural and usability decisions regarding internal tools, 
 
 #### Extended Abstract
 
-* **Length:** Minimum of 2 pages, maximum of 4 pages.
-* **Template:** Submissions must use the SBC Article Template.
+* **Length:** Maximum of 2 pages.
+* **Template:** Submissions must use the [conference template](https://www.overleaf.com/read/cyhpwwkngcwk)[^1].
+
+[^1]: The template is also available for download: [link](/2026/Template_para_eventos_do_CBSoft.zip)
 
 The extended abstract must include:
 
@@ -63,7 +65,7 @@ As this track is dedicated to work performed in an industrial context by active 
 
 #### Submission System
 
-Submissions must be made exclusively electronically via the **JEMS** system.
+Submissions must be made exclusively electronically via the [JEMS](https://jems3.sbc.org.br/cbsoft-industria2025) system.
 
 * **Language:** Submissions may be written in English or Portuguese.
 
