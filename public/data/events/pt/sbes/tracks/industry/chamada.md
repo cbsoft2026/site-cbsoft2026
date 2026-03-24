@@ -34,7 +34,7 @@ Exemplos de tópicos de interesse incluem - mas não se limitam a:
 
 #### Preparando a Submissão
 
-Resumo Estendido da Apresentação (máximo de 2 páginas)
+Resumo Estendido da Apresentação (2 a 4 páginas)
 
 Os resumos estendidos deverão conter os seguintes elementos, utilizando o [modelo da conferência](https://www.overleaf.com/read/cyhpwwkngcwk)[^1]:
 
