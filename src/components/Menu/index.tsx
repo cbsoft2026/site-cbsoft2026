@@ -195,7 +195,7 @@ export default function Menu(props: HTMLAttributes<HTMLDivElement>) {
             <LinkLocale href={pathname} locale={locale === 'pt' ? 'en' : 'pt'} className={styles.flag}>
               <picture>
                 <img
-                  src={`${process.env.NEXT_PUBLIC_ASSET_PREFIX}/images/icon/${locale === 'pt' ? 'pt' : 'en'}.png`}
+                  src={`${process.env.NEXT_PUBLIC_ASSET_PREFIX}/images/icon/${locale === 'pt' ? 'en' : 'pt'}.png`}
                   width='40'
                   alt=''
                 />
