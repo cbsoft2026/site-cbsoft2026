@@ -88,6 +88,8 @@ Maurício Aniche, Uber
 
 Joseph Yoder, The Refactory
 
+Rafael Manzo, Irya Solutions
+
 ###### Program Committee
 
 Hugo Marques, Netflix

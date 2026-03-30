@@ -153,6 +153,11 @@
         "image": "joeYoder.jpg",
         "name": "Joe Yoder",
         "university": "Refactory"
+      },
+      {
+        "image": "rafaelManzo.jpg",
+        "name": "Rafael Manzo",
+        "university": "Irya Solutions"
       }
     ]
   },
