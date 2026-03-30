@@ -191,7 +191,7 @@ Ivan Machado (UFBA)
 
 Monalessa Barcellos (UFES)
 
-#### Comitê de Programa
+##### Comitê de Programa
 
 Alessandro Garcia - Pontifícia Universidade Católica do Rio de Janeiro (PUC-Rio)
 
