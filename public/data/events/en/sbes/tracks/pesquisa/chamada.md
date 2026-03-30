@@ -194,7 +194,239 @@ Monalessa Barcellos (UFES)
 
 ##### Program Committee
 
-*in formation*
+Alessandro Garcia - Pontifícia Universidade Católica do Rio de Janeiro (PUC-Rio)
+
+Aline Brito - Universidade Federal de Ouro Preto (UFOP)
+
+Aline Miotto Amaral - Universidade Estadual de Maringá (UEM)
+
+Allysson Allex Araújo - Universidade Federal do Cariri (UFCA)
+
+Ana Carolina Oran - Universidade Federal do Amazonas (UFAM)
+
+Ana Patricia Fontes Magalhaes Mascarenhas - Universidade do Estado da Bahia (UNEB)
+
+Anderson José Silva de Oliveira - SERPRO
+
+Anderson Uchôa - Universidade Federal do Ceará (UFC)
+
+Andre Takeshi Endo - Universidade Federal de São Carlos (UFSCAR)
+
+Awdren de Lima Fontão - Universidade Federal do Mato Grosso do Sul (UFMS)
+
+Baldoino Fonseca - Universidade Federal de Alagoas (UFAL)
+
+Breno Miranda - Universidade Federal de Pernambuco (UFPE)
+
+Breno Bernard Nicolau de França - Universidade Estadual de Campinas (UNICAMP)
+
+Bruno B. P. Cafeo - Universidade Estadual de Campinas (UNICAMP)
+
+Bruno Gadelha - Universidade Federal do Amazonas (UFAM)
+
+Carla Bezerra - Universidade Federal do Ceará (UFC)
+
+Cláudio Sant'Anna - Universidade Federal da Bahia (UFBA)
+
+Crescencio Lima - Instituto Federal da Bahia (IFBA)
+
+Davi Viana - Universidade Federal do Maranhão (UFMA)
+
+Denivan Campos - University of Molise
+
+Edna Dias Canedo - Universidade de Brasília (UnB)
+
+Eduardo Aranha - Universidade Federal do Rio Grande do Norte (UFRN)
+
+Eduardo Figueiredo - Universidade Federal de Minas Gerais (UFMG)
+
+Elisa Y. Nakagawa - Universidade de São Paulo (USP)
+
+Emanuel Coutinho - Universidade Federal do Ceará (UFC)
+
+Érica F. Souza - Universidade Federal Tecnológica do Paraná (UTFPR)
+
+Everton Cavalcante - Universidade Federal do Rio Grande do Norte (UFRN)
+
+Everton L. G. Alves - Universidade Federal de Campina Grande (UFCG)
+
+Everton Tavares Guimaraes - The Pennsylvania State University, EUA
+
+Fabiane Barreto Vavassori Benitti - Universidade Federal de Santa Catarina (UFSC)
+
+Fabiano Cutigi Ferrari - Universidade Federal de São Carlos (UFSCAR)
+
+Fabio da Silva Ferreira - Instituto Federal do Sudeste de Minas Gerais (IFSUDESTEMG)
+
+Felipe Curty do Rego Pinto - Universidade Federal Fluminense (UFF)
+
+Fernanda Madeiral - Universidade Federal de Pernambuco (UFPE)
+
+Fernando Antonio Mota Trinta - Universidade Federal do Ceará (UFC)
+
+Francisco Henrique Cerdeira Ferreira - Universidade Federal de Juiz de Fora (UFJF)
+
+Genaina Rodrigues - Universidade de Brasília (UnB)
+
+Gerson Sunyé - Université de Nantes, França
+
+Glauco Carneiro - Universidade Federal de Sergipe (UFS)
+
+Gleison Santos - Universidade Federal do Estado do Rio de Janeiro (UNIRIO)
+
+Guilherme Avelino - Universidade Federal do Piauí (UFPI)
+
+Heitor Augustus Xavier Costa - Universidade Federal de Lavras (UFLA)
+
+Heleno de Souza Campos Junior - Universidade Federal Fluminense (UFF)
+
+Hudson Silva Borges - Universidade Federal do Mato Grosso do Sul (UFMS)
+
+Igor Steinmacher - Northern Arizona University, EUA
+
+Igor Wiese - Universidade Federal Tecnológica do Paraná (UTFPR)
+
+Jarbele Coutinho - Universidade Federal do Semi Árido (UFERSA)
+
+Jerffeson Souza - Universidade Estadual do Ceará (UECE)
+
+Jéssyka Vilela - Universidade Federal de Pernambuco (UFPE)
+
+João Eduardo Montandon - Universidade Federal de Minas Gerais (UFMG)
+
+José Alexandre D'Abruzzo Pereira - University of Coimbra, Portugal
+
+José Aldo Silva da Costa - Universidade Federal de Campina Grande (UFCG)
+
+Juliana Alves Pereira - Pontifícia Universidade Católica do Rio de Janeiro (PUC-Rio)
+
+Julio Leite - Universidade Federal da Bahia (UFBA)
+
+Karina Kohl - Universidade Federal do Rio Grande do Sul (UFRGS)
+
+Kecia Ferreira - Centro Federal de Educação Tecnológica de Minas Gerais (CEFET-MG)
+
+Kiev Gama - Universidade Federal de Pernambuco (UFPE)
+
+Larissa Rocha Soares Bastos - Universidade Estadual de Feira de Santana (UEFS)
+
+Leonardo Fernandes M. de Oliveira - Instituto Federal de Alagoas (IFAL)
+
+Leonardo Gresta Paulino Murta - Universidade Federal Fluminense (UFF)
+
+Leopoldo Motta Teixeira - Universidade Federal de Pernambuco (UFPE)
+
+Leuson Da Silva - Polytechnique Montreal, Canadá
+
+Lina Garcés - Universidade de São Paulo (USP)
+
+Lincoln S. Rocha - Universidade Federal do Ceará (UFC)
+
+Luana Martins - University of Salerno, Itália
+
+Lucas Vegi - Universidade Federal de Viçosa (UFV)
+
+Luciana Zaina - Universidade Federal de São Carlos (UFSCAR)
+
+Manoel Mendonca - Universidade Federal da Bahia (UFBA)
+
+Marcelo de Almeida Maia - Universidade Federal de Uberlândia (UFU)
+
+Márcia S. Lima - Universidade do Estado do Amazonas (UEA)
+
+Márcio O. Barros - Universidade Federal do Estado do Rio de Janeiro (UNIRIO)
+
+Marcio Ribeiro - Universidade Federal de Alagoas (UFAL)
+
+Marcos Kalinowski - Pontifícia Universidade Católica do Rio de Janeiro (PUC-Rio)
+
+Maria Claudia Figueiredo Pereira Emer - Universidade Federal Tecnológica do Paraná (UTFPR)
+
+Matheus Paixão - Universidade Estadual do Ceará (UECE)
+
+Melina Mongiovi - Universidade Federal de Campina Grande (UFCG)
+
+Mirko Perkusich - Universidade Federal de Campina Grande (UFCG)
+
+Nabor Mendonca - Universidade de Fortaleza (UNIFOR)
+
+Paola Accioly - Universidade Federal de Pernambuco (UFPE)
+
+Patricia Gomes Fernandes Matsubara - Universidade Federal de Mato Grosso do Sul (UFMS)
+
+Patricia Machado - Universidade Federal de Campina Grande (UFCG)
+
+Paulo Maia - Universidade Estadual do Ceará (UECE)
+
+Paulo Malcher - Universidade Federal Rural da Amazônia (UFRA)
+
+Rafael Maiani de Mello - Universidade Federal do Rio de Janeiro (UFRJ)
+
+Rafael Parizi - Instituto Federal de Educação, Ciência e Tecnologia Farroupilha (IFFar)
+
+Rafael Prikladnicki - Pontifícia Universidade Católica do Rio Grande do Sul (PUC-RS)
+
+Raphael Oliveira - Universidade Federal de Sergipe (UFS)
+
+Renato de Freitas Bulcão Neto - Universidade Federal de Goiás (UFG)
+
+Ricardo Vilela - Universidade Estadual de Campinas (UNICAMP)
+
+Rita Suzana Pitangueira Maciel - Universidade Federal da Bahia (UFBA)
+
+Rodrigo Andrade - Universidade Federal do Agreste de Pernambuco (UFAPE)
+
+Rodrigo Bonifacio - Universidade de Brasília (UnB)
+
+Rodrigo Pereira dos Santos - Universidade Federal do Estado do Rio de Janeiro (UNIRIO)
+
+Rodrigo Rocha Gomes e Souza - Universidade Federal da Bahia (UFBA)
+
+Rogério Garcia - Universidade Estadual Paulista Júlio de Mesquita Filho (Unesp)
+
+Rohit Gheyi - Universidade Federal de Campina Grande (UFCG)
+
+Rossana Maria de Castro Andrade - Universidade Federal do Ceará (UFC)
+
+Sávio Freire - Instituto Federal do Ceará (IFC)
+
+Sergio Soares - Universidade Federal de Pernambuco (UFPE)
+
+Sheila Reinehr - Pontifícia Universidade Católica do Paraná (PUC-PR)
+
+Silvia Regina Vergilio - Universidade Federal do Paraná (UFPR)
+
+Simone da Silva Amorim - Instituto Federal da Bahia (IFBA)
+
+Simone do Rocio Senger Souza - Universidade de São Paulo (USP)
+
+Tayana Conte - Universidade Federal do Amazonas (UFAM)
+
+Thaís Burity - Universidade Federal do Agreste de Pernambuco (UFAPE)
+
+Thatiane de Oliveira Rosa - Instituto Federal do Tocantins (UFT)
+
+Tiago Lima Massoni - Universidade Federal de Campina Grande (UFCG)
+
+Troy Costa Kohwalter - Universidade Federal Fluminense (UFF)
+
+Uirá Kulesza - Universidade Federal do Rio Grande do Norte (UFRN)
+
+Valter Vieira Camargo - Universidade Federal de São Carlos (UFSCAR)
+
+Vander R. Alves - Universidade de Brasília (UnB)
+
+Vânia de Oliveira Neves - Universidade Federal Fluminense (UFF)
+
+Vinicius Cardoso Garcia - Universidade Federal de Pernambuco (UFPE)
+
+Vinicius Durelli - Universidade Federal de São Carlos (UFSCAR)
+
+Vítor E. Silva Souza - Universidade Federal do Espírito Santo (UFES)
+
+Walter Nakamura - Universidade Federal Tecnológica do Paraná (UTFPR)
+
+Windson Viana - Universidade Federal do Ceará (UFC)
 
 <br/>
 
