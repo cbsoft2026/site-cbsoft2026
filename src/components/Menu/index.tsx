@@ -127,7 +127,10 @@ export default function Menu(props: HTMLAttributes<HTMLDivElement>) {
 
   const workshopsMenuItem: NavbarItemProps = {
     title: commonT('siglas.workshops'),
-    href: '/workshops',
+    items: [
+      { title: t('workshops_call'), href: '/workshops' },
+      { title: commonT('workshops_accepts'), href: '/workshops/accepted' },
+    ],
   };
 
   const latamSchoolMenuItem: NavbarItemProps = {
