@@ -72,7 +72,7 @@ Todos os trabalhos submetidos devem estar em conformidade com o [Código de Cond
 
 ###### Track Chairs
 
-Maurício Aniche, Uber
+Maurício Aniche, Alura
 
 Joseph Yoder, The Refactory
 

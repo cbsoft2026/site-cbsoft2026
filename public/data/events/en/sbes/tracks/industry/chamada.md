@@ -84,7 +84,7 @@ If accepted, authors must:
 
 ###### Track Chairs
 
-Maurício Aniche, Uber
+Maurício Aniche, Alura
 
 Joseph Yoder, The Refactory
 
