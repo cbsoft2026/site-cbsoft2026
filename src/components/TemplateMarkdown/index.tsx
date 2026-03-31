@@ -21,7 +21,7 @@ export default function TemplateMarkdown({ children, className, variables, local
   const content = typeof children === 'string' ? interpolate(children, variables ?? {}, locale) : '';
 
   return (
-    <section className={`${styles['markdown-body']} ${className}`}>
+    <section className={`${styles['markdown-body']} ${className ? className : ''}`}>
       <ReactMarkdown
         skipHtml={false}
         remarkPlugins={[remarkMath]}

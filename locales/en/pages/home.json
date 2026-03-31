@@ -1,6 +1,9 @@
 {
     "titulo": "CBSOFT'{ year_two_places }",
-    "descricao": "An annual event organized by the Brazilian Computer Society (SBC) since 2010 as an umbrella for Brazilian symposia in the software field, CBSoft has become one of the main events of the Brazilian scientific community in Computer Science.",
+    "descricao": {
+        "tipo": "markdown",
+        "conteudo": "The **Brazilian Conference on Software: Practice and Theory** (CBSoft) is an annual event organized by the Brazilian Computer Society (SBC) since 2010 as an umbrella for Brazilian symposia in the software field. CBSoft has become one of the main events of the Brazilian scientific community in Computer Science."
+    },
     "de": "from",
     "simposios": "Symposia",
     "participantes": "Keynotes of 2026",

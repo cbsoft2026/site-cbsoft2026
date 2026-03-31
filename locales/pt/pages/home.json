@@ -1,6 +1,9 @@
 {
     "titulo": "CBSOFT'{ year_two_places }",
-    "descricao": "Evento realizado anualmente pela Sociedade Brasileira de Computação (SBC) desde 2010 como agregador de simpósios brasileiros área de software, o CBSoft tornou-se um dos principais eventos da comunidade científica brasileira na área de Computação.",
+    "descricao": {
+        "tipo": "markdown",
+        "conteudo": "O **Congresso Brasileiro de Software: Teoria e Prática** (CBSoft) é um evento realizado anualmente pela Sociedade Brasileira de Computação (SBC) desde 2010 como agregador de simpósios brasileiros área de software. O CBSoft tornou-se um dos principais eventos da comunidade científica brasileira na área de Computação."
+    },
     "simposios": "Simpósios",
     "participantes": "Convidados de 2026",
     "sponsors": {
