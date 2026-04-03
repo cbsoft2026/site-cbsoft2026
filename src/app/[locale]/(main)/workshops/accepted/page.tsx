@@ -24,11 +24,21 @@ export default async function AcceptsPage({ params }: Props) {
         <ul>
             <li>XIV Workshop on Software Visualization, Maintenance and Evolution (VEM)</li>
             <li>
-                <a href='https://www.virtus.ufcg.edu.br/iseworkshop/' target='blank'>IV Brazilian Workshop on Intelligent Software Engineering</a> (ISE)
+                IV Brazilian Workshop on Intelligent Software Engineering (ISE)
+                <ul>
+                  <li>
+                    <b>Site:</b> <a href='https://www.virtus.ufcg.edu.br/iseworkshop/' target='blank'>https://www.virtus.ufcg.edu.br/iseworkshop/</a>
+                  </li>
+                </ul>
             </li>
             <li>III Workshop sobre Bots na Engenharia de Software (WBOTS)</li>
             <li>
-                <a href="https://se4fp.github.io/2026/" target='_blank'>II Workshop on Software Engineering for Functional Programming</a> (SE4FP)
+                II Workshop on Software Engineering for Functional Programming (SE4FP)
+                <ul>
+                  <li>
+                    <b>Site:</b> <a href="https://se4fp.github.io/2026/" target='_blank'>https://se4fp.github.io/2026/</a>
+                  </li>
+                </ul>
             </li>
             <li>II Workshop on Software Engineering for Game Development (SE4Games)</li>
             <li>I Workshop on Software Engineering for Agentic Systems (SE4AS)</li>
