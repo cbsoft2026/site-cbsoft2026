@@ -101,7 +101,7 @@ Para garantir a dupla anonimização no processo de submissão inicial e de revi
 Para todas as Trilhas do SBES 2026, deverá ainda ser utilizado o seguinte comando contendo as informações do evento:
 
 ```latex
-\acmConference[SBES 2026]{40th Brazilian Symposium on Software Engineering}{September 8--12, 2026}{São Paulo, SP, Brazil}
+\acmConference[SBES 2026]{40th Brazilian Symposium on Software Engineering}{September 8--11, 2026}{São Paulo, SP, Brazil}
 ```
 
 Orienta-se que todos os autores atentem ao checklist disponibilizado no final do arquivo `samples/cbsoft-acm-like.tex` para se certificarem de que seus artigos estejam em conformidade com o modelo e as instruções fornecidas.

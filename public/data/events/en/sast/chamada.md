@@ -59,7 +59,7 @@ Papers must be submitted in Adobe Portable Document Format (PDF) and must strict
 The following command containing the event information must also be used:
 
 ```latex
-\acmConference[SAST 2026]{11st Brazilian Symposium on Systematic and Automated Software Testing}{September 8--12, 2026}{São Paulo, SP, Brazil}
+\acmConference[SAST 2026]{11st Brazilian Symposium on Systematic and Automated Software Testing}{September 8--11, 2026}{São Paulo, SP, Brazil}
 ```
 
 Authors are advised to carefully follow the checklist provided at the end of the file `samples/cbsoft-acm-like.tex` to ensure that their papers comply with the template and the given instructions.

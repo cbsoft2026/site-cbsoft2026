@@ -2,7 +2,7 @@
 
 The Brazilian Conference on Software: Practice and Theory (CBSoft) is an event annually promoted by the Brazilian Computer Society (SBC) aimed at fostering the exchange of experience among researchers and practitioners from industry and academia regarding recent research, tendencies, and innovations in software. Held since 2010 as an aggregating event of Brazilian symposia promoted by SBC on software, CBSoft has become one of the main conferences in the Brazilian Computing community.
 
-In 2026, the sixteenth edition of CBSoft will be held in person, from September 8th to 12th, in São Paulo, integrating four traditional annual events:
+In 2026, the sixteenth edition of CBSoft will be held in person, from September 8th to 11th, in São Paulo, integrating four traditional annual events:
 
 * **XXXX** Brazilian Symposium on Software Engineering
 * **XXX** Brazilian Symposium on Programming Languages
@@ -27,7 +27,7 @@ Workshops may last **3 hours (half-day)** or **6 hours (full day)**.
 Workshops will be held in person on:
 
 * September 8th, and
-* September 12th, 2026
+* September 11th, 2026
 
 Organizers may express a preferred date, but the final schedule will be defined by the Workshop Committee in coordination with CBSoft 2026 organization.
 
@@ -45,7 +45,7 @@ The proposal must include (in Portuguese or English):
 
 * Name of the workshop
 * Duration: 3 or 6 hours
-* Preferred date: September 8th or September 12th
+* Preferred date: September 8th or September 11th
 * Description of the main topic and its relevance
 * Workshop history (participants, submissions, acceptance rate)
 * Workshop format, including:
@@ -76,7 +76,7 @@ The simplified proposal must include:
 
 * Name of the workshop
 * Duration: 3 or 6 hours
-* Preferred date: September 8th or September 12th
+* Preferred date: September 8th or September 11th
 * Organizing committee
 * Steering committee (if applicable)
 * Name, contact information, and curriculum of the workshop chair

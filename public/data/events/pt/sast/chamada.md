@@ -59,7 +59,7 @@ Os artigos devem ser submetidos no formato Adobe Portable Document Format (PDF) 
 Deverá ainda ser utilizado o seguinte comando contendo as informações do evento:
 
 ```latex
-\acmConference[SAST 2026]{11st Brazilian Symposium on Systematic and Automated Software Testing}{September 8--12, 2026}{São Paulo, SP, Brazil}
+\acmConference[SAST 2026]{11st Brazilian Symposium on Systematic and Automated Software Testing}{September 8--11, 2026}{São Paulo, SP, Brazil}
 ```
 
 Orienta-se que todos os autores atentem ao checklist disponibilizado no final do arquivo `samples/cbsoft-acm-like.tex` para se certificarem de que seus artigos estejam em conformidade com o modelo e as instruções fornecidas.

@@ -2,7 +2,7 @@
 
 O Congresso Brasileiro de Software: Teoria e Prática (CBSoft) é um evento promovido anualmente pela Sociedade Brasileira de Computação (SBC), com o objetivo de promover a troca de experiências entre pesquisadores e profissionais da indústria e da academia sobre pesquisas recentes, tendências e inovações em software. Realizado desde 2010 como um evento agregador dos simpósios brasileiros promovidos pela SBC na área de software, o CBSoft tornou-se um dos principais eventos da comunidade de Computação no Brasil.
 
-Em 2026, a décima sexta edição do CBSoft será realizada presencialmente, de 8 a 12 de setembro, em São Paulo, integrando quatro eventos anuais tradicionais:
+Em 2026, a décima sexta edição do CBSoft será realizada presencialmente, de 8 a 11 de setembro, em São Paulo, integrando quatro eventos anuais tradicionais:
 
 * **XXXX** Simpósio Brasileiro de Engenharia de Software
 * **XXX** Simpósio Brasileiro de Linguagens de Programação
@@ -27,7 +27,7 @@ Os workshops podem ter duração de **3 horas (meio período)** ou **6 horas (pe
 Os workshops serão realizados presencialmente em:
 
 * 8 de setembro, e
-* 12 de setembro de 2026
+* 11 de setembro de 2026
 
 Os organizadores podem indicar uma data preferencial, mas a programação final será definida pelo Comitê de Workshops em coordenação com a organização do CBSoft 2026.
 
@@ -45,7 +45,7 @@ A proposta deve incluir (em português ou inglês):
 
 * Nome do workshop
 * Duração: 3 ou 6 horas
-* Data preferencial: 8 ou 12 de setembro
+* Data preferencial: 8 ou 11 de setembro
 * Descrição do tema principal e sua relevância
 * Histórico do workshop (participantes, submissões, taxa de aceitação)
 * Formato do workshop, incluindo:
@@ -76,7 +76,7 @@ A proposta simplificada deve incluir:
 
 * Nome do workshop
 * Duração: 3 ou 6 horas
-* Data preferencial: 8 ou 12 de setembro
+* Data preferencial: 8 ou 11 de setembro
 * Comitê organizador
 * Comitê diretivo (se aplicável)
 * Nome, informações de contato e currículo do coordenador do workshop

@@ -76,7 +76,7 @@ To ensure double anonymization during the initial submission and review process,
 For all SBES 2026 tracks, the following command containing the event information must also be used:
 
 ```latex
-\acmConference[SBES 2026]{40th Brazilian Symposium on Software Engineering}{September 8--12, 2026}{São Paulo, SP, Brazil}
+\acmConference[SBES 2026]{40th Brazilian Symposium on Software Engineering}{September 8--11, 2026}{São Paulo, SP, Brazil}
 ```
 
 Authors are advised to carefully follow the checklist provided at the end of the file `samples/cbsoft-acm-like.tex` to ensure that their papers comply with the template and the given instructions.

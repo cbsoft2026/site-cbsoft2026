@@ -1,6 +1,6 @@
 #### Call for Papers
 
-The VII Undergraduate Research Assistant Program Competition of the Brazilian Symposium on Software Engineering (CTIC-ES) is an event aimed at promoting the discussion and dissemination of research papers in Software Engineering conducted within the scope of undergraduate and high school education. Furthermore, the contest seeks to foster collaboration among researchers and future researchers during the Brazilian Software Conference (CBSoft 2026), which will take place from September 8th to 12th, 2026.
+The VII Undergraduate Research Assistant Program Competition of the Brazilian Symposium on Software Engineering (CTIC-ES) is an event aimed at promoting the discussion and dissemination of research papers in Software Engineering conducted within the scope of undergraduate and high school education. Furthermore, the contest seeks to foster collaboration among researchers and future researchers during the Brazilian Software Conference (CBSoft 2026), which will take place from September 8th to 11th, 2026.
 
 CTIC-ES aims to select papers developed by undergraduate and high school students, which will be awarded and published in the CBSoft 2026 proceedings. The contest's goal is to encourage students from all undergraduate programs in Computer Science and related fields, as well as high school in the field of Computing, to produce and submit scientific papers based on work they have done on topics related to Software Engineering. The papers may result from participation in research assistants programs or final-year projects.
 
