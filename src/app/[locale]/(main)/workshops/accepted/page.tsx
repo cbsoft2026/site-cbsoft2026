@@ -22,12 +22,19 @@ export default async function AcceptsPage({ params }: Props) {
       </header>
       <section className='container'>
         <ul>
-            <li>XIV Workshop on Software Visualization, Maintenance and Evolution (VEM)</li>
+            <li>
+                XIV Workshop on Software Visualization, Maintenance and Evolution (VEM)
+                <ul>
+                  <li>
+                    <b>Site: </b> <a href="https://vemworkshop.github.io/vem2026" target='_blank'>https://vemworkshop.github.io/vem2026</a>
+                  </li>
+                </ul>
+            </li>
             <li>
                 IV Brazilian Workshop on Intelligent Software Engineering (ISE)
                 <ul>
                   <li>
-                    <b>Site:</b> <a href='https://www.virtus.ufcg.edu.br/iseworkshop/' target='blank'>https://www.virtus.ufcg.edu.br/iseworkshop/</a>
+                    <b>Site:</b> <a href='https://www.virtus.ufcg.edu.br/iseworkshop/' target='_blank'>https://www.virtus.ufcg.edu.br/iseworkshop/</a>
                   </li>
                 </ul>
             </li>
