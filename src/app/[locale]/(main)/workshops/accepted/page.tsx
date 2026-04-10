@@ -47,7 +47,14 @@ export default async function AcceptsPage({ params }: Props) {
                   </li>
                 </ul>
             </li>
-            <li>II Workshop on Software Engineering for Game Development (SE4Games)</li>
+            <li>
+                II Workshop on Software Engineering for Game Development (SE4Games)
+                <ul>
+                  <li>
+                    <b>Site:</b> <a href="https://se4games.vercel.app/" target='_blank'>https://se4games.vercel.app/</a>
+                  </li>
+                </ul>
+            </li>
             <li>I Workshop on Software Engineering for Agentic Systems (SE4AS)</li>
             <li>I Brazilian Workshop on Quantum Software Engineering (WQSE)</li>
             <li>I Secure Software Development in the Age of AI (AISecDev)</li>
