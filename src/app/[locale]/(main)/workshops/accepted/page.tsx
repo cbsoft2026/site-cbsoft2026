@@ -55,7 +55,14 @@ export default async function AcceptsPage({ params }: Props) {
                   </li>
                 </ul>
             </li>
-            <li>I Workshop on Software Engineering for Agentic Systems (SE4AS)</li>
+            <li>
+                I Workshop on Software Engineering for Agentic Systems (SE4AS)
+                <ul>
+                  <li>
+                    <b>Site:</b> <a href="https://agents4good.github.io/se4as26-workshop/" target='_blank'>https://agents4good.github.io/se4as26-workshop/</a>
+                  </li>
+                </ul>
+            </li>
             <li>I Brazilian Workshop on Quantum Software Engineering (WQSE)</li>
             <li>I Secure Software Development in the Age of AI (AISecDev)</li>
         </ul>
