@@ -172,7 +172,18 @@ A Trilha de Pesquisa do SBES reconhece a generosidade dos membros do Comitê de 
 
 #### Submissão de Artigos Journal-First
 
-Autores de artigos aceitos em periódicos e sobre os temas de interesse do SBES são convidados a apresentar seus trabalhos no SBES 2026. Isso proporciona aos autores a oportunidade de discutir seus trabalhos com a comunidade e também enriquece o programa técnico-científico do SBES 2026.  Podem ser submetidos artigos que tenham sido publicados nos seguintes periódicos: IEEE Software (IEEE SW), Journal of Software Engineering Research and Development (JSERD), Information and Software Technology (IST), Journal of Systems and Software (JSS), Empirical Software Engineering (EMSE), Software Quality Journal (SQJ) e Journal of Software: Evolution and Process (JSEP).
+Autores de artigos aceitos em periódicos e sobre os temas de interesse do SBES são convidados a apresentar seus trabalhos no SBES 2026. Isso proporciona aos autores a oportunidade de discutir seus trabalhos com a comunidade e também enriquece o programa técnico-científico do SBES 2026.  Podem ser submetidos artigos que tenham sido publicados nos seguintes periódicos: 
+
+* ACM Transactions on Software Engineering and Methodology (TOSEM)
+* Automated Software Engineering (ASE)
+* Empirical Software Engineering (EMSE)
+* IEEE Software (IEEE SW)
+* IEEE Trasactions on Software Engineering (TSE)
+* Information and Software Technology (IST)
+* Journal of Software Engineering Research and Development (JSERD)
+* Journal of Software: Evolution and Process (JSEP)
+* Journal of Systems and Software (JSS)
+* Software Quality Journal (SQJ)
 
 Os seguintes critérios de avaliação serão adotados para a seleção de artigos submetidos como Journal-First:
 

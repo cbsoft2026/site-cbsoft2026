@@ -173,7 +173,18 @@ The SBES Research Track recognizes the generosity of the Program Committee membe
 
 #### Journal-First Submissions
 
-Authors of papers accepted in journals and related to SBES topics of interest are invited to present their work at SBES 2026. This provides authors with the opportunity to discuss their work with the community and also enriches the technical and scientific program of SBES 2026. Papers published in the following journals may be submitted: IEEE Software (IEEE SW), Journal of Software Engineering Research and Development (JSERD), Information and Software Technology (IST), Journal of Systems and Software (JSS), Empirical Software Engineering (EMSE), Software Quality Journal (SQJ), and Journal of Software: Evolution and Process (JSEP).
+Authors of papers accepted in journals and related to SBES topics of interest are invited to present their work at SBES 2026. This provides authors with the opportunity to discuss their work with the community and also enriches the technical and scientific program of SBES 2026. Papers published in the following journals may be submitted: 
+
+* ACM Transactions on Software Engineering and Methodology (TOSEM)
+* Automated Software Engineering (ASE)
+* Empirical Software Engineering (EMSE)
+* IEEE Software (IEEE SW)
+* IEEE Trasactions on Software Engineering (TSE)
+* Information and Software Technology (IST)
+* Journal of Software Engineering Research and Development (JSERD)
+* Journal of Software: Evolution and Process (JSEP)
+* Journal of Systems and Software (JSS)
+* Software Quality Journal (SQJ)
 
 The following evaluation criteria will be adopted for the selection of papers submitted as Journal-First:
 
