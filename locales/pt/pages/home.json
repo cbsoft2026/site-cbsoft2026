@@ -7,9 +7,8 @@
     "simposios": "Simpósios",
     "participantes": "Convidados de 2026",
     "sponsors": {
-        "realizacao": "Realização",
-        "organizadores": "Organização",
-        "apoio": "Apoio",
-        "patrocinio": "Patrocínio"
+        "organizador": "Organização",
+        "realizador": "Realização",
+        "apoio": "Apoio"
     }
 }

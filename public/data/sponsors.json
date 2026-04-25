@@ -1,5 +1,5 @@
 {
-  "organizadores": [
+  "organizador": [
     {
       "tier": "platina",
       "items": [
@@ -27,7 +27,7 @@
       ]
     }
   ],
-  "realizacao": [
+  "realizador": [
     {
       "tier": "platina",
       "items": [
@@ -37,8 +37,6 @@
         }
       ]
     }
-  ],
-  "patrocinio": [
   ],
   "apoio": [
     {

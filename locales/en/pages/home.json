@@ -8,9 +8,8 @@
     "simposios": "Symposia",
     "participantes": "Keynotes of 2026",
     "sponsors": {
-        "realizacao": "Organization",
-        "organizadores": "Organizers",
-        "apoio": "Support",
-        "patrocinio": "Sponsorship"
+        "organizador": "Organization",
+        "realizador": "Held by",
+        "apoio": "Support"
     }
 }
