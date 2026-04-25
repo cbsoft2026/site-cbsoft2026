@@ -105,7 +105,7 @@ Artifacts do **not necessarily need to be publicly available** or hosted in publ
 
 ##### Step 3. Submitting the Artifact
 
-For the **Artifacts Festival 2026**, submission will take place alongside the preparation of the **camera-ready version** of the paper accepted for publication at CBSoft 2026. In other words, the **camera-ready submission deadline will be the same as the Artifact Festival submission deadline** for the respective track. Authors must use the **CBSoft 26 camera-ready template** ([Overleaf](https://www.overleaf.com/project/69320bdf1918ba90eb56e9f3), [ZIP](https://cbsoft.sbc.org.br/2026/Template_para_eventos_do_CBSoft.zip)), as it already includes a dedicated section for the Artifacts Festival in the required format.
+For the **Artifacts Festival 2026**, submission will take place alongside the preparation of the **camera-ready version** of the paper accepted for publication at CBSoft 2026. In other words, the **camera-ready submission deadline will be the same as the Artifact Festival submission deadline** for the respective track. Authors must use the **CBSoft 26 camera-ready template** ([Overleaf](https://www.overleaf.com/read/cyhpwwkngcwk), [ZIP](https://cbsoft.sbc.org.br/2026/Template_para_eventos_do_CBSoft.zip)), as it already includes a dedicated section for the Artifacts Festival in the required format.
 
 To submit a paper to the **Artifacts Festival 2026**, the camera-ready version must include a section titled **Artifact Availability**. This section must be placed **immediately after the Conclusion and before the Acknowledgments section**. It must not be numbered and must be titled exactly **Artifact Availability**. The section must describe:
 

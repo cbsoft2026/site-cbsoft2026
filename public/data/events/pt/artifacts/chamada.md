@@ -108,7 +108,7 @@ Os artefatos **não precisam necessariamente estar publicamente disponíveis** o
 
 ##### Passo 3. Submissão do Artefato
 
-Para o Festival de Artefatos 2026, a submissão ocorrerá **junto com a preparação da versão final do artigo (camera ready)** aceito para publicação no CBSoft 2026, ou seja: o prazo final de submissão do camera ready será **o mesmo prazo** de submissão ao Festival de Artefatos para a respectiva trilha. Deve-se utilizar **o mesmo template de camera ready** ([Overleaf](https://www.overleaf.com/project/69320bdf1918ba90eb56e9f3), [ZIP](https://cbsoft.sbc.org.br/2026/Template_para_eventos_do_CBSoft.zip)) do CBSoft 26, pois o mesmo já inclui uma seção dedicada ao Festival de Artefatos no formato necessário.
+Para o Festival de Artefatos 2026, a submissão ocorrerá **junto com a preparação da versão final do artigo (camera ready)** aceito para publicação no CBSoft 2026, ou seja: o prazo final de submissão do camera ready será **o mesmo prazo** de submissão ao Festival de Artefatos para a respectiva trilha. Deve-se utilizar **o mesmo template de camera ready** ([Overleaf](https://www.overleaf.com/read/cyhpwwkngcwk), [ZIP](https://cbsoft.sbc.org.br/2026/Template_para_eventos_do_CBSoft.zip)) do CBSoft 26, pois o mesmo já inclui uma seção dedicada ao Festival de Artefatos no formato necessário.
 
 Para submeter um artigo ao Festival de Artefatos 2026, a versão final (camera ready) deve incluir uma seção chamada **Artifact Availability**. Esta seção deve ser incluída imediatamente após a Conclusão e antes da seção de Agradecimentos. Ela não deve ser numerada e deve ter exatamente o título **Artifact Availability**. A seção deve descrever:
 
