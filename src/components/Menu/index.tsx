@@ -88,7 +88,7 @@ export default function Menu(props: HTMLAttributes<HTMLDivElement>) {
     items: [
       { title: t('cbsoft.sobre'), href: '/cbsoft' },
       { title: t('cbsoft.organizacao'), href: '/cbsoft/organization' },
-      // { title: t('cbsoft.acomodacoes'), href: '/cbsoft/accommodation' },
+      { title: t('cbsoft.acomodacoes'), href: '/cbsoft/accommodation' },
       // { title: t('schedule.titulo'), href: '/schedule/calender' },
       { title: t('cbsoft.local'), href: '/cbsoft/location' },
       { title: t('cbsoft.codigo_conduta'), href: '/cbsoft/code-of-conduct' },

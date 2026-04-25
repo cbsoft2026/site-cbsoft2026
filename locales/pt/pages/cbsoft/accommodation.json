@@ -1,11 +1,90 @@
 {
   "titulo": "Acomodações",
-  "hotel": "Hotel",
-  "endereco": "Endereço",
-  "distancia1": "Distância do local do evento",
-  "distancia2": "(Mar Hotel)",
-  "desc1": "Preços* para 1 noite  (café da manhã incluso)",
-  "desc2": "*Sujeitos a mudança e disponibilidade. Última atualização: 25/08",
-  "facareserva": "Faça sua reserva com a Luck viagens",
-  "recomendados": "Recomendados"
+  "description": {
+    "tipo": "markdown",
+    "conteudo": "Para facilitar sua locomoção até o evento na USP, preparamos um resumo da localização de cada hotel. É fácil chegar ao IME-USP de transporte público, tanto por ônibus da **Av. Rebouças** quanto pela **Linha 4-Amarela do Metrô**."
+  },
+  "hotels_list": {
+    "tipo": "markdown",
+    "conteudo": [
+      "1. Radisson Pinheiros (Hotel Oficial dos Convidados)",
+      "   É uma das melhores localizações. Fica próximo à estação Oscar Freire (metrô). É o hotel onde ficarão hospedados os convidados e palestrantes do evento. É uma área nobre de Pinheiros, com fácil acesso a pé e bons restaurantes para o pós-evento.",
+      "1. Mercure São Paulo Pinheiros",
+      "   Excelente logística. Também próximo à estação Oscar Freire da Linha 4-Amarela. Localizado em uma rua estratégica (Capote Valente), oferece um equilíbrio perfeito entre conforto e mobilidade para quem quer chegar rápido à USP e ainda estar em um bairro vibrante.",
+      "1. Quality Faria Lima",
+      "   A 500 metros da estação Faria Lima (metrô). De lá, são apenas duas paradas até a USP (Estação Butantã). Ideal para quem prefere ficar na região da Faria Lima, com perfil mais executivo (Faria Limer) e cercado de serviços.",
+      "1. Ibis Budget São Paulo Paulista",
+      "   É a opção mais econômica de hotel e com a localização mais central, ideal para quem quer aproveitar a Avenida Paulista à noite com seus restaurantes, bares, cinemas e vários museus e centros culturais durante o dia.",
+      "1. Transamerica Fit Villa Lobos",
+      "   Atenção: Apesar de geograficamente parecer perto da USP, este hotel não possui transporte público nem comércio próximo, não é possível chegar a pé a lugar nenhum a não ser uma única boa churrascaria. O acesso a qualquer lugar tem que ser feito de Uber/99/táxi."
+    ]
+  },
+  "public_transport_tips": {
+    "tipo": "markdown",
+    "conteudo": [
+      "#### Dica de Transporte para a USP:",
+      "Para todos os hotéis (exceto o Transamerica Fit), as melhores formas de chegar ao evento é utilizar transporte público, Uber/99/táxi ou bicicletas compartilhadas (BikeSampa)",
+      "De todos os hotéis da conferência na Av. Paulista ou próximos da Av. Rebouças, é possível ir ao IME-USP facilmente de transporte coletivo:",
+      "* 7411-10 Cidade Universitária (melhor ônibus) - a cada 15 minutos na Av. Rebouças ou R. da Consolação. descer na FEA-USP",
+      "* 702U-10 Cidade Universitária - na Av. Rebouças ou R. da Consolação. descer no CRUSP e caminhada agradável e segura de 10m a pé ou descer no IME mesmo (depois de uma pequena volta de ônibus dentro da cidade universitária)",
+      "* Linha 4-Amarela do Metrô - descer na estação Butantã pegar ônibus 8084-10 Cidade Universitária via Luciano Gualberto ou pegar Uber/99/táxi."
+    ]
+  },
+  "hotels_table": {
+    "tipo": "table",
+    "header": ["Hotel", "Estação de Metrô Próxima", "Distância p/ Metrô", "Distância p/ USP (Carro/Uber)", "Perfil de Localização"],
+    "rows": [
+      [
+        "Radisson Pinheiros",
+        "Oscar Freire",
+        "600 m",
+        "5,5 km",
+        "Hotel dos Convidados. Nobre e estratégico."
+      ],
+      [
+        "Mercure Pinheiros",
+        "Oscar Freire",
+        "550 m",
+        "5,3 km",
+        "Confortável e bem conectado."
+      ],
+      [
+        "Quality Faria Lima",
+        "Faria Lima",
+        "500 m",
+        "3,5 km",
+        "Excelente custo-benefício p/ USP."
+      ],
+      [
+        "Ibis Budget Paulista",
+        "Paulista",
+        "50 m",
+        "8,5 km",
+        "Econômico e \"pé no metrô\"."
+      ],
+      [
+        "Transamerica Fit",
+        "Não possui",
+        "--",
+        "2,5 km",
+        "Isolado. Perto da USP, mas exige carro."
+      ]
+    ]
+  },
+  "luck_viagens": {
+    "tipo": "markdown",
+    "conteudo": [
+      "# Agência Oficial do Evento",
+      "A Luck Viagens é a **agência oficial** do evento, responsável por facilitar toda a logística dos participantes, permitindo que o foco seja apenas aproveitar o congresso.",
+      "#### Serviços Oferecidos",
+      "* Passagens aéreas com desconto",
+      "* Hospedagens",
+      "* Passeios pré e pós-evento",
+      "* Locação de veículos",
+      "* e outros serviços",
+      "#### Contato",
+      "Telefone: (81) 3366-6222 | (81) 99641-1964",
+      "Email: eventos@luckviagens.com.br"
+    ]
+  }
 }
