@@ -210,7 +210,7 @@ export default async function HomePage({ params }: Props) {
           </div>
           <div className={styles['location__slides']}>
             <iframe
-              src='https://www.youtube.com/embed/L7Md62Cfq5k?si=Xw1Tq2Y7GVe7ZnEt&amp;controls=0'
+              src='https://www.youtube.com/embed/3AmK9rnDRXI?si=p7P2RybP6pYUnQs9&amp;controls=0'
               title='YouTube video player'
               frameBorder='0'
               allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share'
