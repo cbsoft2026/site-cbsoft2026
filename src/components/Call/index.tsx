@@ -68,8 +68,8 @@ export default async function CallComponent({ acronym, track, className, locale 
                           simplifiedMode={true}
                           label={`${formatDate(dateOnlyFromISO(value.date), locale)}\n${dateLabel}`}
                           text={dateLabel}
-                          dateStart={new Date(value.date ?? '')}
-                          dateEnd={new Date(value.date ?? '')}
+                          dateStart={new Date(dateOnlyFromISO(value.date) ?? '')}
+                          dateEnd={new Date(dateOnlyFromISO(value.date) ?? '')}
                           fullDay={true}
                         />
                       </td>
