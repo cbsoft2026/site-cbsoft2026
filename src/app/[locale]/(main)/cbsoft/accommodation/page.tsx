@@ -30,6 +30,7 @@ export default async function AccommodationPage({ params }: Props) {
         <br/>
         {t('hotels_table')}
         <br/>
+        {t('lower_cost_options')}
         {t('public_transport_tips')}
         {t('luck_viagens')}
       </div>

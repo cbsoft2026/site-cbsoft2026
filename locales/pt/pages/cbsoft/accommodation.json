@@ -12,21 +12,29 @@
       "1. Mercure São Paulo Pinheiros",
       "   Excelente logística. Também próximo à estação Oscar Freire da Linha 4-Amarela. Localizado em uma rua estratégica (Capote Valente), oferece um equilíbrio perfeito entre conforto e mobilidade para quem quer chegar rápido à USP e ainda estar em um bairro vibrante.",
       "1. Quality Faria Lima",
-      "   A 500 metros da estação Faria Lima (metrô). De lá, são apenas duas paradas até a USP (Estação Butantã). Ideal para quem prefere ficar na região da Faria Lima, com perfil mais executivo (Faria Limer) e cercado de serviços.",
+      "   A 500 metros da estação Faria Lima (metrô). De lá, são apenas duas paradas até a Estação Butantã. Ideal para quem prefere ficar na região da Faria Lima, com perfil mais executivo (Faria Limer) e cercado de serviços.",
       "1. Ibis Budget São Paulo Paulista",
       "   É a opção mais econômica de hotel e com a localização mais central, ideal para quem quer aproveitar a Avenida Paulista à noite com seus restaurantes, bares, cinemas e vários museus e centros culturais durante o dia.",
       "1. Transamerica Fit Villa Lobos",
       "   Atenção: Apesar de geograficamente parecer perto da USP, este hotel não possui transporte público nem comércio próximo, não é possível chegar a pé a lugar nenhum a não ser uma única boa churrascaria. O acesso a qualquer lugar tem que ser feito de Uber/99/táxi."
     ]
   },
+  "lower_cost_options": {
+    "tipo": "markdown",
+    "conteudo": [
+      "#### Opções de menor custo",
+      "Para acomodações por um menor custo, há centenas de opções de apartamentos e pequenas casas no *airbnb*, com custo abaixo de 200 reais por pessoa por dia. Pinheiros e Vila Madalena são boas opções de bairros a procurar.",
+      "Também em Pinheiros e Vila Madalena, há uma grande quantidade de \"*hostels*\" com preços abaixo de 200 reais por noite em quartos compartilhados ou privados. Às vezes, o clima nesses hosteis são um pouco festivos demais, então são recomendados apenas para os mais jovens e festivos."
+    ]
+  },
   "public_transport_tips": {
     "tipo": "markdown",
     "conteudo": [
       "#### Dica de Transporte para a USP:",
-      "Para todos os hotéis (exceto o Transamerica Fit), as melhores formas de chegar ao evento é utilizar transporte público, Uber/99/táxi ou bicicletas compartilhadas (BikeSampa)",
+      "Para todos os hotéis (exceto o Transamerica Fit), pode-se chegar ao evento de transporte público (bom e barato, R\\$ 5,30), de Uber/99/táxi (~R\\$ 30) ou de bicicletas compartilhadas do BikeSampa (mais saudável). Os ônibus podem ser pagos em dinheiro (notas pequenas), via bluetooth com o app Cittamobi ou, quase sempre, com débito/crédito por aproximação (NFC) com cartão ou smartphone.",
       "De todos os hotéis da conferência na Av. Paulista ou próximos da Av. Rebouças, é possível ir ao IME-USP facilmente de transporte coletivo:",
-      "* 7411-10 Cidade Universitária (melhor ônibus) - a cada 15 minutos na Av. Rebouças ou R. da Consolação. descer na FEA-USP",
-      "* 702U-10 Cidade Universitária - na Av. Rebouças ou R. da Consolação. descer no CRUSP e caminhada agradável e segura de 10m a pé ou descer no IME mesmo (depois de uma pequena volta de ônibus dentro da cidade universitária)",
+      "* 7411-10 Cidade Universitária (melhor ônibus) - a cada 15 minutos na Av. Rebouças ou R. da Consolação. Descer na FEA-USP",
+      "* 702U-10 Cidade Universitária - na Av. Rebouças ou R. da Consolação. Descer no CRUSP e caminhada agradável e segura de 10 minutos a pé ou descer no IME mesmo (depois de uma pequena volta de ônibus dentro da cidade universitária)",
       "* Linha 4-Amarela do Metrô - descer na estação Butantã pegar ônibus 8084-10 Cidade Universitária via Luciano Gualberto ou pegar Uber/99/táxi."
     ]
   },
@@ -75,7 +83,7 @@
     "tipo": "markdown",
     "conteudo": [
       "# Agência Oficial do Evento",
-      "A Luck Viagens é a **agência oficial** do evento, responsável por facilitar toda a logística dos participantes, permitindo que o foco seja apenas aproveitar o congresso.",
+      "A Luck Viagens é a **agência oficial** do evento (a mesma do CBSoft 2025), responsável por facilitar toda a logística dos participantes, permitindo que o foco seja apenas aproveitar o congresso.",
       "#### Serviços Oferecidos",
       "* Passagens aéreas com desconto",
       "* Hospedagens",
@@ -83,7 +91,7 @@
       "* Locação de veículos",
       "* e outros serviços",
       "#### Contato",
-      "Telefone: (81) 3366-6222 | (81) 99641-1964",
+      "Telefone: (81) 3366-6222 | [(81) 99641-1964](https://api.whatsapp.com/send?phone=5581996411964)",
       "Email: eventos@luckviagens.com.br"
     ]
   }
