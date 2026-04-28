@@ -19,7 +19,7 @@ Podem enviar trabalhos ao CTD-ES recém-doutores e mestres na área de Engenhari
 
 #### Submissão
 
-Os candidatos deverão submeter os trabalhos eletronicamente pelo [sistema JEMS3](https://jems3.sbc.org.br/sbes-ctd-es2025). No momento da submissão, o(a) candidato(a) deve escolher a trilha correspondente ao seu trabalho (dissertação de mestrado ou tese de doutorado). Será aceita apenas uma submissão, em cada categoria, por orientador(a) principal.
+Os candidatos deverão submeter os trabalhos eletronicamente pelo [sistema **JEMS3**](https://jems3.sbc.org.br/events/461). No momento da submissão, o(a) candidato(a) deve escolher a trilha correspondente ao seu trabalho (dissertação de mestrado ou tese de doutorado). Será aceita apenas uma submissão, em cada categoria, por orientador(a) principal.
 
 Os seguintes documentos deverão ser submetidos, em conjunto:
 

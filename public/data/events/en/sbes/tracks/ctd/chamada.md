@@ -20,7 +20,7 @@ The CTD-ES accepts submissions from recent Ph.D. and M.Sc. graduates in Software
 
 #### Submission Guidelines
 
-Candidates must submit their work electronically via the **JEMS3** system.
+Candidates must submit their work electronically via the [**JEMS3** system](https://jems3.sbc.org.br/events/461).
 
 During submission, the candidate must choose the track corresponding to their work (MSc Dissertation or PhD Thesis). **Only one submission per category per main advisor will be accepted**.
 
