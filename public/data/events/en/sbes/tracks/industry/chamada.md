@@ -65,7 +65,7 @@ As this track is dedicated to work performed in an industrial context by active 
 
 #### Submission System
 
-Submissions must be made exclusively electronically via the [JEMS](https://jems3.sbc.org.br/cbsoft-industria2025) system.
+Submissions must be made exclusively electronically via the [JEMS](https://jems3.sbc.org.br/events/542) system.
 
 * **Language:** Submissions may be written in English or Portuguese.
 

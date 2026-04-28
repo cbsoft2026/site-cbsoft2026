@@ -58,7 +58,7 @@ Por essa ser uma trilha dedicada a trabalhos feitos em contexto industrial e por
 
 Note que os trabalhos também podem ser submetidos mesmo sem a participação de pessoas da academia. Caso o time de autores ou a empresa tenha interesse em submeter, mas não tenha experiência em escrever trabalhos para essa trilha, os organizadores estão à disposição para conversar.
 
-A submissão do trabalho será exclusivamente eletrônica, através do sistema [JEMS](https://jems3.sbc.org.br/cbsoft-industria2025). As submissões podem ser redigidas em inglês ou português.
+A submissão do trabalho será exclusivamente eletrônica, através do sistema [JEMS](https://jems3.sbc.org.br/events/542). As submissões podem ser redigidas em inglês ou português.
 
 #### Ética e Conduta na Publicação
 
