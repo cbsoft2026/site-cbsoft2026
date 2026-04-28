@@ -38,7 +38,14 @@ export default async function AcceptsPage({ params }: Props) {
                   </li>
                 </ul>
             </li>
-            <li>III Workshop sobre Bots na Engenharia de Software (WBOTS)</li>
+            <li>
+                III Workshop sobre Bots na Engenharia de Software (WBOTS)
+                <ul>
+                  <li>
+                    <b>Site:</b> <a href='https://w-bots.github.io/wbots/2026/' target='_blank'>https://w-bots.github.io/wbots/2026/</a>
+                  </li>
+                </ul>
+            </li>
             <li>
                 II Workshop on Software Engineering for Functional Programming (SE4FP)
                 <ul>
