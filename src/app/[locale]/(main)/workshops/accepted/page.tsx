@@ -70,7 +70,14 @@ export default async function AcceptsPage({ params }: Props) {
                   </li>
                 </ul>
             </li>
-            <li>I Brazilian Workshop on Quantum Software Engineering (WQSE)</li>
+            <li>
+                I Brazilian Workshop on Quantum Software Engineering (WQSE)
+                <ul>
+                  <li>
+                    <b>Site: </b> <a href='https://wqseworkshop.github.io/WQSE2026/' target='_blank'>https://wqseworkshop.github.io/WQSE2026/</a>
+                  </li>
+                </ul>
+            </li>
             <li>I Secure Software Development in the Age of AI (AISecDev)</li>
         </ul>
       </section>
