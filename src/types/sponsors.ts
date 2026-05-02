@@ -15,6 +15,7 @@ export const Sponsor = Type.Object({
 export const SponsorsSchema = Type.Object({
   organizador: Type.Array(Sponsor),
   realizador: Type.Array(Sponsor),
+  patrocinio: Type.Array(Sponsor),
   apoio: Type.Array(Sponsor),
 });
 

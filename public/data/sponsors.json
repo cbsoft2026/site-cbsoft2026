@@ -38,6 +38,17 @@
       ]
     }
   ],
+  "patrocinio": [
+    {
+      "tier": "ouro",
+      "items": [
+        {
+          "href": "https://ceia.ufg.br/",
+          "image": "ceia.png"
+        }
+      ]
+    }
+  ],
   "apoio": [
     {
       "tier": "ouro",

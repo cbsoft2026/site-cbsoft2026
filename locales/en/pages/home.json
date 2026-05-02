@@ -10,6 +10,7 @@
     "sponsors": {
         "organizador": "Organization",
         "realizador": "Held by",
+        "patrocinio": "Sponsorship",
         "apoio": "Support"
     }
 }
