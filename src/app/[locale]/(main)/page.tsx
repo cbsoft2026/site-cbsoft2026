@@ -18,6 +18,7 @@ import { getTObject } from '@/lib/getTObject';
 import AboveGeometric from '@/components/AboveGeometric';
 import LinkLocale from '@/components/LinkLocale';
 import InboundCarousel from '@/components/InboundCarousel';
+import { withUTM } from '@/utils/utm';
 
 type SponsorSection = {
   title: string;
@@ -41,9 +42,9 @@ function SponsorSection(props: SponsorSection) {
                 {sponsor.map((sponsorLine, indexLine) => (
                   <a
                     key={indexLine}
-                    href={sponsorLine.href}
+                    href={withUTM(sponsorLine.href)}
                     target='_blank'
-                    rel='noreferrer'
+                    rel='noopener noreferrer'
                     className={styles['image-block']}
                   >
                     <picture>
