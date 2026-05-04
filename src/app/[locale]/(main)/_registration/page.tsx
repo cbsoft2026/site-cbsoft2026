@@ -24,7 +24,7 @@ export default async function RegistrationPage({ params }: Props) {
               target='_blank'
               rel='noopener noreferrer'
             >
-              Inscreva-se aqui
+              {t('action')}
             </a>
           </div>
           <div>
@@ -34,20 +34,6 @@ export default async function RegistrationPage({ params }: Props) {
             {t('informacoes.descricao')}
             {t('informacoes.inscricoes')}
             {t('informacoes.taxas')}
-            <div>
-              <h4>CBSoft store</h4>
-              <Image
-                src={`${process.env.NEXT_PUBLIC_ASSET_PREFIX}/images/cbsoft_tshirt.png`}
-                alt='Camisa CBSoft'
-                width={300}
-                height={360}
-                style={{ maxWidth: '100%', margin: '1rem 0' }}
-              />
-            </div>
-            <div>
-              <h4>{t('informacoes.adicional.titulo')}</h4>
-              {t('informacoes.adicional.descricao')}
-            </div>
           </div>
         </div>
       </div>
