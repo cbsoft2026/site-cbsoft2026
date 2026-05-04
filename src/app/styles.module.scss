@@ -109,7 +109,6 @@
   }
 
   .block {
-    /* Base para todas as listas de sponsors */
     .sponsors-list {
       list-style: none;
       padding: 0;
@@ -149,7 +148,7 @@
     .tier-platina {
       grid-template-columns: 1fr;
       .image-block img {
-        max-height: 100; // destaque maior
+        max-height: 100;
       }
     }
     /* Ouro:  2 por linha, aproximação e normalização de área visual */

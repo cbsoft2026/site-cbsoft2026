@@ -2,8 +2,8 @@
 
 .button {
   text-align: center;
-  background-color: $primary; /* substitua por var(--primary) se desejar usar variáveis CSS */
-  color: $text-secondary; /* substitua por var(--primary-alt) se desejar usar variáveis CSS */
+  background-color: $primary;
+  color: $text-secondary;
   font-weight: bold;
   padding: 2em 2.5em;
   font-size: 1.1em;
@@ -21,6 +21,6 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  width: fit-content; /* Ajustando a largura do container para caber o conteúdo */
-  margin: auto; /* Centralizando o container na página */
+  width: fit-content;
+  margin: auto;
 }
