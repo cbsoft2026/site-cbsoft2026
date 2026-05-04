@@ -78,7 +78,14 @@ export default async function AcceptsPage({ params }: Props) {
                   </li>
                 </ul>
             </li>
-            <li>I Secure Software Development in the Age of AI (AISecDev)</li>
+            <li>
+                I Secure Software Development in the Age of AI (AISecDev)
+                <ul>
+                  <li>
+                    <b>Site:</b> <a href="https://sites.usp.br/icem/aisecdev-cbsoft-2026/" target="_blank">https://sites.usp.br/icem/aisecdev-cbsoft-2026/</a>
+                  </li>
+                </ul>
+            </li>
         </ul>
       </section>
     </article>
