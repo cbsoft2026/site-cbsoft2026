@@ -9,11 +9,19 @@
     "build": "NEXT_PUBLIC_STATIC=true npm run generate-data && npm run generate-events && npm run generate-messages && next build --turbopack && cp -r out/pt/* out/",
     "start": "next start",
     "postbuild": "next-sitemap",
-    "lint": "eslint src --ext .js,.ts,.jsx,.tsx",
+    "lint": "eslint . --ext .js,.ts,.jsx,.tsx",
     "prettier:check": "prettier src --check",
     "prettier:fix": "prettier src --write",
     "prepare": "husky",
     "test": "echo \"No tests yet\""
+  },
+  "lint-staged": {
+    "*.{js,ts,jsx,tsx}": [
+      "eslint --fix"
+    ],
+    "*.{js,ts,jsx,tsx,json,md,css}": [
+      "prettier --write"
+    ]
   },
   "dependencies": {
     "@fortawesome/free-brands-svg-icons": "^7.0.1",
@@ -47,6 +55,7 @@
     "eslint-config-next": "15.5.2",
     "glob": "^13.0.0",
     "husky": "^9.1.7",
+    "lint-staged": "^16.4.0",
     "next-sitemap": "^4.2.3",
     "prettier": "^3.6.2",
     "sass": "^1.92.1",
