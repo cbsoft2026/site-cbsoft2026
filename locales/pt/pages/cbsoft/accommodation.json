@@ -49,20 +49,14 @@
       ["Transamerica Fit", "Não possui", "--", "2,5 km", "Isolado. Perto da USP, mas exige carro."]
     ]
   },
-  "luck_viagens": {
+  "agencia_parceira": {
     "tipo": "markdown",
     "conteudo": [
-      "# Agência Oficial do Evento",
-      "A Luck Viagens é a **agência oficial** do evento (a mesma do CBSoft 2025), responsável por facilitar toda a logística dos participantes, permitindo que o foco seja apenas aproveitar o congresso.",
-      "#### Serviços Oferecidos",
-      "* Passagens aéreas com desconto",
-      "* Hospedagens",
-      "* Passeios pré e pós-evento",
-      "* Locação de veículos",
-      "* e outros serviços",
+      "# Agencia Parceira do Evento",
+      "<img src='/2026/images/tristar.jpeg' width='200px'/>",
       "#### Contato",
-      "Telefone: (81) 3366-6222 | [(81) 99641-1964](https://api.whatsapp.com/send?phone=5581996411964)",
-      "Email: eventos@luckviagens.com.br"
+      "Telefone: (11) 3016-1411&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;[(11) 94787-0815 <img src='https://upload.wikimedia.org/wikipedia/commons/6/6b/WhatsApp.svg' width='24' height='24' style='padding-bottom: 4px;'>](https://api.whatsapp.com/send?phone=5511947870815)",
+      "Site: https://tristarturismo.com.br/"
     ]
   }
 }

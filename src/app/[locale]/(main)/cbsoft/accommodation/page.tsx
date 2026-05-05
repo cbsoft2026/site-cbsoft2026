@@ -27,12 +27,12 @@ export default async function AccommodationPage({ params }: Props) {
       <div className='container'>
         {t('description')}
         {t('hotels_list')}
-        <br/>
+        <br />
         {t('hotels_table')}
-        <br/>
+        <br />
         {t('lower_cost_options')}
         {t('public_transport_tips')}
-        {/* {t('luck_viagens')} */}
+        {t('agencia_parceira')}
       </div>
     </section>
   );
