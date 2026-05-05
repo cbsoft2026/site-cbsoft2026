@@ -9,12 +9,8 @@
     "conteudo": [
       "1. Radisson Pinheiros (Hotel Oficial dos Convidados)",
       "   É uma das melhores localizações. Fica próximo à estação Oscar Freire (metrô). É o hotel onde ficarão hospedados os convidados e palestrantes do evento. É uma área nobre de Pinheiros, com fácil acesso a pé e bons restaurantes para o pós-evento.",
-      "1. Mercure São Paulo Pinheiros",
-      "   Excelente logística. Também próximo à estação Oscar Freire da Linha 4-Amarela. Localizado em uma rua estratégica (Capote Valente), oferece um equilíbrio perfeito entre conforto e mobilidade para quem quer chegar rápido à USP e ainda estar em um bairro vibrante.",
       "1. Quality Faria Lima",
       "   A 500 metros da estação Faria Lima (metrô). De lá, são apenas duas paradas até a Estação Butantã. Ideal para quem prefere ficar na região da Faria Lima, com perfil mais executivo (Faria Limer) e cercado de serviços.",
-      "1. Ibis Budget São Paulo Paulista",
-      "   É a opção mais econômica de hotel e com a localização mais central, ideal para quem quer aproveitar a Avenida Paulista à noite com seus restaurantes, bares, cinemas e vários museus e centros culturais durante o dia.",
       "1. Transamerica Fit Villa Lobos",
       "   Atenção: Apesar de geograficamente parecer perto da USP, este hotel não possui transporte público nem comércio próximo, não é possível chegar a pé a lugar nenhum a não ser uma única boa churrascaria. O acesso a qualquer lugar tem que ser feito de Uber/99/táxi."
     ]
@@ -40,43 +36,17 @@
   },
   "hotels_table": {
     "tipo": "table",
-    "header": ["Hotel", "Estação de Metrô Próxima", "Distância p/ Metrô", "Distância p/ USP (Carro/Uber)", "Perfil de Localização"],
+    "header": [
+      "Hotel",
+      "Estação de Metrô Próxima",
+      "Distância p/ Metrô",
+      "Distância p/ USP (Carro/Uber)",
+      "Perfil de Localização"
+    ],
     "rows": [
-      [
-        "Radisson Pinheiros",
-        "Oscar Freire",
-        "600 m",
-        "5,5 km",
-        "Hotel dos Convidados. Nobre e estratégico."
-      ],
-      [
-        "Mercure Pinheiros",
-        "Oscar Freire",
-        "550 m",
-        "5,3 km",
-        "Confortável e bem conectado."
-      ],
-      [
-        "Quality Faria Lima",
-        "Faria Lima",
-        "500 m",
-        "3,5 km",
-        "Excelente custo-benefício p/ USP."
-      ],
-      [
-        "Ibis Budget Paulista",
-        "Paulista",
-        "50 m",
-        "8,5 km",
-        "Econômico e \"pé no metrô\"."
-      ],
-      [
-        "Transamerica Fit",
-        "Não possui",
-        "--",
-        "2,5 km",
-        "Isolado. Perto da USP, mas exige carro."
-      ]
+      ["Radisson Pinheiros", "Oscar Freire", "600 m", "5,5 km", "Hotel dos Convidados. Nobre e estratégico."],
+      ["Quality Faria Lima", "Faria Lima", "500 m", "3,5 km", "Excelente custo-benefício p/ USP."],
+      ["Transamerica Fit", "Não possui", "--", "2,5 km", "Isolado. Perto da USP, mas exige carro."]
     ]
   },
   "luck_viagens": {
