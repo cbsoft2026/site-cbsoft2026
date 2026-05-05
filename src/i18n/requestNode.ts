@@ -6,9 +6,16 @@ import * as path from 'path';
  */
 const SEPARATOR_FOLDER = '/';
 
-const EXT = 'json';
+const EXT_JSON = 'json';
+const EXT_MD = 'md';
 
 export type LoadMessagesParamsNode = { locale: string };
+
+function ensureObject(messages: Record<string, any>, key: string) {
+  if (!messages[key]) {
+    messages[key] = {};
+  }
+}
 
 /**
  * Carregar todas as mensagens de um determinado idioma a partir da pasta
@@ -33,12 +40,35 @@ export async function requestMessagesNode({ locale }: LoadMessagesParamsNode) {
       if (entry.isDirectory()) {
         const key = parentKey ? `${parentKey}${SEPARATOR_FOLDER}${entry.name}` : entry.name;
         messages = { ...messages, ...readDirRecursive(fullPath, key) };
-      } else if (entry.isFile() && entry.name.endsWith(`.${EXT}`)) {
+      } else if (entry.isFile() && entry.name.endsWith(`.${EXT_JSON}`)) {
         const key = parentKey
-          ? `${parentKey}${SEPARATOR_FOLDER}${entry.name.replace(`.${EXT}`, '')}`
-          : entry.name.replace(`.${EXT}`, '');
+          ? `${parentKey}${SEPARATOR_FOLDER}${entry.name.replace(`.${EXT_JSON}`, '')}`
+          : entry.name.replace(`.${EXT_JSON}`, '');
+
         const fileMessages = JSON.parse(fs.readFileSync(fullPath, 'utf-8'));
-        messages[key] = fileMessages;
+
+        ensureObject(messages, key);
+
+        messages[key] = {
+          ...messages[key],
+          ...fileMessages,
+        };
+      } else if (entry.isFile() && entry.name.endsWith(`.${EXT_MD}`)) {
+        const key = parentKey
+          ? `${parentKey}${SEPARATOR_FOLDER}${entry.name.replace(`.${EXT_MD}`, '')}`
+          : entry.name.replace(`.${EXT_MD}`, '');
+
+        const fileContent = fs.readFileSync(fullPath, 'utf-8');
+
+        ensureObject(messages, key);
+
+        messages[key] = {
+          ...messages[key],
+          page: {
+            tipo: 'markdown',
+            conteudo: fileContent.split('\n'),
+          },
+        };
       }
     }
 
