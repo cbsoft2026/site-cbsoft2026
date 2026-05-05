@@ -62,7 +62,7 @@ export default async function CbsoftPage({ params }: Props) {
 
           <div>
             <Title titulo={t('sobre')} />
-            {t('descricao')}
+            {t('page')}
           </div>
         </div>
       </section>
