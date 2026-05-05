@@ -47,6 +47,15 @@
           "image": "ceia.png"
         }
       ]
+    },
+    {
+      "tier": "bronze",
+      "items": [
+        {
+          "href": "https://www.iryasolutions.com.br/",
+          "image": "irya_solution.png"
+        }
+      ]
     }
   ],
   "apoio": [
@@ -56,11 +65,21 @@
         {
           "href": "https://www.gov.br/capes",
           "image": "capes.png"
-        },
+        }
+      ]
+    },
+    {
+      "tier": "ouro",
+      "items": [
         {
           "href": "https://www.gov.br/cnpq",
           "image": "cnpq.png"
-        },
+        }
+      ]
+    },
+    {
+      "tier": "ouro",
+      "items": [
         {
           "href": "https://fapesp.br",
           "image": "fapesp.png"
