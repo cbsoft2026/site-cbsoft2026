@@ -40,7 +40,7 @@ Os resumos estendidos deverão conter os seguintes elementos, utilizando o [mode
 
 [^1]: O modelo também está disponível para download: [link](/2026/Template_para_eventos_do_CBSoft.zip)
 
-1. Abstract e Resumo
+1. Resumo
 1. Relato da Apresentação contendo: 
     * Relevância, impacto e benefícios da apresentação para a indústria de software;
     * Para as apresentações que discorrem sobre desafios, conter clareza na descrição do problema, incluindo motivação, contexto e dificuldades;
