@@ -51,7 +51,6 @@ The extended abstract must include:
     * **For Solution-based talks:** Description of the solution's applicability and success indicators (e.g., Proof of Concept, prototype, etc.).
     * **Evidence:** Brief proofs of evidence, such as surveys or metrics showing the impact of the discussed solution on the software development team.
 1. **References:** Bibliographic references.
-1. **Author Biographies:** A brief bio for each author, including education, professional experience, and current affiliation.
 
 **Review & Publication** Proposals will be reviewed by the **CBSoft 2026 Industry Track Technical Committee**. Accepted proposals will have their extended abstracts published in the **CBSoft 2026 Extended Proceedings**. At least one author of each selected work must register for CBSoft 2026 to present.
 
