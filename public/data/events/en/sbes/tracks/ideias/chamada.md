@@ -174,6 +174,154 @@ Thelma Colanzi - Universidade Estadual de Maringá (UEM)
 
 Cleidson de Souza - Universidade Federal do Pará (UFPA)
 
+#### Program Committee
+
+Ademar França de Sousa Neto - Universidade Federal Rural do Semi-Árido (UFERSA)
+
+Adenilso Simao - Universidade de São Paulo (USP)
+
+Anderson Uchoa - Universidade Federal do Ceará (UFC)
+
+Awdren de Lima Fontão - Universidade Federal de Mato Grosso do Sul (UFMS)
+
+Baldoino Fonseca - Universidade Federal de Alagoas (UFAL)
+
+Bruno Gadelha - Universidade Federal do Amazonas (UFAM)
+
+Carla Bezerra - Universidade Federal do Ceará (UFC)
+
+Cláudio Sant'Anna - Universidade Federal da Bahia (UFBA)
+
+Crescencio Lima - Instituto Federal da Bahia (IFBA)
+
+Danyllo Albuquerque - Instituto Federal da Paraíba (IFPB)
+
+Daricélio Moreira Soares - Universidade Federal do Acre (UFAC)
+
+Davi Viana - Universidade Federal do Maranhão (UFMA)
+
+Denivan Campos - University of Molise
+
+Djan Santos - Instituto Federal da Bahia (IFBA)
+
+Eduardo Aranha - Universidade Federal do Rio Grande do Norte (UFRN)
+
+Emanuel Coutinho - Universidade Federal Do Ceará (UFC)
+
+Érica F. Souza - Universidade Tecnológica Federal do Paraná (UTFPR)
+
+Everton Cavalcante - Universidade Federal do Rio Grande do Norte (UFRN)
+
+Everton Tavares Guimaraes - The Pennsylvania State University
+
+Fabiano Cutigi Ferrari - Universidade Federal de São Carlos (UFSCar)
+
+Fernanda Madeiral - Universidade Federal de Pernambuco (UFPE)
+
+Francisco Henrique Cerdeira Ferreira - Universidade Federal de Juiz de Fora (UFJF)
+
+Heitor Augustus Xavier Costa - Universidade Federal de Lavras (UFLA)
+
+Heleno de Souza Campos Junior - Universidade Federal Fluminense (UFF)
+
+Hudson Silva Borges - Universidade Federal de Mato Grosso do Sul (UFMS)
+
+Igor Wiese - Universidade Tecnológica Federal do Paraná (UTFPR)
+
+Jaelson F. B. Castro - Universidade Federal de Pernambuco (UFPE)
+
+Jéssyka  Vilela - Universidade Federal de Pernambuco (UFPE)
+
+João Brunet - Universidade Federal de Campina Grande (UFCG)
+
+João Choma Neto - Universidade Estadual de Maringá (UEM)
+
+Johnny Cardoso Marques - Instituto Tecnológico de Aeronáutica (ITA)
+
+Karina Kohl - Universidade Federal do Rio Grande do Sul (UFRGS)
+
+Kiev Gama - Universidade Federal de Pernambuco (UFPE)
+
+Klissiomara Lopes Dias - Universidade Federal Rural da Amazônia (UFRA)
+
+Larissa Rocha Soares Bastos - Universidade do Estado da Bahia (UNEB)
+
+Leonardo Fernandes M. de Oliveira - Instituto Federal de Alagoas (Ifal)
+
+Leonardo Gresta Paulino Murta - Universidade Federal Fluminense (UFF)
+
+Leticia Machado - Universidade Federal do Rio Grande do Sul (UFRGS)
+
+Lilian Passos Scatalon - Universidade Estadual de Maringá (UEM)
+
+Lina Garcês - Universidade de São Paulo (ICMC - USP)
+
+Lincoln S. Rocha - Universidade Federal do Ceará (UFC)
+
+Luana Martins - University of Salerno
+
+Lucas Vegi - Universidade Federal de Viçosa (UFV)
+
+Marcelo de Almeida Maia - Universidade Federal de Uberlândia (UFU)
+
+Márcio O. Barros - Universidade Federal do Rio de Janeiro (UFRJ)
+
+Maria Claudia Figueiredo Pereira Emer - Universidade Tecnológica Federal do Paraná (UTFPR)
+
+Maria Lydia Fioravanti - Universidade de São Paulo (USP)
+
+Mariana Maia Peixoto - Universidade de Pernambuco (UPE)
+
+Michel Albonico - Universidade Tecnológica Federal do Paraná (UTFPR)
+
+Michel Soares - Universidade Federal de Sergipe (UFS)
+
+Mirko Perkusich - Universidade Federal de Campina Grande (UFCG)
+
+Paola Accioly - Universidade Federal de Pernambuco (UFPE)
+
+Paulo Meirelles - Universidade de São Paulo (USP)
+
+Paulo Gabriel Gadelha Queiroz - Universidade Federal Rural do Semi-Árido (UFERSA)
+
+Pedro Henrique Dias Valle - Universidade de São Paulo (USP)
+
+Renato Balancieri - Universidade Estadual de Maringá (UEM)
+
+Renato Bulcão-Neto - Universidade Federal de Goiás (UFG)
+
+Ricardo Theis Geraldi - Universidade Federal de Mato Grosso do Sul (UFMS)
+
+Rita Suzana Pitangueira Maciel - Universidade Federal da Bahia (UFBA)
+
+Rodrigo Bonifacio - Universidade Federal de Pernambuco (CIn - UFPE)
+
+Rodrigo Rocha Gomes e Souza - Universidade Federal da Bahia (UFBA)
+
+Sabrina dos Santos Marczak - Pontifícia Universidade Católica do Rio Grande do Sul (PUCRS)
+
+Sergio Soares - Universidade Federal de Pernambuco (UFPE)
+
+Simone  do Rocio Senger Souza - Universidade de São Paulo (USP)
+
+Sofia Costa Paiva - Universidade Federal de Goiás (UFG)
+
+Thaís Burity - Universidade Federal do Agreste de Pernambuco (UFAPE)
+
+Thiago Ferreira - The University of Michigan-Flint
+
+Tiago Lima Massoni - Universidade Federal de Campina Grande (UFCG)
+
+Troy Costa Kohwalter - Universidade Federal Fluminense (UFF)
+
+Uirá Kulesza - Universidade Federal do Rio Grande do Norte (UFRN)
+
+Valdemar Vicente Graciano Neto - Universidade Federal de Goiás (UFG)
+
+Williamson Silva - Universidade Federal do Cariri (UFCA)
+
+Willian Nalepa Oizumi - Google
+
 <br/>
 
 > Insightful Ideas and Emerging Results Track
