@@ -96,14 +96,97 @@ Para reconhecer contribuições de destaque, **serão concedidos quatro prêmios
     
 ###### Coordenação
     
-Anderson Faustino da Silva - Universidade Estadual de Maringá (UEM)
+Anderson Faustino da Silva — Universidade Estadual de Maringá, Brazil
 
-Sérgio Queiroz de Medeiros - Universidade Federal do Rio Grande do Norte (UFRN) 
+Sérgio Queiroz de Medeiros — Universidade Federal do Rio Grande do Norte, Brazil
 
 ###### Comitê de Programa
     
-O Comitê de Programa está em formação e será anunciado em breve.
-    
+Alberto Pardo — Universidad de La República, Uruguay
+
+Alcides Fonseca — University of Lisbon, Portugal
+
+Alejandro Diaz Caro — Universidad Nacional de Quilmes, Argentina
+
+Andre Murbach Maidl — Elastic, Brazil
+
+Andre Rauber Du Bois — Universidade Federal de Pelotas, Brazil
+
+Andrei Rimsa — Centro Federal de Educação Tecnológica de Minas Gerais, Brazil
+
+Artem Pelenitsyn — Purdue University, United States of America
+
+Asif Ali Khan — TU Dresden, Germany
+
+Cristiano Damiani Vasconcellos — Universidade do Estado de Santa Catarina, Brazil
+
+Dalvan Griebler — Pontifícia Universidade Católica do Rio Grande do Sul, Brazil
+
+Eduardo Piveta — Universidade Federal de Santa Maria, Brazil
+
+Elton Máximo Cardoso — Universidade Federal de Ouro Preto, Brazil
+
+Fernando Castor — University of Twente, Netherlands
+
+Fernando Magno Quintão Pereira — Universidade Federal de Minas Gerais, Brazil
+
+Francisco H. Carvalho-Junior — Universidade Federal do Ceará, Brazil
+
+Francisco Sant'Anna — Universidade do Estado do Rio de Janeiro, Brazil
+
+Frédéric Peschanski — Laboratoire d'Informatique Paris 6, France
+
+Gleifer Vaz Alves — Universidade Tecnológica Federal do Paraná, Brazil
+
+Hugo Musso Gualandi — Universidade Federal do Rio de Janeiro, Brazil
+
+Jerusa Marchi — Universidade Federal de Santa Catarina, Brazil
+
+João Fabrício Filho — UTFPR Campo Mourão, Brazil
+
+João Lima — TU Dresden, Germany
+
+João Paulo Fernandes — New York University Abu Dhabi, United Arab Emirates
+
+José Daniel Garcia Sanchez — Universidad Carlos III de Madrid, Spain
+
+Juliana Kaizer Vizzotto — Universidade Federal de Santa Maria, Brazil
+
+Lars Schuetze — TU Dresden, Germany
+
+Leopoldo Motta Teixeira — Universidade Federal de Pernambuco, Brazil
+
+Mallku Soldevila — Universidade Federal de Minas Gerais, Brazil
+
+Marcelo de Gomensoro Malheiros — Universidade Estadual de Maringá, Brazil
+
+Mariza Andrade Silva Bigonha — Universidade Federal de Minas Gerais, Brazil
+
+Marjan Mernik — University of Maribor, Slovenia
+
+Martin A. Musicante — Universidade Federal do Rio Grande do Norte, Brazil
+
+Nuno Macedo — Faculdade de Engenharia da Universidade do Porto, Portugal
+
+Rafael de Santiago — Universidade Federal de Santa Catarina, Brazil
+
+Rafael Dueire Lins — Universidade Federal de Pernambuco, Brazil
+
+Roberto Ierusalimschy — Pontifícia Universidade Católica do Rio de Janeiro, Brazil
+
+Roberto S. Bigonha — Universidade Federal de Minas Gerais, Brazil
+
+Rodrigo Geraldo Ribeiro — Universidade Federal de Ouro Preto, Brazil
+
+Rodrigo Hübner — Universidade Tecnológica Federal do Paraná, Brazil
+
+Rodrigo Machado — Universidade Federal do Rio Grande do Sul, Brazil
+
+Rogério Aparecido Gonçalves — Universidade Tecnológica Federal do Paraná, Brazil
+
+Samuel da Silva Feitosa — Universidade Federal da Fronteira Sul, Brazil
+
+Thiago Borges de Oliveira — Universidade Federal de Jataí, Brazil
 
 #### Contato
     
