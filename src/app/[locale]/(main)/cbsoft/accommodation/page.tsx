@@ -26,6 +26,11 @@ export default async function AccommodationPage({ params }: Props) {
       <Title titulo={t('titulo')} align='center' />
       <div className='container'>
         {t('description')}
+        <div>
+          <picture>
+            <img src={`${process.env.NEXT_PUBLIC_ASSET_PREFIX}/images/logos/cbsoft-logo.svg`} alt='logo' />
+          </picture>
+        </div>
         {t('hotels_list')}
         <br />
         {t('hotels_table')}
