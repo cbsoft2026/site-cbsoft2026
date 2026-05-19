@@ -157,7 +157,7 @@ O Comitê Diretivo do SBES nomeará um comitê para premiar os melhores trabalho
 
 * Davi Viana (Universidade Federal do Maranão)
 
-* Edna Dias Canedo (Universidade de Brasília)
+* Edna Dias Canedo (Universidade Federal de Pernambuco - Cin, UFPE)
 
 * Elisa Y. Nakagawa (Universidade de São Paulo)
 

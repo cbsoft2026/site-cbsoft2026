@@ -163,7 +163,7 @@ The Program Committee Chairs reserve the right to nominate for the award only th
 
 * Davi Viana (Universidade Federal do Maranão)
 
-* Edna Dias Canedo (Universidade de Brasília)
+* Edna Dias Canedo (Universidade Federal de Pernambuco - Cin, UFPE)
 
 * Elisa Y. Nakagawa (Universidade de São Paulo)
 

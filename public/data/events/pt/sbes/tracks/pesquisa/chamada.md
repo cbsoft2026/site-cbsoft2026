@@ -244,7 +244,7 @@ Davi Viana - Universidade Federal do Maranhão (UFMA)
 
 Denivan Campos - University of Molise
 
-Edna Dias Canedo - Universidade de Brasília (UnB)
+Edna Dias Canedo - Universidade Federal de Pernambuco (Cin, UFPE)
 
 Eduardo Aranha - Universidade Federal do Rio Grande do Norte (UFRN)
 
