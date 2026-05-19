@@ -1,11 +1,9 @@
 import Title from '@/components/Title';
-import { Key } from 'react';
 
 import styles from './styles.module.scss';
-import { accommodations } from '@/data';
-import { getTranslations } from 'next-intl/server';
 import { createPageMetadata } from '@/lib/metadata';
 import { getTObject } from '@/lib/getTObject';
+import ImagePopup from '@/components/ImagePopup';
 
 type Props = {
   params: Promise<{ locale: string }>;
@@ -17,7 +15,6 @@ export async function generateMetadata({ params }: Props) {
 }
 
 export default async function AccommodationPage({ params }: Props) {
-  const { locale } = await params;
   // TODO: en translate accommodation
   const t = await getTObject('pages/cbsoft/accommodation', {});
 
@@ -26,10 +23,19 @@ export default async function AccommodationPage({ params }: Props) {
       <Title titulo={t('titulo')} align='center' />
       <div className='container'>
         {t('description')}
-        <div>
-          <picture>
-            <img src={`${process.env.NEXT_PUBLIC_ASSET_PREFIX}/images/logos/cbsoft-logo.svg`} alt='logo' />
-          </picture>
+        <div className={styles['banners-wrapper']}>
+          <ImagePopup
+            src={`${process.env.NEXT_PUBLIC_ASSET_PREFIX}/images/accommodation/banner-radisson-pinheiros.jpeg`}
+            alt='banner-radisson-pinheiros'
+          />
+          <ImagePopup
+            src={`${process.env.NEXT_PUBLIC_ASSET_PREFIX}/images/accommodation/banner-quality-faria-lima.jpeg`}
+            alt='banner-quality-faria-lima'
+          />
+          <ImagePopup
+            src={`${process.env.NEXT_PUBLIC_ASSET_PREFIX}/images/accommodation/banner-fit-villa-lobos.jpeg`}
+            alt='banner-fit-villa-lobos'
+          />
         </div>
         {t('hotels_list')}
         <br />

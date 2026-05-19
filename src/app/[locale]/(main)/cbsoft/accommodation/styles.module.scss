@@ -43,3 +43,17 @@
     }
   }
 }
+
+.banners-wrapper {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 32px;
+  margin: 32px 0;
+}
+
+@media (max-width: 768px) {
+  .banners-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+  }
+}
