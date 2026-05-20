@@ -227,7 +227,7 @@ sbcars:
 
 sblp: 
     abstract_submission:
-        date: 2026-05-20
+        date: 2026-06-01
         label:
             pt: "Envio de resumos"
             en: "Abstract submission"
