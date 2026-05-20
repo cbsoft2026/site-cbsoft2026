@@ -27,14 +27,17 @@ export default async function AccommodationPage({ params }: Props) {
           <ImagePopup
             src={`${process.env.NEXT_PUBLIC_ASSET_PREFIX}/images/accommodation/banner-radisson-pinheiros.jpeg`}
             alt='banner-radisson-pinheiros'
+            loading={'lazy'}
           />
           <ImagePopup
             src={`${process.env.NEXT_PUBLIC_ASSET_PREFIX}/images/accommodation/banner-quality-faria-lima.jpeg`}
             alt='banner-quality-faria-lima'
+            loading={'lazy'}
           />
           <ImagePopup
             src={`${process.env.NEXT_PUBLIC_ASSET_PREFIX}/images/accommodation/banner-fit-villa-lobos.jpeg`}
             alt='banner-fit-villa-lobos'
+            loading={'lazy'}
           />
         </div>
         {t('hotels_list')}

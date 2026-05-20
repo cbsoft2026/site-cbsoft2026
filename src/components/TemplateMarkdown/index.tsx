@@ -9,6 +9,7 @@ import rehypeKatex from 'rehype-katex';
 import 'katex/dist/katex.min.css';
 import { interpolate } from '@/lib/getTObject';
 import AddCalendar from '../AddCalendar';
+import ImagePopup from '../ImagePopup';
 
 type Props = {
   children: string | null | undefined;
@@ -28,11 +29,11 @@ export default function TemplateMarkdown({ children, className, variables, local
         rehypePlugins={[rehypeKatex, remarkGfm, [rehypeHighlight, { languages: { latex } }], rehypeRaw]}
         components={{
           a: ({ node, ...props }) => {
-            if (props.href?.startsWith("#user-content-fn")) {
+            if (props.href?.startsWith('#user-content-fn')) {
               return <a {...props}>{props.children}</a>;
             }
             return (
-              <a {...props} target="_blank" rel="noopener noreferrer">
+              <a {...props} target='_blank' rel='noopener noreferrer'>
                 {props.children}
               </a>
             );
@@ -50,10 +51,20 @@ export default function TemplateMarkdown({ children, className, variables, local
             </div>
           ),
           sup: ({ node, ...props }) => (
-            <sup style={{ fontSize: "0.8em", cursor: "pointer", marginLeft: 4 }}>
-              [{props.children}]
-            </sup>
+            <sup style={{ fontSize: '0.8em', cursor: 'pointer', marginLeft: 4 }}>[{props.children}]</sup>
           ),
+          img: ({ node, ...props }) => {
+            const alt = props.alt || '';
+
+            const disablePopup = alt.startsWith('nopopup:');
+            const cleanAlt = alt.replace(/^nopopup:\s*/, '');
+
+            if (disablePopup) {
+              return <img {...props} alt={cleanAlt} loading='lazy' />;
+            }
+
+            return <ImagePopup {...props} alt={cleanAlt} loading='lazy' />;
+          },
           // table({ children }) {
           //   return (
           //     <div style={{ overflowX: "auto" }}>

@@ -1,18 +1,16 @@
 'use client';
 
-import { useEffect, useState, CSSProperties } from 'react';
+import { useEffect, useState, CSSProperties, ImgHTMLAttributes } from 'react';
 import styles from './styles.module.scss';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faXmark } from '@fortawesome/free-solid-svg-icons';
 
-type ImagePopupProps = {
-  src: string;
-  alt?: string;
+type ImagePopupProps = ImgHTMLAttributes<HTMLImageElement> & {
   previewStyle?: CSSProperties;
   popupStyle?: CSSProperties;
 };
 
-export default function ImagePopup({ src, alt = 'popup image', previewStyle, popupStyle }: ImagePopupProps) {
+export default function ImagePopup({ src, alt = 'popup image', previewStyle, popupStyle, ...props }: ImagePopupProps) {
   const [open, setOpen] = useState(false);
 
   useEffect(() => {
@@ -43,6 +41,7 @@ export default function ImagePopup({ src, alt = 'popup image', previewStyle, pop
         style={{
           ...previewStyle,
         }}
+        {...props}
       />
 
       {open && (
@@ -55,6 +54,7 @@ export default function ImagePopup({ src, alt = 'popup image', previewStyle, pop
             style={{
               ...popupStyle,
             }}
+            loading={'lazy'}
           />
 
           <button onClick={() => setOpen(false)} className={styles['popup-card__button']}>
