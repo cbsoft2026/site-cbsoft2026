@@ -25,17 +25,17 @@ export default async function AccommodationPage({ params }: Props) {
         {t('description')}
         <div className={styles['banners-wrapper']}>
           <ImagePopup
-            src={`${process.env.NEXT_PUBLIC_ASSET_PREFIX}/images/accommodation/banner-radisson-pinheiros.jpeg`}
+            src={`${process.env.NEXT_PUBLIC_ASSET_PREFIX}/images/accommodation/banner-radisson-pinheiros.webp`}
             alt='banner-radisson-pinheiros'
             loading={'lazy'}
           />
           <ImagePopup
-            src={`${process.env.NEXT_PUBLIC_ASSET_PREFIX}/images/accommodation/banner-quality-faria-lima.jpeg`}
+            src={`${process.env.NEXT_PUBLIC_ASSET_PREFIX}/images/accommodation/banner-quality-faria-lima.webp`}
             alt='banner-quality-faria-lima'
             loading={'lazy'}
           />
           <ImagePopup
-            src={`${process.env.NEXT_PUBLIC_ASSET_PREFIX}/images/accommodation/banner-fit-villa-lobos.jpeg`}
+            src={`${process.env.NEXT_PUBLIC_ASSET_PREFIX}/images/accommodation/banner-fit-villa-lobos.webp`}
             alt='banner-fit-villa-lobos'
             loading={'lazy'}
           />
