@@ -89,7 +89,7 @@ Todos os artigos aceitos serão publicados nos anais do evento, indexados pela S
     
 Uma seleção dos melhores artigos de edições recentes do SBLP tem sido convidada a ser estendida e considerada para publicação em um número especial do <em>Journal of Computer Languages (COLA)</em>, publicado pela Elsevier. Para o SBLP 2026, os organizadores pretendem contatar o COLA para um número especial semelhante, convidando autores dos artigos mais bem avaliados e promissores a submeter versões estendidas de seus trabalhos para nova rodada de revisão por pares. Tais extensões tipicamente exigem uma adição significativa de novo material, avaliação mais aprofundada e uma discussão mais ampla dos resultados.
     
-Para reconhecer contribuições de destaque, **serão concedidos quatro prêmios de melhor artigo**: **dois** entre as submissões de artigos completos da Trilha Principal e dois entre as submissões de artigos completos da Trilha de Graduação. A seleção levará em conta a qualidade científica, a originalidade, a clareza da apresentação e o impacto potencial na comunidade de linguagens de programação. Os artigos premiados serão destacados durante o simpósio e na divulgação do evento, e seus autores receberão um certificado formal.
+Para reconhecer contribuições de destaque, **serão concedidos três prêmios de melhor artigo**: **dois** entre as submissões de artigos completos da Trilha Principal e **um** entre as submissões de artigos completos da Trilha de Graduação. A seleção levará em conta a qualidade científica, a originalidade, a clareza da apresentação e o impacto potencial na comunidade de linguagens de programação. Os artigos premiados serão destacados durante o simpósio e na divulgação do evento, e seus autores receberão um certificado formal.
     
 
 #### Organização
@@ -151,6 +151,8 @@ João Paulo Fernandes — New York University Abu Dhabi, United Arab Emirates
 José Daniel Garcia Sanchez — Universidad Carlos III de Madrid, Spain
 
 Juliana Kaizer Vizzotto — Universidade Federal de Santa Maria, Brazil
+
+Karina Giardi Roggia — Universidade do Estado de Santa Catarina, Brasil
 
 Lars Schuetze — TU Dresden, Germany
 
