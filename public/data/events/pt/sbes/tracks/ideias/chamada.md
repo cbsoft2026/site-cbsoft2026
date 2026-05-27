@@ -219,6 +219,8 @@ Fernanda Madeiral - Universidade Federal de Pernambuco (UFPE)
 
 Francisco Henrique Cerdeira Ferreira - Universidade Federal de Juiz de Fora (UFJF)
 
+Gleison Santos - Universidade Federal do Estado do Rio de Janeiro (UNIRIO)
+
 Heitor Augustus Xavier Costa - Universidade Federal de Lavras (UFLA)
 
 Heleno de Souza Campos Junior - Universidade Federal Fluminense (UFF)
@@ -242,8 +244,6 @@ Karina Kohl - Universidade Federal do Rio Grande do Sul (UFRGS)
 Kiev Gama - Universidade Federal de Pernambuco (UFPE)
 
 Klissiomara Lopes Dias - Universidade Federal Rural da Amazônia (UFRA)
-
-Larissa Rocha Soares Bastos - Universidade do Estado da Bahia (UNEB)
 
 Leonardo Fernandes M. de Oliveira - Instituto Federal de Alagoas (Ifal)
 
