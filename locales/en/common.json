@@ -11,11 +11,11 @@
   "sbcars": "SBCARS",
   "sast": "SAST",
   "sblp": "SBLP",
-  "sbes": "SBES", 
+  "sbes": "SBES",
   "latam-school": "LATAM School",
   "high-school": "CBSoft for High School",
   "workshops": "Workshops",
-  "workshops_accepts": "Workshops Accepts",
+  "workshops_accepts": "Accepted Workshops",
   "siglas": {
     "cbsoft": "Brazilian Conference on Software: Practice and Theory",
     "sbes": "Brazilian Symposium on Software Engineering",
