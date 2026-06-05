@@ -18,9 +18,10 @@ const alegreyaSansUltraBold = localFont({
 
 export const metadata: Metadata = {
   title: {
-    default: `CBSoft ${appConfig.year}`,
-    template: `%s | CBSoft ${appConfig.year}`,
+    default: `CBSoft ${appConfig.year} - SBC`,
+    template: `%s | CBSoft ${appConfig.year} - SBC`,
   },
+  keywords: ['SBC', 'CBSoft'],
   openGraph: {
     type: 'website',
     url: `${process.env.NEXT_PUBLIC_SITE_URL}`,
@@ -34,6 +35,7 @@ export const metadata: Metadata = {
         type: 'image/png',
       },
     ],
+    siteName: 'SBC',
   },
   icons: {
     icon: `${process.env.NEXT_PUBLIC_ASSET_PREFIX}/favicon.ico`,
