@@ -1,4 +1,4 @@
-The **Brazilian Conference on Software: Practice and Theory (CBSoft)** is an event annually promoted by the Brazilian Computing Society (SBC) aiming at fostering the exchange of experience among researchers and practitioners from industry and academia about the most recent research, tendencies, and theoretical and practical innovations on software. Held since 2010 as an aggregating conference of Brazilian symposia promoted by SBC on software, CBSoft has become one of the main conferences of the Brazilian scientific community on Computing.
+The **Brazilian Conference on Software: Practice and Theory (CBSoft)** is an event annually promoted by the Brazilian Computer Society (SBC) aiming at fostering the exchange of experience among researchers and practitioners from industry and academia about the most recent research, tendencies, and theoretical and practical innovations on software. Held since 2010 as an aggregating conference of Brazilian symposia promoted by SBC on software, CBSoft has become one of the main conferences of the Brazilian scientific community on Computing.
 
 In { ano }, the { edicao } edition of CBSoft will be held **in person**, from **{ dataEvento } in { localEvento }**. It will integrate four traditional symposia annualy promoted by the Brazilian community on Software Engineering:
 
@@ -49,5 +49,17 @@ From this initial version, adaptations were made to improve readability in digit
 
 #### Credits
 
-- Initial logo generation: GPT-4o-mini
+- Initial logo generation: `GPT-4o-mini`
 - Prompt author: Paulo Meirelles
+
+<!-- texto padrão sobre a SBC (traduzido) - 28 de jun. de 2024 -->
+
+# About SBC
+
+The **Brazilian Computer Society - SBC** (Sociedade Brasileira de Computação) is a non-profit scientific society founded in July 1978 that brings together students, professors, professionals, researchers, and computing enthusiasts from across Brazil.
+
+SBC's mission is to promote access to information and culture through information technology, foster digital inclusion, encourage research and education in computing in Brazil, and contribute to the development of computing professionals with social responsibility.
+
+To organize and promote scientific, technical, educational, and policy-related activities, initiatives, and events, SBC maintains a structure composed of three types of Thematic Groups (GT): Major Areas (GA), Special Commissions (CE), and Interest Groups (GI). These groups bring together members who share common interests in specific subfields of computing.
+
+Here, you are accessing the event website of one of **SBC's Special Commissions (CE)**, which represents a group of SBC members who share interests and values in a specific area of Computing. Active SBC members subscribe to the [Special Commission (CE) mailing lists](https://www.sbc.org.br/comissoes-especiasis/) for the areas they wish to follow. If you are not yet a member, or if you would like to renew your membership, [click the membership link](https://centraldesistemas.sbc.org.br/mom) and join the largest and leading scientific society in the field of computing in Latin America.
