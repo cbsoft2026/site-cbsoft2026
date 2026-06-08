@@ -439,3 +439,29 @@
 .simposios {
   padding-top: 32px;
 }
+
+.not-found {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  min-height: 100svh;
+
+  h1 {
+    font-size: 72px;
+    margin-bottom: 72px;
+    text-align: center;
+
+    @media (max-width: 994px) {
+      font-size: 56px;
+    }
+
+    @media (max-width: 576px) {
+      font-size: 36px;
+    }
+  }
+
+  .background-geometric {
+    margin-bottom: 72px
+  }
+}
