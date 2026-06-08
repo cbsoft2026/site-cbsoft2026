@@ -30,6 +30,12 @@
       padding: 5px 15px;
     }
   }
+  @media (max-width: 768px) {
+    a {
+      overflow-wrap: break-word;
+      word-wrap: break-word;
+    }
+  }
   h1 {
     margin: 48px 0 24px;
   }
