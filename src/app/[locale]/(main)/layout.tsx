@@ -16,7 +16,7 @@ export default async function RootLayout({ children, params }: Props) {
   return (
     <NextIntlClientProvider locale={locale} messages={messages} timeZone='America/Sao_Paulo'>
       <Menu />
-      <main style={{ paddingTop: '75px' }}>{children}</main>
+      <main>{children}</main>
       <Footer />
     </NextIntlClientProvider>
   );

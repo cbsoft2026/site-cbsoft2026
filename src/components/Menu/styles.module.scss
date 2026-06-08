@@ -4,7 +4,6 @@
 .navbar {
   padding: 0;
   border-bottom: 1px solid $border-color;
-  position: fixed;
   top: 0;
   left: 0;
   width: 100%;
@@ -12,8 +11,39 @@
   z-index: 999;
   min-height: 75px;
   max-height: 75px;
-  background: white;
-  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.04);
+
+  &.navbar__organized-by {
+    min-height: 114px;
+    max-height: 114px;
+    margin-top: -114px;
+    transition: .4s margin;
+
+    a {
+      display: flex;
+      flex-direction: column;
+      align-items: start;
+      padding: 12px 24px !important;
+      font-size: 0.65rem;
+
+      img {
+        max-width: 250px;
+        max-height: 72px !important;
+      }
+    }
+
+    &.organized-by--visible {
+      margin-top: 0;
+    }
+  }
+
+  &.navbar__stick {
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.04);
+    position: sticky;
+
+    .navbar-brand {
+      border-right: 1px solid $border-color;
+    }
+  }
   
   font-size: 1.075rem;
   --bs-nav-link-font-size: 1.075rem;
@@ -25,7 +55,6 @@
 
   .navbar-brand {
     padding: 0;
-    border-right: 1px solid $border-color;
     padding-left: 24px;
     padding-right: 24px;
     text-align: center;

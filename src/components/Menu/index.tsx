@@ -1,13 +1,14 @@
 'use client';
 
 import { usePathname } from 'next/navigation';
-import { HTMLAttributes, useRef, useState } from 'react';
+import { HTMLAttributes, useEffect, useRef, useState } from 'react';
 import styles from './styles.module.scss';
 import { useLocale, useTranslations } from 'next-intl';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faBars } from '@fortawesome/free-solid-svg-icons';
 import appConfig from '@/app/app.config';
 import LinkLocale from '../LinkLocale';
+import Link from 'next/link';
 
 type NavbarItemProps = {
   title: string;
@@ -82,6 +83,28 @@ export default function Menu(props: HTMLAttributes<HTMLDivElement>) {
   const commonT = useTranslations('common');
 
   const collapse = () => setCollapsed(true);
+
+  const [visible, setVisible] = useState(false);
+
+  useEffect(() => {
+    const handleWheel = (e: WheelEvent) => {
+      const atTop = window.scrollY === 0;
+
+      if (atTop && e.deltaY < 0) {
+        setVisible(true);
+      }
+
+      if (e.deltaY > 0) {
+        setVisible(false);
+      }
+    };
+
+    window.addEventListener('wheel', handleWheel, { passive: true });
+
+    return () => {
+      window.removeEventListener('wheel', handleWheel);
+    };
+  }, []);
 
   const cbsoftMenuItem: NavbarItemProps = {
     title: t('cbsoft.titulo', { ano: appConfig.year }),
@@ -163,59 +186,78 @@ export default function Menu(props: HTMLAttributes<HTMLDivElement>) {
   const div = useRef<HTMLDivElement | null>(null);
 
   return (
-    <nav {...props} ref={div} className={`navbar navbar-expand-xl ${styles.navbar}`}>
-      <LinkLocale
-        className={`navbar-brand ${styles['navbar-brand']}`}
-        href={{ pathname: '/' }}
-        locale={locale}
-        onClick={collapse}
+    <>
+      <nav
+        {...props}
+        ref={div}
+        className={`navbar ${styles.navbar} ${styles['navbar__organized-by']} ${visible ? styles['organized-by--visible'] : ''}`}
       >
-        <picture>
-          <source
-            srcSet={`${process.env.NEXT_PUBLIC_ASSET_PREFIX}/images/logos/cbsoft-logo-icon.svg`}
-            media='(max-width: 576px)'
-          />
-          <source
-            srcSet={`${process.env.NEXT_PUBLIC_ASSET_PREFIX}/images/logos/cbsoft-logo.svg`}
-            media='(max-width: 1200px)'
-          />
-          <img src={`${process.env.NEXT_PUBLIC_ASSET_PREFIX}/images/logos/cbsoft-logo.svg`} alt='logo' />
-        </picture>
-      </LinkLocale>
-
-      <button
-        className={`navbar-toggler ${styles['navbar-toggler']}`}
-        aria-label='Toggle navigation'
-        onClick={() => setCollapsed(!collapsed)}
-      >
-        <FontAwesomeIcon icon={faBars} />
-      </button>
-      <div
-        className={`${collapsed ? `collapse ${styles['collapse']}` : ''} navbar-collapse ${styles['navbar-collapse']}`}
-        id='navbarNav'
-      >
-        <ul className={`navbar-nav ${styles['navbar-nav']}`} id='flags'>
-          {menuItemsCollection.map((menuItem, index) => (
-            <NavbarItem {...menuItem} key={index} onClick={collapse} />
-          ))}
-
-          <li className={`nav-item ${styles['nav-item']}`}>
-            <LinkLocale href={pathname} locale={locale === 'pt' ? 'en' : 'pt'} className={styles.flag}>
-              <picture>
-                <img
-                  src={`${process.env.NEXT_PUBLIC_ASSET_PREFIX}/images/icon/${locale === 'pt' ? 'en' : 'pt'}.png`}
-                  width='40'
-                  alt={locale}
-                  style={{ minWidth: '40px' }}
-                />
-              </picture>
-            </LinkLocale>
-          </li>
-        </ul>
-        <LinkLocale href={{ pathname: '/registration' }} className={styles.ticket} onClick={collapse} locale={locale}>
-          <span> {t('inscricoes')}</span>
+        <Link
+          className={`navbar-brand ${styles['navbar-brand']}`}
+          href={'http://www.sbc.org.br'}
+          target='_blank'
+          rel='noopener noreferrer'
+        >
+          Realização:
+          <picture>
+            <img src={`${process.env.NEXT_PUBLIC_ASSET_PREFIX}/images/logos/sbc-logo.svg`} alt='sbc logo' />
+          </picture>
+        </Link>
+      </nav>
+      <nav {...props} ref={div} className={`navbar navbar-expand-xl ${styles.navbar} ${styles['navbar__stick']}`}>
+        <LinkLocale
+          className={`navbar-brand ${styles['navbar-brand']}`}
+          href={{ pathname: '/' }}
+          locale={locale}
+          onClick={collapse}
+        >
+          <picture>
+            <source
+              srcSet={`${process.env.NEXT_PUBLIC_ASSET_PREFIX}/images/logos/cbsoft-logo-icon.svg`}
+              media='(max-width: 576px)'
+            />
+            <source
+              srcSet={`${process.env.NEXT_PUBLIC_ASSET_PREFIX}/images/logos/cbsoft-logo.svg`}
+              media='(max-width: 1200px)'
+            />
+            <img src={`${process.env.NEXT_PUBLIC_ASSET_PREFIX}/images/logos/cbsoft-logo.svg`} alt='logo' />
+          </picture>
         </LinkLocale>
-      </div>
-    </nav>
+
+        <button
+          className={`navbar-toggler ${styles['navbar-toggler']}`}
+          aria-label='Toggle navigation'
+          onClick={() => setCollapsed(!collapsed)}
+        >
+          <FontAwesomeIcon icon={faBars} />
+        </button>
+        <div
+          className={`${collapsed ? `collapse ${styles['collapse']}` : ''} navbar-collapse ${styles['navbar-collapse']}`}
+          id='navbarNav'
+        >
+          <ul className={`navbar-nav ${styles['navbar-nav']}`} id='flags'>
+            {menuItemsCollection.map((menuItem, index) => (
+              <NavbarItem {...menuItem} key={index} onClick={collapse} />
+            ))}
+
+            <li className={`nav-item ${styles['nav-item']}`}>
+              <LinkLocale href={pathname} locale={locale === 'pt' ? 'en' : 'pt'} className={styles.flag}>
+                <picture>
+                  <img
+                    src={`${process.env.NEXT_PUBLIC_ASSET_PREFIX}/images/icon/${locale === 'pt' ? 'en' : 'pt'}.png`}
+                    width='40'
+                    alt={locale}
+                    style={{ minWidth: '40px' }}
+                  />
+                </picture>
+              </LinkLocale>
+            </li>
+          </ul>
+          <LinkLocale href={{ pathname: '/registration' }} className={styles.ticket} onClick={collapse} locale={locale}>
+            <span> {t('inscricoes')}</span>
+          </LinkLocale>
+        </div>
+      </nav>
+    </>
   );
 }
