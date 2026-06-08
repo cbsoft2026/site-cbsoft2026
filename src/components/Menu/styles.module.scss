@@ -10,10 +10,18 @@
   width: 100%;
   background-color: $body-bg;
   z-index: 999;
-  font-size: 1.075rem;
   min-height: 75px;
   max-height: 75px;
   background: white;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.04);
+  
+  font-size: 1.075rem;
+  --bs-nav-link-font-size: 1.075rem;
+
+  @media (max-width: 1500px) {
+    font-size: 1.0rem;
+    --bs-nav-link-font-size: 1.0rem;
+  }
 
   .navbar-brand {
     padding: 0;
@@ -21,6 +29,7 @@
     padding-left: 24px;
     padding-right: 24px;
     text-align: center;
+    margin-right: 0;
 
     img {
       max-height: 56px;
@@ -73,7 +82,7 @@
       justify-content: right;
       padding-right: 1em;
 
-      @media (max-width: 994px) {
+      @media (max-width: 1200px) {
         padding-right: 0;
       }
     }
@@ -178,7 +187,7 @@
       text-transform: uppercase;
     }
 
-    @media (max-width: 994px) {
+    @media (max-width: 1200px) {
       margin-top: 1em;
       text-align: center;
     }

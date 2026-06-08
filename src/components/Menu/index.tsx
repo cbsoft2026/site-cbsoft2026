@@ -163,7 +163,7 @@ export default function Menu(props: HTMLAttributes<HTMLDivElement>) {
   const div = useRef<HTMLDivElement | null>(null);
 
   return (
-    <nav {...props} ref={div} className={`navbar navbar-expand-lg ${styles.navbar}`}>
+    <nav {...props} ref={div} className={`navbar navbar-expand-xl ${styles.navbar}`}>
       <LinkLocale
         className={`navbar-brand ${styles['navbar-brand']}`}
         href={{ pathname: '/' }}
@@ -177,10 +177,6 @@ export default function Menu(props: HTMLAttributes<HTMLDivElement>) {
           />
           <source
             srcSet={`${process.env.NEXT_PUBLIC_ASSET_PREFIX}/images/logos/cbsoft-logo.svg`}
-            media='(max-width: 994px)'
-          />
-          <source
-            srcSet={`${process.env.NEXT_PUBLIC_ASSET_PREFIX}/images/logos/cbsoft-logo-icon.svg`}
             media='(max-width: 1200px)'
           />
           <img src={`${process.env.NEXT_PUBLIC_ASSET_PREFIX}/images/logos/cbsoft-logo.svg`} alt='logo' />
@@ -209,15 +205,16 @@ export default function Menu(props: HTMLAttributes<HTMLDivElement>) {
                 <img
                   src={`${process.env.NEXT_PUBLIC_ASSET_PREFIX}/images/icon/${locale === 'pt' ? 'en' : 'pt'}.png`}
                   width='40'
-                  alt=''
+                  alt={locale}
+                  style={{ minWidth: '40px' }}
                 />
               </picture>
             </LinkLocale>
           </li>
         </ul>
-        {/* <LinkLocale href={{ pathname: '/registration' }} className={styles.ticket} onClick={collapse} locale={locale}>
+        <LinkLocale href={{ pathname: '/registration' }} className={styles.ticket} onClick={collapse} locale={locale}>
           <span> {t('inscricoes')}</span>
-        </LinkLocale> */}
+        </LinkLocale>
       </div>
     </nav>
   );
