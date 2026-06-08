@@ -144,7 +144,7 @@ sbes_special:
             pt: "Registro do artigo"
             en: "Paper registration"
     submission_date:
-        date: 2026-06-08
+        date: 2026-06-10
         label: 
             pt: "Submissão do artigo completo"
             en: "Full paper submission"
