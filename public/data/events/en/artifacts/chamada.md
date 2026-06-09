@@ -130,9 +130,9 @@ Artifacts must be submitted electronically through the [JEMS3](https://jems3.sbc
 
 ##### Program Committee Co-Chairs​
 
-Matheus Paixão, Universidade Estadual do Ceará (UECE)​
+Matheus Paixão — Universidade Estadual do Ceará (UECE)​
 
-Daniel Lucrédio, Universidade Federal de São Carlos (UFSCar)
+Daniel Lucrédio — Universidade Federal de São Carlos (UFSCar)
 
 ##### Program Committee​
 

@@ -135,9 +135,9 @@ breve explicação de por que o artefato é elegível para os respectivos selos;
 
 ##### Co-Chairs do Comitê de Programa
 
-Matheus Paixão, Universidade Estadual do Ceará (UECE)
+Matheus Paixão — Universidade Estadual do Ceará (UECE)
 
-Daniel Lucrédio, Universidade Federal de São Carlos (UFSCAR)
+Daniel Lucrédio — Universidade Federal de São Carlos (UFSCar)
 
 ##### Comitê de Programa
 
