@@ -113,9 +113,9 @@ A Trilha de Ferramentas do SBES reconhece a generosidade dos membros do Comitê 
 
 ###### Coordenação do Comitê de Programa
 
-Edna Dias Canedo - Universidade Federal de Pernambuco (Cin, UFPE)
+Edna Dias Canedo — Universidade Federal de Pernambuco (Cin, UFPE)
 
-Rodrigo Pereira dos Santos - Universidade Federal do Estado do Rio de Janeiro (UNIRIO) 
+Rodrigo Pereira dos Santos — Universidade Federal do Estado do Rio de Janeiro (UNIRIO)
 
 <br/>
 
