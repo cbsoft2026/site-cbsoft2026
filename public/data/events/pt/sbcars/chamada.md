@@ -125,5 +125,7 @@ Todos os trabalhos submetidos devem estar em conformidade com o [Código de Cond
 
 ###### Coordenadores do Comitê de Programa – SBCARS 2026
 
-Juliana Alves Pereira (PUC-Rio) e Breno Bernard Nicolau de França (UNICAMP)
+Juliana Alves Pereira — Pontifícia Universidade Católica do Rio de Janeiro (PUC-Rio)
+
+Breno Bernard Nicolau de França — Universidade Estadual de Campinas (UNICAMP)
 
