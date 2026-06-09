@@ -33,7 +33,11 @@ export default async function DatesPage({ params }: Props) {
         }
       }
       return {
-        name: nameParts.length > 1 ? commonT(nameParts[0]) + " - " + commonT(`siglas.trilhas.${nameParts[1]}`) : commonT(nameKey),
+        name:
+          nameParts.length > 1
+            ? commonT(nameParts[0]) + ' - ' + commonT(`siglas.trilhas.${nameParts[1]}`)
+            : commonT(nameKey),
+        previouslyWhen: 'history' in info ? info.history : [],
         when: info.date,
         what: dateLabel,
       };
@@ -68,6 +72,14 @@ export default async function DatesPage({ params }: Props) {
                         fullDay={true}
                       />
                     </div>
+                    {date.previouslyWhen.length ? (
+                      <small className='small text-secondary'>
+                        {datesT('previously')}:{' '}
+                        {formatDate(dateOnlyFromISO(date.previouslyWhen[date.previouslyWhen.length - 1]), locale)}
+                      </small>
+                    ) : (
+                      <></>
+                    )}
                   </td>
                   <td>{date.name}</td>
                   <td>{date.what}</td>

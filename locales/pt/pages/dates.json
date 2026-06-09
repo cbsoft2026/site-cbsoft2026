@@ -1,6 +1,7 @@
 {
-    "when": "Quando",
-    "name": "Nome",
-    "what": "O que",
-    "important_dates": "Datas Importantes"
+  "when": "Quando",
+  "name": "Nome",
+  "what": "O que",
+  "important_dates": "Datas Importantes",
+  "previously": "anteriormente"
 }

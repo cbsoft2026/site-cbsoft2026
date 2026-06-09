@@ -5,6 +5,14 @@
 
 # NOTE: os simpósios podem ter formas diferentes de organizar as datas
 
+# campo `history` segue a ordem crescente, ou seja:
+#
+# data mais antiga
+# ...
+# data mais recente
+#
+# O último valor representa a data imediatamente anterior à atual.
+
 sbes_industry: 
     paper_registration:
         date: 2026-05-22

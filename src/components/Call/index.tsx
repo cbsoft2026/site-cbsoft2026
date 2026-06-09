@@ -18,8 +18,9 @@ type DateKey = keyof typeof dates;
 
 export default async function CallComponent({ acronym, track, className, locale }: Props) {
   const t = await getTranslations({ locale, namespace: 'components/call' });
+  const datesT = await getTranslations({ locale, namespace: 'pages/dates' });
 
-  const {body, slug, track: realTrack} = loadCalls(locale, [acronym], track ? [track] : []);
+  const { body, slug, track: realTrack } = loadCalls(locale, [acronym], track ? [track] : []);
 
   const label = `${slug}${realTrack ? `_${realTrack}` : ''}` as DateKey;
   const date = dates[label];
@@ -60,6 +61,7 @@ export default async function CallComponent({ acronym, track, className, locale 
                       dateLabel = '';
                     }
                   }
+                  const previouslyWhen = 'history' in value ? value.history : [];
 
                   return (
                     <tr key={value.date}>
@@ -72,6 +74,14 @@ export default async function CallComponent({ acronym, track, className, locale 
                           dateEnd={new Date(dateOnlyFromISO(value.date) ?? '')}
                           fullDay={true}
                         />
+                        {previouslyWhen.length ? (
+                          <small className='small text-secondary'>
+                            {datesT('previously')}:{' '}
+                            {formatDate(dateOnlyFromISO(previouslyWhen[previouslyWhen.length - 1]), locale)}
+                          </small>
+                        ) : (
+                          <></>
+                        )}
                       </td>
                     </tr>
                   );
