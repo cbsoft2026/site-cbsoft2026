@@ -102,8 +102,3 @@ Luiz Lula Rodrigues, OBONOBO
 Rafael Pugliese Werner, Independent consultant
 
 Suelen Goularte Carvalho, Independent consultant
-
-<br/>
-
-
-> Trilha da Indústria

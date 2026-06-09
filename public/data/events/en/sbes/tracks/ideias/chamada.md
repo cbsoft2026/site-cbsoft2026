@@ -321,7 +321,3 @@ Valdemar Vicente Graciano Neto — Universidade Federal de Goiás (UFG)
 Williamson Silva — Universidade Federal do Cariri (UFCA)
 
 Willian Nalepa Oizumi — Google
-
-<br/>
-
-> Insightful Ideas and Emerging Results Track

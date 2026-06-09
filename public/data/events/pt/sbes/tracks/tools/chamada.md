@@ -116,7 +116,3 @@ A Trilha de Ferramentas do SBES reconhece a generosidade dos membros do Comitê 
 Edna Dias Canedo — Universidade Federal de Pernambuco (Cin, UFPE)
 
 Rodrigo Pereira dos Santos — Universidade Federal do Estado do Rio de Janeiro (UNIRIO)
-
-<br/>
-
-> Trilha de Ferramentas

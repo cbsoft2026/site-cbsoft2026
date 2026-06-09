@@ -116,7 +116,3 @@ The SBES Tools Track recognizes the generosity and effort of the Program Committ
 Edna Dias Canedo — Universidade Federal de Pernambuco (Cin, UFPE)
 
 Rodrigo Pereira dos Santos — Universidade Federal do Estado do Rio de Janeiro (UNIRIO)
-
-<br/>
-
-> Tools Track

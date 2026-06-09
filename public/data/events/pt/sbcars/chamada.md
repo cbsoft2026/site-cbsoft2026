@@ -128,4 +128,3 @@ Todos os trabalhos submetidos devem estar em conformidade com o [Código de Cond
 Juliana Alves Pereira — Pontifícia Universidade Católica do Rio de Janeiro (PUC-Rio)
 
 Breno Bernard Nicolau de França — Universidade Estadual de Campinas (UNICAMP)
-

@@ -182,7 +182,3 @@ Carla Bezerra — Universidade Federal Do Ceará (UFC)
 ###### Program Committee
 
 *in formation*
-
-<br/>
-
-> Education Track

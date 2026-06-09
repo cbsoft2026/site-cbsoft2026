@@ -142,8 +142,3 @@ Todos os trabalhos submetidos devem estar em conformidade com o [Código de Cond
 Durante o evento, será realizada a II Mostra de Trabalhos dos Concursos do Simpósio Brasileiro de Engenharia de Software, na qual serão expostos os trabalhos selecionados para a Fase 2 do CTIC-ES, em formato de sessão de pôsteres, juntamente com os trabalhos do Concurso de Teses e Dissertações em Engenharia de Software (CTD-ES).
 
 A participação na Mostra de Trabalhos é um pré-requisito para a apresentação oral e, consequentemente, para a concorrência à premiação.
-
-
-<br/>
-
-> Concurso de Trabalhos de Iniciação Científica

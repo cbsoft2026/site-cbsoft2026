@@ -142,5 +142,3 @@ Daniel Lucrédio — Universidade Federal de São Carlos (UFSCar)
 ##### Comitê de Programa
 
 *A ser definido.*
-
-<br/>

@@ -184,7 +184,3 @@ Carla Bezerra — Universidade Federal Do Ceará (UFC)
 ###### Comitê de Programa
 
 *em formação*
-
-<br/>
-
-> Trilha de Educação

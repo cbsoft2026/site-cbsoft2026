@@ -438,8 +438,3 @@ Vítor E. Silva Souza — Universidade Federal do Espírito Santo (UFES)
 Walter Nakamura — Universidade Federal Tecnológica do Paraná (UTFPR)
 
 Windson Viana — Universidade Federal do Ceará (UFC)
-
-<br/>
-
-> Research Track
-
