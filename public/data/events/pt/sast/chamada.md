@@ -100,6 +100,6 @@ Ao submeter trabalhos para o SAST 2026, os autores reconhecem que estão em conf
 
 ###### Coordenadores de Comitê de Programa
 
-Roberta Coelho - Universidade Federal do Rio Grande do Norte (UFRN)
+Roberta Coelho — Universidade Federal do Rio Grande do Norte (UFRN)
 
-Elvys Soares - Instituto Federal de Alagoas (IFAL)
+Elvys Soares — Instituto Federal de Alagoas (IFAL)

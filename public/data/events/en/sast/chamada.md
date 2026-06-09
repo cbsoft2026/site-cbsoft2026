@@ -100,6 +100,6 @@ It is Permitted (without need for mention):
 
 ###### Program Committee Chairs
 
-Roberta Coelho - Federal University of Rio Grande do Norte (UFRN)
+Roberta Coelho — Federal University of Rio Grande do Norte (UFRN)
 
-Elvys Soares - Federal Institute of Alagoas (IFAL)
+Elvys Soares — Federal Institute of Alagoas (IFAL)
