@@ -170,157 +170,157 @@ Publication of the work requires that at least one author register for and atten
 
 #### Program Committee Chairs - Insightful Ideas and Emerging Results Track
 
-Thelma Colanzi - Universidade Estadual de Maringá (UEM)
+Thelma Colanzi — Universidade Estadual de Maringá (UEM)
 
-Cleidson de Souza - Universidade Federal do Pará (UFPA)
+Cleidson de Souza — Universidade Federal do Pará (UFPA)
 
 #### Program Committee
 
-Ademar França de Sousa Neto - Universidade Federal Rural do Semi-Árido (UFERSA)
+Ademar França de Sousa Neto — Universidade Federal Rural do Semi-Árido (UFERSA)
 
-Adenilso Simao - Universidade de São Paulo (USP)
+Adenilso Simao — Universidade de São Paulo (USP)
 
-Anderson Uchoa - Universidade Federal do Ceará (UFC)
+Anderson Uchoa — Universidade Federal do Ceará (UFC)
 
-Awdren de Lima Fontão - Universidade Federal de Mato Grosso do Sul (UFMS)
+Awdren de Lima Fontão — Universidade Federal de Mato Grosso do Sul (UFMS)
 
-Baldoino Fonseca - Universidade Federal de Alagoas (UFAL)
+Baldoino Fonseca — Universidade Federal de Alagoas (UFAL)
 
-Bruno Gadelha - Universidade Federal do Amazonas (UFAM)
+Bruno Gadelha — Universidade Federal do Amazonas (UFAM)
 
-Carla Bezerra - Universidade Federal do Ceará (UFC)
+Carla Bezerra — Universidade Federal do Ceará (UFC)
 
-Cláudio Sant'Anna - Universidade Federal da Bahia (UFBA)
+Cláudio Sant'Anna — Universidade Federal da Bahia (UFBA)
 
-Crescencio Lima - Instituto Federal da Bahia (IFBA)
+Crescencio Lima — Instituto Federal da Bahia (IFBA)
 
-Danyllo Albuquerque - Instituto Federal da Paraíba (IFPB)
+Danyllo Albuquerque — Instituto Federal da Paraíba (IFPB)
 
-Daricélio Moreira Soares - Universidade Federal do Acre (UFAC)
+Daricélio Moreira Soares — Universidade Federal do Acre (UFAC)
 
-Davi Viana - Universidade Federal do Maranhão (UFMA)
+Davi Viana — Universidade Federal do Maranhão (UFMA)
 
-Denivan Campos - University of Molise
+Denivan Campos — University of Molise
 
-Djan Santos - Instituto Federal da Bahia (IFBA)
+Djan Santos — Instituto Federal da Bahia (IFBA)
 
-Eduardo Aranha - Universidade Federal do Rio Grande do Norte (UFRN)
+Eduardo Aranha — Universidade Federal do Rio Grande do Norte (UFRN)
 
-Emanuel Coutinho - Universidade Federal Do Ceará (UFC)
+Emanuel Coutinho — Universidade Federal Do Ceará (UFC)
 
-Érica F. Souza - Universidade Tecnológica Federal do Paraná (UTFPR)
+Érica F. Souza — Universidade Tecnológica Federal do Paraná (UTFPR)
 
-Everton Cavalcante - Universidade Federal do Rio Grande do Norte (UFRN)
+Everton Cavalcante — Universidade Federal do Rio Grande do Norte (UFRN)
 
-Everton Tavares Guimaraes - The Pennsylvania State University
+Everton Tavares Guimaraes — The Pennsylvania State University
 
-Fabiano Cutigi Ferrari - Universidade Federal de São Carlos (UFSCar)
+Fabiano Cutigi Ferrari — Universidade Federal de São Carlos (UFSCar)
 
-Fernanda Madeiral - Universidade Federal de Pernambuco (UFPE)
+Fernanda Madeiral — Universidade Federal de Pernambuco (UFPE)
 
-Francisco Henrique Cerdeira Ferreira - Universidade Federal de Juiz de Fora (UFJF)
+Francisco Henrique Cerdeira Ferreira — Universidade Federal de Juiz de Fora (UFJF)
 
-Gleison Santos - Universidade Federal do Estado do Rio de Janeiro (UNIRIO)
+Gleison Santos — Universidade Federal do Estado do Rio de Janeiro (UNIRIO)
 
-Heitor Augustus Xavier Costa - Universidade Federal de Lavras (UFLA)
+Heitor Augustus Xavier Costa — Universidade Federal de Lavras (UFLA)
 
-Heleno de Souza Campos Junior - Universidade Federal Fluminense (UFF)
+Heleno de Souza Campos Junior — Universidade Federal Fluminense (UFF)
 
-Hudson Silva Borges - Universidade Federal de Mato Grosso do Sul (UFMS)
+Hudson Silva Borges — Universidade Federal de Mato Grosso do Sul (UFMS)
 
-Igor Wiese - Universidade Tecnológica Federal do Paraná (UTFPR)
+Igor Wiese — Universidade Tecnológica Federal do Paraná (UTFPR)
 
-Jaelson F. B. Castro - Universidade Federal de Pernambuco (UFPE)
+Jaelson F. B. Castro — Universidade Federal de Pernambuco (UFPE)
 
-Jéssyka  Vilela - Universidade Federal de Pernambuco (UFPE)
+Jéssyka  Vilela — Universidade Federal de Pernambuco (UFPE)
 
-João Brunet - Universidade Federal de Campina Grande (UFCG)
+João Brunet — Universidade Federal de Campina Grande (UFCG)
 
-João Choma Neto - Universidade Estadual de Maringá (UEM)
+João Choma Neto — Universidade Estadual de Maringá (UEM)
 
-Johnny Cardoso Marques - Instituto Tecnológico de Aeronáutica (ITA)
+Johnny Cardoso Marques — Instituto Tecnológico de Aeronáutica (ITA)
 
-Karina Kohl - Universidade Federal do Rio Grande do Sul (UFRGS)
+Karina Kohl — Universidade Federal do Rio Grande do Sul (UFRGS)
 
-Kiev Gama - Universidade Federal de Pernambuco (UFPE)
+Kiev Gama — Universidade Federal de Pernambuco (UFPE)
 
-Klissiomara Lopes Dias - Universidade Federal Rural da Amazônia (UFRA)
+Klissiomara Lopes Dias — Universidade Federal Rural da Amazônia (UFRA)
 
-Leonardo Fernandes M. de Oliveira - Instituto Federal de Alagoas (Ifal)
+Leonardo Fernandes M. de Oliveira — Instituto Federal de Alagoas (Ifal)
 
-Leonardo Gresta Paulino Murta - Universidade Federal Fluminense (UFF)
+Leonardo Gresta Paulino Murta — Universidade Federal Fluminense (UFF)
 
-Leticia Machado - Universidade Federal do Rio Grande do Sul (UFRGS)
+Leticia Machado — Universidade Federal do Rio Grande do Sul (UFRGS)
 
-Lilian Passos Scatalon - Universidade Estadual de Maringá (UEM)
+Lilian Passos Scatalon — Universidade Estadual de Maringá (UEM)
 
-Lina Garcês - Universidade de São Paulo (ICMC - USP)
+Lina Garcês — Universidade de São Paulo (ICMC - USP)
 
-Lincoln S. Rocha - Universidade Federal do Ceará (UFC)
+Lincoln S. Rocha — Universidade Federal do Ceará (UFC)
 
-Luana Martins - University of Salerno
+Luana Martins — University of Salerno
 
-Lucas Vegi - Universidade Federal de Viçosa (UFV)
+Lucas Vegi — Universidade Federal de Viçosa (UFV)
 
-Marcelo de Almeida Maia - Universidade Federal de Uberlândia (UFU)
+Marcelo de Almeida Maia — Universidade Federal de Uberlândia (UFU)
 
-Márcio O. Barros - Universidade Federal do Rio de Janeiro (UFRJ)
+Márcio O. Barros — Universidade Federal do Rio de Janeiro (UFRJ)
 
-Maria Claudia Figueiredo Pereira Emer - Universidade Tecnológica Federal do Paraná (UTFPR)
+Maria Claudia Figueiredo Pereira Emer — Universidade Tecnológica Federal do Paraná (UTFPR)
 
-Maria Lydia Fioravanti - Universidade de São Paulo (USP)
+Maria Lydia Fioravanti — Universidade de São Paulo (USP)
 
-Mariana Maia Peixoto - Universidade de Pernambuco (UPE)
+Mariana Maia Peixoto — Universidade de Pernambuco (UPE)
 
-Michel Albonico - Universidade Tecnológica Federal do Paraná (UTFPR)
+Michel Albonico — Universidade Tecnológica Federal do Paraná (UTFPR)
 
-Michel Soares - Universidade Federal de Sergipe (UFS)
+Michel Soares — Universidade Federal de Sergipe (UFS)
 
-Mirko Perkusich - Universidade Federal de Campina Grande (UFCG)
+Mirko Perkusich — Universidade Federal de Campina Grande (UFCG)
 
-Paola Accioly - Universidade Federal de Pernambuco (UFPE)
+Paola Accioly — Universidade Federal de Pernambuco (UFPE)
 
-Paulo Meirelles - Universidade de São Paulo (USP)
+Paulo Meirelles — Universidade de São Paulo (USP)
 
-Paulo Gabriel Gadelha Queiroz - Universidade Federal Rural do Semi-Árido (UFERSA)
+Paulo Gabriel Gadelha Queiroz — Universidade Federal Rural do Semi-Árido (UFERSA)
 
-Pedro Henrique Dias Valle - Universidade de São Paulo (USP)
+Pedro Henrique Dias Valle — Universidade de São Paulo (USP)
 
-Renato Balancieri - Universidade Estadual de Maringá (UEM)
+Renato Balancieri — Universidade Estadual de Maringá (UEM)
 
-Renato Bulcão-Neto - Universidade Federal de Goiás (UFG)
+Renato Bulcão-Neto — Universidade Federal de Goiás (UFG)
 
-Ricardo Theis Geraldi - Universidade Federal de Mato Grosso do Sul (UFMS)
+Ricardo Theis Geraldi — Universidade Federal de Mato Grosso do Sul (UFMS)
 
-Rita Suzana Pitangueira Maciel - Universidade Federal da Bahia (UFBA)
+Rita Suzana Pitangueira Maciel — Universidade Federal da Bahia (UFBA)
 
-Rodrigo Bonifacio - Universidade Federal de Pernambuco (CIn - UFPE)
+Rodrigo Bonifacio — Universidade Federal de Pernambuco (CIn - UFPE)
 
-Rodrigo Rocha Gomes e Souza - Universidade Federal da Bahia (UFBA)
+Rodrigo Rocha Gomes e Souza — Universidade Federal da Bahia (UFBA)
 
-Sabrina dos Santos Marczak - Pontifícia Universidade Católica do Rio Grande do Sul (PUCRS)
+Sabrina dos Santos Marczak — Pontifícia Universidade Católica do Rio Grande do Sul (PUCRS)
 
-Sergio Soares - Universidade Federal de Pernambuco (UFPE)
+Sergio Soares — Universidade Federal de Pernambuco (UFPE)
 
-Simone  do Rocio Senger Souza - Universidade de São Paulo (USP)
+Simone  do Rocio Senger Souza — Universidade de São Paulo (USP)
 
-Sofia Costa Paiva - Universidade Federal de Goiás (UFG)
+Sofia Costa Paiva — Universidade Federal de Goiás (UFG)
 
-Thaís Burity - Universidade Federal do Agreste de Pernambuco (UFAPE)
+Thaís Burity — Universidade Federal do Agreste de Pernambuco (UFAPE)
 
-Thiago Ferreira - The University of Michigan-Flint
+Thiago Ferreira — The University of Michigan-Flint
 
-Tiago Lima Massoni - Universidade Federal de Campina Grande (UFCG)
+Tiago Lima Massoni — Universidade Federal de Campina Grande (UFCG)
 
-Troy Costa Kohwalter - Universidade Federal Fluminense (UFF)
+Troy Costa Kohwalter — Universidade Federal Fluminense (UFF)
 
-Uirá Kulesza - Universidade Federal do Rio Grande do Norte (UFRN)
+Uirá Kulesza — Universidade Federal do Rio Grande do Norte (UFRN)
 
-Valdemar Vicente Graciano Neto - Universidade Federal de Goiás (UFG)
+Valdemar Vicente Graciano Neto — Universidade Federal de Goiás (UFG)
 
-Williamson Silva - Universidade Federal do Cariri (UFCA)
+Williamson Silva — Universidade Federal do Cariri (UFCA)
 
-Willian Nalepa Oizumi - Google
+Willian Nalepa Oizumi — Google
 
 <br/>
 
