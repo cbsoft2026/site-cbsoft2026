@@ -6,21 +6,12 @@ import styles from './styles.module.scss';
 import { useLocale, useTranslations } from 'next-intl';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faBars } from '@fortawesome/free-solid-svg-icons';
-import appConfig from '@/app/app.config';
-import LinkLocale from '../LinkLocale';
+import LinkLocale from '@/components/LinkLocale';
 import Link from 'next/link';
-
-type NavbarItemProps = {
-  title: string;
-  title2?: string;
-  href?: string;
-  items?: Array<NavbarItemProps>;
-  className?: string;
-  onClick?: () => any;
-};
+import generatedCollection, { NavbarItemProps } from './menuCollection';
 
 function NavbarItem(props: NavbarItemProps) {
-  const { title, href, items, className, onClick } = props;
+  const { title, href, items, className, onClick, dropdownActive } = props;
   const pathname = usePathname();
   const locale = useLocale();
 
@@ -33,11 +24,15 @@ function NavbarItem(props: NavbarItemProps) {
           {title}
         </a>
       ) : (
-        <LinkLocale className={`nav-link ${styles['nav-link']}`} href={{ pathname: href }} locale={locale}>
+        <LinkLocale
+          className={`nav-link ${styles['nav-link']}`}
+          href={{ pathname: items || dropdownActive == true ? undefined : href }}
+          locale={locale}
+        >
           {title}
         </LinkLocale>
       )}
-      {items && (
+      {items && dropdownActive != false && (
         <ul className={`dropdown-menu ${styles['dropdown-menu']}`}>
           {items?.map((item, i) => (
             <li key={i}>
@@ -47,9 +42,9 @@ function NavbarItem(props: NavbarItemProps) {
                 onClick={!item.items?.length ? onClick : undefined}
                 locale={locale}
               >
-                {`${item.title} ${item.items?.length ? '&raquo;' : ''}`}
+                {`${item.title} ${item.items?.length && item.dropdownActive != false ? '&raquo;' : ''}`}
               </LinkLocale>
-              {item.items && (
+              {item.items && item.dropdownActive != false && (
                 <ul className={`submenu ${styles['submenu']}`}>
                   {item.items.map((subItem, j) => (
                     <li key={j}>
@@ -106,84 +101,9 @@ export default function Menu(props: HTMLAttributes<HTMLDivElement>) {
     };
   }, []);
 
-  const cbsoftMenuItem: NavbarItemProps = {
-    title: t('cbsoft.titulo', { ano: appConfig.year }),
-    items: [
-      { title: t('cbsoft.sobre'), href: '/cbsoft' },
-      { title: t('cbsoft.organizacao'), href: '/cbsoft/organization' },
-      { title: t('cbsoft.acomodacoes'), href: '/cbsoft/accommodation' },
-      // { title: t('schedule.titulo'), href: '/schedule/calender' },
-      { title: t('cbsoft.local'), href: '/cbsoft/location' },
-      { title: t('cbsoft.codigo_conduta'), href: '/cbsoft/code-of-conduct' },
-      { title: t('cbsoft.edicoes_anteriores'), href: '/cbsoft/previous-editions' },
-    ],
-  };
-
-  const sbesMenuItem: NavbarItemProps = {
-    title: commonT('sbes'),
-    items: [
-      { title: commonT('siglas.trilhas.special'), href: '/symposiums/sbes/special/call' },
-      { title: commonT('siglas.trilhas.pesquisa'), href: '/symposiums/sbes/pesquisa/call' },
-      { title: commonT('siglas.trilhas.educacao'), href: '/symposiums/sbes/educacao/call' },
-      { title: commonT('siglas.trilhas.ideias'), href: '/symposiums/sbes/ideias/call' },
-      { title: commonT('siglas.trilhas.tools'), href: '/symposiums/sbes/tools/call' },
-      { title: commonT('siglas.trilhas.industry'), href: '/symposiums/sbes/industry/call' },
-      { title: commonT('siglas.trilhas.ctic'), href: '/symposiums/sbes/ctic/call' },
-      { title: commonT('siglas.trilhas.ctd'), href: '/symposiums/sbes/ctd/call' },
-    ],
-  };
-
-  const sblpMenuItem: NavbarItemProps = {
-    title: commonT('sblp'),
-    href: '/symposiums/sblp/call',
-  };
-
-  const sbcarsMenuItem: NavbarItemProps = {
-    title: commonT('sbcars'),
-    href: '/symposiums/sbcars/call',
-  };
-
-  const sastMenuItem: NavbarItemProps = {
-    title: commonT('sast'),
-    href: '/symposiums/sast/call',
-  };
-
-  const workshopsMenuItem: NavbarItemProps = {
-    title: commonT('siglas.workshops'),
-    items: [
-      { title: t('workshops_call'), href: '/workshops' },
-      { title: commonT('workshops_accepts'), href: '/workshops/accepted' },
-    ],
-  };
-
-  const latamSchoolMenuItem: NavbarItemProps = {
-    title: commonT('latam-school'),
-    href: '/latam-school',
-  };
-
-  const highSchoolMenuItem: NavbarItemProps = {
-    title: commonT('high-school'),
-    href: '/high-school',
-  };
-
-  const artifactsMenuItem: NavbarItemProps = {
-    title: commonT('siglas.artifacts'),
-    href: '/artifacts',
-  };
-
-  const menuItemsCollection = [
-    cbsoftMenuItem,
-    sbesMenuItem,
-    sblpMenuItem,
-    sbcarsMenuItem,
-    sastMenuItem,
-    workshopsMenuItem,
-    artifactsMenuItem,
-    latamSchoolMenuItem,
-    highSchoolMenuItem,
-  ];
-
   const div = useRef<HTMLDivElement | null>(null);
+
+  const menuItemsCollection = generatedCollection(t, commonT);
 
   return (
     <>

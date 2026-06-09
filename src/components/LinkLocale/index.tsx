@@ -27,7 +27,7 @@ function hrefToString(href: HrefType): string | null | undefined {
   return undefined;
 }
 
-function useLocalizedHref({ href, locale }: Props) {
+export function useLocalizedHref({ href, locale }: Props) {
   const defaultLocale = useLocale();
 
   if (!locale) {
