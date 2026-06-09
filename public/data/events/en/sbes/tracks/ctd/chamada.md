@@ -100,10 +100,9 @@ All submitted works must comply with the [Code of Conduct for Authors in Publica
 
 ###### CTD-ES Program Committee Chairs
 
-Katia Romero Felizardo – Federal University of Technology – Paraná (UTFPR-CP)
+Katia Romero Felizardo — Federal University of Technology Paraná (UTFPR-CP)
 
-Guilherme Horta Travassos – Systems Engineering and Computer Science Graduate Program, 
-COPPE, Federal University of Rio de Janeiro (UFRJ)
+Guilherme Horta Travassos — Systems Engineering and Computer Science Graduate Program, COPPE, Federal University of Rio de Janeiro (UFRJ)
 
 #### CTD-ES 2026 Program Committee
 

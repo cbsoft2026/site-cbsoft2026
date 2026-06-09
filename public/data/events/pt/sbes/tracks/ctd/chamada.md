@@ -78,9 +78,9 @@ Todos os trabalhos submetidos devem estar em conformidade com o [Código de Cond
 
 ###### Coordenadores do Comitê de Programa do CTD-ES
 
-Katia Romero Felizardo – Universidade Tecnológica Federal do Paraná (UTFPR-CP)
+Katia Romero Felizardo — Universidade Tecnológica Federal do Paraná (UTFPR-CP)
 
-Guilherme Horta Travassos – Programa de Engenharia de Sistemas e Computação, COPPE, Universidade Federal do Rio de Janeiro (UFRJ)
+Guilherme Horta Travassos — Programa de Engenharia de Sistemas e Computação, COPPE, Universidade Federal do Rio de Janeiro (UFRJ)
 
 ###### Comitê de Programa do CTD-ES 2026
 
