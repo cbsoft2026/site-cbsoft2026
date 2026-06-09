@@ -44,54 +44,56 @@ export default async function CallComponent({ acronym, track, className, locale 
         {Object.values(body)[0]}
       </TemplateMarkdown>
       <aside className={styles.call__sidebar}>
-        {Object.keys(sortedDate).length > 0 ? (
-          <div className={styles.sidebar__list}>
-            <header>
-              <p>{t('important_dates')}</p>
-            </header>
-            <table>
-              <tbody>
-                {Object.keys(sortedDate).map((key) => {
-                  const value = sortedDate[key];
-                  let dateLabel = value != undefined && value.hasOwnProperty('label') ? value.label : '';
-                  if (typeof dateLabel !== 'string') {
-                    if (dateLabel.hasOwnProperty(locale)) {
-                      dateLabel = dateLabel[locale as keyof typeof dateLabel];
-                    } else {
-                      dateLabel = '';
+        <div className={styles['sidebar-wrapper']}>
+          {Object.keys(sortedDate).length > 0 ? (
+            <div className={styles.sidebar__list}>
+              <header>
+                <p>{t('important_dates')}</p>
+              </header>
+              <table>
+                <tbody>
+                  {Object.keys(sortedDate).map((key) => {
+                    const value = sortedDate[key];
+                    let dateLabel = value != undefined && value.hasOwnProperty('label') ? value.label : '';
+                    if (typeof dateLabel !== 'string') {
+                      if (dateLabel.hasOwnProperty(locale)) {
+                        dateLabel = dateLabel[locale as keyof typeof dateLabel];
+                      } else {
+                        dateLabel = '';
+                      }
                     }
-                  }
-                  const previouslyWhen = 'history' in value ? value.history : [];
+                    const previouslyWhen = 'history' in value ? value.history : [];
 
-                  return (
-                    <tr key={value.date}>
-                      <td>
-                        <AddCalendar
-                          simplifiedMode={true}
-                          label={`${formatDate(dateOnlyFromISO(value.date), locale)}\n${dateLabel}`}
-                          text={dateLabel}
-                          dateStart={new Date(dateOnlyFromISO(value.date) ?? '')}
-                          dateEnd={new Date(dateOnlyFromISO(value.date) ?? '')}
-                          fullDay={true}
-                        />
-                        {previouslyWhen.length ? (
-                          <small className='small text-secondary'>
-                            {datesT('previously')}:{' '}
-                            {formatDate(dateOnlyFromISO(previouslyWhen[previouslyWhen.length - 1]), locale)}
-                          </small>
-                        ) : (
-                          <></>
-                        )}
-                      </td>
-                    </tr>
-                  );
-                })}
-              </tbody>
-            </table>
-          </div>
-        ) : (
-          <></>
-        )}
+                    return (
+                      <tr key={value.date}>
+                        <td>
+                          <AddCalendar
+                            simplifiedMode={true}
+                            label={`${formatDate(dateOnlyFromISO(value.date), locale)}\n${dateLabel}`}
+                            text={dateLabel}
+                            dateStart={new Date(dateOnlyFromISO(value.date) ?? '')}
+                            dateEnd={new Date(dateOnlyFromISO(value.date) ?? '')}
+                            fullDay={true}
+                          />
+                          {previouslyWhen.length ? (
+                            <small className='small text-secondary'>
+                              {datesT('previously')}:{' '}
+                              {formatDate(dateOnlyFromISO(previouslyWhen[previouslyWhen.length - 1]), locale)}
+                            </small>
+                          ) : (
+                            <></>
+                          )}
+                        </td>
+                      </tr>
+                    );
+                  })}
+                </tbody>
+              </table>
+            </div>
+          ) : (
+            <></>
+          )}
+        </div>
       </aside>
     </div>
   );
