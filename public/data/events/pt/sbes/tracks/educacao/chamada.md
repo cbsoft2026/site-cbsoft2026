@@ -177,9 +177,9 @@ A Trilha de Educação do SBES reconhece a generosidade dos membros do Comitê d
 
 ###### Coordenadores de Comitê de Programa - Trilha de Educação
 
-Awdren Fontão (UFMS)
+Awdren Fontão — Universidade Federal de Mato Grosso do Sul (UFMS)
 
-Carla Bezerra (UFC)
+Carla Bezerra — Universidade Federal Do Ceará (UFC)
 
 ###### Comitê de Programa
 

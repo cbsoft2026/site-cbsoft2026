@@ -175,9 +175,9 @@ SBES 2026 Education Track recognizes the generosity of reviewers who dedicate th
 
 ###### Program Committee Coordinators - Education Track
 
-Awdren Fontão (UFMS)
+Awdren Fontão — Universidade Federal de Mato Grosso do Sul (UFMS)
 
-Carla Bezerra (UFC)
+Carla Bezerra — Universidade Federal Do Ceará (UFC)
 
 ###### Program Committee
 
