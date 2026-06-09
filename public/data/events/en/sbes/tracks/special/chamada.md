@@ -141,82 +141,82 @@ The Program Committee Chairs reserve the right to nominate for the award only th
 
 **Program Committee Chairs — SBES 40 Years Special Track**
 
-* Itana Maria de Souza Gimenes (Universidade Estadual de Maringá)
+Itana Maria de Souza Gimenes — Universidade Estadual de Maringá (UEM)
 
-* Rodrigo Bonifácio (Universidade Federal de Pernambuco)
+Rodrigo Bonifácio — Universidade Federal de Pernambuco (UFPE)
 
 **Program Committee**
 
-* Adenilso Simao (Universidade de São Paulo)
+Adenilso Simao — Universidade de São Paulo (USP)
 
-* Ana Regina C. Rocha (Universidade Federal do Rio de Janeiro)
+Ana Regina C. Rocha — Universidade Federal do Rio de Janeiro (UFRJ)
 
-* Andre Hora (Universidade Federal de Minas Gerais)
+Andre Hora — Universidade Federal de Minas Gerais (UFMG)
 
-* Auri Marcelo Rizzo Vincenzi  (Universidade Federal de São Carlos)
+Auri Marcelo Rizzo Vincenzi  — Universidade Federal de São Carlos (UFSCar)
 
-* Avelino Francisco Zorzo (Pontífica Universidade Católoca do Rio Grande do Sul)
+Avelino Francisco Zorzo — Pontífica Universidade Católica do Rio Grande do Sul (PUCRS)
 
-* Claudia Werner (Universidade Federal do Rio de Janeiro)
+Claudia Werner — Universidade Federal do Rio de Janeiro (UFRJ)
 
-* Daltro Jose Nunes (Universidade Federal do Rio Grande do Sul)
+Daltro Jose Nunes — Universidade Federal do Rio Grande do Sul (UFRGS)
 
-* Davi Viana (Universidade Federal do Maranão)
+Davi Viana — Universidade Federal do Maranhão (UFMA)
 
-* Edna Dias Canedo (Universidade Federal de Pernambuco - Cin, UFPE)
+Edna Dias Canedo — Universidade Federal de Pernambuco (Cin, UFPE)
 
-* Elisa Y. Nakagawa (Universidade de São Paulo)
+Elisa Y. Nakagawa — Universidade de São Paulo (USP)
 
-* Everton Cavalcante (Universidade Federal do Rio Grande do Norte)
+Everton Cavalcante — Universidade Federal do Rio Grande do Norte (UFRN)
 
-* Fabiano Cutigi Ferrari (Universidade Federal de São Carlos)
+Fabiano Cutigi Ferrari — Universidade Federal de São Carlos (UFSCar)
 
-* Fernando Antonio Mota Trinta (Universidade Federal do Cerá)
+Fernando Antonio Mota Trinta — Universidade Federal do Cerá (UFC)
 
-* Fernando Castor (University of Twente)
+Fernando Castor — University of Twente
 
-* Guilherme Horta Travassos (Universidade Federal do Rio de Janeiro)
+Guilherme Horta Travassos — Universidade Federal do Rio de Janeiro (UFRJ)
 
-* Igor Steinmacher (Northern Arizona University)
+Igor Steinmacher — Northern Arizona University
 
-* Jaelson F. B. Castro (Universidade Federal de Pernambuco)
+Jaelson F. B. Castro — Universidade Federal de Pernambuco (UFPE)
 
-* Jéssyka  Vilela (Universidade Federal de Pernambuco)
+Jéssyka  Vilela — Universidade Federal de Pernambuco (UFPE)
 
-* José Carlos Maldonado (Universidade de São Paulo)
+José Carlos Maldonado — Universidade de São Paulo (USP)
 
-* Kathia Oliveira (UPHF France)
+Kathia Oliveira — UPHF France
 
-* Leila Ribeiro (Universidade Federal do Rio Grande do Sul)
+Leila Ribeiro — Universidade Federal do Rio Grande do Sul (UFRGS)
 
-* Leonardo Gresta Paulino Murta (Universidade Federal Fluminense)
+Leonardo Gresta Paulino Murta — Universidade Federal Fluminense (UFF)
 
-* Leopoldo Motta Teixeira (Universidade Federal de Pernambuco)
+Leopoldo Motta Teixeira — Universidade Federal de Pernambuco (UFPE)
 
-* Márcio O. Barros (Universidade Federal do Estado do Rio de Janeiro)
+Márcio O. Barros — Universidade Federal do Estado do Rio de Janeiro (UNIRIO)
 
-* Marco Tulio Valente (Universidade Federal de Minas Gerais)
+Marco Tulio Valente — Universidade Federal de Minas Gerais (UFMG)
 
-* Nabor Mendonca (Universidade de Fortaleza)
+Nabor Mendonca — Universidade de Fortaleza (Unifor)
 
-* Paulo Cesar Masiero (Universidade de São Paulo)
+Paulo Cesar Masiero — Universidade de São Paulo (USP)
 
-* Rafael Prikladnicki (Pontífica Universidade Católica do Rio Grande do Sul)
+Rafael Prikladnicki — Pontífica Universidade Católica do Rio Grande do Sul (PUCRS)
 
-* Sheila Reinehr (Pontífica Universidade Católica do Paraná)
+Sheila Reinehr — Pontífica Universidade Católica do Paraná (PUCPR)
 
-* Silvia Regina Vergilio (Universidade Federal do Paraná)
+Silvia Regina Vergilio — Universidade Federal do Paraná (UFPR)
 
-* Thais Vasconcelos Batista (Universidade Federal do Rio Grande do Norte)
+Thais Vasconcelos Batista — Universidade Federal do Rio Grande do Norte (UFRN)
 
-* Thelma Elita Colanzi (Universidade Estadual de Maringá)
+Thelma Elita Colanzi — Universidade Estadual de Maringá (UEM)
 
-* Tiago Massoni (Universidade Federal de Campina Grande)
+Tiago Massoni — Universidade Federal de Campina Grande (UFCG)
 
-* Uirá Kulesza (Universidade Federal do Rio Grande do Norte)
+Uirá Kulesza — Universidade Federal do Rio Grande do Norte (UFRN)
 
-* Vânia de Oliveira Neves (Universidade Federal Fluminense)
+Vânia de Oliveira Neves — Universidade Federal Fluminense (UFF)
 
-* Vinicius Cardoso Garcia (Universidade Federal de Pernambuco)
+Vinicius Cardoso Garcia — Universidade Federal de Pernambuco (UFPE)
 
-* Wilkerson L. Andrade (Universidade Federal de Campina Grande)
+Wilkerson L. Andrade — Universidade Federal de Campina Grande (UFCG)
