@@ -14,7 +14,7 @@ export async function generateMetadata({ params }: Props) {
   return createPageMetadata(locale, 'pages/cbsoft/previousEditions', 'titulo');
 }
 
-function Edicao(props: { year: string; url: string; local: string; className?: string }) {
+function Edicao(props: { year: string; url: string; local: string; online?: boolean; className?: string }) {
   return (
     <a className={styles.edicao} href={props.url} target='_blank' rel='noreferrer'>
       <div className={styles.image}>
@@ -28,7 +28,8 @@ function Edicao(props: { year: string; url: string; local: string; className?: s
       </div>
       <div className={styles.content}>
         <span>CBSoft {props.year}</span>
-        <span style={{ fontSize: '14px' }} dangerouslySetInnerHTML={{ __html: props.local }}></span>
+        <span style={{ fontSize: '14px' }} dangerouslySetInnerHTML={{ __html: props.local }} />
+        {props.online ? <span style={{ fontSize: '14px' }}>(Online)</span> : <></>}
       </div>
     </a>
   );
