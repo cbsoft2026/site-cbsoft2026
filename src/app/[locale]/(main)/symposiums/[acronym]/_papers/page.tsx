@@ -33,8 +33,8 @@ export default async function EventsPage({ params }: Props) {
       <div className='container' style={{ marginBottom: 56 }}>
         <Title titulo={`${commonT(`siglas.${acronym}`)} (${commonT(`${acronym}`)}) - ${t('artigos_aceitos')}`}></Title>
       </div>
-      {Object.keys(events).length ? (
-        <EventComponent events={events} locale={locale} />
+      {Object.keys(filteredObj).length ? (
+        <EventComponent events={filteredObj} locale={locale} />
       ) : (
         <div className='container'>
           <p>{symposiumsT('emptyPapers')}</p>
