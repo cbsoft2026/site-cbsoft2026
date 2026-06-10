@@ -49,6 +49,15 @@
       ]
     },
     {
+      "tier": "prata",
+      "items": [
+        {
+          "href": "https://www.google.com/",
+          "image": "google.png"
+        }
+      ]
+    },
+    {
       "tier": "bronze",
       "items": [
         {
