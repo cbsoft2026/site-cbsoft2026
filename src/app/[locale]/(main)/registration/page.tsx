@@ -4,10 +4,16 @@ import styles from './styles.module.scss';
 import appConfig from '@/app/app.config';
 import Image from 'next/image';
 import { getTObject } from '@/lib/getTObject';
+import { createPageMetadata } from '@/lib/metadata';
 
 type Props = {
   params: Promise<{ locale: string }>;
 };
+
+export async function generateMetadata({ params }: Props) {
+  const { locale } = await params;
+  return createPageMetadata(locale, 'pages/registration', 'titulo');
+}
 
 export default async function RegistrationPage({ params }: Props) {
   const { locale } = await params;
