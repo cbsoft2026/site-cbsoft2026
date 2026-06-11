@@ -3,10 +3,12 @@
   "version": "0.1.0",
   "scripts": {
     "dev": "next dev --turbopack",
-    "generate-messages": "tsx src/scripts/generateMessages.js",
-    "generate-events": "tsx src/scripts/generateEvents.js",
-    "generate-data": "tsx src/scripts/generateData.js",
-    "build": "NEXT_PUBLIC_STATIC=true npm run generate-data && npm run generate-events && npm run generate-messages && next build --turbopack && cp -r out/pt/* out/",
+    "generate:messages": "tsx src/scripts/generateMessages.js",
+    "generate:events": "tsx src/scripts/generateEvents.js",
+    "generate:data": "tsx src/scripts/generateData.js",
+    "generate": "npm run generate:data && npm run generate:events && npm run generate:messages",
+    "prebuild": "npm run generate",
+    "build": "NEXT_PUBLIC_STATIC=true next build --turbopack && cp -r out/pt/* out/",
     "start": "next start",
     "postbuild": "next-sitemap",
     "lint": "eslint . --ext .js,.ts,.jsx,.tsx",
@@ -17,9 +19,10 @@
   },
   "lint-staged": {
     "*.{js,ts,jsx,tsx}": [
-      "eslint --fix"
+      "eslint --fix",
+      "prettier --write"
     ],
-    "*.{js,ts,jsx,tsx,json,md,css}": [
+    "*.{json,md,css}": [
       "prettier --write"
     ]
   },
