@@ -1,7 +1,10 @@
+import { Locale, locales } from '@/types/locales';
 import LangSetter from './LangSetter';
 
 export async function generateStaticParams() {
-  return [{ locale: 'en' }, { locale: 'pt' }];
+  return locales.map((locale) => ({
+    locale: locale,
+  }));
 }
 
 export async function generateMetadata({ params }: { params: Promise<{ locale: string }> }) {
