@@ -3,9 +3,9 @@
   "version": "0.1.0",
   "scripts": {
     "dev": "next dev --turbopack",
-    "generate:messages": "tsx src/scripts/generateMessages.js",
-    "generate:events": "tsx src/scripts/generateEvents.js",
-    "generate:data": "tsx src/scripts/generateData.js",
+    "generate:messages": "tsx scripts/generateMessages.js",
+    "generate:events": "tsx scripts/generateEvents.js",
+    "generate:data": "tsx scripts/generateData.js",
     "generate": "npm run generate:data && npm run generate:events && npm run generate:messages",
     "prebuild": "npm run generate",
     "build": "NEXT_PUBLIC_STATIC=true next build --turbopack && cp -r out/pt/* out/",

@@ -1,6 +1,5 @@
-// Caminho relativo porque o script será executado fora do contexto do Next.js
-import { locales } from '../types/locales';
-import { requestMessagesNode as requestMessages } from '../i18n/requestNode';
+import { locales } from '@/types/locales';
+import { requestMessagesNode as requestMessages } from '@/i18n/requestNode';
 import * as fs from 'fs';
 import * as path from 'path';
 
