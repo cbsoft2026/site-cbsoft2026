@@ -7,7 +7,8 @@
     "local": "Venue & Location",
     "codigo_conduta": "Code of Conduct",
     "edicoes_anteriores": "Previous Editions",
-    "turismo": "Tourism"
+    "turismo": "Tourism",
+    "volunteers": "Call for Volunteers"
   },
   "symposiums": {
     "title": "Symposia"
@@ -20,7 +21,7 @@
   "palestras": "Keynotes",
   "tutorial": "Tutorial",
   "painel": "Panel",
-  
+
   "chamada_trabalhos": "Call for Papers",
   "artigos_aceitos": "Accepted Papers",
 

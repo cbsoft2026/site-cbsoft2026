@@ -275,3 +275,15 @@ workshops:
         label:
             pt: "Versão final dos artigos (para Chairs de Workshops)"
             en: "Camera-ready papers (for Workshops Chairs)"
+
+volunteers:
+    submission_date:
+        date: 2026-07-10
+        label:
+            pt: Submissão dos formulários
+            en: Form submission
+    notification_acceptance:
+        date: 2026-07-20
+        label:
+            pt: Notificações dos resultados
+            en: Notification of results
