@@ -1,4 +1,4 @@
-import { Sponsor } from '../types/sponsors';
+import { Sponsor } from '@/types/sponsors';
 
 const tierOrder: Record<NonNullable<Sponsor['tier']>, number> = {
   platina: 1,
