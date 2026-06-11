@@ -1,7 +1,9 @@
+import { defaultLang } from '@/types/locales';
+
 export function formatDateRange(
   start: string | Date,
   end: string | Date,
-  locale: string = 'pt',
+  locale: string = defaultLang,
   options: Intl.DateTimeFormatOptions = { day: 'numeric', month: 'long', year: 'numeric' },
 ): string {
   const startDate = new Date(start);
@@ -39,7 +41,7 @@ export function formatDateRange(
 
 export function formatDate(
   date: string | Date,
-  locale: string = 'pt',
+  locale: string = defaultLang,
   options: Intl.DateTimeFormatOptions = { day: 'numeric', month: 'long', year: 'numeric' },
 ): string {
   return new Intl.DateTimeFormat(locale, options).format(new Date(date));
