@@ -69,7 +69,7 @@ export default async function AcceptsPage({ params }: Props) {
               <ul>
                 <li>
                   <b>Site: </b>
-                  <a href={withUTM(workshop.link)} target='_blank' rel='noopener noreferrer'>
+                  <a href={withUTM(workshop.link, 'workshops_2026')} target='_blank' rel='noopener noreferrer'>
                     {workshop.link}
                   </a>
                 </li>
