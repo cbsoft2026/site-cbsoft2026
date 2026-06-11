@@ -2,6 +2,9 @@ import styles from '@/app/styles.module.scss';
 import BackgroundGeometric from '@/components/BackgroundGeometric';
 import Link from 'next/link';
 
+// pagina de '404 - not found' antes da rota de [locale],
+// não é possível obter informações relacionadas a idioma
+// de forma estatica
 export default async function NotFound() {
   return (
     <article className={`container ${styles['not-found']}`}>
