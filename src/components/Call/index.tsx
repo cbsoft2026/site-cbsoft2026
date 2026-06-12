@@ -1,11 +1,12 @@
-import { loadCalls } from '@/lib/api';
-import TemplateMarkdown from '../TemplateMarkdown';
+import { getTranslations } from 'next-intl/server';
+import styles from './styles.module.scss';
+
 import { dates } from '@/data';
+import { loadCalls } from '@/lib/api';
 import { dateOnlyFromISO, formatDate } from '@/utils/dates';
 
-import styles from './styles.module.scss';
-import AddCalendar from '../AddCalendar';
-import { getTranslations } from 'next-intl/server';
+import AddCalendar from '@/components/AddCalendar';
+import TemplateMarkdown from '@/components/TemplateMarkdown';
 
 type Props = {
   acronym: string;
