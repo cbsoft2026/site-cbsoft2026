@@ -5,6 +5,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 
 import styles from './styles.module.scss';
 import { useEffect, useRef, useState } from 'react';
+import appConfig from '@/app/app.config';
 
 /**
  * @param datesStart YYYYMMDDToHHMMSSZ
@@ -71,7 +72,7 @@ export default function AddCalendar({
     text: text,
     dates: `${formatGoogleCalenderLocal(dateStartConvert, fullDay)}/${formatGoogleCalenderLocal(dateEndConvert, fullDay)}`,
     sprop: `website:${process.env.NEXT_PUBLIC_SITE_URL}`,
-    ctz: 'America/Sao_Paulo',
+    ctz: appConfig.timezone,
     trp: 'false',
   });
   if (description) googleCalendar.append('details', description);

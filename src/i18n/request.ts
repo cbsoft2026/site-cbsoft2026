@@ -1,5 +1,6 @@
 import { getRequestConfig, GetRequestConfigParams, RequestConfig } from 'next-intl/server';
 import { routing } from './routing';
+import appConfig from '@/app/app.config';
 
 type Locales = (typeof routing.locales)[number];
 
@@ -10,7 +11,7 @@ export default getRequestConfig(async (params: GetRequestConfigParams): Promise<
   return {
     locale: currentLocale,
     messages: await requestMessages({ locale: currentLocale }),
-    timeZone: 'America/Sao_Paulo',
+    timeZone: appConfig.timezone,
   };
 });
 

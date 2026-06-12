@@ -3,6 +3,7 @@ import Menu from '@/components/Menu';
 
 import { getMessages } from 'next-intl/server';
 import Footer from '@/components/Footer';
+import appConfig from '@/app/app.config';
 
 type Props = {
   children: React.ReactNode;
@@ -14,7 +15,7 @@ export default async function RootLayout({ children, params }: Props) {
   const messages = await getMessages({ locale });
 
   return (
-    <NextIntlClientProvider locale={locale} messages={messages} timeZone='America/Sao_Paulo'>
+    <NextIntlClientProvider locale={locale} messages={messages} timeZone={appConfig.timezone}>
       <Menu />
       <main>{children}</main>
       <Footer />

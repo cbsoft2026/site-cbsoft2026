@@ -1,3 +1,4 @@
+import appConfig from '@/app/app.config';
 import { NextIntlClientProvider } from 'next-intl';
 
 import { getMessages } from 'next-intl/server';
@@ -12,7 +13,7 @@ export default async function RootLayout({ children, params }: Props) {
   const messages = await getMessages({ locale });
 
   return (
-    <NextIntlClientProvider locale={locale} messages={messages} timeZone='America/Sao_Paulo'>
+    <NextIntlClientProvider locale={locale} messages={messages} timeZone={appConfig.timezone}>
       <main>{children}</main>
     </NextIntlClientProvider>
   );
