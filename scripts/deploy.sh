@@ -92,7 +92,7 @@ check_command scp
 check_command sshpass
 check_command npm
 
-npm run build
+NODE_ENV=production npm run build
 
 cat <<EOF > out/.htaccess
 ErrorDocument 404 /2026/404/
