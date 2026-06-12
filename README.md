@@ -64,4 +64,10 @@ npm run generate
 
 ou simplesmente realizar o build.
 
+## Estrutura de configuração
+
+- `.env`: variáveis de ambiente da aplicação. Crie este arquivo a partir de `.env.example`.
+- `src/app/app.config.ts`: configurações globais do evento, como ano, conferência, organização e fuso horário.
+- `src/app/config/`: configurações relacionadas ao evento.
+
 [^1]: Idealmente
