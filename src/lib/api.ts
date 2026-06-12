@@ -25,7 +25,7 @@ export function loadParticipants(): Participants {
   return JSON.parse(fs.readFileSync(pessoasPath, 'utf-8'));
 }
 
-export function loadCommonEvents(lang: string = 'pt'): { salas: Rooms; startsInDate: string } {
+export function loadCommonEvents(lang: string = defaultLang): { salas: Rooms; startsInDate: string } {
   const pessoasPath = path.join(BASE_PATH, `../events/${lang}/schedule/common.json`);
   if (!fs.existsSync(pessoasPath)) return { salas: [], startsInDate: '' };
   return JSON.parse(fs.readFileSync(pessoasPath, 'utf-8'));
@@ -52,7 +52,7 @@ export function loadEvent<T extends TSchema>(
   eventType: EventType,
   schema: T,
   processFunc: (value: Static<T>) => void,
-  lang = 'pt',
+  lang = defaultLang,
   name = 'VALIDATE_DATA',
 ) {
   const pathsToTry = getPathsToTry(lang, slug, eventType);
@@ -84,7 +84,7 @@ export function formatParticipants(
   return [];
 }
 
-export function loadEvents(lang: string = 'pt'): Map<string, Event> {
+export function loadEvents(lang: string = defaultLang): Map<string, Event> {
   const participants: { [key: string]: Participant } = loadParticipants().reduce(
     (previous, value) => ({ ...previous, [value.id]: value }),
     {},
