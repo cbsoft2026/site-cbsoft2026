@@ -38,7 +38,7 @@ Resumo Estendido da Apresentação (2 a 4 páginas)
 
 Os resumos estendidos deverão conter os seguintes elementos, utilizando o [modelo da conferência](https://www.overleaf.com/read/cyhpwwkngcwk)[^1]:
 
-[^1]: O modelo também está disponível para download: [link](/2026/Template_para_eventos_do_CBSoft.zip)
+[^1]: O modelo também está disponível para download: [link](Template_para_eventos_do_CBSoft.zip)
 
 1. Resumo
 1. Relato da Apresentação contendo: 

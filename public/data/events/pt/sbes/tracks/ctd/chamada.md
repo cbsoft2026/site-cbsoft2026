@@ -28,7 +28,7 @@ Os seguintes documentos deverão ser submetidos, em conjunto:
 * Uma carta do(a) orientador(a) principal.
 * Uma carta do(a) candidato(a).
 
-[^1]: O modelo também está disponível para download: [link](/2026/Template_para_eventos_do_CBSoft.zip)
+[^1]: O modelo também está disponível para download: [link](Template_para_eventos_do_CBSoft.zip)
 
 O conteúdo da carta do(a) orientador(a) principal deve:
 

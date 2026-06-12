@@ -29,11 +29,23 @@ export default function TemplateMarkdown({ children, className, variables, local
         rehypePlugins={[rehypeKatex, remarkGfm, [rehypeHighlight, { languages: { latex } }], rehypeRaw]}
         components={{
           a: ({ node, ...props }) => {
+            const href = props.href;
+
+            const baseUrl = process.env.NEXT_PUBLIC_URL || '';
+
+            const finalHref =
+              typeof href != 'string' ||
+              href.startsWith('http') ||
+              href.startsWith('mailto:') ||
+              href.startsWith('tel:')
+                ? href
+                : `${baseUrl}${href.startsWith('/') || baseUrl.endsWith('/') ? '' : '/'}${href}`;
+
             if (props.href?.startsWith('#user-content-fn')) {
               return <a {...props}>{props.children}</a>;
             }
             return (
-              <a {...props} target='_blank' rel='noopener noreferrer'>
+              <a {...props} href={finalHref} target='_blank' rel='noopener noreferrer'>
                 {props.children}
               </a>
             );
@@ -55,15 +67,23 @@ export default function TemplateMarkdown({ children, className, variables, local
           ),
           img: ({ node, ...props }) => {
             const alt = props.alt || '';
+            const src = props.src || '';
 
             const disablePopup = alt.startsWith('nopopup:');
             const cleanAlt = alt.replace(/^nopopup:\s*/, '');
 
+            const baseUrl = process.env.NEXT_PUBLIC_URL || '';
+
+            const finalSrc =
+              typeof src != 'string' || src.startsWith('http') || src.startsWith('data:')
+                ? src
+                : `${baseUrl}images${src.startsWith('/') ? '' : '/'}${src}`;
+
             if (disablePopup) {
-              return <img {...props} alt={cleanAlt} loading='lazy' />;
+              return <img {...props} src={finalSrc} alt={cleanAlt} loading='lazy' />;
             }
 
-            return <ImagePopup {...props} alt={cleanAlt} loading='lazy' />;
+            return <ImagePopup {...props} src={finalSrc} alt={cleanAlt} loading='lazy' />;
           },
           // table({ children }) {
           //   return (

@@ -65,7 +65,7 @@ Submissions must be original and not under review elsewhere. Papers may be writt
 
 Papers must be submitted in Adobe Portable Document Format (PDF) and must strictly follow the [conference template](https://www.overleaf.com/read/cyhpwwkngcwk)[^1]. It is important to note that, although this template is an adaptation of the format adopted by ACM for conferences, the original template (`ACM_SigConf`) must **not** be used. This same adapted template will be used across all symposia and workshops that are part of CBSoft 2026.
 
-[^1]: The template is also available for download: [link](/2026/Template_para_eventos_do_CBSoft.zip)
+[^1]: The template is also available for download: [link](Template_para_eventos_do_CBSoft.zip)
 
 To ensure double anonymization during the initial submission and review process, authors must include the `anonymous` option in the document preamble:
 

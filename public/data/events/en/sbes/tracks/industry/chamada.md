@@ -40,7 +40,7 @@ Internal Tools: Architectural and usability decisions regarding internal tools, 
 * **Length:** 2 to 4 pages.
 * **Template:** Submissions must use the [conference template](https://www.overleaf.com/read/cyhpwwkngcwk)[^1].
 
-[^1]: The template is also available for download: [link](/2026/Template_para_eventos_do_CBSoft.zip)
+[^1]: The template is also available for download: [link](Template_para_eventos_do_CBSoft.zip)
 
 The extended abstract must include:
 

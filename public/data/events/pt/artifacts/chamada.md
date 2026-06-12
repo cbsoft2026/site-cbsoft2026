@@ -32,14 +32,14 @@ Entre os artefatos de interesse estão, entre outros:
 
 Os **artefatos** podem ser considerados **Available (Disponível)** ou **Functional (Funcional)**, resultando na obtenção dos respectivos **selos de artefato** (ver abaixo). Esses selos são **independentes entre si** e podem ser aplicados a qualquer artigo.
 
-<img src="/2026/images/artifacts/artifacts_available.png" width="300"><br/>
+<img src="artifacts/artifacts_available.png" width="300"><br/>
 
 Um artigo receberá o selo "**Available**" se os seguintes critérios forem atendidos:
 - O **artefato é relevante para o artigo**;​
 - O artefato está **depositado em um repositório de arquivamento publicamente acessível**, e um **DOI ou link para esse repositório persistente** é fornecido (ver Instruções de Submissão);​
 - O artefato está **devidamente documentado**, com um arquivo `README` explicando, no mínimo, **o conteúdo do repositório**.
 
-<img src="/2026/images/artifacts/artifacts_functional.png" width="300"><br/>
+<img src="artifacts/artifacts_functional.png" width="300"><br/>
 
 Um artigo receberá o selo "**Functional**" se os seguintes critérios forem atendidos:
 - O **artefato é relevante para o artigo**;​

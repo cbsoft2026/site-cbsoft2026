@@ -34,7 +34,7 @@ Cada submissão consiste em um artigo acompanhado por um vídeo de demonstraçã
 
 Os artigos devem ser submetidos no formato Adobe Portable Document Format (PDF) e seguir estritamente o [modelo da conferência](https://www.overleaf.com/read/cyhpwwkngcwk)[^1]. É importante salientar que, embora esse modelo seja uma adaptação do formato adotado pela ACM para conferências, o modelo original (`ACM_SigConf`) **não** deve ser utilizado. Esse mesmo modelo adaptado será utilizado em todos os simpósios e workshops integrantes do CBSoft 2026.
 
-[^1]: O modelo também está disponível para download: [link](/2026/Template_para_eventos_do_CBSoft.zip)
+[^1]: O modelo também está disponível para download: [link](Template_para_eventos_do_CBSoft.zip)
 
 ```latex
 \documentclass[sigconf]{acmart}

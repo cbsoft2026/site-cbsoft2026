@@ -34,7 +34,7 @@ During submission, the candidate must choose the track corresponding to their wo
 1. **Advisor's Letter:** A letter from the main advisor.
 1. **Candidate's Letter:** A letter from the candidate.
 
-[^1]: The template is also available for download: [link](/2026/Template_para_eventos_do_CBSoft.zip)
+[^1]: The template is also available for download: [link](Template_para_eventos_do_CBSoft.zip)
 
 #### Content of the Advisor's Letter
 

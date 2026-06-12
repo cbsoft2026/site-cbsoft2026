@@ -86,7 +86,7 @@ If the paper is part of a larger project, the content of the paper should clearl
 
 The paper must contain a maximum of 6 and a minimum of 3 pages, in PDF format and follow the [conference template](https://www.overleaf.com/read/cyhpwwkngcwk)[^1]. The submission of papers will be exclusively electronic, through the [JEMS](https://jems3.sbc.org.br/events/543) submission system of the SBC.
 
-[^1]: The template is also available for download: [link](/2026/Template_para_eventos_do_CBSoft.zip)
+[^1]: The template is also available for download: [link](Template_para_eventos_do_CBSoft.zip)
 
 The names of the authors must be included in the submitted paper. The student must appear as the first author. Software, tools, and data collection must be presented in the paper through links to the repositories. Authors are encouraged to make available packages with open data (replication package) to facilitate the reproducibility of the work.
 

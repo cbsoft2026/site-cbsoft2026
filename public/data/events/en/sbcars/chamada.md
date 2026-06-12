@@ -115,7 +115,7 @@ Authors of accepted papers (Technical, Industrial, or Data Papers) will be invit
 * Authors are advised to carefully follow the checklist provided at the end of the file `samples/cbsoft-acm-like.tex` to ensure that their papers comply with the template and the given instructions.
 * Submit your papers electronically through [JEMS3](https://jems3.sbc.org.br/events/452).
 
-[^1]: The template is also available for download: [link](/2026/Template_para_eventos_do_CBSoft.zip)
+[^1]: The template is also available for download: [link](Template_para_eventos_do_CBSoft.zip)
 
 Accepted papers will be published in the SBCARS 2026 proceedings. At least one author is expected to attend the conference and present the accepted paper. More details on submission guidelines, paper formatting, and the technical program committee are  available at: https://cbsoft.sbc.org.br/2026/en/symposiums/sbcars
 

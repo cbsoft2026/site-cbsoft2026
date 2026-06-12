@@ -28,7 +28,7 @@ Artifacts of interest include, but are not limited to:
 
 Artifacts may be considered **Available** or **Functional**, resulting in the assignment of the respective artifact badges (see below). These badges are **independent of each other** and can be applied to any paper.
 
-<img src="/2026/images/artifacts/artifacts_available.png" width="300"><br/>
+<img src="artifacts/artifacts_available.png" width="300"><br/>
 
 A paper will be awarded the "**Available**" badge if the following criteria are met:
 
@@ -36,7 +36,7 @@ A paper will be awarded the "**Available**" badge if the following criteria are 
 - The artifact is **deposited in a publicly accessible archival repository**, and a **DOI or link to this persistent repository** is provided (see Submission Instructions);
 - The artifact is **properly documented**, with a `README` file explaining, at a minimum, the **contents of the repository**.
 
-<img src="/2026/images/artifacts/artifacts_functional.png" width="300"><br/>
+<img src="artifacts/artifacts_functional.png" width="300"><br/>
 
 A paper will be awarded the "**Functional**" badge if the following criteria are met:
 

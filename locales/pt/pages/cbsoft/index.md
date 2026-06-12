@@ -36,7 +36,7 @@ Diversidade cromática: Usar uma paleta ampla, vibrante (sem o cinza da cidade),
 A primeira versão da logo foi gerada por IA a partir de um prompt inicial descrevendo conceitos como diversidade, fluxo de ideias e mosaico visual.
 
 <p align="center">
-<img src="/2026/images/logos/cbsoft-logo-icon-v1.svg" width="100px">
+<img src="logos/cbsoft-logo-icon-v1.svg" width="100px">
 </p>
 
 ##### Versão 2 — Adaptada para Web
@@ -44,7 +44,7 @@ A primeira versão da logo foi gerada por IA a partir de um prompt inicial descr
 A partir dessa versão inicial, foram realizadas adaptações para melhorar a legibilidade em contextos digitais, especialmente no site do evento.
 
 <p align="center">
-<img src="/2026/images/logos/cbsoft-logo.svg" height="100px">
+<img src="logos/cbsoft-logo.svg" height="100px">
 </p>
 
 #### Créditos

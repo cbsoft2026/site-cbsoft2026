@@ -113,7 +113,7 @@ Autores de artigos aceitos (técnicos ou de dados) serão convidados a submeter 
 * Orienta-se que todos os autores atentem ao checklist disponibilizado no final do arquivo `samples/cbsoft-acm-like.tex` para se certificarem de que seus artigos estejam em conformidade com o modelo e as instruções fornecidas.
 * A submissão deve ser realizada via [JEMS3](https://jems3.sbc.org.br/events/452).
 
-[^1]: O modelo também está disponível para download: [link](/2026/Template_para_eventos_do_CBSoft.zip)
+[^1]: O modelo também está disponível para download: [link](Template_para_eventos_do_CBSoft.zip)
 
 Os artigos aceitos serão publicados nos anais do SBCARS 2026. Pelo menos um autor deve se inscrever no evento e apresentar o trabalho. Mais detalhes sobre formatação, submissão e comitê de programa em: https://cbsoft.sbc.org.br/2026/pt/symposiums/sbcars
 

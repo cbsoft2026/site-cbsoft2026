@@ -40,7 +40,7 @@ Both tracks accept submissions as either <strong>full papers</strong> or <strong
 
 Authors from both the Main Track and the Undergraduate Track may choose the most appropriate format (full or short) according to the maturity and scope of their work. All submissions must be in PDF, formatted according to the [conference template](https://www.overleaf.com/read/cyhpwwkngcwk)[^1], and submitted through [JEMS](https://jems3.sbc.org.br/events/462).        
 
-[^1]: The template is also available for download: [link](/2026/Template_para_eventos_do_CBSoft.zip)
+[^1]: The template is also available for download: [link](Template_para_eventos_do_CBSoft.zip)
 
 #### Review Process and Submission Policy
 

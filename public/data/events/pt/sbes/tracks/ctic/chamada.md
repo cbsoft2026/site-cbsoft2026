@@ -82,7 +82,7 @@ No caso do trabalho ser integrante de um projeto mais amplo, o conteúdo do trab
 
 O trabalho deverá conter no máximo 6 páginas, e no mínimo 3 páginas, sendo aceitos somente artigos em formato PDF utilizando o [modelo da conferência](https://www.overleaf.com/read/cyhpwwkngcwk)[^1]. A submissão dos trabalhos será exclusivamente eletrônica, através do sistema [JEMS](https://jems3.sbc.org.br/events/543) de submissões de artigos da SBC.
 
-[^1]: O modelo também está disponível para download: [link](/2026/Template_para_eventos_do_CBSoft.zip)
+[^1]: O modelo também está disponível para download: [link](Template_para_eventos_do_CBSoft.zip)
 
 Os nomes dos autores devem ser incluídos no artigo submetido. O(a) aluno(a) deve figurar como o(a) primeiro(a) autor(a). Software, ferramentas, e coleta de dados devem ser apresentados no artigo através de *links* para os repositórios. Os autores são encorajados a disponibilizar pacotes com dados abertos (*replication package*) que facilitem a reprodutibilidade do trabalho.
 
