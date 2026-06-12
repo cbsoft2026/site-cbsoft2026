@@ -1,6 +1,6 @@
 'use client';
 
-import { locales } from '@/types/locales';
+import { locales } from '@/app/config/locales';
 import { useLocale } from 'next-intl';
 import Link, { LinkProps } from 'next/link';
 import { UrlObject } from 'url';

@@ -3,7 +3,7 @@ import { getTranslations } from 'next-intl/server';
 import CallComponent from '@/components/Call';
 import Title from '@/components/Title';
 import { createPageMetadata } from '@/lib/metadata';
-import { locales } from '@/types/locales';
+import { locales } from '@/app/config/locales';
 import { EventStructureType, programs } from '@/app/config/event-structure';
 
 type Props = {

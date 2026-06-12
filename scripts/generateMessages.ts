@@ -1,4 +1,4 @@
-import { locales } from '@/types/locales';
+import { locales } from '@/app/config/locales';
 import { requestMessagesNode as requestMessages } from '@/i18n/requestNode';
 import * as fs from 'fs';
 import * as path from 'path';

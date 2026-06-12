@@ -1,4 +1,4 @@
-import { Locale, locales } from '@/types/locales';
+import { locales } from '@/app/config/locales';
 import LangSetter from './LangSetter';
 
 export async function generateStaticParams() {

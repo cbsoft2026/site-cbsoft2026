@@ -1,7 +1,7 @@
 import * as fs from 'fs';
 import * as path from 'path';
 import { loadCalls, loadEvents } from '@/lib/api';
-import { locales } from '@/types/locales';
+import { locales } from '@/app/config/locales';
 
 const outputDir = path.join(process.cwd(), 'public', 'generated');
 

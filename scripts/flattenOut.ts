@@ -1,6 +1,6 @@
 import fs from 'fs';
 import path from 'path';
-import { defaultLang } from '@/types/locales';
+import { defaultLang } from '@/app/config/locales';
 
 const src = path.join(process.cwd(), `out/${defaultLang}`);
 const dest = path.join(process.cwd(), 'out');

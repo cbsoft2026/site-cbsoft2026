@@ -7,7 +7,7 @@ import { PapersSchema, Track, trackValues } from '@/types/papers';
 import { TalksSchema } from '@/types/talks';
 import { validateData } from '@/public/data/validator';
 import { slugify } from '@/utils/slugify';
-import { defaultLang, Locale } from '@/types/locales';
+import { defaultLang, Locale } from '@/app/config/locales';
 import { SessionsSchema } from '@/types/session';
 import { Participant, Participants } from '@/types/participants';
 import { Rooms } from '@/types/rooms';

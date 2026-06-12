@@ -1,4 +1,4 @@
-import { defaultLang } from '@/types/locales';
+import { defaultLang } from '@/app/config/locales';
 
 export function formatDateRange(
   start: string | Date,
