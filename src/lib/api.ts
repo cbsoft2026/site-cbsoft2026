@@ -12,10 +12,9 @@ import { SessionsSchema } from '@/types/session';
 import { Participant, Participants } from '@/types/participants';
 import { Rooms } from '@/types/rooms';
 import { Event, Events, EventType } from '@/types/event';
+import { events, EventStructureType } from '@/app/config/event-structure';
 
-export const SYMPOSIUMS = ['sbcars', 'sast', 'sblp', 'sbes'];
-export const WORKSHOPS = ['workshops'];
-export const EVENTS_LIST = [...SYMPOSIUMS, ...WORKSHOPS, 'latam-school', 'high-school', 'artifacts'];
+export const EVENTS_LIST = events;
 
 const BASE_PATH = path.join(process.cwd(), 'public/data/events');
 
@@ -248,7 +247,11 @@ export function loadEvents(lang: string = defaultLang): Map<string, Event> {
   return eventsById;
 }
 
-export function loadCalls(lang: Locale = defaultLang, symposiums = EVENTS_LIST, tracks = trackValues) {
+export function loadCalls(
+  lang: Locale = defaultLang,
+  symposiums: readonly EventStructureType[] = EVENTS_LIST,
+  tracks = trackValues,
+) {
   const calls: Record<string, string> = {};
   let resSlug = null;
   let resTrack = null;

@@ -7,9 +7,10 @@ import { dateOnlyFromISO, formatDate } from '@/utils/dates';
 
 import AddCalendar from '@/components/AddCalendar';
 import TemplateMarkdown from '@/components/TemplateMarkdown';
+import { EventStructureType } from '@/app/config/event-structure';
 
 type Props = {
-  acronym: string;
+  acronym: EventStructureType;
   track?: string;
   className?: string;
   locale: string;

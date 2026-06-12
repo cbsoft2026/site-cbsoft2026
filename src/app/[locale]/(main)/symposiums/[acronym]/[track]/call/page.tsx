@@ -1,9 +1,10 @@
+import { EventStructureType } from '@/app/config/event-structure';
 import CallComponent from '@/components/Call';
 import Title from '@/components/Title';
 import { getTranslations } from 'next-intl/server';
 
 type Props = {
-  params: Promise<{ acronym: string; track: string; locale: string }>;
+  params: Promise<{ acronym: EventStructureType; track: string; locale: string }>;
 };
 
 export default async function CallPage({ params }: Props) {

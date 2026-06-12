@@ -1,7 +1,7 @@
 import { Event, EventType, eventType as eventTypeConst } from '@/types/event';
 import { useCallback, useMemo, useState } from 'react';
 
-export default function useEventFilter(events?: Map<string, Event>, symposiums: string[] = []) {
+export default function useEventFilter(events?: Map<string, Event>, symposiums: readonly string[] = []) {
   const [eventType, setEventType] = useState<EventType[]>([...eventTypeConst]);
   const [eventSymposiums, setEventSymposiums] = useState<string[]>([...symposiums]);
 

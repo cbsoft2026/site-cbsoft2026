@@ -1,7 +1,7 @@
-import { SYMPOSIUMS } from '@/lib/api';
 import styles from './styles.module.scss';
 import React from 'react';
 import { createPageMetadata } from '@/lib/metadata';
+import { symposiums } from '@/app/config/event-structure';
 
 type Props = {
   children: React.ReactNode;
@@ -16,7 +16,7 @@ export async function generateMetadata({ params }: Props) {
 export async function generateStaticParams() {
   const params = [];
   params.push(
-    ...SYMPOSIUMS.map((symposium) => {
+    ...symposiums.map((symposium) => {
       return { acronym: symposium };
     }),
   );

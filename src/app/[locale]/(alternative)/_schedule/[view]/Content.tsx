@@ -25,7 +25,7 @@ import LinkLocale from '@/components/LinkLocale';
 type Props = {
   commonEvents: { salas: Rooms; startsInDate: string };
   events: Map<string, Event>;
-  symposiums: string[];
+  symposiums: readonly string[];
 };
 
 export default function SchedulePage({ commonEvents, events, symposiums }: Props) {
