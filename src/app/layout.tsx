@@ -18,14 +18,14 @@ const alegreyaSansUltraBold = localFont({
 
 export const metadata: Metadata = {
   title: {
-    default: `CBSoft ${appConfig.year} - SBC`,
-    template: `%s | CBSoft ${appConfig.year} - SBC`,
+    default: `${appConfig.conference} ${appConfig.year} - ${appConfig.organization}`,
+    template: `%s | ${appConfig.conference} ${appConfig.year} - ${appConfig.organization}`,
   },
-  keywords: ['SBC', 'CBSoft'],
+  keywords: [appConfig.organization, appConfig.conference],
   openGraph: {
     type: 'website',
     url: `${process.env.NEXT_PUBLIC_SITE_URL}`,
-    title: `CBSoft ${appConfig.year}`,
+    title: `${appConfig.conference} ${appConfig.year}`,
     images: [
       {
         url: `${process.env.NEXT_PUBLIC_SITE_URL}/images/logos/cbsoft-logo.png`,
@@ -35,7 +35,7 @@ export const metadata: Metadata = {
         type: 'image/png',
       },
     ],
-    siteName: 'SBC',
+    siteName: appConfig.organization,
   },
   icons: {
     icon: `${process.env.NEXT_PUBLIC_ASSET_PREFIX}/favicon.ico`,

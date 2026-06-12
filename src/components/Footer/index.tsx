@@ -13,6 +13,7 @@ import {
   faXTwitter,
 } from '@fortawesome/free-brands-svg-icons';
 import { useTranslations } from 'next-intl';
+import appConfig from '@/app/app.config';
 
 export default function Footer() {
   const t = useTranslations('components/footer');
@@ -22,7 +23,8 @@ export default function Footer() {
       <div className={`${styles['footer__wrapper']} container`}>
         <div>
           <p>
-            &#169; <span className='fw-bold'>CBSoft 2023-2026</span> | <span className='fw-bold'>{t('copyright')}</span>
+            &#169; <span className='fw-bold'>{appConfig.conference} 2023-2026</span> |{' '}
+            <span className='fw-bold'>{t('copyright')}</span>
           </p>
         </div>
         <div></div>
