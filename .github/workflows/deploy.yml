@@ -72,9 +72,16 @@ jobs:
           printf 'username = %s\n'      "$VPN_USERNAME"      >> vpn.conf
           printf 'password = %s\n'      "$VPN_PASSWORD"      >> vpn.conf
 
-          # Start tunnel in background; save PID for teardown.
-          sudo openfortivpn -c vpn.conf > openfortivpn.log 2>&1 &
-          echo "VPN_PID=$!" >> "$GITHUB_ENV"
+          # Pre-create log/pid as the runner so the root-owned writes below
+          # stay readable (root `> file` truncates in place, keeps ownership).
+          : > openfortivpn.log
+          : > openfortivpn.pid
+
+          # Start tunnel as root, capturing openfortivpn's REAL pid. A
+          # backgrounded `sudo ...` would give sudo's pid via $!, so teardown
+          # could kill sudo and leave openfortivpn running. Grab $! inside the
+          # root shell instead, where it refers to openfortivpn itself.
+          sudo sh -c 'openfortivpn -c vpn.conf >> openfortivpn.log 2>&1 & echo $! > openfortivpn.pid'
 
           # Wait for ppp0 (tunnel up), then remove the config.
           echo "Waiting for ppp0 interface..."
@@ -109,10 +116,13 @@ jobs:
       - name: Disconnect SSL-VPN
         if: always()
         run: |
-          rm -f vpn.conf
-          if [ -n "${VPN_PID:-}" ]; then
-            echo "Stopping openfortivpn (PID ${VPN_PID})..."
-            sudo kill "${VPN_PID}" 2>/dev/null || true
+          if [ -f openfortivpn.pid ]; then
+            VPN_PID="$(cat openfortivpn.pid)"
+            if [ -n "${VPN_PID}" ]; then
+              echo "Stopping openfortivpn (PID ${VPN_PID})..."
+              sudo kill "${VPN_PID}" 2>/dev/null || true
+            fi
           fi
           sudo pkill -f openfortivpn 2>/dev/null || true
+          rm -f vpn.conf openfortivpn.pid
           echo "VPN teardown complete."
