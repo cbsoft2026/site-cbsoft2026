@@ -41,6 +41,7 @@ export default async function RegistrationPage({ params }: Props) {
             {t('informacoes.inscricoes')}
             {t('informacoes.taxas')}
           </div>
+          {t('page')}
         </div>
       </div>
     </section>
