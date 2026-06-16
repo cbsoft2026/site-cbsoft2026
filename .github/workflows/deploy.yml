@@ -1,105 +1,128 @@
-name: Deploy página estática do NextJS no Github Pages
+# Build Next.js static export and mirror it over FTP to the internal host.
+# FTP server is reachable only inside the network, so connect via FortiGate
+# SSL-VPN (openfortivpn) first. Plain FTP is used because the server requires it;
+# it's mitigated by the SSL-VPN tunnel. All actions pinned to commit SHAs.
+
+name: Deploy (Next.js static export -> FTP)
 
 on:
   push:
     branches:
       - main
-  workflow_dispatch:
-    inputs:
-      deploy_homolog:
-        description: "Deploy no servidor de homologação"
-        type: boolean
-        default: false
+  workflow_dispatch: {}
 
-      redirect_homolog_to_prod:
-        description: "Adicionar redirect da homologação para produção"
-        type: boolean
-        default: false
-
+# Read-only token: this workflow only builds the repo.
 permissions:
-  pages: write
-  id-token: write
-  contents: write
+  contents: read
+
+# Serialize deploys; never cancel an in-flight mirror.
+concurrency:
+  group: deploy-ftp-${{ github.ref }}
+  cancel-in-progress: false
 
 jobs:
-  build:
+  # Single job: the FTP step consumes the freshly built `out/`.
+  build-and-deploy:
+    name: Build and deploy to FTP
     runs-on: ubuntu-latest
+    timeout-minutes: 20
 
     steps:
+      # --- Build ---
       - name: Checkout
-        uses: actions/checkout@v5
+        uses: actions/checkout@08c6903cd8c0fde910a37f88322edcfb5dd907a8 # v5.0.0
+        with:
+          persist-credentials: false # deploy is via FTP, not git
 
-      - name: Setup Node.js
-        uses: actions/setup-node@v6
+      - name: Setup Node.js 22
+        uses: actions/setup-node@2028fbc5c25fe9cf00d9f06a71cc4710d4507903 # v6.0.0
         with:
           node-version: 22
-          cache: 'npm'
-
-      - name: Check Node version
-        run: node -v
+          cache: npm
 
       - name: Install dependencies
         run: npm ci
 
-      - name: Build Next.js
-        run: npm run build
-      
-      - name: Upload artifact
-        uses: actions/upload-pages-artifact@v4
-        with:
-          name: site-build
-          path: out/
+      - name: Build Next.js static export
+        run: npm run build # emits out/
 
-  deploy-approval-server:
-    if: ${{ github.event.inputs.deploy_homolog == 'true' }}
-    runs-on: ubuntu-latest
-    needs: build
-    steps:
-      - name: Download build artifact
-        uses: actions/download-artifact@v4
-        with:
-          name: site-build
-          path: ./out
-      - uses: webfactory/ssh-agent@v0.9.0
-        with:
-          ssh-private-key: ${{ secrets.SSH_PRIVATE_KEY }}
-      - name: Deploy to GitHub Server
+      # --- VPN ---
+      - name: Install openfortivpn
         run: |
-          ssh -o StrictHostKeyChecking=no ${{ secrets.SSH_USER }}@${{ secrets.SSH_HOST }} "mkdir -p /tmp/deploy_temp && rm -rf /tmp/deploy_temp/*"
-          scp -o StrictHostKeyChecking=no -r ./out/* ${{ secrets.SSH_USER }}@${{ secrets.SSH_HOST }}:/tmp/deploy_temp
-      - name: Activate new version on server
+          sudo apt-get update
+          sudo apt-get install -y openfortivpn
+
+      # Secrets go in via env -> config file, never on the command line.
+      # Gateway cert validated against the system CA bundle. To pin the cert
+      # (defends against CA compromise / MITM), add a VPN_TRUSTED_CERT secret
+      # with the SHA-256 fingerprint and re-add the trusted-cert config line.
+      - name: Connect to SSL-VPN
+        env:
+          VPN_GATEWAY_HOST: ${{ secrets.VPN_GATEWAY_HOST }}
+          VPN_GATEWAY_PORT: ${{ secrets.VPN_GATEWAY_PORT }}
+          VPN_USERNAME: ${{ secrets.VPN_USERNAME }}
+          VPN_PASSWORD: ${{ secrets.VPN_PASSWORD }}
         run: |
-          ssh -o StrictHostKeyChecking=no ${{ secrets.SSH_USER }}@${{ secrets.SSH_HOST }} "
-            set -e
+          set -euo pipefail
 
-            echo 'Extraindo artifact.tar'
-            tar -xf /tmp/deploy_temp/artifact.tar -C /tmp/deploy_temp/
-            rm /tmp/deploy_temp/artifact.tar
+          # Write config mode 600 (umask 077), keeping secrets off the CLI.
+          umask 077
+          printf 'host = %s\n'          "$VPN_GATEWAY_HOST"  >  vpn.conf
+          printf 'port = %s\n'          "$VPN_GATEWAY_PORT"  >> vpn.conf
+          printf 'username = %s\n'      "$VPN_USERNAME"      >> vpn.conf
+          printf 'password = %s\n'      "$VPN_PASSWORD"      >> vpn.conf
 
-            echo 'Substituindo versão'
-            rsync -a --delete /tmp/deploy_temp/ ${{ secrets.APP_PATH }}/
+          # Pre-create log/pid as the runner so the root-owned writes below
+          # stay readable (root `> file` truncates in place, keeps ownership).
+          : > openfortivpn.log
+          : > openfortivpn.pid
 
-            echo 'Limpando temporários'
-            rm -rf /tmp/deploy_temp
-          "
-  
-  add-redirect:
-    if: ${{ github.event.inputs.redirect_homolog_to_prod == 'true' }}
-    runs-on: ubuntu-latest
-    needs: build
-    steps:
-      - uses: webfactory/ssh-agent@v0.9.0
+          # Start tunnel as root, capturing openfortivpn's REAL pid. A
+          # backgrounded `sudo ...` would give sudo's pid via $!, so teardown
+          # could kill sudo and leave openfortivpn running. Grab $! inside the
+          # root shell instead, where it refers to openfortivpn itself.
+          sudo sh -c 'openfortivpn -c vpn.conf >> openfortivpn.log 2>&1 & echo $! > openfortivpn.pid'
+
+          # Wait for ppp0 (tunnel up), then remove the config.
+          echo "Waiting for ppp0 interface..."
+          for i in $(seq 1 30); do
+            if ip link show ppp0 >/dev/null 2>&1; then
+              echo "VPN tunnel is up (ppp0 present)."
+              rm -f vpn.conf
+              ip -brief addr show ppp0 || true
+              exit 0
+            fi
+            sleep 2
+          done
+
+          echo "ERROR: ppp0 did not come up within timeout. VPN log:"
+          cat openfortivpn.log || true
+          rm -f vpn.conf
+          exit 1
+
+      # --- Deploy ---
+      # Incremental mirror-with-delete via server state file; trailing slashes required.
+      - name: Deploy to FTP (mirror with delete)
+        uses: SamKirkland/FTP-Deploy-Action@110f9186c050f71550953127052e77650219c287 # v4.4.0
         with:
-          ssh-private-key: ${{ secrets.SSH_PRIVATE_KEY }}
-      - name: Deploy to GitHub Server
-        run: |
-          ssh -o StrictHostKeyChecking=no ${{ secrets.SSH_USER }}@${{ secrets.SSH_HOST }} "mkdir -p /tmp/deploy_temp && rm -rf /tmp/deploy_temp/*"
-      - name: Add redirect page on homolog server
-        run: |
-          ssh -o StrictHostKeyChecking=no ${{ secrets.SSH_USER }}@${{ secrets.SSH_HOST }} "
-            set -e
+          protocol: ftp
+          server: ${{ secrets.FTP_SERVER }}
+          username: ${{ secrets.FTP_USERNAME }}
+          password: ${{ secrets.FTP_PASSWORD }}
+          local-dir: out/
+          server-dir: /sharedirs/sharedir01/tchaves/public_html/
 
-            rm -rf '${{ secrets.APP_PATH }}'/*
-
-            echo '<!DOCTYPE html><html lang=\"pt-BR\"><head><meta charset=\"UTF-8\"><meta http-equiv=\"refresh\" content=\"0; url=https://cbsoft.sbc.org.br/2026\"></head><body><p>Redirecionando para o site oficial...</p></body></html>' > '${{ secrets.APP_PATH }}/index.html'
-          "
+      # --- Teardown --- always stop the tunnel, even on failure.
+      - name: Disconnect SSL-VPN
+        if: always()
+        run: |
+          if [ -f openfortivpn.pid ]; then
+            VPN_PID="$(cat openfortivpn.pid)"
+            if [ -n "${VPN_PID}" ]; then
+              echo "Stopping openfortivpn (PID ${VPN_PID})..."
+              sudo kill "${VPN_PID}" 2>/dev/null || true
+            fi
+          fi
+          sudo pkill -f openfortivpn 2>/dev/null || true
+          rm -f vpn.conf openfortivpn.pid
+          echo "VPN teardown complete."
