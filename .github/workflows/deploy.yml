@@ -111,6 +111,10 @@ jobs:
           password: ${{ secrets.FTP_PASSWORD }}
           local-dir: out/
           server-dir: /sharedirs/sharedir01/tchaves/public_html/
+          # One-time full reset: wipes server-dir and re-uploads from scratch,
+          # clearing stale sync state and orphaned _next/ hash folders.
+          # Revert to false (or remove) after a successful deploy.
+          dangerous-clean-slate: true
 
       # --- Teardown --- always stop the tunnel, even on failure.
       - name: Disconnect SSL-VPN
