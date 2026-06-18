@@ -12,6 +12,8 @@ Os valores de inscrição para estudantes estão disponíveis apenas para aquele
 
 Todos os artigos aceitos serão publicados na SBC OpenLibrary (SOL). São obrigatórios (i) a inscrição de pelo menos um autor de cada artigo aceito na categoria profissional e (ii) o pagamento da taxa de publicação de cada artigo aceito. Além disso, o artigo precisa ser apresentado no evento. Essas são condições obrigatórias para a publicação do artigo nos anais do evento. A inscrição e a taxa de publicação de cada artigo devem ser pagas até 07/08/2026 (fim da primeira faixa de preços).
 
+Para casos específicos e dúvidas frequentes sobre inscrição de autores, consulte o FAQ: [clique aqui](cbsoft/faq-authors)
+
 ### Formas de pagamento
 
 O pagamento da inscrição poderá ser feito por boleto bancário, cartão de crédito, débito em conta do Banco do Brasil, nota de empenho ou faturamento no sistema ECOS. As inscrições poderão ser feitas até o último dia de realização do CBSoft'2026; porém, os pagamentos por débito em conta e por boleto bancário serão encerrados em 03/09/2026. Após essa data, será possível efetuar o pagamento de inscrição apenas por cartão de crédito, nota de empenho ou faturamento.
