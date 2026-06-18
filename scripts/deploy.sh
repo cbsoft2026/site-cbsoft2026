@@ -95,6 +95,9 @@ check_command npm
 NODE_ENV=production npm run build
 
 cat <<EOF > out/.htaccess
+RewriteEngine On
+RewriteCond %{HTTPS} !=on
+RewriteRule ^ https://%{HTTP_HOST}%{REQUEST_URI} [L,R=301]
 ErrorDocument 404 /2026/404/
 EOF
 
