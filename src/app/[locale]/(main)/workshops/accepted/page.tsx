@@ -1,4 +1,3 @@
-import CallComponent from '@/components/Call';
 import Title from '@/components/Title';
 import { createPageMetadata } from '@/lib/metadata';
 import { withUTM } from '@/utils/utm';
