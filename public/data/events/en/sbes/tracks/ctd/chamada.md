@@ -104,6 +104,26 @@ Katia Romero Felizardo — Federal University of Technology Paraná (UTFPR-CP)
 
 Guilherme Horta Travassos — Systems Engineering and Computer Science Graduate Program, COPPE, Federal University of Rio de Janeiro (UFRJ)
 
-#### CTD-ES 2026 Program Committee
+###### Dissertation Evaluation Committee
 
-*in formation*
+Andreia Malucelli — Pontifícia Universidade Católica do Paraná (PUC-PR)
+
+Baldoino Fonseca dos Santos Neto — Universidade Federal de Alagoas (UFAL)
+
+Eduardo Figueiredo — Universidade Federal de Minas Gerais (UFMG)
+
+José Maria David — Universidade Federal de Juiz de Fora (UFJF)
+
+Rossana Andrade — Universidade Federal Do Ceará (UFC)
+
+###### Thesis Evaluation Committee
+
+Marco Túlio Valente — Universidade Federal de Minas Gerais (UFMG)
+
+Márcio Ribeiro — Universidade Federal de Alagoas (UFAL)
+
+Paulo Borba — Universidade Federal de Pernambuco (UFPE)
+
+Sheila Reinehr — Pontifícia Universidade Católica do Paraná (PUC-PR)
+
+Tayana Conte — Universidade Federal do Amazonas (UFAM)
