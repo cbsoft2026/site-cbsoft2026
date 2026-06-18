@@ -1,70 +1,66 @@
-![CBSOFT Logo](./public/images/logos/cbsoft-logo.svg)
+# ERCAS 2026 — Conference Website
 
-## Iniciando o projeto
+Static site for the ERCAS 2026 conference, built with [Jekyll](https://jekyllrb.com/) and the [jekyll-theme-conference](https://github.com/DigiLab-OVGU/jekyll-theme-conference) theme.
 
-Caso queira usar o Docker Compose como alternativa à instalação manual, veja a seção [Docker Compose](#docker-compose).
+## Requirements
 
-Antes de começar, é necessário ter o [Node.js](https://nodejs.org/pt/download) instalado e criar um arquivo `.env` para configurar parâmetros do `sitemap.xml`.
+- **Ruby** 3.4.x (developed on 3.4.4)
+- **Bundler** 2.4+ (for the `:windows` platform alias in the `Gemfile`)
+- A Ruby version manager is recommended ([mise](https://mise.jdx.dev/), rbenv, or rvm)
 
-1. **Instalar dependências**
+## Setup
 
-```bash
-npm install
-```
-
-2. **Rodar em modo desenvolvimento**
-
-Caso queira rodar em modo desenvolvimento, basta
+Install dependencies:
 
 ```bash
-npm run dev
+bundle install
 ```
 
-A aplicação ficará disponível em: [http://localhost:3000/{NEXT_PUBLIC_URL}/{LOCALE}](http://localhost:3000/{NEXT_PUBLIC_URL}/{LOCALE}).
+## Run locally
 
-3. **Gerar o build do projeto**
+Start the dev server with live reload:
 
 ```bash
-npm run build
+bundle exec jekyll serve
 ```
 
-gerando todos os arquivos necessários na pasta `out/`.
+Site is served at <http://localhost:4000>.
 
-## Docker Compose
+Useful flags:
 
-Para gerar os arquivos na pasta `out/`
+- `--livereload` — auto-refresh the browser on file changes
+- `--drafts` — include posts in `_drafts/`
+- `--host 0.0.0.0` — expose on the local network
+
+## Build
+
+Generate the static site into `_site/`:
 
 ```bash
-docker-compose -f docker-compose.yml up --build 
+bundle exec jekyll build
 ```
 
-Para usar o modo watch do docker para desenvolvimento
+## Project structure
 
-```bash
-docker-compose up --build 
+```
+_config.yml      # site settings + theme config
+index.markdown   # home page
+about.markdown   # about page
+404.html         # not-found page
+_site/           # generated output (gitignored)
 ```
 
-> [!NOTE]
-> O modo desenvolvimento do nextjs consome bastante memória ram.
+> Conference content (talks, speakers, program) is added under `_data/` —
+> see the [theme docs](https://github.com/DigiLab-OVGU/jekyll-theme-conference)
+> for the expected data files.
 
-## Alterações de informações
+## Notes
 
-| Tipo | Localização | Observação |
-|------|------------|------------|
-| Dados anuais | `public/data/` | Atualizados anualmente[^1] |
-| Traduções | `locale/` (`pt` e `en`) | Textos traduzidos |
+- Theme is `jekyll-theme-conference`, which is **not** a blog theme — it provides
+  `talk`, `program`, `speaker`, `page`, etc. layouts, but no `post` layout.
+- After editing `_config.yml`, restart the server — it is not auto-reloaded.
 
-* **Dados anuais:** Arquivos que precisam ser atualizados todo ano devem ser colocados na pasta `public/data/`.
+## Deployment
 
-* **Traduções:** Textos para os idiomas `pt` e `en` devem estar na pasta `locale/`.
-
-Para observar as alterações na página é necessário compilar os *json*'s e os *yaml*'s
-
-```bash
-npm run generate-messages
-npm run generate-events
-npm run generate-data
-```
-ou simplesmente realizar o build.
-
-[^1]: Idealmente
+Built static output lives in `_site/`. Deploy that directory to any static host
+(GitHub Pages, Netlify, etc.).
