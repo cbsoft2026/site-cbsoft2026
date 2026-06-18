@@ -41,11 +41,18 @@ export default function TemplateMarkdown({ children, className, variables, local
                 ? href
                 : `${baseUrl}${href.startsWith('/') || baseUrl.endsWith('/') ? '' : '/'}${href}`;
 
+            const isInternal = typeof finalHref === 'string' && finalHref.startsWith(baseUrl);
+
             if (props.href?.startsWith('#user-content-fn')) {
               return <a {...props}>{props.children}</a>;
             }
             return (
-              <a {...props} href={finalHref} target='_blank' rel='noopener noreferrer'>
+              <a
+                {...props}
+                href={finalHref}
+                target={isInternal ? undefined : '_blank'}
+                rel={isInternal ? undefined : 'noopener noreferrer'}
+              >
                 {props.children}
               </a>
             );
