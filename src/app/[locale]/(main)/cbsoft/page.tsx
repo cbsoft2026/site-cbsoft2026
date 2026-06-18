@@ -64,6 +64,27 @@ export default async function CbsoftPage({ params }: Props) {
             <Title titulo={t('sobre')} />
             {t('page')}
           </div>
+
+          <div
+            style={{
+              fontSize: '0.75rem',
+              opacity: 0.6,
+              textAlign: 'right',
+              marginTop: '2rem',
+            }}
+          >
+            v{process.env.NEXT_PUBLIC_APP_VERSION}
+            <br />
+            <a
+              href={`https://github.com/cbsoft2026/site-cbsoft2026/commit/${process.env.NEXT_PUBLIC_GIT_COMMIT}`}
+              target='_blank'
+              rel='noopener noreferrer'
+            >
+              {process.env.NEXT_PUBLIC_GIT_COMMIT} (git)
+            </a>
+            <br />
+            {new Date(process.env.NEXT_PUBLIC_BUILD_TIME!).toLocaleString()}
+          </div>
         </div>
       </section>
     </div>

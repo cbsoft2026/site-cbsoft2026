@@ -2,6 +2,11 @@ import createNextIntlPlugin from 'next-intl/plugin';
 import path from 'path';
 import type { NextConfig } from 'next';
 
+import { execSync } from 'child_process';
+import packageJson from './package.json';
+
+const gitCommit = execSync('git rev-parse HEAD').toString().trim();
+
 const withNextIntl = createNextIntlPlugin();
 
 const nextConfig: NextConfig = {
@@ -10,13 +15,16 @@ const nextConfig: NextConfig = {
   env: {
     PUBLIC_URL: process.env.NEXT_PUBLIC_URL || '/',
     NEXT_PUBLIC_ASSET_PREFIX: process.env.NEXT_PUBLIC_ASSET_PREFIX || '/.',
+    NEXT_PUBLIC_GIT_COMMIT: gitCommit,
+    NEXT_PUBLIC_BUILD_TIME: new Date().toISOString(),
+    NEXT_PUBLIC_APP_VERSION: packageJson.version,
   },
   reactStrictMode: true,
   sassOptions: {
     quietDeps: true,
     includePaths: [path.join(__dirname, 'src/app/styles')],
   },
-  output: "export",
+  output: 'export',
   images: { unoptimized: true },
   trailingSlash: true,
   skipTrailingSlashRedirect: true,
