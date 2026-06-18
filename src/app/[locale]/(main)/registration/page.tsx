@@ -2,7 +2,6 @@ import Title from '@/components/Title';
 
 import styles from './styles.module.scss';
 import appConfig from '@/app/app.config';
-import Image from 'next/image';
 import { getTObject } from '@/lib/getTObject';
 import { createPageMetadata } from '@/lib/metadata';
 
