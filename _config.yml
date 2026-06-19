@@ -36,6 +36,9 @@ defaults:
     values:
       layout: room
 
+include:
+  - .htaccess
+
 exclude:
   - GUIDE.md
   - README.md
