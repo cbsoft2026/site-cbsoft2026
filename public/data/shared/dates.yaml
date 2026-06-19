@@ -215,7 +215,9 @@ sast:
 
 sbcars: 
     abstract_submission:
-        date: 2026-06-19
+        date: 2026-06-26
+        history:
+            - 2026-06-19
         label:
             pt: "Registro de resumos"
             en: "Abstract Submission"
