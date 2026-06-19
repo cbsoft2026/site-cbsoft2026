@@ -9,7 +9,7 @@ O voluntariado no CBSoft 2026 está aberto a alunos de todo o Brasil. Estamos pr
 #### Benefícios
 
 * Inscrição gratuita no CBSoft 2026.
-* Camiseta de aluno voluntário do CBSoft 2026, além de todos os brindes destinados aos participantes, refeições e coffee breaks durante o congresso.
+* Camiseta de aluno voluntário do CBSoft 2026, além de todos os brindes destinados aos participantes, almoço no dia que estiver trabalhando no evento e coffee breaks durante o congresso.
 * Uma ótima oportunidade para conhecer e conversar sobre pesquisa ou sobre seus interesses com pesquisadores e profissionais da indústria.
 * Possibilidade de estabelecer conexões com futuros colegas em sua carreira.
 
