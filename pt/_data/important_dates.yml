@@ -1,0 +1,19 @@
+- label: Submissão de artigos completos
+  date: 2026-07-15
+  done: false
+
+- label: Notificação de aceitação
+  date: 2026-08-20
+  done: false
+
+- label: Envio da versão final
+  date: 2026-09-10
+  done: false
+
+- label: Submissão de resumos expandidos
+  date: 2026-07-31
+  done: false
+
+- label: Realização do evento
+  date: 2026-10-13
+  done: false

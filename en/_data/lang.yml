@@ -1,0 +1,239 @@
+version: 10
+
+en:
+  pronoun:
+    and: and
+    at: at
+    by: by
+    for: for
+    in: in
+    on_: "on"
+  overview: Overview
+  more_information: More Information
+  close: Close
+  navigation:
+    main: Main navigation
+    toggle: Toggle navigation menu
+    skip_to_content: Skip to content
+  live:
+    live: Live
+    stream: Live Stream
+    streams: Live Streams
+    pre_stream: Live stream has not started yet.
+    pause_stream: Live stream is currently paused.
+    post_stream: Live stream has ended.
+    offline: offline
+    time:
+      in: in
+      since: since
+      weeks: weeks
+      week: week
+      days: days
+      day: day
+      hours: hours
+      hour: hour
+      minutes: minutes
+      minute: minute
+      soon: soon
+      now: now
+  location:
+    name: Location
+    navigation: Room navigation
+    map_label: Interactive conference location map
+    rooms: Rooms
+    talks: Talks in this room
+    focus_conf: Center map on conference location
+    focus_me: Show my current location
+  program:
+    title: Program
+    legend: Caption
+    schedule: Conference schedule
+    days: Days
+    time: Time
+  speaker:
+    overview: Speakers
+    title: Speaker
+    talks: Talks at this conference
+  talk:
+    overview: Talks
+    title: Talk
+  important_dates:
+    event: Event
+    date: Date
+
+de:
+  pronoun:
+    and: und
+    at: um
+    by: von
+    for: für
+    in: im Raum
+    on_: am
+  overview: Übersicht
+  more_information: Weitere Informationen
+  close: Schließen
+  navigation:
+    main: Hauptnavigation
+    toggle: Navigationsmenü umschalten
+    skip_to_content: Zum Inhalt springen
+  live:
+    live: Live
+    stream: Live Stream
+    streams: Live Streams
+    pre_stream: Der Live Stream hat noch nicht begonnen.
+    pause_stream: Der Live Stream ist derzeit pausiert.
+    post_stream: Der Live Stream ist beendet.
+    offline: offline
+    time:
+      in: in
+      since: seit
+      weeks: Wochen
+      week: Woche
+      days: Tagen
+      day: Tag
+      hours: Stunden
+      hour: Stunde
+      minutes: Minuten
+      minute: Minute
+      soon: demnächst
+      now: jetzt
+  location:
+    name: Ort
+    navigation: Raumnavigation
+    map_label: Interaktive Karte des Konferenzortes
+    rooms: Räume
+    talks: Vorträge in diesem Raum
+    focus_conf: Karte auf den Konferenz-Ort zentrieren
+    focus_me: Meinen aktuellen Standort anzeigen
+  program:
+    title: Programm
+    legend: Legende
+    schedule: Konferenzprogramm
+    days: Konferenztage
+    time: Zeit
+  speaker:
+    overview: Redner:innen
+    title: Redner:in
+    talks: Vorträge an dieser Konferenz
+  talk:
+    overview: Vorträge
+    title: Vortrag
+
+fr:
+  pronoun:
+    and: et
+    at: à
+    by: de
+    for: pour
+    in: dans
+    on_: le
+  overview: Aperçu
+  more_information: Plus d'informations
+  close: Fermer
+  navigation:
+    main: Navigation principale
+    toggle: Basculer le menu de navigation
+    skip_to_content: Aller au contenu
+  live:
+    live: En direct
+    stream: Diffusion en direct
+    streams: Diffusions en direct
+    pre_stream: La diffusion en direct n'a pas encore commencé.
+    pause_stream: La diffusion est actuellement en pause.
+    post_stream: La diffusion en direct est terminée.
+    offline: hors ligne
+    time:
+      in: dans
+      since: depuis
+      weeks: semaines
+      week: semaine
+      days: jours
+      day: jour
+      hours: heures
+      hour: heure
+      minutes: minutes
+      minute: minute
+      soon: à venir
+      now: maintenant
+  location:
+    name: Lieu
+    navigation: Navigation des salles
+    map_label: Carte interactive du lieu de la conférence
+    rooms: Salles
+    talks: Présentations dans cette salle
+    focus_conf: Centrer la carte sur le lieu de la conférence
+    focus_me: Afficher ma localisation actuelle
+  program:
+    title: Programme
+    legend: Légende
+    schedule: Programme de la conférence
+    days: Jours de la conférence
+    time: Heure
+  speaker:
+    overview: Intervenants
+    title: Intervenant
+    talks: Présentations lors de cette conférence
+  talk:
+    overview: Présentations
+    title: Présentation
+
+pt:
+  pronoun:
+    and: e
+    at: às
+    by: de
+    for: por
+    in: em
+    on_: "no"
+  overview: Visão geral
+  more_information: Mais informações
+  close: Fechar
+  navigation:
+    main: Navegação principal
+    toggle: Alternar menu de navegação
+    skip_to_content: Ir para o conteúdo
+  live:
+    live: Ao vivo
+    stream: Transmissão ao vivo
+    streams: Transmissões ao vivo
+    pre_stream: A transmissão ao vivo ainda não começou.
+    pause_stream: A transmissão está atualmente em pausa.
+    post_stream: A transmissão ao vivo terminou.
+    offline: offline
+    time:
+      in: em
+      since: há
+      weeks: semanas
+      week: semana
+      days: dias
+      day: dia
+      hours: horas
+      hour: hora
+      minutes: minutos
+      minute: minuto
+      soon: em breve
+      now: agora
+  location:
+    name: Local
+    navigation: Navegação das salas
+    map_label: Mapa interativo do local da conferência
+    rooms: Salas
+    talks: Apresentações nesta sala
+    focus_conf: Centralizar o mapa para o local da conferência
+    focus_me: Mostrar minha localização atual
+  program:
+    title: Programa
+    legend: Legenda
+    schedule: Programação da conferência
+    days: Dias da conferência
+    time: Hora
+  speaker:
+    overview: Palestrantes
+    title: Palestrante
+    talks: Apresentações nesta conferência
+  talk:
+    overview: Apresentações
+    title: Apresentação
+  important_dates:
+    event: Evento
+    date: Data

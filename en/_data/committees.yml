@@ -1,0 +1,18 @@
+- group: Organizing Committee
+  members:
+    - name: Ana Costa
+      affiliation: Universidade Federal da Bahia
+      url: https://example.com/anacosta
+    - name: Bruno Lima
+      affiliation: Hospital Universitário Prof. Edgard Santos
+    - name: Carla Mendes
+      affiliation: Instituto de Saúde Coletiva — UFBA
+
+- group: Program Committee
+  members:
+    - name: Diana Rocha
+      affiliation: Universidade Estadual de Feira de Santana
+    - name: Eduardo Nunes
+      affiliation: Universidade Federal do Ceará
+    - name: Fernanda Peixoto
+      affiliation: Pontifícia Universidade Católica do Rio Grande do Sul

@@ -1,0 +1,27 @@
+days:
+  - name: Tuesday
+    abbr: Tue
+    date: 2026-10-13
+    rooms:
+      - name: Sala Principal
+        talks:
+          - name: Keynote de Abertura
+            time_start: "09:00"
+            time_end: "10:00"
+          - name: Telemedicina em Hospitais Públicos
+            time_start: "10:30"
+            time_end: "11:30"
+  - name: Wednesday
+    abbr: Wed
+    date: 2026-10-14
+    rooms:
+      - name: Sala Principal
+        talks:
+          - name: IA para Vigilância Epidemiológica
+            time_start: "14:00"
+            time_end: "16:00"
+      - name: Sala Workshop
+        talks:
+          - name: Telemedicina em Hospitais Públicos
+            time_start: "14:00"
+            time_end: "15:00"

@@ -1,0 +1,36 @@
+# English build — authored as boilerplate, NOT deployed yet.
+# Wire into deploy.yml + add switcher links when custom domain is live.
+baseurl: "/en"
+exclude:
+  - pt
+  - GUIDE.md
+  - README.md
+
+collections_dir: en
+data_dir: en/_data
+
+conference:
+  lang: en
+  show_errors: false
+
+  meta:
+    preposition: "at"
+
+  navigation:
+    links:
+      - name: Program
+        relative_url: /program/
+      - name: Talks
+        relative_url: /talks/
+      - name: Speakers
+        relative_url: /speakers/
+      - name: Committees
+        relative_url: /committees/
+      - name: Sponsors
+        relative_url: /sponsors/
+      - name: Important Dates
+        relative_url: /important-dates/
+      - name: Location
+        relative_url: /location/
+      - name: Registration
+        absolute_url: "https://ercas2026.ufba.br/inscricoes"

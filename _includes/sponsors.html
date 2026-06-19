@@ -1,0 +1,27 @@
+{% for tier in site.data.sponsors %}
+<section class="mb-5">
+  <h2 class="h4 border-bottom pb-2 mb-3">{{ tier.tier }}</h2>
+  <div class="row row-cols-2 row-cols-md-3 row-cols-lg-4 g-4 align-items-center">
+    {% for item in tier.items %}
+    <div class="col text-center">
+      {% if item.url %}
+        <a href="{{ item.url }}" target="_blank" rel="noopener noreferrer">
+      {% endif %}
+      {% if item.logo %}
+        <img
+          src="{{ item.logo | prepend: '/assets/images/' | prepend: site.baseurl }}"
+          alt="{{ item.name }}"
+          class="img-fluid"
+          style="max-height: 80px;"
+        />
+      {% else %}
+        <span class="fw-semibold">{{ item.name }}</span>
+      {% endif %}
+      {% if item.url %}
+        </a>
+      {% endif %}
+    </div>
+    {% endfor %}
+  </div>
+</section>
+{% endfor %}

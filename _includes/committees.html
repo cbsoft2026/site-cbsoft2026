@@ -1,0 +1,21 @@
+{% for group in site.data.committees %}
+<section class="mb-5">
+  <h2 class="h4 border-bottom pb-2 mb-3">{{ group.group }}</h2>
+  <ul class="list-unstyled row row-cols-1 row-cols-md-2 row-cols-lg-3 g-2">
+    {% for member in group.members %}
+    <li class="col">
+      {% if member.url %}
+        <a href="{{ member.url }}" class="text-decoration-none text-body">
+          <strong>{{ member.name }}</strong>
+        </a>
+      {% else %}
+        <strong>{{ member.name }}</strong>
+      {% endif %}
+      {% if member.affiliation %}
+        <br /><small class="text-muted">{{ member.affiliation }}</small>
+      {% endif %}
+    </li>
+    {% endfor %}
+  </ul>
+</section>
+{% endfor %}
