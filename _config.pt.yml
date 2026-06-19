@@ -1,0 +1,31 @@
+baseurl: "/site-ercas2026"
+exclude:
+  - en
+  - GUIDE.md
+  - README.md
+
+collections_dir: pt
+data_dir: pt/_data
+
+conference:
+  lang: pt
+  show_errors: false   # overridden to true when running locally (dev)
+
+  navigation:
+    links:
+      - name: Programação
+        relative_url: /program/
+      - name: Palestras
+        relative_url: /talks/
+      - name: Palestrantes
+        relative_url: /speakers/
+      - name: Comitês
+        relative_url: /committees/
+      - name: Patrocínio
+        relative_url: /sponsors/
+      - name: Datas Importantes
+        relative_url: /important-dates/
+      - name: Local
+        relative_url: /location/
+      - name: Inscrições
+        absolute_url: "https://ercas2026.ufba.br/inscricoes"

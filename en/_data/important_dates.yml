@@ -1,0 +1,19 @@
+- label: Full paper submission
+  date: 2026-07-15
+  done: false
+
+- label: Acceptance notification
+  date: 2026-08-20
+  done: false
+
+- label: Camera-ready submission
+  date: 2026-09-10
+  done: false
+
+- label: Extended abstract submission
+  date: 2026-07-31
+  done: false
+
+- label: Conference dates
+  date: 2026-10-13
+  done: false

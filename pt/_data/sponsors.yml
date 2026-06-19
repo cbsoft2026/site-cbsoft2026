@@ -1,0 +1,17 @@
+- tier: Ouro
+  items:
+    - name: Empresa Exemplo S.A.
+      url: https://example.com
+      logo: sponsors/logo-placeholder.svg
+
+- tier: Prata
+  items:
+    - name: Saúde Digital Ltda.
+      url: https://example.com/saudedigital
+
+- tier: Apoio Institucional
+  items:
+    - name: Universidade Federal da Bahia
+      url: https://ufba.br
+    - name: Sociedade Brasileira de Computação
+      url: https://sbc.org.br

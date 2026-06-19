@@ -1,0 +1,30 @@
+<div class="table-responsive">
+  <table class="table table-hover align-middle">
+    <thead class="table-light">
+      <tr>
+        <th scope="col">{{ site.data.lang[site.conference.lang].important_dates.event | default: "Evento" }}</th>
+        <th scope="col" class="text-nowrap">{{ site.data.lang[site.conference.lang].important_dates.date | default: "Data" }}</th>
+      </tr>
+    </thead>
+    <tbody>
+      {% for item in site.data.important_dates %}
+      <tr {% if item.done %} class="text-muted" {% endif %}>
+        <td>
+          {% if item.done %}
+            <s>{{ item.label }}</s>
+          {% else %}
+            {{ item.label }}
+          {% endif %}
+        </td>
+        <td class="text-nowrap">
+          {% if item.done %}
+            <s>{{ item.date | date: "%d/%m/%Y" }}</s>
+          {% else %}
+            {{ item.date | date: "%d/%m/%Y" }}
+          {% endif %}
+        </td>
+      </tr>
+      {% endfor %}
+    </tbody>
+  </table>
+</div>
