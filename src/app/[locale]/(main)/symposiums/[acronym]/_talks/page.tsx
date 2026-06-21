@@ -33,10 +33,10 @@ export default async function TalksPage({ params }: Props) {
       <div className='container' style={{ marginBottom: 56 }}>
         <Title titulo={`${commonT(`siglas.${acronym}`)} (${commonT(`${acronym}`)}) - ${t('palestras')}`}></Title>
       </div>
-      {Object.keys(events).length > 0 ? (
-        Object.keys(events).map((key) => (
+      {Object.keys(filteredObj).length > 0 ? (
+        Object.keys(filteredObj).map((key) => (
           <div key={key} style={{ marginBottom: 56 }}>
-            <EventComponent key={key} events={events} event={events[key]} locale={locale} />
+            <EventComponent key={key} events={filteredObj} event={filteredObj[key]} locale={locale} />
           </div>
         ))
       ) : (
