@@ -39,6 +39,7 @@ export default function generatedCollection(t: Translator, commonT: Translator) 
       { title: t('cbsoft.organizacao'), href: '/cbsoft/organization' },
       { title: t('cbsoft.acomodacoes'), href: '/cbsoft/accommodation' },
       // { title: t('schedule.titulo'), href: '/schedule/calender' },
+      { title: t('cbsoft.speakers'), href: '/cbsoft/speakers' },
       { title: t('cbsoft.volunteers'), href: '/cbsoft/volunteers' },
       { title: t('cbsoft.local'), href: '/cbsoft/location' },
       { title: t('cbsoft.codigo_conduta'), href: '/cbsoft/code-of-conduct' },
