@@ -94,7 +94,7 @@ export default async function HomePage({ params }: Props) {
         (speaker, index) =>
           speaker.image &&
           speaker.name && (
-            <div key={index}>
+            <LinkLocale href={{ pathname: `/cbsoft/speakers#${speaker.id}` }} key={index} locale={locale}>
               <div key={speaker.id}>
                 <Image
                   className={styles[`image--${Math.floor(Math.random() * 2)}`]}
@@ -111,8 +111,8 @@ export default async function HomePage({ params }: Props) {
                 />
               </div>
               <h4>{speaker.name}</h4>
-              <p className={styles.institution}>{speaker.institution}</p>
-            </div>
+              <p className={`text-secondary ${styles.institution}`}>{speaker.institution}</p>
+            </LinkLocale>
           ),
       );
   })();
