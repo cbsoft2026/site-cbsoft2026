@@ -204,7 +204,7 @@ Monalessa Barcellos — Universidade Federal do Espírito Santo (UFES)
 
 ##### Comitê de Programa
 
-Alessandro Garcia — Pontifícia Universidade Católica do Rio de Janeiro (PUC-Rio)
+Alessandro Garcia — Departamento de Informática PUC-Rio (PUC-Rio)
 
 Aline Brito — Universidade Federal de Ouro Preto (UFOP)
 
@@ -214,37 +214,47 @@ Allysson Allex Araújo — Universidade Federal do Cariri (UFCA)
 
 Ana Carolina Oran — Universidade Federal do Amazonas (UFAM)
 
-Ana Patricia Fontes Magalhaes Mascarenhas — Universidade do Estado da Bahia (UNEB)
+Ana Patricia Fontes Magalhães Mascarenhas — Instituto de Ciências Exatas (ICE)
 
 Anderson José Silva de Oliveira — SERPRO
 
 Anderson Uchôa — Universidade Federal do Ceará (UFC)
 
-Andre Takeshi Endo — Universidade Federal de São Carlos (UFSCAR)
+Andre Takeshi Endo — Universidade Federal de São Carlos (UFSCar)
 
-Awdren de Lima Fontão — Universidade Federal do Mato Grosso do Sul (UFMS)
+Anielle Severo Lisboa de Andrade — Universidade Federal do Pampa (Unipampa)
+
+Awdren de Lima Fontão — Federal University of Mato Grosso do Sul (UFMS)
 
 Baldoino Fonseca — Universidade Federal de Alagoas (UFAL)
 
+Beatriz Santana — Universidade Estadual de Feira de Santana (UEFS)
+
 Breno Miranda — Universidade Federal de Pernambuco (UFPE)
 
-Breno Bernard Nicolau de França — Universidade Estadual de Campinas (UNICAMP)
+Breno Bernard Nicolau de França — Universidade Estadual de Campinas (Unicamp)
 
-Bruno B. P. Cafeo — Universidade Estadual de Campinas (UNICAMP)
+Bruno B. P. Cafeo — Universidade Estadual de Campinas (Unicamp)
 
 Bruno Gadelha — Universidade Federal do Amazonas (UFAM)
 
 Carla Bezerra — Universidade Federal do Ceará (UFC)
 
+Catarina Costa — Universidade Federal do Acre (UFAC)
+
 Cláudio Sant'Anna — Universidade Federal da Bahia (UFBA)
 
-Crescencio Lima — Instituto Federal da Bahia (IFBA)
+Crescencio Lima — Federal Institute of Bahia (IFBA)
+
+Danyllo Albuquerque — Instituto Federal da Paraíba (IFPB)
 
 Davi Viana — Universidade Federal do Maranhão (UFMA)
 
-Denivan Campos — University of Molise
+Denivan Campos — University of Molise, Italy
 
-Edna Dias Canedo — Universidade Federal de Pernambuco (Cin, UFPE)
+Djan Santos — Instituto Federal da Bahia (IFBA)
+
+Edna Dias Canedo — Universidade Federal de Pernambuco (UFPE)
 
 Eduardo Aranha — Universidade Federal do Rio Grande do Norte (UFRN)
 
@@ -254,19 +264,19 @@ Elisa Y. Nakagawa — Universidade de São Paulo (USP)
 
 Emanuel Coutinho — Universidade Federal do Ceará (UFC)
 
-Érica F. Souza — Universidade Federal Tecnológica do Paraná (UTFPR)
+Érica F. Souza — Universidade Tecnológica Federal do Paraná (UTFPR)
 
 Everton Cavalcante — Universidade Federal do Rio Grande do Norte (UFRN)
 
-Everton L. G. Alves — Universidade Federal de Campina Grande (UFCG)
+Everton L.G. Alves — Federal University of Campina Grande (UFCG)
 
-Everton Tavares Guimaraes — The Pennsylvania State University, EUA
+Everton Tavares Guimaraes — The Pennsylvania State University, USA
 
 Fabiane Barreto Vavassori Benitti — Universidade Federal de Santa Catarina (UFSC)
 
-Fabiano Cutigi Ferrari — Universidade Federal de São Carlos (UFSCAR)
+Fabiano Cutigi Ferrari — Universidade Federal de São Carlos (UFSCar)
 
-Fabio da Silva Ferreira — Instituto Federal do Sudeste de Minas Gerais (IFSUDESTEMG)
+Fabio da Silva Ferreira — Instituto Federal do Sudeste de Minas Gerais (IF Sudeste MG)
 
 Felipe Curty do Rego Pinto — Universidade Federal Fluminense (UFF)
 
@@ -274,29 +284,35 @@ Fernanda Madeiral — Universidade Federal de Pernambuco (UFPE)
 
 Fernando Antonio Mota Trinta — Universidade Federal do Ceará (UFC)
 
-Francisco Henrique Cerdeira Ferreira — Universidade Federal de Juiz de Fora (UFJF)
-
 Genaina Rodrigues — Universidade de Brasília (UnB)
 
-Gerson Sunyé — Université de Nantes, França
+Gerson Sunyé — Université de Nantes, France
 
-Glauco Carneiro — Universidade Federal de Sergipe (UFS)
+Glauco Carneiro — Universidade Salvador (UNIFACS)
 
 Gleison Santos — Universidade Federal do Estado do Rio de Janeiro (UNIRIO)
 
-Guilherme Avelino — Universidade Federal do Piauí (UFPI)
+Guilherme Avelino — Federal University of Piauí (UFPI)
 
-Heitor Augustus Xavier Costa — Universidade Federal de Lavras (UFLA)
+Guilherme Horta Travassos — COPPE/UFRJ (UFRJ)
+
+Heitor Augustus Xavier Costa — Federal University of Lavras (UFLA)
 
 Heleno de Souza Campos Junior — Universidade Federal Fluminense (UFF)
 
-Hudson Silva Borges — Universidade Federal do Mato Grosso do Sul (UFMS)
+Hudson Silva Borges — Universidade Federal de Mato Grosso do Sul (UFMS)
 
-Igor Steinmacher — Northern Arizona University, EUA
+Igor Pereira — Universidade Federal de Ouro Preto (UFOP)
 
-Igor Wiese — Universidade Federal Tecnológica do Paraná (UTFPR)
+Igor Steinmacher — Northern Arizona University, USA
 
-Jarbele Coutinho — Universidade Federal do Semi Árido (UFERSA)
+Igor Wiese — Universidade Tecnológica Federal do Paraná (UTFPR)
+
+Italo Santos — University of Hawaii at Manoa, USA
+
+Ivanilton Polato — Universidade Tecnológica Federal do Paraná (UTFPR)
+
+Jarbele Coutinho — Universidade Federal Rural do Semiárido (UFERSA)
 
 Jerffeson Souza — Universidade Estadual do Ceará (UECE)
 
@@ -308,9 +324,13 @@ José Alexandre D'Abruzzo Pereira — University of Coimbra, Portugal
 
 José Aldo Silva da Costa — Universidade Federal de Campina Grande (UFCG)
 
+José Amancio Macedo Santos — Universidade Estadual de Feira de Santana (UEFS)
+
 Juliana Alves Pereira — Pontifícia Universidade Católica do Rio de Janeiro (PUC-Rio)
 
-Julio Leite — Universidade Federal da Bahia (UFBA)
+Juliana de Albuquerque Gonç Saraiva — Federal University of Paraíba (UFPB)
+
+Julio Leite — Instituto de Computação, Universidade Federal da Bahia (UFBA)
 
 Karina Kohl — Universidade Federal do Rio Grande do Sul (UFRGS)
 
@@ -318,27 +338,27 @@ Kecia Ferreira — Centro Federal de Educação Tecnológica de Minas Gerais (CE
 
 Kiev Gama — Universidade Federal de Pernambuco (UFPE)
 
-Larissa Rocha Soares Bastos — Universidade Estadual de Feira de Santana (UEFS)
-
 Leonardo Fernandes M. de Oliveira — Instituto Federal de Alagoas (IFAL)
 
 Leonardo Gresta Paulino Murta — Universidade Federal Fluminense (UFF)
 
 Leopoldo Motta Teixeira — Universidade Federal de Pernambuco (UFPE)
 
-Leuson Da Silva — Polytechnique Montreal, Canadá
+Leuson Da Silva — Polytechnique Montréal, Canada
 
-Lina Garcés — Universidade de São Paulo (USP)
+Lidiany Cerqueira — Universidade Federal da Bahia (UFBA)
 
-Lincoln S. Rocha — Universidade Federal do Ceará (UFC)
+Lina Garcés — Universidade de São Paulo (ICMC-USP)
 
-Luana Martins — University of Salerno, Itália
+Lincoln S. Rocha — Federal University of Ceará (UFC)
+
+Luana Martins — University of Salerno, Italy
 
 Lucas Vegi — Universidade Federal de Viçosa (UFV)
 
-Luciana Zaina — Universidade Federal de São Carlos (UFSCAR)
+Luciana Zaina — Universidade Federal de São Carlos (UFSCar)
 
-Manoel Mendonca — Universidade Federal da Bahia (UFBA)
+Manoel Mendonça — Universidade Federal da Bahia (UFBA)
 
 Marcelo de Almeida Maia — Universidade Federal de Uberlândia (UFU)
 
@@ -348,17 +368,21 @@ Márcio O. Barros — Universidade Federal do Estado do Rio de Janeiro (UNIRIO)
 
 Marcio Ribeiro — Universidade Federal de Alagoas (UFAL)
 
+Marco Tulio Valente — Universidade Federal de Minas Gerais (UFMG)
+
 Marcos Kalinowski — Pontifícia Universidade Católica do Rio de Janeiro (PUC-Rio)
 
-Maria Claudia Figueiredo Pereira Emer — Universidade Federal Tecnológica do Paraná (UTFPR)
+Maria Claudia Figueiredo Pereira Emer — Universidade Tecnológica Federal do Paraná (UTFPR)
 
 Matheus Paixão — Universidade Estadual do Ceará (UECE)
 
-Melina Mongiovi — Universidade Federal de Campina Grande (UFCG)
+Melina Mongiovi — Federal University of Campina Grande (UFCG)
+
+Michel S. Soares — Federal University of Sergipe (UFS)
 
 Mirko Perkusich — Universidade Federal de Campina Grande (UFCG)
 
-Nabor Mendonca — Universidade de Fortaleza (UNIFOR)
+Nabor Mendonca — Universidade de Fortaleza (Unifor)
 
 Paola Accioly — Universidade Federal de Pernambuco (UFPE)
 
@@ -372,21 +396,23 @@ Paulo Malcher — Universidade Federal Rural da Amazônia (UFRA)
 
 Rafael Maiani de Mello — Universidade Federal do Rio de Janeiro (UFRJ)
 
-Rafael Parizi — Instituto Federal de Educação, Ciência e Tecnologia Farroupilha (IFFar)
+Rafael Parizi — Instituto Federal Farroupilha (IFFar)
 
-Rafael Prikladnicki — Pontifícia Universidade Católica do Rio Grande do Sul (PUC-RS)
+Rafael Prikladnicki — Pontifícia Universidade Católica do Rio Grande do Sul (PUCRS)
 
 Raphael Oliveira — Universidade Federal de Sergipe (UFS)
 
 Renato de Freitas Bulcão Neto — Universidade Federal de Goiás (UFG)
 
-Ricardo Vilela — Universidade Estadual de Campinas (UNICAMP)
+Ricardo Vilela — Universidade Estadual de Campinas (Unicamp)
 
 Rita Suzana Pitangueira Maciel — Universidade Federal da Bahia (UFBA)
 
 Rodrigo Andrade — Universidade Federal do Agreste de Pernambuco (UFAPE)
 
-Rodrigo Bonifacio — Universidade de Brasília (UnB)
+Rodrigo Bonifacio — Centro de Informática, Universidade Federal de Pernambuco (CIn/UFPE)
+
+Rodrigo Oliveira Zacarias — Universidade Federal Fluminense (UFF)
 
 Rodrigo Pereira dos Santos — Universidade Federal do Estado do Rio de Janeiro (UNIRIO)
 
@@ -394,19 +420,21 @@ Rodrigo Rocha Gomes e Souza — Universidade Federal da Bahia (UFBA)
 
 Rogério Garcia — Universidade Estadual Paulista Júlio de Mesquita Filho (Unesp)
 
-Rohit Gheyi — Universidade Federal de Campina Grande (UFCG)
+Rohit Gheyi — Federal University of Campina Grande (UFCG)
 
 Rossana Maria de Castro Andrade — Universidade Federal do Ceará (UFC)
 
-Sávio Freire — Instituto Federal do Ceará (IFC)
+Sabrina dos Santos Marczak — Pontifícia Universidade Católica do Rio Grande do Sul (PUCRS)
+
+Sávio Freire — Federal Institute of Ceará (IFCE)
 
 Sergio Soares — Universidade Federal de Pernambuco (UFPE)
 
-Sheila Reinehr — Pontifícia Universidade Católica do Paraná (PUC-PR)
+Sheila Reinehr — Pontifícia Universidade Católica do Paraná (PUCPR)
 
 Silvia Regina Vergilio — Universidade Federal do Paraná (UFPR)
 
-Simone da Silva Amorim — Instituto Federal da Bahia (IFBA)
+Simone da Silva Amorim — Federal Institute of Bahia (IFBA)
 
 Simone do Rocio Senger Souza — Universidade de São Paulo (USP)
 
@@ -414,15 +442,17 @@ Tayana Conte — Universidade Federal do Amazonas (UFAM)
 
 Thaís Burity — Universidade Federal do Agreste de Pernambuco (UFAPE)
 
-Thatiane de Oliveira Rosa — Instituto Federal do Tocantins (UFT)
+Thatiane de Oliveira Rosa — Instituto Federal do Tocantins (IFTO)
 
-Tiago Lima Massoni — Universidade Federal de Campina Grande (UFCG)
+Tiago Lima Massoni — Federal University of Campina Grande (UFCG)
 
 Troy Costa Kohwalter — Universidade Federal Fluminense (UFF)
 
 Uirá Kulesza — Universidade Federal do Rio Grande do Norte (UFRN)
 
-Valter Vieira Camargo — Universidade Federal de São Carlos (UFSCAR)
+Valdemar Vicente Graciano Neto — Universidade Federal de Goiás (UFG)
+
+Valter Vieira Camargo — Universidade Federal de São Carlos (UFSCar)
 
 Vander R. Alves — Universidade de Brasília (UnB)
 
@@ -430,10 +460,10 @@ Vânia de Oliveira Neves — Universidade Federal Fluminense (UFF)
 
 Vinicius Cardoso Garcia — Universidade Federal de Pernambuco (UFPE)
 
-Vinicius Durelli — Universidade Federal de São Carlos (UFSCAR)
+Vinicius Durelli — Universidade Federal de São Carlos (UFSCar)
 
 Vítor E. Silva Souza — Universidade Federal do Espírito Santo (UFES)
 
-Walter Nakamura — Universidade Federal Tecnológica do Paraná (UTFPR)
+Walter Nakamura — Universidade Tecnológica Federal do Paraná (UTFPR)
 
 Windson Viana — Universidade Federal do Ceará (UFC)
