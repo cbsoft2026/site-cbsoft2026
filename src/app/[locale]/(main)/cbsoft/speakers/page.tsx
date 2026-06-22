@@ -27,42 +27,46 @@ export default async function SpeakersPage({ params }: Props) {
   );
 
   return (
-    <article style={{ padding: '30px 0 0' }} className='container'>
+    <article style={{ padding: '30px 0 0' }}>
       <header className='container' style={{ marginBottom: 56 }}>
         <Title titulo={t('titulo')}></Title>
       </header>
-      {speakersFiltered &&
-        speakersFiltered.map((speaker, index) => (
-          <div id={speaker.id} key={index} className={styles['speaker-item']}>
-            <div key={speaker.id} className={styles['content__image']}>
-              <Image
-                className={styles[`image--${Math.floor(Math.random() * 2)}`]}
-                loading='lazy'
-                src={
-                  speaker.image.startsWith('http')
-                    ? speaker.image
-                    : `${process.env.NEXT_PUBLIC_ASSET_PREFIX}/images/speakers/${speaker.image || 'default.jpg'}`
-                }
-                width={240}
-                height={240}
-                alt={speaker.name}
-                title={speaker.name}
-              />
+      <div className='container'>
+        {speakersFiltered &&
+          speakersFiltered.map((speaker, index) => (
+            <div id={speaker.id} key={index} className={styles['speaker-item']}>
+              <div key={speaker.id} className={styles['content__image']}>
+                <Image
+                  className={styles[`image--${Math.floor(Math.random() * 2)}`]}
+                  loading='lazy'
+                  src={
+                    speaker.image.startsWith('http')
+                      ? speaker.image
+                      : `${process.env.NEXT_PUBLIC_ASSET_PREFIX}/images/speakers/${speaker.image || 'default.jpg'}`
+                  }
+                  width={240}
+                  height={240}
+                  alt={speaker.name}
+                  title={speaker.name}
+                />
+              </div>
+              <div className={styles['content__body']}>
+                <div className={styles['content__paragraph']}>
+                  <h1>{speaker.name}</h1>
+                  <p className='text-secondary'>{speaker.institution}</p>
+                  <p>{speaker.bio}</p>
+                </div>
+                <div className={styles['content__addons']}>
+                  {speaker.webpage && (
+                    <a title='website' href={withUTM(speaker.webpage)} target='_blank' rel='noopener noreferrer'>
+                      <FontAwesomeIcon size='2x' icon={faGlobe} />
+                    </a>
+                  )}
+                </div>
+              </div>
             </div>
-            <div className={styles['content__paragraph']}>
-              <h1>{speaker.name}</h1>
-              <p className='text-secondary'>{speaker.institution}</p>
-              <p>{speaker.bio}</p>
-            </div>
-            <div className={styles['content__addons']}>
-              {speaker.webpage && (
-                <a title='website' href={withUTM(speaker.webpage)} target='_blank' rel='noopener noreferrer'>
-                  <FontAwesomeIcon size='2x' icon={faGlobe} />
-                </a>
-              )}
-            </div>
-          </div>
-        ))}
+          ))}
+      </div>
     </article>
   );
 }

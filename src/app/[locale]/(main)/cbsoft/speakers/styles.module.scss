@@ -8,10 +8,25 @@
   gap: 32px;
   margin-bottom: 32px;
 
+  @media (max-width: 576px) {
+    flex-direction: column;
+  }
+
   &:hover {
     img {
       box-shadow: $box-shadow;
       filter: grayscale(100%);
+    }
+  }
+
+  .content__body {
+    display: flex;
+    flex-direction: row;
+    gap: 32px;
+    flex: 1;
+
+    @media (max-width: 576px) {
+      flex-direction: column;
     }
   }
 }
@@ -23,12 +38,21 @@
 .content__image {
   width: 300px;
   height: 300px;
-  min-width: 300px;
   min-height: 300px;
+  min-width: 300px;
+  aspect-ratio: 1 / 1;
+  display: block;
   overflow: hidden;
   display: flex;
   align-items: center;
   justify-content: center;
+
+  @media (max-width: 412px) {
+    width: 100%;
+    height: auto;
+    min-height: auto;
+    min-width: auto;
+  }
 
   .image--0 {
     border-radius: 32px;
