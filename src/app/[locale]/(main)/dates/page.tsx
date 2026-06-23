@@ -20,11 +20,11 @@ export default async function DatesPage({ params }: Props) {
   const datesT = await getTranslations({ locale, namespace: 'pages/dates' });
 
   const datesList = Object.keys(dates).flatMap((nameKey) => {
-    const activities = dates[nameKey as keyof typeof dates];
+    const activities = dates[nameKey];
     const nameParts = nameKey.split('_');
     return Object.keys(activities).map((activityKey) => {
-      const info = activities[activityKey as keyof typeof activities];
-      let dateLabel = info != undefined && info.hasOwnProperty('label') ? info.label : '';
+      const info = activities[activityKey];
+      let dateLabel = info != undefined && info.label ? info.label : '';
       if (typeof dateLabel !== 'string') {
         if (dateLabel.hasOwnProperty(locale)) {
           dateLabel = dateLabel[locale as keyof typeof dateLabel];
@@ -37,7 +37,7 @@ export default async function DatesPage({ params }: Props) {
           nameParts.length > 1
             ? commonT(nameParts[0]) + ' - ' + commonT(`siglas.trilhas.${nameParts[1]}`)
             : commonT(nameKey),
-        previouslyWhen: 'history' in info ? info.history : [],
+        previouslyWhen: info.history ?? [],
         when: info.date,
         what: dateLabel,
       };

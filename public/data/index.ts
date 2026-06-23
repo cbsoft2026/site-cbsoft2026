@@ -9,7 +9,9 @@ import sponsorsJson from './sponsors.json';
 import organizersJson from './organizers.json';
 import accommodationJson from './accommodation.json';
 import previousEditionsJson from '../generated/previous-editions.json'
+import datesJson from "../generated/shared/dates.json";
 import commonJson from './common.json'
+import { DatesData, DatesDataSchema } from '@/types/dates';
 
 export const sponsors: Sponsors = validateData(SponsorsSchema, sponsorsJson, 'Sponsors');
 
@@ -19,7 +21,8 @@ export const accommodations: Accommodations = validateData(AccommodationsSchema,
 
 export const previousEditions: PreviousEditions = validateData(PreviousEditionsSchema, previousEditionsJson, 'PreviousEditions');
 
+export const dates: DatesData = validateData(DatesDataSchema, datesJson, 'Dates');
+
 export const common = commonJson
 
-export { default as dates } from "../generated/shared/dates.json";
 export { default as speakers } from "../generated/shared/speakers.json";
