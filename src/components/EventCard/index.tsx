@@ -48,6 +48,10 @@ export default function EventCard(props: { event: Event; rooms: Rooms; view: str
 
   const diffTime = diffTimes(start, end, t);
 
+  const eventRooms = (() => {
+    return props.event.rooms.map((roomEvent) => props.rooms.find((room) => room.label == roomEvent)?.nome).join(', ');
+  })();
+
   return (
     <div
       onClick={props.onClick}
@@ -65,13 +69,7 @@ export default function EventCard(props: { event: Event; rooms: Rooms; view: str
           <div>
             <h6>{props.event.title}</h6>
             {props.event.description && <p title={props.event.description}>{props.event.description}</p>}
-            {props.view === 'list' && props.rooms.length >= props.event.rooms.length ? (
-              <>
-                <p>{props.event.rooms.join(', ')}</p>
-              </>
-            ) : (
-              ''
-            )}
+            {props.view === 'list' && props.rooms.length > props.event.rooms.length ? <p>{eventRooms}</p> : ''}
           </div>
 
           {props.event.participants && (
