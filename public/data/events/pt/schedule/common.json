@@ -1,29 +1,65 @@
 {
     "salas": [
         {
-            "nome": "Sala Manuel Bandeira I",
-            "label": "Manuel Bandeira I"
+            "label": "auditorio-fau",
+            "nome": "Alan Turing",
+            "local": "Auditório FAU"
         },
         {
-            "nome": "Sala Manuel Bandeira II",
-            "label": "Manuel Bandeira II"
+            "label": "auditorio-ime",
+            "nome": "Ada Lovelace",
+            "local": "Auditório IME"
         },
         {
-            "nome": "Sala Manuel Bandeira III",
-            "label": "Manuel Bandeira III"
+            "label": "b5",
+            "nome": "Margaret Hamilton",
+            "local": "B5"
         },
         {
-            "nome": "Sala Manuel Bandeira IV",
-            "label": "Manuel Bandeira IV"
+            "label": "b16",
+            "nome": "Cecília Rubira",
+            "local": "B16"
         },
         {
-            "nome": "Sala Mauro Mota I",
-            "label": "Mauro Mota I"
+            "label": "b9",
+            "nome": "Richard Stallman",
+            "local": "B9"
         },
         {
-            "nome": "Sala Mauro Mota II",
-            "label": "Mauro Mota II"
+            "label": "b10",
+            "nome": "Dennis Ritchie",
+            "local": "B10"
+        },
+        {
+            "label": "b1",
+            "nome": "Linus Torvalds",
+            "local": "B1"
+        },
+        {
+            "label": "b2",
+            "nome": "Barbara Liskov",
+            "local": "B2"
+        },
+        {
+            "label": "b3",
+            "nome": "Grace Hopper",
+            "local": "B3"
+        },
+        {
+            "label": "ccsl",
+            "nome": "Imre Simon",
+            "local": "CCSL"
+        },
+        {
+            "label": "b101",
+            "nome": "Kristen Nygaard",
+            "local": "B101"
+        },
+        {
+            "label": "numec",
+            "nome": "Charles Babbage",
+            "local": "NUMEC"
         }
     ],
-    "startsInDate": "2025-09-22T08:30:00-03:00"
+    "startsInDate": "2026-09-08T08:00:00-03:00"
 }
