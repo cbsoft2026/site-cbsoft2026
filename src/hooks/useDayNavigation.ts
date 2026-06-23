@@ -5,18 +5,19 @@ import { useMemo } from 'react';
 export default function useDayNavigation(startsInDate: Date, lang: string) {
   const searchParams = useSearchParams();
 
+  // TODO: melhorar forma de obter dada de inicio e finalizacao
   const startsIn = useMemo(() => {
     return new Date(
       startsInDate.getFullYear(),
       parseInt(searchParams.get('month') || startsInDate.getMonth().toString()),
       parseInt(searchParams.get('day') || startsInDate.getDate().toString()),
-      8,
-      30,
+      startsInDate.getHours(),
+      startsInDate.getMinutes(),
     );
   }, [searchParams, startsInDate]);
 
   const finishIn = useMemo(() => {
-    return new Date(2025, startsIn.getMonth(), startsIn.getDate(), 19, 0);
+    return new Date(startsInDate.getFullYear(), startsIn.getMonth(), startsIn.getDate(), 22, 0);
   }, [startsIn]);
 
   const formattedDateLocale = formatDate(startsIn, lang, {
