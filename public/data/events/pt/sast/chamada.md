@@ -10,12 +10,12 @@ Em sua décima primeira edição como simpósio co-localizado ao Congresso Brasi
 
 | | |
 |---|---|
-| Registro de artigos regulares (submissão do resumo) | {paper_registration} |
-| Registro de artigos da indústria (submissão do resumo) | {paper_registration} |
-| Submissão dos artigos regulares completos | {submission_date} |
-| Submissão dos artigos completos da indústria | {submission_date} |
-| Notificação de aceitação | {notification_acceptance} |
-| Submissão da versão final | {camera_ready} |
+| Registro de Artigos Regulares (Submissão do Resumo) | {regular_paper_registration} (hard deadline) |
+| Registro de Artigos da Indústria (Submissão do Resumo) | {industry_paper_registration} (hard deadline) |
+| Submissão dos Artigos Regulares Completos | {regular_submission_date} (hard deadline) |
+| Submissão dos Artigos Completos da Indústria | {industry_submission_date} (hard deadline) |
+| Notificação de Aceitação | {notification_acceptance} |
+| Submissão da Versão Final | {camera_ready} |
 
 #### Tópicos de Interesse
 

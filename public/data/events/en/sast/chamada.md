@@ -10,10 +10,10 @@ In its eleventh edition as a symposium co-located with the **Brazilian Conferenc
 
 | | |
 |---|---|
-| Regular Paper Registration (Abstract Submission) | {paper_registration} |
-| Industry Paper Registration (Abstract Submission) | {paper_registration} |
-| Full Regular Paper Submission | {submission_date} |
-| Full Industry Paper Submission | {submission_date} | 
+| Regular Paper Registration (Abstract Submission) | {regular_paper_registration} (hard deadline) |
+| Industry Paper Registration (Abstract Submission) | {industry_paper_registration} (hard deadline) |
+| Full Regular Paper Submission | {regular_submission_date} (hard deadline) |
+| Full Industry Paper Submission | {industry_submission_date} (hard deadline) | 
 | Notification of Acceptance | {notification_acceptance} |
 | Camera-Ready Version | {camera_ready} |
 

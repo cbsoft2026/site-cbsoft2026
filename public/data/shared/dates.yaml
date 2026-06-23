@@ -192,23 +192,45 @@ sbes_tools:
             en: "Camera ready"
 
 sast: 
-    paper_registration:
-        date: 2026-06-22
+    regular_paper_registration:
+        date: 2026-07-01
+        history:
+            - 2026-06-22
         label:
-            pt: "Registro de artigos (submissão do resumo)"
-            en: "Paper Registration (Abstract Submission)"
-    submission_date:
-        date: 2026-06-29
+            pt: "Registro de Artigos Regulares (submissão do resumo)"
+            en: "Regular Paper Registration (Abstract Submission)"
+    industry_paper_registration:
+        date: 2026-07-01
+        history:
+            - 2026-06-22
+        label:
+            pt: "Registro de Artigos da Indústria (Submissão do Resumo)"
+            en: "Industry Paper Registration (abstract submission)"
+    regular_submission_date:
+        date: 2026-07-01
+        history:
+            - 2026-06-29
         label: 
-            pt: "Submissão dos artigos completos"
-            en: "Full Paper Submission"
+            pt: "Submissão dos Artigos Regulares Completos"
+            en: "Full Regular Paper Submission"
+    industry_submission_date:
+        date: 2026-07-01
+        history:
+            - 2026-06-29
+        label: 
+            pt: "Submissão dos Artigos Completos da Indústria"
+            en: "Full Industry Paper Submission"
     notification_acceptance:
-        date: 2026-07-31
+        date: 2026-08-03
+        history:
+            - 2026-07-31
         label:
             pt: "Notificação de aceitação"
             en: "Notification of Acceptance"
     camera_ready:
-        date: 2026-08-07
+        date: 2026-08-10
+        history:
+            - 2026-08-07
         label:
             pt: "Submissão da versão final"
             en: "Camera-Ready Version"
