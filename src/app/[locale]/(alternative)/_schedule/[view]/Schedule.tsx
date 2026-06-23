@@ -63,7 +63,7 @@ export default function Schedule(props: Props) {
         <div className={styles.rooms} style={{ gridArea: '1 / 1' }}></div>
         {rooms.map((room, roomIndex) => (
           <div key={`room-${roomIndex}`} className={styles.rooms} style={{ gridArea: `1 / ${roomIndex + 2}` }}>
-            {room.label}
+            {room.nome}
           </div>
         ))}
         {events.map((event, eventIndex) => {
@@ -97,7 +97,7 @@ export default function Schedule(props: Props) {
         {events
           .sort((a, b) => (a.schedule && b.schedule ? (a.schedule?.start > b.schedule?.start ? 1 : -1) : 0))
           .map((event, eventIndex) => {
-            if (event.schedule?.start && event.schedule?.start) {
+            if (event.schedule?.start && event.schedule?.end) {
               const start = new Date(event.schedule.start);
               const finish = new Date(event.schedule.end);
 
