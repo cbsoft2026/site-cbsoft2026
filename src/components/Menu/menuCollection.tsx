@@ -1,5 +1,7 @@
 import { getTranslations } from 'next-intl/server';
 import appConfig from '@/app/app.config';
+import { withUTM } from '@/utils/utm';
+import { programs } from '@/app/config/event-structure';
 
 export type NavbarItemProps = {
   title: string;
@@ -98,6 +100,12 @@ export default function generatedCollection(t: Translator, commonT: Translator) 
     href: '/artifacts',
   };
 
+  const aiware = programs.find((program) => program.slug == 'aiware');
+  const aiwareMenuItem: NavbarItemProps = {
+    title: commonT('siglas.aiware'),
+    href: withUTM(aiware?.url ?? '/aiware'),
+  };
+
   return [
     cbsoftMenuItem,
     sbesMenuItem,
@@ -108,5 +116,6 @@ export default function generatedCollection(t: Translator, commonT: Translator) 
     artifactsMenuItem,
     latamSchoolMenuItem,
     highSchoolMenuItem,
+    aiwareMenuItem,
   ];
 }

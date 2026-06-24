@@ -5,6 +5,8 @@ import Title from '@/components/Title';
 import { createPageMetadata } from '@/lib/metadata';
 import { locales } from '@/app/config/locales';
 import { EventStructureType, programs } from '@/app/config/event-structure';
+import { redirect } from 'next/navigation';
+import { withUTM } from '@/utils/utm';
 
 type Props = {
   params: Promise<{ program: EventStructureType; locale: string }>;
@@ -18,8 +20,8 @@ export async function generateMetadata({ params }: Props) {
 export async function generateStaticParams() {
   const params = locales.flatMap((locale) =>
     programs.map((program) => ({
-      locale,
-      program,
+      locale: locale,
+      program: program.slug,
     })),
   );
   return params;
@@ -27,6 +29,12 @@ export async function generateStaticParams() {
 
 export default async function ProgramPage({ params }: Props) {
   const { program, locale } = await params;
+  const programScheme = programs.find((programItem) => programItem.slug == program);
+
+  if (programScheme?.type === 'external') {
+    redirect(withUTM(programScheme?.url));
+  }
+
   const commonT = await getTranslations({ locale, namespace: 'common' });
   return (
     <article style={{ padding: '30px 0 0' }}>
