@@ -9,20 +9,15 @@ import { validateData } from '@/public/data/validator';
 import { slugify } from '@/utils/slugify';
 import { defaultLang, Locale } from '@/app/config/locales';
 import { SessionsSchema } from '@/types/session';
-import { Participant, Participants } from '@/types/participants';
+import { Participant } from '@/types/participants';
 import { Rooms } from '@/types/rooms';
 import { Event, Events, EventType } from '@/types/event';
 import { events, EventStructureType } from '@/app/config/event-structure';
+import { speakers } from '@/data';
 
 export const EVENTS_LIST = events;
 
 const BASE_PATH = path.join(process.cwd(), 'public/data/events');
-
-export function loadParticipants(): Participants {
-  const pessoasPath = path.join(BASE_PATH, '../generated/shared/speakers.json');
-  if (!fs.existsSync(pessoasPath)) return [];
-  return JSON.parse(fs.readFileSync(pessoasPath, 'utf-8'));
-}
 
 export function loadCommonEvents(lang: string = defaultLang): { salas: Rooms; startsInDate: string } {
   const pessoasPath = path.join(BASE_PATH, `../events/${lang}/schedule/common.json`);
@@ -84,7 +79,7 @@ export function formatParticipants(
 }
 
 export function loadEvents(lang: string = defaultLang): Map<string, Event> {
-  const participants: { [key: string]: Participant } = loadParticipants().reduce(
+  const participants: { [key: string]: Participant } = speakers.reduce(
     (previous, value) => ({ ...previous, [value.id]: value }),
     {},
   );
