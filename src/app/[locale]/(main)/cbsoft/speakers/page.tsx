@@ -1,12 +1,8 @@
-import Image from 'next/image';
-import { speakers } from '@/data';
-import styles from './styles.module.scss';
-import { withUTM } from '@/utils/utm';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faGlobe } from '@fortawesome/free-solid-svg-icons';
+import { coverSpeakers, speakers } from '@/data';
 import Title from '@/components/Title';
 import { getTranslations } from 'next-intl/server';
 import { createPageMetadata } from '@/lib/metadata';
+import SpeakerCard from '@/components/SpeakerCard';
 
 type Props = {
   params: Promise<{ locale: string }>;
@@ -24,7 +20,11 @@ export default async function SpeakersPage({ params }: Props) {
   const speakersFiltered = speakers
     .filter(
       (speaker) =>
-        typeof speaker === 'object' && speaker !== null && !Array.isArray(speaker) && speaker.image && speaker.name,
+        typeof speaker === 'object' &&
+        speaker !== null &&
+        !Array.isArray(speaker) &&
+        speaker.name &&
+        coverSpeakers.includes(speaker.id),
     )
     .sort((a, b) => a.name.localeCompare(b.name));
 
@@ -35,39 +35,7 @@ export default async function SpeakersPage({ params }: Props) {
       </header>
       <div className='container'>
         {speakersFiltered &&
-          speakersFiltered.map((speaker, index) => (
-            <div id={speaker.id} key={index} className={styles['speaker-item']}>
-              <div key={speaker.id} className={styles['content__image']}>
-                <Image
-                  className={styles[`image--${Math.floor(Math.random() * 2)}`]}
-                  loading='lazy'
-                  src={
-                    speaker.image.startsWith('http')
-                      ? speaker.image
-                      : `${process.env.NEXT_PUBLIC_ASSET_PREFIX}/images/speakers/${speaker.image || 'default.jpg'}`
-                  }
-                  width={240}
-                  height={240}
-                  alt={speaker.name}
-                  title={speaker.name}
-                />
-              </div>
-              <div className={styles['content__body']}>
-                <div className={styles['content__paragraph']}>
-                  <h1>{speaker.name}</h1>
-                  <p className='text-secondary'>{speaker.institution}</p>
-                  <p>{speaker.bio}</p>
-                </div>
-                <div className={styles['content__addons']}>
-                  {speaker.webpage && (
-                    <a title='website' href={withUTM(speaker.webpage)} target='_blank' rel='noopener noreferrer'>
-                      <FontAwesomeIcon size='2x' icon={faGlobe} />
-                    </a>
-                  )}
-                </div>
-              </div>
-            </div>
-          ))}
+          speakersFiltered.map((speaker, index) => <SpeakerCard key={index} speaker={speaker} size={240} />)}
       </div>
     </article>
   );

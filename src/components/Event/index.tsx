@@ -1,10 +1,10 @@
 import { Event } from '@/types/event';
-import Image from 'next/image';
 
 import styles from './styles.module.scss';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faCalendar } from '@fortawesome/free-regular-svg-icons';
 import { getTranslations } from 'next-intl/server';
+import SpeakerCard from '@/components/SpeakerCard';
 
 type Props = {
   events: Record<string, Event>;
@@ -135,25 +135,12 @@ export default async function EventComponent({ events, event, locale }: Props) {
                   typeof participant === 'object' &&
                   participant !== null &&
                   !Array.isArray(participant) &&
-                  participant.image &&
                   participant.name && (
-                    <div key={index}>
-                      <div key={participant.id} className={styles['content__image']}>
-                        <Image
-                          loading='lazy'
-                          src={
-                            participant.image.startsWith('http')
-                              ? participant.image
-                              : `${process.env.NEXT_PUBLIC_ASSET_PREFIX}/images/speakers/${participant.image || 'default.jpg'}`
-                          }
-                          width={240}
-                          height={240}
-                          alt={participant.name}
-                          title={participant.name}
-                        />
-                      </div>
-                      <p>{participant.name}</p>
-                    </div>
+                    <SpeakerCard key={index} speaker={participant} size={100}>
+                      <h6>{participant.name}</h6>
+                      <p className='text-secondary'>{participant.institution}</p>
+                      <p>{participant.bio}</p>
+                    </SpeakerCard>
                   ),
               )}
             </div>

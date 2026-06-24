@@ -6,7 +6,7 @@ import { faArrowDown, faCalendarCheck, faLocationDot, faPlus } from '@fortawesom
 import Link from 'next/link';
 import AddCalendar from '@/components/AddCalendar';
 import { formatDateRange } from '@/utils/dates';
-import { common, sponsors } from '@/data';
+import { common, coverSpeakers, sponsors } from '@/data';
 import Countdown from '@/components/Countdown';
 import BackgroundGeometric from '@/components/BackgroundGeometric';
 import InfiniteScroll from '@/components/InfiniteScroll';
@@ -88,11 +88,14 @@ export default async function HomePage({ params }: Props) {
     return speakers
       .filter(
         (speaker) =>
-          typeof speaker === 'object' && speaker !== null && !Array.isArray(speaker) && speaker.image && speaker.name,
+          typeof speaker === 'object' &&
+          speaker !== null &&
+          !Array.isArray(speaker) &&
+          speaker.name &&
+          coverSpeakers.includes(speaker.id),
       )
       .map(
         (speaker, index) =>
-          speaker.image &&
           speaker.name && (
             <LinkLocale href={{ pathname: `/cbsoft/speakers#${speaker.id}` }} key={index} locale={locale}>
               <div key={speaker.id}>
@@ -100,9 +103,9 @@ export default async function HomePage({ params }: Props) {
                   className={styles[`image--${Math.floor(Math.random() * 2)}`]}
                   loading='lazy'
                   src={
-                    speaker.image.startsWith('http')
+                    speaker.image?.startsWith('http')
                       ? speaker.image
-                      : `${process.env.NEXT_PUBLIC_ASSET_PREFIX}/images/speakers/${speaker.image || 'default.jpg'}`
+                      : `${process.env.NEXT_PUBLIC_ASSET_PREFIX}/images/${speaker.image ? 'speakers/' + speaker.image : 'nonimage.png'}`
                   }
                   width={300}
                   height={300}

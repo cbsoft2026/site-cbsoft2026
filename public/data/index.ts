@@ -10,8 +10,11 @@ import organizersJson from './organizers.json';
 import accommodationJson from './accommodation.json';
 import previousEditionsJson from '../generated/previous-editions.json'
 import datesJson from "../generated/shared/dates.json";
+import speakersJson from "../generated/shared/speakers.json";
+import coverSpeakersJson from "./shared/cover_speakers.json";
 import commonJson from './common.json'
 import { DatesData, DatesDataSchema } from '@/types/dates';
+import { Participants, ParticipantsSchema } from '@/types/participants';
 
 export const sponsors: Sponsors = validateData(SponsorsSchema, sponsorsJson, 'Sponsors');
 
@@ -23,6 +26,7 @@ export const previousEditions: PreviousEditions = validateData(PreviousEditionsS
 
 export const dates: DatesData = validateData(DatesDataSchema, datesJson, 'Dates');
 
-export const common = commonJson
+export const speakers: Participants = validateData(ParticipantsSchema, speakersJson, 'Speakers')
 
-export { default as speakers } from "../generated/shared/speakers.json";
+export const common = commonJson
+export const coverSpeakers = coverSpeakersJson["speakers"]
