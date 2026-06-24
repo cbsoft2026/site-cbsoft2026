@@ -184,7 +184,7 @@
   .dropdown-slide {
     position: relative;
 
-    &.active .nav-link {
+    &.active > .nav-link {
       color: $primary;
       font-weight: bold;
     }
