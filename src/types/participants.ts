@@ -3,8 +3,9 @@ import { Type, Static } from '@sinclair/typebox';
 export const ParticipantSchema = Type.Object({
   id: Type.String(),
   image: Type.Optional(Type.String()),
-  name: Type.Optional(Type.String()),
+  name: Type.String(),
   institution: Type.Optional(Type.String()),
+  webpage: Type.Optional(Type.String()),
   bio: Type.Optional(Type.String()),
 });
 
