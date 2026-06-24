@@ -4,10 +4,11 @@ import { Rooms } from '@/types/rooms';
 import styles from './styles.module.scss';
 import EventCard, { labelSlice, timeFormat } from '@/components/EventCard';
 import { useParams, useRouter } from 'next/navigation';
-import { Events } from '@/types/event';
+import { Events, Event } from '@/types/event';
 import useWindowDimensions from '@/hooks/useWindowDimentions';
 import generateTimes from '@/utils/generateTimes';
 import { useLocale } from 'next-intl';
+import { programs } from '@/app/config/event-structure';
 
 type Props = { rooms: Rooms; events: Events; startsIn: string; finishIn: string; typeView: string };
 
@@ -24,6 +25,12 @@ export default function Schedule(props: Props) {
 
   const timeslice = generateTimes(startInProcess, finishInProcess, 60);
   const timebreak = generateTimes(startInProcess, finishInProcess, 10);
+
+  const hrefEvent = (event: Event) => {
+    let prefix = 'symposiums/';
+    if (programs.find((program) => program.slug == event.simposio)) prefix = '';
+    return event.type == 'info' ? undefined : `${prefix}${event.simposio}/event#${event.id}`;
+  };
 
   if (view === 'calender' && width && width > 768) {
     return (
@@ -76,16 +83,7 @@ export default function Schedule(props: Props) {
             if (event.parentIds && event.parentIds.length === 1) return;
 
             return (
-              <EventCard
-                key={`event-${eventIndex}`}
-                onClick={() => {
-                  if (event.type == 'info') return;
-                  router.push(`/${locale}/event?id=${event.id}`);
-                }}
-                event={event}
-                rooms={rooms}
-                view={view}
-              />
+              <EventCard key={`event-${eventIndex}`} href={hrefEvent(event)} event={event} rooms={rooms} view={view} />
             );
           }
         })}
@@ -109,10 +107,7 @@ export default function Schedule(props: Props) {
               return (
                 <EventCard
                   key={`event-${eventIndex}`}
-                  onClick={() => {
-                    if (event.type == 'info') return;
-                    router.push(`/${locale}/event?id=${event.id}`);
-                  }}
+                  href={hrefEvent(event)}
                   event={event}
                   rooms={rooms}
                   view={'list'}
