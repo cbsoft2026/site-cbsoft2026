@@ -66,7 +66,7 @@ export default async function EventsPage({ params }: Props) {
         ))
       ) : (
         <div className='container'>
-          <p>{symposiumsT('emptyTalks')}</p>
+          <p>{symposiumsT('emptyEvents')}</p>
         </div>
       )}
     </article>
