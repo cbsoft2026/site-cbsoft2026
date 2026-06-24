@@ -3,6 +3,7 @@
 import { locales } from '@/app/config/locales';
 import { useLocale } from 'next-intl';
 import Link, { LinkProps } from 'next/link';
+import { CSSProperties } from 'react';
 import { UrlObject } from 'url';
 
 type HrefType = string | URL | UrlObject;
@@ -11,6 +12,7 @@ interface Props extends LinkProps {
   href: HrefType;
   children?: React.ReactNode;
   className?: string;
+  style?: CSSProperties;
 }
 
 function hrefToString(href: HrefType): string | null | undefined {
@@ -54,8 +56,8 @@ export function useLocalizedHref({ href, locale }: Props) {
   return localizedHref;
 }
 
-export default function LinkLocale({ href, locale, ...props }: Props) {
+export default function LinkLocale({ href, locale, style, ...props }: Props) {
   const localizedHref = useLocalizedHref({ href, locale });
 
-  return <Link prefetch={false} href={localizedHref} {...props} />;
+  return <Link prefetch={false} href={localizedHref} style={style} {...props} />;
 }
