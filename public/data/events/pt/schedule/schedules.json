@@ -1,47 +1,47 @@
 [
     {
-        "title": "Credenciamento",
+        "title": "Credenciamento - IME, Bloco B",
         "schedule": {
-            "start": "2025-09-22T08:30:00-03:00",
-            "end": "2025-09-22T09:00:00-03:00"
+            "start": "2026-09-08T08:00:00-03:00",
+            "end": "2026-09-08T09:00:00-03:00"
         },
         "type": "info",
-        "rooms": ["Manuel Bandeira I", "Manuel Bandeira II", "Manuel Bandeira III", "Manuel Bandeira IV", "Mauro Mota I", "Mauro Mota II"]
+        "rooms": ["auditorio-fau", "auditorio-ime", "b5", "b16", "b9", "b10", "b1", "b2", "b3", "ccsl", "b101", "numec"]
     },
     {
-        "title": "Coffee Break",
+        "title": "Coffee Break (Manhã)",
         "schedule": {
-            "start": "2025-09-22T10:30:00-03:00",
-            "end": "2025-09-22T11:00:00-03:00"
+            "start": "2026-09-08T10:00:00-03:00",
+            "end": "2026-09-08T10:30:00-03:00"
         },
         "type": "info",
-        "rooms": ["Manuel Bandeira I", "Manuel Bandeira II", "Manuel Bandeira III", "Manuel Bandeira IV", "Mauro Mota I", "Mauro Mota II"]
+        "rooms": ["auditorio-fau", "auditorio-ime", "b5", "b16", "b9", "b10", "b1", "b2", "b3", "ccsl", "b101", "numec"]
     },
     {
         "title": "Almoço",
         "schedule": {
-            "start": "2025-09-22T12:30:00-03:00",
-            "end": "2025-09-22T14:00:00-03:00"
+            "start": "2026-09-08T12:00:00-03:00",
+            "end": "2026-09-08T14:00:00-03:00"
         },
         "type": "info",
-        "rooms": ["Manuel Bandeira I", "Manuel Bandeira II", "Manuel Bandeira III", "Manuel Bandeira IV", "Mauro Mota I", "Mauro Mota II"]
+        "rooms": ["auditorio-fau", "auditorio-ime", "b5", "b16", "b9", "b10", "b1", "b2", "b3", "ccsl", "b101", "numec"]
     },
     {
-        "title": "Coffee Break",
+        "title": "Coffee Break (Tarde)",
         "schedule": {
-            "start": "2025-09-22T15:30:00-03:00",
-            "end": "2025-09-22T16:00:00-03:00"
+            "start": "2026-09-08T16:00:00-03:00",
+            "end": "2026-09-08T16:30:00-03:00"
         },
         "type": "info",
-        "rooms": ["Manuel Bandeira I", "Manuel Bandeira II", "Manuel Bandeira III", "Manuel Bandeira IV", "Mauro Mota I", "Mauro Mota II"]
+        "rooms": ["auditorio-fau", "auditorio-ime", "b5", "b16", "b9", "b10", "b1", "b2", "b3", "ccsl", "b101", "numec"]
     },
     {
-        "title": "CBSoft Ensino Médio",
+        "title": "Coquetel de abertura - Restaurante Viveiro (USP) [Prêmios SBCars e SAST]",
         "schedule": {
-            "start": "2025-09-22T09:00:00-03:00",
-            "end": "2025-09-22T10:30:00-03:00"
+            "start": "2026-09-08T18:30:00-03:00",
+            "end": "2026-09-08T21:00:00-03:00"
         },
         "type": "info",
-        "rooms": ["Manuel Bandeira I"]
+        "rooms": ["auditorio-fau", "auditorio-ime", "b5", "b16", "b9", "b10", "b1", "b2", "b3", "ccsl", "b101", "numec"]
     }
 ]
