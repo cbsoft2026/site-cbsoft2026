@@ -115,7 +115,7 @@ export default async function EventComponent({ events, event, locale }: Props) {
         </table>
       </main>
       <aside>
-        {event ? (
+        {event && event.participants.length ? (
           <>
             <h4>
               {(() => {
@@ -129,36 +129,34 @@ export default async function EventComponent({ events, event, locale }: Props) {
                 return <></>;
               })()}
             </h4>
-            {event.participants && (
-              <div className={styles['content__images']}>
-                {event.participants.map(
-                  (participant, index) =>
-                    typeof participant === 'object' &&
-                    participant !== null &&
-                    !Array.isArray(participant) &&
-                    participant.image &&
-                    participant.name && (
-                      <div key={index}>
-                        <div key={participant.id} className={styles['content__image']}>
-                          <Image
-                            loading='lazy'
-                            src={
-                              participant.image.startsWith('http')
-                                ? participant.image
-                                : `${process.env.NEXT_PUBLIC_ASSET_PREFIX}/images/speakers/${participant.image || 'default.jpg'}`
-                            }
-                            width={240}
-                            height={240}
-                            alt={participant.name}
-                            title={participant.name}
-                          />
-                        </div>
-                        <p>{participant.name}</p>
+            <div className={styles['content__images']}>
+              {event.participants.map(
+                (participant, index) =>
+                  typeof participant === 'object' &&
+                  participant !== null &&
+                  !Array.isArray(participant) &&
+                  participant.image &&
+                  participant.name && (
+                    <div key={index}>
+                      <div key={participant.id} className={styles['content__image']}>
+                        <Image
+                          loading='lazy'
+                          src={
+                            participant.image.startsWith('http')
+                              ? participant.image
+                              : `${process.env.NEXT_PUBLIC_ASSET_PREFIX}/images/speakers/${participant.image || 'default.jpg'}`
+                          }
+                          width={240}
+                          height={240}
+                          alt={participant.name}
+                          title={participant.name}
+                        />
                       </div>
-                    ),
-                )}
-              </div>
-            )}
+                      <p>{participant.name}</p>
+                    </div>
+                  ),
+              )}
+            </div>
           </>
         ) : (
           <></>
