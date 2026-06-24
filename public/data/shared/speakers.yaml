@@ -60,3 +60,24 @@
   institution: Institut National de Recherche en Informatique et en Automatique
   webpage: https://www.dicosmo.org/
   bio: "Pesquisador no INRIA e fundador/diretor do Software Heritage, uma iniciativa global e pioneira dedicada a coletar, preservar e compartilhar todo o código-fonte de software disponível publicamente."
+
+-
+  id: mauricio-aniche
+  image: Mauricio_Aniche.jpg
+  name: Maurício Aniche
+  institution: CTO of Alura, ex-Uber, Adyen, TU Delft, Locaweb, and published author
+  webpage: https://mauricioaniche.com/
+
+-
+  id: brena-marques-ribeiro
+  image: Brena_Marques_Ribeiro.jpeg
+  name: MS(c). Eng. Brena Marques Ribeiro
+  institution: iFood e ICMC-USP
+  bio: "Formada em Tecnologia da Informação pela ETEC, Franca, Engenheira Eletricista com ênfase em Sistemas de Energia e Automação da EESC-USP e, atualmente, atua como engenheira de software na iFood e Pesquisadora em Engenharia de Software no ICMC-USP, aplicando suas habilidades analíticas na interseção entre Inteligência Artificial e Teste de Software. Seu trabalho concentra-se na exploração de aplicações inovadoras que contribuam para o aumento da eficiência e da qualidade dos sistemas de software. Ao longo de sua trajetória acadêmica, realizou um intercâmbio na Universidad de los Andes com bolsa de mérito acadêmico, onde desenvolveu pesquisas sobre a aplicação de Modelos de Linguagem de Grande Escala (LLMs) como assistentes educacionais. Possui ainda forte interesse em Engenharia Reversa e Projetos Sustentáveis, buscando constantemente utilizar a tecnologia para desenvolver soluções de impacto. Mantém-se aberta ao intercâmbio de ideias e à construção de conexões profissionais voltadas ao avanço dessas áreas de conhecimento"
+
+-
+  id: rodrigo-henrique-ramos
+  image: Rodrigo_Henrique_Ramos.jpeg
+  name: Prof. Dr. Rodrigo Henrique Ramos
+  institution:  IFSP São Carlos
+  bio: "Professor de Computação do IFSP São Carlos, é Técnico em Informática e Técnico em Web Design pela ETEC de Casa Branca. É Tecnólogo em Análise e Desenvolvimento de Sistemas pelo IFSP São Carlos, especialista em Docência no Ensino Superior pelo Centro Universitário Barão de Mauá, Mestre em Ciência da Computação pela UFSCar na área de Engenharia de Software e Doutor em Ciência da Computação e Matemática Computacional pela USP São Carlos. Realizou Doutorado Sanduíche no King's College London. Atualmente, pesquisa Ciência de Dados aplicada à Genômica do Câncer"

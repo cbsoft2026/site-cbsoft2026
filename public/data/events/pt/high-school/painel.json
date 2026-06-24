@@ -1,0 +1,15 @@
+[
+    {
+        "speakers": [ 
+            "brena-marques-ribeiro",
+            "rodrigo-henrique-ramos"
+        ],
+        "schedule": {
+            "start": "2026-09-08T14:00:00-03:00",
+            "end": "2026-09-08T16:00:00-03:00"
+        },
+        "title": "Mesa redonda com profissionais da indústria de software e da academia",
+        "rooms": [ "auditorio-fau" ],
+        "description": "Convidados especialistas na indústria de desenvolvimento de software compartilharão suas trajetórias, experiências e desafios, com o objetivo de criar conexão com os estudantes e ampliar a percepção de pertencimento e de representatividade na área. É um espaço de diálogo com estudantes e profissionais que vieram da escola pública, para discutir suas jornadas acadêmicas e profissionais em Engenharia de Software, destacando caminhos, dificuldades e estratégias de superação."
+    }
+]

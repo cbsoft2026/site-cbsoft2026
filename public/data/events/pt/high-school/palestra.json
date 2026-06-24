@@ -1,0 +1,12 @@
+[
+    {
+        "speakers": [ "mauricio-aniche" ],
+        "schedule": {
+            "start": "2026-09-08T11:00:00-03:00",
+            "end": "2026-09-08T12:00:00-03:00"
+        },
+        "title": "Lá e de volta outra vez",
+        "rooms": [ "auditorio-fau" ],
+        "description": "O que você quer ser quando crescer? Desenvolvedor? Professor? Pesquisador? Empreendedor? E se a resposta fosse: tudo isso, em momentos diferentes? Nesta conversa, vou contar a minha trajetória — de desenvolvedor de software a fundador de empresa, passando pelo mestrado, doutorado, pós-doutorado, sala de aula, liderança técnica e, novamente, pelo desenvolvimento de software. Uma jornada cheia de idas e vindas, mudanças de planos e novas descobertas. Vou compartilhar como escolhi a faculdade, por que fui para a indústria, o que me levou para a academia e por que decidi voltar. Vamos conversar sobre os prós e contras de diferentes caminhos profissionais, as diferenças entre ser desenvolvedor, líder, pesquisador e empreendedor, e como a inteligência artificial está transformando a área de tecnologia. Mais do que falar sobre carreira e tecnologia, esta palestra é sobre escolhas. Sobre descobrir que não existe um único caminho certo e que mudar de ideia não é sinal de fracasso — muitas vezes, é exatamente assim que encontramos o nosso lugar. Porque, no fim das contas, a parte mais interessante da vida é que ela não vem com roteiro pronto. E tudo bem mudar de direção no meio da viagem."
+    }
+]
