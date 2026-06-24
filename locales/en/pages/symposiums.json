@@ -1,6 +1,7 @@
 {
-    "emptyTutorial": "No tutorials found.",
-    "emptyTalks": "No talks found.",
-    "emptyPainel": "No panels found.",
-    "emptyPapers": "No papers found."
+  "emptyTutorial": "No tutorials found.",
+  "emptyTalks": "No talks found.",
+  "emptyPainel": "No panels found.",
+  "emptyPapers": "No papers found.",
+  "emptyEvents": "No events found."
 }
