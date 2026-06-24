@@ -60,7 +60,7 @@ export default async function EventsPage({ params }: Props) {
       </div>
       {Object.keys(filteredObj).length > 0 ? (
         Object.keys(filteredObj).map((key) => (
-          <div key={key} style={{ marginBottom: 56 }}>
+          <div key={key} id={filteredObj[key].id} style={{ marginBottom: 56 }}>
             <EventComponent key={key} events={filteredObj} event={filteredObj[key]} locale={locale} />
           </div>
         ))
