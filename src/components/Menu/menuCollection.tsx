@@ -80,7 +80,7 @@ export default function generatedCollection(t: Translator, commonT: Translator) 
     title: commonT('siglas.workshops'),
     href: '/workshops',
     items: [
-      { title: t('workshops_call'), href: '/workshops' },
+      { title: t('chamada_trabalhos'), href: '/workshops' },
       { title: commonT('workshops_accepts'), href: '/workshops/accepted' },
     ],
   };
@@ -93,6 +93,10 @@ export default function generatedCollection(t: Translator, commonT: Translator) 
   const highSchoolMenuItem: NavbarItemProps = {
     title: commonT('high-school'),
     href: '/high-school',
+    items: [
+      { title: t('chamada_trabalhos'), href: '/high-school' },
+      { title: t('events'), href: '/high-school/schedule' },
+    ],
   };
 
   const artifactsMenuItem: NavbarItemProps = {
