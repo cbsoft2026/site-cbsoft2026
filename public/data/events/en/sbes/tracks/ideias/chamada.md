@@ -252,7 +252,7 @@ Leonardo Gresta Paulino Murta — Universidade Federal Fluminense (UFF)
 
 Leticia Machado — Universidade Federal do Rio Grande do Sul (UFRGS)
 
-Lilian Passos Scatalon — Universidade Estadual de Maringá (UEM)
+Lilian Passos Scatalon — Universidade de São Paulo (IME - USP)
 
 Lina Garcês — Universidade de São Paulo (ICMC - USP)
 
