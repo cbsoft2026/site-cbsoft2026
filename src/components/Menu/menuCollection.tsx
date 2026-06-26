@@ -93,10 +93,10 @@ export default function generatedCollection(t: Translator, commonT: Translator) 
   const highSchoolMenuItem: NavbarItemProps = {
     title: commonT('high-school'),
     href: '/high-school',
-    items: [
-      { title: t('chamada_trabalhos'), href: '/high-school' },
-      { title: t('events'), href: '/high-school/schedule' },
-    ],
+    // items: [
+    //   { title: t('chamada_trabalhos'), href: '/high-school' },
+    //   { title: t('events'), href: '/high-school/schedule' },
+    // ],
   };
 
   const artifactsMenuItem: NavbarItemProps = {
