@@ -311,3 +311,26 @@ volunteers:
         label:
             pt: Notificações dos resultados
             en: Notification of results
+
+latam-school:
+    registration:
+        date: 2026-07-20
+        label:
+            pt: Prazo para inscrição
+            en: Application deadline
+    notification:
+        date: 2026-08-03
+        label:
+            pt: Notificação
+            en: Notification
+    latam_school_1:
+        date: 2026-09-08
+        label:
+            pt: Escola LATAM (dia 1)
+            en: LATAM School (day 1)
+
+    latam_school_2:
+        date: 2026-09-09
+        label:
+            pt: Escola LATAM (dia 2)
+            en: LATAM School (day 2)
