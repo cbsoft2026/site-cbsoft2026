@@ -24,6 +24,8 @@ Durante o evento, as responsabilidades incluem:
 * apoio à equipe de organização do evento;
 * contribuição para o bom andamento geral do evento.
 
+Alguns voluntários poderão participar da cobertura do evento nas redes sociais, produzindo fotos e vídeos de palestras, sessões técnicas, atividades sociais e outros momentos do congresso.
+
 #### Requisitos para participação
 
 * Estar regularmente matriculado em um curso de graduação ou de pós-graduação durante o evento.
