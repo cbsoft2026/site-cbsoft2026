@@ -67,6 +67,10 @@
         {
           "href": "https://www.kunumi.com",
           "image": "kunumi.png"
+        },
+        {
+          "href": "https://pencillabs.tec.br/",
+          "image": "pencil_labs.png"
         }
       ]
     }
