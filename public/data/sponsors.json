@@ -102,6 +102,15 @@
           "image": "fapesp.png"
         }
       ]
+    },
+    {
+      "tier": "ouro",
+      "items": [
+        {
+          "href": "https://www.rnp.br/",
+          "image": "rnp.png"
+        }
+      ]
     }
   ]
 }
