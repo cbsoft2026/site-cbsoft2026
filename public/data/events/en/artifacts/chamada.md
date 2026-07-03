@@ -136,4 +136,108 @@ Daniel Lucrédio — Universidade Federal de São Carlos (UFSCar)
 
 ##### Program Committee​
 
-*To be defined.*
+Allysson Allex Araújo — Universidade Federal do Cariri (UFCA)
+
+Ana Paula Vasconcelos — Universidade Federal de Pernambuco (UFPE)
+
+Anderson Uchôa — Universidade Federal do Ceará (UFC)
+
+André F. R. Cordeiro — Universidade Estadual de Maringá (UEM)
+
+Arthur Pilone da Silva — Universidade de São Paulo (USP)
+
+Auri Marcelo Rizzo Vincenzi — FEUP/INESC TEC, Portugal
+
+Awdren de Lima Fontão — Universidade Federal do Mato Grosso do Sul (UFMS)
+
+Bruno Lopes — Universidade Federal de São Carlos (UFSCar)
+
+Caio Monteiro — Universidade Federal de São Carlos (UFSCar)
+
+Carlos Eduardo Carvalho Dantas — Instituto Federal de Educação, Ciência e Tecnologia do Triângulo Mineiro (IFTM)
+
+Cristiane Alves Estevo — Universidade Estadual de Maringá (UEM)
+
+Daniel Gustavo San Martin — Universidade Federal de São Carlos (UFSCar)
+
+Danielly Gualberto Leite — Universidade Federal de Campina Grande (UFCG)
+
+Danyllo Albuquerque — Universidade Federal de Campina Grande (UFCG)
+
+Delano Medeiros Beder — Universidade Federal de São Carlos (UFSCar)
+
+Denis Sousa — Universidade Estadual do Ceará (UECE)
+
+Ednilson Geraldo Rossi — Instituto Federal de Educação, Ciência e Tecnologia de São Paulo (IFSP)
+
+Fabio Santos — Colorado State University (CSU), USA
+
+Fernanda Madeiral — Universidade Federal de Pernambuco (UFPE)
+
+Fernando Kenji Kamei — Instituto Federal de Alagoas (IFAL)
+
+Fernando Moraes — Universidade Estadual Paulista Júlio de Mesquita Filho (UNESP)
+
+Glauco Carneiro — Universidade Salvador (UNIFACS)
+
+Guisella Angulo — Universidade Federal de São Carlos (UFSCar)
+
+Heitor Augustus Xavier Costa — Universidade Federal de Lavras (UFLA)
+
+Henrique Mandelli Canella — Universidade Federal de São Carlos (UFSCar)
+
+Higor Amario de Souza — Universidade de São Paulo (USP)
+
+Igor Soares de Oliveira — Pontifícia Universidade Católica do Rio de Janeiro (PUC-Rio)
+
+Igor Steinmacher — Northern Arizona University, USA
+
+Igor Scaliante Wiese — Universidade Tecnológica Federal do Paraná (UTFPR)
+
+Isaque Alves — Universidade de São Paulo (USP)
+
+Ivanildo de Azevedo — Universidade Federal de Pernambuco (UFPE)
+
+Jailma Januario da silva — Pontifícia Universidade Católica do Rio de Janeiro (PUC-Rio)
+
+Jessica Barbara da Silva Ribas — Pontifícia Universidade Católica do Rio de Janeiro (PUC-Rio)
+
+Joenio Marques Costa — Universidade Federal da Bahia (UFBA)
+
+Lilian Passos Scatalon — Universidade de São Paulo (USP)
+
+Lincoln S. Rocha — Universidade Federal do Ceará (UFC)
+
+Lucas Almeida Aguiar — Universidade Estadual do Ceará (UECE)
+
+Matheus Frej Lemos Cavalcanti — Universidade Federal de Pernambuco (UFPE)
+
+Milene Elizabeth Rigolin Lopes — Universidade Estadual de Campinas (UNICAMP)
+
+Nelson Lago — Universidade de São Paulo (USP)
+
+Pamella Soares — Universidade Estadual do Ceará (UECE)
+
+Paola Accioly — Universidade Federal de Pernambuco (UFPE)
+
+Rafael Passos — Universidade de São Paulo (USP)
+
+Raphael Lima Saraiva — Universidade Estadual do Ceará (UECE)
+
+Rodrigo Lima — Universidade Federal de Pernambuco (UFPE)
+
+Rodrigo Rocha Gomes e Souza — Universidade Federal da Bahia (UFBA)
+
+Sávio Freire — Instituto Federal do Ceará (IFCE)
+
+Sergio Soares — Universidade Federal de Pernambuco (UFPE)
+
+Valter Vieira Camargo — Universidade Federal de São Carlos (UFSCar)
+
+Vânia de Oliveira Neves — Universidade Federal Fluminense (UFF)
+
+Victor Sobreira — Universidade Federal de Uberlândia (UFU)
+
+Waldemar Pires Ferreira Neto — Universidade Federal Rural de Pernambuco (UFRPE)
+
+Yohan Duarte Pessanha — Universidade Federal de São Carlos (UFSCar)
