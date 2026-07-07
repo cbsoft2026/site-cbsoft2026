@@ -99,7 +99,7 @@ Natali Moreira Rocha, Nubank
 
 Bruno Lucattelli, Uber
 
-Rafael Ponte, Zup Innovation
+Rafael Ponte, Independent Consultant
 
 Alberto Luiz Oliveira Tavares de Souza, Nubank
 
@@ -111,6 +111,6 @@ Wagner Mendes Voltz, Irrah Tech
 
 Luiz Lula Rodrigues, OBONOBO
 
-Rafael Pugliese Werner, Independent consultant
+Rafael Pugliese Werner, Vega
 
-Suelen Goularte Carvalho, Independent consultant
+Suelen Goularte Carvalho, Nubank
