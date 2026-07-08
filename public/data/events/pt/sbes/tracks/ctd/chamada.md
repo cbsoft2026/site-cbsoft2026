@@ -10,7 +10,7 @@ Durante o evento, será realizada a II  Mostra de Trabalhos dos Concursos do Sim
 
 #### Premiação
 
-Serão premiadas as três melhores teses de doutorado e as três melhores dissertações de mestrado. Os trabalhos deverão, obrigatoriamente, ser apresentados pelo(a) estudante de maneira oral na sessão de apresentações do CTD-ES e também na sessão de pôsteres da II Mostra de Trabalhos dos Concursos do Simpósio Brasileiro de Engenharia de Software, durante o XXXX Simpósio Brasileiro de Engenharia de Software (SBES 2026).
+Serão premiadas as três melhores teses de doutorado e as três melhores dissertações de mestrado. Os trabalhos deverão, obrigatoriamente, ser apresentados pelo(a) estudante de maneira oral na sessão de apresentações do CTD-ES e também na sessão de pôsteres da II Mostra de Trabalhos dos Concursos do Simpósio Brasileiro de Engenharia de Software, durante o XL Simpósio Brasileiro de Engenharia de Software (SBES 2026).
 
 #### Público-Alvo
 

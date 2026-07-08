@@ -12,7 +12,7 @@ During the event, the II Showcase of Contest Papers of the Brazilian Symposium o
 
 The top three **PhD theses** and the top three **MSc dissertations** will be awarded.
 
-Attendance is mandatory: the works must be presented orally by the student during the CTD-ES presentation session and in the poster session of the II Showcase of Contest Papers at the **XXXX Brazilian Symposium on Software Engineering (SBES 2026)**.
+Attendance is mandatory: the works must be presented orally by the student during the CTD-ES presentation session and in the poster session of the II Showcase of Contest Papers at the **XL Brazilian Symposium on Software Engineering (SBES 2026)**.
 
 #### Target Audience
 
