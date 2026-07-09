@@ -116,3 +116,149 @@ The SBES Tools Track recognizes the generosity and effort of the Program Committ
 Edna Dias Canedo — Universidade Federal de Pernambuco (Cin, UFPE)
 
 Rodrigo Pereira dos Santos — Universidade Federal do Estado do Rio de Janeiro (UNIRIO)
+
+###### Program Committee
+
+Afonso Sales — Pontifícia Universidade Católica do Rio Grande do Sul (PUCRS)
+
+Alessandro Garcia — Pontifícia Universidade Católica do Rio de Janeiro (PUC-Rio)
+
+Aline Miotto Amaral — Universidade Estadual de Maringá (UEM)
+
+Ana Carolina Oran — Universidade Federal do Amazonas (UFAM)
+
+Ana Patricia Fontes Magalhaes Mascarenhas — Universidade do Estado da Bahia (UNEB)
+
+Anderson da Silva Marcolino — Universidade Federal do Paraná (UFPR)
+
+Anderson Uchôa — Universidade Federal do Ceará (UFC)
+
+Andre Takeshi Endo — Universidade Federal de São Carlos (UFSCar)
+
+Andréa Sabedra Bordin — Universidade Federal de Santa Catarina (UFSC)
+
+Anna Beatriz Marques — Universidade Federal do Ceará (UFC)
+
+Armando Sousa — Universidade Federal do Piaui (UFPI)
+
+Auri Marcelo Rizzo Vincenzi — Instituto de Engenharia de Sistemas e Computadores, Tecnologia e Ciência (INESC TEC)
+
+Bruno Gadelha — Universidade Federal do Amazonas (UFAM)
+
+Carlos Eduardo Carvalho Dantas — Instituto Federal do Triângulo Mineiro (IFTM)
+
+Catarina Costa — Universidade Federal do Acre (UFAC)
+
+Cláudio Sant'Anna — Universidade Federal da Bahia (UFBA)
+
+Crescencio Lima — Instituto Federal da Bahia (IFBA)
+
+Cristiano Politowski — University of Ontario
+
+Daniel Lucrédio — Universidade Federal de São Carlos (UFSCar)
+
+Daniel Porto — Universidade de Brasília (UNB)
+
+Daniel Sadoc Menasche — Universidade Federal do Rio de Janeiro (UFRJ)
+
+Daniel San Martin — Universidad Catolica del Norte
+
+Denivan Campos — University of Molise
+
+Dimas Cassimiro — Universidade Federal do Agreste de Pernambuco (UFAPE)
+
+Djan Santos — Instituto Federal da Bahia (IFBA)
+
+Edson Takashi Matsubara — Universidade Federal de Mato Grosso do Sul (UFMS)
+
+Eduardo Almeida — Universidade Federal da Bahia (UFBA)
+
+Eduardo Almentero — Universidade Federal Rural do Rio de Janeiro (UFRRJ)
+
+Elaine Venson — Universidade de Brasília (UNB)
+
+Eliomar Araújo Lima — Universidade Federal de Goiás (UFG)
+
+Everton L.G. Alves — Universidade Federal de Campina Grande (UFCG)
+
+Felipe Curty do Rego Pinto — Universidade Federal Fluminense (UFF)
+
+Francisco Henrique Cerdeira Ferreira — Universidade Federal de Juiz de Fora (UFJF)
+
+Gabriela Sampaio — Meta
+
+George Marsicano — Universidade de Brasília (UNB)
+
+Gislaine Camila Lapasini Leal — Universidade Estadual de Maringá (UEM)
+
+Guilherme Avelino — Universidade Federal do Piaui (UFPI)
+
+Guilherme Guerino — Universidade Estadual do Paraná (UEPR)
+
+Guilherme José de Carvalho Cavalcanti — Instituto Federal de Pernambuco (IFPE)
+
+Higor Amario de Souza — Escola Politécnica da Universidade de São Paulo (USP/POLI)
+
+João Brunet — Universidade Federal de Campina Grande (UFCG)
+
+João Choma Neto — Universidade Estadual de Maringá (UEM)
+
+Johnny Cardoso Marques — Instituto Tecnológico de Aeronáutica (ITA)
+
+José Maria David — Universidade Federal de Juiz de Fora (UFJF)
+
+Juliana Alves Pereira — Pontifícia Universidade Católica do Rio de Janeiro (PUC-Rio)
+
+Leo Natan  Paschoal — Pontifícia Universidade Católica do Paraná (PUCPR)
+
+Lina Garcés — Universidade de São Paulo (ICMC-USP)
+
+Luana Martins — University of Salerno
+
+Marcelo de Almeida Maia — Universidade Federal de Uberlândia (UFU)
+
+Marcos Kalinowski — Pontifícia Universidade Católica do Rio de Janeiro (PUC-Rio)
+
+Marcos Vinícius de Freitas Borges — Instituto Federal do Maranhão (IFMA)
+
+Maria Istela Cagnin — Universidade Federal de Mato Grosso do Sul (UFMS)
+
+Mariana Maia Peixoto — Universidade de Pernambuco (UPE)
+
+Mirko Perkusich — Universidade Federal de Campina Grande (UFCG)
+
+Paulo Maia — Universidade Estadual do Ceará (UFC)
+
+Paulo Malcher — Universidade Federal Rural da Amazônia (UFRA)
+
+Paulo Gabriel Gadelha Queiroz — Universidade Federal Rural do Semiárido (UFERSA)
+
+Rafael Parizi — Instituto Federal Farroupilha (IFFar)
+
+Ricardo Theis Geraldi — Universidade Federal de Mato Grosso do Sul (UFMS)
+
+Rodrigo Andrade — Universidade Federal do Agreste de Pernambuco (UFAPE)
+
+Rodrigo Bonifacio — Universidade Federal de Pernambuco (UFPE)
+
+Rodrigo Oliveira Zacarias — Universidade Federal Fluminense (UFF)
+
+Rodrigo Rocha Gomes e Souza — Universidade Federal da Bahia (UFBA)
+
+Sandro Ronaldo Bezerra Oliveira — Universidade Federal do Pará (UFPA)
+
+Sergio Antonio Andrade de Freitas — Universidade de Brasília (UnB)
+
+Sofia Costa Paiva — Universidade Federal de Goiás (UFG)
+
+Valter Vieira Camargo — Universidade Federal de São Carlos (UFSCar)
+
+Vander R. Alves — Universidade de Brasília (UnB)
+
+Vânia de Oliveira Neves — Universidade Federal Fluminense (UFF)
+
+Victor Santiago — Universidade Federal do Pará (UFPA)
+
+Vinicius Cardoso Garcia — Universidade Federal de Pernambuco (UFPE)
+
+Willian Nalepa Oizumi — Google
