@@ -1,0 +1,227 @@
+[
+    {
+        "title": "SE4Games",
+        "schedule": {
+            "start": "2026-09-08T11:00:00-03:00",
+            "end": "2026-09-08T12:30:00-03:00"
+        },
+        "type": "info",
+        "rooms": ["b9"]
+    },
+    {
+        "title": "SE4Games",
+        "schedule": {
+            "start": "2026-09-08T14:00:00-03:00",
+            "end": "2026-09-08T16:00:00-03:00"
+        },
+        "type": "info",
+        "rooms": ["b9"]
+    },
+    {
+        "title": "SE4FP",
+        "schedule": {
+            "start": "2026-09-08T14:00:00-03:00",
+            "end": "2026-09-08T16:00:00-03:00"
+        },
+        "type": "info",
+        "rooms": ["b10"]
+    },
+    {
+        "title": "SE4FP",
+        "schedule": {
+            "start": "2026-09-08T16:30:00-03:00",
+            "end": "2026-09-08T18:30:00-03:00"
+        },
+        "type": "info",
+        "rooms": ["b10"]
+    },
+    {
+        "title": "SE4AS",
+        "schedule": {
+            "start": "2026-09-08T11:00:00-03:00",
+            "end": "2026-09-08T12:30:00-03:00"
+        },
+        "type": "info",
+        "rooms": ["b1"]
+    },
+    {
+        "title": "SE4AS",
+        "schedule": {
+            "start": "2026-09-08T14:00:00-03:00",
+            "end": "2026-09-08T16:00:00-03:00"
+        },
+        "type": "info",
+        "rooms": ["b1"]
+    },
+    {
+        "title": "SE4AS",
+        "schedule": {
+            "start": "2026-09-08T16:30:00-03:00",
+            "end": "2026-09-08T18:30:00-03:00"
+        },
+        "type": "info",
+        "rooms": ["b1"]
+    },
+    {
+        "title": "WQSE",
+        "schedule": {
+            "start": "2026-09-08T11:00:00-03:00",
+            "end": "2026-09-08T12:30:00-03:00"
+        },
+        "type": "info",
+        "rooms": ["b2"]
+    },
+    {
+        "title": "WQSE",
+        "schedule": {
+            "start": "2026-09-08T14:00:00-03:00",
+            "end": "2026-09-08T16:00:00-03:00"
+        },
+        "type": "info",
+        "rooms": ["b2"]
+    },
+    {
+        "title": "WQSE",
+        "schedule": {
+            "start": "2026-09-08T16:30:00-03:00",
+            "end": "2026-09-08T18:30:00-03:00"
+        },
+        "type": "info",
+        "rooms": ["b2"]
+    },
+    {
+        "title": "AISecDev",
+        "schedule": {
+            "start": "2026-09-08T11:00:00-03:00",
+            "end": "2026-09-08T12:30:00-03:00"
+        },
+        "type": "info",
+        "rooms": ["b3"]
+    },
+    {
+        "title": "AISecDev",
+        "schedule": {
+            "start": "2026-09-08T14:00:00-03:00",
+            "end": "2026-09-08T16:00:00-03:00"
+        },
+        "type": "info",
+        "rooms": ["b3"]
+    },
+    {
+        "title": "AISecDev",
+        "schedule": {
+            "start": "2026-09-08T16:30:00-03:00",
+            "end": "2026-09-08T18:30:00-03:00"
+        },
+        "type": "info",
+        "rooms": ["b3"]
+    },
+    {
+        "title": "VEM",
+        "schedule": {
+            "start": "2026-09-11T11:00:00-03:00",
+            "end": "2026-09-11T12:30:00-03:00"
+        },
+        "type": "info",
+        "rooms": ["b1"]
+    },
+    {
+        "title": "VEM",
+        "schedule": {
+            "start": "2026-09-11T14:00:00-03:00",
+            "end": "2026-09-11T16:00:00-03:00"
+        },
+        "type": "info",
+        "rooms": ["b1"]
+    },
+    {
+        "title": "VEM",
+        "schedule": {
+            "start": "2026-09-11T16:30:00-03:00",
+            "end": "2026-09-11T18:00:00-03:00"
+        },
+        "type": "info",
+        "rooms": ["b1"]
+    },
+    {
+        "title": "ISE",
+        "schedule": {
+            "start": "2026-09-11T11:00:00-03:00",
+            "end": "2026-09-11T12:30:00-03:00"
+        },
+        "type": "info",
+        "rooms": ["b2"]
+    },
+    {
+        "title": "ISE",
+        "schedule": {
+            "start": "2026-09-11T14:00:00-03:00",
+            "end": "2026-09-11T16:00:00-03:00"
+        },
+        "type": "info",
+        "rooms": ["b2"]
+    },
+    {
+        "title": "ISE",
+        "schedule": {
+            "start": "2026-09-11T16:30:00-03:00",
+            "end": "2026-09-11T18:00:00-03:00"
+        },
+        "type": "info",
+        "rooms": ["b2"]
+    },
+    {
+        "title": "WBot",
+        "schedule": {
+            "start": "2026-09-11T11:00:00-03:00",
+            "end": "2026-09-11T12:30:00-03:00"
+        },
+        "type": "info",
+        "rooms": ["b3"]
+    },
+    {
+        "title": "WBot",
+        "schedule": {
+            "start": "2026-09-11T14:00:00-03:00",
+            "end": "2026-09-11T16:00:00-03:00"
+        },
+        "type": "info",
+        "rooms": ["b3"]
+    },
+    {
+        "title": "WBot",
+        "schedule": {
+            "start": "2026-09-11T16:30:00-03:00",
+            "end": "2026-09-11T18:00:00-03:00"
+        },
+        "type": "info",
+        "rooms": ["b3"]
+    },
+    {
+        "title": "AIware",
+        "schedule": {
+            "start": "2026-09-11T11:00:00-03:00",
+            "end": "2026-09-11T12:30:00-03:00"
+        },
+        "type": "info",
+        "rooms": ["ccsl"]
+    },
+    {
+        "title": "AIware",
+        "schedule": {
+            "start": "2026-09-11T14:00:00-03:00",
+            "end": "2026-09-11T16:00:00-03:00"
+        },
+        "type": "info",
+        "rooms": ["ccsl"]
+    },
+    {
+        "title": "AIware",
+        "schedule": {
+            "start": "2026-09-11T16:30:00-03:00",
+            "end": "2026-09-11T18:00:00-03:00"
+        },
+        "type": "info",
+        "rooms": ["ccsl"]
+    }
+]

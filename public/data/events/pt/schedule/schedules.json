@@ -9,10 +9,64 @@
         "rooms": ["auditorio-fau", "auditorio-ime", "b5", "b16", "b9", "b10", "b1", "b2", "b3", "ccsl", "b101", "numec"]
     },
     {
+        "title": "Credenciamento - IME, Bloco B",
+        "schedule": {
+            "start": "2026-09-09T08:00:00-03:00",
+            "end": "2026-09-09T09:00:00-03:00"
+        },
+        "type": "info",
+        "rooms": ["auditorio-fau", "auditorio-ime", "b5", "b16", "b9", "b10", "b1", "b2", "b3", "ccsl", "b101", "numec"]
+    },
+    {
+        "title": "Credenciamento - IME, Bloco B",
+        "schedule": {
+            "start": "2026-09-10T08:00:00-03:00",
+            "end": "2026-09-10T09:00:00-03:00"
+        },
+        "type": "info",
+        "rooms": ["auditorio-fau", "auditorio-ime", "b5", "b16", "b9", "b10", "b1", "b2", "b3", "ccsl", "b101", "numec"]
+    },
+    {
+        "title": "Credenciamento - IME, Bloco B",
+        "schedule": {
+            "start": "2026-09-11T08:00:00-03:00",
+            "end": "2026-09-11T09:00:00-03:00"
+        },
+        "type": "info",
+        "rooms": ["auditorio-fau", "auditorio-ime", "b5", "b16", "b9", "b10", "b1", "b2", "b3", "ccsl", "b101", "numec"]
+    },
+    {
         "title": "Coffee Break (Manhã)",
         "schedule": {
-            "start": "2026-09-08T10:00:00-03:00",
-            "end": "2026-09-08T10:30:00-03:00"
+            "start": "2026-09-08T10:30:00-03:00",
+            "end": "2026-09-08T11:00:00-03:00"
+        },
+        "type": "info",
+        "rooms": ["auditorio-fau", "auditorio-ime", "b5", "b16", "b9", "b10", "b1", "b2", "b3", "ccsl", "b101", "numec"]
+    },
+    {
+        "title": "Coffee Break (Manhã)",
+        "schedule": {
+            "start": "2026-09-09T10:30:00-03:00",
+            "end": "2026-09-09T11:00:00-03:00"
+        },
+        "type": "info",
+        "rooms": ["auditorio-fau", "auditorio-ime", "b5", "b16", "b9", "b10", "b1", "b2", "b3", "ccsl", "b101", "numec"]
+    },
+    {
+        "title": "Coffee Break (Manhã)",
+        "schedule": {
+            "start": "2026-09-10T10:30:00-03:00",
+            "end": "2026-09-10T11:00:00-03:00"
+        },
+        "type": "info",
+        "rooms": ["auditorio-fau", "auditorio-ime", "b5", "b16", "b9", "b10", "b1", "b2", "b3", "ccsl", "b101", "numec"]
+    },
+    {
+        "title": "Coffee Break (Manhã)",
+        "schedule": {
+            "start": "2026-09-11T10:30:00-03:00",
+            "end": "2026-09-11T11:00:00-03:00"
         },
         "type": "info",
         "rooms": ["auditorio-fau", "auditorio-ime", "b5", "b16", "b9", "b10", "b1", "b2", "b3", "ccsl", "b101", "numec"]
@@ -20,8 +74,35 @@
     {
         "title": "Almoço",
         "schedule": {
-            "start": "2026-09-08T12:00:00-03:00",
+            "start": "2026-09-08T12:30:00-03:00",
             "end": "2026-09-08T14:00:00-03:00"
+        },
+        "type": "info",
+        "rooms": ["auditorio-fau", "auditorio-ime", "b5", "b16", "b9", "b10", "b1", "b2", "b3", "ccsl", "b101", "numec"]
+    },
+    {
+        "title": "Almoço",
+        "schedule": {
+            "start": "2026-09-09T12:30:00-03:00",
+            "end": "2026-09-09T14:00:00-03:00"
+        },
+        "type": "info",
+        "rooms": ["auditorio-fau", "auditorio-ime", "b5", "b16", "b9", "b10", "b1", "b2", "b3", "ccsl", "b101", "numec"]
+    },
+    {
+        "title": "Almoço",
+        "schedule": {
+            "start": "2026-09-10T12:30:00-03:00",
+            "end": "2026-09-10T14:00:00-03:00"
+        },
+        "type": "info",
+        "rooms": ["auditorio-fau", "auditorio-ime", "b5", "b16", "b9", "b10", "b1", "b2", "b3", "ccsl", "b101", "numec"]
+    },
+    {
+        "title": "Almoço",
+        "schedule": {
+            "start": "2026-09-11T12:30:00-03:00",
+            "end": "2026-09-11T14:00:00-03:00"
         },
         "type": "info",
         "rooms": ["auditorio-fau", "auditorio-ime", "b5", "b16", "b9", "b10", "b1", "b2", "b3", "ccsl", "b101", "numec"]
@@ -36,6 +117,33 @@
         "rooms": ["auditorio-fau", "auditorio-ime", "b5", "b16", "b9", "b10", "b1", "b2", "b3", "ccsl", "b101", "numec"]
     },
     {
+        "title": "Coffee Break (Tarde)",
+        "schedule": {
+            "start": "2026-09-09T16:00:00-03:00",
+            "end": "2026-09-09T16:30:00-03:00"
+        },
+        "type": "info",
+        "rooms": ["auditorio-fau", "auditorio-ime", "b5", "b16", "b9", "b10", "b1", "b2", "b3", "ccsl", "b101", "numec"]
+    },
+    {
+        "title": "Coffee Break (Tarde)",
+        "schedule": {
+            "start": "2026-09-10T16:00:00-03:00",
+            "end": "2026-09-10T16:30:00-03:00"
+        },
+        "type": "info",
+        "rooms": ["auditorio-fau", "auditorio-ime", "b5", "b16", "b9", "b10", "b1", "b2", "b3", "ccsl", "b101", "numec"]
+    },
+    {
+        "title": "Coffee Break (Tarde)",
+        "schedule": {
+            "start": "2026-09-11T16:00:00-03:00",
+            "end": "2026-09-11T16:30:00-03:00"
+        },
+        "type": "info",
+        "rooms": ["auditorio-fau", "auditorio-ime", "b5", "b16", "b9", "b10", "b1", "b2", "b3", "ccsl", "b101", "numec"]
+    },
+    {
         "title": "Coquetel de abertura - Restaurante Viveiro (USP) [Prêmios SBCars e SAST]",
         "schedule": {
             "start": "2026-09-08T18:30:00-03:00",
@@ -43,5 +151,59 @@
         },
         "type": "info",
         "rooms": ["auditorio-fau", "auditorio-ime", "b5", "b16", "b9", "b10", "b1", "b2", "b3", "ccsl", "b101", "numec"]
+    },
+    {
+        "title": "Jantar do CBSoft (Outback Pinheiros, 200 lugares)",
+        "schedule": {
+            "start": "2026-09-09T18:30:00-03:00",
+            "end": "2026-09-09T21:00:00-03:00"
+        },
+        "type": "info",
+        "rooms": ["auditorio-fau", "auditorio-ime", "b5", "b16", "b9", "b10", "b1", "b2", "b3", "ccsl", "b101", "numec"]
+    },
+    {
+        "title": "Reunião das Comissões Especiais",
+        "schedule": {
+            "start": "2026-09-10T18:30:00-03:00",
+            "end": "2026-09-10T21:00:00-03:00"
+        },
+        "type": "info",
+        "rooms": ["auditorio-fau", "auditorio-ime", "b5", "b16", "b9", "b10", "b1", "b2", "b3", "ccsl", "b101", "numec"]
+    },
+    {
+        "title": "Happy Hour (O'Malley's Bar, Irish Pub)",
+        "schedule": {
+            "start": "2026-09-11T19:00:00-03:00",
+            "end": "2026-09-11T22:00:00-03:00"
+        },
+        "type": "info",
+        "rooms": ["auditorio-fau", "auditorio-ime", "b5", "b16", "b9", "b10", "b1", "b2", "b3", "ccsl", "b101", "numec"]
+    },
+    {
+        "title": "Celebração do Software Livre no Brasil e 35 anos do GNU/Linux",
+        "schedule": {
+            "start": "2026-09-11T11:00:00-03:00",
+            "end": "2026-09-11T12:30:00-03:00"
+        },
+        "type": "info",
+        "rooms": ["auditorio-fau"]
+    },
+    {
+        "title": "Celebração do Software Livre no Brasil e 35 anos do GNU/Linux",
+        "schedule": {
+            "start": "2026-09-11T14:00:00-03:00",
+            "end": "2026-09-11T16:00:00-03:00"
+        },
+        "type": "info",
+        "rooms": ["auditorio-fau"]
+    },
+    {
+        "title": "Celebração do Software Livre no Brasil e 35 anos do GNU/Linux",
+        "schedule": {
+            "start": "2026-09-11T16:30:00-03:00",
+            "end": "2026-09-11T18:00:00-03:00"
+        },
+        "type": "info",
+        "rooms": ["auditorio-fau"]
     }
 ]

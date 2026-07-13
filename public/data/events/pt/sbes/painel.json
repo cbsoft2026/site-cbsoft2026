@@ -1,2 +1,35 @@
 [
+    {
+        "title": "Painel 2",
+        "moderator": ["rodrigo-bonifacio", "itana-maria-gimenes"],
+        "speakers": ["wania-luisa-camargo-vaz", "thais-vasconcelos-batista", "manoel-mendonca", "marcos-kalinowski"],
+        "schedule": {
+            "start": "2026-09-10T11:00:00-03:00",
+            "end": "2026-09-10T12:30:00-03:00"
+        },
+        "description": "(SBES 40)",
+        "rooms": ["b5"]
+    },
+    {
+        "title": "Painel 3",
+        "moderator": ["alessandro-garcia"],
+        "speakers": ["rick-kazman", "klaas-jan-stol", "jeronimo-castrillon", "darja-smite"],
+        "schedule": {
+            "start": "2026-09-10T14:00:00-03:00",
+            "end": "2026-09-10T16:00:00-03:00"
+        },
+        "description": "(Painel CBSoft 2026, sala Alan Turing)",
+        "rooms": ["auditorio-fau", "auditorio-ime", "b5", "b16", "b9", "b10", "b1", "b2", "b3", "ccsl", "b101", "numec"]
+    },
+    {
+        "title": "Painel 4",
+        "moderator": ["eduardo-almeida"],
+        "speakers": ["guilherme-travassos", "marco-tulio", "paulo-borba"],
+        "schedule": {
+            "start": "2026-09-11T11:00:00-03:00",
+            "end": "2026-09-11T12:30:00-03:00"
+        },
+        "description": "(Educação em Engenharia de Software)",
+        "rooms": ["b5"]
+    }
 ]

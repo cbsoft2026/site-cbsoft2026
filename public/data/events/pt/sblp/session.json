@@ -1,0 +1,47 @@
+[
+    {
+        "title": "SBLP",
+        "schedule": {
+            "start": "2026-09-10T11:00:00-03:00",
+            "end": "2026-09-10T12:30:00-03:00"
+        },
+        "type": "info",
+        "rooms": ["auditorio-ime"]
+    },
+    {
+        "title": "SBLP",
+        "schedule": {
+            "start": "2026-09-10T16:30:00-03:00",
+            "end": "2026-09-10T18:30:00-03:00"
+        },
+        "type": "info",
+        "rooms": ["auditorio-ime"]
+    },
+    {
+        "title": "SBLP",
+        "schedule": {
+            "start": "2026-09-11T11:00:00-03:00",
+            "end": "2026-09-11T12:30:00-03:00"
+        },
+        "type": "info",
+        "rooms": ["auditorio-ime"]
+    },
+    {
+        "title": "SBLP",
+        "schedule": {
+            "start": "2026-09-11T14:00:00-03:00",
+            "end": "2026-09-11T16:00:00-03:00"
+        },
+        "type": "info",
+        "rooms": ["b5"]
+    },
+    {
+        "title": "SBLP",
+        "schedule": {
+            "start": "2026-09-11T16:30:00-03:00",
+            "end": "2026-09-11T18:00:00-03:00"
+        },
+        "type": "info",
+        "rooms": ["b5"]
+    }
+]

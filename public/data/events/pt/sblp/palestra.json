@@ -1,2 +1,12 @@
 [
+    {
+        "title": "Abertura e Prêmios SBLP",
+        "speakers": ["jeronimo-castrillon"],
+        "schedule": {
+            "start": "2026-09-10T09:00:00-03:00",
+            "end": "2026-09-10T10:30:00-03:00"
+        },
+        "description": "Keynote SBLP - Sala Alan Turing (auditório FAU)",
+        "rooms": ["auditorio-fau", "auditorio-ime", "b5", "b16", "b9", "b10", "b1", "b2", "b3", "ccsl", "b101", "numec"]
+    }
 ]

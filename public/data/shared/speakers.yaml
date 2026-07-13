@@ -81,3 +81,68 @@
   name: Prof. Dr. Rodrigo Henrique Ramos
   institution:  IFSP São Carlos
   bio: "Professor de Computação do IFSP São Carlos, é Técnico em Informática e Técnico em Web Design pela ETEC de Casa Branca. É Tecnólogo em Análise e Desenvolvimento de Sistemas pelo IFSP São Carlos, especialista em Docência no Ensino Superior pelo Centro Universitário Barão de Mauá, Mestre em Ciência da Computação pela UFSCar na área de Engenharia de Software e Doutor em Ciência da Computação e Matemática Computacional pela USP São Carlos. Realizou Doutorado Sanduíche no King's College London. Atualmente, pesquisa Ciência de Dados aplicada à Genômica do Câncer"
+
+- id: lincoln-rocha
+  image: Lincoln_Rocha.jpg
+  name: Lincoln Rocha
+  institution: UFC
+
+- id: fernanda-delfim
+  image: Fernanda_Madeiral.jpg
+  name: Fernanda Madeiral
+  institution: UFPE
+
+- id: claudia-werner
+  image: Claudia_Werner.jpg
+  name: Claudia Werner
+  institution: UFRJ
+
+- id: alessandro-garcia
+  image: Alessandro_Garcia.jpg
+  name: Alessandro Fabricio Garcia
+  institution: PUC-Rio
+
+- id: rodrigo-bonifacio
+  image: Rodrigo_Bonifacio.jpg
+  name: Rodrigo Bonifácio de Almeida
+  institution: CIn - UFPE
+
+- id: itana-maria-gimenes
+  image: Itana_Maria_Gimenes.jpg
+  name: Itana Maria de Souza Gimenes
+  institution: UEM
+
+- id: thais-vasconcelos-batista
+  image: Thais_Vasconcelos_Batista.png
+  name: Thais Vasconcelos Batista
+  institution: UFRN
+
+- id: manoel-mendonca
+  image: Manoel_Mendonca.jpg
+  name: Manoel Gomes de Mendonça Neto
+  institution: UFBA
+
+- id: marcos-kalinowski
+  image: Marcos_Kalinowski.png
+  name: Marcos Kalinowski
+  institution: PUC-Rio
+
+- id: eduardo-almeida
+  image: Eduardo_Almeida.jpeg
+  name: Eduardo Santana de Almeida
+  institution: UFBA
+
+- id: guilherme-travassos
+  image: Guilherme_Travassos.png
+  name: Guilherme Horta Travassos
+  institution: UFRJ
+
+- id: marco-tulio
+  image: Marco_Tulio.jpeg
+  name: Marco Túlio de Oliveira Valente
+  institution: UFMG
+
+- id: paulo-borba
+  image: Paulo_Borba.jpg
+  name: Paulo Borba
+  institution: UFPE

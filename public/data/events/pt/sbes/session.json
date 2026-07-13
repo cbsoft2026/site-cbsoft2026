@@ -1,0 +1,344 @@
+[
+    {
+        "title": "SBES",
+        "schedule": {
+            "start": "2026-09-09T11:00:00-03:00",
+            "end": "2026-09-09T12:30:00-03:00"
+        },
+        "type": "info",
+        "rooms": ["auditorio-fau"]
+    },
+    {
+        "title": "SBES",
+        "schedule": {
+            "start": "2026-09-09T14:00:00-03:00",
+            "end": "2026-09-09T16:00:00-03:00"
+        },
+        "type": "info",
+        "rooms": ["auditorio-fau"]
+    },
+    {
+        "title": "SBES",
+        "schedule": {
+            "start": "2026-09-09T11:00:00-03:00",
+            "end": "2026-09-09T12:30:00-03:00"
+        },
+        "type": "info",
+        "rooms": ["auditorio-ime"]
+    },
+    {
+        "title": "SBES",
+        "schedule": {
+            "start": "2026-09-09T14:00:00-03:00",
+            "end": "2026-09-09T16:00:00-03:00"
+        },
+        "type": "info",
+        "rooms": ["auditorio-ime"]
+    },
+    {
+        "title": "SBES",
+        "schedule": {
+            "start": "2026-09-09T11:00:00-03:00",
+            "end": "2026-09-09T12:30:00-03:00"
+        },
+        "type": "info",
+        "rooms": ["b9"]
+    },
+    {
+        "title": "SBES",
+        "schedule": {
+            "start": "2026-09-09T14:00:00-03:00",
+            "end": "2026-09-09T16:00:00-03:00"
+        },
+        "type": "info",
+        "rooms": ["b9"]
+    },
+    {
+        "title": "SBES",
+        "schedule": {
+            "start": "2026-09-09T11:00:00-03:00",
+            "end": "2026-09-09T12:30:00-03:00"
+        },
+        "type": "info",
+        "rooms": ["b10"]
+    },
+    {
+        "title": "SBES",
+        "schedule": {
+            "start": "2026-09-09T14:00:00-03:00",
+            "end": "2026-09-09T16:00:00-03:00"
+        },
+        "type": "info",
+        "rooms": ["b10"]
+    },
+    {
+        "title": "SBES",
+        "schedule": {
+            "start": "2026-09-09T11:00:00-03:00",
+            "end": "2026-09-09T12:30:00-03:00"
+        },
+        "type": "info",
+        "rooms": ["b1"]
+    },
+    {
+        "title": "SBES",
+        "schedule": {
+            "start": "2026-09-09T14:00:00-03:00",
+            "end": "2026-09-09T16:00:00-03:00"
+        },
+        "type": "info",
+        "rooms": ["b1"]
+    },
+    {
+        "title": "SBES",
+        "schedule": {
+            "start": "2026-09-09T11:00:00-03:00",
+            "end": "2026-09-09T12:30:00-03:00"
+        },
+        "type": "info",
+        "rooms": ["b2"]
+    },
+    {
+        "title": "SBES",
+        "schedule": {
+            "start": "2026-09-09T14:00:00-03:00",
+            "end": "2026-09-09T16:00:00-03:00"
+        },
+        "type": "info",
+        "rooms": ["b2"]
+    },
+    {
+        "title": "SBES",
+        "schedule": {
+            "start": "2026-09-09T11:00:00-03:00",
+            "end": "2026-09-09T12:30:00-03:00"
+        },
+        "type": "info",
+        "rooms": ["b3"]
+    },
+    {
+        "title": "SBES",
+        "schedule": {
+            "start": "2026-09-09T14:00:00-03:00",
+            "end": "2026-09-09T16:00:00-03:00"
+        },
+        "type": "info",
+        "rooms": ["b3"]
+    },
+    {
+        "title": "SBES: Tools Demonstration",
+        "schedule": {
+            "start": "2026-09-09T14:00:00-03:00",
+            "end": "2026-09-09T16:00:00-03:00"
+        },
+        "type": "info",
+        "rooms": ["ccsl"]
+    },
+    {
+        "title": "SBES",
+        "schedule": {
+            "start": "2026-09-10T11:00:00-03:00",
+            "end": "2026-09-10T12:30:00-03:00"
+        },
+        "type": "info",
+        "rooms": ["auditorio-fau"]
+    },
+    {
+        "title": "SBES",
+        "schedule": {
+            "start": "2026-09-10T16:30:00-03:00",
+            "end": "2026-09-10T18:30:00-03:00"
+        },
+        "type": "info",
+        "rooms": ["auditorio-fau"]
+    },
+    {
+        "title": "SBES",
+        "schedule": {
+            "start": "2026-09-10T16:30:00-03:00",
+            "end": "2026-09-10T18:30:00-03:00"
+        },
+        "type": "info",
+        "rooms": ["b5"]
+    },
+    {
+        "title": "SBES - Trilha da Indústria",
+        "schedule": {
+            "start": "2026-09-10T11:00:00-03:00",
+            "end": "2026-09-10T12:30:00-03:00"
+        },
+        "type": "info",
+        "rooms": ["b16"]
+    },
+    {
+        "title": "SBES - Trilha da Indústria",
+        "schedule": {
+            "start": "2026-09-10T16:30:00-03:00",
+            "end": "2026-09-10T18:30:00-03:00"
+        },
+        "type": "info",
+        "rooms": ["b16"]
+    },
+    {
+        "title": "SBES",
+        "schedule": {
+            "start": "2026-09-10T11:00:00-03:00",
+            "end": "2026-09-10T12:30:00-03:00"
+        },
+        "type": "info",
+        "rooms": ["b9"]
+    },
+    {
+        "title": "SBES",
+        "schedule": {
+            "start": "2026-09-10T16:30:00-03:00",
+            "end": "2026-09-10T18:30:00-03:00"
+        },
+        "type": "info",
+        "rooms": ["b9"]
+    },
+    {
+        "title": "SBES",
+        "schedule": {
+            "start": "2026-09-10T11:00:00-03:00",
+            "end": "2026-09-10T12:30:00-03:00"
+        },
+        "type": "info",
+        "rooms": ["b10"]
+    },
+    {
+        "title": "SBES",
+        "schedule": {
+            "start": "2026-09-10T16:30:00-03:00",
+            "end": "2026-09-10T18:30:00-03:00"
+        },
+        "type": "info",
+        "rooms": ["b10"]
+    },
+    {
+        "title": "SBES",
+        "schedule": {
+            "start": "2026-09-10T11:00:00-03:00",
+            "end": "2026-09-10T12:30:00-03:00"
+        },
+        "type": "info",
+        "rooms": ["b1"]
+    },
+    {
+        "title": "SBES",
+        "schedule": {
+            "start": "2026-09-10T16:30:00-03:00",
+            "end": "2026-09-10T18:30:00-03:00"
+        },
+        "type": "info",
+        "rooms": ["b1"]
+    },
+    {
+        "title": "SBES",
+        "schedule": {
+            "start": "2026-09-10T11:00:00-03:00",
+            "end": "2026-09-10T12:30:00-03:00"
+        },
+        "type": "info",
+        "rooms": ["b2"]
+    },
+    {
+        "title": "SBES: CTIC",
+        "schedule": {
+            "start": "2026-09-10T16:30:00-03:00",
+            "end": "2026-09-10T18:30:00-03:00"
+        },
+        "type": "info",
+        "rooms": ["b2"]
+    },
+    {
+        "title": "SBES: CTD",
+        "schedule": {
+            "start": "2026-09-10T11:00:00-03:00",
+            "end": "2026-09-10T12:30:00-03:00"
+        },
+        "type": "info",
+        "rooms": ["b3"]
+    },
+    {
+        "title": "SBES: CTD",
+        "schedule": {
+            "start": "2026-09-10T16:30:00-03:00",
+            "end": "2026-09-10T18:30:00-03:00"
+        },
+        "type": "info",
+        "rooms": ["b3"]
+    },
+    {
+        "title": "SBES: Tools Demonstration",
+        "schedule": {
+            "start": "2026-09-10T16:30:00-03:00",
+            "end": "2026-09-10T18:30:00-03:00"
+        },
+        "type": "info",
+        "rooms": ["ccsl"]
+    },
+    {
+        "title": "SBES",
+        "schedule": {
+            "start": "2026-09-11T14:00:00-03:00",
+            "end": "2026-09-11T16:00:00-03:00"
+        },
+        "type": "info",
+        "rooms": ["auditorio-ime"]
+    },
+    {
+        "title": "SBES",
+        "schedule": {
+            "start": "2026-09-11T16:30:00-03:00",
+            "end": "2026-09-11T18:00:00-03:00"
+        },
+        "type": "info",
+        "rooms": ["auditorio-ime"]
+    },
+    {
+        "title": "SBES - Trilha da Indústria",
+        "schedule": {
+            "start": "2026-09-11T11:00:00-03:00",
+            "end": "2026-09-11T12:30:00-03:00"
+        },
+        "type": "info",
+        "rooms": ["b16"]
+    },
+    {
+        "title": "SBES - Trilha da Indústria",
+        "schedule": {
+            "start": "2026-09-11T14:00:00-03:00",
+            "end": "2026-09-11T16:00:00-03:00"
+        },
+        "type": "info",
+        "rooms": ["b16"]
+    },
+    {
+        "title": "SBES - Trilha da Indústria",
+        "schedule": {
+            "start": "2026-09-11T16:30:00-03:00",
+            "end": "2026-09-11T18:00:00-03:00"
+        },
+        "type": "info",
+        "rooms": ["b16"]
+    },
+    {
+        "title": "SBES",
+        "schedule": {
+            "start": "2026-09-11T11:00:00-03:00",
+            "end": "2026-09-11T12:30:00-03:00"
+        },
+        "type": "info",
+        "rooms": ["b9"]
+    },
+    {
+        "title": "SBES",
+        "schedule": {
+            "start": "2026-09-11T11:00:00-03:00",
+            "end": "2026-09-11T12:30:00-03:00"
+        },
+        "type": "info",
+        "rooms": ["b10"]
+    }
+]

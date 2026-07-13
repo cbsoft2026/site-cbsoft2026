@@ -1,0 +1,11 @@
+[
+    {
+        "title": "Keynote Festival de Artefatos",
+        "speakers": ["roberto-di-cosmo"],
+        "schedule": {
+            "start": "2026-09-09T11:00:00-03:00",
+            "end": "2026-09-09T12:30:00-03:00"
+        },
+        "rooms": ["b16"]
+    }
+]
