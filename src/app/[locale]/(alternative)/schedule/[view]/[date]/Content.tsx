@@ -159,8 +159,14 @@ export default function SchedulePage(props: Props) {
       <main>
         <header>
           <div>
-            <div onClick={toggleOpenAsideBar} className={`${styles.icon} ${styles.less} ${styles['icon--small']}`}>
-              <FontAwesomeIcon icon={openAsideBar ? faClose : faBars} />
+            <div
+              onClick={toggleOpenAsideBar}
+              className={`${styles.icon} ${styles.less} ${styles['icon--small']} ${
+                openAsideBar !== null ? (openAsideBar ? styles.open : styles.closed) : ''
+              }`}
+            >
+              <FontAwesomeIcon icon={faClose} className={styles.closeIcon} />
+              <FontAwesomeIcon icon={faBars} className={styles.barsIcon} />
             </div>
             {typeView === 'day' && (
               <>

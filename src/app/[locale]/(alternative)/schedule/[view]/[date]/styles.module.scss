@@ -37,6 +37,44 @@
     }
   }
 
+  .closeIcon {
+    display: block;
+  }
+
+  .barsIcon {
+    display: none;
+  }
+
+  @media (max-width: 768px) {
+    .closeIcon {
+      display: none;
+    }
+
+    .barsIcon {
+      display: block;
+    }
+  }
+
+  .open {
+    .closeIcon {
+      display: block;
+    }
+
+    .barsIcon {
+      display: none;
+    }
+  }
+
+  .closed {
+    .closeIcon {
+      display: none;
+    }
+
+    .barsIcon {
+      display: block;
+    }
+  }
+
   main {
     display: flex;
     flex-direction: column;
