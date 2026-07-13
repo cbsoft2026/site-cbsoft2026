@@ -94,7 +94,7 @@ export default function SchedulePage(props: Props) {
             </div>
           )}
         </header>
-        <p>A programação ainda está sendo organizada e poderá sofrer alterações até a realização do evento.</p>
+        <p>{t('wip')}</p>
         <div className={styles['aside-filter']}>
           {/* <div onClick={toggleOpenFilter} className={styles.collapser}>
             <h6>{t('filtros')}</h6>
