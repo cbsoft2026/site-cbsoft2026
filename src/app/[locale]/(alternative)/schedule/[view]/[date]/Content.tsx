@@ -10,6 +10,7 @@ import {
   faChevronUp,
   faClose,
 } from '@fortawesome/free-solid-svg-icons';
+import Image from 'next/image';
 import ChangeView from './ChangeView';
 import Schedule from './Schedule';
 import { useCallback, useEffect, useState } from 'react';
@@ -78,7 +79,13 @@ export default function SchedulePage(props: Props) {
         <header>
           <LinkLocale className={`${styles['aside-logo']}`} href={{ pathname: '/' }} locale={locale}>
             <picture>
-              <img src={`${process.env.NEXT_PUBLIC_ASSET_PREFIX}/images/logos/cbsoft-logo.svg`} alt='logo' />
+              <Image
+                src={`${process.env.NEXT_PUBLIC_ASSET_PREFIX}/images/logos/cbsoft-logo.svg`}
+                alt='logo'
+                width={210}
+                height={47}
+                priority
+              />
             </picture>
           </LinkLocale>
           {width && width <= 768 && (
