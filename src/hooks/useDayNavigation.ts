@@ -1,39 +1,46 @@
 import { formatDate } from '@/utils/dates';
-import { useSearchParams } from 'next/navigation';
 import { useMemo } from 'react';
 
-export default function useDayNavigation(startsInDate: Date, lang: string) {
-  const searchParams = useSearchParams();
+export default function useDayNavigation(startsInDate: Date, lang: string, date?: string) {
+  let month = startsInDate.getMonth().toString() + 1;
+  let day = startsInDate.getDate().toString();
+  if (date) {
+    [, month, day] = date.split('-');
+  }
 
   // TODO: melhorar forma de obter dada de inicio e finalizacao
   const startsIn = useMemo(() => {
     return new Date(
       startsInDate.getFullYear(),
-      parseInt(searchParams.get('month') || startsInDate.getMonth().toString()),
-      parseInt(searchParams.get('day') || startsInDate.getDate().toString()),
+      parseInt(month) - 1,
+      parseInt(day),
       startsInDate.getHours(),
       startsInDate.getMinutes(),
     );
-  }, [searchParams, startsInDate]);
+  }, [month, day, startsInDate]);
 
   const finishIn = useMemo(() => {
     return new Date(startsInDate.getFullYear(), startsIn.getMonth(), startsIn.getDate(), 22, 0);
-  }, [startsIn]);
+  }, [startsInDate, startsIn]);
 
   const formattedDateLocale = formatDate(startsIn, lang, {
     month: 'short',
     day: '2-digit',
   });
 
-  const backParams = new URLSearchParams({
-    day: (startsIn.getDate() - 1).toString(),
-    month: startsIn.getMonth().toString(),
-  });
+  const backDate = useMemo(() => {
+    const previous = new Date(startsIn);
+    previous.setDate(previous.getDate() - 1);
 
-  const nextParams = new URLSearchParams({
-    day: (startsIn.getDate() + 1).toString(),
-    month: startsIn.getMonth().toString(),
-  });
+    return previous.toISOString().slice(0, 10);
+  }, [startsIn]);
 
-  return { startsIn, finishIn, formattedDateLocale, backParams, nextParams };
+  const nextDate = useMemo(() => {
+    const next = new Date(startsIn);
+    next.setDate(next.getDate() + 1);
+
+    return next.toISOString().slice(0, 10);
+  }, [startsIn]);
+
+  return { startsIn, finishIn, formattedDateLocale, backDate, nextDate };
 }

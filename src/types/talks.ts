@@ -3,7 +3,7 @@ import { ScheduleSchema } from './schedule';
 
 export const TalksSchema = Type.Array(
   Type.Object({
-    moderator: Type.Optional(Type.String()),
+    moderator: Type.Optional(Type.Array(Type.String())),
     speakers: Type.Array(Type.String()),
     ...ScheduleSchema.properties,
   }),

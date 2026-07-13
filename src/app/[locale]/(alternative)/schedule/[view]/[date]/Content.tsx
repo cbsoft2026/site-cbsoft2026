@@ -17,21 +17,24 @@ import { Event, eventType as eventTypeConst } from '@/types/event';
 import { Rooms } from '@/types/rooms';
 import useEventFilter from '@/hooks/useEventFilter';
 import useDayNavigation from '@/hooks/useDayNavigation';
-import { useLocale, useTranslations } from 'next-intl';
+import { useTranslations } from 'next-intl';
 import useWindowDimensions from '@/hooks/useWindowDimentions';
-import { useParams } from 'next/navigation';
 import LinkLocale from '@/components/LinkLocale';
 
 type Props = {
   commonEvents: { salas: Rooms; startsInDate: string };
   events: Map<string, Event>;
   symposiums: readonly string[];
+  locale: string;
+  view: string;
+  date?: string;
 };
 
-export default function SchedulePage({ commonEvents, events, symposiums }: Props) {
+export default function SchedulePage(props: Props) {
+  const { commonEvents, events, symposiums, locale, view, date } = props;
+
   const t = useTranslations('pages/schedule');
   const commonT = useTranslations('common');
-  const { view } = useParams();
 
   const [typeView, setTypeView] = useState('day');
 
@@ -50,11 +53,11 @@ export default function SchedulePage({ commonEvents, events, symposiums }: Props
     events,
     symposiums,
   );
-  const locale = useLocale();
 
-  const { startsIn, finishIn, formattedDateLocale, backParams, nextParams } = useDayNavigation(
+  const { startsIn, finishIn, formattedDateLocale, backDate, nextDate } = useDayNavigation(
     new Date(commonEvents.startsInDate),
     locale,
+    date,
   );
 
   return (
@@ -73,8 +76,9 @@ export default function SchedulePage({ commonEvents, events, symposiums }: Props
               </div>
             )}
           </header>
+          <p>A programação ainda está sendo organizada e poderá sofrer alterações até a realização do evento.</p>
           <div className={styles['aside-filter']}>
-            <div onClick={toggleOpenFilter} className={styles.collapser}>
+            {/* <div onClick={toggleOpenFilter} className={styles.collapser}>
               <h6>{t('filtros')}</h6>
               <div className={`${styles.icon} ${styles.less} ${styles['icon--small']}`}>
                 {openFilter ? (
@@ -102,7 +106,7 @@ export default function SchedulePage({ commonEvents, events, symposiums }: Props
                   ),
                 )}
               </div>
-            )}
+            )} */}
             <div onClick={toggleOpenSymposiums} className={styles.collapser}>
               <h6>{t('simposiosetrilha')}</h6>
               <div className={`${styles.icon} ${styles.less} ${styles['icon--small']}`}>
@@ -139,19 +143,23 @@ export default function SchedulePage({ commonEvents, events, symposiums }: Props
         <header>
           <div>
             <div onClick={toggleOpenAsideBar} className={`${styles.icon} ${styles.less} ${styles['icon--small']}`}>
-              <FontAwesomeIcon icon={faBars} />
+              <FontAwesomeIcon icon={openAsideBar ? faClose : faBars} />
             </div>
             {typeView === 'day' && (
               <>
                 <LinkLocale
-                  href={{ query: backParams.toString() }}
+                  href={{
+                    pathname: `/schedule/${view}/${backDate}`,
+                  }}
                   className={`${styles.icon} ${styles.less} ${styles['icon--small']}`}
                   locale={locale}
                 >
                   <FontAwesomeIcon icon={faChevronLeft} width={8} style={{ width: '8px' }} />
                 </LinkLocale>
                 <LinkLocale
-                  href={{ query: nextParams.toString() }}
+                  href={{
+                    pathname: `/schedule/${view}/${nextDate}`,
+                  }}
                   className={`${styles.icon} ${styles.less} ${styles['icon--small']}`}
                   locale={locale}
                 >
@@ -179,6 +187,7 @@ export default function SchedulePage({ commonEvents, events, symposiums }: Props
             startsIn={startsIn.toUTCString()}
             finishIn={finishIn.toUTCString()}
             typeView={typeView}
+            view={view}
           />
         </div>
       </main>

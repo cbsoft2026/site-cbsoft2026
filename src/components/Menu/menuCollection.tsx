@@ -40,7 +40,7 @@ export default function generatedCollection(t: Translator, commonT: Translator) 
       { title: t('cbsoft.sobre'), href: '/cbsoft' },
       { title: t('cbsoft.organizacao'), href: '/cbsoft/organization' },
       { title: t('cbsoft.acomodacoes'), href: '/cbsoft/accommodation' },
-      // { title: t('schedule.titulo'), href: '/schedule/calender' },
+      // { title: t('schedule.titulo'), href: '/schedule/calender/2026-09-08' },
       { title: t('cbsoft.speakers'), href: '/cbsoft/speakers' },
       { title: t('cbsoft.volunteers'), href: '/cbsoft/volunteers' },
       { title: t('cbsoft.local'), href: '/cbsoft/location' },

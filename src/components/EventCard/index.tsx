@@ -5,7 +5,12 @@ import Image from 'next/image';
 import { useTranslations } from 'next-intl';
 import LinkLocale from '../LinkLocale';
 
-type Props = { event: Event; rooms: Rooms; view: string; href?: string };
+type Props = {
+  event: Event;
+  rooms: Rooms;
+  view: string;
+  href?: string;
+};
 
 export function timeFormat(datetime: Date) {
   return `${String(datetime.getHours()).padStart(2, '0')}:${String(datetime.getMinutes()).padStart(2, '0')}`;
@@ -57,30 +62,61 @@ function EventCardWrapper(props: Props, start: Date, end: Date) {
           {props.view === 'list' && props.rooms.length > props.event.rooms.length ? <p>{eventRooms}</p> : ''}
         </div>
 
+        {props.event.moderators && (
+          <div className={styles['content__images']}>
+            {props.event.moderators?.map((participant) => {
+              if (participant === null || Array.isArray(participant)) {
+                return null;
+              }
+
+              const isString = typeof participant === 'string';
+
+              const key = isString ? participant : participant.id;
+              const name = isString ? participant : participant.name;
+
+              const image = isString
+                ? `${process.env.NEXT_PUBLIC_ASSET_PREFIX}/images/nonimage.png`
+                : participant.image?.startsWith('http')
+                  ? participant.image
+                  : `${process.env.NEXT_PUBLIC_ASSET_PREFIX}/images/${
+                      participant.image ? `speakers/${participant.image}` : 'nonimage.png'
+                    }`;
+
+              return (
+                <div key={key} className={styles['content__image']}>
+                  <Image src={image} width={240} height={240} alt={name} title={name} />
+                </div>
+              );
+            })}
+          </div>
+        )}
+
         {props.event.participants && (
           <div className={styles['content__images']}>
-            {props.event.participants.map(
-              (participant) =>
-                typeof participant === 'object' &&
-                participant !== null &&
-                !Array.isArray(participant) &&
-                participant.image &&
-                participant.name && (
-                  <div key={participant.id} className={styles['content__image']}>
-                    <Image
-                      src={
-                        participant.image.startsWith('http')
-                          ? participant.image
-                          : `${process.env.NEXT_PUBLIC_ASSET_PREFIX}/images/speakers/${participant.image || 'default.jpg'}`
-                      }
-                      width={240}
-                      height={240}
-                      alt={participant.name}
-                      title={participant.name}
-                    />
-                  </div>
-                ),
-            )}
+            {props.event.participants?.map((participant) => {
+              if (participant === null || Array.isArray(participant)) {
+                return null;
+              }
+
+              const isString = typeof participant === 'string';
+
+              const key = isString ? participant : participant.id;
+              const name = isString ? participant : participant.name;
+
+              const image = isString
+                ? `${process.env.NEXT_PUBLIC_ASSET_PREFIX}/images/nonimage.png`
+                : participant.image?.startsWith('http')
+                  ? participant.image
+                  : `${process.env.NEXT_PUBLIC_ASSET_PREFIX}/images/${
+                      participant.image ? `speakers/${participant.image}` : 'nonimage.png'
+                    }`;
+
+              return (
+                <div key={key} className={styles['content__image']}>
+                  <Image src={image} width={240} height={240} alt={name} title={name} />
+                </div>
+              );
+            })}
           </div>
         )}
       </div>

@@ -3,20 +3,22 @@
 import { Rooms } from '@/types/rooms';
 import styles from './styles.module.scss';
 import EventCard, { labelSlice, timeFormat } from '@/components/EventCard';
-import { useParams, useRouter } from 'next/navigation';
 import { Events, Event } from '@/types/event';
 import useWindowDimensions from '@/hooks/useWindowDimentions';
 import generateTimes from '@/utils/generateTimes';
-import { useLocale } from 'next-intl';
 import { programs } from '@/app/config/event-structure';
 
-type Props = { rooms: Rooms; events: Events; startsIn: string; finishIn: string; typeView: string };
+type Props = {
+  rooms: Rooms;
+  events: Events;
+  startsIn: string;
+  finishIn: string;
+  typeView: string;
+  view: string;
+};
 
 export default function Schedule(props: Props) {
-  const router = useRouter();
-  const locale = useLocale();
-  const { rooms, events, startsIn, finishIn, typeView } = props;
-  const { view } = useParams();
+  const { rooms, events, startsIn, finishIn, typeView, view } = props;
 
   const { width } = useWindowDimensions();
 
@@ -70,7 +72,11 @@ export default function Schedule(props: Props) {
         <div className={styles.rooms} style={{ gridArea: '1 / 1' }}></div>
         {rooms.map((room, roomIndex) => (
           <div key={`room-${roomIndex}`} className={styles.rooms} style={{ gridArea: `1 / ${roomIndex + 2}` }}>
-            {room.nome}
+            <span>
+              {room.local}
+              <br />
+              <i>{room.nome}</i>
+            </span>
           </div>
         ))}
         {events.map((event, eventIndex) => {

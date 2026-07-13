@@ -115,6 +115,39 @@ export default async function EventComponent({ events, event, locale }: Props) {
         </table>
       </main>
       <aside>
+        {event && event.moderators?.length ? (
+          <>
+            <h4>
+              {(() => {
+                if (event.type === 'session') {
+                  return <>{t('labelParticipantes.chairs')}</>;
+                } else if (event.type === 'palestra' || event.type === 'painel' || event.type === 'tutorial') {
+                  return <>{t('labelParticipantes.moderators')}</>;
+                } else if (event.type === 'artigo') {
+                  return <>{t('labelParticipantes.chairs')}</>;
+                }
+                return <></>;
+              })()}
+            </h4>
+            <div className={styles['content__images']}>
+              {event.moderators.map(
+                (participant, index) =>
+                  typeof participant === 'object' &&
+                  participant !== null &&
+                  !Array.isArray(participant) &&
+                  participant.name && (
+                    <SpeakerCard key={index} speaker={participant} size={100}>
+                      <h6>{participant.name}</h6>
+                      <p className='text-secondary'>{participant.institution}</p>
+                      <p>{participant.bio}</p>
+                    </SpeakerCard>
+                  ),
+              )}
+            </div>
+          </>
+        ) : (
+          <></>
+        )}
         {event && event.participants.length ? (
           <>
             <h4>

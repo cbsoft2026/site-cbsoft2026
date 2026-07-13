@@ -10,3 +10,23 @@ export function slugify(text: string | undefined) {
         .replace(/^-|-$/g, '')
     : '';
 }
+
+export function createIdGenerator() {
+  const ids = new Map<string, number>();
+
+  return (text?: string) => {
+    const slug = slugify(text);
+
+    if (!slug) return '';
+
+    const count = ids.get(slug);
+
+    if (count === undefined) {
+      ids.set(slug, 1);
+      return slug;
+    }
+
+    ids.set(slug, count + 1);
+    return `${slug}-${count}`;
+  };
+}

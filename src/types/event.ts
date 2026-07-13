@@ -20,6 +20,7 @@ export const EventSchema = Type.Object({
   type: EventType,
   simposio: Type.String(),
   participants: Type.Array(Type.Union([ParticipantSchema, Type.String()])),
+  moderators: Type.Optional(Type.Array(Type.Union([ParticipantSchema, Type.String()]))),
   content: Type.Optional(Type.String()),
   track: Type.Union([Type.Null(), Type.String()]),
   parentIds: Type.Optional(Type.Array(Type.String())),

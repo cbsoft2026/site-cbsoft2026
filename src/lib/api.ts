@@ -6,7 +6,7 @@ import { Static, TSchema } from '@sinclair/typebox';
 import { PapersSchema, Track, trackValues } from '@/types/papers';
 import { TalksSchema } from '@/types/talks';
 import { validateData } from '@/public/data/validator';
-import { slugify } from '@/utils/slugify';
+import { createIdGenerator } from '@/utils/slugify';
 import { defaultLang, Locale } from '@/app/config/locales';
 import { SessionsSchema } from '@/types/session';
 import { Participant } from '@/types/participants';
@@ -20,9 +20,18 @@ export const EVENTS_LIST = events;
 const BASE_PATH = path.join(process.cwd(), 'public/data/events');
 
 export function loadCommonEvents(lang: string = defaultLang): { salas: Rooms; startsInDate: string } {
-  const pessoasPath = path.join(BASE_PATH, `../events/${lang}/schedule/common.json`);
-  if (!fs.existsSync(pessoasPath)) return { salas: [], startsInDate: '' };
-  return JSON.parse(fs.readFileSync(pessoasPath, 'utf-8'));
+  const pathsToTry = [
+    { path: path.join(BASE_PATH, `../events/${lang}/schedule/common.json`) },
+    { path: path.join(BASE_PATH, `../events/${defaultLang}/schedule/common.json`) },
+  ];
+
+  for (const path of pathsToTry) {
+    if (fs.existsSync(path.path)) {
+      return JSON.parse(fs.readFileSync(path.path, 'utf-8'));
+    }
+  }
+
+  return { salas: [], startsInDate: '' };
 }
 
 const getPathsToTry = (
@@ -79,6 +88,8 @@ export function formatParticipants(
 }
 
 export function loadEvents(lang: string = defaultLang): Map<string, Event> {
+  const createId = createIdGenerator();
+
   const participants: { [key: string]: Participant } = speakers.reduce(
     (previous, value) => ({ ...previous, [value.id]: value }),
     {},
@@ -95,7 +106,7 @@ export function loadEvents(lang: string = defaultLang): Map<string, Event> {
       SessionsSchema,
       (schedule) => {
         schedule.forEach((p) => {
-          const id = slugify(p.title);
+          const id = createId(p.title);
           const participantsSession = [];
           if (p.chair) participantsSession.push(participants[p.chair]);
 
@@ -124,7 +135,7 @@ export function loadEvents(lang: string = defaultLang): Map<string, Event> {
       PapersSchema,
       (schedule) => {
         schedule.forEach((p) => {
-          const id = slugify(p.title);
+          const id = createId(p.title);
           const participantsArticle = formatParticipants(participants, p.authors);
           if (p.chair) participantsArticle.push(participants[p.chair]);
 
@@ -162,9 +173,9 @@ export function loadEvents(lang: string = defaultLang): Map<string, Event> {
       TalksSchema,
       (schedule) => {
         schedule.forEach((p) => {
-          const id = slugify(p.title);
+          const id = createId(p.title);
           const participantsPainel = formatParticipants(participants, p.speakers);
-          if (p.moderator) participantsPainel.push(participants[p.moderator]);
+          const moderatorsPainel = formatParticipants(participants, p.moderator ?? []);
 
           events.push({
             type: (p.type as EventType) || 'painel',
@@ -176,6 +187,7 @@ export function loadEvents(lang: string = defaultLang): Map<string, Event> {
             title: p.title,
             description: p.description,
             participants: participantsPainel,
+            moderators: moderatorsPainel,
           });
         });
       },
@@ -184,10 +196,10 @@ export function loadEvents(lang: string = defaultLang): Map<string, Event> {
 
     loadEvent(slug, 'tutorial', TalksSchema, (schedule) => {
       schedule.forEach((p) => {
-        const id = slugify(p.title);
+        const id = createId(p.title);
         const participantsSession = formatParticipants(participants, p.speakers);
+        const moderatorsSession = formatParticipants(participants, p.moderator ?? []);
 
-        if (p.moderator) participantsSession.push(participants[p.moderator]);
         events.push({
           type: (p.type as EventType) || 'tutorial',
           simposio: slug,
@@ -198,6 +210,7 @@ export function loadEvents(lang: string = defaultLang): Map<string, Event> {
           title: p.title,
           description: p.description,
           participants: participantsSession,
+          moderators: moderatorsSession,
         });
       });
     });
@@ -205,10 +218,10 @@ export function loadEvents(lang: string = defaultLang): Map<string, Event> {
 
     loadEvent(slug, 'palestra', TalksSchema, (schedule) => {
       schedule.forEach((p) => {
-        const id = slugify(p.title);
+        const id = createId(p.title);
         const participantsSession = formatParticipants(participants, p.speakers);
+        const moderatorsSession = formatParticipants(participants, p.moderator ?? []);
 
-        if (p.moderator) participantsSession.push(participants[p.moderator]);
         events.push({
           type: (p.type as EventType) || 'palestra',
           simposio: slug,
@@ -219,6 +232,7 @@ export function loadEvents(lang: string = defaultLang): Map<string, Event> {
           title: p.title,
           description: p.description,
           participants: participantsSession,
+          moderators: moderatorsSession,
         });
       });
     });
@@ -230,7 +244,7 @@ export function loadEvents(lang: string = defaultLang): Map<string, Event> {
     let json = JSON.parse(fs.readFileSync(schedule, 'utf-8'));
     json = Object.keys(json).map((key) => {
       const value = json[key];
-      value['id'] = slugify(value.title);
+      value['id'] = createId(value.title);
 
       return value;
     });

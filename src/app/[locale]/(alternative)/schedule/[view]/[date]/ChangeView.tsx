@@ -3,19 +3,24 @@
 import styles from './styles.module.scss';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faCalendarDays, faListUl } from '@fortawesome/free-solid-svg-icons';
-import { useParams, useSearchParams } from 'next/navigation';
+import { useParams } from 'next/navigation';
 import LinkLocale from '@/components/LinkLocale';
 import { useLocale } from 'next-intl';
 
 export default function ChangeView() {
-  const { view } = useParams();
-  const searchParams = useSearchParams();
+  const { view, date } = useParams<{
+    view: string;
+    date: string;
+  }>();
+
   const locale = useLocale();
 
   return (
     <div className={styles['grouped-icons']}>
       <LinkLocale
-        href={{ pathname: '/schedule/calender', query: searchParams.toString() }}
+        href={{
+          pathname: `/schedule/calender/${date}`,
+        }}
         className={view === 'calender' ? styles.active : ''}
         locale={locale}
       >
@@ -23,8 +28,11 @@ export default function ChangeView() {
           <FontAwesomeIcon icon={faCalendarDays} />
         </div>
       </LinkLocale>
+
       <LinkLocale
-        href={{ pathname: '/schedule/list', query: searchParams.toString() }}
+        href={{
+          pathname: `/schedule/list/${date}`,
+        }}
         className={view === 'list' ? styles.active : ''}
         locale={locale}
       >
