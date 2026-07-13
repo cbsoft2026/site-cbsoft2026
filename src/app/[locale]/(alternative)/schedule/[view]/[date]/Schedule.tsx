@@ -4,7 +4,6 @@ import { Rooms } from '@/types/rooms';
 import styles from './styles.module.scss';
 import EventCard, { labelSlice, timeFormat } from '@/components/EventCard';
 import { Events, Event } from '@/types/event';
-import useWindowDimensions from '@/hooks/useWindowDimentions';
 import generateTimes from '@/utils/generateTimes';
 import { programs } from '@/app/config/event-structure';
 
@@ -20,8 +19,6 @@ type Props = {
 export default function Schedule(props: Props) {
   const { rooms, events, startsIn, finishIn, typeView, view } = props;
 
-  const { width } = useWindowDimensions();
-
   const startInProcess = new Date(startsIn);
   const finishInProcess = new Date(finishIn);
 
@@ -34,7 +31,7 @@ export default function Schedule(props: Props) {
     return event.type == 'info' ? undefined : `${prefix}${event.simposio}/event#${event.id}`;
   };
 
-  if (view === 'calender' && width && width > 768) {
+  if (view === 'calender') {
     return (
       <div
         style={{

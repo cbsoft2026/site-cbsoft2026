@@ -25,6 +25,17 @@
     }
   }
 
+  .aside {
+    --aside-display: block;
+    display: var(--aside-display);
+  }
+
+  @media (max-width: 768px) {
+    .aside {
+      --aside-display: none;
+    }
+  }
+
   main {
     display: flex;
     flex-direction: column;

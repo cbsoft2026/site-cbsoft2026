@@ -12,7 +12,7 @@ import {
 } from '@fortawesome/free-solid-svg-icons';
 import ChangeView from './ChangeView';
 import Schedule from './Schedule';
-import { useCallback, useState } from 'react';
+import { useCallback, useEffect, useState } from 'react';
 import { Event, eventType as eventTypeConst } from '@/types/event';
 import { Rooms } from '@/types/rooms';
 import useEventFilter from '@/hooks/useEventFilter';
@@ -40,7 +40,10 @@ export default function SchedulePage(props: Props) {
 
   const { width } = useWindowDimensions();
 
-  const [openAsideBar, setOpenAsideBar] = useState(width && width > 768);
+  const [openAsideBar, setOpenAsideBar] = useState<boolean | null>(null);
+  useEffect(() => {
+    setOpenAsideBar(width != null && width > 768);
+  }, [width]);
   const toggleOpenAsideBar = useCallback(() => setOpenAsideBar((prev) => !prev), []);
 
   const [openFilter, setOpenFilter] = useState(true);
@@ -62,83 +65,90 @@ export default function SchedulePage(props: Props) {
 
   return (
     <>
-      {openAsideBar && (
-        <aside>
-          <header>
-            <LinkLocale className={`${styles['aside-logo']}`} href={{ pathname: '/' }} locale={locale}>
-              <picture>
-                <img src={`${process.env.NEXT_PUBLIC_ASSET_PREFIX}/images/logos/cbsoft-logo.svg`} alt='logo' />
-              </picture>
-            </LinkLocale>
-            {width && width <= 768 && (
-              <div onClick={toggleOpenAsideBar} className={`${styles.icon} ${styles.less} ${styles['icon--small']}`}>
-                <FontAwesomeIcon icon={faClose} />
-              </div>
-            )}
-          </header>
-          <p>A programação ainda está sendo organizada e poderá sofrer alterações até a realização do evento.</p>
-          <div className={styles['aside-filter']}>
-            {/* <div onClick={toggleOpenFilter} className={styles.collapser}>
-              <h6>{t('filtros')}</h6>
-              <div className={`${styles.icon} ${styles.less} ${styles['icon--small']}`}>
-                {openFilter ? (
-                  <FontAwesomeIcon icon={faChevronDown} style={{ width: '8px' }} />
-                ) : (
-                  <FontAwesomeIcon icon={faChevronUp} style={{ width: '8px' }} />
-                )}
-              </div>
+      <aside
+        className={styles.aside}
+        {...(openAsideBar !== null
+          ? {
+              style: {
+                '--aside-display': openAsideBar ? 'block' : 'none',
+              } as React.CSSProperties,
+            }
+          : {})}
+      >
+        <header>
+          <LinkLocale className={`${styles['aside-logo']}`} href={{ pathname: '/' }} locale={locale}>
+            <picture>
+              <img src={`${process.env.NEXT_PUBLIC_ASSET_PREFIX}/images/logos/cbsoft-logo.svg`} alt='logo' />
+            </picture>
+          </LinkLocale>
+          {width && width <= 768 && (
+            <div onClick={toggleOpenAsideBar} className={`${styles.icon} ${styles.less} ${styles['icon--small']}`}>
+              <FontAwesomeIcon icon={faClose} />
             </div>
-            {openFilter && (
-              <div className={styles['collapser__items']}>
-                {eventTypeConst.map((type, index) =>
-                  type != null ? (
-                    <label key={`label-${index}`} className={styles['checkbox-control']}>
-                      <input
-                        type='checkbox'
-                        value={type}
-                        checked={eventType.includes(type)}
-                        onChange={() => toggleType(type)}
-                      />
-                      {commonT.has(`eventos.${type}`) ? commonT(`eventos.${type}`) : type}
-                    </label>
-                  ) : (
-                    ''
-                  ),
-                )}
-              </div>
-            )} */}
-            <div onClick={toggleOpenSymposiums} className={styles.collapser}>
-              <h6>{t('simposiosetrilha')}</h6>
-              <div className={`${styles.icon} ${styles.less} ${styles['icon--small']}`}>
-                {openSymposiums ? (
-                  <FontAwesomeIcon icon={faChevronDown} style={{ width: '8px' }} />
-                ) : (
-                  <FontAwesomeIcon icon={faChevronUp} style={{ width: '8px' }} />
-                )}
-              </div>
+          )}
+        </header>
+        <p>A programação ainda está sendo organizada e poderá sofrer alterações até a realização do evento.</p>
+        <div className={styles['aside-filter']}>
+          {/* <div onClick={toggleOpenFilter} className={styles.collapser}>
+            <h6>{t('filtros')}</h6>
+            <div className={`${styles.icon} ${styles.less} ${styles['icon--small']}`}>
+              {openFilter ? (
+                <FontAwesomeIcon icon={faChevronDown} style={{ width: '8px' }} />
+              ) : (
+                <FontAwesomeIcon icon={faChevronUp} style={{ width: '8px' }} />
+              )}
             </div>
-            {openSymposiums && (
-              <div className={styles['collapser__items']}>
-                {symposiums.map((symposium, index) =>
-                  symposium != null ? (
-                    <label key={`label-${index}`} className={styles['checkbox-control']}>
-                      <input
-                        type='checkbox'
-                        value={symposium}
-                        checked={eventSymposiums.includes(symposium)}
-                        onChange={() => toggleSymposiums(symposium)}
-                      />
-                      {commonT.has(symposium) ? commonT(symposium) : symposium.toUpperCase()}
-                    </label>
-                  ) : (
-                    ''
-                  ),
-                )}
-              </div>
-            )}
           </div>
-        </aside>
-      )}
+          {openFilter && (
+            <div className={styles['collapser__items']}>
+              {eventTypeConst.map((type, index) =>
+                type != null ? (
+                  <label key={`label-${index}`} className={styles['checkbox-control']}>
+                    <input
+                      type='checkbox'
+                      value={type}
+                      checked={eventType.includes(type)}
+                      onChange={() => toggleType(type)}
+                    />
+                    {commonT.has(`eventos.${type}`) ? commonT(`eventos.${type}`) : type}
+                  </label>
+                ) : (
+                  ''
+                ),
+              )}
+            </div>
+          )} */}
+          <div onClick={toggleOpenSymposiums} className={styles.collapser}>
+            <h6>{t('simposiosetrilha')}</h6>
+            <div className={`${styles.icon} ${styles.less} ${styles['icon--small']}`}>
+              {openSymposiums ? (
+                <FontAwesomeIcon icon={faChevronDown} style={{ width: '8px' }} />
+              ) : (
+                <FontAwesomeIcon icon={faChevronUp} style={{ width: '8px' }} />
+              )}
+            </div>
+          </div>
+          {openSymposiums && (
+            <div className={styles['collapser__items']}>
+              {symposiums.map((symposium, index) =>
+                symposium != null ? (
+                  <label key={`label-${index}`} className={styles['checkbox-control']}>
+                    <input
+                      type='checkbox'
+                      value={symposium}
+                      checked={eventSymposiums.includes(symposium)}
+                      onChange={() => toggleSymposiums(symposium)}
+                    />
+                    {commonT.has(symposium) ? commonT(symposium) : symposium.toUpperCase()}
+                  </label>
+                ) : (
+                  ''
+                ),
+              )}
+            </div>
+          )}
+        </div>
+      </aside>
       <main>
         <header>
           <div>
@@ -177,7 +187,7 @@ export default function SchedulePage(props: Props) {
                 <option value='complete'>{t('completo')}</option>
               </select>
             )}
-            {width && width > 768 && <ChangeView />}
+            <ChangeView />
           </div>
         </header>
         <div className={styles['grid-shedule__wrapper']}>
