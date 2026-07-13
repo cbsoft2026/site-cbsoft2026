@@ -138,7 +138,12 @@ export default function Menu(props: HTMLAttributes<HTMLDivElement>) {
               srcSet={`${process.env.NEXT_PUBLIC_ASSET_PREFIX}/images/logos/cbsoft-logo.svg`}
               media='(max-width: 1200px)'
             />
-            <img src={`${process.env.NEXT_PUBLIC_ASSET_PREFIX}/images/logos/cbsoft-logo.svg`} alt='logo' />
+            <img
+              src={`${process.env.NEXT_PUBLIC_ASSET_PREFIX}/images/logos/cbsoft-logo.svg`}
+              alt='logo'
+              fetchPriority='high'
+              decoding='async'
+            />
           </picture>
         </LinkLocale>
 
