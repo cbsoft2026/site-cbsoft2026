@@ -17,10 +17,10 @@ import { useCallback, useEffect, useState } from 'react';
 import { Event, eventType as eventTypeConst } from '@/types/event';
 import { Rooms } from '@/types/rooms';
 import useEventFilter from '@/hooks/useEventFilter';
-import useDayNavigation from '@/hooks/useDayNavigation';
 import { useTranslations } from 'next-intl';
 import useWindowDimensions from '@/hooks/useWindowDimentions';
 import LinkLocale from '@/components/LinkLocale';
+import useDayNavigation from '@/hooks/useDayNavigation';
 
 type Props = {
   commonEvents: { salas: Rooms; startsInDate: string };
@@ -31,8 +31,13 @@ type Props = {
   date?: string;
 };
 
-export default function SchedulePage(props: Props) {
+export default function Content(props: Props) {
   const { commonEvents, events, symposiums, locale, view, date } = props;
+  const { startsIn, finishIn, formattedDateLocale, backDate, nextDate } = useDayNavigation(
+    new Date(commonEvents.startsInDate),
+    locale,
+    date ?? undefined,
+  );
 
   const t = useTranslations('pages/schedule');
   const commonT = useTranslations('common');
@@ -47,21 +52,12 @@ export default function SchedulePage(props: Props) {
   }, [width]);
   const toggleOpenAsideBar = useCallback(() => setOpenAsideBar((prev) => !prev), []);
 
-  const [openFilter, setOpenFilter] = useState(true);
-  const toggleOpenFilter = useCallback(() => setOpenFilter((prev) => !prev), []);
-
   const [openSymposiums, setOpenSymposiums] = useState(true);
   const toggleOpenSymposiums = useCallback(() => setOpenSymposiums((prev) => !prev), []);
 
   const { eventType, toggleType, eventSymposiums, toggleSymposiums, filteredEvents } = useEventFilter(
     events,
     symposiums,
-  );
-
-  const { startsIn, finishIn, formattedDateLocale, backDate, nextDate } = useDayNavigation(
-    new Date(commonEvents.startsInDate),
-    locale,
-    date,
   );
 
   return (
@@ -96,35 +92,6 @@ export default function SchedulePage(props: Props) {
         </header>
         <p>{t('wip')}</p>
         <div className={styles['aside-filter']}>
-          {/* <div onClick={toggleOpenFilter} className={styles.collapser}>
-            <h6>{t('filtros')}</h6>
-            <div className={`${styles.icon} ${styles.less} ${styles['icon--small']}`}>
-              {openFilter ? (
-                <FontAwesomeIcon icon={faChevronDown} style={{ width: '8px' }} />
-              ) : (
-                <FontAwesomeIcon icon={faChevronUp} style={{ width: '8px' }} />
-              )}
-            </div>
-          </div>
-          {openFilter && (
-            <div className={styles['collapser__items']}>
-              {eventTypeConst.map((type, index) =>
-                type != null ? (
-                  <label key={`label-${index}`} className={styles['checkbox-control']}>
-                    <input
-                      type='checkbox'
-                      value={type}
-                      checked={eventType.includes(type)}
-                      onChange={() => toggleType(type)}
-                    />
-                    {commonT.has(`eventos.${type}`) ? commonT(`eventos.${type}`) : type}
-                  </label>
-                ) : (
-                  ''
-                ),
-              )}
-            </div>
-          )} */}
           <div onClick={toggleOpenSymposiums} className={styles.collapser}>
             <h6>{t('simposiosetrilha')}</h6>
             <div className={`${styles.icon} ${styles.less} ${styles['icon--small']}`}>
@@ -172,7 +139,10 @@ export default function SchedulePage(props: Props) {
               <>
                 <LinkLocale
                   href={{
-                    pathname: `/schedule/${view}/${backDate}`,
+                    pathname: `/schedule/${view}`,
+                    query: {
+                      date: backDate,
+                    },
                   }}
                   className={`${styles.icon} ${styles.less} ${styles['icon--small']}`}
                   locale={locale}
@@ -181,7 +151,10 @@ export default function SchedulePage(props: Props) {
                 </LinkLocale>
                 <LinkLocale
                   href={{
-                    pathname: `/schedule/${view}/${nextDate}`,
+                    pathname: `/schedule/${view}`,
+                    query: {
+                      date: nextDate,
+                    },
                   }}
                   className={`${styles.icon} ${styles.less} ${styles['icon--small']}`}
                   locale={locale}

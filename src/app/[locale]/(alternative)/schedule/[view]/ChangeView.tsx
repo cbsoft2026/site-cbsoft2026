@@ -19,7 +19,10 @@ export default function ChangeView() {
     <div className={styles['grouped-icons']}>
       <LinkLocale
         href={{
-          pathname: `/schedule/calender/${date}`,
+          pathname: `/schedule/calender`,
+          query: {
+            date: date,
+          },
         }}
         className={view === 'calender' ? styles.active : ''}
         locale={locale}
@@ -31,7 +34,10 @@ export default function ChangeView() {
 
       <LinkLocale
         href={{
-          pathname: `/schedule/list/${date}`,
+          pathname: `/schedule/list`,
+          query: {
+            date: date,
+          },
         }}
         className={view === 'list' ? styles.active : ''}
         locale={locale}

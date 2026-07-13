@@ -2,22 +2,23 @@ import { formatDate } from '@/utils/dates';
 import { useMemo } from 'react';
 
 export default function useDayNavigation(startsInDate: Date, lang: string, date?: string) {
-  let month = startsInDate.getMonth().toString() + 1;
+  let year = startsInDate.getFullYear().toString();
+  let month = (startsInDate.getMonth() + 1).toString();
   let day = startsInDate.getDate().toString();
   if (date) {
-    [, month, day] = date.split('-');
+    [year, month, day] = date.split('-');
   }
 
   // TODO: melhorar forma de obter dada de inicio e finalizacao
   const startsIn = useMemo(() => {
     return new Date(
-      startsInDate.getFullYear(),
+      parseInt(year),
       parseInt(month) - 1,
       parseInt(day),
       startsInDate.getHours(),
       startsInDate.getMinutes(),
     );
-  }, [month, day, startsInDate]);
+  }, [year, month, day, startsInDate]);
 
   const finishIn = useMemo(() => {
     return new Date(startsInDate.getFullYear(), startsIn.getMonth(), startsIn.getDate(), 22, 0);
