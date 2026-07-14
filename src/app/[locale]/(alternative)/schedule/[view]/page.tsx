@@ -3,6 +3,7 @@ import { loadCommonEvents, loadEvents, EVENTS_LIST } from '@/lib/api';
 import Content from './Content';
 import { Suspense } from 'react';
 import ScheduleWrapper from './ScheduleWrapper';
+import { createPageMetadata } from '@/lib/metadata';
 
 type Props = {
   params: Promise<{
@@ -10,6 +11,11 @@ type Props = {
     view: string;
   }>;
 };
+
+export async function generateMetadata({ params }: Props) {
+  const { locale } = await params;
+  return createPageMetadata(locale, 'pages/schedule', 'titulo');
+}
 
 export function generateStaticParams() {
   return [{ view: 'calender' }, { view: 'list' }];
