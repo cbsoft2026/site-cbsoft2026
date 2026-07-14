@@ -40,6 +40,7 @@ export default function generatedCollection(t: Translator, commonT: Translator) 
       { title: t('cbsoft.sobre'), href: '/cbsoft' },
       { title: t('cbsoft.organizacao'), href: '/cbsoft/organization' },
       { title: t('cbsoft.acomodacoes'), href: '/cbsoft/accommodation' },
+      { title: t('cbsoft.dinner'), href: '/cbsoft/dinner' },
       // { title: t('schedule.titulo'), href: '/schedule/calendar' },
       { title: t('cbsoft.speakers'), href: '/cbsoft/speakers' },
       { title: t('cbsoft.volunteers'), href: '/cbsoft/volunteers' },
