@@ -1,22 +1,22 @@
 [
     {
-        "title": "Abertura SBCars",
+        "title": "Abertura SBCARS",
         "speakers": ["rick-kazman"],
         "schedule": {
             "start": "2026-09-08T09:00:00-03:00",
             "end": "2026-09-08T10:30:00-03:00"
         },
-        "description": "Keynote I SBCars - Sala Alan Turing (auditório FAU)",
+        "description": "Keynote I SBCARS - Sala Alan Turing (auditório FAU)",
         "rooms": ["auditorio-fau", "auditorio-ime", "b5", "b16", "b9", "b10", "b1", "b2", "b3", "ccsl", "b101", "numec"]
     },
     {
-        "title": "SBCars",
+        "title": "SBCARS",
         "speakers": ["elisa-yumi-nakagawa"],
         "schedule": {
             "start": "2026-09-08T16:30:00-03:00",
             "end": "2026-09-08T18:30:00-03:00"
         },
-        "description": "Keynote II SBCars",
+        "description": "Keynote II SBCARS",
         "rooms": ["b16"]
     }
 ]

@@ -1,6 +1,6 @@
 [
     {
-        "title": "SBCars - ST1",
+        "title": "SBCARS - ST1",
         "schedule": {
             "start": "2026-09-08T11:00:00-03:00",
             "end": "2026-09-08T12:30:00-03:00"
@@ -9,7 +9,7 @@
         "rooms": ["b16"]
     },
     {
-        "title": "SBCars - ST2",
+        "title": "SBCARS - ST2",
         "schedule": {
             "start": "2026-09-08T14:00:00-03:00",
             "end": "2026-09-08T16:00:00-03:00"
