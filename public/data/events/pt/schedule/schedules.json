@@ -1,6 +1,6 @@
 [
     {
-        "title": "Credenciamento - IME, Bloco B",
+        "title": "Credenciamento - FAU-USP",
         "schedule": {
             "start": "2026-09-08T08:00:00-03:00",
             "end": "2026-09-08T09:00:00-03:00"
@@ -9,7 +9,7 @@
         "rooms": ["auditorio-fau", "auditorio-ime", "b5", "b16", "b9", "b10", "b1", "b2", "b3", "ccsl", "b101", "numec"]
     },
     {
-        "title": "Credenciamento - IME, Bloco B",
+        "title": "Credenciamento - FAU-USP",
         "schedule": {
             "start": "2026-09-09T08:00:00-03:00",
             "end": "2026-09-09T09:00:00-03:00"
@@ -18,7 +18,7 @@
         "rooms": ["auditorio-fau", "auditorio-ime", "b5", "b16", "b9", "b10", "b1", "b2", "b3", "ccsl", "b101", "numec"]
     },
     {
-        "title": "Credenciamento - IME, Bloco B",
+        "title": "Credenciamento - FAU-USP",
         "schedule": {
             "start": "2026-09-10T08:00:00-03:00",
             "end": "2026-09-10T09:00:00-03:00"
@@ -27,7 +27,7 @@
         "rooms": ["auditorio-fau", "auditorio-ime", "b5", "b16", "b9", "b10", "b1", "b2", "b3", "ccsl", "b101", "numec"]
     },
     {
-        "title": "Credenciamento - IME, Bloco B",
+        "title": "Credenciamento - FAU-USP",
         "schedule": {
             "start": "2026-09-11T08:00:00-03:00",
             "end": "2026-09-11T09:00:00-03:00"
@@ -144,7 +144,7 @@
         "rooms": ["auditorio-fau", "auditorio-ime", "b5", "b16", "b9", "b10", "b1", "b2", "b3", "ccsl", "b101", "numec"]
     },
     {
-        "title": "Coquetel de abertura - Restaurante Viveiro (USP) [Prêmios SBCars e SAST]",
+        "title": "Coquetel de abertura - Restaurante Viveiros (USP)",
         "schedule": {
             "start": "2026-09-08T18:30:00-03:00",
             "end": "2026-09-08T21:00:00-03:00"
