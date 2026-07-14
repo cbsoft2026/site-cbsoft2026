@@ -5,7 +5,7 @@ export default function useDayNavigation(startsInDate: Date, lang: string, date?
   let year = startsInDate.getFullYear().toString();
   let month = (startsInDate.getMonth() + 1).toString();
   let day = startsInDate.getDate().toString();
-  if (date) {
+  if (date != undefined) {
     [year, month, day] = date.split('-');
   }
 

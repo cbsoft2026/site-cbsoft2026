@@ -32,6 +32,7 @@ export default async function SchedulePage({ params }: Props) {
             locale={locale}
             view={view}
             date={undefined}
+            loading={true}
           />
         }
       >

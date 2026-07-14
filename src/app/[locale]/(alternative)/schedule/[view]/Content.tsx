@@ -29,9 +29,10 @@ type Props = {
   locale: string;
   view: string;
   date?: string;
+  loading?: boolean;
 };
 
-export default function Content(props: Props) {
+export default function Content({ loading = false, ...props }: Props) {
   const { commonEvents, events, symposiums, locale, view, date } = props;
   const { startsIn, finishIn, formattedDateLocale, backDate, nextDate } = useDayNavigation(
     new Date(commonEvents.startsInDate),
@@ -161,7 +162,11 @@ export default function Content(props: Props) {
                 >
                   <FontAwesomeIcon icon={faChevronRight} width={8} style={{ width: '8px' }} />
                 </LinkLocale>
-                <h5>{formattedDateLocale}</h5>
+                {!loading ? (
+                  <h5>{formattedDateLocale}</h5>
+                ) : (
+                  <div className={`${styles.skeleton} ${styles.lineShort}`} />
+                )}
               </>
             )}
           </div>
@@ -177,14 +182,26 @@ export default function Content(props: Props) {
           </div>
         </header>
         <div className={styles['grid-shedule__wrapper']}>
-          <Schedule
-            rooms={commonEvents.salas}
-            events={filteredEvents}
-            startsIn={startsIn.toUTCString()}
-            finishIn={finishIn.toUTCString()}
-            typeView={typeView}
-            view={view}
-          />
+          {!loading ? (
+            <Schedule
+              rooms={commonEvents.salas}
+              events={filteredEvents}
+              startsIn={startsIn.toUTCString()}
+              finishIn={finishIn.toUTCString()}
+              typeView={typeView}
+              view={view}
+            />
+          ) : (
+            <Schedule
+              rooms={commonEvents.salas}
+              events={filteredEvents}
+              // random date, fallback
+              startsIn={new Date('1999-10-10').toUTCString()}
+              finishIn={new Date('1999-10-10').toUTCString()}
+              typeView={typeView}
+              view={view}
+            />
+          )}
         </div>
       </main>
     </>

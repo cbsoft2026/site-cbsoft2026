@@ -79,6 +79,21 @@
       -webkit-line-clamp: 3;
       white-space: normal;
     }
+
+    container-type: inline-size;
+
+    > div {
+      width: 100%;
+    }
+
+    @container (min-width: 100vw) {
+      > div {
+        width: fit-content;
+        top: 0;
+        left: 16px;
+        position: sticky;
+      }
+    }
   }
 }
 

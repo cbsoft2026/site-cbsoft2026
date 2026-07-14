@@ -15,14 +15,14 @@ export default function ChangeView() {
 
   const locale = useLocale();
 
+  const query = date ? { date } : undefined;
+
   return (
     <div className={styles['grouped-icons']}>
       <LinkLocale
         href={{
           pathname: `/schedule/calender`,
-          query: {
-            date: date,
-          },
+          ...(query && { query }),
         }}
         className={view === 'calender' ? styles.active : ''}
         locale={locale}
@@ -35,9 +35,7 @@ export default function ChangeView() {
       <LinkLocale
         href={{
           pathname: `/schedule/list`,
-          query: {
-            date: date,
-          },
+          ...(query && { query }),
         }}
         className={view === 'list' ? styles.active : ''}
         locale={locale}
