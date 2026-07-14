@@ -182,6 +182,7 @@ export default async function EventComponent({ events, event, locale }: Props) {
           <></>
         )}
       </aside>
+      <hr />
     </section>
   );
 }

@@ -41,7 +41,7 @@ export default async function EventsPage({ params }: Props) {
 
   const filteredObj: Record<string, Event> = {};
   const filtered = Object.entries(events).filter(([, value]) => {
-    return value.simposio === acronym;
+    return value.simposio === acronym && value.type != 'info';
   });
   filtered
     .sort((a, b) => {
