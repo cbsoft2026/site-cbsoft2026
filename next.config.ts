@@ -7,6 +7,10 @@ import packageJson from './package.json';
 
 const gitCommit = execSync('git rev-parse HEAD').toString().trim();
 
+const scheduleLastUpdate = execSync('git log -1 --format=%cI -- ":(glob)public/data/events/**/*.json"')
+  .toString()
+  .trim();
+
 const withNextIntl = createNextIntlPlugin();
 
 const nextConfig: NextConfig = {
@@ -18,6 +22,7 @@ const nextConfig: NextConfig = {
     NEXT_PUBLIC_GIT_COMMIT: gitCommit,
     NEXT_PUBLIC_BUILD_TIME: new Date().toISOString(),
     NEXT_PUBLIC_APP_VERSION: packageJson.version,
+    NEXT_PUBLIC_GIT_COMMIT_DATE_SCHEDULE: scheduleLastUpdate,
   },
   reactStrictMode: true,
   sassOptions: {

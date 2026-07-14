@@ -21,6 +21,7 @@ import { useTranslations } from 'next-intl';
 import useWindowDimensions from '@/hooks/useWindowDimentions';
 import LinkLocale from '@/components/LinkLocale';
 import useDayNavigation from '@/hooks/useDayNavigation';
+import { formatDate } from '@/utils/dates';
 
 type Props = {
   commonEvents: { salas: Rooms; startsInDate: string };
@@ -61,6 +62,8 @@ export default function Content({ loading = false, ...props }: Props) {
     symposiums,
   );
 
+  const lastUpdate = new Date(process.env.NEXT_PUBLIC_GIT_COMMIT_DATE_SCHEDULE!);
+
   return (
     <>
       <aside
@@ -68,60 +71,77 @@ export default function Content({ loading = false, ...props }: Props) {
         {...(openAsideBar !== null
           ? {
               style: {
-                '--aside-display': openAsideBar ? 'block' : 'none',
+                '--aside-display': openAsideBar ? 'flex' : 'none',
               } as React.CSSProperties,
             }
           : {})}
       >
-        <header>
-          <LinkLocale className={`${styles['aside-logo']}`} href={{ pathname: '/' }} locale={locale}>
-            <picture>
-              <Image
-                src={`${process.env.NEXT_PUBLIC_ASSET_PREFIX}/images/logos/cbsoft-logo.svg`}
-                alt='logo'
-                width={210}
-                height={47}
-                priority
-              />
-            </picture>
-          </LinkLocale>
-          {width && width <= 768 && (
-            <div onClick={toggleOpenAsideBar} className={`${styles.icon} ${styles.less} ${styles['icon--small']}`}>
-              <FontAwesomeIcon icon={faClose} />
-            </div>
-          )}
-        </header>
-        <p>{t('wip')}</p>
-        <div className={styles['aside-filter']}>
-          <div onClick={toggleOpenSymposiums} className={styles.collapser}>
-            <h6>{t('simposiosetrilha')}</h6>
-            <div className={`${styles.icon} ${styles.less} ${styles['icon--small']}`}>
-              {openSymposiums ? (
-                <FontAwesomeIcon icon={faChevronDown} style={{ width: '8px' }} />
-              ) : (
-                <FontAwesomeIcon icon={faChevronUp} style={{ width: '8px' }} />
-              )}
-            </div>
-          </div>
-          {openSymposiums && (
-            <div className={styles['collapser__items']}>
-              {symposiums.map((symposium, index) =>
-                symposium != null ? (
-                  <label key={`label-${index}`} className={styles['checkbox-control']}>
-                    <input
-                      type='checkbox'
-                      value={symposium}
-                      checked={eventSymposiums.includes(symposium)}
-                      onChange={() => toggleSymposiums(symposium)}
-                    />
-                    {commonT.has(symposium) ? commonT(symposium) : symposium.toUpperCase()}
-                  </label>
+        <div>
+          <header>
+            <LinkLocale className={`${styles['aside-logo']}`} href={{ pathname: '/' }} locale={locale}>
+              <picture>
+                <Image
+                  src={`${process.env.NEXT_PUBLIC_ASSET_PREFIX}/images/logos/cbsoft-logo.svg`}
+                  alt='logo'
+                  width={210}
+                  height={47}
+                  priority
+                />
+              </picture>
+            </LinkLocale>
+            {width && width <= 768 && (
+              <div onClick={toggleOpenAsideBar} className={`${styles.icon} ${styles.less} ${styles['icon--small']}`}>
+                <FontAwesomeIcon icon={faClose} />
+              </div>
+            )}
+          </header>
+          <p>{t('wip')}</p>
+          <div className={styles['aside-filter']}>
+            <div onClick={toggleOpenSymposiums} className={styles.collapser}>
+              <h6>{t('simposiosetrilha')}</h6>
+              <div className={`${styles.icon} ${styles.less} ${styles['icon--small']}`}>
+                {openSymposiums ? (
+                  <FontAwesomeIcon icon={faChevronDown} style={{ width: '8px' }} />
                 ) : (
-                  ''
-                ),
-              )}
+                  <FontAwesomeIcon icon={faChevronUp} style={{ width: '8px' }} />
+                )}
+              </div>
             </div>
-          )}
+            {openSymposiums && (
+              <div className={styles['collapser__items']}>
+                {symposiums.map((symposium, index) =>
+                  symposium != null ? (
+                    <label key={`label-${index}`} className={styles['checkbox-control']}>
+                      <input
+                        type='checkbox'
+                        value={symposium}
+                        checked={eventSymposiums.includes(symposium)}
+                        onChange={() => toggleSymposiums(symposium)}
+                      />
+                      {commonT.has(symposium) ? commonT(symposium) : symposium.toUpperCase()}
+                    </label>
+                  ) : (
+                    ''
+                  ),
+                )}
+              </div>
+            )}
+          </div>
+        </div>
+        <div>
+          <p>
+            <small>{t('brasiliaTime')}</small>
+          </p>
+
+          <p>
+            <small>
+              {t('lastUpdate')}:{' '}
+              {formatDate(lastUpdate, locale, {
+                month: 'short',
+                day: '2-digit',
+              })}
+            </small>
+          </p>
         </div>
       </aside>
       <main>
