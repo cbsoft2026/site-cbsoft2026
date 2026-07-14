@@ -56,7 +56,7 @@ export default async function EventsPage({ params }: Props) {
   return (
     <article style={{ padding: '30px 0 0' }}>
       <div className='container' style={{ marginBottom: 56 }}>
-        <Title titulo={`${commonT(`siglas.${acronym}`)} (${commonT(`${acronym}`)}) - ${t('painel')}`}></Title>
+        <Title titulo={`${commonT(`siglas.${acronym}`)} (${commonT(`${acronym}`)}) - ${t('events')}`}></Title>
       </div>
       {Object.keys(filteredObj).length > 0 ? (
         Object.keys(filteredObj).map((key) => (
