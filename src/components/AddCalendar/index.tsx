@@ -22,7 +22,7 @@ type Props = {
   simplifiedMode?: boolean;
 };
 
-export function formatGoogleCalenderLocal(date: Date, fullDay: boolean) {
+export function formatGoogleCalendarLocal(date: Date, fullDay: boolean) {
   const pad = (n: number) => String(n).padStart(2, '0');
   let dateFormatted = '';
   dateFormatted += date.getFullYear() + pad(date.getMonth() + 1) + pad(date.getDate());
@@ -70,7 +70,7 @@ export default function AddCalendar({
   const googleCalendar = new URLSearchParams({
     action: 'TEMPLATE',
     text: text,
-    dates: `${formatGoogleCalenderLocal(dateStartConvert, fullDay)}/${formatGoogleCalenderLocal(dateEndConvert, fullDay)}`,
+    dates: `${formatGoogleCalendarLocal(dateStartConvert, fullDay)}/${formatGoogleCalendarLocal(dateEndConvert, fullDay)}`,
     sprop: `website:${process.env.NEXT_PUBLIC_SITE_URL}`,
     ctz: appConfig.timezone,
     trp: 'false',
@@ -89,7 +89,7 @@ export default function AddCalendar({
 
   return (
     <>
-      <div className={`${styles['add-calender']} ${simplifiedMode ? styles['simplified'] : ''}`}>
+      <div className={`${styles['add-calendar']} ${simplifiedMode ? styles['simplified'] : ''}`}>
         <div className={styles.collapser} ref={ref}>
           {simplifiedMode ? <p style={{ whiteSpace: 'pre-wrap' }}>{label}</p> : <h6>{label}</h6>}
           <div className={`${styles.icon} ${styles.less} ${styles['icon--small']}`}>

@@ -1,7 +1,7 @@
 @use 'variables' as *;
 @use 'elements' as *;
 
-.add-calender {
+.add-calendar {
   display: flex;
   flex-direction: column;
   position: relative;
@@ -47,7 +47,7 @@
   }
 }
 
-.add-calender.simplified {
+.add-calendar.simplified {
   .collapser {
     padding: 0;
 

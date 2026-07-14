@@ -7,5 +7,5 @@ type Props = {
 
 export default async function SchedulePage({ params }: Props) {
   const { locale } = await params;
-  return redirect(`/${locale}/schedule/calender`);
+  return redirect(`/${locale}/schedule/calendar`);
 }

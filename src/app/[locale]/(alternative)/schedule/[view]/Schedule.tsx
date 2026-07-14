@@ -31,7 +31,7 @@ export default function Schedule(props: Props) {
     return event.type == 'info' ? undefined : `${prefix}${event.simposio}/event#${event.id}`;
   };
 
-  if (view === 'calender') {
+  if (view === 'calendar') {
     return (
       <div
         style={{

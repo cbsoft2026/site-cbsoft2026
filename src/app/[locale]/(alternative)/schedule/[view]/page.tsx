@@ -18,7 +18,7 @@ export async function generateMetadata({ params }: Props) {
 }
 
 export function generateStaticParams() {
-  return [{ view: 'calender' }, { view: 'list' }];
+  return [{ view: 'calendar' }, { view: 'list' }];
 }
 
 export default async function SchedulePage({ params }: Props) {
