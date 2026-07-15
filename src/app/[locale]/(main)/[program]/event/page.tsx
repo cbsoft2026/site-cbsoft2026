@@ -59,11 +59,15 @@ export default async function EventsPage({ params }: Props) {
         <Title titulo={`${commonT(program)} - ${t('events')}`}></Title>
       </div>
       {Object.keys(filteredObj).length > 0 ? (
-        Object.keys(filteredObj).map((key) => (
-          <div key={key} id={filteredObj[key].id} style={{ marginBottom: 56 }}>
-            <EventComponent key={key} events={filteredObj} event={filteredObj[key]} locale={locale} />
-          </div>
-        ))
+        Object.keys(filteredObj).map((key) => {
+          if (filteredObj[key].type != 'artigo') {
+            return (
+              <div key={key} id={filteredObj[key].id} style={{ marginBottom: 56 }}>
+                <EventComponent key={key} events={filteredObj} event={filteredObj[key]} locale={locale} />
+              </div>
+            );
+          }
+        })
       ) : (
         <div className='container'>
           <p>{symposiumsT('emptyEvents')}</p>
