@@ -26,6 +26,7 @@ Cada pasta pode conter alguns dos seguintes arquivos:
 
 ```text
 chamada.md
+artigo.json
 painel.json
 palestra.json
 session.json
@@ -60,6 +61,7 @@ Por exemplo:
 
 ```text
 public/data/events/pt/[programa]/
+├── artigo.json
 ├── palestra.json
 ├── session.json
 ├── tutorial.json
@@ -124,6 +126,31 @@ Além dos campos da palestra, uma sessão também pode possuir:
 
 Contém a lista de tutoriais e segue a mesma estrutura utilizada em
 `palestra.json`.
+
+---
+
+### `artigo.json`
+
+Contém a lista de artigos de uma sessão.
+
+Exemplo:
+
+```json
+[
+  {
+    "title": "...",
+    "authors": ["...", "..."],
+    "schedule": {
+      "start": "2026-09-08T11:00:00-03:00",
+      "end": "2026-09-08T11:10:00-03:00"
+    }
+  }
+]
+```
+
+> [!NOTE]
+> Cada artigo é atribuído a uma sessão, definindo um horário de início e um
+> horário de término dentro do período da sessão.
 
 ---
 

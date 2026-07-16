@@ -45,8 +45,10 @@ function EventCardWrapper(props: Props, start: Date, end: Date) {
 
   const diffTime = diffTimes(start, end, t);
 
+  const rooms = props.event.rooms ?? [];
+
   const eventRooms = (() => {
-    return props.event.rooms.map((roomEvent) => props.rooms.find((room) => room.label == roomEvent)?.nome).join(', ');
+    return rooms.map((roomEvent) => props.rooms.find((room) => room.label == roomEvent)?.nome).join(', ');
   })();
 
   return (
@@ -60,7 +62,7 @@ function EventCardWrapper(props: Props, start: Date, end: Date) {
           <div>
             <h6>{props.event.title}</h6>
             {props.event.description && <p title={props.event.description}>{props.event.description}</p>}
-            {props.view === 'list' && props.rooms.length > props.event.rooms.length ? <p>{eventRooms}</p> : ''}
+            {props.view === 'list' && props.rooms.length > rooms.length ? <p>{eventRooms}</p> : ''}
           </div>
 
           {props.event.moderators && (
@@ -131,9 +133,11 @@ export default function EventCard(props: Props) {
   const start = new Date(props.event.schedule.start);
   const end = new Date(props.event.schedule.end);
 
+  const rooms = props.event.rooms ?? [];
+
   const avaiblesRooms = props.rooms
     .map((room, indexRoom) => {
-      if (props.event.rooms.includes(room.label)) return indexRoom;
+      if (rooms.includes(room.label)) return indexRoom;
       else return null;
     })
     .filter((room) => room != null);

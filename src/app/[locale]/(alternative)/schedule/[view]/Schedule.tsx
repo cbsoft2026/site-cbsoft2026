@@ -83,7 +83,7 @@ export default function Schedule(props: Props) {
             if (start < new Date(startsIn) || finish > new Date(finishIn)) {
               return;
             }
-            if (event.parentIds && event.parentIds.length === 1) return;
+            if (event.type == 'artigo') return;
 
             return (
               <EventCard key={`event-${eventIndex}`} href={hrefEvent(event)} event={event} rooms={rooms} view={view} />
@@ -105,7 +105,7 @@ export default function Schedule(props: Props) {
               if (typeView === 'day' && (start < new Date(startsIn) || finish > new Date(finishIn))) {
                 return;
               }
-              if (event.parentIds && event.parentIds.length === 1) return;
+              if (event.type == 'artigo') return;
 
               return (
                 <EventCard

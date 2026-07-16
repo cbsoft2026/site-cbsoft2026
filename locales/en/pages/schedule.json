@@ -13,5 +13,6 @@
   },
   "wip": "The schedule is still being organized and may be subject to changes until the event takes place.",
   "brasiliaTime": "All session times are based on Brasília Time (BRT/UTC-3).",
-  "lastUpdate": "Last updated"
+  "lastUpdate": "Last updated",
+  "noContent": "No content related to this event is currently available."
 }

@@ -8,7 +8,7 @@ export const ScheduleSchema = Type.Object({
     }),
   ),
   title: Type.String(),
-  rooms: Type.Array(Type.String()),
+  rooms: Type.Optional(Type.Array(Type.String(), { default: [] })),
   type: Type.Optional(Type.String()),
   description: Type.Optional(Type.String()),
 });

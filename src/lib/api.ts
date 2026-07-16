@@ -137,7 +137,6 @@ export function loadEvents(lang: string = defaultLang): Map<string, Event> {
         schedule.forEach((p) => {
           const id = createId(p.title);
           const participantsArticle = formatParticipants(participants, p.authors);
-          if (p.chair) participantsArticle.push(participants[p.chair]);
 
           const parentSession = sessionMap.find((session) => {
             if (!p.schedule || !session.schedule) return false;

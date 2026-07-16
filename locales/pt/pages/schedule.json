@@ -13,5 +13,6 @@
   },
   "wip": "A programação ainda está sendo organizada e poderá sofrer alterações até a realização do evento.",
   "brasiliaTime": "Os horários de todas as sessões referem-se ao horário de Brasília (BRT/UTC-3).",
-  "lastUpdate": "Última atualização"
+  "lastUpdate": "Última atualização",
+  "noContent": "Nenhum conteúdo relacionado a este evento está disponível no momento."
 }

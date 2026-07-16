@@ -12,6 +12,70 @@ type Props = {
   locale: string;
 };
 
+async function ParentTable({ events, event, locale }: Props) {
+  const t = await getTranslations({ locale, namespace: 'pages/schedule' });
+
+  const hasParentEvents = (event && event.parentIds) || (!event && events);
+
+  if (!hasParentEvents) return <></>;
+
+  const parentsEvents = event?.parentIds || Object.values(events);
+
+  if (parentsEvents.length <= 0)
+    return (
+      <tr>
+        <td>
+          <p>{t('noContent')}</p>
+        </td>
+      </tr>
+    );
+
+  return (event?.parentIds || Object.values(events)).map((parentId, index) => {
+    const parentEvent = typeof parentId === 'string' ? (events[parentId] as Event) : parentId;
+    return (
+      <tr key={index}>
+        <th style={{ display: 'flex', minWidth: 150 }}>
+          {parentEvent.schedule ? (
+            <p>
+              {new Date(parentEvent.schedule.start).toLocaleDateString(locale, {
+                month: 'short',
+                day: '2-digit',
+                hour: '2-digit',
+                minute: '2-digit',
+              })}
+            </p>
+          ) : (
+            ''
+          )}
+        </th>
+        <td>
+          <h6>{parentEvent.title}</h6>
+          <div className={styles['chips__grouped']}>
+            {parentEvent.track ? (
+              <span className={styles.chip}>
+                <small>{parentEvent.track}</small>
+              </span>
+            ) : (
+              ''
+            )}
+          </div>
+          <p>{parentEvent.description}</p>
+          <i>
+            {parentEvent.participants &&
+              parentEvent.participants
+                .map((participant) =>
+                  typeof participant === 'object' && participant !== null && !Array.isArray(participant)
+                    ? ''
+                    : participant,
+                )
+                .join(', ')}
+          </i>
+        </td>
+      </tr>
+    );
+  });
+}
+
 export default async function EventComponent({ events, event, locale }: Props) {
   const t = await getTranslations({ locale, namespace: 'pages/schedule' });
 
@@ -75,42 +139,7 @@ export default async function EventComponent({ events, event, locale }: Props) {
 
         <table className={styles.table}>
           <tbody>
-            {((event && event.parentIds) || (!event && events)) &&
-              (event?.parentIds || Object.values(events)).map((parentId, index) => {
-                const parentEvent = typeof parentId === 'string' ? (events[parentId] as Event) : parentId;
-                return (
-                  <tr key={index}>
-                    <th style={{ display: 'flex', minWidth: 150 }}>
-                      {parentEvent.schedule ? (
-                        <p>
-                          {new Date(parentEvent.schedule.start).toLocaleDateString(locale, {
-                            month: 'short',
-                            day: '2-digit',
-                            hour: '2-digit',
-                            minute: '2-digit',
-                          })}
-                        </p>
-                      ) : (
-                        ''
-                      )}
-                    </th>
-                    <td>
-                      <h6>{parentEvent.title}</h6>
-                      <p>{parentEvent.description}</p>
-                      <i>
-                        {parentEvent.participants &&
-                          parentEvent.participants
-                            .map((participant) =>
-                              typeof participant === 'object' && participant !== null && !Array.isArray(participant)
-                                ? ''
-                                : participant,
-                            )
-                            .join(', ')}
-                      </i>
-                    </td>
-                  </tr>
-                );
-              })}
+            <ParentTable events={events} event={event} locale={locale} />
           </tbody>
         </table>
       </main>
