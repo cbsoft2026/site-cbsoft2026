@@ -23,7 +23,7 @@ export default async function AccommodationPage({ params }: Props) {
       <Title titulo={t('titulo')} align='center' />
       <div className='container'>
         {t('description')}
-        <div className={styles['banners-wrapper']}>
+        {/* <div className={styles['banners-wrapper']}>
           <ImagePopup
             src={`${process.env.NEXT_PUBLIC_ASSET_PREFIX}/images/accommodation/banner-radisson-pinheiros.webp`}
             alt='banner-radisson-pinheiros'
@@ -39,7 +39,7 @@ export default async function AccommodationPage({ params }: Props) {
             alt='banner-fit-villa-lobos'
             loading={'lazy'}
           />
-        </div>
+        </div> */}
         {t('hotels_list')}
         <br />
         {t('hotels_table')}
