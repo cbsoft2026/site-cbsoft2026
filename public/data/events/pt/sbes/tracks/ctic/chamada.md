@@ -142,3 +142,79 @@ Todos os trabalhos submetidos devem estar em conformidade com o [Código de Cond
 Durante o evento, será realizada a II Mostra de Trabalhos dos Concursos do Simpósio Brasileiro de Engenharia de Software, na qual serão expostos os trabalhos selecionados para a Fase 2 do CTIC-ES, em formato de sessão de pôsteres, juntamente com os trabalhos do Concurso de Teses e Dissertações em Engenharia de Software (CTD-ES).
 
 A participação na Mostra de Trabalhos é um pré-requisito para a apresentação oral e, consequentemente, para a concorrência à premiação.
+
+#### Comitê de Programa
+
+Adriana Mattedi — Universidade Federal de Itajubá (UNIFEI)
+
+Alexandre Carlos Brandão Ramos — Universidade Federal de Itajubá (UNIFEI)
+
+Allan Rodrigo dos Santos Araujo — Universidade Federal de Pernambuco (UFPE)
+
+Allysson Allex Araújo — Universidade Federal do Cariri (UFCA)
+
+Ana Carolina Oliveira — Universidade Federal de Itajubá (UNIFEI)
+
+Andreza Alencar — Universidade Federal de Pernambuco (UFPE)
+
+Bárbara Pimenta Caetano — Universidade Federal de Itajubá (UNIFEI)
+
+Bruno Guazzelli Batista — Universidade Federal de Itajubá (UNIFEI)
+
+Christopher Lima — Instituto Nacional de Telecomunicações (INATEL)
+
+Daniel Albino Mosca Rodrigues — Instituto Nacional de Telecomunicações (INATEL)
+
+Dorgival Netto — Universidade Federal da Paraíba (UFPB)
+
+Eduardo Guerra — Free University of Bozen-Bolzano (UNIBZ)
+
+Fabio Alexandre Spanhol — Universidade Tecnológica Federal do Paraná (UTFPR)
+
+Fernanda Madeiral — Universidade Federal de Pernambuco (UFPE)
+
+Flávio Mota — Universidade de Vale do Sapucaí (UNIVÁS)
+
+Gabriel Pivoto Ambrósio — Instituto Nacional de Telecomunicações (INATEL)
+
+Helena Macedo Reis — Universidade Federal do Paraná (UFPR)
+
+Isabela Drummond — Universidade Federal de Itajubá (UNIFEI)
+
+Jonathan de Carvalho Silva — Instituto Nacional de Telecomunicações (INATEL)
+
+Juliana Rios — Universidade Federal de Itajubá (UNIFEI)
+
+Klissiomara Lopes Dias — Universidade Federal Rural da Amazônia (UFRA)
+
+Laércio Baldochi — Universidade Federal de Itajubá (UNIFEI)
+
+Laercio Pioli Junior — Universidade Federal de Itajubá (UNIFEI)
+
+Leandro Diniz — Instituto Nacional de Pesquisas Espaciais (INPE)
+
+Liliane Sheyla da Silva Fonseca	Universidade Católica de Pernambuco (UNICAP)
+
+Marisângela Pacheco Brittes — Universidade Tecnológica Federal do Paraná (UTFPR)
+
+Pedro Hokama — Universidade Estadual de Campinas (UNICAMP)
+
+Pedro Ivo Garcia-Nunes — Universidade Estadual de Campinas (UNICAMP)
+
+Plinio Vilela — Universidade Estadual de Campinas (UNICAMP)
+
+Ricardo Terra — Universidade Federal de Lavras (UFLA)
+
+Ricardo Vilela — Universidade Estadual de Campinas (UNICAMP)
+
+Sávio Soares Dias — Universidade Federal de Itajubá (UNIFEI)
+
+Simone de Sousa Borges — Universidade Federal de Itajubá (UNIFEI)
+
+Thatyana de Faria Piola Seraphim — Universidade Federal de Itajubá (UNIFEI)
+
+Vanessa Cristina Oliveira de Souza — Universidade Federal de Itajubá (UNIFEI)
+
+Vinicius Cardoso Garcia — Universidade Federal de Pernambuco (UFPE)
+
+Waldemar Pires Ferreira Neto — Universidade Federal Rural de Pernambuco (UFRPE)

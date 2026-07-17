@@ -177,3 +177,80 @@ All submitted works must comply with the [Code of Conduct for Authors in Publica
 During the event, an exhibition will take place in which the papers selected for Phase 2 will be displayed in a poster session format, alongside the works from the Software Engineering Thesis and Dissertation Contest (CTD-ES).
 
 Participation in this exhibition is a prerequisite for the oral presentation and, consequently, for eligibility for the award.
+
+#### Program Committee
+
+
+Adriana Mattedi — Federal University of Itajubá (UNIFEI)
+
+Alexandre Carlos Brandão Ramos — Federal University of Itajubá (UNIFEI)
+
+Allan Rodrigo dos Santos Araujo — Federal University of Pernambuco (UFPE)
+
+Allysson Allex Araújo — Federal University of Cariri (UFCA)
+
+Ana Carolina Oliveira — Federal University of Itajubá (UNIFEI)
+
+Andreza Alencar — Federal University of Pernambuco (UFPE)
+
+Bárbara Pimenta Caetano — Federal University of Itajubá (UNIFEI)
+
+Bruno Guazzelli Batista — Federal University of Itajubá (UNIFEI)
+
+Christopher Lima — National Institute of Telecommunications (INATEL)
+
+Daniel Albino Mosca Rodrigues — National Institute of Telecommunications (INATEL)
+
+Dorgival Netto — Federal University of Paraíba (UFPB)
+
+Eduardo Guerra — Free University of Bozen-Bolzano (UNIBZ)
+
+Fabio Alexandre Spanhol — Federal University of Technology – Paraná (UTFPR)
+
+Fernanda Madeiral — Federal University of Pernambuco (UFPE)
+
+Flávio Mota — University of Vale do Sapucaí (UNIVÁS)
+
+Gabriel Pivoto Ambrósio — National Institute of Telecommunications (INATEL)
+
+Helena Macedo Reis — Federal University of Paraná (UFPR)
+
+Isabela Drummond — Federal University of Itajubá (UNIFEI)
+
+Jonathan de Carvalho Silva — National Institute of Telecommunications (INATEL)
+
+Juliana Rios — Federal University of Itajubá (UNIFEI)
+
+Klissiomara Lopes Dias — Federal Rural University of Amazônia (UFRA)
+
+Laércio Baldochi — Federal University of Itajubá (UNIFEI)
+
+Laercio Pioli Junior — Federal University of Itajubá (UNIFEI)
+
+Leandro Diniz — National Institute for Space Research (INPE)
+
+Liliane Sheyla da Silva Fonseca — Catholic University of Pernambuco (UNICAP)
+
+Marisângela Pacheco Brittes — Federal University of Technology – Paraná (UTFPR)
+
+Pedro Hokama — State University of Campinas  (UNICAMP)
+
+Pedro Ivo Garcia-Nunes — State University of Campinas (UNICAMP)
+
+Plinio Vilela — State University of Campinas (UNICAMP)
+
+Ricardo Terra — Federal University of Lavras (UFLA)
+
+Ricardo Vilela — State University of Campinas (UNICAMP)
+
+Sávio Soares Dias — Federal University of Itajubá (UNIFEI)
+
+Simone de Sousa Borges — Federal University of Itajubá (UNIFEI)
+
+Thatyana de Faria Piola Seraphim — Federal University of Itajubá (UNIFEI)
+
+Vanessa Cristina Oliveira de Souza — Federal University of Itajubá (UNIFEI)
+
+Vinicius Cardoso Garcia — Federal University of Pernambuco (UFPE)
+
+Waldemar Pires Ferreira Neto — Federal Rural University of Pernambuco (UFRPE)
