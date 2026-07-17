@@ -1,3 +1,24 @@
 {
-  "titulo": "Jantar do CBSoft"
+  "titulo": "CBSoft Dinner",
+  "galeria": "Restaurant Gallery",
+  "cardapio": "Menu",
+  "pratos": "Dishes",
+  "entradas": {
+    "tipo": "markdown",
+    "conteudo": ["#### Starters", "- Cesar Salad", "- El Ranchito", "- Salada da Casa"]
+  },
+  "sobremesas": {
+    "tipo": "markdown",
+    "conteudo": ["#### Desserts", "- Mini brownie", "- Mini Havana", "- Mini Thunder"]
+  },
+  "bebidas": {
+    "tipo": "markdown",
+    "conteudo": ["#### Drinks", "Unlimited water, tea, and soft drinks", "*Includes 1 chopp or 1 juice"]
+  },
+  "footer": {
+    "tipo": "markdown",
+    "conteudo": [
+      "> Note: Each table may order as many dishes as they like, as many times as they like, provided food waste is avoided."
+    ]
+  }
 }

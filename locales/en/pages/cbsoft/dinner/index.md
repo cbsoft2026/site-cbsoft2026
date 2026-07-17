@@ -1,37 +1,8 @@
-O jantar do CBSoft será realizado no **Outback Pinheiros**, localizado na **Av. Rebouças, 2636 - Pinheiros, São Paulo**.
+The CBSoft Dinner will be held at **Outback Pinheiros**, located at **Av. Rebouças, 2636 - Pinheiros, São Paulo**.
 
-- **Data:** 09 de setembro
-- **Horário:** das 19h às 22h
+- **Date:** September 9
+- **Time:** 7:00 PM to 10:00 PM
 
-- **Valor:** 170,00 reais (por adesão, junto com a inscrição via o sistema ECOS/SBC)
+- **Price:** BRL 170.00 (optional, purchased together with the registration through the ECOS/SBC system)
 
-- **Vagas:** 200 pessoas
-
-### Cardápio
-
-#### Entradas
-
-- Cesar Salad
-- El Ranchito
-- Salada da Casa
-
-#### Pratos
-
-- Kookaburra Wings
-- Aussie Cheese Fries
-- Ribs On The Barbie
-- Bloomin’ Onion
-- Junior Plant (opção vegana)
-
-#### Sobremesas
-
-- Mini brownie
-- Mini Havana
-- Mini Thunder
-
-#### Bebidas
-
-Água, chá e refrigerante à vontade
-\*Incluso 1 choop ou 1 suco
-
-> Observação: a mesa pode pedir quantos pratos e quantas vezes desejar, observando os desperdícios.
+- **Capacity:** 200 attendees

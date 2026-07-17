@@ -1,3 +1,22 @@
 {
-  "titulo": "Jantar do CBSoft"
+  "titulo": "Jantar do CBSoft",
+  "galeria": "Galeria do restaurante",
+  "cardapio": "Cardápio",
+  "pratos": "Pratos",
+  "entradas": {
+    "tipo": "markdown",
+    "conteudo": ["#### Entradas", "- Cesar Salad", "- El Ranchito", "- Salada da Casa"]
+  },
+  "sobremesas": {
+    "tipo": "markdown",
+    "conteudo": ["#### Sobremesas", "- Mini brownie", "- Mini Havana", "- Mini Thunder"]
+  },
+  "bebidas": {
+    "tipo": "markdown",
+    "conteudo": ["#### Bebidas", "Água, chá e refrigerante à vontade", "*Incluso 1 chopp ou 1 suco"]
+  },
+  "footer": {
+    "tipo": "markdown",
+    "conteudo": ["> Observação: a mesa pode pedir quantos pratos e quantas vezes desejar, observando os desperdícios."]
+  }
 }
