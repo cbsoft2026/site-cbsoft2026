@@ -15,6 +15,8 @@ type Props = {
 async function ParentTable({ events, event, locale }: Props) {
   const t = await getTranslations({ locale, namespace: 'pages/schedule' });
 
+  if (event?.type == 'info') return <></>;
+
   const hasParentEvents = (event && event.parentIds) || (!event && events);
 
   if (!hasParentEvents) return <></>;

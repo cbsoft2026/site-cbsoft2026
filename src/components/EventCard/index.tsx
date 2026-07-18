@@ -60,7 +60,7 @@ function EventCardWrapper(props: Props, start: Date, end: Date) {
       <div className={styles['schedule__content']}>
         <div>
           <div>
-            <h6>{props.event.title}</h6>
+            <h6 title={props.event.title}>{props.event.title}</h6>
             {props.event.description && <p title={props.event.description}>{props.event.description}</p>}
             {props.view === 'list' && props.rooms.length > rooms.length ? <p>{eventRooms}</p> : ''}
           </div>
@@ -142,12 +142,20 @@ export default function EventCard(props: Props) {
     })
     .filter((room) => room != null);
 
+  let startRoom = avaiblesRooms[0] + 2;
+  let finishRoom = avaiblesRooms[avaiblesRooms.length - 1] + 3;
+
+  if (!startRoom || isNaN(startRoom)) {
+    startRoom = props.rooms.length + 2;
+    finishRoom = props.rooms.length + 3;
+  }
+
   return props.href ? (
     <LinkLocale
       href={props.href}
       className={`${styles['schedule-default']} ${props.event?.type ? styles['schedule--' + props.event.type] : ''} ${styles['schedule-type--' + props.view]}`}
       style={{
-        gridArea: `${labelSlice(start)} / ${avaiblesRooms[0] + 2} / ${labelSlice(end)} / ${avaiblesRooms[avaiblesRooms.length - 1] + 3}`,
+        gridArea: `${labelSlice(start)} / ${startRoom} / ${labelSlice(end)} / ${finishRoom}`,
       }}
     >
       {EventCardWrapper(props, start, end)}
@@ -156,7 +164,7 @@ export default function EventCard(props: Props) {
     <div
       className={`${styles['schedule-default']} ${props.event?.type ? styles['schedule--' + props.event.type] : ''} ${styles['schedule-type--' + props.view]}`}
       style={{
-        gridArea: `${labelSlice(start)} / ${avaiblesRooms[0] + 2} / ${labelSlice(end)} / ${avaiblesRooms[avaiblesRooms.length - 1] + 3}`,
+        gridArea: `${labelSlice(start)} / ${startRoom} / ${labelSlice(end)} / ${finishRoom}`,
       }}
     >
       {EventCardWrapper(props, start, end)}
