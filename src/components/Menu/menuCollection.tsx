@@ -41,7 +41,7 @@ export default function generatedCollection(t: Translator, commonT: Translator) 
       { title: t('cbsoft.organizacao'), href: '/cbsoft/organization' },
       { title: t('cbsoft.acomodacoes'), href: '/cbsoft/accommodation' },
       { title: t('cbsoft.dinner'), href: '/cbsoft/dinner' },
-      // { title: t('schedule.titulo'), href: '/schedule/calendar' },
+      { title: t('schedule.titulo'), href: '/schedule/calendar' },
       { title: t('cbsoft.speakers'), href: '/cbsoft/speakers' },
       { title: t('cbsoft.volunteers'), href: '/cbsoft/volunteers' },
       { title: t('cbsoft.local'), href: '/cbsoft/location' },
@@ -62,20 +62,36 @@ export default function generatedCollection(t: Translator, commonT: Translator) 
       { title: commonT('siglas.trilhas.industry'), href: '/symposiums/sbes/industry/call' },
       { title: commonT('siglas.trilhas.ctic'), href: '/symposiums/sbes/ctic/call' },
       { title: commonT('siglas.trilhas.ctd'), href: '/symposiums/sbes/ctd/call' },
+      { title: t('events'), href: '/symposiums/sbes/event' },
     ],
   };
 
   const sblpMenuItem: NavbarItemProps = {
     title: commonT('sblp'),
     href: '/symposiums/sblp/call',
+    items: [
+      { title: t('chamada_trabalhos'), href: '/symposiums/sblp/call' },
+      { title: t('events'), href: '/symposiums/sblp/event' },
+    ],
   };
 
   const sbcarsMenuItem: NavbarItemProps = {
     title: commonT('sbcars'),
     href: '/symposiums/sbcars/call',
+    items: [
+      { title: t('chamada_trabalhos'), href: '/symposiums/sbcars/call' },
+      { title: t('events'), href: '/symposiums/sbcars/event' },
+    ],
   };
 
-  const sastMenuItem = { title: commonT('sast'), href: '/symposiums/sast/call' };
+  const sastMenuItem = {
+    title: commonT('sast'),
+    href: '/symposiums/sast/call',
+    items: [
+      { title: t('chamada_trabalhos'), href: '/symposiums/sast/call' },
+      { title: t('events'), href: '/symposiums/sast/event' },
+    ],
+  };
 
   const workshopsMenuItem: NavbarItemProps = {
     title: commonT('siglas.workshops'),
@@ -83,26 +99,35 @@ export default function generatedCollection(t: Translator, commonT: Translator) 
     items: [
       { title: t('chamada_trabalhos'), href: '/workshops' },
       { title: commonT('workshops_accepts'), href: '/workshops/accepted' },
+      { title: t('events'), href: '/workshops/event' },
     ],
   };
 
   const latamSchoolMenuItem: NavbarItemProps = {
     title: commonT('latam-school'),
     href: '/latam-school',
+    items: [
+      { title: t('chamada_trabalhos'), href: '/latam-school' },
+      { title: t('events'), href: '/latam-school/event' },
+    ],
   };
 
   const highSchoolMenuItem: NavbarItemProps = {
     title: commonT('high-school'),
     href: '/high-school',
-    // items: [
-    //   { title: t('chamada_trabalhos'), href: '/high-school' },
-    //   { title: t('events'), href: '/high-school/schedule' },
-    // ],
+    items: [
+      { title: t('chamada_trabalhos'), href: '/high-school' },
+      { title: t('events'), href: '/high-school/event' },
+    ],
   };
 
   const artifactsMenuItem: NavbarItemProps = {
     title: commonT('siglas.artifacts'),
     href: '/artifacts',
+    items: [
+      { title: t('chamada_trabalhos'), href: '/artifacts' },
+      { title: t('events'), href: '/artifacts/event' },
+    ],
   };
 
   const aiware = programs.find((program) => program.slug == 'aiware');
