@@ -6,24 +6,6 @@
             "end": "2026-09-09T12:30:00-03:00"
         },
         "type": "info",
-        "rooms": ["auditorio-fau"]
-    },
-    {
-        "title": "SBES",
-        "schedule": {
-            "start": "2026-09-09T14:00:00-03:00",
-            "end": "2026-09-09T16:00:00-03:00"
-        },
-        "type": "info",
-        "rooms": ["auditorio-fau"]
-    },
-    {
-        "title": "SBES",
-        "schedule": {
-            "start": "2026-09-09T11:00:00-03:00",
-            "end": "2026-09-09T12:30:00-03:00"
-        },
-        "type": "info",
         "rooms": ["auditorio-ime"]
     },
     {
@@ -133,24 +115,6 @@
         },
         "type": "info",
         "rooms": ["ccsl"]
-    },
-    {
-        "title": "SBES",
-        "schedule": {
-            "start": "2026-09-10T11:00:00-03:00",
-            "end": "2026-09-10T12:30:00-03:00"
-        },
-        "type": "info",
-        "rooms": ["auditorio-fau"]
-    },
-    {
-        "title": "SBES",
-        "schedule": {
-            "start": "2026-09-10T16:30:00-03:00",
-            "end": "2026-09-10T18:30:00-03:00"
-        },
-        "type": "info",
-        "rooms": ["auditorio-fau"]
     },
     {
         "title": "SBES",
