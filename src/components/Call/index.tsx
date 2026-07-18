@@ -67,7 +67,7 @@ export default async function CallComponent({ acronym, track, className, locale 
                     const previouslyWhen = 'history' in value ? value.history : [];
 
                     return (
-                      <tr key={value.date}>
+                      <tr key={`${value.date}-${dateLabel}`}>
                         <td>
                           <AddCalendar
                             simplifiedMode={true}

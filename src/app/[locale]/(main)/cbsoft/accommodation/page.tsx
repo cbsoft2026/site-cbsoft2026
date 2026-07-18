@@ -3,7 +3,6 @@ import Title from '@/components/Title';
 import styles from './styles.module.scss';
 import { createPageMetadata } from '@/lib/metadata';
 import { getTObject } from '@/lib/getTObject';
-import ImagePopup from '@/components/ImagePopup';
 
 type Props = {
   params: Promise<{ locale: string }>;
@@ -14,7 +13,7 @@ export async function generateMetadata({ params }: Props) {
   return createPageMetadata(locale, 'pages/cbsoft/accommodation', 'titulo');
 }
 
-export default async function AccommodationPage({ params }: Props) {
+export default async function AccommodationPage() {
   // TODO: en translate accommodation
   const t = await getTObject('pages/cbsoft/accommodation', {});
 

@@ -1,7 +1,6 @@
 'use client';
 
 import { useSearchParams } from 'next/navigation';
-import useDayNavigation from '@/hooks/useDayNavigation';
 import { Rooms } from '@/types/rooms';
 import Content from './Content';
 import { Event } from '@/types/event';

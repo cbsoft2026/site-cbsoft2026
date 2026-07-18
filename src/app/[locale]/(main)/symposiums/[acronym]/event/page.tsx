@@ -1,6 +1,5 @@
 import { Event } from '@/types/event';
 import EventComponent from '@/components/Event';
-import { useLocale } from 'next-intl';
 import { loadEvents } from '@/lib/api';
 import { mapToObject } from '@/utils/mapToObject';
 import { createPageMetadata } from '@/lib/metadata';

@@ -102,7 +102,7 @@ export default function Menu(props: HTMLAttributes<HTMLDivElement>) {
     calculate();
 
     return () => ro.disconnect();
-  }, [collapsed]);
+  }, [collapsed, widthWindow, menuItemsCollection]);
 
   return (
     <>

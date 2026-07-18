@@ -28,6 +28,7 @@ export default function TemplateMarkdown({ children, className, variables, local
         remarkPlugins={[remarkMath]}
         rehypePlugins={[rehypeKatex, remarkGfm, [rehypeHighlight, { languages: { latex } }], rehypeRaw]}
         components={{
+          // eslint-disable-next-line @typescript-eslint/no-unused-vars
           a: ({ node, ...props }) => {
             const href = props.href;
 
@@ -57,6 +58,7 @@ export default function TemplateMarkdown({ children, className, variables, local
               </a>
             );
           },
+          // eslint-disable-next-line @typescript-eslint/no-unused-vars
           time: ({ node, ...props }) => (
             <div style={{ float: 'left' }}>
               <AddCalendar
@@ -69,9 +71,11 @@ export default function TemplateMarkdown({ children, className, variables, local
               />
             </div>
           ),
+          // eslint-disable-next-line @typescript-eslint/no-unused-vars
           sup: ({ node, ...props }) => (
             <sup style={{ fontSize: '0.8em', cursor: 'pointer', marginLeft: 4 }}>[{props.children}]</sup>
           ),
+          // eslint-disable-next-line @typescript-eslint/no-unused-vars
           img: ({ node, ...props }) => {
             const alt = props.alt || '';
             const src = props.src || '';
@@ -87,6 +91,7 @@ export default function TemplateMarkdown({ children, className, variables, local
                 : `${baseUrl}images${src.startsWith('/') ? '' : '/'}${src}`;
 
             if (disablePopup) {
+              // eslint-disable-next-line @next/next/no-img-element
               return <img {...props} src={finalSrc} alt={cleanAlt} loading='lazy' />;
             }
 

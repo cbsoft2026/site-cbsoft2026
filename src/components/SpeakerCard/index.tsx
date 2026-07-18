@@ -6,6 +6,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { withUTM } from '@/utils/utm';
 import { faGlobe } from '@fortawesome/free-solid-svg-icons';
 import { Participant } from '@/types/participants';
+import { useEffect, useState } from 'react';
 
 type Props = {
   speaker: Participant;
@@ -15,6 +16,12 @@ type Props = {
 
 export default function SpeakerCard(props: Props) {
   const { speaker, size, children } = props;
+
+  const [imageId, setImageId] = useState<number | null>(null);
+
+  useEffect(() => {
+    setImageId(Math.floor(Math.random() * 2));
+  }, []);
 
   return (
     <div id={speaker.id} className={styles['speaker-item']}>
@@ -29,7 +36,7 @@ export default function SpeakerCard(props: Props) {
         }}
       >
         <Image
-          className={styles[`image--${Math.floor(Math.random() * 2)}`]}
+          className={styles[`image--${imageId}`]}
           loading='lazy'
           src={
             speaker.image?.startsWith('http')
