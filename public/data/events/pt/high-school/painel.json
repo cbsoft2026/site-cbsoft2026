@@ -1,2 +1,12 @@
 [
+    {
+        "title": "Ensino Médio: Mesa redonda com profissionais da indústria de software e da academia",
+        "description": "Convidados especialistas na indústria de desenvolvimento de software e na academia compartilharão suas trajetórias, experiências e desafios, com o objetivo de criar conexão com os estudantes e ampliar a percepção de pertencimento e de representatividade na área. É um espaço de diálogo com estudantes e profissionais que vieram da escola pública e com professores que orientaram alunos na área, para discutir suas jornadas acadêmicas e profissionais em Engenharia de Software, destacando caminhos, dificuldades e estratégias de superação.",
+        "speakers": ["brena-marques-ribeiro", "rodrigo-henrique-ramos"],
+        "schedule": {
+            "start": "2026-09-08T14:00:00-03:00",
+            "end": "2026-09-08T15:30:00-03:00"
+        },
+        "rooms": ["auditorio-fau"]
+    }
 ]

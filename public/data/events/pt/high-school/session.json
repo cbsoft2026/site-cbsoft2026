@@ -1,24 +1,32 @@
 [
     {
-        "title": "Ensino Médio",
+        "title": "Ensino Médio: Credenciamento e entrega dos kits (auditório IEE)",
         "schedule": {
-            "start": "2026-09-08T11:00:00-03:00",
-            "end": "2026-09-08T12:30:00-03:00"
+            "start": "2026-09-08T08:00:00-03:00",
+            "end": "2026-09-08T09:00:00-03:00"
         },
-        "type": "info",
+        "type": "info"
+    },
+    {
+        "title": "Ensino Médio: Conhecendo a USP e o Bacharelado em Ciência da Computação do IME-USP",
+        "description": "Apresentação do Bacharelado em Ciência da Computação e visita guiada pelo IME-USP.",
+        "schedule": {
+            "start": "2026-09-08T09:00:00-03:00",
+            "end": "2026-09-08T11:00:00-03:00"
+        },
+        "type": "info"
+    },
+    {
+        "title": "Ensino Médio: Sessão de pôsteres",
+        "description": "Apresentação, em formato de pôster, de trabalhos de iniciação científica em engenharia de software conduzidos por estudantes de ensino médio.",
+        "schedule": {
+            "start": "2026-09-08T15:30:00-03:00",
+            "end": "2026-09-08T16:30:00-03:00"
+        },
         "rooms": ["auditorio-fau"]
     },
     {
-        "title": "Ensino Médio",
-        "schedule": {
-            "start": "2026-09-08T14:00:00-03:00",
-            "end": "2026-09-08T16:00:00-03:00"
-        },
-        "type": "info",
-        "rooms": ["auditorio-fau"]
-    },
-    {
-        "title": "Ensino Médio",
+        "title": "Ensino Médio: Coffee-break e preparação para o retorno dos alunos",
         "schedule": {
             "start": "2026-09-08T16:30:00-03:00",
             "end": "2026-09-08T18:30:00-03:00"
