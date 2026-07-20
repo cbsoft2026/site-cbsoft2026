@@ -1,31 +1,32 @@
 [
     {
-        "title": "Abertura CBSoft e SBES",
+        "title": "Keynote I SBES: Why are you doing this study? On the role of theory in software engineering research - Sala Alan Turing (auditório FAU)",
         "speakers": ["klaas-jan-stol"],
         "schedule": {
             "start": "2026-09-09T09:00:00-03:00",
             "end": "2026-09-09T10:30:00-03:00"
         },
-        "description": "Keynote I SBES - Sala Alan Turing (auditório FAU)",
+        "description": "The Software Engineering research community produces hundreds, if not thousands of papers every year, and yet the impact of most studies remains limited. In this talk I discuss why this might be so, namely, a lack of direction. The SE community is quite well prepared in its methodological designs (though improvements can be made here too), but not so well in the creation of a cumulative body of knowledge. The SE community tends to focus very strongly on the “topic of the day”, and as a community we chase every topic we can find, without grounding these topics in prior literature. I posit that this constant stream of publications that remain disconnected is due to a lack of attention and appreciation for theory building. In this talk I will illustrate the problem using examples, and offer a potential way forward to address this. The solution offered will not be straightforward to implement, but if successful, we can strengthen the SE literature and make it more relevant for both research and practice.",
         "rooms": ["auditorio-fau", "auditorio-ime", "b5", "b16", "b9", "b10", "b1", "b2", "b3", "ccsl", "b101", "numec"]
     },
     {
-        "title": "Keynote II SBES",
+        "title": "Keynote II SBES: The Good, The Bad, and The Hybrid: Rethinking Work and Intelligence in Software Engineering",
         "speakers": ["darja-smite"],
         "schedule": {
             "start": "2026-09-09T16:30:00-03:00",
             "end": "2026-09-09T18:30:00-03:00"
         },
+        "description": "Software engineering has always been a story of tools and teamwork. Today, both are being redefined. As organizations experiment with hybrid and remote models, and as generative AI reshapes how we write, review, and reason about code, we face a dual transformation: of work and of intelligence. This talk explores the five paradoxes of modern software work—balancing productivity, engagement, innovation, belonging, and well-being—through evidence from multiple empirical studies across companies worldwide. It connects these insights to the emerging use of GenAI in development, asking: what happens when not only where we work but how we think changes? The keynote invites researchers and practitioners to look beyond efficiency metrics and engage with the deeper design of intelligent, intentional workplaces that actually work.",
         "rooms": ["auditorio-ime"]
     },
     {
-        "title": "Prêmios SBES",
+        "title": "Keynote III SBES: UX is the differential. What can we do as Software Engineers? - Sala Alan Turing (auditório FAU)",
         "speakers": ["tayana-conte"],
         "schedule": {
             "start": "2026-09-11T09:00:00-03:00",
             "end": "2026-09-11T10:30:00-03:00"
         },
-        "description": "Keynote III SBES - Sala Alan Turing (auditório FAU)",
+        "description": "Software is eating the world, and we have a challenging competition scenario. Software companies have been shifting from focusing on technology-driven to satisfying users’ expectations and needs. In this scenario, User Experience (UX) is currently a key factor in establishing the quality of a product or service. User eXperience (UX) is a holistic concept, considering not only pragmatic aspects (task-oriented) but also subjective aspects, such as affect, sensations, emotions, and value of user’s interaction in everyday life. UX is the differential that led many software apps to their (lack of) adoption in the market. Software engineers provide solutions for many software product qualities in architecture design. However, as software engineers, what can we do to provide positive UX? Or even better: to design software so valuable and pleasant up to the point it is indispensable and irreplaceable? This talk will present a research and practice landscape at the intersection of software engineering and human-computer interaction to solve UX challenges.",
         "rooms": ["auditorio-fau", "auditorio-ime", "b5", "b16", "b9", "b10", "b1", "b2", "b3", "ccsl", "b101", "numec"]
     }
 ]

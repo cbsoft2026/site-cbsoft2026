@@ -1,11 +1,12 @@
 [
     {
-        "title": "Keynote Festival de Artefatos",
+        "title": "Keynote Festival de Artefatos: Software Heritage: Towards A New Era for Software Engineering, Cybersecurity, and AI",
         "speakers": ["roberto-di-cosmo"],
         "schedule": {
             "start": "2026-09-09T11:00:00-03:00",
             "end": "2026-09-09T12:30:00-03:00"
         },
+        "description": "Open Source is at the heart of our digital society and embodies a growing part of our technical and organisational knowledge. It speeds up innovation, but also raises key challenges about the quality, evolution, and security of the many components that are put together in modern software systems: how to be sure that the source code of a key module we use will still be there when we need it in the future?  Do we really know what source code we are using, and where it comes from? How can we address cybersecurity if we do not know? Can software engineering studies take advantage of and improve the quality of the massive amount of information that is available about hundreds of millions of software projects worldwide?\nWith the AI tidal wave, (open source) software has become not only essential to build new LLMs, but also a precious training dataset that plays a key role in the quality of these models. What are the challenges and opportunities that arise?\nIn this talk, we will present an update on Software Heritage, a groundbreaking non-profit initiative launched by Inria in 2016 in partnership with UNESCO to collect, preserve, and share all publicly available software in source code form. Software Heritage has already built the largest public archive, with more than 22 billion files from more than 340 million software origins, collected from more than 5000 different code hosting and distribution platforms.\nAfter ten years of work, we show concrete examples of how this is much more than an archive: it is the Very Large Telescope that we need to explore the galaxy of software development at a global scale. With the recent launch of the CodeCommons project, we can work together to tackle all of the above challenges much better than before.",
         "rooms": ["b16"]
     }
 ]

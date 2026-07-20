@@ -1,21 +1,22 @@
 [
     {
-        "title": "Abertura e prêmios SBCARS",
+        "title": "Keynote I SBCARS: Do We Still Need Architects in the Age of AI? - Sala Alan Turing (auditório FAU)",
         "speakers": ["rick-kazman"],
         "schedule": {
             "start": "2026-09-08T09:00:00-03:00",
             "end": "2026-09-08T10:30:00-03:00"
         },
-        "description": "Keynote I SBCARS - Sala Alan Turing (auditório FAU)",
+        "description": "In this talk I will first briefly discuss why architecture is important and what it is that architects know and do.  Then I will explore the notion of design as a creative act and discuss the results of two recent experiments that explore how AI can aid architects in their duties.  Based on the results of these experiments I will draw some conclusions about where AI excels, where it falls short, and how we are better together.",
         "rooms": ["auditorio-fau", "auditorio-ime", "b5", "b16", "b9", "b10", "b1", "b2", "b3", "ccsl", "b101", "numec"]
     },
     {
-        "title": "Keynote II SBCARS",
+        "title": "Keynote II SBCARS: Sustainable Reference Architectures",
         "speakers": ["elisa-yumi-nakagawa"],
         "schedule": {
             "start": "2026-09-08T16:30:00-03:00",
             "end": "2026-09-08T18:30:00-03:00"
         },
+        "description": "Reference architectures have significantly contributed to software system development, leading to system standardization, interoperability, and project costs and risk reduction. They can considerably promote architectural knowledge reuse, but most of them do not remain useful or even survive over the years. As a consequence, the cost, effort, and time designing them are wasted. This talk is then about sustainability-aware reference architecture and how researchers and practitioners from industry could reach sustainability of/in reference architectures, aiming to ensure their long-term value.",
         "rooms": ["b16"]
     }
 ]
