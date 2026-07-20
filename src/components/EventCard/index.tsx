@@ -4,6 +4,7 @@ import { Rooms } from '@/types/rooms';
 import Image from 'next/image';
 import { useTranslations } from 'next-intl';
 import LinkLocale from '../LinkLocale';
+import React from 'react';
 
 type Props = {
   event: Event;
@@ -95,7 +96,12 @@ function EventCardWrapper(props: Props, start: Date, end: Date) {
           )}
 
           {props.event.participants && (
-            <div className={styles['content__images']}>
+            <div
+              className={(() => {
+                if (props.event.participants.length <= 1) return styles['content__solo'];
+                return styles['content__images'];
+              })()}
+            >
               {props.event.participants?.map((participant) => {
                 if (participant === null || Array.isArray(participant)) {
                   return null;
@@ -115,9 +121,19 @@ function EventCardWrapper(props: Props, start: Date, end: Date) {
                       }`;
 
                 return (
-                  <div key={key} className={styles['content__image']}>
-                    <Image src={image} width={240} height={240} alt={name} title={name} />
-                  </div>
+                  <React.Fragment key={key}>
+                    <div className={styles['content__image']}>
+                      <Image src={image} width={240} height={240} alt={name} title={name} />
+                    </div>
+                    {!isString && props.event.participants.length <= 1 && (
+                      <div>
+                        <b>{participant.name}</b>
+                        {participant.institution_acronym && (
+                          <p className='text-secondary'>{participant.institution_acronym}</p>
+                        )}
+                      </div>
+                    )}
+                  </React.Fragment>
                 );
               })}
             </div>

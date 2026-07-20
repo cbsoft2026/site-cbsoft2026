@@ -3,6 +3,7 @@
   image: Jeronimo_Castrillon.jpg
   name: Jeronimo Castrillon
   institution: Technische Universität Dresden
+  institution_acronym: TU Dresden
   webpage: https://cfaed.tu-dresden.de/ccc-staff-castrillon
   bio: "Professor na TU Dresden e chefe da Cátedra de Construção de Compiladores. Sua pesquisa foca em metodologias de programação, linguagens de domínio específico (DSLs) e ferramentas para sistemas de computação paralela e heterogênea."
 
@@ -11,6 +12,7 @@
   image: Andy_Zaidman.jpg
   name: Andy Zaidman
   institution: Delft University of Technology
+  institution_acronym: TU Delft
   webpage: https://www.tudelft.nl/en/staff/a.e.zaidman/
   bio: "Professor na Delft University of Technology (TU Delft). Sua pesquisa concentra-se em engenharia de software com forte ênfase na evolução de software, engenharia de testes automatizados e análise de ecossistemas de código aberto."
 
@@ -19,6 +21,7 @@
   image: Elisa_Yumi_Nakagawa.jpg
   name: Elisa Yumi Nakagawa
   institution: Instituto de Ciências Matemáticas e de Computação - USP
+  institution_acronym: ICMC USP
   webpage: https://sites.icmc.usp.br/elisa/
   bio: "Professora no ICMC-USP. Possui vasta experiência e liderança em Engenharia de Software, atuando principalmente nos temas de arquitetura de software, arquiteturas de referência e engenharia de sistemas-de-sistemas (SoS)."
 
@@ -27,6 +30,7 @@
   image: Rick_Kazman.jpg
   name: Rick Kazman
   institution: University of Hawai'i at Mānoa
+  institution_acronym: UH Mānoa
   webpage: https://shidler.hawaii.edu/itm/directory/rick-kazman
   bio: "Professor na University of Hawai'i at Mānoa e pesquisador visitante no Software Engineering Institute (SEI/CMU). É amplamente reconhecido como um dos criadores dos influentes métodos de avaliação de arquitetura de software SAAM e ATAM."
 
@@ -35,6 +39,7 @@
   image: Darja_Smite.webp
   name: Darja Smite
   institution: Blekinge Institute of Technology
+  institution_acronym: BTH
   webpage: https://www.bth.se/english/staff-landing-page/darja-smite
   bio: "Professora no Blekinge Institute of Technology (BTH), Suécia. É especialista em engenharia de software empírica, com pesquisas voltadas ao desenvolvimento de software global, equipes distribuídas, métodos ágeis em larga escala e offshoring."
 
@@ -43,6 +48,7 @@
   image: Klaas-Jan_Stol.png
   name: Klaas-Jan Stol
   institution: University College Cork
+  institution_acronym: UCC
   webpage: https://www.ucc.ie/en/compsci/people/stoldrklaas-jan/
   bio: "Professor e pesquisador na University College Cork (Irlanda). Suas áreas de interesse englobam a adoção de práticas contemporâneas e de comunidade na engenharia de software, incluindo Open Source, InnerSource e crowdsourcing."
 
@@ -51,6 +57,7 @@
   image: Tayana_Conte.jpg
   name: Tayana Conte
   institution: Universidade Federal do Amazonas
+  institution_acronym: UFAM
   bio: "Professora Associada na Universidade Federal do Amazonas (UFAM) e líder do grupo de pesquisa USES. Seu trabalho de destaque atua na interseção entre Engenharia de Software e Interação Humano-Computador, com foco em Usabilidade e Experiência do Usuário (UX)."
 
 -
@@ -58,6 +65,7 @@
   image: Roberto_di_Cosmo.jpeg
   name: Roberto di Cosmo
   institution: Institut National de Recherche en Informatique et en Automatique
+  institution_acronym: INRIA
   webpage: https://www.dicosmo.org/
   bio: "Pesquisador no INRIA e fundador/diretor do Software Heritage, uma iniciativa global e pioneira dedicada a coletar, preservar e compartilhar todo o código-fonte de software disponível publicamente."
 

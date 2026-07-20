@@ -209,6 +209,14 @@
       border: 2px solid $body-bg;
     }
   }
+  .content__solo {
+    display: flex;
+    flex-direction: row;
+    gap: 4px;
+    > * {
+      border: 2px solid $body-bg;
+    }
+  }
   .content__image {
     $size-image: 42px;
 

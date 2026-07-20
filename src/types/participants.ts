@@ -5,6 +5,7 @@ export const ParticipantSchema = Type.Object({
   image: Type.Optional(Type.String()),
   name: Type.String(),
   institution: Type.Optional(Type.String()),
+  institution_acronym: Type.Optional(Type.String()),
   webpage: Type.Optional(Type.String()),
   bio: Type.Optional(Type.String()),
 });
