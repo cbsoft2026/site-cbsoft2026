@@ -10,13 +10,12 @@
         "rooms": ["auditorio-fau", "auditorio-ime", "b5", "b16", "b9", "b10", "b1", "b2", "b3", "ccsl", "b101", "numec"]
     },
     {
-        "title": "SBCARS",
+        "title": "Keynote II SBCARS",
         "speakers": ["elisa-yumi-nakagawa"],
         "schedule": {
             "start": "2026-09-08T16:30:00-03:00",
             "end": "2026-09-08T18:30:00-03:00"
         },
-        "description": "Keynote II SBCARS",
         "rooms": ["b16"]
     }
 ]

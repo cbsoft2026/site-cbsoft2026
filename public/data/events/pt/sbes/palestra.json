@@ -10,13 +10,12 @@
         "rooms": ["auditorio-fau", "auditorio-ime", "b5", "b16", "b9", "b10", "b1", "b2", "b3", "ccsl", "b101", "numec"]
     },
     {
-        "title": "SBES",
+        "title": "Keynote II SBES",
         "speakers": ["darja-smite"],
         "schedule": {
             "start": "2026-09-09T16:30:00-03:00",
             "end": "2026-09-09T18:30:00-03:00"
         },
-        "description": "Keynote II SBES",
         "rooms": ["auditorio-ime"]
     },
     {
