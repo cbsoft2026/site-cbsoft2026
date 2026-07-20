@@ -3,6 +3,7 @@ import Title from '@/components/Title';
 import styles from './styles.module.scss';
 import { getTranslations } from 'next-intl/server';
 import { createPageMetadata } from '@/lib/metadata';
+import { getTObject } from '@/lib/getTObject';
 
 type Props = {
   params: Promise<{ locale: string }>;
@@ -15,7 +16,7 @@ export async function generateMetadata({ params }: Props) {
 
 export default async function LocationPage({ params }: Props) {
   const { locale } = await params;
-  const t = await getTranslations({ locale, namespace: 'pages/cbsoft/location' });
+  const t = await getTObject('pages/cbsoft/location', {}, locale);
   const commonT = await getTranslations({ locale, namespace: 'common' });
 
   return (
@@ -40,13 +41,7 @@ export default async function LocationPage({ params }: Props) {
           ></iframe>
         </div>
       </section>
-      <div className={styles.local}>
-        <div>
-          <a href='https://www.ime.usp.br/localizacao/' target='_blank'>
-            {t('comochegar')}
-          </a>
-        </div>
-      </div>
+      {t('comochegar')}
     </section>
   );
 }

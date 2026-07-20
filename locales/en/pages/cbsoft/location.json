@@ -1,9 +1,20 @@
 {
   "titulo": "Venue & Location",
-  "comochegar": "How to get here?",
-    "location_tips": {
-    "1": "The nearest station is Butantã Station, on Line 4 – Yellow",
-    "2": "Shuttle buses operated by USP"
+  "comochegar": {
+    "tipo": "markdown",
+    "conteudo": [
+      "### How to Get There?",
+      "From the Av. Rebouças and Av. Paulista area, you can reach the event by public transportation (affordable, R\\$ 5.30), Uber/99/taxi (~R\\$ 35), or BikeSampa shared bicycles (the healthiest option). Bus fares can be paid in cash (small bills), through the Cittamobi app via Bluetooth, or, on most buses, with a contactless debit/credit card (NFC).",
+      "Google Maps provides good public transportation routes. We particularly recommend:",
+      "1. Bus 7411-10 (Cidade Universitária) (recommended) - runs every 15 minutes along Av. Rebouças or R. da Consolação. Get off at FEA-USP.",
+      "2. Bus 702U-10 (Cidade Universitária) - runs along Av. Rebouças or R. da Consolação. Get off at CRUSP (a pleasant and safe 10-minute walk) or at IME (the bus makes a short loop through Cidade Universitária before arriving).",
+      "3. Metro Line 4 (Yellow) - get off at Butantã Station, then take Bus 8084-10 (Cidade Universitária via Luciano Gualberto), or use Uber/99/taxi or a BikeSampa shared bicycle (ride carefully)."
+    ]
+  },
+  "location_tips": {
+    "1": "Bus 7411-10 (Cidade Universitária)",
+    "2": "Bus 702U-10 (Cidade Universitária)",
+    "3": "Metro Line 4 (Yellow) - Butantã Station"
   },
   "location": "Location",
   "more_informations": "More information"

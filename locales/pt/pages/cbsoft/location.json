@@ -1,9 +1,20 @@
 {
   "titulo": "Local do Evento",
-  "comochegar": "Como chegar?",
+  "comochegar": {
+    "tipo": "markdown",
+    "conteudo": [
+      "### Como Chegar?",
+      "A partir da região da Av. Rebouças e Av. Paulista, pode-se chegar ao evento de transporte público (bom e barato, R\\$ 5,30), de Uber/99/táxi (~R\\$ 35) ou de bicicletas compartilhadas do BikeSampa (mais saudável). É possível pagar a passagem do ônibus em dinheiro (notas pequenas), pelo aplicativo Cittamobi via Bluetooth ou, quase sempre, com débito/crédito por aproximação (NFC) com cartão de plástico.",
+      "O Google Maps traça boas rotas de transporte público. Recomendamos, em particular:",
+      "1. Ônibus 7411-10 Cidade Universitária (melhor ônibus) - a cada 15 minutos na Av. Rebouças ou R. da Consolação. Descer na FEA-USP.",
+      "2. Ônibus 702U-10 Cidade Universitária - passa pela Av. Rebouças ou R. da Consolação. Descer no CRUSP (caminhada agradável e segura de 10 minutos a pé) ou descer no IME (o ônibus faz uma pequena volta dentro da Cidade Universitária antes de chegar).",
+      "3. Linha 4-Amarela do Metrô - descer na estação Butantã e siga de ônibus (8084-10 Cidade Universitária via Luciano Gualberto), ou pegar Uber/99/táxi ou pegar uma bicicleta compartilhada do BikeSampa (pedale com cuidado)."
+    ]
+  },
   "location_tips": {
-    "1": "Estação mais próxima é a Estação Butantã, na linha 4 – Amarela",
-    "2": "Ônibus circulares operados pela USP"
+    "1": "Ônibus 7411-10 Cidade Universitária",
+    "2": "Ônibus 702U-10 Cidade Universitária",
+    "3": "Linha 4-Amarela do Metrô (Butantã)"
   },
   "location": "Localização",
   "more_informations": "Mais informações"

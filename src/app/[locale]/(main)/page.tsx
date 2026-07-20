@@ -206,6 +206,9 @@ export default async function HomePage({ params }: Props) {
               <div>
                 <p>{locationT('location_tips.2')}</p>
               </div>
+              <div>
+                <p>{locationT('location_tips.3')}</p>
+              </div>
             </div>
             <LinkLocale href={'/cbsoft/location'} className={styles.button} locale={locale}>
               <span>{locationT('more_informations')}</span>
