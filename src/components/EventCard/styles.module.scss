@@ -210,10 +210,12 @@
     }
   }
   .content__image {
-    width: 27px;
-    height: 27px;
-    min-width: 27px;
-    min-height: 27px;
+    $size-image: 42px;
+
+    width: $size-image;
+    height: $size-image;
+    min-width: $size-image;
+    min-height: $size-image;
     overflow: hidden;
     display: flex;
     align-items: center;
