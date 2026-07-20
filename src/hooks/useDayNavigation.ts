@@ -25,6 +25,7 @@ export default function useDayNavigation(startsInDate: Date, lang: string, date?
   }, [startsInDate, startsIn]);
 
   const formattedDateLocale = formatDate(startsIn, lang, {
+    weekday: 'long',
     month: 'short',
     day: '2-digit',
   });
