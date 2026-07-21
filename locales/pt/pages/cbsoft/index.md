@@ -2,13 +2,13 @@ O **Congresso Brasileiro de Software: Teoria e Prática (CBSoft)** é um evento 
 
 Em { ano }, a { edicao } edição do CBSoft será realizada **presencialmente**, de **{ dataEvento } em { localEvento },** integrando quatro eventos tradicionais realizados anualmente pela comunidade brasileira em Engenharia de Software:
 
-- [{ edicoesSbes } { siglasSbes }](../sbes), o principal evento de Engenharia de Software na América Latina;
+- [{ edicoesSbes } { siglasSbes }](symposiums/sbes/pesquisa/call), o principal evento de Engenharia de Software na América Latina;
 
-- [{ edicoesSblp } { siglasSblp }](..sblp), que possui enfoque no estudo teórico e prático de linguagens de programação;
+- [{ edicoesSblp } { siglasSblp }](symposiums/sblp), que possui enfoque no estudo teórico e prático de linguagens de programação;
 
-- [{ edicoesSbcars } { siglasSbcars }](../sbcars), que agrega tópicos como linhas de produto de software, desenvolvimento de software baseado em componentes, arquiteturas de software e reutilização; e
+- [{ edicoesSbcars } { siglasSbcars }](symposiums/sbcars), que agrega tópicos como linhas de produto de software, desenvolvimento de software baseado em componentes, arquiteturas de software e reutilização; e
 
-- [{ edicoesSast } { siglasSast }](../sast), que versa sobre questões relacionadas à sistematização e automação da atividade de teste de software.
+- [{ edicoesSast } { siglasSast }](symposiums/sast), que versa sobre questões relacionadas à sistematização e automação da atividade de teste de software.
 
 A programação do CBSoft incluirá sessões técnicas com apresentações de artigos científicos, palestras proferidas por pesquisadores brasileiros e estrangeiros de renome nacional e internacional, painéis de discussão, workshops, e demonstrações de ferramentas. Todas essas diversas atividades de interesse da comunidade de Engenharia de Software e de áreas relacionadas ao desenvolvimento de sistemas de software direcionam-se para a difusão do conhecimento e discussão de questões importantes relacionadas à pesquisa, desenvolvimento e inovação, tanto no Brasil quanto no mundo.
 

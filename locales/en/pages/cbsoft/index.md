@@ -2,13 +2,13 @@ The **Brazilian Conference on Software: Practice and Theory (CBSoft)** is an eve
 
 In { ano }, the { edicao } edition of CBSoft will be held **in person**, from **{ dataEvento } in { localEvento }**. It will integrate four traditional symposia annualy promoted by the Brazilian community on Software Engineering:
 
-- [{ edicoesSbes } { siglasSbes }](../sbes), , the premier conference on Software Engineering in Latin America;
+- [{ edicoesSbes } { siglasSbes }](symposiums/sbes/pesquisa/call), the premier conference on Software Engineering in Latin America;
 
-- [{ edicoesSblp } { siglasSblp }](..sblp), which focuses on the theoretical and practical study of programming languages;
+- [{ edicoesSblp } { siglasSblp }](symposiums/sblp), which focuses on the theoretical and practical study of programming languages;
 
-- [{ edicoesSbcars } { siglasSbcars }](../sbcars), which aggregates topics such as software product lines, component-based software development, software architectures, and reuse; and
+- [{ edicoesSbcars } { siglasSbcars }](symposiums/sbcars), which aggregates topics such as software product lines, component-based software development, software architectures, and reuse; and
 
-- [{ edicoesSast } { siglasSast }](../sast), which is about issues related to the systematization and automation of the software testing activity.
+- [{ edicoesSast } { siglasSast }](symposiums/sast), which is about issues related to the systematization and automation of the software testing activity.
 
 The CBSoft programme will include technical sessions with presentation of scientific papers, keynotes by nationally and internationally renowned Brazilian and foreign researchers, discussion panels, workshops, and tool demonstrations. All these activites of interest of the Software Engineering community and fields related to the development of software systems go towards the diffusion of knowledge and discussion of important issues related to research, development, and innovation in both Brazil and the world.
 
