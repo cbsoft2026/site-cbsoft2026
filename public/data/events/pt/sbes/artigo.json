@@ -1,2 +1,38 @@
 [
+    {
+        "title": "A Catalog of Micro Frontends Anti-patterns",
+        "authors": ["Nabson Paiva Souza Silva (Ufam, Brazil)", "Tayana Conte (Ufam, Brazil)"],
+        "category": "mestrado",
+        "track": "ctd"
+    },
+    {
+        "title": "AromaLIA: A Language-Independent Approach to Detect Test Smells",
+        "authors": ["Publio Silva (UFC, Brazil)", "Carla Bezerra (UFC, Brazil)", "Ivan C Machado (UFBA, Brazil)"],
+        "category": "mestrado",
+        "track": "ctd"
+    },
+    {
+        "title": "Debugging Developer Well-Being: Measuring Mental Health and Productivity in Software Teams",
+        "authors": ["Johny Arriel (PUC-Rio, Brazil)", "Alessandro Garcia (Departamento de Informática PUC-Rio, Brazil)", "Juliana Alves Pereira (PUC-Rio, Brazil)"],
+        "category": "mestrado",
+        "track": "ctd"
+    },
+    {
+        "title": "Code Readability Assessment and Improvement: Human and Automated Perspectives",
+        "authors": ["Carlos Eduardo Carvalho Dantas (IFTM-UDI-CENTRO, Brazil)", "Marcelo de Almeida Maia (UFU, Brazil)"],
+        "category": "doutorado",
+        "track": "ctd"
+    },
+    {
+        "title": "Exploring Conversational Agents for Developer Guidance on Software Dependability Issues",
+        "authors": ["João Lucas Marques Correia (Pontifical Catholic University of Rio de Janeiro, Brazil)", "Alessandro Garcia (Departamento de Informática PUC-Rio, Brazil)", "Rafael Maiani de Mello (UFRJ, Brazil)"],
+        "category": "doutorado",
+        "track": "ctd"
+    },
+    {
+        "title": "Search-Based Merge Conflict Resolution",
+        "authors": ["Heleno de Souza Campos Junior (UFF, Brazil)", "Leonardo Gresta Paulino Murta (UFF, Brazil)"],
+        "category": "doutorado",
+        "track": "ctd"
+    }
 ]
