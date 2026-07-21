@@ -6,12 +6,12 @@ Toda a programação do evento fica na pasta:
 public/data/events
 ```
 
-Atualmente a programação existe apenas em **português**, então todas as
+<!-- Atualmente a programação existe apenas em **português**, então todas as
 alterações devem ser feitas em:
 
 ```text
 public/data/events/pt
-```
+``` -->
 
 A estrutura é organizada da seguinte forma:
 
