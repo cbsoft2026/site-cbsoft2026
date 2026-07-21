@@ -61,7 +61,14 @@ export default function generatedCollection(t: Translator, commonT: Translator) 
       { title: commonT('siglas.trilhas.tools'), href: '/symposiums/sbes/tools/call' },
       { title: commonT('siglas.trilhas.industry'), href: '/symposiums/sbes/industry/call' },
       { title: commonT('siglas.trilhas.ctic'), href: '/symposiums/sbes/ctic/call' },
-      { title: commonT('siglas.trilhas.ctd'), href: '/symposiums/sbes/ctd/call' },
+      {
+        title: commonT('siglas.trilhas.ctd'),
+        href: '/symposiums/sbes/ctd/call',
+        items: [
+          { title: t('chamada_trabalhos'), href: '/symposiums/sbes/ctd/call' },
+          { title: t('artigos_aceitos'), href: '/symposiums/sbes/ctd/papers' },
+        ],
+      },
       { title: t('events'), href: '/symposiums/sbes/event' },
     ],
   };

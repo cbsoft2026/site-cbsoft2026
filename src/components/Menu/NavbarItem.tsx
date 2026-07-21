@@ -5,6 +5,8 @@ import { useLocale } from 'next-intl';
 import LinkLocale from '@/components/LinkLocale';
 import styles from './styles.module.scss';
 import { forwardRef } from 'react';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faAnglesRight } from '@fortawesome/free-solid-svg-icons';
 
 export const ClassNameUl = `navbar-nav ${styles['navbar-nav']}`;
 
@@ -52,11 +54,12 @@ function NavbarItemComponent(props: NavbarItemProps, ref: React.Ref<HTMLLIElemen
             <li key={i} className={`dropdown-item ${styles['dropdown-item']}`}>
               <LinkLocale
                 className={`${ClassNameA}`}
-                href={{ pathname: item.href }}
+                href={{ pathname: item.items && item.items?.length > 0 ? undefined : item.href }}
                 onClick={!item.items?.length ? onClick : undefined}
                 locale={locale}
               >
-                {`${item.title} ${item.items?.length && item.dropdownActive != false ? '&raquo;' : ''}`}
+                {`${item.title}`}
+                {item.items?.length && item.dropdownActive != false ? <FontAwesomeIcon icon={faAnglesRight} /> : ''}
               </LinkLocale>
               {item.items && item.dropdownActive != false && (
                 <ul className={`submenu dropdown-menu ${styles['submenu']}`}>

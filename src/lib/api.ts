@@ -160,6 +160,7 @@ export function loadEvents(lang: string = defaultLang): Map<string, Event> {
             description: p.description,
             participants: participantsArticle,
             parentIds: parentSession ? [parentSession.id] : [],
+            category: p.category,
           });
         });
       },

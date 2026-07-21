@@ -17,6 +17,7 @@ export const trackValues = ['pesquisa', 'educacao', 'ideias', 'tools', 'ctic', '
 
 export const PaperSchema = Type.Object({
   track: Type.Optional(TrackType),
+  category: Type.Optional(Type.String()),
   authors: Type.Array(Type.String()),
   badges: Type.Optional(Type.Array(Type.String())),
   ...ScheduleSchema.properties,

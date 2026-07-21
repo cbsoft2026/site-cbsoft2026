@@ -24,6 +24,7 @@ export const EventSchema = Type.Object({
   content: Type.Optional(Type.String()),
   track: Type.Union([Type.Null(), Type.String()]),
   parentIds: Type.Optional(Type.Array(Type.String())),
+  category: Type.Optional(Type.String()),
 });
 
 export const EventsSchema = Type.Array(EventSchema);

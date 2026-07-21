@@ -14,6 +14,7 @@ type Props = {
 
 async function ParentTable({ events, event, locale }: Props) {
   const t = await getTranslations({ locale, namespace: 'pages/schedule' });
+  const commonT = await getTranslations({ locale, namespace: 'common' });
 
   if (event?.type == 'info') return <></>;
 
@@ -55,7 +56,7 @@ async function ParentTable({ events, event, locale }: Props) {
           <div className={styles['chips__grouped']}>
             {parentEvent.track ? (
               <span className={styles.chip}>
-                <small>{parentEvent.track}</small>
+                <small>{commonT(`siglas.trilhas.${parentEvent.track}`)}</small>
               </span>
             ) : (
               ''
