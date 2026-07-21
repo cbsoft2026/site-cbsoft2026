@@ -2,7 +2,7 @@
 
 The Brazilian Conference on Software: Practice and Theory (CBSoft) is an event annually promoted by the Brazilian Computer Society (SBC) aimed at fostering the exchange of experience among researchers and practitioners from industry and academia regarding recent research, tendencies, and innovations in software. Held since 2010 as an aggregating event of Brazilian symposia promoted by SBC on software, CBSoft has become one of the main conferences in the Brazilian Computing community.
 
-In 2026, the sixteenth edition of CBSoft will be held in person, from September 8th to 11th, in São Paulo, integrating four traditional annual events:
+In 2026, the seventeenth edition of CBSoft will be held in person, from September 8th to 11th, in São Paulo, integrating four traditional annual events:
 
 * **XL** Brazilian Symposium on Software Engineering
 * **XXX** Brazilian Symposium on Programming Languages

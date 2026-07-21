@@ -2,7 +2,7 @@
 
 O Congresso Brasileiro de Software: Teoria e Prática (CBSoft) é um evento promovido anualmente pela Sociedade Brasileira de Computação (SBC), com o objetivo de promover a troca de experiências entre pesquisadores e profissionais da indústria e da academia sobre pesquisas recentes, tendências e inovações em software. Realizado desde 2010 como um evento agregador dos simpósios brasileiros promovidos pela SBC na área de software, o CBSoft tornou-se um dos principais eventos da comunidade de Computação no Brasil.
 
-Em 2026, a décima sexta edição do CBSoft será realizada presencialmente, de 8 a 11 de setembro, em São Paulo, integrando quatro eventos anuais tradicionais:
+Em 2026, a décima sétima edição do CBSoft será realizada presencialmente, de 8 a 11 de setembro, em São Paulo, integrando quatro eventos anuais tradicionais:
 
 * **XL** Simpósio Brasileiro de Engenharia de Software
 * **XXX** Simpósio Brasileiro de Linguagens de Programação
