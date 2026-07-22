@@ -183,4 +183,122 @@ Carla Bezerra — Universidade Federal Do Ceará (UFC)
 
 ###### Comitê de Programa
 
-*em formação*
+Afonso Sales — Pontifícia Universidade Católica do Rio Grande do Sul
+
+Aline Maria M. M. Amaral — Universidade Estadual de Maringá
+
+Allysson Allex Araújo — Universidade Federal do Cariri
+
+Andréa Sabedra Bordin — Universidade Federal de Santa Catarina
+
+Anna Beatriz Marques — Universidade Federal do Ceará
+
+Bruno Gadelha — Universidade Federal do Amazonas
+
+Camilo Almendra — Universidade Federal do Ceará
+
+Carlos Eduardo Carvalho Dantas — IFTM Campus Uberlândia Centro
+
+Danilo Monteiro Ribeiro — CESAR School
+
+Davi Viana — Universidade Federal do Maranhão
+
+Debora Maria Barroso Paiva — Universidade Federal de Mato Grosso do Sul
+
+Denivan Campos — Universidade Federal do Norte do Tocantins
+
+Eduardo Figueiredo — Universidade Federal de Minas Gerais
+
+Elaine Venson — Universidade de Brasília
+
+Ellen Francine Barbosa — Universidade de São Paulo
+
+Emanuel Coutinho — Universidade Federal do Ceará
+
+Fabio da Silva Ferreira — Instituto Federal do Sudeste de Minas Gerais
+
+Fabio Santos — Colorado State University
+
+Filipe Fernandes — Instituto Federal do Sudeste de Minas Gerais
+
+Glauco Carneiro — Universidade Salvador
+
+Heitor Augustus Xavier Costa — Universidade Federal de Lavras
+
+Hudson Silva Borges — Universidade Federal de Mato Grosso do Sul
+
+Igor Pereira — Universidade Federal de Ouro Preto
+
+Igor Wiese — Universidade Tecnológica Federal do Paraná
+
+Ismayle Santos — Universidade Estadual do Ceará
+
+Ivaldir H. F. Junior — Universidade de Pernambuco
+
+Jarbele Coutinho — Universidade Federal Rural do Semi-Árido
+
+Jéssyka Vilela — Universidade Federal de Pernambuco
+
+Kiev Gama — Universidade Federal de Pernambuco
+
+Leandro Souza — Instituto Federal da Bahia
+
+Leo Natan Paschoal — Pontifícia Universidade Católica do Paraná
+
+Leuson Da Silva — Polytechnique Montréal
+
+Lucas Vegi — Universidade Federal de Viçosa
+
+Luciana Zaina — Universidade Federal de São Carlos
+
+Marcelo Marinho — Universidade Federal Rural de Pernambuco
+
+Marcelo de Almeida Maia — Universidade Federal de Uberlândia
+
+Marcos Vinícius de Freitas Borges — Instituto Federal do Maranhão
+
+Maria Claudia Figueiredo Pereira Emer — Universidade Tecnológica Federal do Paraná
+
+Maria Istela Cagnin — Universidade Federal de Mato Grosso do Sul
+
+Maurício Souza — Universidade Federal de Lavras
+
+Paola Accioly — Universidade Federal de Pernambuco
+
+Patricia Gomes Fernandes Matsubara — Universidade Federal de Mato Grosso do Sul
+
+Paulo Maia — Universidade Estadual do Ceará
+
+Paulo Malcher — Universidade Federal Rural da Amazônia
+
+Paulo Gabriel Gadelha Queiroz — Universidade Federal Rural do Semi-Árido
+
+Pedro Henrique Dias Valle — Universidade de São Paulo
+
+Rafael Maiani de Mello — Universidade Federal do Rio de Janeiro
+
+Rafael Parizi — Instituto Federal Farroupilha
+
+Rainara Maia Carvalho — Universidade Federal do Ceará
+
+Rita Suzana Pitangueira Maciel — Universidade Federal da Bahia
+
+Sandro Ronaldo Bezerra Oliveira — Universidade Federal do Pará
+
+Sávio Freire — Instituto Federal do Ceará
+
+Sofia Costa Paiva — Universidade Federal de Goiás
+
+Valdemar Vicente Graciano Neto — Universidade Federal de Goiás
+
+Valéria Lelli — Universidade Federal do Ceará
+
+Waldemar Pires Ferreira Neto — Universidade Federal Rural de Pernambuco
+
+Walter Nakamura — Universidade Tecnológica Federal do Paraná
+
+Wellynton Diniz — Faculdade de Tecnologia de Sinop
+
+Wilkerson L. Andrade — Universidade Federal de Campina Grande
+
+Williamson Silva — Universidade Federal do Cariri
