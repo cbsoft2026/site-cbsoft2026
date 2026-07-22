@@ -103,3 +103,113 @@ Ao submeter trabalhos para o SAST 2026, os autores reconhecem que estão em conf
 Roberta Coelho — Universidade Federal do Rio Grande do Norte (UFRN)
 
 Elvys Soares — Instituto Federal de Alagoas (IFAL)
+
+###### Comitê de Programa
+
+Ademar França de Sousa Neto — Universidade Federal Rural do Semi-Árido (UFERSA)
+
+Adenilso Simao — Universidade de São Paulo (USP)
+
+Alessandro Viola Pizzoleto — Universidade Federal de São Carlos (UFSCar)
+
+Alexandre Costa — Universidade Federal de Campina Grande (UFCG)
+
+Ana Emília Victor Barbosa Coutinho — Universidade Estadual da Paraíba (UEPB)
+
+Andre Takeshi Endo — Universidade Federal de São Carlos (UFSCar)
+
+Auri Marcelo Rizzo Vincenzi — Faculdade de Engenharia da Universidade do Porto (FEUP/INESC TEC, Portugal)
+
+Bento Rafael Siqueira — Universidade Federal de Lavras (UFLA)
+
+Carla Bezerra — Universidade Federal do Ceará (UFC)
+
+Danyllo Albuquerque — Universidade Federal de Campina Grande (UFCG)
+
+Denivan Campos — Universidade Federal do Norte do Tocantins (UFNT)
+
+Elder Macedo Rodrigues — Universidade Federal do Pampa (UNIPAMPA)
+
+Eliane Martins — Universidade Estadual de Campinas (UNICAMP)
+
+Emanuel Dantas — Universidade Federal de Campina Grande (UFCG)
+
+Euler Marinho — Universidade Federal de Ouro Preto (UFOP)
+
+Everton L.G. Alves — Universidade Federal de Campina Grande (UFCG)
+
+Fabiano Cutigi Ferrari — Universidade Federal de São Carlos (UFSCar)
+
+Fabio Fagundes Silveira — Universidade Federal de São Paulo (UNIFESP)
+
+Fischer Jonatas — Universidade Federal de Itajubá (UNIFEI)
+
+Ivan C Machado — Universidade Federal da Bahia (UFBA)
+
+João Batista de Souza Neto — Instituto Federal do Rio Grande do Norte (IFRN)
+
+Jonhnanthan Oliveira — Universidade Federal de Campina Grande (UFCG)
+
+Keila Lucas — Universidade Federal de Campina Grande (UFCG)
+
+Leonardo Fernandes M. de Oliveira — Instituto Federal de Alagoas (IFAL)
+
+Leopoldo Motta Teixeira — Universidade Federal de Pernambuco (UFPE)
+
+Luciana Gomes — Universidade Estadual da Paraíba (UEPB)
+
+Luciano Marchezan — Universidade Federal do Pampa (UNIPAMPA)
+
+Maicon Bernardino — Universidade Federal do Pampa (UNIPAMPA)
+
+Marcelo de Almeida Maia — Universidade Federal de Uberlândia (UFU)
+
+Márcio Ribeiro — Universidade Federal de Alagoas (UFAL)
+
+Marcos L. Chaim — Universidade de São Paulo (USP)
+
+Melina Mongiovi — Universidade Federal de Campina Grande (UFCG)
+
+Mirko Perkusich — Universidade Federal de Campina Grande (UFCG)
+
+Pablo Roberto Fernandes de Oliveira — Universidade Federal de Campina Grande (UFCG)
+
+Paola Accioly — Universidade Federal de Pernambuco (UFPE)
+
+Patricia Machado — Universidade Federal de Campina Grande (UFCG)
+
+Paulo Sergio Lopes de Souza — Universidade de São Paulo (USP)
+
+Rafael Maiani de Mello — Universidade Federal do Rio de Janeiro (UFRJ)
+
+Rafael Serapilha Durelli — Universidade Federal de Lavras (UFLA)
+
+Rebeca Motta — Universidade Federal Fluminense (UFF)
+
+Reudismam Rolim de Sousa — Universidade Federal Rural do Semi-Árido (UFERSA)
+
+Ricardo Terra — Universidade Federal de Lavras (UFLA)
+
+Rohit Gheyi — Universidade Federal de Campina Grande (UFCG)
+
+Samira Santos da Silva — Universidade Federal de Lavras (UFLA)
+
+Sidney Nogueira — Universidade Federal Rural de Pernambuco (UFRPE)
+
+Silvana M. Melo — Universidade Federal da Grande Dourados (UFGD)
+
+Silvia Regina Vergilio — Universidade Federal do Paraná  (UFPR)
+
+Simone do Rocio Senger Souza — Universidade de São Paulo (USP)
+
+Thiago Santos de Moura — Ruhr-Universität Bochum, Alemanha
+
+Tiago Lima Massoni — Universidade Federal de Campina Grande (UFCG)
+
+Valéria Lelli — Universidade Federal do Ceará (UFC)
+
+Vânia de Oliveira Neves — Universidade Federal Fluminense (UFF)
+
+Victor Hugo Santiago Costa Pinto — Universidade Federal do Pará (UFPA)
+
+Wilkerson L. Andrade — Universidade Federal de Campina Grande (UFCG)
