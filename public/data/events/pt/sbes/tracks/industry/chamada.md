@@ -79,26 +79,48 @@ Rafael Manzo, Irya Solutions
 
 ###### Comitê de Programa
 
-Hugo Marques, Netflix
+Bruno Lucattelli, Uber
+
+Celso Vital Crivelaro, Universidade de São Paulo
+
+Crisley Marques, Alura
 
 Diego Marcilio, Uber
 
-Natali Moreira Rocha, Nubank
+Diogo Viana da Silva, Insper Instituto de Ensino e Pesquisa
 
-Bruno Lucattelli, Uber
+Elaine Watanabe, Universidade de São Paulo
 
-Rafael Ponte, Independent Consultant
+Giuliano Mega, Institute of Free Technology
 
-Alberto Luiz Oliveira Tavares de Souza, Nubank
+Gustavo Pinto, iFood / Federal University of Para
 
-Matheus Scarpato Fidelis, Itau Unibanco
+Hugo Marques, Netflix
 
-Marden Silveira Neubert, MVLM Tecnologia
+João Marcos Barguil, Opus Software
 
-Wagner Mendes Voltz, Irrah Tech
+Lula Rodrigues, OBONOBO
 
-Luiz Lula Rodrigues, OBONOBO
+Marcelo Facio Palin, Ampere Consultoria
 
-Rafael Pugliese Werner, Vega
+Marden Neubert, MVLM Technology
+
+Natali Rocha ,Nubank
+
+Nicole da Costa Davila, Zup Innovation
+
+Radamés Roriz, Knowbe4
+
+Rafael Ponte, Zup Innovation
+
+Rafael Werner, Independent consultant and researcher
+
+Renata Vilenky Lucy, serviços de marketing
+
+Rodrigo Coelho, Universidade Federal de Viçosa
+
+Sócrates Veridiano Faria Lopes, Instituto de Pesquisas Tecnológicas do Estado de São Paulo
 
 Suelen Goularte Carvalho, Nubank
+
+Vinicius Oyama, Independent Consultant
