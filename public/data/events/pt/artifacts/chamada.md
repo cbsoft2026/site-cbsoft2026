@@ -175,8 +175,6 @@ Denis Sousa — Universidade Estadual do Ceará (UECE)
 
 Ednilson Geraldo Rossi — Instituto Federal de Educação, Ciência e Tecnologia de São Paulo (IFSP)
 
-Fabio Santos — Colorado State University (CSU), USA
-
 Fernanda Madeiral — Universidade Federal de Pernambuco (UFPE)
 
 Fernando Kenji Kamei — Instituto Federal de Alagoas (IFAL)
@@ -202,8 +200,6 @@ Igor Scaliante Wiese — Universidade Tecnológica Federal do Paraná (UTFPR)
 Isaque Alves — Universidade de São Paulo (USP)
 
 Ivanildo de Azevedo — Universidade Federal de Pernambuco (UFPE)
-
-Jailma Januario da silva — Pontifícia Universidade Católica do Rio de Janeiro (PUC-Rio)
 
 Jessica Barbara da Silva Ribas — Pontifícia Universidade Católica do Rio de Janeiro (PUC-Rio)
 
