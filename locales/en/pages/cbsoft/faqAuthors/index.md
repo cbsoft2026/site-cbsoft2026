@@ -36,9 +36,9 @@ Prezado(a) autor(a), após o surgimento de várias dúvidas não previstas inici
 
    _Não é necessária a taxa de publicação, visto que o artigo já foi publicado no periódico e não poderá ser publicado novamente. Pelo menos um dos autores do artigo deve estar inscrito na categoria Profissionais/Efetivos._
 
-7. Sou autor do CTIC ou do CTD. Devo pagar minha inscrição como autor conforme descrito no Item 3?
+7. Sou autor (finalista) do CTIC ou do CTD. Devo pagar minha inscrição como autor conforme descrito no Item 3?
 
-   _Não. A [Unico](https://unico.io/) vai patrocinar as inscrições dos primeiros autores do CTIC e do CTD. Aguarde contato da organização geral do CBSoft'26._
+   _A [Unico](https://unico.io/) vai patrocinar as inscrições, na categoria estudante, do primeiro autor do CTIC e do CTD. Aguarde contato da organização geral do CBSoft'26. Caso também seja autor de outro artigo, a inscrição patrocinada pela Unico não cobre o requisito de inscrição profissional de pelo menos um autor do artigo. Para o artigo CTIC e CTD, exige-se apenas a inscrição de estudante (mais a taxa de publicação)._
 
 8. Sou sócio/sócia da SBC, mas, quando vou me inscrever, só aparece a opção de inscrição para não sócios. O que faço?
 
