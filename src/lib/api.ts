@@ -140,12 +140,21 @@ export function loadEvents(lang: string = defaultLang): Map<string, Event> {
 
           const parentSession = sessionMap.find((session) => {
             if (!p.schedule || !session.schedule) return false;
+
+            if (!p.rooms?.length || !session.rooms?.length) return false;
+
             const articleStart = new Date(p.schedule.start).getTime();
             const articleEnd = new Date(p.schedule.end).getTime();
+
             const sessionStart = new Date(session.schedule.start).getTime();
             const sessionEnd = new Date(session.schedule.end).getTime();
-            const isParentSession = articleStart >= sessionStart && articleEnd <= sessionEnd;
+
+            const sameRoom = p.rooms[0] === session.rooms[0];
+
+            const isParentSession = sameRoom && articleStart >= sessionStart && articleEnd <= sessionEnd;
+
             if (isParentSession) session.parentIds?.push(id);
+
             return isParentSession;
           });
 
