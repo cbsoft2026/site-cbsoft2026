@@ -640,6 +640,76 @@
         "track": "tools"
     },
     {
+        "title": "Unveiling Confusion in Android Data Persistence Libraries",
+        "authors": ["Paulo Guilherme Medeiros Marques (UFC)", "Lincoln S. Rocha (Federal University of Ceará)", "Windson Viana (UFC)"],
+        "schedule": {
+            "start": "2026-09-09T14:00:00-03:00",
+            "end": "2026-09-09T14:20:00-03:00"
+        },
+        "rooms": ["b2"],
+        "track": "pesquisa"
+    },
+    {
+        "title": "Rethinking SOLID for Blockchain: The LEDGER Principles",
+        "authors": ["Luan Martins (UFRJ)", "Diego Castro (Federal University of Rio de Janeiro)", "Claudia Werner (COPPE / UFRJ)", "Claudio Miceli de Farias (UFRJ)"],
+        "schedule": {
+            "start": "2026-09-09T14:20:00-03:00",
+            "end": "2026-09-09T14:35:00-03:00"
+        },
+        "rooms": ["b2"],
+        "track": "ideias"
+    },
+    {
+        "title": "Semantic Dependency Visualization on Code Review: A Comparative Analysis",
+        "authors": ["Vinícius Resende Barbosa (UFPE)", "Ykaro dos Santos Albuquerque", "Paulo Borba (UFPE)"],
+        "schedule": {
+            "start": "2026-09-09T14:35:00-03:00",
+            "end": "2026-09-09T14:55:00-03:00"
+        },
+        "rooms": ["b2"],
+        "track": "pesquisa"
+    },
+    {
+        "title": "An Exploratory Study on the Relationship Between Code Complexity and Bug-Fixing Activity in Open-Source Projects",
+        "authors": ["Samira Santos da Silva (UFLA)", "Bento Rafael Siqueira (UFLA)", "Cristiane Aparecida Lana (UFLA)", "Sincler Peixoto de Meireles (USP)"],
+        "schedule": {
+            "start": "2026-09-09T14:55:00-03:00",
+            "end": "2026-09-09T15:10:00-03:00"
+        },
+        "rooms": ["b2"],
+        "track": "ideias"
+    },
+    {
+        "title": "Patchlens: A Static Analysis Tool for Variant-Aware Change Impact Analysis in Configurable Systems",
+        "authors": ["Felipe Paixão (UFBA)", "Joanna Cecilia da Silva Santos", "Paulo Neto", "Daniel Sadoc Menasche (UFRJ)", "Gustavo B. Figueiredo (UFBA)", "Eduardo Almeida (UFBA)"],
+        "schedule": {
+            "start": "2026-09-09T15:10:00-03:00",
+            "end": "2026-09-09T15:20:00-03:00"
+        },
+        "rooms": ["b2"],
+        "track": "tools"
+    },
+    {
+        "title": "The Impact of Static Analysis Depth Limit on Semantic Conflict Detection",
+        "authors": ["Pedro Patriota (UFPE)", "Matheus Barbosa (UFPE)", "Paulo Borba (UFPE)"],
+        "schedule": {
+            "start": "2026-09-09T15:20:00-03:00",
+            "end": "2026-09-09T15:40:00-03:00"
+        },
+        "rooms": ["b2"],
+        "track": "pesquisa"
+    },
+    {
+        "title": "Micro Frontends: Definition, Classifications, Challenges, Implementation Approaches and Communication Methods",
+        "authors": ["Joao Luiz Castro (UFSCAR)", "Daniel Lucrédio (UFSCAR)"],
+        "schedule": {
+            "start": "2026-09-09T15:40:00-03:00",
+            "end": "2026-09-09T16:00:00-03:00"
+        },
+        "rooms": ["b2"],
+        "track": "pesquisa"
+    },
+    {
         "title": "A Catalog of Micro Frontends Anti-patterns",
         "authors": ["Nabson Paiva Souza Silva (Ufam, Brazil)", "Tayana Conte (Ufam, Brazil)"],
         "category": "mestrado",
