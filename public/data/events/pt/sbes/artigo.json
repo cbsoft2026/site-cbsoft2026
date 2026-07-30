@@ -1010,6 +1010,56 @@
         "track": "tools"
     },
     {
+        "title": "Investigating Enablers, Barriers, and Consequences of Psychological Safety in Software Engineering",
+        "authors": ["Beatriz Santana (UEFS)", "Lidivanio da Conceição do Monte (UEFS)", "Sávio Freire(IFCE)", "Daniela Soares Cruzes (Visma)", "José Amancio Santos (UEFS)", "Manoel Mendonca (UFBA)"],
+        "schedule": {
+            "start": "2026-09-10T11:00:00-03:00",
+            "end": "2026-09-10T11:20:00-03:00"
+        },
+        "rooms": ["b2"],
+        "track": "pesquisa"
+    },
+    {
+        "title": "Understanding ADHD Developers' Challenges Through the Lens of Developer Experience: A Qualitative Study of the r/ADHD_Programmers Community on Reddit",
+        "authors": ["Natalya Marjana Goelzer (PUCRS)", "Sofia Sartori", "Tatiana Cartagena (PUCRS)", "Karina Kohl (UFRGS)", "Gabriel Gioscia Velloso (PUCRS)", "Sabrina dos Santos Marczak (PUCRS)"],
+        "schedule": {
+            "start": "2026-09-10T11:20:00-03:00",
+            "end": "2026-09-10T11:40:00-03:00"
+        },
+        "rooms": ["b2"],
+        "track": "pesquisa"
+    },
+    {
+        "title": "A Preliminary Catalog of Cognitive Demands in Software Engineering Tasks to Support the Inclusion of Developers with ADHD",
+        "authors": ["Tatiana Cartagena (PUCRS)", "Natalya Marjana Goelzer (PUCRS)", "Andrêus Sousa (PUCRS)", "Francielle Beria (Atitus)", "Gabriel Gioscia Velloso (PUCRS)", "Karina Kohl (UFRGS)", "Sabrina dos Santos Marczak (PUCRS)"],
+        "schedule": {
+            "start": "2026-09-10T11:40:00-03:00",
+            "end": "2026-09-10T11:55:00-03:00"
+        },
+        "rooms": ["b2"],
+        "track": "ideias"
+    },
+    {
+        "title": "A Preliminary Study on the Impact of AI in the Creativity and Collaboration in Software Teams",
+        "authors": ["Danilo Monteiro Ribeiro (CESAR School)", "Kiev Gama (UFPE)", "Victoria Jackson (University of Southampton)"],
+        "schedule": {
+            "start": "2026-09-10T11:55:00-03:00",
+            "end": "2026-09-10T12:10:00-03:00"
+        },
+        "rooms": ["b2"],
+        "track": "ideias"
+    },
+    {
+        "title": "CodeVital: Aplicativo Móvel para Promoção da Saúde e do Bem-estar de Desenvolvedores de Software",
+        "authors": ["Kaik Ferreira Bomfim (IFBA)", "Alexandro dos Santos Silva (IFBA)", "Leonardo Barreto Campos (IFBA)", "Djan Santos (IFBA)", "Crescencio Lima (IFBA)"],
+        "schedule": {
+            "start": "2026-09-10T12:10:00-03:00",
+            "end": "2026-09-10T12:20:00-03:00"
+        },
+        "rooms": ["b2"],
+        "track": "tools"
+    },
+    {
         "title": "A Catalog of Micro Frontends Anti-patterns",
         "authors": ["Nabson Paiva Souza Silva (Ufam, Brazil)", "Tayana Conte (Ufam, Brazil)"],
         "category": "mestrado",
