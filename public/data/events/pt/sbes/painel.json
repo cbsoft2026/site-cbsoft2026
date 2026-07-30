@@ -11,14 +11,13 @@
         "rooms": ["b5"]
     },
     {
-        "title": "Painel 3",
+        "title": "Painel 3 CBSoft 2026 - Sala Alan Turing (Auditório FAU)",
         "moderator": ["alessandro-garcia"],
         "speakers": ["rick-kazman", "klaas-jan-stol", "jeronimo-castrillon", "darja-smite"],
         "schedule": {
             "start": "2026-09-10T14:00:00-03:00",
             "end": "2026-09-10T16:00:00-03:00"
         },
-        "description": "(Painel CBSoft 2026, sala Alan Turing)",
         "rooms": ["auditorio-fau", "auditorio-ime", "b5", "b16", "b9", "b10", "b1", "b2", "b3", "ccsl", "b101", "numec"]
     },
     {
