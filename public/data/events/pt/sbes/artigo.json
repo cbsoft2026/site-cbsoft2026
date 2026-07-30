@@ -1060,6 +1060,76 @@
         "track": "tools"
     },
     {
+        "title": "Comprehending Python Repetition Structures: An Eye-Tracking Study with Novice Developers",
+        "authors": ["José Júnior Silva da Costa (UFCG)", "Rohit Gheyi (UFCG)", "José Aldo Silva da Costa (UFCG)", "Marcio Ribeiro (UFAL)"],
+        "schedule": {
+            "start": "2026-09-10T11:00:00-03:00",
+            "end": "2026-09-10T11:20:00-03:00"
+        },
+        "rooms": ["b3"],
+        "track": "pesquisa"
+    },
+    {
+        "title": "The Case for Bayesian Meta-analysis as a Complement to Systematic Literature Reviews in Software Engineering: Evidence from Defect Prediction",
+        "authors": ["Vinicius Durelli (UFSCAR)", "Andre Takeshi Endo (UFSCAR)", "Fabiano Cutigi Ferrari (UFSCAR)"],
+        "schedule": {
+            "start": "2026-09-10T11:20:00-03:00",
+            "end": "2026-09-10T11:35:00-03:00"
+        },
+        "rooms": ["b3"],
+        "track": "ideias"
+    },
+    {
+        "title": "AI LitReview: A Web-Based Tool for LLM-Assisted Systematic Literature Reviews",
+        "authors": ["Anderson Deizepe (Universidade Federal do Paraná UFPR)", "Katia Romero Felizardo (UTFPR)", "Roberto Pereira (UFPR)"],
+        "schedule": {
+            "start": "2026-09-10T11:35:00-03:00",
+            "end": "2026-09-10T11:45:00-03:00"
+        },
+        "rooms": ["b3"],
+        "track": "tools"
+    },
+    {
+        "title": "AnnotAISE: A Web-Based Data Annotation Platform For Software Engineering Research",
+        "authors": ["João Paulo Lopes (PUC-Rio)", "Bruno Tardin Fernandes", "Beatriz Ritter", "Daniel Coutinho (PUC-Rio)", "Robbie Carvalho", "Alessandro Garcia (PUC-Rio)", "Juliana Alves Pereira (PUC-Rio)"],
+        "schedule": {
+            "start": "2026-09-10T11:45:00-03:00",
+            "end": "2026-09-10T11:55:00-03:00"
+        },
+        "rooms": ["b3"],
+        "track": "tools"
+    },
+    {
+        "title": "Uma Ferramenta para Análise Temporal de Regras de Associação em Dados de Repositórios de Software",
+        "authors": ["Silvana Andrade Gonçalves (IFAC)", "Alexandre Plastino (UFF)", "Daricélio Moreira Soares (Federal University of Acre)"],
+        "schedule": {
+            "start": "2026-09-10T11:55:00-03:00",
+            "end": "2026-09-10T12:05:00-03:00"
+        },
+        "rooms": ["b3"],
+        "track": "tools"
+    },
+    {
+        "title": "Um Observatório de Inteligência Artificial com Curadoria Semiautomatizada Apoiada pelo Plugin AI Research Curator",
+        "authors": ["Guilherme Gomes (PUC-Rio)", "Andrew Costa (Pontificia Universidade Católica do RJ)", "Jorge Calmon de Almeida Biolchini (UFRJ)", "Carlos Lucena (PUC)"],
+        "schedule": {
+            "start": "2026-09-10T12:05:00-03:00",
+            "end": "2026-09-10T12:15:00-03:00"
+        },
+        "rooms": ["b3"],
+        "track": "tools"
+    },
+    {
+        "title": "An AI-Assisted Tool for Practically Relevant Research Problem Formulation in Software Engineering",
+        "authors": ["João Pedro Theodoro", "Victoria Cruz de Figueiredo", "Anrafel Fernandes Pereira (PUC-Rio)", "Wallace Albertini Boquimpani", "Mariana Martins (UFG)", "Marcos Kalinowski (PUC-Rio)"],
+        "schedule": {
+            "start": "2026-09-10T12:15:00-03:00",
+            "end": "2026-09-10T12:25:00-03:00"
+        },
+        "rooms": ["b3"],
+        "track": "tools"
+    },
+    {
         "title": "A Catalog of Micro Frontends Anti-patterns",
         "authors": ["Nabson Paiva Souza Silva (Ufam, Brazil)", "Tayana Conte (Ufam, Brazil)"],
         "category": "mestrado",
