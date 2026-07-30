@@ -330,6 +330,56 @@
         "track": "tools"
     },
     {
+        "title": "How Green Is Your Upgrade? Carbon Emission Trends in Python Web Frameworks",
+        "authors": ["Fernando Karchiloff Gouveia de Amorim (USP)", "Vinicius Renan de Carvalho (USP)", "Daniel Cordeiro (Escola de Artes, Ciências e Humanidades da USP)", "Gerson Sunyé (Université de Nantes)", "Marcelo M. Eler (USP)"],
+        "schedule": {
+            "start": "2026-09-09T11:00:00-03:00",
+            "end": "2026-09-09T11:20:00-03:00"
+        },
+        "rooms": ["b101"],
+        "track": "pesquisa"
+    },
+    {
+        "title": "Sustainability Concerns in Open Source Software: A Multi-Domain Mining Study of GitHub Issues",
+        "authors": ["Eduardo Almentero (UFRRJ)", "Roxana L. Q. Portugal", "Henrique Prado de Sá Sousa (UNIRIO)", "Marcos Kalinowski (PUC-Rio)"],
+        "schedule": {
+            "start": "2026-09-09T11:20:00-03:00",
+            "end": "2026-09-09T11:40:00-03:00"
+        },
+        "rooms": ["b101"],
+        "track": "pesquisa"
+    },
+    {
+        "title": "Ensinando IoT como uma experiência de desenvolvimento de soluções: aprendizagem ativa, práticas maker e lições aprendidas",
+        "authors": ["Leandro Aparecido Nunes da Cruz (IPT)", "Icaro Goncalves", "Matheus Pereira (IPT)", "Julio Cesar Pestana", "Alessandro Santiago (IPT)"],
+        "schedule": {
+            "start": "2026-09-09T11:40:00-03:00",
+            "end": "2026-09-09T12:00:00-03:00"
+        },
+        "rooms": ["b101"],
+        "track": "educacao"
+    },
+    {
+        "title": "Um Modelo de Referência para Sistemas Híbridos Inteligentes voltadados à Avicultura 4.0",
+        "authors": ["Renato Vasconcelos Mendes (UFRPE)", "Obionor Nóbrega (Universidade Federal Rural de Pernabuco)", "Ricardo Andre Cavalcante Souza (UFRPE)"],
+        "schedule": {
+            "start": "2026-09-09T12:00:00-03:00",
+            "end": "2026-09-09T12:15:00-03:00"
+        },
+        "rooms": ["b101"],
+        "track": "ideias"
+    },
+    {
+        "title": "Um sistema web para inspeção de conformidade em dispositivos IoT aplicados à saúde",
+        "authors": ["Cesar Yuri e Silva Santos", "Ivonildo Pereira Gomes Neto", "Matheus Frej Lemos Cavalcanti (UFPE)", "Waldemar Pires Ferreira Neto (UFRPE)", "Sergio Soares"],
+        "schedule": {
+            "start": "2026-09-09T12:15:00-03:00",
+            "end": "2026-09-09T12:25:00-03:00"
+        },
+        "rooms": ["b101"],
+        "track": "tools"
+    },
+    {
         "title": "A Catalog of Micro Frontends Anti-patterns",
         "authors": ["Nabson Paiva Souza Silva (Ufam, Brazil)", "Tayana Conte (Ufam, Brazil)"],
         "category": "mestrado",
