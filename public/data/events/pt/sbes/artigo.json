@@ -110,6 +110,56 @@
         "track": "tools"
     },
     {
+        "title": "Giants or Windmills? An Empirical Study on the Evolution and Dissemination of Large Files",
+        "authors": ["Mateus Batichotti Silva (UTFPR Campo Mourão)", "Tiago Defendi da Silva (UTFPR)", "Igor Scaliante Wiese (UTFPR)", "Ivanilton Polato (UTFPR)", "Reginaldo Ré (UTFPR)"],
+        "schedule": {
+            "start": "2026-09-09T11:00:00-03:00",
+            "end": "2026-09-09T11:20:00-03:00"
+        },
+        "rooms": ["b10"],
+        "track": "pesquisa"
+    },
+    {
+        "title": "Mining Architectural Technical Debt through LLM-Assisted Issue Inspection: An Empirical Study with Apache Projects",
+        "authors": ["Armando Sousa (UFPI)", "Lincoln Rocha (UFC)", "Ricardo Britto (Blekinge Institute of Technology)"],
+        "schedule": {
+            "start": "2026-09-09T11:20:00-03:00",
+            "end": "2026-09-09T11:40:00-03:00"
+        },
+        "rooms": ["b10"],
+        "track": "pesquisa"
+    },
+    {
+        "title": "Mind the gap: Linking refactorings and code smells in Elixir",
+        "authors": ["Lucas Vegi (UFV)", "Marco Tulio Valente (UFMG)"],
+        "schedule": {
+            "start": "2026-09-09T11:40:00-03:00",
+            "end": "2026-09-09T12:00:00-03:00"
+        },
+        "rooms": ["b10"],
+        "category": "J1C2"
+    },
+    {
+        "title": "A Spec-Driven Approach for Source Code Summarization of COBOL Legacy Systems with LLMs",
+        "authors": ["Joao Vaz (UnB)", "vinicius de araujo (UnB)", "Murillo Souza", "Michael Silva (UnB)", "Rodrigo Bonifacio (UFPE)"],
+        "schedule": {
+            "start": "2026-09-09T12:00:00-03:00",
+            "end": "2026-09-09T12:15:00-03:00"
+        },
+        "rooms": ["b10"],
+        "track": "ideias"
+    },
+    {
+        "title": "An Architecture for Explanation-Oriented Agents in Predictive Maintenance Systems",
+        "authors": ["Vitor Linhares (UECE Universidade Estadual do Ceará)", "Paulo Maia (Uece)", "Lucas Almeida Aguiar (State University of Ceara)", "Murilo Coelho (Uece)", "Lucas Alves", "Cleilton Rocha (Instituto Atlântico)"],
+        "schedule": {
+            "start": "2026-09-09T12:15:00-03:00",
+            "end": "2026-09-09T12:30:00-03:00"
+        },
+        "rooms": ["b10"],
+        "track": "ideias"
+    },
+    {
         "title": "A Catalog of Micro Frontends Anti-patterns",
         "authors": ["Nabson Paiva Souza Silva (Ufam, Brazil)", "Tayana Conte (Ufam, Brazil)"],
         "category": "mestrado",
