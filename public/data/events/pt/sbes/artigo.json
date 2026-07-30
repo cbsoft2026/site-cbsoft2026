@@ -1190,6 +1190,56 @@
         "track": "tools"
     },
     {
+        "title": "An Empirical Study on the Use of Augmented Reality to Support the Teaching of Model Needs in Requirements Engineering for AI Systems",
+        "authors": ["Giovanna Bonilha (IFAM)", "Bruna Santos (UFAM)", "Ayumi Aoki Santana (UFAM)", "Bianca Trinkenreich", "Fabiann Matthaus Barbosa (IFAM)", "Tayana Conte (UFAM)"],
+        "schedule": {
+            "start": "2026-09-10T16:30:00-03:00",
+            "end": "2026-09-10T16:50:00-03:00"
+        },
+        "rooms": ["b9"],
+        "track": "educacao"
+    },
+    {
+        "title": "Aprendizagem Baseada em Gamificação: Abordagens para o Ensino de Programação",
+        "authors": ["Valéria Lelli (UFC)", "Lucas Cabral Amador Mourão (UFC)", "Francisco Jean da Silva de Sousa (UFC)", "Isabel Lopes (UFC)", "Fábio Agostinho da Silva Nascimento Filho", "Pedro Wagner Rabelo Evaristo"],
+        "schedule": {
+            "start": "2026-09-10T16:50:00-03:00",
+            "end": "2026-09-10T17:10:00-03:00"
+        },
+        "rooms": ["b9"],
+        "track": "educacao"
+    },
+    {
+        "title": "Automated Feedback in Programming Education: A Structured Literature Review of Tools and Gaps in Code Quality Support",
+        "authors": ["Lucas Rios (PUCPR)", "Andreia Malucelli (PUCPR)", "Sheila Reinehr (PUCPR)"],
+        "schedule": {
+            "start": "2026-09-10T17:10:00-03:00",
+            "end": "2026-09-10T17:30:00-03:00"
+        },
+        "rooms": ["b9"],
+        "track": "educacao"
+    },
+    {
+        "title": "Checklist-Aided Refinement of BDD Scenarios by Early-Career Developers: An Action Research Study in a Corporate Training Program",
+        "authors": ["Natalya Marjana Goelzer (PUCRS)", "Sabrina dos Santos Marczak (PUCRS)"],
+        "schedule": {
+            "start": "2026-09-10T17:30:00-03:00",
+            "end": "2026-09-10T17:50:00-03:00"
+        },
+        "rooms": ["b9"],
+        "track": "educacao"
+    },
+    {
+        "title": "Evolving a Digital Game for Architectural Patterns Education",
+        "authors": ["Maria Clara Ribeiro de Menezes (UFF)", "Lara da S. Dias (UFJF)", "Pedro Henrique Dias Valle (USP)", "Alessandreia Marta de Oliveira (UFJF)"],
+        "schedule": {
+            "start": "2026-09-10T17:50:00-03:00",
+            "end": "2026-09-10T18:10:00-03:00"
+        },
+        "rooms": ["b9"],
+        "track": "educacao"
+    },
+    {
         "title": "A Catalog of Micro Frontends Anti-patterns",
         "authors": ["Nabson Paiva Souza Silva (Ufam, Brazil)", "Tayana Conte (Ufam, Brazil)"],
         "category": "mestrado",
