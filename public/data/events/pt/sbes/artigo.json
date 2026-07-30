@@ -160,6 +160,56 @@
         "track": "ideias"
     },
     {
+        "title": "When the Pair Becomes Three: An Empirical Study of GitHub Copilot in Pair Programming",
+        "authors": ["Diego Lisboa (UFPA)", "Tiago Lima Massoni (UFCG)", "Mayara Costa Figueiredo (UFPA)", "Cleidson de Souza (UFPA)"],
+        "schedule": {
+            "start": "2026-09-09T11:00:00-03:00",
+            "end": "2026-09-09T11:20:00-03:00"
+        },
+        "rooms": ["b1"],
+        "track": "pesquisa"
+    },
+    {
+        "title": "An Empirical Evaluation of Using Large Language Models to Recommend Exception Handling Tasks",
+        "authors": ["Jairo Souza (UFPE)", "Tales Alves, Rodrigo Lima (UFPE)", "Ericlecio Thiago Morais de Araújo (UFPE)", "Leopoldo Motta Teixeira (UFPE)", "Baldoino Fonseca (UFAL)"],
+        "schedule": {
+            "start": "2026-09-09T11:20:00-03:00",
+            "end": "2026-09-09T11:40:00-03:00"
+        },
+        "rooms": ["b1"],
+        "track": "pesquisa"
+    },
+    {
+        "title": "Evaluating Context Provisioning Strategies for LLM-Based Systems: An Empirical Study with the Lattes Platform",
+        "authors": ["Michel A. Vasconcelos (Unifor)", "Nabor Mendonca (Unifor)"],
+        "schedule": {
+            "start": "2026-09-09T11:40:00-03:00",
+            "end": "2026-09-09T12:00:00-03:00"
+        },
+        "rooms": ["b1"],
+        "track": "pesquisa"
+    },
+    {
+        "title": "D.aise: An Automated README Generator from Source Code Repositories",
+        "authors": ["Arthur Alesi (PUC-Rio)", "Gabriela Soares", "Juliana Alves Pereira (PUC-Rio)"],
+        "schedule": {
+            "start": "2026-09-09T12:00:00-03:00",
+            "end": "2026-09-09T12:10:00-03:00"
+        },
+        "rooms": ["b1"],
+        "track": "tools"
+    },
+    {
+        "title": "Investigating the use of LLMs in Deductive Coding within the Context of Software Engineering",
+        "authors": ["Samuel Mercês (UEFS)", "Moaath Alshaikh (Universidade Federal da Bahia (UFBA)", "Gabriel Cordeiro Moraes (UEFS)", "Lucca de Almeida Hora Coutinho (UEFS)", "Glauco de Figueiredo Carneiro", "Manoel Mendonca (UFBA)", "José Amancio Macedo Santos (UEFS)"],
+        "schedule": {
+            "start": "2026-09-09T12:10:00-03:00",
+            "end": "2026-09-09T12:30:00-03:00"
+        },
+        "rooms": ["b1"],
+        "track": "pesquisa"
+    },
+    {
         "title": "A Catalog of Micro Frontends Anti-patterns",
         "authors": ["Nabson Paiva Souza Silva (Ufam, Brazil)", "Tayana Conte (Ufam, Brazil)"],
         "category": "mestrado",
