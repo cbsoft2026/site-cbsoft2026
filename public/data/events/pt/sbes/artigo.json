@@ -1510,6 +1510,76 @@
         "category": "J1C2"
     },
     {
+        "title": "Aversão à Incerteza e Tomada de Decisão em Cenários Ágeis: Um Estudo Preliminar",
+        "authors": ["Caroline Ferreira (UNIRIO)", "Gleison Santos (UNIRIO)"],
+        "schedule": {
+            "start": "2026-09-11T14:00:00-03:00",
+            "end": "2026-09-11T14:15:00-03:00"
+        },
+        "rooms": ["auditorio-ime"],
+        "track": "ideias"
+    },
+    {
+        "title": "Explainability Practices and Challenges from the Experience of a Brazilian Industrial Research and Innovation Company",
+        "authors": ["Lívia Mancine (IF Goiano)", "Renata Braga (UFG)", "Davi Viana (UFMA)", "Marcos Kalinowski (PUC-Rio)", "Renato de Freitas Bulcão Neto (UFG)"],
+        "schedule": {
+            "start": "2026-09-11T14:15:00-03:00",
+            "end": "2026-09-11T14:35:00-03:00"
+        },
+        "rooms": ["auditorio-ime"],
+        "track": "pesquisa"
+    },
+    {
+        "title": "Silent ROS Community: Let's Start Discussing the Impact of AI Adoption on Public Knowledge Sharing",
+        "authors": ["Michel Albonico (UTFPR)", "Douglas Ferreira de Souza (UTFPR)", "Adolfo Gustavo Serra Seca Neto (UTFPR)"],
+        "schedule": {
+            "start": "2026-09-11T14:35:00-03:00",
+            "end": "2026-09-11T14:50:00-03:00"
+        },
+        "rooms": ["auditorio-ime"],
+        "track": "ideias"
+    },
+    {
+        "title": "GovHub: Plataforma livre de integração e qualificação de dados governamentais",
+        "authors": ["Davi Vieira (UnB)", "Isaque Alves (USP)", "Mateus Santos (UnB)", "Arthur Alves Melo (UnB)", "Milena Rocha (UnB)", "Wallyson Souza (Universidade de Brasília, UnB)", "Carla Silva Rocha Aguiar (UnB)"],
+        "schedule": {
+            "start": "2026-09-11T14:50:00-03:00",
+            "end": "2026-09-11T15:00:00-03:00"
+        },
+        "rooms": ["auditorio-ime"],
+        "track": "tools"
+    },
+    {
+        "title": "REFINE: REst From code and INferred Enhancement",
+        "authors": ["André Mesquita Rincon (UFSCAR)", "Auri Marcelo Rizzo Vincenzi (FEUP/INESC TEC, Portugal)"],
+        "schedule": {
+            "start": "2026-09-11T15:00:00-03:00",
+            "end": "2026-09-11T15:10:00-03:00"
+        },
+        "rooms": ["auditorio-ime"],
+        "track": "tools"
+    },
+    {
+        "title": "Issues Faced by Software Practitioners When Using User Stories: An Empirical Study Based on Stack Exchange Discussions",
+        "authors": ["Nicole Guerreiro(IFCE)", "Yuri Nunes (IFCE)", "Denivan Campos (UFNT)", "Edna Dias Canedo (UFPE)", "Sávio Freire(IFCE)"],
+        "schedule": {
+            "start": "2026-09-11T15:10:00-03:00",
+            "end": "2026-09-11T15:30:00-03:00"
+        },
+        "rooms": ["auditorio-ime"],
+        "track": "pesquisa"
+    },
+    {
+        "title": "Applying Design Thinking in Research and Development Environment: Insights from a case study in a Brazilian R&D institute",
+        "authors": ["Maria Alcimar Costa Meireles", "Eriky Rodrigues", "Luana Lobão", "Edson Oliveira", "Igor Steinmacher", "José Carlos Maldonado", "Tayana Conte"],
+        "schedule": {
+            "start": "2026-09-11T15:30:00-03:00",
+            "end": "2026-09-11T15:50:00-03:00"
+        },
+        "rooms": ["auditorio-ime"],
+        "category": "J1C2"
+    },
+    {
         "title": "A Catalog of Micro Frontends Anti-patterns",
         "authors": ["Nabson Paiva Souza Silva (Ufam, Brazil)", "Tayana Conte (Ufam, Brazil)"],
         "category": "mestrado",
