@@ -210,6 +210,66 @@
         "track": "pesquisa"
     },
     {
+        "title": "From Specification to Practice: An Empirical Study of Ethereum ERC Standard Adoption in Open Source Projects",
+        "authors": ["Pamella Soares (Uece)", "Airlon Silva Filho (Universidade Federal do Cariri)", "Raissa Rodrigues (Universidade Federal do Cariri)", "Allysson Allex Araújo (Universidade Federal do Cariri)", "Jerffeson Souza (Uece)"],
+        "schedule": {
+            "start": "2026-09-09T11:00:00-03:00",
+            "end": "2026-09-09T11:20:00-03:00"
+        },
+        "rooms": ["b2"],
+        "track": "pesquisa"
+    },
+    {
+        "title": "From “We Need Better UX” to “We Don’t Have Time”: A Qualitative Study of UX Practitioners’ Challenges and Methods in Software Projects",
+        "authors": ["Solano Lima Oliveira (UFAM)", "Eriky Rodrigues (UFAM)", "Bruno Gadelha (UFAM)", "Márcia S. Lima (Uea)", "Tayana Conte (UFAM)"],
+        "schedule": {
+            "start": "2026-09-09T11:20:00-03:00",
+            "end": "2026-09-09T11:40:00-03:00"
+        },
+        "rooms": ["b2"],
+        "track": "pesquisa"
+    },
+    {
+        "title": "A Checklist for Energy-Efficiency Requirements in Web Applications",
+        "authors": ["Ana Carolina Poltronieri Rodrigues (Unipampa/Campus de Alegrete)", "Gustavo de Oliveira Almeida (UNIPAMPA)", "Glaucia Dias Tavares (Unipampa/Campus de Alegrete)", "Kelvin Camargo (UNIPAMPA)", "Álvaro Domingues (UNIPAMPA)", "Juliano Sobroza (Universidade Federal do Pampa UNIPAMPA)", "Anielle Severo Lisboa de Andrade (UNIPAMPA)", "Maicon Bernardino (UNIPAMPA)"],
+        "schedule": {
+            "start": "2026-09-09T11:40:00-03:00",
+            "end": "2026-09-09T11:55:00-03:00"
+        },
+        "rooms": ["b2"],
+        "track": "ideias"
+    },
+    {
+        "title": "Abordagem Semiautomática para Transformação de Documentos Normativos em Requisitos de Software baseada em LLM, RAG e Engenharia de Prompt",
+        "authors": ["Flávio Henrique Oliveira (UEL)", "Andre Menolli (uel universidade estadual de londrina)"],
+        "schedule": {
+            "start": "2026-09-09T11:55:00-03:00",
+            "end": "2026-09-09T12:10:00-03:00"
+        },
+        "rooms": ["b2"],
+        "track": "ideias"
+    },
+    {
+        "title": "RAI: An LLM-Based Multi-Agent Tool for Requirements Engineering Artifacts Generation",
+        "authors": ["Guilherme Borges Cabral", "Nicolas Duarte Botelho (IFES)", "Victorio Albani Carvalho, (IFES)", "Moises Savedra Omena (Federal Institute of Espírito Santo)", "Rodrigo Calhau (IFES)", "Paulo Sérgio Santos Júnior (IFES)", "Monalessa P. Barcellos (UFES)"],
+        "schedule": {
+            "start": "2026-09-09T12:10:00-03:00",
+            "end": "2026-09-09T12:20:00-03:00"
+        },
+        "rooms": ["b2"],
+        "track": "tools"
+    },
+    {
+        "title": "Story AI Generator: A ChatGPT-Based Tool for User Story Generation",
+        "authors": ["Reine Santos (UFAM)", "Hamiê Tomás (Ifam)", "Bruno Gadelha (UFAM)", "Tayana Conte (UFAM)", "Ana Carolina Oran (UFAM)"],
+        "schedule": {
+            "start": "2026-09-09T12:20:00-03:00",
+            "end": "2026-09-09T12:30:00-03:00"
+        },
+        "rooms": ["b2"],
+        "track": "tools"
+    },
+    {
         "title": "A Catalog of Micro Frontends Anti-patterns",
         "authors": ["Nabson Paiva Souza Silva (Ufam, Brazil)", "Tayana Conte (Ufam, Brazil)"],
         "category": "mestrado",
