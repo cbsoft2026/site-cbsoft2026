@@ -46,14 +46,14 @@
             "local": "B3"
         },
         {
-            "label": "ccsl",
-            "nome": "Imre Simon",
-            "local": "CCSL"
-        },
-        {
             "label": "b101",
             "nome": "Kristen Nygaard",
             "local": "B101"
+        },
+        {
+            "label": "ccsl",
+            "nome": "Imre Simon",
+            "local": "CCSL"
         },
         {
             "label": "numec",
