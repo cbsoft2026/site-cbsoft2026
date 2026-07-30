@@ -850,6 +850,56 @@
         "track": "tools"
     },
     {
+        "title": "On Developers’ Perceptions of Detection and Resolution of Dependability Issues in Closed Source Projects",
+        "authors": ["João Lucas Marques Correia (PUC-Rio)", "Daniel Coutinho (PUC-Rio)", "Alessandro Garcia (PUC-Rio)", "Rafael Maiani de Mello (UFRJ)", "Wesley Klewerton Guez Assunção (North Carolina State University)", "Caio Barbosa Vieira da Silva (PUC-Rio)", "Nelio Cacho (UFRN)", "Thais Vasconcelos Batista (UFRN)"],
+        "schedule": {
+            "start": "2026-09-10T11:00:00-03:00",
+            "end": "2026-09-10T11:20:00-03:00"
+        },
+        "rooms": ["b9"],
+        "track": "pesquisa"
+    },
+    {
+        "title": "Ethical Fuzzing for Large Language Models: A Reproducible Framework for FAT Property Testing",
+        "authors": ["João Vasconcelos (UnB)", "Edna Dias Canedo (UFPE)", "João Borba (UnB)"],
+        "schedule": {
+            "start": "2026-09-10T11:20:00-03:00",
+            "end": "2026-09-10T11:40:00-03:00"
+        },
+        "rooms": ["b9"],
+        "track": "pesquisa"
+    },
+    {
+        "title": "ArchSec.AI: Towards a LLM-based assistant to support analysis of security architectural strategies",
+        "authors": ["Rebeca Pontes (USP/ICMC)", "Lina Garcés (ICMC/USP)"],
+        "schedule": {
+            "start": "2026-09-10T11:40:00-03:00",
+            "end": "2026-09-10T11:55:00-03:00"
+        },
+        "rooms": ["b9"],
+        "track": "ideias"
+    },
+    {
+        "title": "Uma Arquitetura Modular para Agentes Conversacionais Confiáveis em Saúde Digital Baseada em Governança e Orquestração Low-Code",
+        "authors": ["Jose Trajano Mendes Neto (PPGCC UERN/UFERSA)", "Francisco Milton Mendes Neto (UFERSA)", "Cláudia Leite Rolim Moreira"],
+        "schedule": {
+            "start": "2026-09-10T11:55:00-03:00",
+            "end": "2026-09-10T12:10:00-03:00"
+        },
+        "rooms": ["b9"],
+        "track": "ideias"
+    },
+     {
+        "title": "Using a Local LLM to Inspect Security Requirements of IoT Software Systems",
+        "authors": ["Christian Moreira (UFRJ)", "Bruno Pedraça de Souza (COPPE/UFRJ)", "Guilherme Horta Travassos (COPPE/UFRJ)"],
+        "schedule": {
+            "start": "2026-09-10T12:10:00-03:00",
+            "end": "2026-09-10T12:25:00-03:00"
+        },
+        "rooms": ["b9"],
+        "track": "ideias"
+    },
+    {
         "title": "A Catalog of Micro Frontends Anti-patterns",
         "authors": ["Nabson Paiva Souza Silva (Ufam, Brazil)", "Tayana Conte (Ufam, Brazil)"],
         "category": "mestrado",
