@@ -263,15 +263,6 @@
         "rooms": ["auditorio-ime"]
     },
     {
-        "title": "SBES",
-        "schedule": {
-            "start": "2026-09-11T16:30:00-03:00",
-            "end": "2026-09-11T18:00:00-03:00"
-        },
-        "type": "info",
-        "rooms": ["auditorio-ime"]
-    },
-    {
         "title": "SBES - Trilha da Indústria",
         "schedule": {
             "start": "2026-09-11T11:00:00-03:00",
