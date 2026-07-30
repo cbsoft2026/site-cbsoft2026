@@ -450,6 +450,66 @@
         "track": "tools"
     },
     {
+        "title": "A Large Language Model as a Support Tool for User Story Creation with Use Cases: An Empirical Study",
+        "authors": ["Pedro Garcia (Federal University of Minas Gerais)", "Eduardo Figueiredo (UFMG)", "Filipe Fernandes (Instituto Federal do Sudeste de Minas Gerais)", "Kattiana Fernandes Constantino (UFVJM, Universidade Federal dos Vales do Jequitinhonha e Mucuri)", "Filipe Roseiro Cogo (Queen’s University)"],
+        "schedule": {
+            "start": "2026-09-09T14:00:00-03:00",
+            "end": "2026-09-09T14:20:00-03:00"
+        },
+        "rooms": ["b9"],
+        "track": "educacao"
+    },
+    {
+        "title": "A Portfolio of Game-Based Learning Activities in Software Project Management Education: An Experience Report",
+        "authors": ["Virgínia Moreira Marques Colares (UFSM)", "Gustavo Pott de Oliveira (UFSM)", "Lisandra Manzoni Fontoura (UFSM)"],
+        "schedule": {
+            "start": "2026-09-09T14:20:00-03:00",
+            "end": "2026-09-09T14:40:00-03:00"
+        },
+        "rooms": ["b9"],
+        "track": "educacao"
+    },
+    {
+        "title": "A Simulated Startup Ecosystem for Software Engineering Education: An Empirical Evaluation of Bidirectional Role Inversion",
+        "authors": ["Adriane da Costa Ferreira (Unifap)", "Paula Maria Lacerda de Oliveira Costa (Universidade Federal do Amapá)", "Julio Cezar Costa Furtado (Unifap)"],
+        "schedule": {
+            "start": "2026-09-09T14:40:00-03:00",
+            "end": "2026-09-09T15:00:00-03:00"
+        },
+        "rooms": ["b9"],
+        "track": "educacao"
+    },
+    {
+        "title": "A teaching practice for Design Patterns using the Four-Component Instructional Design (4C/ID) model",
+        "authors": ["João Batista Silva-Neto (UFMA)", "Rodrigo Nascimento (UFMA)", "Lucas Reis Abreu (UFMA)", "Luis Rivero (UFMA)", "Davi Viana (UFMA)"],
+        "schedule": {
+            "start": "2026-09-09T15:00:00-03:00",
+            "end": "2026-09-09T15:20:00-03:00"
+        },
+        "rooms": ["b9"],
+        "track": "educacao"
+    },
+    {
+        "title": "Aligning Software Engineering Education with Industry Needs through a Soft Skills-Driven PBL Design",
+        "authors": ["Ana Carolina Oran (UFAM)", "Leonardo Marques (SiDi)", "Rayfran Rocha Lima (Sidia Institute of Science and Technology)", "Williamson Silva (UFCA)"],
+        "schedule": {
+            "start": "2026-09-09T15:20:00-03:00",
+            "end": "2026-09-09T15:40:00-03:00"
+        },
+        "rooms": ["b9"],
+        "track": "educacao"
+    },
+    {
+        "title": "Evaluating the Reuse Facilitation of a White-Label Architecture for Educational Quiz Games: A Developer-Centered Study",
+        "authors": ["JOÃO PEDRO BARROS DE MOURA (IFCE Maracanaú)", "Francisco Yuri Carvalho de Oliveira", "Paulo Afonso Pamplona(IFCE)", "Bruno Correia da Silva(IFCE)", "Carlos Henrique Leitão Cavalcante(IFCE)"],
+        "schedule": {
+            "start": "2026-09-09T15:40:00-03:00",
+            "end": "2026-09-09T16:00:00-03:00"
+        },
+        "rooms": ["b9"],
+        "track": "pesquisa"
+    },
+    {
         "title": "A Catalog of Micro Frontends Anti-patterns",
         "authors": ["Nabson Paiva Souza Silva (Ufam, Brazil)", "Tayana Conte (Ufam, Brazil)"],
         "category": "mestrado",
