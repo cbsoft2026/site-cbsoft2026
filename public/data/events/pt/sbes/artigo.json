@@ -1310,6 +1310,46 @@
         "track": "tools"
     },
     {
+        "title": "O Retrato de uma Comunidade Científica: Uma Viagem pelos 39 anos de História da Engenharia de Software Brasileira no SBES",
+        "authors": ["Marcelo Adalton Balisa (UFLA)", "Ruan Basilio (UFLA)", "Sara Souza (UFLA)", "Isaac Silva (UFLA)", "Danilo Chagas Clemente (UFLA)", "Heitor Augustus Xavier Costa (UFLA)"],
+        "schedule": {
+            "start": "2026-09-10T16:30:00-03:00",
+            "end": "2026-09-10T16:50:00-03:00"
+        },
+        "rooms": ["b1"],
+        "track": "special"
+    },
+    {
+        "title": "Resistance Is Futile: It's Time to Rethink Generative AI Usage Policies in the SBES Research Community",
+        "authors": ["Nabor Mendonca (Unifor)"],
+        "schedule": {
+            "start": "2026-09-10T16:50:00-03:00",
+            "end": "2026-09-10T17:10:00-03:00"
+        },
+        "rooms": ["b1"],
+        "track": "special"
+    },
+    {
+        "title": "Scientific Collaboration in Brazilian Software Engineering: A Longitudinal Analysis of the SBES Coauthorship Network (1987–2025)",
+        "authors": ["Andréa Sabedra Bordin (UFSC)", "Luiza Carolina Miranda Garcia (UFSC)", "Rafael Parizi (IFFar)"],
+        "schedule": {
+            "start": "2026-09-10T17:10:00-03:00",
+            "end": "2026-09-10T17:30:00-03:00"
+        },
+        "rooms": ["b1"],
+        "track": "special"
+    },
+    {
+        "title": "Mapeando 40 Anos de Engenharia de Requisitos no Simpósio Brasileiro de Engenharia de Software",
+        "authors": ["Abimael Furtuoso (UFPE)", "Bruno Nascimento (UFPE)", "Ytalo Silva (UFPE)", "Amanda Alves Guimarães (UFPE)", "Alisson Oliveira (UFPE)", "Mozart Alves-Junior (UFPE)", "Maria Lencastre (UPE)", "Jaelson Castro (UFPE)"],
+        "schedule": {
+            "start": "2026-09-10T17:30:00-03:00",
+            "end": "2026-09-10T17:50:00-03:00"
+        },
+        "rooms": ["b1"],
+        "track": "special"
+    },
+    {
         "title": "A Catalog of Micro Frontends Anti-patterns",
         "authors": ["Nabson Paiva Souza Silva (Ufam, Brazil)", "Tayana Conte (Ufam, Brazil)"],
         "category": "mestrado",
