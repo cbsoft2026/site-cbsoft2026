@@ -900,6 +900,66 @@
         "track": "ideias"
     },
     {
+        "title": "Ordenação adaptativa de casos de teste manuais apoiada em estruturas de prefixos compartilhados (trie/DAG)",
+        "authors": ["Marcelo Saraiva (UFAC)", "Jânio Dias da Silva (UFAC)", "Renilson dos Santos Oliveira (UFAC)", "Catarina Costa (UFAC)", "LAURA COSTA SARKIS (UFAC)", "Nícolas Riccieri Gardin Assumpção", "Olacir Rodrigues Castro Junior (UFAC)", "Cleuton Almeida (UFAC)"],
+        "schedule": {
+            "start": "2026-09-10T11:00:00-03:00",
+            "end": "2026-09-10T11:20:00-03:00"
+        },
+        "rooms": ["b10"],
+        "track": "pesquisa"
+    },
+    {
+        "title": "AUTOMMAS: Automating Test Case Generation from User Manuals via Multi-Agent Systems",
+        "authors": ["Andres David Peralta de Aguas (UFAM)", "Gabriel Carvalho (UFAM)", "Igor Lima (UFAM)", "Nilton da Silva Nascimento (UFAM)", "Yan Soares (UFAM)", "Nikson Bernardes Fernandes Ferreira (INdT)", "Hallyson Luiz de Morais Melo (Instituto Nokia de Tecnologia)", "Bruno Gadelha (UFAM)", "André Carvalho (UFAM)"],
+        "schedule": {
+            "start": "2026-09-10T11:20:00-03:00",
+            "end": "2026-09-10T11:35:00-03:00"
+        },
+        "rooms": ["b10"],
+        "track": "ideias"
+    },
+    {
+        "title": "Towards Autonomous Mobile Testing with LLM-Guided Non-Invasive Interaction",
+        "authors": ["Davi Simões Freitas (UFPE)", "Breno Miranda (UFPE)", "Juliano Iyoda (UFPE)"],
+        "schedule": {
+            "start": "2026-09-10T11:35:00-03:00",
+            "end": "2026-09-10T11:50:00-03:00"
+        },
+        "rooms": ["b10"],
+        "track": "ideias"
+    },
+    {
+        "title": "Towards Continuous Evaluation of Prompt Engineering Strategies for Automated Unit Test Generation Using LLMs",
+        "authors": ["Brena Ribeiro (ICMC/USP)", "Simone do Rocio Senger Souza (USP)", "Vânia de Oliveira Neves (UFF)"],
+        "schedule": {
+            "start": "2026-09-10T11:50:00-03:00",
+            "end": "2026-09-10T12:05:00-03:00"
+        },
+        "rooms": ["b10"],
+        "track": "ideias"
+    },
+    {
+        "title": "Towards a Multidimensional Diagnostic Framework for Automated Test Quality Assessment",
+        "authors": ["Victor Alves (USP)", "Carla Bezerra (UFC)", "Marcio Delamaro (USP)"],
+        "schedule": {
+            "start": "2026-09-10T12:05:00-03:00",
+            "end": "2026-09-10T12:20:00-03:00"
+        },
+        "rooms": ["b10"],
+        "track": "ideias"
+    },
+     {
+        "title": "Js-Distributor Extension for Automated Test Migration From Monoliths to Microservices",
+        "authors": ["Ivan Capeli Navas (UFSCAR)", "Daniel Lucrédio (UFSCAR)"],
+        "schedule": {
+            "start": "2026-09-10T12:20:00-03:00",
+            "end": "2026-09-10T12:30:00-03:00"
+        },
+        "rooms": ["b10"],
+        "track": "tools"
+    },
+    {
         "title": "A Catalog of Micro Frontends Anti-patterns",
         "authors": ["Nabson Paiva Souza Silva (Ufam, Brazil)", "Tayana Conte (Ufam, Brazil)"],
         "category": "mestrado",
