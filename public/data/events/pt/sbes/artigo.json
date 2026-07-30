@@ -270,6 +270,66 @@
         "track": "tools"
     },
     {
+        "title": "Cognitive Barriers in Software Security: A Study of Novices’ Interpretation of SAST Reports",
+        "authors": ["Rubens Abraão da Silva Sousa (Uece)", "Gabriel Pinheiro (Uece)", "Ismayle Santos (UECE)", "Sávio Freire(IFCE)"],
+        "schedule": {
+            "start": "2026-09-09T11:00:00-03:00",
+            "end": "2026-09-09T11:20:00-03:00"
+        },
+        "rooms": ["b3"],
+        "track": "pesquisa"
+    },
+    {
+        "title": "Does Retrieval-Augmented Vulnerability Repair Generalize Beyond Snippets? A Study on TypeScript Web Applications",
+        "authors": ["Breno Vergilio (UFMS)", "Matheus Mota", "Awdren de Lima Fontão (UFMS)"],
+        "schedule": {
+            "start": "2026-09-09T11:20:00-03:00",
+            "end": "2026-09-09T11:40:00-03:00"
+        },
+        "rooms": ["b3"],
+        "track": "pesquisa"
+    },
+    {
+        "title": "LLM como “Copiloto Virtual de Segurança”: Apoio à Geração de Requisitos, Evil User Stories e Casos de Testes",
+        "authors": ["André Carvalho (UFRN)", "Eiji Adachi (UFRN)"],
+        "schedule": {
+            "start": "2026-09-09T11:40:00-03:00",
+            "end": "2026-09-09T11:55:00-03:00"
+        },
+        "rooms": ["b3"],
+        "track": "ideias"
+    },
+    {
+        "title": "Operationalizing Regulations into Code: A Model to Enhance Governance and Compliance in LLM Selection for Software Engineering",
+        "authors": ["Jonysberg Peixoto Quintino (UFPE)", "Hermano Perrelli de Moura (UFPE)", "Filipe Calegario (UFPE)"],
+        "schedule": {
+            "start": "2026-09-09T11:55:00-03:00",
+            "end": "2026-09-09T12:10:00-03:00"
+        },
+        "rooms": ["b3"],
+        "track": "ideias"
+    },
+    {
+        "title": "PBI Grid: A Dashboard as Code Tool for Enhancing Maintainability and GovBR Compliance in Power BI Reports",
+        "authors": ["Fernando Maia da Mota (UFMS)", "Eos Xavier  (Fundação Universidade Federal de Mato Grosso do Sul)", "Debora Maria Barroso Paiva  (Universidade Federal de Mato Grosso do Sul)", "Edson Takashi Matsubara  (Fundação Universidade Federal de Mato Grosso do Sul)", "Ricardo Marcondes Marcacini"],
+        "schedule": {
+            "start": "2026-09-09T12:10:00-03:00",
+            "end": "2026-09-09T12:20:00-03:00"
+        },
+        "rooms": ["b3"],
+        "track": "tools"
+    },
+    {
+        "title": "GUAPI: A Gateway-Agnostic, Unified, Data-Driven Platform for API Governance Based on Event Streaming",
+        "authors": ["Estêvão Bissoli Saleme (SERPRO)", "Hellyan Alves de Oliveira", "João Vitor da Silva Gomes", "Flávio Lisboa (SERPRO)"],
+        "schedule": {
+            "start": "2026-09-09T12:20:00-03:00",
+            "end": "2026-09-09T12:30:00-03:00"
+        },
+        "rooms": ["b3"],
+        "track": "tools"
+    },
+    {
         "title": "A Catalog of Micro Frontends Anti-patterns",
         "authors": ["Nabson Paiva Souza Silva (Ufam, Brazil)", "Tayana Conte (Ufam, Brazil)"],
         "category": "mestrado",
