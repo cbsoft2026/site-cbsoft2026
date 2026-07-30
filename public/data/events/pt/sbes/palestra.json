@@ -14,7 +14,7 @@
         "speakers": ["darja-smite"],
         "schedule": {
             "start": "2026-09-09T16:30:00-03:00",
-            "end": "2026-09-09T18:30:00-03:00"
+            "end": "2026-09-09T18:00:00-03:00"
         },
         "description": "Software engineering has always been a story of tools and teamwork. Today, both are being redefined. As organizations experiment with hybrid and remote models, and as generative AI reshapes how we write, review, and reason about code, we face a dual transformation: of work and of intelligence. This talk explores the five paradoxes of modern software work—balancing productivity, engagement, innovation, belonging, and well-being—through evidence from multiple empirical studies across companies worldwide. It connects these insights to the emerging use of GenAI in development, asking: what happens when not only where we work but how we think changes? The keynote invites researchers and practitioners to look beyond efficiency metrics and engage with the deeper design of intelligent, intentional workplaces that actually work.",
         "rooms": ["auditorio-ime"]
