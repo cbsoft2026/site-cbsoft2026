@@ -1130,6 +1130,66 @@
         "track": "tools"
     },
     {
+        "title": "On Adapting a Decision Tree Coverage Criterion for Testing Image Classification Models",
+        "authors": ["Lúcio Castilho Andrade Pinto (ICMC/USP)", "Vinicius Durelli (UFSCAR)", "Márcio Eduardo Delamaro (University of São Paulo)", "Simone do Rocio Senger Souza (USP)"],
+        "schedule": {
+            "start": "2026-09-10T16:30:00-03:00",
+            "end": "2026-09-10T16:50:00-03:00"
+        },
+        "rooms": ["b5"],
+        "track": "pesquisa"
+    },
+    {
+        "title": "On the Limits of LLM-Based Test Case Prioritization in Industrial Black-Box Regression Testing",
+        "authors": ["Alexandre de Lima (UFAM)", "Ronaldo Soares (UFAM)", "Acauan Cardoso Ribeiro (UFRR)", "Yan Soares (UFAM)", "Bruno Gadelha (UFAM)", "José Carlos Rangel do Nascimento (UFAM)", "André Carvalho (UFAM)", "Eulanda Santos (UFAM)"],
+        "schedule": {
+            "start": "2026-09-10T16:50:00-03:00",
+            "end": "2026-09-10T17:10:00-03:00"
+        },
+        "rooms": ["b5"],
+        "track": "pesquisa"
+    },
+    {
+        "title": "DARTS: A Lightweight Extractor of Test Artifacts from Natural Text",
+        "authors": ["Giulia Duarte (UFAM)", "Igor Lima (UFAM)", "Yan Soares (UFAM)", "Pablo Fonseca (UFAM)", "Bruno Gadelha (UFAM)", "André Carvalho (UFAM)"],
+        "schedule": {
+            "start": "2026-09-10T17:10:00-03:00",
+            "end": "2026-09-10T17:25:00-03:00"
+        },
+        "rooms": ["b5"],
+        "track": "ideias"
+    },
+    {
+        "title": "Wireless Connectivity Testing with Mobile Robots: A Bluetooth Low Energy Case Study",
+        "authors": ["Fernanda Neves (UFPE)", "Beatriz Barros (UFPE)", "Adrien Durand-Petiteville (UFPE)", "Breno Miranda (UFPE)"],
+        "schedule": {
+            "start": "2026-09-10T17:25:00-03:00",
+            "end": "2026-09-10T17:40:00-03:00"
+        },
+        "rooms": ["b5"],
+        "track": "ideias"
+    },
+    {
+        "title": "A Compiler Infrastructure for Analysis and Transformation of Textual Specifications",
+        "authors": ["Cristiano Lacerda (USP)", "Simone do Rocio Senger Souza (USP)", "José Carlos Maldonado (ICMC/USP)"],
+        "schedule": {
+            "start": "2026-09-10T17:40:00-03:00",
+            "end": "2026-09-10T17:50:00-03:00"
+        },
+        "rooms": ["b5"],
+        "track": "tools"
+    },
+    {
+        "title": "GenIA-E2ETest: An AI-Driven Platformn for End-to-End Test Automation",
+        "authors": ["Elvis Junior (UFF)", "Pedro Amaro (UFF)", "Allber Ferreira", "Vânia de Oliveira Neves (UFF)"],
+        "schedule": {
+            "start": "2026-09-10T17:50:00-03:00",
+            "end": "2026-09-10T18:00:00-03:00"
+        },
+        "rooms": ["b5"],
+        "track": "tools"
+    },
+    {
         "title": "A Catalog of Micro Frontends Anti-patterns",
         "authors": ["Nabson Paiva Souza Silva (Ufam, Brazil)", "Tayana Conte (Ufam, Brazil)"],
         "category": "mestrado",
