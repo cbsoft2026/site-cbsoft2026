@@ -255,12 +255,11 @@
         "rooms": ["ccsl"]
     },
     {
-        "title": "SBES",
+        "title": "ST27 SBES: Práticas e Ferramentas de Engenharia de Software",
         "schedule": {
             "start": "2026-09-11T14:00:00-03:00",
             "end": "2026-09-11T16:00:00-03:00"
         },
-        "type": "info",
         "rooms": ["auditorio-ime"]
     },
     {
@@ -300,21 +299,27 @@
         "rooms": ["b16"]
     },
     {
-        "title": "SBES",
+        "title": "ST25 SBES: Requisitos, UX e Acessibilidade III",
         "schedule": {
             "start": "2026-09-11T11:00:00-03:00",
             "end": "2026-09-11T12:30:00-03:00"
         },
-        "type": "info",
         "rooms": ["b9"]
     },
     {
-        "title": "SBES",
+        "title": "ST28 SBES: Processos, Gestão e Ecossistemas",
+        "schedule": {
+            "start": "2026-09-11T14:00:00-03:00",
+            "end": "2026-09-11T16:00:00-03:00"
+        },
+        "rooms": ["b9"]
+    },
+    {
+        "title": "ST26 SBES: Manutenção, Refatoração e Dívida Técnica III",
         "schedule": {
             "start": "2026-09-11T11:00:00-03:00",
             "end": "2026-09-11T12:30:00-03:00"
         },
-        "type": "info",
         "rooms": ["b10"]
     }
 ]
