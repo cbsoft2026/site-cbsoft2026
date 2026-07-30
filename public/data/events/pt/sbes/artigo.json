@@ -1350,6 +1350,66 @@
         "track": "special"
     },
     {
+        "title": "From Catalog to Cards: A Two-Cycle Experience of Applying Neuroinclusive Agile Practices in Software Engineering Team-Based Learning",
+        "authors": ["Cristiana Lacerda (CESAR School)", "Kiev Gama (UFPE)", "Alin Lacerda"],
+        "schedule": {
+            "start": "2026-09-10T16:30:00-03:00",
+            "end": "2026-09-10T16:50:00-03:00"
+        },
+        "rooms": ["b2"],
+        "track": "educacao"
+    },
+    {
+        "title": "From Engagement to Meaning: Affective-Semantic Reinforcement for Sustainable Study Habits in Intelligent Educational Systems",
+        "authors": ["Helena Macedo Reis (Universidade Federal do Paraná)", "Anderson da Silva Marcolino (UFPR)", "Alan Cesar de Oliveira Mathias (UFPR)", "Katyeudo Karlos de Sousa Oliveira (IFSertãoPE)"],
+        "schedule": {
+            "start": "2026-09-10T16:50:00-03:00",
+            "end": "2026-09-10T17:10:00-03:00"
+        },
+        "rooms": ["b2"],
+        "track": "educacao"
+    },
+    {
+        "title": "Grading Is Easy, Feedback Is Hard: Evaluating LLMs for Design-Oriented OOP Assessment",
+        "authors": ["Eli Pedro Cordeiro da Silva (UFCG)", "Eliane Araújo (UFCG)", "Everton L. G. Alves (UFCG)"],
+        "schedule": {
+            "start": "2026-09-10T17:10:00-03:00",
+            "end": "2026-09-10T17:30:00-03:00"
+        },
+        "rooms": ["b2"],
+        "track": "educacao"
+    },
+    {
+        "title": "How Can We Support Educators in Adopting Example-Based Learning in Software Engineering Education? An Exploratory Study",
+        "authors": ["Tiago Piperno Bonetti (UEM)", "Matheus Molina Dias (UEM)", "Williamson Silva (UFCA)", "Thelma Elita Colanzi (UEM)"],
+        "schedule": {
+            "start": "2026-09-10T17:30:00-03:00",
+            "end": "2026-09-10T17:50:00-03:00"
+        },
+        "rooms": ["b2"],
+        "track": "educacao"
+    },
+    {
+        "title": "How Does One Become a Game Producer? Trajectories, Gaps, and Curricular Implications",
+        "authors": ["Rafael Lopes (CESAR School)", "Rodrigo Siqueira (CESAR School)", "Danilo Monteiro Ribeiro (CESAR School)"],
+        "schedule": {
+            "start": "2026-09-10T17:50:00-03:00",
+            "end": "2026-09-10T18:10:00-03:00"
+        },
+        "rooms": ["b2"],
+        "track": "educacao"
+    },
+    {
+        "title": "Learning to Teach: A Rapid Review on Active Methodologies and Learning Theories in Software Engineering Education",
+        "authors": ["Lucas Sarmento de Araújo (UFAM)", "Eduardo James Pereira Souto (UFAM)", "Ana Carolina Oran (UFAM)"],
+        "schedule": {
+            "start": "2026-09-10T18:10:00-03:00",
+            "end": "2026-09-10T18:30:00-03:00"
+        },
+        "rooms": ["b2"],
+        "track": "educacao"
+    },
+    {
         "title": "A Catalog of Micro Frontends Anti-patterns",
         "authors": ["Nabson Paiva Souza Silva (Ufam, Brazil)", "Tayana Conte (Ufam, Brazil)"],
         "category": "mestrado",
