@@ -1410,6 +1410,56 @@
         "track": "educacao"
     },
     {
+        "title": "Investigating Psychological Safety in Requirements Engineering",
+        "authors": ["Rodrigo Feitosa (PESC/COPPE/UFRJ)", "Sabrina Rocha (UFRJ)", "Claudio Miceli de Farias (UFRJ)", "Kathia Oliveira (UPHF France)", "Maria Teresa Baldassarre (University of Bari)", "Guilherme Horta Travassos (COPPE/UFRJ)"],
+        "schedule": {
+            "start": "2026-09-11T11:00:00-03:00",
+            "end": "2026-09-11T11:20:00-03:00"
+        },
+        "rooms": ["b9"],
+        "track": "pesquisa"
+    },
+    {
+        "title": "Is It Possible to Step into Someone Else’s Shoes? An Experimental Study on Compatibility Between Cognitive Styles and GenderMag Personas",
+        "authors": ["Carolina Yumi Fujii (UTFPR)", "Igor Scaliante Wiese (UTFPR)", "Walter Nakamura (UTFPR)]"],
+        "schedule": {
+            "start": "2026-09-11T11:20:00-03:00",
+            "end": "2026-09-11T11:40:00-03:00"
+        },
+        "rooms": ["b9"],
+        "track": "pesquisa"
+    },
+    {
+        "title": "Practitioners’ Perceptions of Data Quality Requirements in Machine Learning-Enabled Systems: An Exploratory Study",
+        "authors": ["Kevin Pontes (UFC)", "Arthur Cordeiro (UFC)", "Jessica da Silva", "Jhefferson Souza (UFC, Universidade Federal do Ceará)", "Emanuel Ávila (UFC)", "Hugo Villamizar (PUC-Rio)", "Marcelo Martins da Silva (UFC)", "Anderson Uchôa (UFC)"],
+        "schedule": {
+            "start": "2026-09-11T11:40:00-03:00",
+            "end": "2026-09-11T12:00:00-03:00"
+        },
+        "rooms": ["b9"],
+        "track": "pesquisa"
+    },
+    {
+        "title": "Yuma-Code: Automating LLM Agent Generation from Natural Language Specifications",
+        "authors": ["Débora Souza (UFCG)", "Caíque Campelo (UFCG)", "André Neves (UFCG)", "Patricia Machado (UFCG)", "Eliane Araújo (UFCG)", "Leandro Balby Marinho (UFCG)", "Everton L.G. Alves (UFCG)"],
+        "schedule": {
+            "start": "2026-09-11T12:00:00-03:00",
+            "end": "2026-09-11T12:20:00-03:00"
+        },
+        "rooms": ["b9"],
+        "track": "pesquisa"
+    },
+    {
+        "title": "Reactify: An Intelligent Platform for Agile Requirements Engineering Based on REACT and REACT-M",
+        "authors": ["Katlen Vanessa dos Santos da Silva (Unifap)", "Luma Gabriela Andrade da Silva (Unifap)", "Julio Cezar Costa Furtado (Unifap)"],
+        "schedule": {
+            "start": "2026-09-11T12:20:00-03:00",
+            "end": "2026-09-11T12:30:00-03:00"
+        },
+        "rooms": ["b9"],
+        "track": "tools"
+    },
+    {
         "title": "A Catalog of Micro Frontends Anti-patterns",
         "authors": ["Nabson Paiva Souza Silva (Ufam, Brazil)", "Tayana Conte (Ufam, Brazil)"],
         "category": "mestrado",
