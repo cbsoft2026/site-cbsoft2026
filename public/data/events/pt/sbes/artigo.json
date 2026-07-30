@@ -1,5 +1,55 @@
 [
     {
+        "title": "Let's plAI: A Case Study on AI-Assisted Game Creation in Software Engineering Education",
+        "authors": ["Rafael Parizi (IFFar)", "Lorenzo Acosta Campos (IFFarroupilha)", "Alexandre Pires da Fonseca (IFFarroupilha)", "Enzo Kleinpaul (IFFarroupilha)"],
+        "schedule": {
+            "start": "2026-09-09T11:00:00-03:00",
+            "end": "2026-09-09T11:20:00-03:00"
+        },
+        "rooms": ["auditorio-ime"],
+        "track": "educacao"
+    },
+    {
+        "title": "Observing the Conduct of Systematic Reviews with Generative AI Support: An Experience Report from a Graduate Software Engineering Course",
+        "authors": ["Danilo Monteiro Ribeiro (CESAR School)", "Gilberto Hida (CESAR School)"],
+        "schedule": {
+            "start": "2026-09-09T11:20:00-03:00",
+            "end": "2026-09-09T11:40:00-03:00"
+        },
+        "rooms": ["auditorio-ime"],
+        "track": "educacao"
+    },
+    {
+        "title": "Programming Dojo as a Pedagogical Strategy in Object-Oriented Programming Education: A Multi-Semester Study at a Public and a Private Institution",
+        "authors": ["Talita Ribeiro (UERJ)", "Rebeca Motta (UFF)"],
+        "schedule": {
+            "start": "2026-09-09T11:40:00-03:00",
+            "end": "2026-09-09T12:00:00-03:00"
+        },
+        "rooms": ["auditorio-ime"],
+        "track": "educacao"
+    },
+    {
+        "title": "Thirteen Years Teaching Software Engineering at a Brazilian Federal Institute: An Experience Report from a Night-Shift Information Systems Course",
+        "authors": ["Crescencio Lima (IFBA)", "Amanda Ferraz de O. Passos (IFBA)", "Crijina Flores (Salvador University, IFBA)", "Djan Santos (IFBA)", "Luis Paulo Carvalho (IFBA)", "Claudio Rodolfo Sousa de Oliveira (IFBA)", "Alexandro dos Santos Silva (IFBA)", "José Alberto Diaz Amado", "Kenedy Marconi Geraldo dos Santos (IFBA)", "Natalia Lima de Oliveira Santos (UFBA)"],
+        "schedule": {
+            "start": "2026-09-09T12:00:00-03:00",
+            "end": "2026-09-09T12:20:00-03:00"
+        },
+        "rooms": ["auditorio-ime"],
+        "track": "educacao"
+    },
+    {
+        "title": "DevDog: A Gamified Web Platform for Teaching Code Smell Identification",
+        "authors": ["Luciano Ricardo Silva Junior", "Sergio Antonio Andrade de Freitas (UnB)", "Andre Luiz Peron Martins Lanna (UnB)"],
+        "schedule": {
+            "start": "2026-09-09T12:20:00-03:00",
+            "end": "2026-09-09T12:30:00-03:00"
+        },
+        "rooms": ["auditorio-ime"],
+        "track": "tools"
+    },
+    {
         "title": "A Catalog of Micro Frontends Anti-patterns",
         "authors": ["Nabson Paiva Souza Silva (Ufam, Brazil)", "Tayana Conte (Ufam, Brazil)"],
         "category": "mestrado",
