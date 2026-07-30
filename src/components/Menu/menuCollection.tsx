@@ -54,7 +54,14 @@ export default function generatedCollection(t: Translator, commonT: Translator) 
     title: commonT('sbes'),
     href: '/symposiums/sbes',
     items: [
-      { title: commonT('siglas.trilhas.special'), href: '/symposiums/sbes/special/call' },
+      {
+        title: commonT('siglas.trilhas.special'),
+        href: '/symposiums/sbes/special/call',
+        items: [
+          { title: t('chamada_trabalhos'), href: '/symposiums/sbes/special/call' },
+          { title: t('artigos_aceitos'), href: '/symposiums/sbes/special/papers' },
+        ],
+      },
       {
         title: commonT('siglas.trilhas.pesquisa'),
         href: '/symposiums/sbes/pesquisa/call',
