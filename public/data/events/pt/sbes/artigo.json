@@ -1240,6 +1240,76 @@
         "track": "educacao"
     },
     {
+        "title": "A Multi-Approach Evaluation of Python Code Smell Detection Using Heuristics, Learning Models, and Language Models",
+        "authors": ["Igor Soares de Oliveira (PUC-Rio)", "Alexandre César Brandão de Andrade (PUC-Rio)", "Saymon Silva Souza", "Eduardo Figueiredo (UFMG)", "Juliana Alves Pereira (PUC-Rio)"],
+        "schedule": {
+            "start": "2026-09-10T16:30:00-03:00",
+            "end": "2026-09-10T16:50:00-03:00"
+        },
+        "rooms": ["b10"],
+        "track": "pesquisa"
+    },
+    {
+        "title": "Avaliação de Técnicas de Engenharia de Prompt para Detecção de Dívidas Técnicas em Artefatos Textuais de Software",
+        "authors": ["Ricardo Yamasaki Sassagawa (UFAC)", "Raoni Simoes Ferreira (UFAM)", "Catarina Costa (UFAC)"],
+        "schedule": {
+            "start": "2026-09-10T16:50:00-03:00",
+            "end": "2026-09-10T17:10:00-03:00"
+        },
+        "rooms": ["b10"],
+        "track": "pesquisa"
+    },
+    {
+        "title": "Dependency Version Migration in Software Projects: A Rapid Review of Motivations, Techniques, Tools, and Challenges",
+        "authors": ["Arthur Vinícius Bezerra da Silva (IFPE)", "Leopoldo Motta Teixeira (UFPE)", "Wesley K. G. Assunção (North Carolina State University)", "Bruno Cartaxo (IFPE)"],
+        "schedule": {
+            "start": "2026-09-10T17:10:00-03:00",
+            "end": "2026-09-10T17:30:00-03:00"
+        },
+        "rooms": ["b10"],
+        "track": "pesquisa"
+    },
+    {
+        "title": "Detecting Behavioral Changes in Python Refactoring Implementation with Foundation Models",
+        "authors": ["Jonhnanthan Oliveira (UFCG)", "Rohit Gheyi (UFCG)", "Marcio Ribeiro (UFAL)", "Alessandro Garcia (PUC-Rio)"],
+        "schedule": {
+            "start": "2026-09-10T17:30:00-03:00",
+            "end": "2026-09-10T17:50:00-03:00"
+        },
+        "rooms": ["b10"],
+        "track": "pesquisa"
+    },
+    {
+        "title": "Detecting, Ranking and Planning Issue-based Refactorings with a Multi-Agent Architecture",
+        "authors": ["Henrique Peres (PUC-Rio)", "Alessandro Garcia (PUC-Rio)"],
+        "schedule": {
+            "start": "2026-09-10T17:50:00-03:00",
+            "end": "2026-09-10T18:10:00-03:00"
+        },
+        "rooms": ["b10"],
+        "track": "pesquisa"
+    },
+    {
+        "title": "ARIT: A Tool for Detecting Code Smells in Clojure Programs",
+        "authors": ["Thiago Laurentino (UFCG)", "Rafael Serey (UFCG)", "Walber Araújo (UFCG)", "Natália Rodrigues João Brunet (UFCG)"],
+        "schedule": {
+            "start": "2026-09-10T18:10:00-03:00",
+            "end": "2026-09-10T18:20:00-03:00"
+        },
+        "rooms": ["b10"],
+        "track": "tools"
+    },
+    {
+        "title": "JADE: A VSCode Plugin for Static Analysis-Guided AI-Assisted Refactoring",
+        "authors": ["Ruan Neres (IFTM)", "Marcelo de Almeida Maia (UFU)", "Carlos Eduardo Carvalho Dantas (IFTM-UDI-CENTRO)"],
+        "schedule": {
+            "start": "2026-09-10T18:20:00-03:00",
+            "end": "2026-09-10T18:30:00-03:00"
+        },
+        "rooms": ["b10"],
+        "track": "tools"
+    },
+    {
         "title": "A Catalog of Micro Frontends Anti-patterns",
         "authors": ["Nabson Paiva Souza Silva (Ufam, Brazil)", "Tayana Conte (Ufam, Brazil)"],
         "category": "mestrado",
