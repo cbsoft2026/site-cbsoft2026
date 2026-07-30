@@ -1460,6 +1460,56 @@
         "track": "tools"
     },
     {
+        "title": "MergirafSemi: A Language-Agnostic Semistructured Merge Tool",
+        "authors": ["Pedro Henrique Lopes dos Santos (UFPE)", "Paulo Borba (UFPE)", "Paola Accioly (UFPE)", "Guilherme José de Carvalho Cavalcanti (IFPE)"],
+        "schedule": {
+            "start": "2026-09-11T11:00:00-03:00",
+            "end": "2026-09-11T11:20:00-03:00"
+        },
+        "rooms": ["b10"],
+        "track": "pesquisa"
+    },
+    {
+        "title": "FeatureRef: Towards Effective Refactoring of Features",
+        "authors": ["José Glauber Braz de Oliveira (UFCG)", "Thelma Elita Colanzi (UEM)", "Alessandro Garcia (PUC-Rio)", "Ana Carla Bibiano (PUC-Rio)", "Wesley K. G. Assunção (North Carolina State University)", "Rafael Maiani de Mello (UFRJ)", "Caio Barbosa Vieira da Silva (PUC-Rio)", "Anderson Uchôa (UFC)", "Anderson José Silva de Oliveira (SERPRO)", "João Lucas Correia", "Everton L.G. Alves (UFCG)", "Melina Mongiovi (UFCG)"],
+        "schedule": {
+            "start": "2026-09-11T11:20:00-03:00",
+            "end": "2026-09-11T11:40:00-03:00"
+        },
+        "rooms": ["b10"],
+        "track": "pesquisa"
+    },
+    {
+        "title": "Xtract: Um plugin baseado em IA para Recomendações Explicáveis da Refatoração Extract Method",
+        "authors": ["Guisella Ângulo (Universidade Federal de São Carlos)", "Igor Ueno", "Valter Vieira Camargo (UFSCAR)"],
+        "schedule": {
+            "start": "2026-09-11T11:40:00-03:00",
+            "end": "2026-09-11T11:50:00-03:00"
+        },
+        "rooms": ["b10"],
+        "track": "tools"
+    },
+    {
+        "title": "Scylla: A Unified Tool for Code Smell Classification in Python",
+        "authors": ["Igor Soares de Oliveira (PUC-Rio)", "Alexandre César Brandão de Andrade (PUC-Rio)", "Rayssa Athayde (PUC-Rio)", "Eduardo Nadai (PUC-Rio)", "Juliana Alves Pereira (PUC-Rio)"],
+        "schedule": {
+            "start": "2026-09-11T11:50:00-03:00",
+            "end": "2026-09-11T12:00:00-03:00"
+        },
+        "rooms": ["b10"],
+        "track": "tools"
+    },
+    {
+        "title": "Automated detection of algorithm debt in deep learning frameworks: an empirical study",
+        "authors": ["Emmanuel Iko-Ojo Simon", "Chirath Hettiarachchi", "Alex Potanin", "Fatemeh Fard", "Hanna Suominen"],
+        "schedule": {
+            "start": "2026-09-11T12:00:00-03:00",
+            "end": "2026-09-11T12:20:00-03:00"
+        },
+        "rooms": ["b10"],
+        "category": "J1C2"
+    },
+    {
         "title": "A Catalog of Micro Frontends Anti-patterns",
         "authors": ["Nabson Paiva Souza Silva (Ufam, Brazil)", "Tayana Conte (Ufam, Brazil)"],
         "category": "mestrado",
