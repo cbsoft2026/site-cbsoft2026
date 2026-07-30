@@ -39,7 +39,8 @@
       "special": "Trilha Especial SBES 40 Anos",
       "ctic": "Concurso de Trabalhos de Iniciação Científica",
       "ctd": "Concursos de Teses e Dissertações em Engenharia de Software"
-    }
+    },
+    "J1C2": "Journal First-Conference Second"
   },
   "eventos": {
     "artigo": "Artigo",

@@ -61,6 +61,14 @@ async function ParentTable({ events, event, locale }: Props) {
             ) : (
               ''
             )}
+            {parentEvent.category &&
+            `common.siglas.${parentEvent.category}` != commonT(`siglas.${parentEvent.category}`) ? (
+              <span className={styles.chip}>
+                <small>{commonT(`siglas.${parentEvent.category}`)}</small>
+              </span>
+            ) : (
+              ''
+            )}
           </div>
           <p>{parentEvent.description}</p>
           <i>
