@@ -710,6 +710,76 @@
         "track": "pesquisa"
     },
     {
+        "title": "Accessibility in interactive systems: what do software developers think, do, and aim for?",
+        "authors": ["Vitor Pauletti (UFMT)", "Jullya Castro Santos", "Pedro Henrique Dias Valle (USP)", "Renan Vinicius Aranha (USP)"],
+        "schedule": {
+            "start": "2026-09-09T14:00:00-03:00",
+            "end": "2026-09-09T14:20:00-03:00"
+        },
+        "rooms": ["b3"],
+        "track": "pesquisa"
+    },
+    {
+        "title": "Breaking the preliminary barrier: integrating continuous UX research into agile requirement engineering",
+        "authors": ["Leonardo Aparecido Ciscon (UFSCAR)", "Adler Diniz de Souza (UNIFEI)", "Joelma Choma (UFSCar Sorocaba)", "Luciana Zaina (UFSCAR)"],
+        "schedule": {
+            "start": "2026-09-09T14:20:00-03:00",
+            "end": "2026-09-09T14:40:00-03:00"
+        },
+        "rooms": ["b3"],
+        "track": "pesquisa"
+    },
+    {
+        "title": "Bridging the Detection-Correction Gap: A Prompt Engineering Framework for Automated Accessibility Repair",
+        "authors": ["Joao Wieland (COPPE / UFRJ)", "Claudia Werner (COPPE / UFRJ)"],
+        "schedule": {
+            "start": "2026-09-09T14:40:00-03:00",
+            "end": "2026-09-09T15:00:00-03:00"
+        },
+        "rooms": ["b3"],
+        "track": "pesquisa"
+    },
+    {
+        "title": "How Continuously do Brazilian Software Startups Practice Requirements Engineering?",
+        "authors": ["Guilherme Pedro Santos Jardim", "Breno Bernard Nicolau de França (UNICAMP)"],
+        "schedule": {
+            "start": "2026-09-09T15:00:00-03:00",
+            "end": "2026-09-09T15:20:00-03:00"
+        },
+        "rooms": ["b3"],
+        "track": "pesquisa"
+    },
+    {
+        "title": "Generating Inclusive Personas with Documentary Evidence: An Exploratory Study Using LLMs and RAG",
+        "authors": ["Ana Gabriela Pires e Silva (UFAM)", "Tayana Conte (UFAM)"],
+        "schedule": {
+            "start": "2026-09-09T15:20:00-03:00",
+            "end": "2026-09-09T15:35:00-03:00"
+        },
+        "rooms": ["b3"],
+        "track": "ideias"
+    },
+    {
+        "title": "Semantic Traceability in Requirements Engineering: Integrating Text, Interface, and Tests",
+        "authors": ["Suelen Pereira (UFAM)", "Rayfran Rocha Lima (Sidia Institute of Science and Technology)", "Bruno Gadelha (UFAM)", "Ana Carolina Oran (UFAM)"],
+        "schedule": {
+            "start": "2026-09-09T15:35:00-03:00",
+            "end": "2026-09-09T15:50:00-03:00"
+        },
+        "rooms": ["b3"],
+        "track": "ideias"
+    },
+    {
+        "title": "SoftBoard: A Multi-Agent Tool for the Creation and Evaluation of Low-Fidelity Prototypes",
+        "authors": ["Gabriel Scapim (UEM)", "Gislaine Camila Lapasini Leal (UEM)", "Guilherme Guerino (UNESPAR)"],
+        "schedule": {
+            "start": "2026-09-09T15:50:00-03:00",
+            "end": "2026-09-09T16:00:00-03:00"
+        },
+        "rooms": ["b3"],
+        "track": "tools"
+    },
+    {
         "title": "A Catalog of Micro Frontends Anti-patterns",
         "authors": ["Nabson Paiva Souza Silva (Ufam, Brazil)", "Tayana Conte (Ufam, Brazil)"],
         "category": "mestrado",
