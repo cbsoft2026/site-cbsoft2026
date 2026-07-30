@@ -55,10 +55,38 @@ export default function generatedCollection(t: Translator, commonT: Translator) 
     href: '/symposiums/sbes',
     items: [
       { title: commonT('siglas.trilhas.special'), href: '/symposiums/sbes/special/call' },
-      { title: commonT('siglas.trilhas.pesquisa'), href: '/symposiums/sbes/pesquisa/call' },
-      { title: commonT('siglas.trilhas.educacao'), href: '/symposiums/sbes/educacao/call' },
-      { title: commonT('siglas.trilhas.ideias'), href: '/symposiums/sbes/ideias/call' },
-      { title: commonT('siglas.trilhas.tools'), href: '/symposiums/sbes/tools/call' },
+      {
+        title: commonT('siglas.trilhas.pesquisa'),
+        href: '/symposiums/sbes/pesquisa/call',
+        items: [
+          { title: t('chamada_trabalhos'), href: '/symposiums/sbes/pesquisa/call' },
+          { title: t('artigos_aceitos'), href: '/symposiums/sbes/pesquisa/papers' },
+        ],
+      },
+      {
+        title: commonT('siglas.trilhas.educacao'),
+        href: '/symposiums/sbes/educacao/call',
+        items: [
+          { title: t('chamada_trabalhos'), href: '/symposiums/sbes/educacao/call' },
+          { title: t('artigos_aceitos'), href: '/symposiums/sbes/educacao/papers' },
+        ],
+      },
+      {
+        title: commonT('siglas.trilhas.ideias'),
+        href: '/symposiums/sbes/ideias/call',
+        items: [
+          { title: t('chamada_trabalhos'), href: '/symposiums/sbes/ideias/call' },
+          { title: t('artigos_aceitos'), href: '/symposiums/sbes/ideias/papers' },
+        ],
+      },
+      {
+        title: commonT('siglas.trilhas.tools'),
+        href: '/symposiums/sbes/tools/call',
+        items: [
+          { title: t('chamada_trabalhos'), href: '/symposiums/sbes/tools/call' },
+          { title: t('artigos_aceitos'), href: '/symposiums/sbes/tools/papers' },
+        ],
+      },
       { title: commonT('siglas.trilhas.industry'), href: '/symposiums/sbes/industry/call' },
       { title: commonT('siglas.trilhas.ctic'), href: '/symposiums/sbes/ctic/call' },
       {
