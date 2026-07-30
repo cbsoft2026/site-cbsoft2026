@@ -121,12 +121,11 @@
         "rooms": ["ccsl"]
     },
     {
-        "title": "SBES",
+        "title": "ST20 SBES: Testes e Qualidade III",
         "schedule": {
             "start": "2026-09-10T16:30:00-03:00",
             "end": "2026-09-10T18:30:00-03:00"
         },
-        "type": "info",
         "rooms": ["b5"]
     },
     {
@@ -148,66 +147,67 @@
         "rooms": ["b16"]
     },
     {
-        "title": "SBES",
+        "title": "ST15 SBES: Segurança e Confiabilidade II",
         "schedule": {
             "start": "2026-09-10T11:00:00-03:00",
             "end": "2026-09-10T12:30:00-03:00"
         },
-        "type": "info",
         "rooms": ["b9"]
     },
     {
-        "title": "SBES",
+        "title": "ST21 SBES: Educação em Engenharia de Software IV",
         "schedule": {
             "start": "2026-09-10T16:30:00-03:00",
             "end": "2026-09-10T18:30:00-03:00"
         },
-        "type": "info",
         "rooms": ["b9"]
     },
     {
-        "title": "SBES",
+        "title": "ST16 SBES: Testes e Qualidade II",
         "schedule": {
             "start": "2026-09-10T11:00:00-03:00",
             "end": "2026-09-10T12:30:00-03:00"
         },
-        "type": "info",
         "rooms": ["b10"]
     },
     {
-        "title": "SBES",
+        "title": "ST22 SBES: Manutenção, Refatoração e Dívida Técnica II",
         "schedule": {
             "start": "2026-09-10T16:30:00-03:00",
             "end": "2026-09-10T18:30:00-03:00"
         },
-        "type": "info",
         "rooms": ["b10"]
     },
     {
-        "title": "SBES",
+        "title": "ST17 SBES: Educação em Engenharia de Software III",
         "schedule": {
             "start": "2026-09-10T11:00:00-03:00",
             "end": "2026-09-10T12:30:00-03:00"
         },
-        "type": "info",
         "rooms": ["b1"]
     },
     {
-        "title": "SBES",
+        "title": "ST23 SBES: SBES 40 Anos: História, Comunidade e Futuro",
         "schedule": {
             "start": "2026-09-10T16:30:00-03:00",
             "end": "2026-09-10T18:30:00-03:00"
         },
-        "type": "info",
         "rooms": ["b1"]
     },
     {
-        "title": "SBES",
+        "title": "ST18 SBES: Fatores Humanos em Engenharia de Software II",
         "schedule": {
             "start": "2026-09-10T11:00:00-03:00",
             "end": "2026-09-10T12:30:00-03:00"
         },
-        "type": "info",
+        "rooms": ["b2"]
+    },
+    {
+        "title": "ST24 SBES: Educação em Engenharia de Software V",
+        "schedule": {
+            "start": "2026-09-10T16:30:00-03:00",
+            "end": "2026-09-10T18:30:00-03:00"
+        },
         "rooms": ["b2"]
     },
     {
@@ -217,7 +217,15 @@
             "end": "2026-09-10T18:30:00-03:00"
         },
         "type": "info",
-        "rooms": ["b2"]
+        "rooms": ["b101"]
+    },
+    {
+        "title": "ST19 SBES: Métodos e Ferramentas para Pesquisa em Engenharia de Software",
+        "schedule": {
+            "start": "2026-09-10T11:00:00-03:00",
+            "end": "2026-09-10T12:30:00-03:00"
+        },
+        "rooms": ["b3"]
     },
     {
         "title": "SBES: CTD",
@@ -226,7 +234,7 @@
             "end": "2026-09-10T12:30:00-03:00"
         },
         "type": "info",
-        "rooms": ["b3"]
+        "rooms": ["b101"]
     },
     {
         "title": "SBES: CTD",
