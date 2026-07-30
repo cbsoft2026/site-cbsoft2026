@@ -380,6 +380,76 @@
         "track": "tools"
     },
     {
+        "title": "Characterizing Horizontal Pod Autoscaler Usage in Open-Source Kubernetes Projects: A Large-Scale Empirical Study",
+        "authors": ["Thiago Serafim Rodrigues (Unifor)", "Humberto F. Ribeiro Júnior (Unifor)", "Nabor Mendonca (Unifor)"],
+        "schedule": {
+            "start": "2026-09-09T14:00:00-03:00",
+            "end": "2026-09-09T14:20:00-03:00"
+        },
+        "rooms": ["auditorio-ime"],
+        "track": "pesquisa"
+    },
+    {
+        "title": "From Code to Architecture: Responsibility Analysis and Dependency Graphs in the Inference of Architectural Patterns in Kotlin",
+        "authors": ["João Pedro Moura (UFPE)", "Breno Miranda (UFPE)"],
+        "schedule": {
+            "start": "2026-09-09T14:20:00-03:00",
+            "end": "2026-09-09T14:40:00-03:00"
+        },
+        "rooms": ["auditorio-ime"],
+        "track": "pesquisa"
+    },
+    {
+        "title": "Orchestration, Interoperability, and Architecture in LLM-Based Multi-Agent Systems: A Systematic Mapping Study",
+        "authors": ["Jucie Xavier Silva (IFPI)", "Guilherme Avelino (UFPI)"],
+        "schedule": {
+            "start": "2026-09-09T14:40:00-03:00",
+            "end": "2026-09-09T15:00:00-03:00"
+        },
+        "rooms": ["auditorio-ime"],
+        "track": "pesquisa"
+    },
+    {
+        "title": "Towards a component-based framework for mHealth apps: Bridging the gap between the nursing domain language and the computation domain",
+        "authors": ["William Niemiec", "Érika Cota"],
+        "schedule": {
+            "start": "2026-09-09T15:00:00-03:00",
+            "end": "2026-09-09T15:20:00-03:00"
+        },
+        "rooms": ["auditorio-ime"],
+        "category": "J1C2"
+    },
+    {
+        "title": "GADR: Gathering Architecture Decision Records from Meeting Transcriptions",
+        "authors": ["Lucas Daniel Costa da Silva (UFPE)", "Kiev Gama (UFPE)"],
+        "schedule": {
+            "start": "2026-09-09T15:20:00-03:00",
+            "end": "2026-09-09T15:35:00-03:00"
+        },
+        "rooms": ["auditorio-ime"],
+        "track": "ideias"
+    },
+    {
+        "title": "Observa: Framework para Detecção Automática de Anti-padrões de Observabilidade",
+        "authors": ["Francisco Gomes  (UFC)", "Paulo Antonio Leal Rego  (Federal University of Ceará)", "Fernando Antonio Mota Trinta  (UFC)"],
+        "schedule": {
+            "start": "2026-09-09T15:35:00-03:00",
+            "end": "2026-09-09T15:45:00-03:00"
+        },
+        "rooms": ["auditorio-ime"],
+        "track": "tools"
+    },
+    {
+        "title": "toMicroservices 2.0: Empowering Architects in the Interactive Modernization of Monolithic Systems",
+        "authors": ["João Castanho (UEM / Universidade Paranaense)", "João Gomes", "Thelma Elita Colanzi (UEM)", "Aline Maria M. M. Amaral (UEM)", "Wesley Klewerton Guez Assunção (North Carolina State University, United States of America)", "Alessandro Garcia (PUC-Rio)"],
+        "schedule": {
+            "start": "2026-09-09T15:45:00-03:00",
+            "end": "2026-09-09T15:55:00-03:00"
+        },
+        "rooms": ["auditorio-ime"],
+        "track": "tools"
+    },
+    {
         "title": "A Catalog of Micro Frontends Anti-patterns",
         "authors": ["Nabson Paiva Souza Silva (Ufam, Brazil)", "Tayana Conte (Ufam, Brazil)"],
         "category": "mestrado",
