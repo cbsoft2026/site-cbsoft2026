@@ -510,6 +510,66 @@
         "track": "pesquisa"
     },
     {
+        "title": "An Emoji-Aware Analysis of Human Sentiment in Agentic Code Review",
+        "authors": ["Karina Kohl (UFRGS)", "Anielle Severo Lisboa de Andrade (UNIPAMPA)"],
+        "schedule": {
+            "start": "2026-09-09T14:00:00-03:00",
+            "end": "2026-09-09T14:20:00-03:00"
+        },
+        "rooms": ["b10"],
+        "track": "pesquisa"
+    },
+    {
+        "title": "Empirical Study of Domain Knowledge Acquisition in Developer Onboarding: A Survey",
+        "authors": ["RAFAELA OTEMAIER (PUCPR)", "Sheila Reinehr (PUCPR)", "Andreia Malucelli (PUCPR)"],
+        "schedule": {
+            "start": "2026-09-09T14:20:00-03:00",
+            "end": "2026-09-09T14:40:00-03:00"
+        },
+        "rooms": ["b10"],
+        "track": "pesquisa"
+    },
+    {
+        "title": "How Project Managers Handle Individualism and Collectivism: A Preliminary Study",
+        "authors": ["BARBARA GEOVANINI (UNIRIO)", "Gleison Santos (UNIRIO)"],
+        "schedule": {
+            "start": "2026-09-09T14:40:00-03:00",
+            "end": "2026-09-09T15:00:00-03:00"
+        },
+        "rooms": ["b10"],
+        "track": "pesquisa"
+    },
+    {
+        "title": "Who Holds the Power? Managing Power in Software Ecosystems",
+        "authors": ["Juliana Carvalho Silva (UNIRIO)", "Paulo Malcher (UFRA)", "Rodrigo Pereira dos Santos (UNIRIO)", "Eleni Constantinou", "Alexander Serebrenik (Eindhoven University of Technology)"],
+        "schedule": {
+            "start": "2026-09-09T15:00:00-03:00",
+            "end": "2026-09-09T15:20:00-03:00"
+        },
+        "rooms": ["b10"],
+        "track": "pesquisa"
+    },
+    {
+        "title": "Are We Measuring the Wrong Things? How Software Project Leaders View Gen-AI-Assisted Developer Productivity",
+        "authors": ["Ana Carolina Freitas das Chagas (UFAM)", "Rayfran Rocha Lima (Sidia Institute of Science and Technology)", "Ana Carolina Oran (UFAM)"],
+        "schedule": {
+            "start": "2026-09-09T15:20:00-03:00",
+            "end": "2026-09-09T15:35:00-03:00"
+        },
+        "rooms": ["b10"],
+        "track": "ideias"
+    },
+    {
+        "title": "Repositório de Dinâmicas Reutilizáveis: Promovendo o Onboarding Inclusivo para Engenheiros de Software com TEA",
+        "authors": ["Stela Marisco Duarte (UFMS)", "Daniel Vitoriano (UFMS)", "Maria Istela Cagnin (Universidade Federal de Mato Grosso do Sul)"],
+        "schedule": {
+            "start": "2026-09-09T15:35:00-03:00",
+            "end": "2026-09-09T15:50:00-03:00"
+        },
+        "rooms": ["b10"],
+        "track": "ideias"
+    },
+    {
         "title": "A Catalog of Micro Frontends Anti-patterns",
         "authors": ["Nabson Paiva Souza Silva (Ufam, Brazil)", "Tayana Conte (Ufam, Brazil)"],
         "category": "mestrado",
