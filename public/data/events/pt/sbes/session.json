@@ -1,111 +1,115 @@
 [
     {
-        "title": "SBES",
+        "title": "ST01 SBES: Educação em Engenharia de Software I",
         "schedule": {
             "start": "2026-09-09T11:00:00-03:00",
             "end": "2026-09-09T12:30:00-03:00"
         },
-        "type": "info",
         "rooms": ["auditorio-ime"]
     },
     {
-        "title": "SBES",
+        "title": "ST08 SBES: Arquitetura, APIs, Microsserviços e Cloud",
         "schedule": {
             "start": "2026-09-09T14:00:00-03:00",
             "end": "2026-09-09T16:00:00-03:00"
         },
-        "type": "info",
         "rooms": ["auditorio-ime"]
     },
     {
-        "title": "SBES",
+        "title": "ST02 SBES: Engenharia de Software para IA e Ciência de Dados",
         "schedule": {
             "start": "2026-09-09T11:00:00-03:00",
             "end": "2026-09-09T12:30:00-03:00"
         },
-        "type": "info",
         "rooms": ["b9"]
     },
     {
-        "title": "SBES",
+        "title": "ST09 SBES: Educação em Engenharia de Software II",
         "schedule": {
             "start": "2026-09-09T14:00:00-03:00",
             "end": "2026-09-09T16:00:00-03:00"
         },
-        "type": "info",
         "rooms": ["b9"]
     },
     {
-        "title": "SBES",
+        "title": "ST03 SBES: Manutenção, Refatoração e Dívida Técnica I",
         "schedule": {
             "start": "2026-09-09T11:00:00-03:00",
             "end": "2026-09-09T12:30:00-03:00"
         },
-        "type": "info",
         "rooms": ["b10"]
     },
     {
-        "title": "SBES",
+        "title": "ST10 SBES: Fatores Humanos em Engenharia de Software I",
         "schedule": {
             "start": "2026-09-09T14:00:00-03:00",
             "end": "2026-09-09T16:00:00-03:00"
         },
-        "type": "info",
         "rooms": ["b10"]
     },
     {
-        "title": "SBES",
+        "title": "ST04 SBES: IA para Engenharia de Software I",
         "schedule": {
             "start": "2026-09-09T11:00:00-03:00",
             "end": "2026-09-09T12:30:00-03:00"
         },
-        "type": "info",
         "rooms": ["b1"]
     },
     {
-        "title": "SBES",
+        "title": "ST11 SBES: IA para Engenharia de Software II",
         "schedule": {
             "start": "2026-09-09T14:00:00-03:00",
             "end": "2026-09-09T16:00:00-03:00"
         },
-        "type": "info",
         "rooms": ["b1"]
     },
     {
-        "title": "SBES",
+        "title": "ST05 SBES: Requisitos, UX e Acessibilidade I",
         "schedule": {
             "start": "2026-09-09T11:00:00-03:00",
             "end": "2026-09-09T12:30:00-03:00"
         },
-        "type": "info",
         "rooms": ["b2"]
     },
     {
-        "title": "SBES",
+        "title": "ST12 SBES: Análise Estática e Evolução de Software",
         "schedule": {
             "start": "2026-09-09T14:00:00-03:00",
             "end": "2026-09-09T16:00:00-03:00"
         },
-        "type": "info",
         "rooms": ["b2"]
     },
     {
-        "title": "SBES",
+        "title": "ST06 SBES: Segurança e Confiabilidade I",
         "schedule": {
             "start": "2026-09-09T11:00:00-03:00",
             "end": "2026-09-09T12:30:00-03:00"
         },
-        "type": "info",
         "rooms": ["b3"]
     },
     {
-        "title": "SBES",
+        "title": "ST13 SBES: Requisitos, UX e Acessibilidade II",
         "schedule": {
             "start": "2026-09-09T14:00:00-03:00",
             "end": "2026-09-09T16:00:00-03:00"
         },
-        "type": "info",
         "rooms": ["b3"]
+    },
+    {
+        "title": "ST07 SBES: Sustentabilidade e IoT",
+        "schedule": {
+            "start": "2026-09-09T11:00:00-03:00",
+            "end": "2026-09-09T12:30:00-03:00"
+        },
+        "rooms": ["b101"]
+    },
+    {
+        "title": "ST14 SBES: Testes e Qualidade I",
+        "schedule": {
+            "start": "2026-09-09T14:00:00-03:00",
+            "end": "2026-09-09T16:00:00-03:00"
+        },
+        "rooms": ["b101"]
     },
     {
         "title": "SBES: Tools Demonstration",
