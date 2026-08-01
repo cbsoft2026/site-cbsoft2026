@@ -5,6 +5,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faCalendar } from '@fortawesome/free-regular-svg-icons';
 import { getTranslations } from 'next-intl/server';
 import SpeakerCard from '@/components/SpeakerCard';
+import TemplateMarkdown from '../TemplateMarkdown';
 
 type Props = {
   events: Record<string, Event>;
@@ -142,7 +143,7 @@ export default async function EventComponent({ events, event, locale }: Props) {
               </p>
             )}
 
-            {event.description ? <p>{event.description}</p> : ''}
+            {event.description ? <TemplateMarkdown>{event.description}</TemplateMarkdown> : ''}
           </>
         ) : (
           <></>
