@@ -54,6 +54,10 @@
         {
           "href": "https://www.google.com/",
           "image": "google.png"
+        },
+        {
+          "href": "https://www.marlabs.com",
+          "image": "marlabs.png"
         }
       ]
     },
