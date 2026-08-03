@@ -221,9 +221,10 @@ sast:
             pt: "Submissão dos Artigos Completos da Indústria"
             en: "Full Industry Paper Submission"
     notification_acceptance:
-        date: 2026-08-03
+        date: 2026-08-04
         history:
             - 2026-07-31
+            - 2026-08-03
         label:
             pt: "Notificação de aceitação"
             en: "Notification of Acceptance"
