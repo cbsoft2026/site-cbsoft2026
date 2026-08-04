@@ -129,21 +129,21 @@
         "rooms": ["b5"]
     },
     {
-        "title": "SBES - Trilha da Indústria",
+        "title": "ST1 SBES - Trilha da Indústria: Developer Experience, AI Design & Requirements Engineering",
+        "description": "Opening + 5 papers",
         "schedule": {
             "start": "2026-09-10T11:00:00-03:00",
             "end": "2026-09-10T12:30:00-03:00"
         },
-        "type": "info",
         "rooms": ["b16"]
     },
     {
-        "title": "SBES - Trilha da Indústria",
+        "title": "ST2 SBES - Trilha da Indústria: Enterprise Knowledge Systems, RAG & MLOps",
+        "description": "Sponsor presentation + 6 papers",
         "schedule": {
             "start": "2026-09-10T16:30:00-03:00",
             "end": "2026-09-10T18:30:00-03:00"
         },
-        "type": "info",
         "rooms": ["b16"]
     },
     {
@@ -263,30 +263,32 @@
         "rooms": ["auditorio-ime"]
     },
     {
-        "title": "SBES - Trilha da Indústria",
+        "title": "ST3 SBES - Trilha da Indústria: Developer Experience, API Governance & Systems Engineering",
+        "description": "5 papers (ENGLISH)",
         "schedule": {
             "start": "2026-09-11T11:00:00-03:00",
             "end": "2026-09-11T12:30:00-03:00"
         },
-        "type": "info",
+        "lang": "en",
         "rooms": ["b16"]
     },
     {
-        "title": "SBES - Trilha da Indústria",
+        "title": "Invited Industry Keynote + ST4 SBES - Trilha da Indústria: AI Governance, Guardrails & Enterprise Modernization",
+        "description": "Invited Talk + 2 papers (ENGLISH)",
         "schedule": {
             "start": "2026-09-11T14:00:00-03:00",
             "end": "2026-09-11T16:00:00-03:00"
         },
-        "type": "info",
+        "lang": "en",
         "rooms": ["b16"]
     },
     {
-        "title": "SBES - Trilha da Indústria",
+        "title": "ST5 SBES - Trilha da Indústria: Testing, QA, Resilience & Production Intelligence",
+        "description": "4 papers",
         "schedule": {
             "start": "2026-09-11T16:30:00-03:00",
             "end": "2026-09-11T18:00:00-03:00"
         },
-        "type": "info",
         "rooms": ["b16"]
     },
     {
