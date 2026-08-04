@@ -1840,6 +1840,26 @@
         "track": "industry"
     },
     {
+        "title": "AI-Assisted Legacy Modernization in a Brazilian Bank",
+        "authors": ["Bruno Pereira Soares", "Manoel Valerio da Silveira Neto (Confirmed English - Banking Compliance & Guardrails)"],
+        "schedule": {
+            "start": "2026-09-11T15:00:00-03:00",
+            "end": "2026-09-11T15:00:00-03:00"
+        },
+        "rooms": ["b16"],
+        "track": "industry"
+    },
+    {
+        "title": "Measuring What Matters: Experience Report on Continuous Improvement of Large-Scale Government APIs",
+        "authors": ["Estêvão Bissoli Saleme (Confirmed English)"],
+        "schedule": {
+            "start": "2026-09-11T15:00:00-03:00",
+            "end": "2026-09-11T15:00:00-03:00"
+        },
+        "rooms": ["b16"],
+        "track": "industry"
+    },
+    {
         "title": "A Catalog of Micro Frontends Anti-patterns",
         "authors": ["Nabson Paiva Souza Silva (Ufam, Brazil)", "Tayana Conte (Ufam, Brazil)"],
         "category": "mestrado",

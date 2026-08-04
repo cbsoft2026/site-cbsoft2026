@@ -66,8 +66,8 @@ function EventCardWrapper(props: Props, start: Date, end: Date) {
             {props.event.description && <p title={props.event.description}>{props.event.description}</p>}
             {props.view === 'list' && props.rooms.length > rooms.length ? <p>{eventRooms}</p> : ''}
           </div>
-          <div>
-            {props.event.moderators && (
+          <div className={styles['content__extra']}>
+            {props.event.moderators && props.event.moderators.length > 0 && (
               <div className={styles['content__images']}>
                 {props.event.moderators?.map((participant) => {
                   if (participant === null || Array.isArray(participant)) {
@@ -96,7 +96,7 @@ function EventCardWrapper(props: Props, start: Date, end: Date) {
               </div>
             )}
 
-            {props.event.participants && (
+            {props.event.participants && props.event.participants.length > 0 && (
               <div
                 className={(() => {
                   if (props.event.participants.length <= 1) return styles['content__solo'];
@@ -139,14 +139,14 @@ function EventCardWrapper(props: Props, start: Date, end: Date) {
                 })}
               </div>
             )}
-            {props.event.lang && props.event.lang != defaultLang ? (
+            {props.event.lang && props.event.lang != defaultLang && props.event.participants.length <= 0 ? (
               <div>
                 <picture>
                   <img
                     src={`${process.env.NEXT_PUBLIC_ASSET_PREFIX}/images/icon/${props.event.lang}.png`}
-                    width={36}
+                    width={42}
                     alt={props.event.lang}
-                    style={{ minWidth: '36px' }}
+                    style={{ minWidth: '42px' }}
                   />
                 </picture>
               </div>

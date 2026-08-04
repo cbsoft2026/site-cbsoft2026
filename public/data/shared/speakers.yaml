@@ -161,3 +161,8 @@
   name: Prof. Dr. Adenilso da Silva Simao
   institution: ICMC-USP
   bio: Professor Titular da Universidade de São Paulo, bacharel em Ciência da Computação pela Universidade Estadual de Maringá, mestre e doutor em Ciências da Computação e Matemática Computacional pela USP, com pós-doutorado no Centre de Recherche Informatique de Montréal. Atua em Engenharia de Software, especialmente em teste de software, métodos formais e linguagens de programação, além de desenvolver pesquisas em Bioinformática. Na USP, exerceu diversas funções acadêmicas e administrativas, incluindo a coordenação de cursos de graduação e pós-graduação, a presidência da Comissão de Pós-Graduação do ICMC, a Vice-Diretoria do Instituto e a função de Pró-Reitor Adjunto de Pós-Graduação. Também atuou no Conselho da Sociedade Brasileira de Computação e em corpos editoriais de periódicos científicos. 
+
+- id: alex
+  name: Alex
+  institution: Google
+  institution_acronym: Google

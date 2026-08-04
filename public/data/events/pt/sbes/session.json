@@ -273,10 +273,10 @@
         "rooms": ["b16"]
     },
     {
-        "title": "Invited Industry Keynote + ST4 SBES - Trilha da Indústria: AI Governance, Guardrails & Enterprise Modernization",
-        "description": "Invited Talk + 2 papers (ENGLISH)",
+        "title": "ST4 SBES - Trilha da Indústria: AI Governance, Guardrails & Enterprise Modernization",
+        "description": "2 papers (ENGLISH)",
         "schedule": {
-            "start": "2026-09-11T14:00:00-03:00",
+            "start": "2026-09-11T15:00:00-03:00",
             "end": "2026-09-11T16:00:00-03:00"
         },
         "lang": "en",
