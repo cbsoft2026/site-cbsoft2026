@@ -1610,16 +1610,6 @@
         "track": "pesquisa"
     },
     {
-        "title": "A Portfolio of Game-Based Learning Activities in Software Project Management Education: An Experience Report",
-        "authors": ["Virgínia Moreira Marques Colares (UFSM)", "Gustavo Pott de Oliveira (UFSM)", "Lisandra Manzoni Fontoura (UFSM)"],
-        "schedule": {
-            "start": "2026-09-11T15:00:00-03:00",
-            "end": "2026-09-11T15:20:00-03:00"
-        },
-        "rooms": ["b9"],
-        "track": "educacao"
-    },
-    {
         "title": "Towards a Conceptual Approach to Support Knowledge Transfer Evaluation in Software Engineering Processes",
         "authors": ["Williby Ferreira (UFPE)", "Juliana de Albuquerque Gonç Saraiva (UFPB)", "Sergio Soares (UFPE)"],
         "schedule": {
