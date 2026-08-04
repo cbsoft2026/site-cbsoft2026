@@ -1750,6 +1750,56 @@
         "track": "industry"
     },
     {
+        "title": "Design-System-Aware Development with AI: Evaluating Productivity and Design Consistency",
+        "authors": ["Luciane Silva", "Thayssa Rocha", "Nicole da Costa Davila", "Gustavo Pinto (Confirmed English)"],
+        "schedule": {
+            "start": "2026-09-11T11:00:00-03:00",
+            "end": "2026-09-11T11:00:00-03:00"
+        },
+        "rooms": ["b16"],
+        "track": "industry"
+    },
+    {
+        "title": "Automating Cross-Boundary Bug Reporting: A Case Study on Scaling Dogfooding and Actionable Feedback with ODM Partners",
+        "authors": ["Eberth Cruz", "José Alberto Gurgel Cardoso Neto (Confirmed English)"],
+        "schedule": {
+            "start": "2026-09-11T11:00:00-03:00",
+            "end": "2026-09-11T11:00:00-03:00"
+        },
+        "rooms": ["b16"],
+        "track": "industry"
+    },
+    {
+        "title": "An Experience Report on Exploring CPU Usage Spike Monitoring in Linux Electronic Control Units Using Extended Berkeley Packet Filter",
+        "authors": ["Larissa Pestana", "Breno Miranda (Confirmed English)"],
+        "schedule": {
+            "start": "2026-09-11T11:00:00-03:00",
+            "end": "2026-09-11T11:00:00-03:00"
+        },
+        "rooms": ["b16"],
+        "track": "industry"
+    },
+    {
+        "title": "Payment Golden Catalog: A Centralized Dependency Catalog for Secure Dependency Management in Gradle Projects",
+        "authors": ["Danilo Chagas Clemente", "Cristiano Hahn", "Rita de Cassia Oliveira", "Heitor Augustus Xavier Costa"],
+        "schedule": {
+            "start": "2026-09-11T11:00:00-03:00",
+            "end": "2026-09-11T11:00:00-03:00"
+        },
+        "rooms": ["b16"],
+        "track": "industry"
+    },
+    {
+        "title": "Hephaestus: A Supervised Agent for AI-Driven Software Development",
+        "authors": ["Diego Camarinha (Confirmed English — Supervised Agent Guardrails)"],
+        "schedule": {
+            "start": "2026-09-11T11:00:00-03:00",
+            "end": "2026-09-11T11:00:00-03:00"
+        },
+        "rooms": ["b16"],
+        "track": "industry"
+    },
+    {
         "title": "A Catalog of Micro Frontends Anti-patterns",
         "authors": ["Nabson Paiva Souza Silva (Ufam, Brazil)", "Tayana Conte (Ufam, Brazil)"],
         "category": "mestrado",
