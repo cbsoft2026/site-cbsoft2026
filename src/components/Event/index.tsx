@@ -6,6 +6,7 @@ import { faCalendar } from '@fortawesome/free-regular-svg-icons';
 import { getTranslations } from 'next-intl/server';
 import SpeakerCard from '@/components/SpeakerCard';
 import TemplateMarkdown from '../TemplateMarkdown';
+import { defaultLang } from '@/app/config/locales';
 
 type Props = {
   events: Record<string, Event>;
@@ -97,7 +98,23 @@ export default async function EventComponent({ events, event, locale }: Props) {
         {event ? (
           <>
             <header className={styles.header}>
-              <h1>{event.title}</h1>
+              <h1>
+                {event.title}
+                {event.lang && event.lang != defaultLang ? (
+                  <>
+                    <picture>
+                      <img
+                        src={`${process.env.NEXT_PUBLIC_ASSET_PREFIX}/images/icon/${event.lang}.png`}
+                        width={40}
+                        alt={event.lang}
+                        style={{ minWidth: '40px' }}
+                      />
+                    </picture>
+                  </>
+                ) : (
+                  <></>
+                )}
+              </h1>
 
               <div className={styles['chips__grouped']}>
                 {event.simposio ? (

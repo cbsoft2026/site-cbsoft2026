@@ -121,6 +121,7 @@ export function loadEvents(lang: string = defaultLang): Map<string, Event> {
             description: p.description,
             participants: participantsSession,
             parentIds: [],
+            lang: p.lang || defaultLang,
           };
 
           sessionMap.push(sessionEvent);
@@ -197,6 +198,7 @@ export function loadEvents(lang: string = defaultLang): Map<string, Event> {
             description: p.description,
             participants: participantsPainel,
             moderators: moderatorsPainel,
+            lang: p.lang || defaultLang,
           });
         });
       },
@@ -220,6 +222,7 @@ export function loadEvents(lang: string = defaultLang): Map<string, Event> {
           description: p.description,
           participants: participantsSession,
           moderators: moderatorsSession,
+          lang: p.lang || defaultLang,
         });
       });
     });
@@ -242,6 +245,7 @@ export function loadEvents(lang: string = defaultLang): Map<string, Event> {
           description: p.description,
           participants: participantsSession,
           moderators: moderatorsSession,
+          lang: p.lang || defaultLang,
         });
       });
     });

@@ -11,6 +11,9 @@ export const ScheduleSchema = Type.Object({
   rooms: Type.Optional(Type.Array(Type.String(), { default: [] })),
   type: Type.Optional(Type.String()),
   description: Type.Optional(Type.String()),
+
+  /* usar o padrao i18n como lang (pt, en) */
+  lang: Type.Optional(Type.String()),
 });
 
 export const SchedulesSchema = Type.Array(ScheduleSchema);

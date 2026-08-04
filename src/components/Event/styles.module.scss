@@ -6,6 +6,11 @@
 
   h1 {
     width: min(100%, 800px);
+
+    img {
+      vertical-align: middle;
+      margin: 0 15px;
+    }
   }
 }
 

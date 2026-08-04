@@ -5,6 +5,7 @@ import Image from 'next/image';
 import { useTranslations } from 'next-intl';
 import LinkLocale from '../LinkLocale';
 import React from 'react';
+import { defaultLang } from '@/app/config/locales';
 
 type Props = {
   event: Event;
@@ -65,79 +66,94 @@ function EventCardWrapper(props: Props, start: Date, end: Date) {
             {props.event.description && <p title={props.event.description}>{props.event.description}</p>}
             {props.view === 'list' && props.rooms.length > rooms.length ? <p>{eventRooms}</p> : ''}
           </div>
+          <div>
+            {props.event.moderators && (
+              <div className={styles['content__images']}>
+                {props.event.moderators?.map((participant) => {
+                  if (participant === null || Array.isArray(participant)) {
+                    return null;
+                  }
 
-          {props.event.moderators && (
-            <div className={styles['content__images']}>
-              {props.event.moderators?.map((participant) => {
-                if (participant === null || Array.isArray(participant)) {
-                  return null;
-                }
+                  const isString = typeof participant === 'string';
 
-                const isString = typeof participant === 'string';
+                  const key = isString ? participant : participant.id;
+                  const name = isString ? participant : participant.name;
 
-                const key = isString ? participant : participant.id;
-                const name = isString ? participant : participant.name;
+                  const image = isString
+                    ? `${process.env.NEXT_PUBLIC_ASSET_PREFIX}/images/nonimage.png`
+                    : participant.image?.startsWith('http')
+                      ? participant.image
+                      : `${process.env.NEXT_PUBLIC_ASSET_PREFIX}/images/${
+                          participant.image ? `speakers/${participant.image}` : 'nonimage.png'
+                        }`;
 
-                const image = isString
-                  ? `${process.env.NEXT_PUBLIC_ASSET_PREFIX}/images/nonimage.png`
-                  : participant.image?.startsWith('http')
-                    ? participant.image
-                    : `${process.env.NEXT_PUBLIC_ASSET_PREFIX}/images/${
-                        participant.image ? `speakers/${participant.image}` : 'nonimage.png'
-                      }`;
-
-                return (
-                  <div key={key} className={styles['content__image']}>
-                    <Image src={image} width={240} height={240} alt={name} title={name} />
-                  </div>
-                );
-              })}
-            </div>
-          )}
-
-          {props.event.participants && (
-            <div
-              className={(() => {
-                if (props.event.participants.length <= 1) return styles['content__solo'];
-                return styles['content__images'];
-              })()}
-            >
-              {props.event.participants?.map((participant) => {
-                if (participant === null || Array.isArray(participant)) {
-                  return null;
-                }
-
-                const isString = typeof participant === 'string';
-
-                const key = isString ? participant : participant.id;
-                const name = isString ? participant : participant.name;
-
-                const image = isString
-                  ? `${process.env.NEXT_PUBLIC_ASSET_PREFIX}/images/nonimage.png`
-                  : participant.image?.startsWith('http')
-                    ? participant.image
-                    : `${process.env.NEXT_PUBLIC_ASSET_PREFIX}/images/${
-                        participant.image ? `speakers/${participant.image}` : 'nonimage.png'
-                      }`;
-
-                return (
-                  <React.Fragment key={key}>
-                    <div className={styles['content__image']}>
+                  return (
+                    <div key={key} className={styles['content__image']}>
                       <Image src={image} width={240} height={240} alt={name} title={name} />
                     </div>
-                    {!isString && props.event.participants.length <= 1 && (
-                      <div>
-                        <b>{participant.name}</b>
-                        {participant.institution_acronym && (
-                          <p className='text-secondary'>{participant.institution_acronym}</p>
-                        )}
+                  );
+                })}
+              </div>
+            )}
+
+            {props.event.participants && (
+              <div
+                className={(() => {
+                  if (props.event.participants.length <= 1) return styles['content__solo'];
+                  return styles['content__images'];
+                })()}
+              >
+                {props.event.participants?.map((participant) => {
+                  if (participant === null || Array.isArray(participant)) {
+                    return null;
+                  }
+
+                  const isString = typeof participant === 'string';
+
+                  const key = isString ? participant : participant.id;
+                  const name = isString ? participant : participant.name;
+
+                  const image = isString
+                    ? `${process.env.NEXT_PUBLIC_ASSET_PREFIX}/images/nonimage.png`
+                    : participant.image?.startsWith('http')
+                      ? participant.image
+                      : `${process.env.NEXT_PUBLIC_ASSET_PREFIX}/images/${
+                          participant.image ? `speakers/${participant.image}` : 'nonimage.png'
+                        }`;
+
+                  return (
+                    <React.Fragment key={key}>
+                      <div className={styles['content__image']}>
+                        <Image src={image} width={42} height={42} alt={name} title={name} />
                       </div>
-                    )}
-                  </React.Fragment>
-                );
-              })}
-            </div>
-          )}
+                      {!isString && props.event.participants.length <= 1 && (
+                        <div>
+                          <b>{participant.name}</b>
+                          {participant.institution_acronym && (
+                            <p className='text-secondary'>{participant.institution_acronym}</p>
+                          )}
+                        </div>
+                      )}
+                    </React.Fragment>
+                  );
+                })}
+              </div>
+            )}
+            {props.event.lang && props.event.lang != defaultLang ? (
+              <div>
+                <picture>
+                  <img
+                    src={`${process.env.NEXT_PUBLIC_ASSET_PREFIX}/images/icon/${props.event.lang}.png`}
+                    width={36}
+                    alt={props.event.lang}
+                    style={{ minWidth: '36px' }}
+                  />
+                </picture>
+              </div>
+            ) : (
+              <></>
+            )}
+          </div>
         </div>
       </div>
     </div>
