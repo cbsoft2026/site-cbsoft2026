@@ -1640,6 +1640,56 @@
         "track": "tools"
     },
     {
+        "title": "Improving Software Quality Through AI-Assisted Discovery in a Large Enterprise System",
+        "authors": ["William Niemiec", "Matheus Pereira", "Douglas Silva", "Daniela Caroline Kock Klitzke", "Ian Tomelin Serpa", "Gilbran Cristovão", "Cristian Zimmermann de Araujo"],
+        "schedule": {
+            "start": "2026-09-10T11:00:00-03:00",
+            "end": "2026-09-10T11:00:00-03:00"
+        },
+        "rooms": ["b16"],
+        "track": "industry"
+    },
+    {
+        "title": "Beyond Productivity Gains: Understanding the Impact of AI Coding Assistants on Developer Experience in a Brazilian Fintech",
+        "authors": ["Sabrina Carlé Winckler", "Leticia Machado", "Josiane Kroll"],
+        "schedule": {
+            "start": "2026-09-10T11:00:00-03:00",
+            "end": "2026-09-10T11:00:00-03:00"
+        },
+        "rooms": ["b16"],
+        "track": "industry"
+    },
+    {
+        "title": "Using LLM for Requirements Specification in Data Science Projects: An Industrial Experience Report",
+        "authors": ["Murilo Coelho", "Vitor Linhares", "Dione Amâncio", "Matheus Paixão", "Sávio Freire", "Paulo Maia"],
+        "schedule": {
+            "start": "2026-09-10T11:00:00-03:00",
+            "end": "2026-09-10T11:00:00-03:00"
+        },
+        "rooms": ["b16"],
+        "track": "industry"
+    },
+    {
+        "title": "Uma Proposta de Arquitetura de Consolidação Financeira Multimodal via Agentes Conversacionais para Micro e Pequenos Negócios",
+        "authors": ["Davi Teixeira", "Adler Diniz de Souza"],
+        "schedule": {
+            "start": "2026-09-10T11:00:00-03:00",
+            "end": "2026-09-10T11:00:00-03:00"
+        },
+        "rooms": ["b16"],
+        "track": "industry"
+    },
+    {
+        "title": "Automatizando auditorias de processo de software com Atlassian Rovo (Jira AI): um estudo de caso na indústria",
+        "authors": ["Gabriel Rodrigues Cezar", "Mateus Nunes", "Nayane Alves", "Anderson Arruda", "Renan Silva", "Gizelle Lemos"],
+        "schedule": {
+            "start": "2026-09-10T11:00:00-03:00",
+            "end": "2026-09-10T11:00:00-03:00"
+        },
+        "rooms": ["b16"],
+        "track": "industry"
+    },
+    {
         "title": "A Catalog of Micro Frontends Anti-patterns",
         "authors": ["Nabson Paiva Souza Silva (Ufam, Brazil)", "Tayana Conte (Ufam, Brazil)"],
         "category": "mestrado",
