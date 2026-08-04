@@ -1800,6 +1800,46 @@
         "track": "industry"
     },
     {
+        "title": "Enhancing Performance Testing with N-Version Testing: An Industrial Experience Report",
+        "authors": ["Críssia Marcelino", "Breno Miranda"],
+        "schedule": {
+            "start": "2026-09-11T16:30:00-03:00",
+            "end": "2026-09-11T16:30:00-03:00"
+        },
+        "rooms": ["b16"],
+        "track": "industry"
+    },
+    {
+        "title": "Deploy Canário com Guardrails Automatizados: Evidências de Aumento de Disponibilidade e Aceleração do Ciclo de Entrega em Larga Escala",
+        "authors": ["Luiz Henrique de Souza"],
+        "schedule": {
+            "start": "2026-09-11T16:30:00-03:00",
+            "end": "2026-09-11T16:30:00-03:00"
+        },
+        "rooms": ["b16"],
+        "track": "industry"
+    },
+    {
+        "title": "Uma Solução Industrial para Gargalos de Escalabilidade em Sistemas Embarcados do Setor de Energia Solar",
+        "authors": ["Pedro Cobucci", "Heitor Augustus Xavier Costa"],
+        "schedule": {
+            "start": "2026-09-11T16:30:00-03:00",
+            "end": "2026-09-11T16:30:00-03:00"
+        },
+        "rooms": ["b16"],
+        "track": "industry"
+    },
+    {
+        "title": "Agent Iris: Using Artificial Intelligence for Incident Analysis in Production Environments at Large-Scale Services",
+        "authors": ["Rita de Cassia Oliveira", "Danilo Chagas Clemente", "Heitor Augustus Xavier Costa"],
+        "schedule": {
+            "start": "2026-09-11T16:30:00-03:00",
+            "end": "2026-09-11T16:30:00-03:00"
+        },
+        "rooms": ["b16"],
+        "track": "industry"
+    },
+    {
         "title": "A Catalog of Micro Frontends Anti-patterns",
         "authors": ["Nabson Paiva Souza Silva (Ufam, Brazil)", "Tayana Conte (Ufam, Brazil)"],
         "category": "mestrado",
