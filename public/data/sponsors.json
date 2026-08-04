@@ -58,6 +58,10 @@
         {
           "href": "https://www.marlabs.com",
           "image": "marlabs.png"
+        },
+        {
+          "href": "https://www.redhat.com/pt-br/services/training/red-hat-academy",
+          "image": "red_hat_academy.svg"
         }
       ]
     },
