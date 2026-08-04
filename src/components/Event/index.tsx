@@ -40,7 +40,7 @@ async function ParentTable({ events, event, locale }: Props) {
     return (
       <tr key={index}>
         <th style={{ display: 'flex', minWidth: 150 }}>
-          {parentEvent.schedule ? (
+          {parentEvent.schedule && parentEvent.schedule.start != parentEvent.schedule.end ? (
             <p>
               {new Date(parentEvent.schedule.start).toLocaleDateString(locale, {
                 month: 'short',
