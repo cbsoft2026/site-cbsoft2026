@@ -73,6 +73,10 @@
       "header": ["Taxas extras", "Valor"],
       "rows": [
         ["Taxa de publicação por artigo", "R$ 70,00"],
+        [
+          "Taxa complementar para inscrição de autor estudante (aplicável apenas quando não houver coautor profissional inscrito)",
+          "R$ 390,00"
+        ],
         ["Jantar por adesão - Outback Steakhouse (Pinheiros)", "R$ 170,00"]
       ]
     }
