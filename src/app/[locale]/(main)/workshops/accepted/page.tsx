@@ -23,7 +23,7 @@ const workshops: WorkshopsLinks[] = [
     link: 'https://vemworkshop.github.io/vem2026',
   },
   {
-    name: 'IV Brazilian Workshop on Intelligent Software Engineering (ISE)',
+    name: 'V Brazilian Workshop on Intelligent Software Engineering (ISE)',
     link: 'https://www.virtus.ufcg.edu.br/iseworkshop/',
   },
   {
