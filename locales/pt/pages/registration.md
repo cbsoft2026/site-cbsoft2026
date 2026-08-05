@@ -32,4 +32,4 @@ A inscrição inclui apenas alimentação nos coffee breaks. O almoço é por co
 
 ### Política de cancelamento
 
-Solicitações de cancelamento de inscrição feitas até o dia 20/08/2026 poderão receber reembolso de 70% do valor pago pela inscrição no CBSoft'2026, sendo os 30% restantes utilizados para cobrir os custos administrativos da inscrição. Após essa data, não haverá devolução de qualquer valor pago. Essa política aplica-se tanto ao cancelamento da inscrição quanto ao da taxa de publicação. Para solicitar o cancelamento, o participante deverá enviar e-mail para [faturamento@sbc.org.br](mailto:faturamento@sbc.org.br).
+Solicitações de cancelamento de inscrição feitas até o dia **24/08/2026** poderão receber reembolso de 70% do valor pago pela inscrição no CBSoft 2026, sendo os 30% restantes utilizados para cobrir os custos administrativos. Após essa data, não haverá devolução de qualquer valor pago. Essa política aplica-se tanto ao cancelamento da inscrição quanto ao da taxa de publicação. Para solicitar o cancelamento, o participante deverá enviar um e-mail para [faturamento@sbc.org.br](mailto:faturamento@sbc.org.br).
