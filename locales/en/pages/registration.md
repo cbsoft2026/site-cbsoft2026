@@ -2,19 +2,19 @@
 
 # Informações adicionais
 
-### Inscrição + associação (ou renovação de associação) à SBC
+### Inscrição + Associação (ou Renovação) à SBC
 
-Estas categorias referem-se a um valor com desconto, aplicado na inscrição no evento e na associação à SBC. Tal modalidade foi criada com a intenção de tornar a soma desses dois benefícios mais barata do que a aquisição de cada um deles separadamente, sendo, portanto, a opção mais vantajosa para quem ainda não é associado à SBC ou está com a anuidade prestes a vencer ou já vencida. Mais informações podem ser encontradas na página de perguntas frequentes (FAQ) do site da SBC, disponível em português.
+Esta categoria oferece um valor promocional para a inscrição no evento integrada à anuidade da SBC. A opção Combo é a mais vantajosa para quem ainda não é associado ou está com a anuidade vencida (ou a vencer), pois garante um custo total menor do que adquirir a inscrição e a associação separadamente. Para mais detalhes, consulte a [página de dúvidas frequentes da SBC](https://www.sbc.org.br/duvidas-frequentes/).
 
 ### Inscrição de estudantes
 
-Os valores de inscrição para estudantes estão disponíveis apenas para aqueles que possuam matrícula ativa em cursos de graduação ou de pós-graduação de instituições de ensino superior, não se aplicando a pesquisadores em pós-doutorado. No momento da inscrição pelo meio do sistema ECOS, será exigido o envio eletrônico de um comprovante de vínculo estudantil contendo afiliação, nome do participante, curso no qual está matriculado e data atual. Somente após a SBC verificar o documento (o que pode levar até 1 dia útil para análise) será possível dar prosseguimento ao pagamento da inscrição. Para evitar transtornos, sugere-se que a inscrição no evento não seja realizada no último dia da faixa de inscrição. Somente após a validação pela SBC, as formas de pagamento serão liberadas. O inscrito receberá e-mails informativos em todas as etapas do processo de inscrição no CBSoft'2026.
+Os valores de inscrição para estudantes são exclusivos para matriculados em cursos de graduação ou pós-graduação de instituições de ensino superior, não se aplicando a pesquisadores em pós-doutorado. No momento da inscrição no sistema ECOS, é necessário enviar eletronicamente um comprovante de vínculo estudantil recente, contendo o nome do participante, afiliação e curso. A liberação do pagamento ocorre somente após a verificação do documento pela SBC, **processo que pode levar até 1 dia útil**. Por isso, recomendamos efetuar o cadastro com antecedência e não deixá-lo para o último dia do período de inscrição. O inscrito receberá notificações por e-mail em todas as etapas do processo de inscrição.
 
 ### Inscrição para autores
 
-Todos os artigos aceitos serão publicados na SBC OpenLibrary (SOL). São obrigatórios (i) a inscrição de pelo menos um autor de cada artigo aceito na categoria profissional e (ii) o pagamento da taxa de publicação de cada artigo aceito. Além disso, o artigo precisa ser apresentado no evento. Essas são condições obrigatórias para a publicação do artigo nos anais do evento. A inscrição e a taxa de publicação de cada artigo devem ser pagas até 07/08/2026 (fim da primeira faixa de preços).
+Todos os artigos aceitos serão publicados na SBC OpenLibrary (SOL). São obrigatórios (i) a inscrição de pelo menos um autor de cada artigo aceito na categoria profissional (ou na categoria estudante acrescida da taxa complementar de R$ 390,00, caso não haja coautor profissional inscrito) e (ii) o pagamento da taxa de publicação de cada artigo aceito. Além disso, o artigo precisa ser apresentado no evento. Essas são condições obrigatórias para a publicação do artigo nos anais do evento. A inscrição e a taxa de publicação de cada artigo devem ser pagas até 21/08/2026 (fim do primeiro período de inscrições).
 
-Para casos específicos e dúvidas frequentes sobre inscrição de autores, consulte o FAQ: [clique aqui](cbsoft/faq-authors)
+Para casos específicos, detalhes sobre a taxa complementar e dúvidas frequentes sobre inscrição de autores, consulte o FAQ: [clique aqui](cbsoft/faq-authors).
 
 ### Formas de pagamento
 
@@ -26,8 +26,7 @@ O participante deverá acessar o sistema ECOS e realizar sua inscrição, seleci
 
 ### Benefício para associados institucionais
 
-Como benefício aos Associados Institucionais, a SBC prevê 5 inscrições gratuitas e 50% de desconto para outras 5 inscrições, a escolher, em qualquer evento realizado pela SBC (limitado a 5 participantes por evento para cada associado Institucional). Mais informações em https://www.sbc.org.br/associe-se-2/269-beneficios
-Será permitido aos autores de artigos o máximo de 1 (uma) isenção de inscrição (taxa de publicação não isenta), seja ela de 100% ou 50%, por Instituição de Ensino Superior (IES) associada à SBC. A IES é responsável por definir quem será o beneficiário por meio de uma Carta de Concessão emitida pela autoridade responsável na IES atestando a sua indicação. O beneficiário deve encaminhar um e-mail para [cbsoft2026@ime.usp.br](mailto:cbsoft2026@ime.usp.br) com o assunto `[CBSoft 2026] ISENÇÃO DE INSCRIÇÃO INSTITUCIONAL` e incluir a sua Carta de Concessão. Apenas após a avaliação do documento, a inscrição será confirmada. O pedido de isenção deve ser feito até 03/09/2026.
+Como benefício aos Associados Institucionais, a SBC prevê 5 inscrições gratuitas e 50% de desconto para outras 5 inscrições, a escolher, em qualquer evento realizado pela SBC (limitado a 5 participantes por evento para cada Associado Institucional). A Instituição de Ensino Superior (IES) associada à SBC é responsável por definir quem será o beneficiário. Participantes que utilizarem isenção institucional terão direito à isenção do valor da inscrição, conforme a Política de Benefícios da SBC. Entretanto, **a isenção institucional não contempla a taxa de publicação**. Mais informações em https://www.sbc.org.br/associe-se-2/269-beneficios.
 
 ### Alimentação durante o evento
 
