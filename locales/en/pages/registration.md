@@ -26,7 +26,7 @@ O participante deverá acessar o sistema ECOS e realizar sua inscrição, seleci
 
 ### Benefício para associados institucionais
 
-Como benefício aos Associados Institucionais, a SBC prevê 5 inscrições gratuitas e 50% de desconto para outras 5 inscrições, a escolher, em qualquer evento realizado pela SBC (limitado a 5 participantes por evento para cada Associado Institucional). A Instituição de Ensino Superior (IES) associada à SBC é responsável por definir quem será o beneficiário. Participantes que utilizarem isenção institucional terão direito à isenção do valor da inscrição, conforme a Política de Benefícios da SBC. Entretanto, **a isenção institucional não contempla a taxa de publicação**. Mais informações em https://www.sbc.org.br/associe-se-2/269-beneficios.
+Como benefício aos Associados Institucionais, a SBC prevê isenções e 50% de desconto para inscrições. O associado institucional é responsável por definir quem será o beneficiário. Participantes que utilizarem isenção institucional terão direito à isenção do valor da inscrição, conforme a Política de Benefícios da SBC. Entretanto, a isenção institucional não contempla a taxa de publicação. Mais informações em https://www.sbc.org.br/associe-se-2/269-beneficios.
 
 ### Alimentação durante o evento
 
