@@ -6,7 +6,7 @@
             "end": "2026-09-10T12:30:00-03:00"
         },
         "type": "info",
-        "rooms": ["auditorio-ime"]
+        "rooms": ["b16"]
     },
     {
         "title": "SBLP",
@@ -15,7 +15,7 @@
             "end": "2026-09-10T18:30:00-03:00"
         },
         "type": "info",
-        "rooms": ["auditorio-ime"]
+        "rooms": ["b16"]
     },
     {
         "title": "SBLP",
@@ -24,7 +24,7 @@
             "end": "2026-09-11T12:30:00-03:00"
         },
         "type": "info",
-        "rooms": ["auditorio-ime"]
+        "rooms": ["b16"]
     },
     {
         "title": "SBLP",
@@ -33,7 +33,7 @@
             "end": "2026-09-11T16:00:00-03:00"
         },
         "type": "info",
-        "rooms": ["b5"]
+        "rooms": ["b16"]
     },
     {
         "title": "SBLP",
@@ -42,6 +42,6 @@
             "end": "2026-09-11T18:00:00-03:00"
         },
         "type": "info",
-        "rooms": ["b5"]
+        "rooms": ["b16"]
     }
 ]

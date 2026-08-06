@@ -135,7 +135,7 @@
             "start": "2026-09-10T11:00:00-03:00",
             "end": "2026-09-10T12:30:00-03:00"
         },
-        "rooms": ["b16"]
+        "rooms": ["auditorio-ime"]
     },
     {
         "title": "ST2 SBES - Trilha da Indústria: Enterprise Knowledge Systems, RAG & MLOps",
@@ -144,7 +144,7 @@
             "start": "2026-09-10T16:30:00-03:00",
             "end": "2026-09-10T18:30:00-03:00"
         },
-        "rooms": ["b16"]
+        "rooms": ["auditorio-ime"]
     },
     {
         "title": "ST15 SBES: Segurança e Confiabilidade II",
@@ -260,7 +260,7 @@
             "start": "2026-09-11T14:00:00-03:00",
             "end": "2026-09-11T16:00:00-03:00"
         },
-        "rooms": ["auditorio-ime"]
+        "rooms": ["b10"]
     },
     {
         "title": "ST3 SBES - Trilha da Indústria: Developer Experience, API Governance & Systems Engineering",
@@ -270,7 +270,7 @@
             "end": "2026-09-11T12:30:00-03:00"
         },
         "lang": "en",
-        "rooms": ["b16"]
+        "rooms": ["auditorio-ime"]
     },
     {
         "title": "ST4 SBES - Trilha da Indústria: AI Governance, Guardrails & Enterprise Modernization",
@@ -280,7 +280,7 @@
             "end": "2026-09-11T16:00:00-03:00"
         },
         "lang": "en",
-        "rooms": ["b16"]
+        "rooms": ["auditorio-ime"]
     },
     {
         "title": "ST5 SBES - Trilha da Indústria: Testing, QA, Resilience & Production Intelligence",
@@ -289,7 +289,7 @@
             "start": "2026-09-11T16:30:00-03:00",
             "end": "2026-09-11T18:00:00-03:00"
         },
-        "rooms": ["b16"]
+        "rooms": ["auditorio-ime"]
     },
     {
         "title": "ST25 SBES: Requisitos, UX e Acessibilidade III",
