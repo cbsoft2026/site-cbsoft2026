@@ -217,7 +217,7 @@
             "end": "2026-09-10T18:30:00-03:00"
         },
         "type": "info",
-        "rooms": ["b101"]
+        "rooms": ["b3"]
     },
     {
         "title": "ST19 SBES: Métodos e Ferramentas para Pesquisa em Engenharia de Software",
@@ -228,22 +228,21 @@
         "rooms": ["b3"]
     },
     {
-        "title": "SBES: CTD",
+        "title": "SBES - CTD: Mestrado",
         "schedule": {
             "start": "2026-09-10T11:00:00-03:00",
             "end": "2026-09-10T12:30:00-03:00"
         },
-        "type": "info",
         "rooms": ["b101"]
     },
     {
-        "title": "SBES: CTD",
+        "title": "SBES - CTD: Doutorado",
+        "description": "Premiação + 3 trabalhos",
         "schedule": {
             "start": "2026-09-10T16:30:00-03:00",
             "end": "2026-09-10T18:30:00-03:00"
         },
-        "type": "info",
-        "rooms": ["b3"]
+        "rooms": ["b101"]
     },
     {
         "title": "SBES: Tools Demonstration",
