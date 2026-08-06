@@ -259,7 +259,7 @@
             "start": "2026-09-11T14:00:00-03:00",
             "end": "2026-09-11T16:00:00-03:00"
         },
-        "rooms": ["b10"]
+        "rooms": ["b3"]
     },
     {
         "title": "ST3 SBES - Trilha da Indústria: Developer Experience, API Governance & Systems Engineering",
@@ -296,7 +296,7 @@
             "start": "2026-09-11T11:00:00-03:00",
             "end": "2026-09-11T12:30:00-03:00"
         },
-        "rooms": ["b9"]
+        "rooms": ["b2"]
     },
     {
         "title": "ST28 SBES: Processos, Gestão e Ecossistemas",
@@ -304,7 +304,7 @@
             "start": "2026-09-11T14:00:00-03:00",
             "end": "2026-09-11T16:00:00-03:00"
         },
-        "rooms": ["b9"]
+        "rooms": ["b2"]
     },
     {
         "title": "ST26 SBES: Manutenção, Refatoração e Dívida Técnica III",
@@ -312,6 +312,6 @@
             "start": "2026-09-11T11:00:00-03:00",
             "end": "2026-09-11T12:30:00-03:00"
         },
-        "rooms": ["b10"]
+        "rooms": ["b3"]
     }
 ]
