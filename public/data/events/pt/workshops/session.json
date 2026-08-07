@@ -144,30 +144,51 @@
         "rooms": ["b9"]
     },
     {
-        "title": "ISE",
+        "title": "ST1 ISE: AI for Requirements and Software Design",
         "schedule": {
-            "start": "2026-09-11T11:00:00-03:00",
+            "start": "2026-09-11T11:50:00-03:00",
             "end": "2026-09-11T12:30:00-03:00"
         },
-        "type": "info",
         "rooms": ["b1"]
     },
     {
-        "title": "ISE",
+        "title": "ST2 ISE: AI for Software Quality and Usability",
         "schedule": {
             "start": "2026-09-11T14:00:00-03:00",
-            "end": "2026-09-11T16:00:00-03:00"
+            "end": "2026-09-11T15:00:00-03:00"
         },
-        "type": "info",
         "rooms": ["b1"]
     },
     {
-        "title": "ISE",
+        "title": "ST3 ISE: AI for Testing, Performance and Security",
+        "schedule": {
+            "start": "2026-09-11T15:00:00-03:00",
+            "end": "2026-09-11T16:00:00-03:00"
+        },
+        "rooms": ["b1"]
+    },
+    {
+        "title": "Poster Session ISE",
+        "schedule": {
+            "start": "2026-09-11T16:00:00-03:00",
+            "end": "2026-09-11T16:30:00-03:00"
+        },
+        "rooms": ["b1"]
+    },
+    {
+        "title": "ST3 ISE: AI for Testing, Performance and Security",
         "schedule": {
             "start": "2026-09-11T16:30:00-03:00",
+            "end": "2026-09-11T17:10:00-03:00"
+        },
+        "rooms": ["b1"]
+    },
+    {
+        "title": "ST4 ISE: Engineering AI-Intensive Software and Human Factors",
+        "schedule": {
+            "start": "2026-09-11T17:10:00-03:00",
             "end": "2026-09-11T18:00:00-03:00"
         },
-        "type": "info",
         "rooms": ["b1"]
     },
     {

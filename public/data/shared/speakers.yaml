@@ -166,3 +166,8 @@
   name: Alex
   institution: Google
   institution_acronym: Google
+
+- id: evandro-costa
+  name: Evandro Costa
+  institution: Full Professor at UFAL
+  institution_acronym: UFAL

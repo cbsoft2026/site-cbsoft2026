@@ -1,0 +1,12 @@
+[
+    {
+        "title": "Keynote ISE: Intelligent Agents in Software Engineering: From Classical Rationality to LLM-based Agents and Neuro-Symbolic Integration",
+        "description": "Abertura + Keynote",
+        "speakers": ["evandro-costa"],
+        "schedule": {
+            "start": "2026-09-11T11:00:00-03:00",
+            "end": "2026-09-11T11:50:00-03:00"
+        },
+        "rooms": ["b1"]
+    }
+]
