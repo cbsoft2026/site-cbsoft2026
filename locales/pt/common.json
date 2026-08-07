@@ -19,6 +19,7 @@
   "volunteers": "Voluntários",
   "artifacts": "Artefatos",
   "aiware": "AIWare",
+  "software-livre": "Software Livre",
   "siglas": {
     "cbsoft": "Congresso Brasileiro de Software: Teoria e Prática",
     "sbes": "Simpósio Brasileiro de Engenharia de Software",
@@ -31,6 +32,7 @@
     "artifacts": "Artefatos",
     "aiware": "AIWare",
     "ise": "ISE",
+    "software-livre": "Software Livre",
     "trilhas": {
       "pesquisa": "Trilha de Pesquisa",
       "educacao": "Trilha de Educação",

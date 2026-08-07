@@ -185,6 +185,11 @@ export default function generatedCollection(t: Translator, commonT: Translator) 
     href: withUTM(aiware?.url ?? '/aiware'),
   };
 
+  const softwareLivreMenuItem: NavbarItemProps = {
+    title: commonT('siglas.software-livre'),
+    href: '/software-livre',
+  };
+
   return [
     cbsoftMenuItem,
     sbesMenuItem,
@@ -196,5 +201,6 @@ export default function generatedCollection(t: Translator, commonT: Translator) 
     latamSchoolMenuItem,
     highSchoolMenuItem,
     aiwareMenuItem,
+    softwareLivreMenuItem,
   ];
 }

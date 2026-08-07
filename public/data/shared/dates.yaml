@@ -335,3 +335,10 @@ latam-school:
         label:
             pt: Escola LATAM (dia 2)
             en: LATAM School (day 2)
+
+software-livre:
+    software_livre:
+        date: 2026-09-11
+        label:
+            pt: Evento Software Livre
+            en: Free Software Event

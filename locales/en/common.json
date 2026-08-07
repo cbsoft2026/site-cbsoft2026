@@ -19,6 +19,7 @@
   "volunteers": "Volunteers",
   "artifacts": "Artifacts",
   "aiware": "AIWare",
+  "software-livre": "Free Software",
   "siglas": {
     "cbsoft": "Brazilian Conference on Software: Practice and Theory",
     "sbes": "Brazilian Symposium on Software Engineering",
@@ -31,6 +32,7 @@
     "artifacts": "Artifacts",
     "aiware": "AIWare",
     "ise": "ISE",
+    "software-livre": "Free Software",
     "trilhas": {
       "pesquisa": "Research Track",
       "educacao": "Education Track",
