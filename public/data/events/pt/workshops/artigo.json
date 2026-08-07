@@ -138,5 +138,145 @@
         },
         "rooms": ["b1"],
         "category": "ise"
+    },
+    {
+        "title": "Bayesian Decision Architecture for Adaptive IoT Monitoring under Energy, Connectivity, and Measurement Uncertainty",
+        "authors": ["José Jefferson Pires Gonçalves", "Bruno Neiva Moreno", "Emanuel Filho", "Danyllo Albuquerque. Industry Paper / Emerging Results"],
+        "schedule": {
+            "start": "2026-09-11T16:05:00-03:00",
+            "end": "2026-09-11T16:05:00-03:00"
+        },
+        "rooms": ["b1"],
+        "category": "ise"
+    },
+    {
+        "title": "Context Dependency in LLM-Based Requirements Clarification: Emerging Results from a Controlled SDD Study",
+        "authors": ["Lucas Santos Andrade", "Izabella Ribeiro de Souza Silva", "Emanuel Dantas", "Ademar França de Sousa Neto", "Mirko Perkusich", "Danyllo Albuquerque", "Angelo Perkusich. Industry Paper / Emerging Results"],
+        "schedule": {
+            "start": "2026-09-11T16:05:00-03:00",
+            "end": "2026-09-11T16:05:00-03:00"
+        },
+        "rooms": ["b1"],
+        "category": "ise"
+    },
+    {
+        "title": "A Multi-Criteria Model for Prioritizing Product Backlog Items in AI and Data Science Projects",
+        "authors": ["Dimas Cassimiro", "Daliton da Silva", "Igor Vanderlei", "Rian Gabriel Pinheiro", "Rodrigo Andrade. Industry Paper / Emerging Results"],
+        "schedule": {
+            "start": "2026-09-11T16:05:00-03:00",
+            "end": "2026-09-11T16:05:00-03:00"
+        },
+        "rooms": ["b1"],
+        "category": "ise"
+    },
+    {
+        "title": "Um pipeline híbrido para detecção inteligente e confiável de bugs e code smells em Python com modelos de linguagem e verificação formal",
+        "authors": ["Fernanda Duarte", "Lucas Carvalho Cordeiro", "Rosiane de Freitas. Industry Paper / Emerging Results"],
+        "schedule": {
+            "start": "2026-09-11T16:05:00-03:00",
+            "end": "2026-09-11T16:05:00-03:00"
+        },
+        "rooms": ["b1"],
+        "category": "ise"
+    },
+    {
+        "title": "Avaliação de LLMs Multimodais na Modalidade Programação da Olimpíada Brasileira de Informática: Uma Arquitetura Experimental",
+        "authors": ["Victor Hugo Silva Ângelo", "Ricardo Fernandes", "Matheus Ryan da Silva Nascimento", "Lucas Heron Santos Anchieta", "Evandro Costa. Industry Paper / Emerging Results"],
+        "schedule": {
+            "start": "2026-09-11T16:05:00-03:00",
+            "end": "2026-09-11T16:05:00-03:00"
+        },
+        "rooms": ["b1"],
+        "category": "ise"
+    },
+    {
+        "title": "Towards a Hybrid Generative AI-Based Framework for Automotive Cybersecurity: A Feasibility Study",
+        "authors": ["Andre Gheventer", "Claudio Miceli de Farias", "Rafael Maiani de Mello. Industry Paper / Emerging Results"],
+        "schedule": {
+            "start": "2026-09-11T16:05:00-03:00",
+            "end": "2026-09-11T16:05:00-03:00"
+        },
+        "rooms": ["b1"],
+        "category": "ise"
+    },
+    {
+        "title": "Integrating Large Language Models into a Business-Critical Application in a Regulated Environment: An Experience Report",
+        "authors": ["Elton Figueiredo de Souza Soares", "Marcio Fernando Cornelio", "Pedro Henrique De Almeida Sena", "Caio Henrique Dantas Milão do Nascimento", "Otavio Augusto Gomes de Oliveira", "Gladstone Moises Arantes Jr", "João Alexandre dos Santos Lopes. Industry Paper / Emerging Results"],
+        "schedule": {
+            "start": "2026-09-11T16:05:00-03:00",
+            "end": "2026-09-11T16:05:00-03:00"
+        },
+        "rooms": ["b1"],
+        "category": "ise"
+    },
+    {
+        "title": "Visual Test Automation with Convolutional Neural Networks: Comparative Study of Pre-trained Models for Android Screenshot Validation",
+        "authors": ["Leonardo Tiago", "Elza Bisneta", "Mateus Costa", "Ana Paula Silva", "Lennon Chaves", "Flavia Camila Morais de Oliveira. Industry Paper / Emerging Results"],
+        "schedule": {
+            "start": "2026-09-11T16:05:00-03:00",
+            "end": "2026-09-11T16:05:00-03:00"
+        },
+        "rooms": ["b1"],
+        "category": "ise"
+    },
+    {
+        "title": "Agreement-Based Confidence for LLM-Based Functional Classification of User Stories",
+        "authors": ["Carlos Eduardo Meneses de Souza", "Emanuel Dantas", "Ademar França de Sousa Neto", "Mirko Perkusich", "Danyllo Albuquerque", "Kyller Gorgônio", "Angelo Perkusich. Technical Paper"],
+        "schedule": {
+            "start": "2026-09-11T16:05:00-03:00",
+            "end": "2026-09-11T16:05:00-03:00"
+        },
+        "rooms": ["b1"],
+        "category": "ise"
+    },
+    {
+        "title": "Beyond More Context: Evaluating Static and Agent-Based Repository Context in LLM-Based Code Review",
+        "authors": ["Jonas Bernardino", "Danyllo Albuquerque", "Emanuel Dantas", "Felipe Ramos", "Juliana Medeiros. Technical Paper"],
+        "schedule": {
+            "start": "2026-09-11T16:05:00-03:00",
+            "end": "2026-09-11T16:05:00-03:00"
+        },
+        "rooms": ["b1"],
+        "category": "ise"
+    },
+    {
+        "title": "Designing and Evaluating an Agentic AI Pipeline for Microservice Architecture Generation from User Stories",
+        "authors": ["Daniel Silva", "Danyllo Albuquerque", "Mirko Perkusich", "Guillermo Rodríguez", "Andres Diaz-Pace", "Kyller Gorgônio", "Angelo Perkusich. Technical Paper"],
+        "schedule": {
+            "start": "2026-09-11T16:05:00-03:00",
+            "end": "2026-09-11T16:05:00-03:00"
+        },
+        "rooms": ["b1"],
+        "category": "ise"
+    },
+    {
+        "title": "Structural Validation of LLM-Generated Microservice Decompositions Using Source-Code Dependencies",
+        "authors": ["Daniel Silva", "Renan Alves", "Emanuel Dantas", "Ademar França de Sousa Neto", "Mirko Perkusich", "Danyllo Albuquerque", "Kyller Gorgônio", "Angelo Perkusich. Technical Paper"],
+        "schedule": {
+            "start": "2026-09-11T16:05:00-03:00",
+            "end": "2026-09-11T16:05:00-03:00"
+        },
+        "rooms": ["b1"],
+        "category": "ise"
+    },
+    {
+        "title": "Uma Plataforma Multimodelo para Governança e Compartilhamento de Inferência em Ferramentas Inteligentes de Engenharia de Software",
+        "authors": ["Jeosafa de Melo Freitas Júnior", "Joaquim Honório", "Danyllo Albuquerque", "Emanuel Dantas. Technical Paper"],
+        "schedule": {
+            "start": "2026-09-11T16:05:00-03:00",
+            "end": "2026-09-11T16:05:00-03:00"
+        },
+        "rooms": ["b1"],
+        "category": "ise"
+    },
+    {
+        "title": "Zero-Shot, Few-Shot, or Chain-of-Thought? An Empirical Study of Prompting Strategies for LLM-Guided SQL Query Optimization",
+        "authors": ["Daniel Costa", "Danyllo Albuquerque", "Bruno Neiva Moreno", "Emanuel Filho. Technical Paper"],
+        "schedule": {
+            "start": "2026-09-11T16:05:00-03:00",
+            "end": "2026-09-11T16:05:00-03:00"
+        },
+        "rooms": ["b1"],
+        "category": "ise"
     }
 ]
