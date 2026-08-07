@@ -168,7 +168,8 @@
         "rooms": ["b1"]
     },
     {
-        "title": "Poster Session ISE",
+        "title": "Poster Session ISE (Coffee Break)",
+        "description": "Emerging Results and Technical Advances in Intelligent Software Engineering",
         "schedule": {
             "start": "2026-09-11T16:00:00-03:00",
             "end": "2026-09-11T16:30:00-03:00"
