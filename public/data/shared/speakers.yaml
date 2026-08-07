@@ -171,3 +171,8 @@
   name: Evandro Costa
   institution: Full Professor at UFAL
   institution_acronym: UFAL
+
+- id: andre-araujo
+  name: André Araújo
+  institution: Senior Staff Research Scientist / Tech Lead Manager at Google DeepMind
+  institution_acronym: Google DeepMind

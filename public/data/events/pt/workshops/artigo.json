@@ -1,0 +1,142 @@
+[
+    {
+        "title": "Uma Abordagem Multiagente para Geração de Requisitos com Base em Personas",
+        "authors": ["Giovanna Lavouras", "Cassio Emanuel Ferreira da Silva", "Thiago Barcellos Mattos", "Rodrigo da Silva Nogueira", "Rafael Maiani de Mello"],
+        "schedule": {
+            "start": "2026-09-11T11:50:00-03:00",
+            "end": "2026-09-11T12:00:00-03:00"
+        },
+        "rooms": ["b1"],
+        "category": "ISE"
+    },
+    {
+        "title": "Impact of Large Language Models on Requirements Interpretation: A Controlled Experimental Study",
+        "authors": ["Gisely Oliveira", "Valdemar Vicente Graciano Neto"],
+        "schedule": {
+            "start": "2026-09-11T12:00:00-03:00",
+            "end": "2026-09-11T12:15:00-03:00"
+        },
+        "rooms": ["b1"],
+        "category": "ISE"
+    },
+    {
+        "title": "Prompt Engineering Applied to the Generation of Software Modeling Documents: A Systematic Mapping Study",
+        "authors": ["Rafael Ribas de Lima", "Simone Matos"],
+        "schedule": {
+            "start": "2026-09-11T12:15:00-03:00",
+            "end": "2026-09-11T12:30:00-03:00"
+        },
+        "rooms": ["b1"],
+        "category": "ISE"
+    },
+    {
+        "title": "From Pixels to Interaction Graphs: Automated Usability Analytics in the SmartAPSUS Case Study",
+        "authors": ["Igor Vanderlei", "Rodrigo Andrade", "Allysson Guimarães dos Santos Silva", "Fernando Emídio da Silva Neto", "Miguel Vanderlei", "Gabriel Aquino", "Dimas Cassimiro"],
+        "schedule": {
+            "start": "2026-09-11T14:00:00-03:00",
+            "end": "2026-09-11T14:15:00-03:00"
+        },
+        "rooms": ["b1"],
+        "category": "ISE"
+    },
+    {
+        "title": "LLM-Based Usability Inspection: A Systematic Mapping of Automation Strategies, Evidence, and Validation Practices",
+        "authors": ["Ana Beatriz de Araújo Farias", "Emanuel Dantas", "Danyllo Albuquerque", "Ademar França de Sousa Neto"],
+        "schedule": {
+            "start": "2026-09-11T14:15:00-03:00",
+            "end": "2026-09-11T14:30:00-03:00"
+        },
+        "rooms": ["b1"],
+        "category": "ISE"
+    },
+    {
+        "title": "Avaliando LLMs para Detecção de Refatorações: Um Estudo Preliminar",
+        "authors": ["Gabriel Henrique Moreira Rocha", "Diego Demétrio Santos Rodrigues", "Aline Brito", "Rodrigo Brito"],
+        "schedule": {
+            "start": "2026-09-11T14:30:00-03:00",
+            "end": "2026-09-11T14:45:00-03:00"
+        },
+        "rooms": ["b1"],
+        "category": "ISE"
+    },
+    {
+        "title": "Literature-Grounded Generation of README Files with Large Language Models: A Dual Human–LLM Evaluation",
+        "authors": ["Allan Andrade", "Talita Ribeiro"],
+        "schedule": {
+            "start": "2026-09-11T14:45:00-03:00",
+            "end": "2026-09-11T14:50:00-03:00"
+        },
+        "rooms": ["b1"],
+        "category": "ISE"
+    },
+    {
+        "title": "SAPT: Sistema Agêntico para Diagnóstico de Teste de Desempenho",
+        "authors": ["Rafael Nogueira", "Rodrigo Brandão Mansilha", "Elder Macedo Rodrigues"],
+        "schedule": {
+            "start": "2026-09-11T15:00:00-03:00",
+            "end": "2026-09-11T15:15:00-03:00"
+        },
+        "rooms": ["b1"],
+        "category": "ISE"
+    },
+    {
+        "title": "Can LLMs Diagnose Performance Bottlenecks from Test Metrics? A Grey-Box Evaluation",
+        "authors": ["Miguel Ângelo Bastos Muniz", "Eduardo Tiadoro", "Maicon Bernardino", "Anielle Severo Lisboa de Andrade", "Elder Macedo Rodrigues"],
+        "schedule": {
+            "start": "2026-09-11T15:00:15-03:00",
+            "end": "2026-09-11T15:30:00-03:00"
+        },
+        "rooms": ["b1"],
+        "category": "ISE"
+    },
+    {
+        "title": "Generating Threat Modeling Antipersonas with Large Language Models: A Feasibility Study",
+        "authors": ["Anna Cristina Ferreira Alves", "Rafael Maiani de Mello"],
+        "schedule": {
+            "start": "2026-09-11T15:30:15-03:00",
+            "end": "2026-09-11T15:45:00-03:00"
+        },
+        "rooms": ["b1"],
+        "category": "ISE"
+    },
+    {
+        "title": "All That Glitters is Not Gold: Vulnerability-Driven Repairing in ChatGPT-Generated C Source Code",
+        "authors": ["Clodoaldo Brasilino Leite Neto", "Haitao Xu", "Gabriel Habib Medeiros Oliveira", "Danyllo Albuquerque", "Rohit Gheyi", "Mirko Perkusich"],
+        "schedule": {
+            "start": "2026-09-11T15:45:15-03:00",
+            "end": "2026-09-11T16:00:00-03:00"
+        },
+        "rooms": ["b1"],
+        "category": "ISE"
+    },
+    {
+        "title": "Engineering Entity Resolution for the LLM Era: Requirements, Architecture, and Evaluation of an Open-Source Library",
+        "authors": ["Álvaro Alves", "Claudia Werner", "Diego Castro"],
+        "schedule": {
+            "start": "2026-09-11T17:10:00-03:00",
+            "end": "2026-09-11T17:25:00-03:00"
+        },
+        "rooms": ["b1"],
+        "category": "ISE"
+    },
+    {
+        "title": "Building AI-Intensive Software with AI: Early Results and a Cautionary Tale on Measuring Development Cost",
+        "authors": ["Victor Neves", "Kiev Gama", "Vinicius Cardoso Garcia"],
+        "schedule": {
+            "start": "2026-09-11T17:25:00-03:00",
+            "end": "2026-09-11T17:40:00-03:00"
+        },
+        "rooms": ["b1"],
+        "category": "ISE"
+    },
+    {
+        "title": "\"Will I Be Replaced?\" Revisited: An Exploratory Replication on AI Tool Perceptions with Software Professionals in Brazil",
+        "authors": ["Icaro de Oliveira", "Felipe Rodrigues de Oliveira", "Paulo Henrique Mendes Maia", "Ismayle Santos"],
+        "schedule": {
+            "start": "2026-09-11T17:40:00-03:00",
+            "end": "2026-09-11T17:55:00-03:00"
+        },
+        "rooms": ["b1"],
+        "category": "ISE"
+    }
+]
