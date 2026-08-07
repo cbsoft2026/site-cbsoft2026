@@ -7,7 +7,7 @@
             "end": "2026-09-11T12:00:00-03:00"
         },
         "rooms": ["b1"],
-        "category": "ISE"
+        "category": "ise"
     },
     {
         "title": "Impact of Large Language Models on Requirements Interpretation: A Controlled Experimental Study",
@@ -17,7 +17,7 @@
             "end": "2026-09-11T12:15:00-03:00"
         },
         "rooms": ["b1"],
-        "category": "ISE"
+        "category": "ise"
     },
     {
         "title": "Prompt Engineering Applied to the Generation of Software Modeling Documents: A Systematic Mapping Study",
@@ -27,7 +27,7 @@
             "end": "2026-09-11T12:30:00-03:00"
         },
         "rooms": ["b1"],
-        "category": "ISE"
+        "category": "ise"
     },
     {
         "title": "From Pixels to Interaction Graphs: Automated Usability Analytics in the SmartAPSUS Case Study",
@@ -37,7 +37,7 @@
             "end": "2026-09-11T14:15:00-03:00"
         },
         "rooms": ["b1"],
-        "category": "ISE"
+        "category": "ise"
     },
     {
         "title": "LLM-Based Usability Inspection: A Systematic Mapping of Automation Strategies, Evidence, and Validation Practices",
@@ -47,7 +47,7 @@
             "end": "2026-09-11T14:30:00-03:00"
         },
         "rooms": ["b1"],
-        "category": "ISE"
+        "category": "ise"
     },
     {
         "title": "Avaliando LLMs para Detecção de Refatorações: Um Estudo Preliminar",
@@ -57,7 +57,7 @@
             "end": "2026-09-11T14:45:00-03:00"
         },
         "rooms": ["b1"],
-        "category": "ISE"
+        "category": "ise"
     },
     {
         "title": "Literature-Grounded Generation of README Files with Large Language Models: A Dual Human–LLM Evaluation",
@@ -67,7 +67,7 @@
             "end": "2026-09-11T14:50:00-03:00"
         },
         "rooms": ["b1"],
-        "category": "ISE"
+        "category": "ise"
     },
     {
         "title": "SAPT: Sistema Agêntico para Diagnóstico de Teste de Desempenho",
@@ -77,7 +77,7 @@
             "end": "2026-09-11T15:15:00-03:00"
         },
         "rooms": ["b1"],
-        "category": "ISE"
+        "category": "ise"
     },
     {
         "title": "Can LLMs Diagnose Performance Bottlenecks from Test Metrics? A Grey-Box Evaluation",
@@ -87,7 +87,7 @@
             "end": "2026-09-11T15:30:00-03:00"
         },
         "rooms": ["b1"],
-        "category": "ISE"
+        "category": "ise"
     },
     {
         "title": "Generating Threat Modeling Antipersonas with Large Language Models: A Feasibility Study",
@@ -97,7 +97,7 @@
             "end": "2026-09-11T15:45:00-03:00"
         },
         "rooms": ["b1"],
-        "category": "ISE"
+        "category": "ise"
     },
     {
         "title": "All That Glitters is Not Gold: Vulnerability-Driven Repairing in ChatGPT-Generated C Source Code",
@@ -107,7 +107,7 @@
             "end": "2026-09-11T16:00:00-03:00"
         },
         "rooms": ["b1"],
-        "category": "ISE"
+        "category": "ise"
     },
     {
         "title": "Engineering Entity Resolution for the LLM Era: Requirements, Architecture, and Evaluation of an Open-Source Library",
@@ -117,7 +117,7 @@
             "end": "2026-09-11T17:25:00-03:00"
         },
         "rooms": ["b1"],
-        "category": "ISE"
+        "category": "ise"
     },
     {
         "title": "Building AI-Intensive Software with AI: Early Results and a Cautionary Tale on Measuring Development Cost",
@@ -127,7 +127,7 @@
             "end": "2026-09-11T17:40:00-03:00"
         },
         "rooms": ["b1"],
-        "category": "ISE"
+        "category": "ise"
     },
     {
         "title": "\"Will I Be Replaced?\" Revisited: An Exploratory Replication on AI Tool Perceptions with Software Professionals in Brazil",
@@ -137,6 +137,6 @@
             "end": "2026-09-11T17:55:00-03:00"
         },
         "rooms": ["b1"],
-        "category": "ISE"
+        "category": "ise"
     }
 ]
