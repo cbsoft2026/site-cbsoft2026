@@ -162,6 +162,22 @@
     ]
   },
   {
+    "category": "sbes",
+    "subcategory": "special",
+    "chairs": [
+      {
+        "image": "rodrigoBonifacio.jpg",
+        "name": "Rodrigo Bonifácio",
+        "university": "UFPE"
+      },
+      {
+        "image": "itanaMariaSouzaGimenes.jpeg",
+        "name": "Itana Maria de Souza Gimenes",
+        "university": ""
+      }
+    ]
+  },
+  {
     "category": "sblp",
     "chairs": [
       {
