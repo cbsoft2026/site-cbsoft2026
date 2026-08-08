@@ -1,29 +1,24 @@
-Um co-evento especial no CBSoft 2026, aberto e gratuito a toda a comunidade, para construir a ponte entre o legado e o futuro do software livre no Brasil.
+_Um co-evento especial no CBSoft 2026, aberto e gratuito a toda a comunidade, para construir a ponte entre o legado e o futuro do software livre no Brasil._
 
 O Congresso Brasileiro de Software (CBSoft) 2026 tem o prazer de convidar você para um momento histórico. No dia 11 de setembro, teremos um co-evento para celebrar o movimento que redefiniu a engenharia de software global e consolidou a colaboração como o motor da inovação tecnológica. Vamos aproveitar este encontro também para fazer uma dupla comemoração: 
 
 * O aniversário de fundação da [**Associação Software Livre**](https://asl.org.br/) (ASL);
-* Os 35 anos de lançamento do **GNU/Linux**.
+* Os 35 anos do **kernel Linux**.
 
-> Em breve, disponibilizaremos aqui o formulário de inscrição, **ressaltando que não será necessário estar inscrito no evento principal do CBSoft 2026 para participar**.
+> Em breve, disponibilizaremos aqui o formulário de inscrição.
+> **Não será necessário estar inscrito no evento principal do CBSoft 2026 para participar**.
 
-O sucesso do ecossistema de software livre no Brasil não aconteceu por acaso. Ele foi forjado pela união entre comunidades de desenvolvedores apaixonados e uma base acadêmica visionária. Durante o evento, revisitaremos as raízes desse movimento no país, destacando o papel fundamental de instituições que ajudaram a pavimentar esse caminho. Em especial, no **IME-USP**, houve o pioneirismo e a visão do trabalho do **professor Imre Simon**, que nos ensinou a ver o software livre como um instrumento de emancipação e competência tecnológica. Também temos a histórica [**Rede Linux**](https://www.linux.ime.usp.br/), mantida por alunos da USP desde **1995**,
+O sucesso do ecossistema de software livre no Brasil não aconteceu por acaso. Ele foi forjado pela união entre comunidades de desenvolvedores apaixonados e uma base acadêmica visionária. Durante o evento, revisitaremos as raízes desse movimento no país, destacando o papel fundamental de instituições que ajudaram a pavimentar esse caminho.
 
-<br/>
-<p align="center">
-<img src="software-livre/rl.png" height="100px">
-</p>
-<br/>
+#### No IME-USP
 
-e a criação do [**Centro de Competência em Software Livre**](https://ccsl.ime.usp.br/) (CCSL) em **2008**.
+Em especial, no **IME-USP**, houve o pioneirismo e a visão do trabalho do professor **Imre Simon**, que nos ensinou a ver o software livre como um instrumento de emancipação e competência tecnológica.
 
-<br/>
-<p align="center">
-<img src="software-livre/ccsl.png" height="50px">
-</p>
-<br/>
+Também temos iniciativas estudantis como a histórica [**Rede Linux**](https://www.linux.ime.usp.br/), mantida por alunos da USP desde **1995**, e o [**FLUSP**](https://flusp.ime.usp.br/), que busca contribuir com projetos de software livre e aproximar estudantes dessas comunidades.
 
-Somam-se a isso **projetos internacionais** e os **trabalhos de pesquisadores** que atuaram de forma consistente no estudo desse fenômeno e ecossistema, contribuindo com a comunidade e respeitando as pessoas que fazem parte dela.
+A isso se soma a criação do [**Centro de Competência em Software Livre**](https://ccsl.ime.usp.br/) (CCSL) em **2008**, além da presença do software livre no ensino e na pesquisa. Um exemplo é a disciplina **MAC0470/5856 - Desenvolvimento de Software Livre**, na qual os alunos participam de projetos reais e vivenciam diferentes formas de colaboração e desenvolvimento.
+
+Também fazem parte dessa história **projetos internacionais** e os **trabalhos de pesquisadores** que atuaram de forma consistente no estudo desse fenômeno e ecossistema, contribuindo com a comunidade e respeitando as pessoas que fazem parte dela.
 
 Estamos preparando uma programação dedicada a conectar o passado, o presente e o futuro do software livre no Brasil. Convidamos algumas pessoas que fazem parte dessa história para contribuírem em painéis e palestras, passando pela inserção do Brasil na comunidade internacional de software livre, discutindo os desafios atuais para a comunidade e abordando o software livre no ensino, na pesquisa e na extensão em Engenharia de Software.
 
