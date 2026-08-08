@@ -13,13 +13,13 @@
   "sblp": "SBLP",
   "sbes": "SBES",
   "latam-school": "LATAM School",
-  "high-school": "Ensino Médio",
+  "high-school": "CBSoft no Ensino Médio",
   "workshops": "Workshops",
   "workshops_accepts": "Workshops Aceitos",
   "volunteers": "Voluntários",
   "artifacts": "Artefatos",
   "aiware": "AIWare",
-  "software-livre": "Software Livre",
+  "software-livre": "Celebração do Software Livre no Brasil",
   "siglas": {
     "cbsoft": "Congresso Brasileiro de Software: Teoria e Prática",
     "sbes": "Simpósio Brasileiro de Engenharia de Software",
@@ -33,6 +33,7 @@
     "aiware": "AIWare",
     "ise": "ISE",
     "software-livre": "Software Livre",
+    "high-school": "Ensino Médio",
     "trilhas": {
       "pesquisa": "Trilha de Pesquisa",
       "educacao": "Trilha de Educação",

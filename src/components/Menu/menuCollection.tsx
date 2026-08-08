@@ -162,7 +162,7 @@ export default function generatedCollection(t: Translator, commonT: Translator) 
   };
 
   const highSchoolMenuItem: NavbarItemProps = {
-    title: commonT('high-school'),
+    title: commonT('siglas.high-school'),
     href: '/high-school',
     items: [
       { title: t('chamada_trabalhos'), href: '/high-school' },
