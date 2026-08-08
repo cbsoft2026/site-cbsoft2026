@@ -161,15 +161,15 @@
 .schedule--session {
   cursor: pointer;
   .schedule__info {
-    background-color: #f09415 !important;
-    border-left: 1px solid #f09415;
-    border-bottom: 1px solid #f09415;
-    border-top: 1px solid #f09415;
+    background-color: $accent !important;
+    border-left: 1px solid $accent;
+    border-bottom: 1px solid $accent;
+    border-top: 1px solid $accent;
   }
   &:hover {
     .schedule__info,
     .schedule__content {
-      border-color: #f09415;
+      border-color: $accent;
     }
   }
 }
@@ -193,15 +193,15 @@
 .schedule--painel {
   cursor: pointer;
   .schedule__info {
-    background-color: #515c4d !important;
-    border-left: 1px solid #515c4d;
-    border-bottom: 1px solid #515c4d;
-    border-top: 1px solid #515c4d;
+    background-color: $accent-2 !important;
+    border-left: 1px solid $accent-2;
+    border-bottom: 1px solid $accent-2;
+    border-top: 1px solid $accent-2;
   }
   &:hover {
     .schedule__info,
     .schedule__content {
-      border-color: #515c4d;
+      border-color: $accent-2;
     }
   }
 }

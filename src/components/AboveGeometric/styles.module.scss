@@ -54,7 +54,7 @@
     }
     &:nth-child(3) {
       transition-delay: 0.6s;
-      background: #f09415;
+      background: $accent;
       > div {
         transition-delay: 0.9s;
       }

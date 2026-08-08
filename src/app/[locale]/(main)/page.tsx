@@ -162,7 +162,7 @@ export default async function HomePage({ params }: Props) {
           <Link href='#first-section' className={`${styles['bottom-right']} ${styles['arrow-down']}`}>
             <div>
               <svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 52 52' className={styles['abstract-block']}>
-                <path fill='#d5491d' d='M52 0v0 52 0H0v0z'></path>
+                <path fill='var(--primary)' d='M52 0v0 52 0H0v0z'></path>
               </svg>
               <FontAwesomeIcon icon={faArrowDown} size='3x' />
             </div>

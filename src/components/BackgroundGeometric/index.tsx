@@ -44,7 +44,7 @@ const geometrics: WeightedItem<GeometricFn>[] = [
   },
 ];
 
-const colors = ['#1d656d', '#f09415', '#b43425', '#d5491d', '#077875'];
+const colors = ['var(--secondary-alt)', 'var(--accent)', 'var(--primary-alt)', 'var(--primary)', 'var(--secondary)'];
 
 const rotations = [0, 90, 180, 270];
 
@@ -69,7 +69,7 @@ export default function BackgroundGeometric({ amount }: Props) {
     return Array.from({ length: amount }).map((_, index) => {
       return (
         <svg key={index} xmlns='http://www.w3.org/2000/svg' viewBox='0 0 40 40'>
-          <path fill={'#d5491d'} d='M0 0h40v40h-40z' />
+          <path fill={'var(--primary)'} d='M0 0h40v40h-40z' />
         </svg>
       );
     });
