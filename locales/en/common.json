@@ -43,7 +43,12 @@
       "ctic": "Undergraduate Research on Software Engineering Competition",
       "ctd": "Doctoral and Master Theses Competition"
     },
-    "J1C2": "Journal First-Conference Second"
+
+    "J1C2": "Journal First-Conference Second",
+    "mestrado": "Master's",
+    "doutorado": "Doctorate",
+    "finalistas": "Finalists",
+    "mencoes-honrosas": "Honorable Mentions"
   },
   "eventos": {
     "artigo": "Article",

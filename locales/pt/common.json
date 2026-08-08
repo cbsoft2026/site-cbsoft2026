@@ -43,7 +43,12 @@
       "ctic": "Concurso de Trabalhos de Iniciação Científica",
       "ctd": "Concursos de Teses e Dissertações em Engenharia de Software"
     },
-    "J1C2": "Journal First-Conference Second"
+
+    "J1C2": "Journal First-Conference Second",
+    "mestrado": "Mestrado",
+    "doutorado": "Doutorado",
+    "finalistas": "Finalistas",
+    "mencoes-honrosas": "Menções Honrosas"
   },
   "eventos": {
     "artigo": "Artigo",
