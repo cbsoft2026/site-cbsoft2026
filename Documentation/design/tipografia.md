@@ -12,6 +12,12 @@ Como a Gotham é uma fonte proprietária, seu uso depende da aquisição de uma 
 
 Após avaliar algumas opções, foi escolhida a **Alegreya Sans**, por apresentar características visuais semelhantes e ser distribuída sob uma licença aberta.
 
+## Modificação da fonte
+
+A versão da Alegreya Sans utilizada neste projeto foi modificada. Foi realizado um ajuste no caractere _hyphen_ (`-`), alterando seu posicionamento para evitar que o caractere ficasse visualmente deslocado em relação aos demais elementos tipográficos utilizados no site.
+
+Essa alteração é uma modificação da fonte original e é distribuída juntamente com este projeto sob os termos da SIL Open Font License 1.1 (OFL).
+
 ## Licença
 
 A **Alegreya Sans** é distribuída sob a **SIL Open Font License 1.1 (OFL)**.
