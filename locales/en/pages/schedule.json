@@ -1,5 +1,5 @@
 {
-  "titulo": "Schedule",
+  "titulo": "Program",
   "filtros": "Filters",
   "simposiosetrilha": "Symposium and/or Track",
   "dia": "Day",
@@ -11,7 +11,7 @@
     "chairs": "Chairs",
     "moderators": "Moderators"
   },
-  "wip": "The schedule is still being finalized and is updated as sessions for each event and track are confirmed. Until it is finalized, changes may occur.",
+  "wip": "The program is still being finalized and is updated as sessions for each event and track are confirmed. Until it is finalized, changes may occur.",
   "brasiliaTime": "All session times are based on Brasília Time (BRT/UTC-3).",
   "lastUpdate": "Last updated",
   "noContent": "No content related to this event is currently available."
