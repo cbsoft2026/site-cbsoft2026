@@ -32,6 +32,8 @@ export default function Schedule(props: Props) {
     return event.type == 'info' ? undefined : `${prefix}${event.simposio}/event#${event.id}`;
   };
 
+  const scheduleT = useTranslations('schedule');
+
   if (view === 'calendar') {
     return (
       <div
@@ -68,15 +70,27 @@ export default function Schedule(props: Props) {
           );
         })}
         <div className={styles.rooms} style={{ gridArea: '1 / 1' }}></div>
-        {rooms.map((room, roomIndex) => (
-          <div key={`room-${roomIndex}`} className={styles.rooms} style={{ gridArea: `1 / ${roomIndex + 2}` }}>
-            <span>
-              {room.local}
-              <br />
-              <i>{room.nome}</i>
-            </span>
-          </div>
-        ))}
+        {rooms.map((room, roomIndex) => {
+          let local = room.label;
+          let name = room.label;
+
+          if (scheduleT.has(room.label)) {
+            local = scheduleT(room.label);
+          }
+          if (scheduleT.has(`${room.label}-name`)) {
+            name = scheduleT(`${room.label}-name`);
+          }
+
+          return (
+            <div key={`room-${roomIndex}`} className={styles.rooms} style={{ gridArea: `1 / ${roomIndex + 2}` }}>
+              <span>
+                {local}
+                <br />
+                <i>{name}</i>
+              </span>
+            </div>
+          );
+        })}
         {events.map((event, eventIndex) => {
           if (event.schedule?.start && event.schedule?.start) {
             const start = new Date(event.schedule.start);

@@ -2,8 +2,6 @@ import { Type, Static } from '@sinclair/typebox';
 
 export const Room = Type.Object({
   label: Type.String(),
-  nome: Type.String(),
-  local: Type.String(),
 });
 
 export const RoomsSchema = Type.Array(Room);

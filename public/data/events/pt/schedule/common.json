@@ -1,64 +1,40 @@
 {
     "salas": [
         {
-            "label": "auditorio-fau",
-            "nome": "Alan Turing",
-            "local": "Auditório FAU"
+            "label": "auditorio-fau"
         },
         {
-            "label": "auditorio-ime",
-            "nome": "Ada Lovelace",
-            "local": "Auditório IME"
+            "label": "auditorio-ime"
         },
         {
-            "label": "b5",
-            "nome": "Margaret Hamilton",
-            "local": "B5"
+            "label": "b5"
         },
         {
-            "label": "b16",
-            "nome": "Cecília Rubira",
-            "local": "B16"
+            "label": "b16"
         },
         {
-            "label": "b9",
-            "nome": "Richard Stallman",
-            "local": "B9"
+            "label": "b9"
         },
         {
-            "label": "b10",
-            "nome": "Dennis Ritchie",
-            "local": "B10"
+            "label": "b10"
         },
         {
-            "label": "b1",
-            "nome": "Linus Torvalds",
-            "local": "B1"
+            "label": "b1"
         },
         {
-            "label": "b2",
-            "nome": "Barbara Liskov",
-            "local": "B2"
+            "label": "b2"
         },
         {
-            "label": "b3",
-            "nome": "Grace Hopper",
-            "local": "B3"
+            "label": "b3"
         },
         {
-            "label": "b101",
-            "nome": "Kristen Nygaard",
-            "local": "B101"
+            "label": "b101"
         },
         {
-            "label": "ccsl",
-            "nome": "Imre Simon",
-            "local": "CCSL"
+            "label": "ccsl"
         },
         {
-            "label": "numec",
-            "nome": "Charles Babbage",
-            "local": "NUMEC"
+            "label": "numec"
         }
     ],
     "startsInDate": "2026-09-08T08:00:00-03:00"

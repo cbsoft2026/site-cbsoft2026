@@ -52,7 +52,16 @@ function EventCardWrapper(props: Props, start: Date, end: Date) {
   const scheduleT = useTranslations('schedule');
 
   const eventRooms = (() => {
-    return rooms.map((roomEvent) => props.rooms.find((room) => room.label == roomEvent)?.nome).join(', ');
+    return rooms
+      .map((roomEvent) => {
+        const room = props.rooms.find((room) => room.label == roomEvent);
+        if (!room) return;
+        if (scheduleT.has(`${room.label}-name`)) {
+          return scheduleT(`${room.label}-name`);
+        }
+        return;
+      })
+      .join(', ');
   })();
 
   let title = props.event.title;
