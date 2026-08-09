@@ -6,6 +6,7 @@ import EventCard, { labelSlice, timeFormat } from '@/components/EventCard';
 import { Events, Event } from '@/types/event';
 import generateTimes from '@/utils/generateTimes';
 import { programs } from '@/app/config/event-structure';
+import { useTranslations } from 'next-intl';
 
 type Props = {
   rooms: Rooms;

@@ -49,9 +49,17 @@ function EventCardWrapper(props: Props, start: Date, end: Date) {
 
   const rooms = props.event.rooms ?? [];
 
+  const scheduleT = useTranslations('schedule');
+
   const eventRooms = (() => {
     return rooms.map((roomEvent) => props.rooms.find((room) => room.label == roomEvent)?.nome).join(', ');
   })();
+
+  let title = props.event.title;
+
+  if (scheduleT.has(props.event.title)) {
+    title = scheduleT(props.event.title);
+  }
 
   return (
     <div className={styles['schedule-default__wrapper']}>
@@ -62,7 +70,7 @@ function EventCardWrapper(props: Props, start: Date, end: Date) {
       <div className={styles['schedule__content']}>
         <div>
           <div>
-            <h6 title={props.event.title}>{props.event.title}</h6>
+            <h6 title={title}>{title}</h6>
             {props.event.description && <p title={props.event.description}>{props.event.description}</p>}
             {props.view === 'list' && props.rooms.length > rooms.length ? <p>{eventRooms}</p> : ''}
           </div>

@@ -35,8 +35,17 @@ async function ParentTable({ events, event, locale }: Props) {
       </tr>
     );
 
-  return (event?.parentIds || Object.values(events)).map((parentId, index) => {
+  return (event?.parentIds || Object.values(events)).map(async (parentId, index) => {
     const parentEvent = typeof parentId === 'string' ? (events[parentId] as Event) : parentId;
+
+    const scheduleT = await getTranslations('schedule');
+
+    let title = parentEvent.title;
+
+    if (scheduleT.has(parentEvent.title)) {
+      title = scheduleT(parentEvent.title);
+    }
+
     return (
       <tr key={index}>
         <th style={{ display: 'flex', minWidth: 150 }}>
@@ -54,7 +63,7 @@ async function ParentTable({ events, event, locale }: Props) {
           )}
         </th>
         <td>
-          <h6>{parentEvent.title}</h6>
+          <h6>{title}</h6>
           <div className={styles['chips__grouped']}>
             {parentEvent.track ? (
               <span className={styles.chip}>
@@ -95,76 +104,86 @@ export default async function EventComponent({ events, event, locale }: Props) {
   return (
     <section className={`container ${styles['main-content']}`}>
       <main style={{ flexGrow: 1 }}>
-        {event ? (
-          <>
-            <header className={styles.header}>
-              <h1>
-                {event.title}
-                {event.lang && event.lang != defaultLang ? (
-                  <>
-                    <picture>
-                      <img
-                        src={`${process.env.NEXT_PUBLIC_ASSET_PREFIX}/images/icon/${event.lang}.png`}
-                        width={40}
-                        alt={event.lang}
-                        style={{ minWidth: '40px' }}
-                      />
-                    </picture>
-                  </>
-                ) : (
-                  <></>
-                )}
-              </h1>
+        {(async () => {
+          if (event) {
+            const scheduleT = await getTranslations('schedule');
 
-              <div className={styles['chips__grouped']}>
-                {event.simposio ? (
-                  <span className={styles.chip}>
-                    <small>{event.simposio}</small>
-                  </span>
-                ) : (
-                  ''
-                )}
-                {event.track ? (
-                  <span className={styles.chip}>
-                    <small>{event.track}</small>
-                  </span>
-                ) : (
-                  ''
-                )}
-                {event.type ? (
-                  <span className={styles.chip}>
-                    <small>{event.type}</small>
-                  </span>
-                ) : (
-                  ''
-                )}
-              </div>
-            </header>
+            let title = event.title;
 
-            {event.schedule && (
-              <p className={`${styles['schedule-time']} h4`}>
-                <FontAwesomeIcon icon={faCalendar} />
-                <span className='text-secondary'>
-                  {new Date(event.schedule.start).toLocaleDateString(locale, {
-                    month: 'short',
-                    day: '2-digit',
-                    hour: '2-digit',
-                    minute: '2-digit',
-                  })}{' '}
-                  -{' '}
-                  {new Date(event.schedule.end).toLocaleTimeString(locale, {
-                    hour: '2-digit',
-                    minute: '2-digit',
-                  })}
-                </span>
-              </p>
-            )}
+            if (scheduleT.has(event.title)) {
+              title = scheduleT(event.title);
+            }
 
-            {event.description ? <TemplateMarkdown>{event.description}</TemplateMarkdown> : ''}
-          </>
-        ) : (
-          <></>
-        )}
+            return (
+              <>
+                <header className={styles.header}>
+                  <h1>
+                    {title}
+                    {event.lang && event.lang != defaultLang ? (
+                      <>
+                        <picture>
+                          <img
+                            src={`${process.env.NEXT_PUBLIC_ASSET_PREFIX}/images/icon/${event.lang}.png`}
+                            width={40}
+                            alt={event.lang}
+                            style={{ minWidth: '40px' }}
+                          />
+                        </picture>
+                      </>
+                    ) : (
+                      <></>
+                    )}
+                  </h1>
+
+                  <div className={styles['chips__grouped']}>
+                    {event.simposio ? (
+                      <span className={styles.chip}>
+                        <small>{event.simposio}</small>
+                      </span>
+                    ) : (
+                      ''
+                    )}
+                    {event.track ? (
+                      <span className={styles.chip}>
+                        <small>{event.track}</small>
+                      </span>
+                    ) : (
+                      ''
+                    )}
+                    {event.type ? (
+                      <span className={styles.chip}>
+                        <small>{event.type}</small>
+                      </span>
+                    ) : (
+                      ''
+                    )}
+                  </div>
+                </header>
+
+                {event.schedule && (
+                  <p className={`${styles['schedule-time']} h4`}>
+                    <FontAwesomeIcon icon={faCalendar} />
+                    <span className='text-secondary'>
+                      {new Date(event.schedule.start).toLocaleDateString(locale, {
+                        month: 'short',
+                        day: '2-digit',
+                        hour: '2-digit',
+                        minute: '2-digit',
+                      })}{' '}
+                      -{' '}
+                      {new Date(event.schedule.end).toLocaleTimeString(locale, {
+                        hour: '2-digit',
+                        minute: '2-digit',
+                      })}
+                    </span>
+                  </p>
+                )}
+
+                {event.description ? <TemplateMarkdown>{event.description}</TemplateMarkdown> : ''}
+              </>
+            );
+          }
+        })()}
 
         <table className={styles.table}>
           <tbody>
