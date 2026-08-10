@@ -33,7 +33,18 @@ Faça parte desse momento.
 
 #### Programação
 
-> Em breve divulgaremos a programação. Fique de olho.
+*A programação será finalizada em breve*.
+
+| Horário       | Atividade                    |
+| ------------- | ---------------------------- |
+| 11:00 - 12:30 | Mesa 1: Histórico da inserção do Brasil na comunidade internacional do Software Livre |
+| 12:30 - 14:00 | *Intervalo para almoço*      |
+| 14:00 - 14:30 | Palestra 1 |
+| 14:30 - 15:00 | Palestra 2 |
+| 15:00 - 15:30 | Palestra 3 |
+| 15:30 - 16:00 | Palestra 4 |
+| 16:00 - 16:03 | *Coffee break* |
+| 16:30 - 18:00 | Mesa 2: Desafios presentes e futuros do Software Livre |
 
 | | |
 |---|---|
