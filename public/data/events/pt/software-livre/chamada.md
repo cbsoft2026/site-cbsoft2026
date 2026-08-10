@@ -37,4 +37,4 @@ Faça parte desse momento.
 
 | | |
 |---|---|
-| Evento Software Livre | {software_livre} |
+| Celebração do Software Livre no Brasil | {software_livre} |
