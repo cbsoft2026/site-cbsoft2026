@@ -20,6 +20,9 @@
   "artifacts": "Artifacts",
   "aiware": "AIWare",
   "software-livre": "Celebration of Free Software in Brazil",
+  "keynote": "Keynotes",
+  "english": "English Only",
+  "industry": "Industry Track",
   "siglas": {
     "cbsoft": "Brazilian Conference on Software: Practice and Theory",
     "sbes": "Brazilian Symposium on Software Engineering",

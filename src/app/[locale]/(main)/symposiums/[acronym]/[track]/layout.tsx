@@ -1,4 +1,4 @@
-import { trackValues } from '@/types/papers';
+import { trackValues } from '@/types/schedule';
 import React from 'react';
 
 type Props = {
@@ -8,7 +8,7 @@ type Props = {
 
 export async function generateStaticParams() {
   return trackValues.map((track) => {
-    return { acronym: "sbes", track: track };
+    return { acronym: 'sbes', track: track };
   });
 }
 

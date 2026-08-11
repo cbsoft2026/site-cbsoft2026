@@ -13,10 +13,10 @@ import {
 import Image from 'next/image';
 import ChangeView from './ChangeView';
 import Schedule from './Schedule';
-import { useCallback, useEffect, useState } from 'react';
-import { Event } from '@/types/event';
+import { ChangeEventHandler, useCallback, useEffect, useState } from 'react';
+import { Event, EventType } from '@/types/event';
 import { Rooms } from '@/types/rooms';
-import useEventFilter from '@/hooks/useEventFilter';
+import useEventFilter, { EventFilter } from '@/hooks/useEventFilter';
 import { useTranslations } from 'next-intl';
 import useWindowDimensions from '@/hooks/useWindowDimentions';
 import LinkLocale from '@/components/LinkLocale';
@@ -33,6 +33,113 @@ type Props = {
   loading?: boolean;
 };
 
+function FilterCheckBox(
+  index: number,
+  value: string,
+  label: string,
+  checked: boolean,
+  onChange: ChangeEventHandler<HTMLInputElement>,
+) {
+  return (
+    <label key={`label-${index}`} className={styles['checkbox-control']}>
+      <input type='checkbox' value={value} checked={checked} onChange={onChange} />
+      {label}
+    </label>
+  );
+}
+
+type PropsFilter = {
+  filters: readonly string[];
+  toggleFilter: (type: string) => void;
+  eventFilters: string[];
+};
+
+function Filter(props: PropsFilter) {
+  const { filters, toggleFilter, eventFilters } = props;
+
+  const t = useTranslations('pages/schedule');
+  const commonT = useTranslations('common');
+
+  const [openFilter, setOpenFilter] = useState(true);
+  const toggleOpenFilter = useCallback(() => setOpenFilter((prev) => !prev), []);
+
+  return (
+    <>
+      <div onClick={toggleOpenFilter} className={styles.collapser}>
+        <h6>{t('filtros')}</h6>
+        <div className={`${styles.icon} ${styles.less} ${styles['icon--small']}`}>
+          {openFilter ? (
+            <FontAwesomeIcon icon={faChevronDown} style={{ width: '8px' }} />
+          ) : (
+            <FontAwesomeIcon icon={faChevronUp} style={{ width: '8px' }} />
+          )}
+        </div>
+      </div>
+      {openFilter && (
+        <div className={styles['collapser__items']}>
+          {filters.map((filter, index) =>
+            filter != null
+              ? FilterCheckBox(
+                  index,
+                  filter,
+                  commonT.has(filter) ? commonT(filter) : filter.toUpperCase(),
+                  eventFilters.includes(filter),
+                  () => toggleFilter(filter),
+                )
+              : '',
+          )}
+        </div>
+      )}
+    </>
+  );
+}
+
+type PropsSymposiumsFilter = {
+  symposiums: readonly string[];
+  toggleSymposiums: (symposiums: string) => void;
+  eventSymposiums: string[];
+};
+
+function SymposiumsFilter(props: PropsSymposiumsFilter) {
+  const { symposiums, toggleSymposiums, eventSymposiums } = props;
+
+  const t = useTranslations('pages/schedule');
+  const commonT = useTranslations('common');
+
+  const [openSymposiums, setOpenSymposiums] = useState(true);
+  const toggleOpenSymposiums = useCallback(() => setOpenSymposiums((prev) => !prev), []);
+
+  return (
+    <>
+      <div onClick={toggleOpenSymposiums} className={styles.collapser}>
+        <h6>{t('simposiosetrilha')}</h6>
+        <div className={`${styles.icon} ${styles.less} ${styles['icon--small']}`}>
+          {openSymposiums ? (
+            <FontAwesomeIcon icon={faChevronDown} style={{ width: '8px' }} />
+          ) : (
+            <FontAwesomeIcon icon={faChevronUp} style={{ width: '8px' }} />
+          )}
+        </div>
+      </div>
+      {openSymposiums && (
+        <div className={styles['collapser__items']}>
+          {symposiums.map((symposium, index) =>
+            symposium != null
+              ? FilterCheckBox(
+                  index,
+                  symposium,
+                  commonT.has(symposium) ? commonT(symposium) : symposium.toUpperCase(),
+                  eventSymposiums.includes(symposium),
+                  () => toggleSymposiums(symposium),
+                )
+              : '',
+          )}
+        </div>
+      )}
+    </>
+  );
+}
+
 export default function Content({ loading = false, ...props }: Props) {
   const { commonEvents, events, symposiums, locale, view, date } = props;
   const { startsIn, finishIn, formattedDateLocale, backDate, nextDate } = useDayNavigation(
@@ -42,7 +149,6 @@ export default function Content({ loading = false, ...props }: Props) {
   );
 
   const t = useTranslations('pages/schedule');
-  const commonT = useTranslations('common');
 
   const [typeView, setTypeView] = useState('day');
 
@@ -54,13 +160,23 @@ export default function Content({ loading = false, ...props }: Props) {
   }, [width]);
   const toggleOpenAsideBar = useCallback(() => setOpenAsideBar((prev) => !prev), []);
 
-  const [openSymposiums, setOpenSymposiums] = useState(true);
-  const toggleOpenSymposiums = useCallback(() => setOpenSymposiums((prev) => !prev), []);
+  const filters: EventFilter[] = [
+    {
+      id: 'keynote',
+      predicate: (event) => event.title.toLowerCase().includes('keynote'),
+    },
+    {
+      id: 'english',
+      predicate: (event) => event.lang === 'en',
+    },
+    {
+      id: 'industry',
+      predicate: (event) => event.track?.includes('industry') || false,
+    },
+  ];
 
-  const { eventType, toggleType, eventSymposiums, toggleSymposiums, filteredEvents } = useEventFilter(
-    events,
-    symposiums,
-  );
+  const { eventType, toggleType, eventSymposiums, toggleSymposiums, activeFilters, toggleFilter, filteredEvents } =
+    useEventFilter(events, symposiums, filters);
 
   const lastUpdate = new Date(process.env.NEXT_PUBLIC_GIT_COMMIT_DATE_SCHEDULE!);
 
@@ -97,35 +213,16 @@ export default function Content({ loading = false, ...props }: Props) {
           </header>
           <p>{t('wip')}</p>
           <div className={styles['aside-filter']}>
-            <div onClick={toggleOpenSymposiums} className={styles.collapser}>
-              <h6>{t('simposiosetrilha')}</h6>
-              <div className={`${styles.icon} ${styles.less} ${styles['icon--small']}`}>
-                {openSymposiums ? (
-                  <FontAwesomeIcon icon={faChevronDown} style={{ width: '8px' }} />
-                ) : (
-                  <FontAwesomeIcon icon={faChevronUp} style={{ width: '8px' }} />
-                )}
-              </div>
-            </div>
-            {openSymposiums && (
-              <div className={styles['collapser__items']}>
-                {symposiums.map((symposium, index) =>
-                  symposium != null ? (
-                    <label key={`label-${index}`} className={styles['checkbox-control']}>
-                      <input
-                        type='checkbox'
-                        value={symposium}
-                        checked={eventSymposiums.includes(symposium)}
-                        onChange={() => toggleSymposiums(symposium)}
-                      />
-                      {commonT.has(symposium) ? commonT(symposium) : symposium.toUpperCase()}
-                    </label>
-                  ) : (
-                    ''
-                  ),
-                )}
-              </div>
-            )}
+            <Filter
+              filters={filters.map((filter) => filter.id)}
+              eventFilters={activeFilters}
+              toggleFilter={toggleFilter}
+            />
+            <SymposiumsFilter
+              symposiums={symposiums}
+              eventSymposiums={eventSymposiums}
+              toggleSymposiums={toggleSymposiums}
+            />
           </div>
         </div>
         <div>

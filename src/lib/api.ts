@@ -3,7 +3,8 @@ import * as path from 'path';
 
 import { Static, TSchema } from '@sinclair/typebox';
 
-import { PapersSchema, Track, trackValues } from '@/types/papers';
+import { PapersSchema } from '@/types/papers';
+import { Track, trackValues } from '@/types/schedule';
 import { TalksSchema } from '@/types/talks';
 import { validateData } from '@/public/data/validator';
 import { createIdGenerator } from '@/utils/slugify';
@@ -114,7 +115,7 @@ export function loadEvents(lang: string = defaultLang): Map<string, Event> {
             type: (p.type as EventType) || 'session',
             simposio: slug,
             id,
-            track: null,
+            track: p.track || null,
             schedule: p.schedule,
             rooms: p.rooms,
             title: p.title,

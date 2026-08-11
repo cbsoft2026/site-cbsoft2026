@@ -135,6 +135,7 @@
             "start": "2026-09-10T11:00:00-03:00",
             "end": "2026-09-10T12:30:00-03:00"
         },
+        "track": "industry",
         "rooms": ["auditorio-ime"]
     },
     {
@@ -144,6 +145,7 @@
             "start": "2026-09-10T16:30:00-03:00",
             "end": "2026-09-10T18:30:00-03:00"
         },
+        "track": "industry",
         "rooms": ["auditorio-ime"]
     },
     {
@@ -268,6 +270,7 @@
             "end": "2026-09-11T12:30:00-03:00"
         },
         "lang": "en",
+        "track": "industry",
         "rooms": ["auditorio-ime"]
     },
     {
@@ -278,6 +281,7 @@
             "end": "2026-09-11T16:00:00-03:00"
         },
         "lang": "en",
+        "track": "industry",
         "rooms": ["auditorio-ime"]
     },
     {
@@ -287,6 +291,7 @@
             "start": "2026-09-11T16:30:00-03:00",
             "end": "2026-09-11T18:00:00-03:00"
         },
+        "track": "industry",
         "rooms": ["auditorio-ime"]
     },
     {

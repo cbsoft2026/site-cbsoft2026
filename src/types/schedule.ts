@@ -1,6 +1,21 @@
 import { Type, Static } from '@sinclair/typebox';
 
+export const TrackType = Type.Union([
+  Type.Literal('pesquisa'),
+  Type.Literal('ideias'),
+  Type.Literal('tools'),
+  Type.Literal('educacao'),
+  Type.Literal('industry'),
+  Type.Literal('ctd'),
+  Type.Literal('ctic'),
+  Type.Literal('special'),
+  Type.Null(),
+]);
+
+export const trackValues = ['pesquisa', 'educacao', 'ideias', 'tools', 'ctic', 'ctd', 'industry', 'special'];
+
 export const ScheduleSchema = Type.Object({
+  track: Type.Optional(TrackType),
   schedule: Type.Optional(
     Type.Object({
       start: Type.String(),
@@ -15,6 +30,8 @@ export const ScheduleSchema = Type.Object({
   /* usar o padrao i18n como lang (pt, en) */
   lang: Type.Optional(Type.String()),
 });
+
+export type Track = (typeof trackValues)[number];
 
 export const SchedulesSchema = Type.Array(ScheduleSchema);
 

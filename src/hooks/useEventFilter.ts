@@ -1,7 +1,16 @@
 import { Event, EventType, eventType as eventTypeConst } from '@/types/event';
 import { useCallback, useMemo, useState } from 'react';
 
-export default function useEventFilter(events?: Map<string, Event>, symposiums: readonly string[] = []) {
+export type EventFilter = {
+  id: string;
+  predicate: (event: Event) => boolean;
+};
+
+export default function useEventFilter(
+  events?: Map<string, Event>,
+  symposiums: readonly string[] = [],
+  filters: EventFilter[] = [],
+) {
   const [eventType, setEventType] = useState<EventType[]>([...eventTypeConst]);
   const [eventSymposiums, setEventSymposiums] = useState<string[]>([...symposiums]);
 
@@ -20,17 +29,32 @@ export default function useEventFilter(events?: Map<string, Event>, symposiums: 
     },
     [setEventSymposiums],
   );
+
+  const [activeFilters, setActiveFilters] = useState<string[]>([]);
+  const toggleFilter = useCallback((id: string) => {
+    setActiveFilters((prev) => (prev.includes(id) ? prev.filter((filterId) => filterId !== id) : [...prev, id]));
+  }, []);
+
   const filteredEvents = useMemo(
     () =>
       events
         ? Array.from(events.values(), (value) => value).filter(
             (event) =>
               (event.type ? eventType.includes(event.type) : true) &&
-              (event.simposio ? eventSymposiums.includes(event.simposio) : true),
+              (event.simposio ? eventSymposiums.includes(event.simposio) : true) &&
+              filters.filter((filter) => activeFilters.includes(filter.id)).every((filter) => filter.predicate(event)),
           )
         : [],
-    [events, eventType, eventSymposiums],
+    [events, eventType, eventSymposiums, filters, activeFilters],
   );
 
-  return { eventType, toggleType, eventSymposiums, toggleSymposiums, filteredEvents };
+  return {
+    eventType,
+    toggleType,
+    eventSymposiums,
+    toggleSymposiums,
+    activeFilters,
+    toggleFilter,
+    filteredEvents,
+  };
 }
