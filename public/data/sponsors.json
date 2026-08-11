@@ -62,6 +62,10 @@
         {
           "href": "https://www.redhat.com/pt-br/services/training/red-hat-academy",
           "image": "red_hat_academy.svg"
+        },
+        {
+          "href": "https://www.unico.io",
+          "image": "unico.svg"
         }
       ]
     },
