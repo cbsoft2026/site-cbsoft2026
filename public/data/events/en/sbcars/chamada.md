@@ -125,8 +125,92 @@ We look forward to receiving your valuable contributions and to welcoming you to
 
 All submitted works must comply with the [Code of Conduct for Authors in Publications of the Brazilian Computer Society (SBC)](https://sol.sbc.org.br/index.php/indice/conduta).
 
-###### SBCARS 2026 Program Committee Chairs
+#### Organization
+ 
+###### Program Committee Coordinators
 
-Juliana Alves Pereira — Pontifícia Universidade Católica do Rio de Janeiro (PUC-Rio)
+Juliana Alves Pereirad — Pontifícia Universidade Católica do Rio de Janeiro (PUC-Rio)
 
-Breno Bernard Nicolau de França — Universidade Estadual de Campinas (UNICAMP)
+Breno Bernard Nicolau de Françad — Universidade Estadual de Campinas (UNICAMP)
+
+###### Program Committee
+
+Adenilso Simaod — Universidade de São Paula (USP)
+
+Aline Miotto Amarald — Universidade Estadual de Maringá (UEM)
+
+Ana Carla Bibianod — Pontifícia Universidade Católica do Rio de Janeiro (PUC-Rio)
+
+Anderson Uchôad — Universidade Federal do Ceará (UFC)
+
+Andre Horad — Universidade Federal de Minas Gerais (UFMG)
+
+Awdren Fontãod — Universidade Federal do Mato Grosso do Sul (UFMS)
+
+Catarina Costad — Universidade Federal do Acre (UFAC)
+
+Daniel Lucrédiod — Universidade Federal de São Carlos (UFSCar)
+
+Daniel San Martind — Universidad Catolica del Norte
+
+Daniel Tenorio Martins de Oliveirad — Universidade Federal de Alagoas (UFAL)
+
+Delano Medeiros Bederd — Universidade Federal de São Carlos (UFSCar)
+
+Denivan Camposd — University of Molise (UNIMOL)
+
+Edna Dias Canedod — Universidade Federal de Pernambuco (UFPE)
+
+Eduardo Figueiredod — Universidade Federal de Minas Gerais (UFMG)
+
+Elisa Y. Nakagawad — Universidade de São Paula (USP)
+
+Emanoel Francisco Sposito Barreirosd — Universidade de Pernambuco
+
+Evilasio Costa Juniord — Universidade Federal do Ceará (UFC)
+
+Fernando Antonio Mota Trintad — Universidade Federal do Ceará (UFC)
+
+Heitor Augustus Xavier Costad — Universidade Federal de Lavras (UFLA)
+
+Isabel Azevedod — Instituto Superior de Engenharia do Porto (ISEP)
+
+Ivan C Machadod — Universidade Federal da Bahia (UFBA)
+
+João Choma Netod — Universidade Estadual de Maringá (UEM)
+
+Lincoln S. Rochad — Universidade Federal do Ceará (UFC)
+
+Luciana Zainad — Universidade Federal de São Carlos (UFSCar)
+
+Marcelo de Almeida Maiad — Universidade Federal de Uberlândia (UFU)
+
+Matheus Paixãod — Universidade Estadual do Ceará (UECE)
+
+Paola Acciolyd — Universidade Federal de Pernambuco (UFPE)
+
+Paulo Maiad — Universidade Estadual do Ceará (UECE)
+
+Pedro Henrique Dias Valled — Universidade de São Paula (USP)
+
+Rafael Serapilha Durellid — Universidade Federal de Lavras (UFLA)
+
+Roberta Coelhod — Universidade Federal do Rio Grande do Norte (UFRN)
+
+Rodrigo Andraded — Universidade Federal do Agreste de Pernambuco (UFAPE)
+
+Rodrigo Bonifaciod — Universidade Federal de Pernambuco (UFPE)
+
+Talita Ribeirod — Universidade do Estado do Rio de Janeiro (UERJ)
+
+Thatiane de Oliveira Rosad — Instituto Federal do Tocantins (IFTO)
+
+Uirá Kuleszad — Universidade Federal do Rio Grande do Norte (UFRN)
+
+Valter Vieira Camargod — Universidade Federal de São Carlos (UFSCar)
+
+Vinicius Cardoso Garciad — Universidade Federal de Pernambuco (UFPE)
+
+Willian Marques Freired — Universidade Estadual de Maringá (UEM)
+
+Willian Nalepa Oizumid — Google
