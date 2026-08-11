@@ -77,6 +77,10 @@
           "image": "kunumi.png"
         },
         {
+          "href": "https://lablivre.unb.br/",
+          "image": "lab_livre.svg"
+        },
+        {
           "href": "https://pencillabs.tec.br/",
           "image": "pencil_labs.png"
         }
