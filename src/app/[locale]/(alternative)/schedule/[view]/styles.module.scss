@@ -146,7 +146,6 @@
 
   .checkbox-control {
     display: flex;
-    align-items: center;
     gap: 0.5em;
     padding: 1px 1px 1px 16px;
   }
@@ -164,6 +163,7 @@
     border: 0.15em solid $text-primary;
     border-radius: 0.15em;
     transform: translateY(-0.075em);
+    margin-top: 0.25em;
 
     display: grid;
     place-content: center;
