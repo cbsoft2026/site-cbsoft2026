@@ -95,6 +95,17 @@
       ]
     }
   ],
+  "patrocinio_de_workshop": [
+    {
+      "tier": "bronze",
+      "items": [
+        {
+          "href": "https://www.excelsiorseguros.com.br/",
+          "image": "excelsior.svg"
+        }
+      ]
+    }
+  ],
   "apoio": [
     {
       "tier": "ouro",
