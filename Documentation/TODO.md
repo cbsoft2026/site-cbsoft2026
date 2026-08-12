@@ -31,3 +31,14 @@
 4. Adicionar suporte a sitemap XML multilíngue (`hreflang` no sitemap)
 
 > Repositório interessante que adiciona suporte no Jekyll: https://github.com/untra/polyglot
+
+### Melhoria na forma de inserir imagens dentro de `locales/`
+
+`[enhancement]` `[maintenance]`
+
+Atualmente, quando preciso inserir uma imagem em uma página mantida em `locales/` devo inserir a imagem em `public/images/`.
+
+Exemplo:
+
+- `locales/[locale]/pages/cbsoft/accommodation.json`
+- `public/images/tristar.jpeg`
