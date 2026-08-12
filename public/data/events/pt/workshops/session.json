@@ -117,31 +117,68 @@
         "rooms": ["b3"]
     },
     {
-        "title": "VEM",
+        "title": "VEM: Opening (B9 Room)",
         "schedule": {
             "start": "2026-09-11T11:00:00-03:00",
+            "end": "2026-09-11T11:10:00-03:00"
+        },
+        "rooms": ["b9", "b10"]
+    },
+    {
+        "title": "ST1A VEM: Software Quality, Security and Analysis",
+        "schedule": {
+            "start": "2026-09-11T11:10:00-03:00",
             "end": "2026-09-11T12:30:00-03:00"
         },
-        "type": "info",
         "rooms": ["b9"]
     },
     {
-        "title": "VEM",
+        "title": "ST1B VEM: AI and LLMs for Software Engineering",
         "schedule": {
-            "start": "2026-09-11T11:00:00-03:00",
+            "start": "2026-09-11T11:10:00-03:00",
             "end": "2026-09-11T12:30:00-03:00"
         },
-        "type": "info",
         "rooms": ["b10"]
     },
     {
-        "title": "VEM",
+        "title": "ST2A VEM: Software Architecture, Evolution and DevOps",
+        "schedule": {
+            "start": "2026-09-11T15:00:00-03:00",
+            "end": "2026-09-11T16:00:00-03:00"
+        },
+        "rooms": ["b9"]
+    },
+    {
+        "title": "ST2B VEM: Developers, Repositories and Software Communities",
+        "schedule": {
+            "start": "2026-09-11T15:00:00-03:00",
+            "end": "2026-09-11T16:00:00-03:00"
+        },
+        "rooms": ["b10"]
+    },
+    {
+        "title": "ST3A VEM: Software Quality, Smells and Evolution",
         "schedule": {
             "start": "2026-09-11T16:30:00-03:00",
+            "end": "2026-09-11T17:30:00-03:00"
+        },
+        "rooms": ["b9"]
+    },
+    {
+        "title": "ST3B VEM: Linux Kernel: Ownership, Knowledge and Collaboration (B10 Room - Dennis Ritchie)",
+        "schedule": {
+            "start": "2026-09-11T16:30:00-03:00",
+            "end": "2026-09-11T17:30:00-03:00"
+        },
+        "rooms": ["b10"]
+    },
+    {
+        "title": "VEM: Awards and Closing (B9 Room)",
+        "schedule": {
+            "start": "2026-09-11T17:30:00-03:00",
             "end": "2026-09-11T18:00:00-03:00"
         },
-        "type": "info",
-        "rooms": ["b9"]
+        "rooms": ["b9", "b10"]
     },
     {
         "title": "ST1 ISE: AI for Requirements and Software Design",
@@ -192,7 +229,7 @@
             "end": "2026-09-11T16:00:00-03:00"
         },
         "type": "info",
-        "rooms": ["b10"]
+        "rooms": ["b5"]
     },
     {
         "title": "WBOTS",
@@ -201,6 +238,6 @@
             "end": "2026-09-11T18:00:00-03:00"
         },
         "type": "info",
-        "rooms": ["b10"]
+        "rooms": ["b5"]
     }
 ]

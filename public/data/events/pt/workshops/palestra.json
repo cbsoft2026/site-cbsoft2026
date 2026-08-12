@@ -17,5 +17,14 @@
             "end": "2026-09-11T17:10:00-03:00"
         },
         "rooms": ["b1"]
+    },
+    {
+        "title": "Keynote VEM (B9 Room)",
+        "speakers": ["marcos-kalinowski"],
+        "schedule": {
+            "start": "2026-09-11T14:00:00-03:00",
+            "end": "2026-09-11T15:00:00-03:00"
+        },
+        "rooms": ["b9", "b10"]
     }
 ]
