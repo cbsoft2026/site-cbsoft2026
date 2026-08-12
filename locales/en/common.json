@@ -23,6 +23,8 @@
   "keynote": "Keynotes",
   "english": "English Only",
   "industry": "Industry Track",
+  "ise": "Workshop on Intelligent Software Engineering",
+  "vem": "Workshop on Software Visualization, Maintenance and Evolution",
   "siglas": {
     "cbsoft": "Brazilian Conference on Software: Practice and Theory",
     "sbes": "Brazilian Symposium on Software Engineering",
@@ -34,8 +36,6 @@
     "latam-school": "LATAM School in Software Engineering",
     "artifacts": "Artifacts",
     "aiware": "AIWare",
-    "ise": "ISE",
-    "vem": "VEM",
     "software-livre": "Free Software",
     "high-school": "High School",
     "trilhas": {
@@ -53,7 +53,9 @@
     "mestrado": "Master's",
     "doutorado": "Doctorate",
     "finalistas": "Finalists",
-    "mencoes-honrosas": "Honorable Mentions"
+    "mencoes-honrosas": "Honorable Mentions",
+    "ise": "ISE",
+    "vem": "VEM"
   },
   "eventos": {
     "artigo": "Article",
