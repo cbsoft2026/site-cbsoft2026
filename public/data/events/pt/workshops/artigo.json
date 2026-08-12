@@ -278,5 +278,335 @@
         },
         "rooms": ["b1"],
         "category": "ise"
+    },
+    {
+        "title": "Da Validação Manual à Qualidade Contínua: Um Relato de Evolução de Testes Automatizados em um ERP Legado",
+        "authors": ["Icaro de Oliveira (UECE)", "Felipe Rodrigues de Oliveira (UECE)", "Ismayle Santos (UECE)"],
+        "schedule": {
+            "start": "2026-09-11T11:15:00-03:00",
+            "end": "2026-09-11T11:25:00-03:00"
+        },
+        "rooms": ["b9"],
+        "category": "vem"
+    },
+    {
+        "title": "Subreddit Temporal Network: an Interactive Web Interface",
+        "authors": ["Gabriel Mota (UFV)", "Sabrina Azevedo Silveira (UFV)", "Julio C. S. Reis (UFV)"],
+        "schedule": {
+            "start": "2026-09-11T11:25:00-03:00",
+            "end": "2026-09-11T11:35:00-03:00"
+        },
+        "rooms": ["b9"],
+        "category": "vem"
+    },
+    {
+        "title": "An Empirical Study on Security Misconfigurations in TypeScript Backends in the Open Source Academic Projects",
+        "authors": ["Leandro Braga (UNIFEI)", "Phyllipe Francisco (UNIFEI)", "Bruno Guazzelli Batista (UNIFEI)"],
+        "schedule": {
+            "start": "2026-09-11T11:35:00-03:00",
+            "end": "2026-09-11T11:45:00-03:00"
+        },
+        "rooms": ["b9"],
+        "category": "vem"
+    },
+    {
+        "title": "Maus Cheiros de Código em PowerScript: Uma Proposta de Catálogo",
+        "authors": ["João Vitor Kreusch de Mello (UTFPR)", "Gustavo Santos (UTFPR)"],
+        "schedule": {
+            "start": "2026-09-11T11:45:00-03:00",
+            "end": "2026-09-11T11:55:00-03:00"
+        },
+        "rooms": ["b9"],
+        "category": "vem"
+    },
+    {
+        "title": "Manutenibilidade no Acesso a Dados Analíticos: Um Estudo Empírico Comparando SDK Nativo e Query Builders Tipados",
+        "authors": ["Joao Vitor Coimbra Gomes Rodrigues (CEFET/RJ)", "Diego Castro (CEFET/RJ)", "Eduardo Ferreira (CEFET/RJ)"],
+        "schedule": {
+            "start": "2026-09-11T11:55:00-03:00",
+            "end": "2026-09-11T12:05:00-03:00"
+        },
+        "rooms": ["b9"],
+        "category": "vem"
+    },
+    {
+        "title": "PrivDev: Mapping Static-Analysis Data Types to DPV",
+        "authors": ["Simon Bernbeck (PUC-Rio)", "Ricardo Ramalho (PUC-Rio)", "Matheus Amendoeira (PUC-Rio)", "Juliana Alves Pereira (PUC-Rio)"],
+        "schedule": {
+            "start": "2026-09-11T12:05:00-03:00",
+            "end": "2026-09-11T12:15:00-03:00"
+        },
+        "rooms": ["b9"],
+        "category": "vem"
+    },
+    {
+        "title": "EEVEE: Execução Agnóstica a Linguagem para Avaliação Automatizada de Programação por meio de Imagens de Contêiner",
+        "authors": ["Joao Vitor Coimbra Gomes Rodrigues (CEFET/RJ)", "Diego Castro (CEFET/RJ)"],
+        "schedule": {
+            "start": "2026-09-11T12:15:00-03:00",
+            "end": "2026-09-11T12:25:00-03:00"
+        },
+        "rooms": ["b9"],
+        "category": "vem"
+    },
+    {
+        "title": "An Evaluation of ChatGPT in Assisting Java Code Refactoring",
+        "authors": ["Henrique Silva (UFPA)", "Cleidson de Souza (UFPA)"],
+        "schedule": {
+            "start": "2026-09-11T11:15:00-03:00",
+            "end": "2026-09-11T11:25:00-03:00"
+        },
+        "rooms": ["b10"],
+        "category": "vem"
+    },
+    {
+        "title": "Test-Driven Prompting: An Empirical Evaluation of Methods Reconstruction based on Unit Tests",
+        "authors": ["Guilherme Mota Bromonschenkel Lima (UFMG)", "João Eduardo Montandon (UFMG)"],
+        "schedule": {
+            "start": "2026-09-11T11:25:00-03:00",
+            "end": "2026-09-11T11:35:00-03:00"
+        },
+        "rooms": ["b10"],
+        "category": "vem"
+    },
+    {
+        "title": "Large Language Models in Software Testing: A Scoping Review",
+        "authors": ["Ruby Marshall (UFLA)", "Maurício Magri Ribas das Neves (UFLA)", "Bento Rafael Siqueira (UFLA)", "Samira Santos da Silva (UFLA)"],
+        "schedule": {
+            "start": "2026-09-11T11:35:00-03:00",
+            "end": "2026-09-11T11:45:00-03:00"
+        },
+        "rooms": ["b10"],
+        "category": "vem"
+    },
+    {
+        "title": "Engenharia de Prompt na Geração de Interfaces a partir de Protótipos Visuais: uma Avaliação Empírica em IDE Agêntica",
+        "authors": ["Caio Rian Reinaldo de Sousa (UFC)", "Beatriz Nascimento de Oliveira (UFC)", "Francisco Jerferson Martins da Silva (UFC)", "Carla Bezerra (UFC)"],
+        "schedule": {
+            "start": "2026-09-11T11:45:00-03:00",
+            "end": "2026-09-11T11:55:00-03:00"
+        },
+        "rooms": ["b10"],
+        "category": "vem"
+    },
+    {
+        "title": "Proposal for a Role-Based Multi-Agent LLM Architecture for Corporate Software Delivery",
+        "authors": ["Alisson Peloso (UFFS)", "Fernando Bevilacqua (UFFS)"],
+        "schedule": {
+            "start": "2026-09-11T11:55:00-03:00",
+            "end": "2026-09-11T12:05:00-03:00"
+        },
+        "rooms": ["b10"],
+        "category": "vem"
+    },
+    {
+        "title": "Beyond Code Generation: A Spec-Driven Experience Report on LLM-Assisted Modernization of a Legacy Delphi System",
+        "authors": ["Wellynton Diniz (FASTECH)"],
+        "schedule": {
+            "start": "2026-09-11T12:05:00-03:00",
+            "end": "2026-09-11T12:15:00-03:00"
+        },
+        "rooms": ["b10"],
+        "category": "vem"
+    },
+    {
+        "title": "Metadata Is Not Enough: Characterizing Failure Modes in LLM-Generated Kubernetes Validation Artifacts",
+        "authors": ["Bento Rafael Siqueira (UFLA)", "Samira Santos da Silva (UFLA)", "Johnatan Alves Oliveira (UFLA)", "Juka Gonçalves (UFLA)", "Maria Júlia Pedroso Pimenta (UFLA)", "Fabiano Cutigi Ferrari (UFSCAR)"],
+        "schedule": {
+            "start": "2026-09-11T12:15:00-03:00",
+            "end": "2026-09-11T12:25:00-03:00"
+        },
+        "rooms": ["b10"],
+        "category": "vem"
+    },
+    {
+        "title": "Uma Análise Comparativa entre Arquitetura Monolítica Modular e Microsserviços em Aplicações Web",
+        "authors": ["Emanuel Coutinho (UFC)", "Gabriel Raulino (UFC)", "Carla Bezerra (UFC)", "Allan Marques (UFC)"],
+        "schedule": {
+            "start": "2026-09-11T15:00:00-03:00",
+            "end": "2026-09-11T15:10:00-03:00"
+        },
+        "rooms": ["b9"],
+        "category": "vem"
+    },
+    {
+        "title": "Automatically Generating Security Guidelines from Pull Request Discussions: The Case of Django Framework",
+        "authors": ["Ester Silva (UFMG)", "Marco Tulio Valente (UFMG)", "Hudson Borges (UFMS)"],
+        "schedule": {
+            "start": "2026-09-11T15:10:00-03:00",
+            "end": "2026-09-11T15:20:00-03:00"
+        },
+        "rooms": ["b9"],
+        "category": "vem"
+    },
+    {
+        "title": "From Static Plans to Self-Evolving Policies: Migrating Legacy Traffic-Control Software to Adaptive Reinforcement Learning",
+        "authors": ["Jeferson Silva (IFBA)", "Isaque Andrade (IFBA)", "Cleia Santos Libarino (IFBA)", "João Erivando Soares Marques (IFBA)", "Luis A. Correia Filho (IFBA)", "Kenedy Marconi Geraldo dos Santos (IFBA)", "José Alberto Diaz Amado (IFBA)", "Crescencio Lima (IFBA)"],
+        "schedule": {
+            "start": "2026-09-11T15:20:00-03:00",
+            "end": "2026-09-11T15:30:00-03:00"
+        },
+        "rooms": ["b9"],
+        "category": "vem"
+    },
+    {
+        "title": "When Pipelines Meet Things: Understanding CI/CD Practices in FLOSS IoT Projects through GitHub Actions",
+        "authors": ["Igor Pereira (UFOP)", "Tiago Garcia de Senna Carneiro (UFOP)", "Eduardo Figueiredo (UFMG)"],
+        "schedule": {
+            "start": "2026-09-11T15:30:00-03:00",
+            "end": "2026-09-11T15:40:00-03:00"
+        },
+        "rooms": ["b9"],
+        "category": "vem"
+    },
+    {
+        "title": "Apoiando o Entendimento e a Evolução de Software Legado: Um Estudo de Caso com o iVProg",
+        "authors": ["Guilherme Vieira dos Santos (USP)", "Anarosa Brandao (USP)"],
+        "schedule": {
+            "start": "2026-09-11T15:40:00-03:00",
+            "end": "2026-09-11T15:50:00-03:00"
+        },
+        "rooms": ["b9"],
+        "category": "vem"
+    },
+    {
+        "title": "More Than Just Code: What Public Repositories Whisper About Developer Skills",
+        "authors": ["Gustavo Vitor da Silva (UFLA)", "Enzo Augusto Valentim (UFLA)", "Johnatan Alves Oliveira (UFLA)"],
+        "schedule": {
+            "start": "2026-09-11T15:00:00-03:00",
+            "end": "2026-09-11T15:10:00-03:00"
+        },
+        "rooms": ["b10"],
+        "category": "vem"
+    },
+    {
+        "title": "Extração e Avaliação de Métricas Estruturais e Evolutivas Em Linhas de Produto de Software",
+        "authors": ["Kevin Strey (UDESC)", "Paulo Farah (UDESC)", "Willian Douglas Ferrari Mendonça (UFPR)"],
+        "schedule": {
+            "start": "2026-09-11T15:10:00-03:00",
+            "end": "2026-09-11T15:20:00-03:00"
+        },
+        "rooms": ["b10"],
+        "category": "vem"
+    },
+    {
+        "title": "Same Volatility, Different Domains: A Reproduction of CodeLL Across ML and Software Engineering Projects",
+        "authors": ["Gabriel Mendes (UFC)", "Camilo Almendra (UFC)", "Lincoln S. Rocha (UFC)", "Francisco Paulino Arruda Filho (UFC)"],
+        "schedule": {
+            "start": "2026-09-11T15:20:00-03:00",
+            "end": "2026-09-11T15:30:00-03:00"
+        },
+        "rooms": ["b10"],
+        "category": "vem"
+    },
+    {
+        "title": "Beyond Self-Declared Skills: Inferring Developer Specialization from Public Source Code",
+        "authors": ["Enzo Augusto Valentim (UFLA)", "Gustavo Vitor da Silva (UFLA)", "Johnatan Alves Oliveira (UFLA)"],
+        "schedule": {
+            "start": "2026-09-11T15:30:00-03:00",
+            "end": "2026-09-11T15:40:00-03:00"
+        },
+        "rooms": ["b10"],
+        "category": "vem"
+    },
+    {
+        "title": "Code Smells Detective - An Educational Digital Game for Supporting the Learning-Teaching Process in Code Smells",
+        "authors": ["Jefferson Francisco (UFLA)", "Heitor Augustus Xavier Costa (UFLA)"],
+        "schedule": {
+            "start": "2026-09-11T15:40:00-03:00",
+            "end": "2026-09-11T15:50:00-03:00"
+        },
+        "rooms": ["b10"],
+        "category": "vem"
+    },
+    {
+        "title": "Code Smells in React Projects of a Junior Enterprise",
+        "authors": ["Victor Peixoto Barbosa (UFBA)", "Cláudio Sant'Anna (UFBA)"],
+        "schedule": {
+            "start": "2026-09-11T16:30:00-03:00",
+            "end": "2026-09-11T16:40:00-03:00"
+        },
+        "rooms": ["b9"],
+        "category": "vem"
+    },
+    {
+        "title": "A New Visualization for Refactorings in Pull Requests: Proposal and Preliminary Evaluation",
+        "authors": ["Alicia Paiva (UECE)", "Matheus Paixão (UECE)", "Victor Manoel Magalhães Timbó (UECE)", "Adriely Silva (UECE)", "Alysson Diniz dos Santos (UFC)", "Matheus Chagas (UECE)"],
+        "schedule": {
+            "start": "2026-09-11T16:40:00-03:00",
+            "end": "2026-09-11T16:50:00-03:00"
+        },
+        "rooms": ["b9"],
+        "category": "vem"
+    },
+    {
+        "title": "The Governance-at-Scale Paradox: Technical Debt Variance across Java Ecosystems",
+        "authors": ["Mateus Rakoski (IFPR)", "Evanise Araujo Caldas Ruiz (IFPR)"],
+        "schedule": {
+            "start": "2026-09-11T16:50:00-03:00",
+            "end": "2026-09-11T17:00:00-03:00"
+        },
+        "rooms": ["b9"],
+        "category": "vem"
+    },
+    {
+        "title": "Django-Specific Code Smells: Catalog, Prevalence, and Automated Detection",
+        "authors": ["Leopoldo Motta Teixeira (UFPE)", "Eduardo Silva (UFPE)"],
+        "schedule": {
+            "start": "2026-09-11T17:00:00-03:00",
+            "end": "2026-09-11T17:10:00-03:00"
+        },
+        "rooms": ["b9"],
+        "category": "vem"
+    },
+    {
+        "title": "Branching Echoes: Exploring Branching Models as Sociotechnical Lenses for Community Smells",
+        "authors": ["Diogo Menezes (UFMS)", "Eos Xavier (UFMS)", "Rafael Tsutomu Jyoboji (UFMS)", "Hudson Silva Borges (UFMS)", "Awdren de Lima Fontão (UFMS)"],
+        "schedule": {
+            "start": "2026-09-11T17:10:00-03:00",
+            "end": "2026-09-11T17:20:00-03:00"
+        },
+        "rooms": ["b9"],
+        "category": "vem"
+    },
+    {
+        "title": "Exploring Code Ownership Concentration in the Linux Kernel",
+        "authors": ["Arthur Pilone (USP)", "Paulo Meirelles (USP)"],
+        "schedule": {
+            "start": "2026-09-11T16:30:00-03:00",
+            "end": "2026-09-11T16:40:00-03:00"
+        },
+        "rooms": ["b10"],
+        "category": "vem"
+    },
+    {
+        "title": "Corporate Truck Factor: Firm-Level Knowledge Concentration in Linux Kernel Subsystems",
+        "authors": ["Ellian Carlos Oliveira Costa (USP)", "Gabriel Braga Lagrotaria (USP)", "Ricardo Hideki Hangai Kojo (USP)", "Arthur Pilone (USP)", "Paulo Meirelles (USP)"],
+        "schedule": {
+            "start": "2026-09-11T16:40:00-03:00",
+            "end": "2026-09-11T16:50:00-03:00"
+        },
+        "rooms": ["b10"],
+        "category": "vem"
+    },
+    {
+        "title": "Exploring Semantic Stability Across Reviews in the Linux Kernel",
+        "authors": ["Lucas Ciziks (USP)", "Paulo Meirelles (USP)", "Marco Aurelio Gerosa (NAU)"],
+        "schedule": {
+            "start": "2026-09-11T16:50:00-03:00",
+            "end": "2026-09-11T17:00:00-03:00"
+        },
+        "rooms": ["b10"],
+        "category": "vem"
+    },
+    {
+        "title": "A Replication Study of Communication Style Analysis in the Linux Kernel Mailing List",
+        "authors": ["Júlia Azevedo (PUC-Rio)", "Theo Canuto (PUC-Rio)", "Heraldo Pimenta Borges Filho (INRIA-IRISA, Rennes)", "Mathieu Acher (University of Rennes)", "Juliana Alves Pereira (PUC-Rio)"],
+        "schedule": {
+            "start": "2026-09-11T17:00:00-03:00",
+            "end": "2026-09-11T17:10:00-03:00"
+        },
+        "rooms": ["b10"],
+        "category": "vem"
     }
 ]
