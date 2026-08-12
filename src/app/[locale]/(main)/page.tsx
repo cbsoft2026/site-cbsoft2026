@@ -21,6 +21,7 @@ import InboundCarousel from '@/components/InboundCarousel';
 import { withUTM } from '@/utils/utm';
 
 type SponsorSection = {
+  label: string;
   title: string;
   list: Sponsor[];
 };
@@ -29,7 +30,7 @@ function SponsorSection(props: SponsorSection) {
   const grouped = groupSponsorsByTier(props.list);
 
   return (
-    <div>
+    <div className={styles[`sponsor__${props.label}`]}>
       <div className={`col-12 text-center ${styles['sponsor-title']}`}>
         <h3>{props.title}</h3>
       </div>
@@ -240,6 +241,7 @@ export default async function HomePage({ params }: Props) {
               list.length > 0 && (
                 <SponsorSection
                   title={homeT(`sponsors.${sectionTitle}`) as unknown as string}
+                  label={sectionTitle}
                   list={list}
                   key={index}
                 />

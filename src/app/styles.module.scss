@@ -108,6 +108,26 @@
     text-align: center;
   }
 
+  .sponsor__patrocinio {
+     .tier-ouro {
+      .image-block img {
+        max-width: 300px !important;
+        max-height: 90px !important;
+      }
+
+      @media (max-width: 768px) {
+        .image-block {
+          width: 250px !important;
+          height: 92px !important;
+        }
+        .image-block img {
+          max-width: 240px !important;
+          max-height: 92px !important;
+        }
+      }
+    }
+  }
+
   .block {
     .sponsors-list {
       list-style: none;
