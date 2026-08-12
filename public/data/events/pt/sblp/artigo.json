@@ -1,2 +1,102 @@
 [
+    {
+        "title": "A Collective Communication Library for Distributed Tensors",
+        "authors": ["Francisco H. Carvalho-Junior (UFC)", "Francisco José Lins Magalhães"]
+    },
+    {
+        "title": "A Large-Scale Analysis of C++ Lambdas and Their Capture Lists in Opensource Repositories",
+        "authors": ["Luiz Romário Santana Rios (UFRJ)", "Hugo Musso Gualandi (UFRJ)"]
+    },
+    {
+        "title": "A Mechanized Formalization of microKanren in Agda",
+        "authors": ["Eduardo Henke (UFOP)", "Rodrigo Geraldo Ribeiro (UFOP)"]
+    },
+    {
+        "title": "A Mechanized Semantics for eBPF and its Applications",
+        "authors": ["Marcos Emiliano (UFOP)", "Rodrigo Geraldo Ribeiro (UFOP)"]
+    },
+    {
+        "title": "A Parsing Expression Grammar-based approach for syntax tree pattern matching",
+        "authors": ["Guilherme Augusto Anício Drummond do Nascimento (UFOP)", "Rodrigo Geraldo Ribeiro (UFOP)"]
+    },
+    {
+        "title": "An Answer Set Programming Approach for Academic Event Allocation: A Case Study at the Federal University of Ceará",
+        "authors": ["Thiago Valente (UFC)", "Pedro Ferreira (USP)", "Rildian Beserra (UFC)", "Alexandre Arruda (UFC)", "Dmontier Aragão Jr (UFC)"]
+    },
+    {
+        "title": "ANTLR2PEG: A tool to convert ANTLR grammars into PEGs grammars",
+        "authors": ["José Santos (UFRN)", "Sérgio Queiroz de Medeiros (UFRN)"]
+    },
+    {
+        "title": "Awaiting Trouble: Characterizing Concurrency Issues in Modern Promise-based JavaScript Applications",
+        "authors": ["Pedro Vicente (UFSCar)", "Andre Takeshi Endo (UFSCar)"]
+    },
+    {
+        "title": "Bleach: A Programming Language for Teaching Compilers",
+        "authors": ["Victor Costa (UFPE)", "Leopoldo Motta Teixeira (UFPE)"]
+    },
+    {
+        "title": "Correct by Construction Gram-Schmidt Process",
+        "authors": ["João Victor Lopez Pereira (UFRJ)", "Daniel Kiyoshi Hashimoto (UFRJ)", "Hugo Musso Gualandi (UFRJ)", "João Paixão (UFRJ)"]
+    },
+    {
+        "title": "Epi: An Epistemic Type System for Containing LLM Hallucination in Generated Code",
+        "authors": ["Randerson Oliveira Melville Rebouças (UFRGS)", "Dante Augusto Couto Barone (UFRGS)", "Eliseo Reategui (UFRGS)"]
+    },
+    {
+        "title": "Foundations for Formally Verified Network Protocol Parsers in Lean 4: A Case Study with MQTT",
+        "authors": ["Eduardo Sandalo Porto (UFMG)", "Ana C. V. de Melo (USP)"]
+    },
+    {
+        "title": "LLM-Guided Semantic Mutation for Lua Interpreter Fuzzing: A Coverage-Driven Approach",
+        "authors": ["Richard Souza (UFFS)", "Andrei Braga (UFFS)", "Giancarlo Salton (UFFS)", "Samuel da Silva Feitosa (UFFS)"]
+    },
+    {
+        "title": "Multi-Language Benchmark Generation via L-Systems",
+        "authors": ["Vinícius Silva (UFMG)", "Matheus Marchesotti (UFMG)", "Fernando Magno Quintao Pereira (UFMG)"]
+    },
+    {
+        "title": "Operator Fusion Gaps in Deep Learning Systems: The Compilation--Execution Trade-off of Unfused Operations",
+        "authors": ["Leonardo Kamei (PUC-MG)", "Pedro H. Ramos (PUC-MG)"]
+    },
+    {
+        "title": "Orchestra: CPU-GPU Cooperative Programming in Elixir",
+        "authors": ["Henrique Gabriel Rodrigues (UFPel)", "Andre Rauber Du Bois (UFPel)", "Gerson Geraldo H. Cavalheiro (UFPel)", "Eduardo Mailan (UFPel)"]
+    },
+    {
+        "title": "PowerDSL: A Domain-Specific Language for Energy Management in Edge Computing Systems",
+        "authors": ["Victor Vidal (UFAM)", "Raimundo da Silva Barreto (UFAM)", "Horácio Oliveira (UFAM)"]
+    },
+    {
+        "title": "SmartLint: Static Detection of Insecure Patterns in Solidity Smart Contracts Inspired by Move's Resource Model",
+        "authors": ["Luiz Gonçalves (UFMG)"]
+    },
+    {
+        "title": "SolForge: A Large Language Model-Based Approach for the Differential Testing of Solidity Compilers",
+        "authors": ["Gabriel Salvi (UFFS), Andrei Braga (UFFS), Guilherme Dal Bianco (UFFS), Samuel da Silva Feitosa (UFFS)"]
+    },
+    {
+        "title": "Spring MVC vs. WebFlux em Cargas I/O-bound: Reavaliando a Superioridade do Modelo Reativo",
+        "authors": ["Beatriz Teixeira (UFLA)", "Ricardo Terra (UFLA)"]
+    },
+    {
+        "title": "Strong Normalization for Well-Typed Parsing Expression Grammars",
+        "authors": ["Guilherme Augusto Anício Drummond do Nascimento (UFOP)", "Elton Máximo Cardoso (UFOP)", "Samuel da Silva Feitosa (UFFS)", "Rodrigo Geraldo Ribeiro (UFOP)"]
+    },
+    {
+        "title": "Structure-Aware Compiler Auto-Tuning",
+        "authors": ["Anderson Faustino da Silva (UEM)", "Christian Schwarz (TU Dresden)", "Jeronimo Castrillon (TU Dresden)"]
+    },
+    {
+        "title": "Translating Finite-Typed Symmetric Pattern Matching into Ket",
+        "authors": ["Flávio Borin Júnior (UFSM)", "Juliana Kaizer Vizzotto (UFSM)"]
+    },
+    {
+        "title": "Two induction-free constructions for finite automata determinization",
+        "authors": ["Matheus do Ó Santos Tiburcio (UFRJ)", "Hugo Musso Gualandi (UFRJ)"]
+    },
+    {
+        "title": "User-Directed Fusion of Parallel Skeletons Using Metaprogramming",
+        "authors": ["João Antonio Soares (UFPel)", "Andre Rauber Du Bois (UFPel)", "Gerson Geraldo H. Cavalheiro (UFPel)"]
+    }
 ]
