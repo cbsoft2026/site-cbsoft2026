@@ -156,6 +156,7 @@ export default function generatedCollection(t: Translator, commonT: Translator) 
       { title: t('chamada_trabalhos'), href: '/workshops' },
       { title: commonT('workshops_accepts'), href: '/workshops/accepted' },
       { title: t('events'), href: '/workshops/event' },
+      { title: t('artigos_aceitos'), href: '/workshops/papers' },
     ],
   };
 
