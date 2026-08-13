@@ -201,7 +201,7 @@ export default function Menu(props: HTMLAttributes<HTMLDivElement>) {
               <LinkLocale href={pathname} locale={locale === 'pt' ? 'en' : 'pt'} className={styles.flag}>
                 <picture>
                   <img
-                    src={`${process.env.NEXT_PUBLIC_ASSET_PREFIX}/images/icon/${locale === 'pt' ? 'en' : 'pt'}.png`}
+                    src={`${process.env.NEXT_PUBLIC_ASSET_PREFIX}/images/icon/${locale === 'pt' ? 'en' : 'pt'}.webp`}
                     width={WIDTH_FLAG}
                     alt={locale}
                     style={{ minWidth: `${WIDTH_FLAG}px` }}

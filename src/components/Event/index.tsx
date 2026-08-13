@@ -123,7 +123,7 @@ export default async function EventComponent({ events, event, locale }: Props) {
                       <>
                         <picture>
                           <img
-                            src={`${process.env.NEXT_PUBLIC_ASSET_PREFIX}/images/icon/${event.lang}.png`}
+                            src={`${process.env.NEXT_PUBLIC_ASSET_PREFIX}/images/icon/${event.lang}.webp`}
                             width={40}
                             alt={event.lang}
                             style={{ minWidth: '40px' }}

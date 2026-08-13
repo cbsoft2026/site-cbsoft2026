@@ -160,7 +160,7 @@ function EventCardWrapper(props: Props, start: Date, end: Date) {
               <div>
                 <picture>
                   <img
-                    src={`${process.env.NEXT_PUBLIC_ASSET_PREFIX}/images/icon/${props.event.lang}.png`}
+                    src={`${process.env.NEXT_PUBLIC_ASSET_PREFIX}/images/icon/${props.event.lang}.webp`}
                     width={42}
                     alt={props.event.lang}
                     style={{ minWidth: '42px' }}
