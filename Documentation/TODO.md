@@ -62,4 +62,4 @@ Atualmente, quando preciso inserir uma imagem em uma página mantida em `locales
 Exemplo:
 
 - `locales/[locale]/pages/cbsoft/accommodation.json`
-- `public/images/tristar.jpeg`
+- `public/images/tristar.webp`
