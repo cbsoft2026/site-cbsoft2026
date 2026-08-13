@@ -1,5 +1,26 @@
 # TODO
 
+### Simplicar caminho `url` para simpósios
+
+Atualmente o caminho é:
+
+```text
+src/app/[locale]/(main)/symposiums/
+```
+
+pode ser movido para
+
+```text
+src/app/[locale]/(main)/[program]/
+```
+
+junto com os outros co-eventos, workshops, entre outros, para simplificar
+caminho `url` para simpósios.
+
+Necessário também mover `tracks` e não é necessário criar um caminho `call/`
+para as **Chamadas de Trabalho** pode ser simplificado como o caminho padrão
+ser a chamada.
+
 ### Adicionar suporte a SEO multilíngue (`hreflang`)
 
 `[seo]`
