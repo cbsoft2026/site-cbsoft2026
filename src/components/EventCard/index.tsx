@@ -97,11 +97,11 @@ function EventCardWrapper(props: Props, start: Date, end: Date) {
                   const name = isString ? participant : participant.name;
 
                   const image = isString
-                    ? `${process.env.NEXT_PUBLIC_ASSET_PREFIX}/images/nonimage.png`
+                    ? `${process.env.NEXT_PUBLIC_ASSET_PREFIX}/images/nonimage.webp`
                     : participant.image?.startsWith('http')
                       ? participant.image
                       : `${process.env.NEXT_PUBLIC_ASSET_PREFIX}/images/${
-                          participant.image ? `speakers/${participant.image}` : 'nonimage.png'
+                          participant.image ? `speakers/${participant.image}` : 'nonimage.webp'
                         }`;
 
                   return (
@@ -131,11 +131,11 @@ function EventCardWrapper(props: Props, start: Date, end: Date) {
                   const name = isString ? participant : participant.name;
 
                   const image = isString
-                    ? `${process.env.NEXT_PUBLIC_ASSET_PREFIX}/images/nonimage.png`
+                    ? `${process.env.NEXT_PUBLIC_ASSET_PREFIX}/images/nonimage.webp`
                     : participant.image?.startsWith('http')
                       ? participant.image
                       : `${process.env.NEXT_PUBLIC_ASSET_PREFIX}/images/${
-                          participant.image ? `speakers/${participant.image}` : 'nonimage.png'
+                          participant.image ? `speakers/${participant.image}` : 'nonimage.webp'
                         }`;
 
                   return (

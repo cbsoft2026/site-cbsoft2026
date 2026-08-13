@@ -41,7 +41,7 @@ export default function SpeakerCard(props: Props) {
           src={
             speaker.image?.startsWith('http')
               ? speaker.image
-              : `${process.env.NEXT_PUBLIC_ASSET_PREFIX}/images/${speaker.image ? 'speakers/' + speaker.image : 'nonimage.png'}`
+              : `${process.env.NEXT_PUBLIC_ASSET_PREFIX}/images/${speaker.image ? 'speakers/' + speaker.image : 'nonimage.webp'}`
           }
           width={size}
           height={size}
