@@ -56,6 +56,10 @@
       "tier": "prata",
       "items": [
         {
+          "href": "https://aws.amazon.com",
+          "image": "aws.png"
+        },
+        {
           "href": "https://www.google.com/",
           "image": "google.png"
         },
