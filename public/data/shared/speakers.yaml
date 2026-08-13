@@ -1,6 +1,6 @@
 -
   id: jeronimo-castrillon
-  image: Jeronimo_Castrillon.jpg
+  image: Jeronimo_Castrillon.webp
   name: Jeronimo Castrillon
   institution: Technische Universität Dresden
   institution_acronym: TU Dresden
@@ -9,7 +9,7 @@
 
 -
   id: andy-zaidman
-  image: Andy_Zaidman.jpg
+  image: Andy_Zaidman.webp
   name: Andy Zaidman
   institution: Delft University of Technology
   institution_acronym: TU Delft
@@ -18,7 +18,7 @@
 
 -
   id: elisa-yumi-nakagawa
-  image: Elisa_Yumi_Nakagawa.jpg
+  image: Elisa_Yumi_Nakagawa.webp
   name: Elisa Yumi Nakagawa
   institution: Instituto de Ciências Matemáticas e de Computação - USP
   institution_acronym: ICMC USP
@@ -27,7 +27,7 @@
 
 -
   id: rick-kazman
-  image: Rick_Kazman.jpg
+  image: Rick_Kazman.webp
   name: Rick Kazman
   institution: University of Hawai'i at Mānoa
   institution_acronym: UH Mānoa
@@ -45,7 +45,7 @@
 
 -
   id: klaas-jan-stol
-  image: Klaas-Jan_Stol.png
+  image: Klaas-Jan_Stol.webp
   name: Klaas-Jan Stol
   institution: University College Cork
   institution_acronym: UCC
@@ -54,7 +54,7 @@
 
 -
   id: tayana-conte
-  image: Tayana_Conte.jpg
+  image: Tayana_Conte.webp
   name: Tayana Conte
   institution: Universidade Federal do Amazonas
   institution_acronym: UFAM
@@ -62,7 +62,7 @@
 
 -
   id: roberto-di-cosmo
-  image: Roberto_di_Cosmo.jpeg
+  image: Roberto_di_Cosmo.webp
   name: Roberto di Cosmo
   institution: Institut National de Recherche en Informatique et en Automatique
   institution_acronym: INRIA
@@ -71,102 +71,102 @@
 
 -
   id: mauricio-aniche
-  image: Mauricio_Aniche.jpg
+  image: Mauricio_Aniche.webp
   name: Maurício Aniche
   institution: CTO of Alura, ex-Uber, Adyen, TU Delft, Locaweb, and published author
   webpage: https://mauricioaniche.com/
 
 -
   id: brena-marques-ribeiro
-  image: Brena_Marques_Ribeiro.jpeg
+  image: Brena_Marques_Ribeiro.webp
   name: MS(c). Eng. Brena Marques Ribeiro
   institution: iFood e ICMC-USP
   bio: "É formada em Tecnologia da Informação pela ETEC, Franca. É Engenheira Eletricista com ênfase em Sistemas de Energia e Automação da EESC-USP e, atualmente, atua como engenheira de software na iFood e Pesquisadora em Engenharia de Software no ICMC-USP, aplicando suas habilidades analíticas na interseção entre Inteligência Artificial e Teste de Software. Seu trabalho concentra-se na exploração de aplicações inovadoras que contribuam para o aumento da eficiência e da qualidade dos sistemas de software. Ao longo de sua trajetória acadêmica, realizou um intercâmbio na Universidad de los Andes com bolsa de mérito acadêmico, onde desenvolveu pesquisas sobre a aplicação de Modelos de Linguagem de Grande Escala (LLMs) como assistentes educacionais. Possui ainda forte interesse em Engenharia Reversa e Projetos Sustentáveis, buscando constantemente utilizar a tecnologia para desenvolver soluções de impacto. Mantém-se aberta ao intercâmbio de ideias e à construção de conexões profissionais voltadas ao avanço dessas áreas de conhecimento."
 
 -
   id: rodrigo-henrique-ramos
-  image: Rodrigo_Henrique_Ramos.jpeg
+  image: Rodrigo_Henrique_Ramos.webp
   name: Prof. Dr. Rodrigo Henrique Ramos
   institution: IFSP São Carlos
   bio: "Professor de Computação do IFSP São Carlos, é Técnico em Informática e Técnico em Web Design pela ETEC de Casa Branca. É Tecnólogo em Análise e Desenvolvimento de Sistemas pelo IFSP São Carlos, especialista em Docência no Ensino Superior pelo Centro Universitário Barão de Mauá, Mestre em Ciência da Computação pela UFSCar na área de Engenharia de Software e Doutor em Ciência da Computação e Matemática Computacional pela USP São Carlos. Realizou Doutorado Sanduíche no King's College London. Atualmente, pesquisa Ciência de Dados aplicada à Genômica do Câncer."
 
 - id: lincoln-rocha
-  image: Lincoln_Rocha.jpg
+  image: Lincoln_Rocha.webp
   name: Lincoln Rocha
   institution: UFC
 
 - id: fernanda-delfim
-  image: Fernanda_Madeiral.jpg
+  image: Fernanda_Madeiral.webp
   name: Fernanda Madeiral
   institution: UFPE
 
 - id: claudia-werner
-  image: Claudia_Werner.jpg
+  image: Claudia_Werner.webp
   name: Claudia Werner
   institution: UFRJ
   bio: Professora na COPPE/UFRJ, Brasil. É especialista em engenharia de software, com pesquisas voltadas a reutilizacão de software e ensino de engenharia de software.
 
 - id: alessandro-garcia
-  image: Alessandro_Garcia.jpg
+  image: Alessandro_Garcia.webp
   name: Alessandro Fabricio Garcia
   institution: PUC-Rio
 
 - id: rodrigo-bonifacio
-  image: Rodrigo_Bonifacio.jpg
+  image: Rodrigo_Bonifacio.webp
   name: Rodrigo Bonifácio de Almeida
   institution: CIn - UFPE
 
 - id: itana-maria-gimenes
-  image: Itana_Maria_Gimenes.jpg
+  image: Itana_Maria_Gimenes.webp
   name: Itana Maria de Souza Gimenes
   institution: UEM
 
 - id: thais-vasconcelos-batista
-  image: Thais_Vasconcelos_Batista.png
+  image: Thais_Vasconcelos_Batista.webp
   name: Thais Vasconcelos Batista
   institution: UFRN
 
 - id: manoel-mendonca
-  image: Manoel_Mendonca.jpg
+  image: Manoel_Mendonca.webp
   name: Manoel Gomes de Mendonça Neto
   institution: UFBA
 
 - id: marcos-kalinowski
-  image: Marcos_Kalinowski.png
+  image: Marcos_Kalinowski.webp
   name: Marcos Kalinowski
   institution: PUC-Rio, Brazil
   institution_acronym: PUC-Rio
   bio: Marcos Kalinowski is a Professor of Software Engineering at PUC-Rio, Brazil, where he leads the Software & AI Engineering Lab (SAIL), supervises doctoral research, and conducts R&D projects in collaboration with industry partners. His research focuses on AI Engineering, AI-Augmented Software Engineering, Empirical Software Engineering, and Human Aspects of Software Engineering, resulting in industry-adopted solutions, patents, and more than 200 scientific articles, mostly published in top-tier venues. This body of work has achieved significant international visibility, positioning him as the most cited software engineering scientist in Latin America in 2024, 2025, and 2026. Throughout his career he received over 20 distinguished paper awards, including ACM Distinguished Paper Awards at ICSE, CAIN, and CHASE. He holds a research productivity fellowship from the Brazilian Research Council (CNPq), a "Scientist of the State" distinction from the Rio de Janeiro state (FAPERJ), and is a fellow of the Kunumi Institute. Marcos has held several prominent leadership roles in the international software engineering research community, including the roles of PC chair of ESEM, Chair of the ISERN, and General Chair of ICSE. He serves the research community as an Associate Editor of IEEE Software, IEEE Transactions on Software Engineering, Empirical Software Engineering, and the Journal of Systems and Software. He is an active member of ACM, IEEE, ISERN, and the Brazilian Computer Society. 
 
 - id: eduardo-almeida
-  image: Eduardo_Almeida.jpeg
+  image: Eduardo_Almeida.webp
   name: Eduardo Santana de Almeida
   institution: UFBA
 
 - id: guilherme-travassos
-  image: Guilherme_Travassos.png
+  image: Guilherme_Travassos.webp
   name: Guilherme Horta Travassos
   institution: UFRJ
 
 - id: marco-tulio
-  image: Marco_Tulio.jpeg
+  image: Marco_Tulio.webp
   name: Marco Túlio de Oliveira Valente
   institution: UFMG
 
 - id: paulo-borba
-  image: Paulo_Borba.jpg
+  image: Paulo_Borba.webp
   name: Paulo Borba
   institution: UFPE
 
 - id: adenilso-silva-simao
-  image: Adenilso_Silva_Simao.png
+  image: Adenilso_Silva_Simao.webp
   name: Prof. Dr. Adenilso da Silva Simao
   institution: ICMC-USP
   bio: Professor Titular da Universidade de São Paulo, bacharel em Ciência da Computação pela Universidade Estadual de Maringá, mestre e doutor em Ciências da Computação e Matemática Computacional pela USP, com pós-doutorado no Centre de Recherche Informatique de Montréal. Atua em Engenharia de Software, especialmente em teste de software, métodos formais e linguagens de programação, além de desenvolver pesquisas em Bioinformática. Na USP, exerceu diversas funções acadêmicas e administrativas, incluindo a coordenação de cursos de graduação e pós-graduação, a presidência da Comissão de Pós-Graduação do ICMC, a Vice-Diretoria do Instituto e a função de Pró-Reitor Adjunto de Pós-Graduação. Também atuou no Conselho da Sociedade Brasileira de Computação e em corpos editoriais de periódicos científicos. 
 
 - id: alex
   name: Alexandre Freire
-  image: alexandre_freire.jpeg
+  image: alexandre_freire.webp
   institution: Google
   institution_acronym: Google
 
