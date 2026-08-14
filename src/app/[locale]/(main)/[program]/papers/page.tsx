@@ -1,6 +1,6 @@
 import Title from '@/components/Title';
 import { getTranslations } from 'next-intl/server';
-import EventsList, { getEvents } from '@/components/EventsList/EventsList';
+import CategoryEventsList, { getEvents } from '@/components/EventsList/CategoryEventsList';
 import { locales } from '@/app/config/locales';
 import { EventStructureType, programs } from '@/app/config/event-structure';
 import { createPageMetadata } from '@/lib/metadata';
@@ -39,7 +39,7 @@ export default async function PapersPage({ params }: Props) {
         <Title titulo={`${commonT(program)} - ${t('artigos_aceitos')}`}></Title>
       </div>
 
-      <EventsList events={events} locale={locale} emptyMessage={symposiumsT('emptyPapers')} />
+      <CategoryEventsList events={events} locale={locale} emptyMessage={symposiumsT('emptyPapers')} />
     </>
   );
 }

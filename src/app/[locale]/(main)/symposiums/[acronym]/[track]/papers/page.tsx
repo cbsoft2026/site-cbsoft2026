@@ -1,6 +1,6 @@
 import Title from '@/components/Title';
 import { getTranslations } from 'next-intl/server';
-import EventsList, { getEvents } from '@/components/EventsList/EventsList';
+import CategoryEventsList, { getEvents } from '@/components/EventsList/CategoryEventsList';
 
 type Props = {
   params: Promise<{ acronym: string; track: string; locale: string }>;
@@ -24,7 +24,7 @@ export default async function PapersPage({ params }: Props) {
         <Title titulo={`${commonT(`siglas.trilhas.${track}`)} - ${t('artigos_aceitos')}`}></Title>
       </div>
 
-      <EventsList events={events} locale={locale} emptyMessage={symposiumsT('emptyPapers')} />
+      <CategoryEventsList events={events} locale={locale} emptyMessage={symposiumsT('emptyPapers')} />
     </>
   );
 }

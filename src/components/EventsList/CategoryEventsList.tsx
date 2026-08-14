@@ -27,7 +27,7 @@ export async function getEvents(locale: string, filter: (event: Event) => boolea
     }, {});
 }
 
-export default async function EventsList({ events, locale, emptyMessage }: Props) {
+export default async function CategoryEventsList({ events, locale, emptyMessage }: Props) {
   const commonT = await getTranslations({ locale, namespace: 'common' });
 
   const grouped = Object.entries(events).reduce<Record<string, Record<string, Event>>>((acc, [id, event]) => {
