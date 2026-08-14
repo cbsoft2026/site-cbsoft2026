@@ -2,6 +2,7 @@ import appConfig from '@/app/app.config';
 import Title from '@/components/Title';
 import { getTObject } from '@/lib/getTObject';
 import { createPageMetadata } from '@/lib/metadata';
+import { getTranslations } from 'next-intl/server';
 
 type Props = {
   params: Promise<{ locale: string }>;
@@ -9,7 +10,10 @@ type Props = {
 
 export async function generateMetadata({ params }: Props) {
   const { locale } = await params;
-  return createPageMetadata(locale, 'pages/cbsoft/codeOfConduct', 'titulo');
+  const t = await getTranslations({ locale, namespace: 'pages/cbsoft/codeOfConduct' });
+  const title = t('titulo');
+
+  return createPageMetadata(title);
 }
 
 export default async function CodeOfConductPage({ params }: Props) {

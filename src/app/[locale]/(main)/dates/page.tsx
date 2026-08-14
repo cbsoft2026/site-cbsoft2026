@@ -11,7 +11,10 @@ type Props = {
 
 export async function generateMetadata({ params }: Props) {
   const { locale } = await params;
-  return createPageMetadata(locale, 'pages/dates', 'important_dates');
+  const t = await getTranslations({ locale, namespace: 'pages/dates' });
+  const title = t('important_dates');
+
+  return createPageMetadata(title);
 }
 
 export default async function DatesPage({ params }: Props) {

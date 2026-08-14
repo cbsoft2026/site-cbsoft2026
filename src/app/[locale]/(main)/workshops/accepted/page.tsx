@@ -9,7 +9,10 @@ type Props = {
 
 export async function generateMetadata({ params }: Props) {
   const { locale } = await params;
-  return createPageMetadata(locale, 'common', 'workshops_accepts');
+  const t = await getTranslations({ locale, namespace: 'common' });
+  const title = t('workshops_accepts');
+
+  return createPageMetadata(title);
 }
 
 type WorkshopsLinks = {

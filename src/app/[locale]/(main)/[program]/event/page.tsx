@@ -15,7 +15,10 @@ type Props = {
 
 export async function generateMetadata({ params }: Props) {
   const { program, locale } = await params;
-  return createPageMetadata(locale, 'common', program);
+  const t = await getTranslations({ locale, namespace: 'common' });
+  const title = t(program);
+
+  return createPageMetadata(title);
 }
 
 export async function generateStaticParams() {

@@ -11,7 +11,10 @@ type Props = {
 
 export async function generateMetadata({ params }: Props) {
   const { locale } = await params;
-  return createPageMetadata(locale, 'pages/cbsoft/previousEditions', 'titulo');
+  const t = await getTranslations({ locale, namespace: 'pages/cbsoft/previousEditions' });
+  const title = t('titulo');
+
+  return createPageMetadata(title);
 }
 
 function Edicao(props: { year: string; url: string; local: string; online?: boolean; className?: string }) {

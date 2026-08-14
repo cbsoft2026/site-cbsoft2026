@@ -2,6 +2,7 @@ import styles from './styles.module.scss';
 import React from 'react';
 import { createPageMetadata } from '@/lib/metadata';
 import { symposiums } from '@/app/config/event-structure';
+import { getTranslations } from 'next-intl/server';
 
 type Props = {
   children: React.ReactNode;
@@ -10,7 +11,10 @@ type Props = {
 
 export async function generateMetadata({ params }: Props) {
   const { acronym, locale } = await params;
-  return createPageMetadata(locale, 'common', `${acronym}`);
+  const t = await getTranslations({ locale, namespace: 'common' });
+  const title = t(acronym);
+
+  return createPageMetadata(title);
 }
 
 export async function generateStaticParams() {

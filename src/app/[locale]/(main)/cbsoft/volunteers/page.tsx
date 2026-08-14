@@ -9,7 +9,10 @@ type Props = {
 
 export async function generateMetadata({ params }: Props) {
   const { locale } = await params;
-  return createPageMetadata(locale, 'pages/cbsoft/volunteers', 'titulo');
+  const t = await getTranslations({ locale, namespace: 'pages/cbsoft/volunteers' });
+  const title = t('titulo');
+
+  return createPageMetadata(title);
 }
 
 export default async function CallPage({ params }: Props) {

@@ -4,6 +4,7 @@ import styles from './styles.module.scss';
 import appConfig from '@/app/app.config';
 import { getTObject } from '@/lib/getTObject';
 import { createPageMetadata } from '@/lib/metadata';
+import { getTranslations } from 'next-intl/server';
 
 type Props = {
   params: Promise<{ locale: string }>;
@@ -11,7 +12,10 @@ type Props = {
 
 export async function generateMetadata({ params }: Props) {
   const { locale } = await params;
-  return createPageMetadata(locale, 'pages/registration', 'titulo');
+  const t = await getTranslations({ locale, namespace: 'pages/registration' });
+  const title = t('titulo');
+
+  return createPageMetadata(title);
 }
 
 export default async function RegistrationPage({ params }: Props) {

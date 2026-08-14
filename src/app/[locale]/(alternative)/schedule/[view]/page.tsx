@@ -4,6 +4,7 @@ import Content from './Content';
 import { Suspense } from 'react';
 import ScheduleWrapper from './ScheduleWrapper';
 import { createPageMetadata } from '@/lib/metadata';
+import { getTranslations } from 'next-intl/server';
 
 type Props = {
   params: Promise<{
@@ -14,7 +15,10 @@ type Props = {
 
 export async function generateMetadata({ params }: Props) {
   const { locale } = await params;
-  return createPageMetadata(locale, 'pages/schedule', 'titulo');
+  const t = await getTranslations({ locale, namespace: 'pages/schedule' });
+  const title = t('titulo');
+
+  return createPageMetadata(title);
 }
 
 export function generateStaticParams() {
