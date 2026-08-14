@@ -123,20 +123,31 @@
 
 - id: thais-vasconcelos-batista
   image: Thais_Vasconcelos_Batista.webp
-  name: Thais Vasconcelos Batista
-  institution: UFRN
+  name: Thaís Batista
+  institution: Universidade Federal do Rio Grande do Norte
+  institution_acronym: UFRN
+  bio: "Presidente da Sociedade Brasileira de Computação (SBC) desde Agosto 2023. Associado da Sociedade Brasileira de Computação (SBC) desde 1991. Professora Titular da Universidade Federal do Rio Grande do Norte (UFRN), onde ingressou em 1996 e exerceu o cargo de Coordenadora do Curso de Pós-Graduação em Sistemas e Computação (PPgSC) no período de 2006-2010. Vice-presidente da Sociedade Brasileira de Computação (SBC), por quatro anos (julho de 2015 a julho de 2019) . Membro do Comitê Assessor de Ciência da Computação do CNPq (CA-CC CNPq) desde 2024, tendo também integrado o comitê no período de 2018-2021. Possui graduação em Bacharelado em Ciências da Computação pela Universidade Federal da Paraíba (1990), mestrado em Informática pela Pontifícia Universidade Católica do Rio de Janeiro - PUC-Rio (1994) e doutorado em Informática pela Pontifícia Universidade Católica do Rio de Janeiro - PUC-Rio (2000). Realizou pós-doutorado na Universidade de Lancaster - UK (2004-2005) e Estágio Sênior na mesma Universidade, no período 2013-2014, como bolsista da Coordenação de Aperfeiçoamento de Pessoal de Nível Superior (CAPES). Foi membro do Comitê da Área de Computação da CAPES (2008-2014) e Diretora de Secretaria Regionais da Sociedade Brasileira de Computação (SBC) de 2009 a 2013. Tem experiência na coordenação e participação de diversos projetos, inclusive em parceria com empresas. Coordenou o Programa de Residência em TI da UFRN com a Justiça Federal do Rio Grande do Norte (JFRN) de 2017 a 2024. Atualmente participa do projeto SmartMetropolis, no contexto de desenvolvimentos para Cidades Inteligentes, envolvendo órgãos públicos e iniciativa privada. Tem experiência na área de Ciência da Computação, com ênfase em Arquitetura de Software e Sistemas Distribuídos, atuando principalmente nos seguintes temas: Arquitetura de Software, Computação em Nuvem, Internet das Coisas (IoT), Middleware."
+
+- id: lucia-chamelete
+  image: Lucia_Chamelete.webp
+  name: Lúcia Chamelete
+  institution: Banco do Brasil
+  institution_acronym: Banco do Brasil
+  bio: Lúcia Chamelete é líder de tecnologia, educadora e mentora, com mais de 20 anos de experiência em TI e mais de 10 anos à frente de equipes multidisciplinares. Mestre em Gestão do Conhecimento e TI, possui MBAs e certificações em métodos ágeis. Atua na interseção entre tecnologia, inovação e desenvolvimento humano, impulsionando transformações por meio de uma liderança orientada por propósito. Seu compromisso é construir ambientes colaborativos, promover a aprendizagem contínua e transformar desafios complexos em oportunidades de crescimento e geração de valor.
 
 - id: manoel-mendonca
   image: Manoel_Mendonca.webp
-  name: Manoel Gomes de Mendonça Neto
-  institution: UFBA
+  name: Manoel Mendonça
+  institution: Universidade Federal da Bahia
+  institution_acronym: UFBA
+  bio: O Professor Mendonça possui doutorado em Ciência da Computação pela Universidade de Maryland, College Park. Ele ocupou cargos acadêmicos e de pesquisa no IBM Center for Advanced Studies, na Universidade de Maryland e no Fraunhofer Center for Experimental Software Engineering USA. No Brasil, atuou como professor e coordenador de pesquisas em computação na Universidade Salvador (UNIFACS) e, posteriormente, como diretor do Fraunhofer Project Center na Universidade Federal da Bahia (UFBA), em parceria com o Fraunhofer Institute for Experimental Software Engineering (IESE). Também exerceu cargos de liderança sênior no setor público e na indústria, incluindo os de Secretário de Ciência, Tecnologia e Inovação do Estado da Bahia e Diretor do Instituto de Inovação em Automação Industrial do SENAI CIMATEC, vinculado à Confederação Nacional da Indústria (CNI). Atualmente, é professor titular da UFBA, Pesquisador de Produtividade do Conselho Nacional de Desenvolvimento Científico e Tecnológico (CNPq) e consultor de agências de fomento nacionais. Orientou diversos alunos de pós-graduação e é autor de mais de 250 publicações nas áreas de mineração de dados, visualização de informações e engenharia de software e de sistemas.
 
 - id: marcos-kalinowski
   image: Marcos_Kalinowski.webp
   name: Marcos Kalinowski
-  institution: PUC-Rio, Brazil
+  institution: PUC Rio de Janeiro
   institution_acronym: PUC-Rio
-  bio: Marcos Kalinowski is a Professor of Software Engineering at PUC-Rio, Brazil, where he leads the Software & AI Engineering Lab (SAIL), supervises doctoral research, and conducts R&D projects in collaboration with industry partners. His research focuses on AI Engineering, AI-Augmented Software Engineering, Empirical Software Engineering, and Human Aspects of Software Engineering, resulting in industry-adopted solutions, patents, and more than 200 scientific articles, mostly published in top-tier venues. This body of work has achieved significant international visibility, positioning him as the most cited software engineering scientist in Latin America in 2024, 2025, and 2026. Throughout his career he received over 20 distinguished paper awards, including ACM Distinguished Paper Awards at ICSE, CAIN, and CHASE. He holds a research productivity fellowship from the Brazilian Research Council (CNPq), a "Scientist of the State" distinction from the Rio de Janeiro state (FAPERJ), and is a fellow of the Kunumi Institute. Marcos has held several prominent leadership roles in the international software engineering research community, including the roles of PC chair of ESEM, Chair of the ISERN, and General Chair of ICSE. He serves the research community as an Associate Editor of IEEE Software, IEEE Transactions on Software Engineering, Empirical Software Engineering, and the Journal of Systems and Software. He is an active member of ACM, IEEE, ISERN, and the Brazilian Computer Society. 
+  bio: Marcos Kalinowski é Professor de Engenharia de Software da PUC-Rio, onde coordena o Software & AI Engineering Lab (SAIL), orienta pesquisas de doutorado e conduz projetos de P&D em colaboração com parceiros da indústria. Sua pesquisa concentra-se em Engenharia de IA, IA para Engenharia de Software, Engenharia de Software Experimental e Aspectos Humanos da Engenharia de Software, resultando em soluções adotadas pela indústria, patentes e mais de 200 artigos científicos, majoritariamente publicados em veículos de alto impacto. Seu trabalho alcançou expressiva visibilidade internacional, posicionando-o como o cientista de Engenharia de Software mais citado da América Latina em 2024, 2025 e 2026. Ao longo de sua carreira, recebeu mais de 20 prêmios de artigo de destaque, incluindo ACM Distinguished Paper Awards na ICSE, CAIN e CHASE. É bolsista de produtividade em pesquisa do CNPq, Cientista do Nosso Estado pela FAPERJ e pesquisador colaborador do Instituto Kunumi. Marcos ocupou importantes posições de liderança na comunidade internacional de pesquisa em Engenharia de Software, incluindo os papéis de PC Chair da ESEM, Chair da ISERN e General Chair da ICSE. Atua ainda como editor associado da IEEE Software, IEEE Transactions on Software Engineering, Empirical Software Engineering e Journal of Systems and Software. É membro ativo da ACM, IEEE, ISERN e Sociedade Brasileira de Computação.
 
 - id: eduardo-almeida
   image: Eduardo_Almeida.webp
