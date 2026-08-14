@@ -2,10 +2,20 @@ import { EventStructureType } from '@/app/config/event-structure';
 import { getTranslations } from 'next-intl/server';
 import Title from '@/components/Title';
 import EventsList, { getEvents } from '@/components/EventsList/EventsList';
+import { createPageMetadata } from '@/lib/metadata';
 
 type Props = {
   params: Promise<{ acronym: EventStructureType; locale: string }>;
 };
+
+export async function generateMetadata({ params }: Props) {
+  const { acronym, locale } = await params;
+  const commonT = await getTranslations({ locale, namespace: 'common' });
+  const menuT = await getTranslations({ locale, namespace: 'components/menu' });
+  const title = `${commonT(acronym)} - ${menuT('events')}`;
+
+  return createPageMetadata(title);
+}
 
 export default async function EventsPage({ params }: Props) {
   const { acronym, locale } = await params;
