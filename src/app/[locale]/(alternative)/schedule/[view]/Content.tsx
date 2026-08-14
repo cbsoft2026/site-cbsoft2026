@@ -14,7 +14,7 @@ import Image from 'next/image';
 import ChangeView from './ChangeView';
 import Schedule from './Schedule';
 import { ChangeEventHandler, useCallback, useEffect, useState } from 'react';
-import { Event, EventType } from '@/types/event';
+import { Event } from '@/types/event';
 import { Rooms } from '@/types/rooms';
 import useEventFilter, { EventFilter } from '@/hooks/useEventFilter';
 import { useTranslations } from 'next-intl';

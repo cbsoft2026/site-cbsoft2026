@@ -1,7 +1,3 @@
-import { Event } from '@/types/event';
-import EventComponent from '@/components/Event';
-import { loadEvents } from '@/lib/api';
-import { mapToObject } from '@/utils/mapToObject';
 import { createPageMetadata } from '@/lib/metadata';
 import { locales } from '@/app/config/locales';
 import { EventStructureType, programs } from '@/app/config/event-structure';
