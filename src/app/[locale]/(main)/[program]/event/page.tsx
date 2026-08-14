@@ -42,7 +42,7 @@ export default async function EventsPage({ params }: Props) {
   return (
     <article style={{ padding: '30px 0 0' }}>
       <div className='container' style={{ marginBottom: 56 }}>
-        <Title titulo={`${commonT(program)} - ${t('events')}`}></Title>
+        <Title titulo={`${commonT(`siglas.${program}`)} - ${t('events')}`}></Title>
         {description && <p>{description}</p>}
       </div>
       <EventsList events={events} locale={locale} emptyMessage={symposiumsT('emptyEvents')} />

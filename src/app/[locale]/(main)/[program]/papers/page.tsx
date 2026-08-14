@@ -36,7 +36,7 @@ export default async function PapersPage({ params }: Props) {
   return (
     <>
       <div className='container' style={{ marginBottom: 56 }}>
-        <Title titulo={`${commonT(program)} - ${t('artigos_aceitos')}`}></Title>
+        <Title titulo={`${commonT(`siglas.${program}`)} - ${t('artigos_aceitos')}`}></Title>
       </div>
 
       <CategoryEventsList events={events} locale={locale} emptyMessage={symposiumsT('emptyPapers')} />

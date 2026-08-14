@@ -100,6 +100,7 @@ async function ParentTable({ events, event, locale }: Props) {
 
 export default async function EventComponent({ events, event, locale }: Props) {
   const t = await getTranslations({ locale, namespace: 'pages/schedule' });
+  const commonT = await getTranslations({ locale, namespace: 'common' });
 
   return (
     <section className={`container ${styles['main-content']}`}>
@@ -138,21 +139,27 @@ export default async function EventComponent({ events, event, locale }: Props) {
                   <div className={styles['chips__grouped']}>
                     {event.simposio ? (
                       <span className={styles.chip}>
-                        <small>{event.simposio}</small>
+                        <small>{commonT.has(event.simposio) ? commonT(event.simposio) : event.simposio}</small>
                       </span>
                     ) : (
                       ''
                     )}
                     {event.track ? (
                       <span className={styles.chip}>
-                        <small>{event.track}</small>
+                        <small>
+                          {commonT.has(`siglas.trilhas.${event.track}`)
+                            ? commonT(`siglas.trilhas.${event.track}`)
+                            : event.track}
+                        </small>
                       </span>
                     ) : (
                       ''
                     )}
                     {event.type ? (
                       <span className={styles.chip}>
-                        <small>{event.type}</small>
+                        <small>
+                          {commonT.has(`eventos.${event.type}`) ? commonT(`eventos.${event.type}`) : event.type}
+                        </small>
                       </span>
                     ) : (
                       ''

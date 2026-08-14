@@ -151,7 +151,7 @@ export default function generatedCollection(t: Translator, commonT: Translator) 
   };
 
   const workshopsMenuItem: NavbarItemProps = {
-    title: commonT('siglas.workshops'),
+    title: commonT('workshops'),
     href: '/workshops',
     items: [
       { title: t('chamada_trabalhos'), href: '/workshops' },
@@ -171,7 +171,7 @@ export default function generatedCollection(t: Translator, commonT: Translator) 
   };
 
   const highSchoolMenuItem: NavbarItemProps = {
-    title: commonT('siglas.high-school'),
+    title: commonT('high-school'),
     href: '/high-school',
     items: [
       { title: t('chamada_trabalhos'), href: '/high-school' },
@@ -180,7 +180,7 @@ export default function generatedCollection(t: Translator, commonT: Translator) 
   };
 
   const artifactsMenuItem: NavbarItemProps = {
-    title: commonT('siglas.artifacts'),
+    title: commonT('artifacts'),
     href: '/artifacts',
     items: [
       { title: t('chamada_trabalhos'), href: '/artifacts' },
@@ -190,12 +190,12 @@ export default function generatedCollection(t: Translator, commonT: Translator) 
 
   const aiware = programs.find((program) => program.slug == 'aiware');
   const aiwareMenuItem: NavbarItemProps = {
-    title: commonT('siglas.aiware'),
+    title: commonT('aiware'),
     href: withUTM(aiware?.url ?? '/aiware'),
   };
 
   const softwareLivreMenuItem: NavbarItemProps = {
-    title: commonT('siglas.software-livre'),
+    title: commonT('software-livre'),
     href: '/software-livre',
   };
 

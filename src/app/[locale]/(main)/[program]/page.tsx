@@ -39,7 +39,7 @@ export default async function ProgramPage({ params }: Props) {
   return (
     <article style={{ padding: '30px 0 0' }}>
       <header className='container' style={{ marginBottom: 56 }}>
-        <Title titulo={commonT(program)}></Title>
+        <Title titulo={commonT(`siglas.${program}`)}></Title>
       </header>
       <CallComponent className='container' acronym={program} locale={locale}></CallComponent>
     </article>
