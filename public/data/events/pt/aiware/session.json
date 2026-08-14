@@ -1,6 +1,6 @@
 [
     {
-        "title": "AIWare: Abertura & Mesa Redonda Academia/Indústria",
+        "title": "AIware: Abertura & Mesa Redonda Academia/Indústria",
         "description": "Ferramentas Agênticas para Engenharia de Software",
         "schedule": {
             "start": "2026-09-11T09:00:00-03:00",
@@ -10,7 +10,7 @@
         "rooms": ["numec"]
     },
     {
-        "title": "AIWare: Mesa Redonda Academia/Indústria",
+        "title": "AIware: Mesa Redonda Academia/Indústria",
         "description": "Sessão de perguntas e respostas (Q&A) e debates finais da Mesa",
         "schedule": {
             "start": "2026-09-11T11:00:00-03:00",
@@ -20,7 +20,7 @@
         "rooms": ["numec"]
     },
     {
-        "title": "AIWare: Mesa Redonda Academia/Indústria",
+        "title": "AIware: Mesa Redonda Academia/Indústria",
         "description": "Desafios e tendências em Spec-Driven Development",
         "schedule": {
             "start": "2026-09-11T14:00:00-03:00",
@@ -30,7 +30,7 @@
         "rooms": ["numec"]
     },
     {
-        "title": "AIWare: Plenária e Encerramento",
+        "title": "AIware: Plenária e Encerramento",
         "description": "Considerações finais do evento e direcionamentos para o próximo ano",
         "schedule": {
             "start": "2026-09-11T16:30:00-03:00",
