@@ -13,21 +13,6 @@ type Props = {
   params: Promise<{ acronym: EventStructureType; locale: string }>;
 };
 
-export async function generateMetadata({ params }: Props) {
-  const { acronym, locale } = await params;
-  return createPageMetadata(locale, 'common', acronym);
-}
-
-export async function generateStaticParams() {
-  const params = locales.flatMap((locale) =>
-    symposiums.map((acronym) => ({
-      locale: locale,
-      program: acronym,
-    })),
-  );
-  return params;
-}
-
 export default async function EventsPage({ params }: Props) {
   const { acronym, locale } = await params;
 
