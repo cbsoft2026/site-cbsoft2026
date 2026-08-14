@@ -99,6 +99,10 @@ export default function Schedule(props: Props) {
               return;
             }
             if (event.type == 'artigo') return;
+            if (!event.rooms) {
+              console.log(event);
+              return;
+            }
 
             return (
               <EventCard key={`event-${eventIndex}`} href={hrefEvent(event)} event={event} rooms={rooms} view={view} />
