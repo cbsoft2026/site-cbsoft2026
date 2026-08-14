@@ -1,6 +1,6 @@
 import Title from '@/components/Title';
 import { getTranslations } from 'next-intl/server';
-import CategoryEventsList, { getEvents } from '@/components/EventsList/CategoryEventsList';
+import CategoryEventsList, { getCategoryEvents } from '@/components/EventsList/CategoryEventsList';
 
 type Props = {
   params: Promise<{ acronym: string; track: string; locale: string }>;
@@ -13,7 +13,7 @@ export default async function PapersPage({ params }: Props) {
   const commonT = await getTranslations({ locale, namespace: 'common' });
   const symposiumsT = await getTranslations({ locale, namespace: 'pages/symposiums' });
 
-  const events = await getEvents(
+  const events = await getCategoryEvents(
     locale,
     (event) => event.type === 'artigo' && event.simposio === acronym && event.track === track,
   );

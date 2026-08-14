@@ -12,7 +12,7 @@ type Props = {
   emptyMessage: string;
 };
 
-export async function getEvents(locale: string, filter: (event: Event) => boolean) {
+export async function getCategoryEvents(locale: string, filter: (event: Event) => boolean) {
   const events = mapToObject(loadEvents(locale));
 
   return Object.entries(events)

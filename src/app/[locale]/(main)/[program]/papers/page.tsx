@@ -1,6 +1,6 @@
 import Title from '@/components/Title';
 import { getTranslations } from 'next-intl/server';
-import CategoryEventsList, { getEvents } from '@/components/EventsList/CategoryEventsList';
+import CategoryEventsList, { getCategoryEvents } from '@/components/EventsList/CategoryEventsList';
 import { locales } from '@/app/config/locales';
 import { EventStructureType, programs } from '@/app/config/event-structure';
 import { createPageMetadata } from '@/lib/metadata';
@@ -31,7 +31,7 @@ export default async function PapersPage({ params }: Props) {
   const commonT = await getTranslations({ locale, namespace: 'common' });
   const symposiumsT = await getTranslations({ locale, namespace: 'pages/symposiums' });
 
-  const events = await getEvents(locale, (event) => event.type === 'artigo' && event.simposio === program);
+  const events = await getCategoryEvents(locale, (event) => event.type === 'artigo' && event.simposio === program);
 
   return (
     <>
