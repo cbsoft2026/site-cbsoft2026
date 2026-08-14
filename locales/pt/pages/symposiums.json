@@ -3,5 +3,9 @@
   "emptyTalks": "Não foi possível encontrar nenhuma palestra.",
   "emptyPainel": "Não foi possível encontrar nenhum painel.",
   "emptyPapers": "Não foi possível encontrar nenhum artigo.",
-  "emptyEvents": "Os eventos aparecerão aqui quando estiverem disponíveis."
+  "emptyEvents": "Os eventos aparecerão aqui quando estiverem disponíveis.",
+
+  "description": {
+    "high-school": "Os alunos serão recebidos no Instituto de Energia e Ambiente (IEE-USP) pelos alunos do Bacharelado em Ciência da Computação do IME-USP. Após uma palestra dos estudantes de graduação da USP, farão uma caminhada até a Faculdade de Arquitetura, Urbanismo e Design (FAU-USP) para participarem das demais atividades previstas."
+  }
 }

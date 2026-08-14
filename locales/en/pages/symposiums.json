@@ -3,5 +3,9 @@
   "emptyTalks": "No talks found.",
   "emptyPainel": "No panels found.",
   "emptyPapers": "No papers found.",
-  "emptyEvents": "Events will appear here when they become available."
+  "emptyEvents": "Events will appear here when they become available.",
+
+  "description": {
+    "high-school": "The students will be welcomed at the Institute of Energy and Environment (IEE-USP) by undergraduate students from the Bachelor’s Degree in Computer Science at IME-USP. After a talk given by USP undergraduate students, they will walk to the School of Architecture, Urbanism and Design (FAU-USP), where they will take part in the remaining scheduled activities."
+  }
 }
