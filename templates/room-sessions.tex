@@ -1,0 +1,118 @@
+\documentclass[a4paper,12pt]{article}
+
+\usepackage[margin=30mm]{geometry}
+
+\usepackage{fontspec}
+\usepackage[table]{xcolor}
+\usepackage{microtype}
+\usepackage{tabularx}
+\usepackage{array}
+\usepackage{graphicx}
+\usepackage{tikz}
+
+\definecolor{text-primary}{HTML}{222222}
+\definecolor{text-primary-alt}{HTML}{525252}
+\definecolor{text-secondary}{HTML}{777777}
+\definecolor{divider}{HTML}{D8D8D8}
+
+\newfontfamily\Alegreya{Alegreya Sans}[
+    BoldFont = Alegreya Sans ExtraBold
+]
+
+\AtBeginDocument{
+    \renewcommand{\familydefault}{\sfdefault}
+    \sffamily
+}
+
+\makeatletter
+
+\newcommand*{\roomname}[1]{\gdef\@roomname{#1}}
+\newcommand*{\roomlocal}[1]{\gdef\@roomlocal{#1}}
+\newcommand*{\dateinfo}[1]{\gdef\@dateinfo{#1}}
+
+\newcommand{\header}{%
+    \noindent
+    {\begin{minipage}[t]{0.6\textwidth}
+        \vspace{0pt}
+        {\color{text-primary}\fontsize{42pt}{48pt}\selectfont\Alegreya\scshape\bfseries\@roomlocal}\par
+        \vspace{0.35cm}
+        {\color{text-primary-alt}\fontsize{22pt}{27pt}\selectfont\bfseries\itshape\@roomname}
+    \end{minipage}
+    \hfill
+    \begin{minipage}[t]{24mm}
+        \vspace{0pt}
+        \includegraphics[width=\textwidth]{logos/cbsoft-logo-icon.pdf}
+    \end{minipage}}
+    \par
+    \vspace{0.35cm}
+    \noindent
+    {\color{text-secondary}\fontsize{11pt}{14pt}\selectfont\@dateinfo}
+    \par
+    \vspace{1.2cm}
+}
+
+\makeatother
+
+\newcolumntype{T}{
+    >{\raggedright\arraybackslash}
+    p{2cm}
+}
+
+\newcolumntype{S}{
+    >{\raggedright\arraybackslash}
+    X
+}
+
+\def\sessiontime#1{%
+    \vtop{%
+        \hsize=2cm
+        \noindent
+        {\color{text-primary}
+        \fontsize{12pt}{15pt}
+        \selectfont
+        \bfseries
+        #1}%
+    }%
+}
+
+\def\sessiontype#1{%
+    {\color{text-primary}\fontsize{12pt}{15pt}\selectfont\bfseries#1}
+    \par
+}
+
+\def\sessiontitle#1{%
+    \vspace{0.08cm}
+    {\color{text-primary-alt}\fontsize{12pt}{15pt}\selectfont\bfseries#1}
+    \par
+}
+
+\def\sessiondivider{%
+    \noalign{\vskip 0.5cm}
+    \arrayrulecolor{divider}
+    \hline
+    \noalign{\vskip 0.5cm}
+}
+
+\long\def\sessioncontent#1{\noindent#1}
+
+\def\speaker#1{%
+\begin{tikzpicture}
+    \clip (0,0) circle (0.5cm);
+    \node[anchor=center, inner sep=0] at (0,-0.1) {\includegraphics[height=1.5cm]{speakers/#1}};
+\end{tikzpicture}
+}
+
+\def\sessionmoderators#1{%
+    \vspace{0.5cm}
+    #1
+}
+
+\begin{document}
+
+\makeatletter
+
+%% GENERATED_CONTENT %%
+
+\makeatother
+
+\end{document}
