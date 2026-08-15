@@ -55,4 +55,13 @@ export async function prepareExportAssets(paths: Record<string, string>) {
     (file) => file.toLowerCase().includes('cbsoft-logo-icon.svg'),
     convertWithInkscape,
   );
+  await copyFiles(
+    paths.images,
+    paths.output,
+    'png',
+    (file) => file.toLowerCase().includes('qrcode.png'),
+    async (input, output) => {
+      await cp(input, output, { recursive: true });
+    },
+  );
 }

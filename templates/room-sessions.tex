@@ -1,11 +1,26 @@
 \documentclass[a4paper,12pt]{article}
 
-\usepackage[margin=30mm]{geometry}
+\makeatletter
+
+\newlength{\roomsessions@imgsize}
+\setlength{\roomsessions@imgsize}{24mm}
+
+\newlength{\roomsessions@margin}
+\setlength{\roomsessions@margin}{20mm}
+
+\newlength{\roomsessions@bottommargin}
+\setlength{\roomsessions@bottommargin}{\roomsessions@margin}
+\addtolength{\roomsessions@bottommargin}{\roomsessions@imgsize}
+
+\usepackage[
+    margin=\roomsessions@margin,
+    bottom=\roomsessions@bottommargin
+]{geometry}
 
 \usepackage{fontspec}
 \usepackage[table]{xcolor}
 \usepackage{microtype}
-\usepackage{tabularx}
+\usepackage{xltabular}
 \usepackage{array}
 \usepackage{graphicx}
 \usepackage{tikz}
@@ -24,8 +39,6 @@
     \sffamily
 }
 
-\makeatletter
-
 \newcommand*{\roomname}[1]{\gdef\@roomname{#1}}
 \newcommand*{\roomlocal}[1]{\gdef\@roomlocal{#1}}
 \newcommand*{\dateinfo}[1]{\gdef\@dateinfo{#1}}
@@ -39,7 +52,7 @@
         {\color{text-primary-alt}\fontsize{22pt}{27pt}\selectfont\bfseries\itshape\@roomname}
     \end{minipage}
     \hfill
-    \begin{minipage}[t]{24mm}
+    \begin{minipage}[t]{\roomsessions@imgsize}
         \vspace{0pt}
         \includegraphics[width=\textwidth]{figures/cbsoft-logo-icon.pdf}
     \end{minipage}}
@@ -50,6 +63,24 @@
     \par
     \vspace{1.2cm}
 }
+
+\def\ps@headings{%
+    \def\@oddhead{}
+    \let\@evenhead\@oddhead
+    \def\@oddfoot{%
+        \fontsize{8pt}{9.6pt}\selectfont\color{text-secondary}%
+        \thepage
+        \hfill
+        \begin{minipage}[b]{\roomsessions@imgsize}
+            \begin{center}
+                \includegraphics[width=\textwidth]{figures/qrcode.png}\par
+                \bfseries\Alegreya\MakeUppercase{cbsoft.sbc.org.br}
+            \end{center}
+        \end{minipage}
+    }%
+    \let\@evenfoot\@oddfoot
+}
+\pagestyle{headings}
 
 \makeatother
 
@@ -108,6 +139,8 @@
 }
 
 \begin{document}
+
+\thispagestyle{headings}
 
 \makeatletter
 
