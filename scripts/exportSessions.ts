@@ -16,7 +16,7 @@ const locale = 'pt';
 
 const paths = {
   template: path.join(projectRoot, 'templates', 'room-sessions.tex'),
-  output: path.join(projectRoot, 'out', 'export'),
+  output: path.join(projectRoot, 'public', 'generated', 'export'),
   speakers: path.join(projectRoot, 'public', 'images', 'speakers'),
   logos: path.join(projectRoot, 'public', 'images', 'logos'),
 };
@@ -145,8 +145,10 @@ function getEventsByDay(filter: (event: Event) => boolean) {
     }
   }
 
-  exportSessions().catch((err) => {
-    console.error('Erro ao exportar os dados:', err);
-    process.exit(1);
-  });
+  if (process.env.NODE_ENV === 'production') {
+    exportSessions().catch((err) => {
+      console.error('Erro ao exportar os dados:', err);
+      process.exit(1);
+    });
+  }
 })();
