@@ -7,7 +7,7 @@
             "end": "2026-09-08T10:30:00-03:00"
         },
         "description": "In this talk I will first briefly discuss why architecture is important and what it is that architects know and do.  Then I will explore the notion of design as a creative act and discuss the results of two recent experiments that explore how AI can aid architects in their duties.  Based on the results of these experiments I will draw some conclusions about where AI excels, where it falls short, and how we are better together.",
-        "rooms": ["auditorio-fau", "auditorio-ime", "b5", "b16", "b9", "b10", "b1", "b2", "b3", "b7", "ccsl", "b101", "numec"]
+        "rooms": ["auditorio-fau", "auditorio-ime", "b5", "b16", "b9", "b10", "b1", "b2", "b3", "ccsl", "b101"]
     },
     {
         "title": "Keynote II SBCARS: Sustainable Reference Architectures",
