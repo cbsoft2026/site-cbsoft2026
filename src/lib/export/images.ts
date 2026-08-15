@@ -1,4 +1,4 @@
-import { rm, cp, readdir } from 'node:fs/promises';
+import { cp, mkdir, readdir } from 'node:fs/promises';
 
 import { execFile } from 'node:child_process';
 import { promisify } from 'node:util';
@@ -15,43 +15,44 @@ export async function convertWithInkscape(inputPath: string, outputPath: string)
   await execFileAsync('inkscape', [inputPath, '--export-filename', outputPath]);
 }
 
-async function copySpeakersImages(speakersDir: string, outputPath: string) {
-  const speakerOutput = path.join(outputPath, 'speakers');
-  await cp(speakersDir, speakerOutput, { recursive: true });
-  const speakerFiles = await readdir(speakerOutput);
+async function copyFiles(
+  inputPath: string,
+  outputPath: string,
+  extension: string,
+  filter: (file: string) => boolean,
+  callback: (input: string, output: string) => Promise<void>,
+) {
+  const figuresOutput = path.join(outputPath, 'figures');
+  const figuresFiles = (await readdir(inputPath)).map((file) => {
+    return path.join(inputPath, file);
+  });
 
-  const webpFiles = speakerFiles.filter((file) => file.toLowerCase().endsWith('.webp'));
+  const filteredFiles = figuresFiles.filter(filter);
 
-  if (webpFiles.length === 0) return;
+  if (filteredFiles.length === 0) return;
 
-  for (const file of webpFiles) {
-    const inputPath = path.join(speakerOutput, file);
+  for (const file of filteredFiles) {
     const fileWithoutExt = path.parse(file).name;
-    const outputPath = path.join(speakerOutput, `${fileWithoutExt}.png`);
-    await convertWithDwebp(inputPath, outputPath);
-    await rm(inputPath);
+    const outputFile = path.join(figuresOutput, `${fileWithoutExt}.${extension}`);
+    await callback(file, outputFile);
   }
 }
 
-async function copyLogoFiles(logosDir: string, outputPath: string) {
-  const logosOutput = path.join(outputPath, 'logos');
-  await cp(logosDir, logosOutput, { recursive: true });
-  const logosFiles = await readdir(logosOutput);
+export async function prepareExportAssets(paths: Record<string, string>) {
+  await mkdir(path.join(paths.output, 'figures'), { recursive: true });
 
-  const logoFile = logosFiles.filter((file) => file.toLowerCase().includes('cbsoft-logo-icon.svg'));
-
-  if (logoFile.length === 0) return;
-
-  for (const file of logoFile) {
-    const inputPath = path.join(logosOutput, file);
-    const fileWithoutExt = path.parse(file).name;
-    const outputPath = path.join(logosOutput, `${fileWithoutExt}.pdf`);
-    await convertWithInkscape(inputPath, outputPath);
-    await rm(inputPath);
-  }
-}
-
-export async function prepareExportAssets(speakersDir: string, logosDir: string, outputPath: string) {
-  await copySpeakersImages(speakersDir, outputPath);
-  await copyLogoFiles(logosDir, outputPath);
+  await copyFiles(
+    paths.speakers,
+    paths.output,
+    'png',
+    (file) => file.toLowerCase().endsWith('.webp'),
+    convertWithDwebp,
+  );
+  await copyFiles(
+    paths.logos,
+    paths.output,
+    'pdf',
+    (file) => file.toLowerCase().includes('cbsoft-logo-icon.svg'),
+    convertWithInkscape,
+  );
 }

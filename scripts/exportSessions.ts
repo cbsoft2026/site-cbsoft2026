@@ -18,6 +18,7 @@ const paths = {
   template: path.join(projectRoot, 'templates', 'room-sessions.tex'),
   output: path.join(projectRoot, 'public', 'generated', 'export'),
   speakers: path.join(projectRoot, 'public', 'images', 'speakers'),
+  images: path.join(projectRoot, 'public', 'images'),
   logos: path.join(projectRoot, 'public', 'images', 'logos'),
 };
 
@@ -134,7 +135,7 @@ function getEventsByDay(filter: (event: Event) => boolean) {
   async function exportSessions() {
     const groupedByDay = getEventsByDay((event) => event.type != 'info' && event.type != 'artigo');
 
-    await prepareExportAssets(paths.speakers, paths.logos, paths.output);
+    await prepareExportAssets(paths);
 
     for (const [date, roomEvents] of Object.entries(groupedByDay)) {
       let content = '';
