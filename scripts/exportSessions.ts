@@ -116,7 +116,7 @@ function getEventsByDay(filter: (event: Event) => boolean) {
     content += `\\dateinfo{${formatWeek(date)}}\n`;
 
     content += '\\header\n';
-    content += '\\noindent\\begin{xltabular}{0.8\\textwidth}{TS}\n';
+    content += '\\noindent\\begin{xltabular}[l]{0.8\\textwidth}{TS}\n';
 
     Object.values(events)
       .sort((a, b) => {
