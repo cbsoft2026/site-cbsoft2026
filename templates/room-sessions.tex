@@ -95,14 +95,10 @@
 }
 
 \def\sessiontime#1{%
-    \vtop{%
+    \noindent\vtop{%
         \hsize=2cm
-        \noindent
-        {\color{text-primary}
-        \fontsize{12pt}{15pt}
-        \selectfont
-        \bfseries
-        #1}%
+        \noindent%
+        {\color{text-primary}\fontsize{12pt}{15pt}\selectfont\bfseries#1}%
     }%
 }
 
@@ -136,6 +132,16 @@
 \def\sessionmoderators#1{%
     \vspace{0.5cm}
     #1
+}
+
+\def\paper#1#2#3{%
+    \noindent{\color{text-primary-alt}\fontsize{7pt}{8.4pt}\selectfont#1}%
+    &%
+    \noindent{{\color{text-primary-alt}\fontsize{7pt}{8.4pt}\selectfont\bfseries#2}
+    \par
+    {\color{text-primary-alt}\fontsize{7pt}{8.4pt}\selectfont\itshape#3}
+    \par}%
+    \\[1.2cm]
 }
 
 \newcommand{\sessiontabular}[1]{%
