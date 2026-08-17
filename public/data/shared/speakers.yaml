@@ -190,3 +190,25 @@
   name: André Araújo
   institution: Senior Staff Research Scientist / Tech Lead Manager at Google DeepMind
   institution_acronym: Google DeepMind
+
+- id: fernando-magno
+  name: Fernando Magno Quintão Pereira
+  image: Fernando_Magno.webp
+  institution: Universidade Federal de Minas Gerais
+  institution_acronym: UFMG
+
+- id: samuel-feitosa
+  name: Samuel Feitosa
+  institution: Universidade Federal da Fronteira Sul
+  institution_acronym: UFFS
+
+- id: sergio-medeiros
+  name: Sérgio Medeiros
+  institution: Universidade Federal do Rio Grande do Norte
+  institution_acronym: UFRN
+
+- id: anderson-faustino
+  name: Anderson Faustino da Silva
+  image: Anderson_Faustino.webp
+  institution: Universidade Estadual de Maringá
+  institution_acronym: UEM
