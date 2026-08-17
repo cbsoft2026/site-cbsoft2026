@@ -100,7 +100,6 @@ export default function Schedule(props: Props) {
             }
             if (event.type == 'artigo') return;
             if (!event.rooms) {
-              console.log(event);
               return;
             }
 
