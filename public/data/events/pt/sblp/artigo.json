@@ -1,102 +1,227 @@
 [
     {
         "title": "A Collective Communication Library for Distributed Tensors",
-        "authors": ["Francisco H. Carvalho-Junior (UFC)", "Francisco José Lins Magalhães"]
+        "authors": ["Francisco H. Carvalho-Junior (UFC)", "Francisco José Lins Magalhães"],
+        "schedule": {
+            "start": "2026-09-11T16:30:00-03:00",
+            "end": "2026-09-11T16:50:00-03:00"
+        },
+        "rooms": ["b16"]
     },
     {
         "title": "A Large-Scale Analysis of C++ Lambdas and Their Capture Lists in Opensource Repositories",
-        "authors": ["Luiz Romário Santana Rios (UFRJ)", "Hugo Musso Gualandi (UFRJ)"]
+        "authors": ["Luiz Romário Santana Rios (UFRJ)", "Hugo Musso Gualandi (UFRJ)"],
+        "schedule": {
+            "start": "2026-09-10T16:30:00-03:00",
+            "end": "2026-09-10T16:50:00-03:00"
+        },
+        "rooms": ["b16"]
     },
     {
         "title": "A Mechanized Formalization of microKanren in Agda",
-        "authors": ["Eduardo Henke (UFOP)", "Rodrigo Geraldo Ribeiro (UFOP)"]
+        "authors": ["Eduardo Henke (UFOP)", "Rodrigo Geraldo Ribeiro (UFOP)"],
+        "schedule": {
+            "start": "2026-09-10T17:30:00-03:00",
+            "end": "2026-09-10T17:50:00-03:00"
+        },
+        "rooms": ["b16"]
     },
     {
         "title": "A Mechanized Semantics for eBPF and its Applications",
-        "authors": ["Marcos Emiliano (UFOP)", "Rodrigo Geraldo Ribeiro (UFOP)"]
+        "authors": ["Marcos Emiliano (UFOP)", "Rodrigo Geraldo Ribeiro (UFOP)"],
+        "schedule": {
+            "start": "2026-09-10T16:50:00-03:00",
+            "end": "2026-09-10T17:10:00-03:00"
+        },
+        "rooms": ["b16"]
     },
     {
         "title": "A Parsing Expression Grammar-based approach for syntax tree pattern matching",
-        "authors": ["Guilherme Augusto Anício Drummond do Nascimento (UFOP)", "Rodrigo Geraldo Ribeiro (UFOP)"]
+        "authors": ["Guilherme Augusto Anício Drummond do Nascimento (UFOP)", "Rodrigo Geraldo Ribeiro (UFOP)"],
+        "schedule": {
+            "start": "2026-09-11T15:20:00-03:00",
+            "end": "2026-09-11T15:40:00-03:00"
+        },
+        "rooms": ["b16"]
     },
     {
         "title": "An Answer Set Programming Approach for Academic Event Allocation: A Case Study at the Federal University of Ceará",
-        "authors": ["Thiago Valente (UFC)", "Pedro Ferreira (USP)", "Rildian Beserra (UFC)", "Alexandre Arruda (UFC)", "Dmontier Aragão Jr (UFC)"]
+        "authors": ["Thiago Valente (UFC)", "Pedro Ferreira (USP)", "Rildian Beserra (UFC)", "Alexandre Arruda (UFC)", "Dmontier Aragão Jr (UFC)"],
+        "schedule": {
+            "start": "2026-09-11T16:50:00-03:00",
+            "end": "2026-09-11T17:10:00-03:00"
+        },
+        "rooms": ["b16"]
     },
     {
         "title": "ANTLR2PEG: A tool to convert ANTLR grammars into PEGs grammars",
-        "authors": ["José Santos (UFRN)", "Sérgio Queiroz de Medeiros (UFRN)"]
+        "authors": ["José Santos (UFRN)", "Sérgio Queiroz de Medeiros (UFRN)"],
+        "schedule": {
+            "start": "2026-09-11T14:00:00-03:00",
+            "end": "2026-09-11T14:20:00-03:00"
+        },
+        "rooms": ["b16"]
     },
     {
         "title": "Awaiting Trouble: Characterizing Concurrency Issues in Modern Promise-based JavaScript Applications",
-        "authors": ["Pedro Vicente (UFSCar)", "Andre Takeshi Endo (UFSCar)"]
+        "authors": ["Pedro Vicente (UFSCar)", "Andre Takeshi Endo (UFSCar)"],
+        "schedule": {
+            "start": "2026-09-11T17:10:00-03:00",
+            "end": "2026-09-11T17:30:00-03:00"
+        },
+        "rooms": ["b16"]
     },
     {
         "title": "Bleach: A Programming Language for Teaching Compilers",
-        "authors": ["Victor Costa (UFPE)", "Leopoldo Motta Teixeira (UFPE)"]
+        "authors": ["Victor Costa (UFPE)", "Leopoldo Motta Teixeira (UFPE)"],
+        "schedule": {
+            "start": "2026-09-11T15:00:00-03:00",
+            "end": "2026-09-11T15:20:00-03:00"
+        },
+        "rooms": ["b16"]
     },
     {
         "title": "Correct by Construction Gram-Schmidt Process",
-        "authors": ["João Victor Lopez Pereira (UFRJ)", "Daniel Kiyoshi Hashimoto (UFRJ)", "Hugo Musso Gualandi (UFRJ)", "João Paixão (UFRJ)"]
+        "authors": ["João Victor Lopez Pereira (UFRJ)", "Daniel Kiyoshi Hashimoto (UFRJ)", "Hugo Musso Gualandi (UFRJ)", "João Paixão (UFRJ)"],
+        "schedule": {
+            "start": "2026-09-11T12:10:00-03:00",
+            "end": "2026-09-11T12:30:00-03:00"
+        },
+        "rooms": ["b16"]
     },
     {
         "title": "Epi: An Epistemic Type System for Containing LLM Hallucination in Generated Code",
-        "authors": ["Randerson Oliveira Melville Rebouças (UFRGS)", "Dante Augusto Couto Barone (UFRGS)", "Eliseo Reategui (UFRGS)"]
+        "authors": ["Randerson Oliveira Melville Rebouças (UFRGS)", "Dante Augusto Couto Barone (UFRGS)", "Eliseo Reategui (UFRGS)"],
+        "schedule": {
+            "start": "2026-09-11T11:15:00-03:00",
+            "end": "2026-09-11T11:30:00-03:00"
+        },
+        "rooms": ["b16"]
     },
     {
         "title": "Foundations for Formally Verified Network Protocol Parsers in Lean 4: A Case Study with MQTT",
-        "authors": ["Eduardo Sandalo Porto (UFMG)", "Ana C. V. de Melo (USP)"]
+        "authors": ["Eduardo Sandalo Porto (UFMG)", "Ana C. V. de Melo (USP)"],
+        "schedule": {
+            "start": "2026-09-11T11:00:00-03:00",
+            "end": "2026-09-11T11:15:00-03:00"
+        },
+        "rooms": ["b16"]
     },
     {
         "title": "LLM-Guided Semantic Mutation for Lua Interpreter Fuzzing: A Coverage-Driven Approach",
-        "authors": ["Richard Souza (UFFS)", "Andrei Braga (UFFS)", "Giancarlo Salton (UFFS)", "Samuel da Silva Feitosa (UFFS)"]
+        "authors": ["Richard Souza (UFFS)", "Andrei Braga (UFFS)", "Giancarlo Salton (UFFS)", "Samuel da Silva Feitosa (UFFS)"],
+        "schedule": {
+            "start": "2026-09-11T11:50:00-03:00",
+            "end": "2026-09-11T12:10:00-03:00"
+        },
+        "rooms": ["b16"]
     },
     {
         "title": "Multi-Language Benchmark Generation via L-Systems",
-        "authors": ["Vinícius Silva (UFMG)", "Matheus Marchesotti (UFMG)", "Fernando Magno Quintao Pereira (UFMG)"]
+        "authors": ["Vinícius Silva (UFMG)", "Matheus Marchesotti (UFMG)", "Fernando Magno Quintao Pereira (UFMG)"],
+        "schedule": {
+            "start": "2026-09-10T11:20:00-03:00",
+            "end": "2026-09-10T11:40:00-03:00"
+        },
+        "rooms": ["b16"]
     },
     {
         "title": "Operator Fusion Gaps in Deep Learning Systems: The Compilation--Execution Trade-off of Unfused Operations",
-        "authors": ["Leonardo Kamei (PUC-MG)", "Pedro H. Ramos (PUC-MG)"]
+        "authors": ["Leonardo Kamei (PUC-MG)", "Pedro H. Ramos (PUC-MG)"],
+        "schedule": {
+            "start": "2026-09-10T12:00:00-03:00",
+            "end": "2026-09-10T12:20:00-03:00"
+        },
+        "rooms": ["b16"]
     },
     {
         "title": "Orchestra: CPU-GPU Cooperative Programming in Elixir",
-        "authors": ["Henrique Gabriel Rodrigues (UFPel)", "Andre Rauber Du Bois (UFPel)", "Gerson Geraldo H. Cavalheiro (UFPel)", "Eduardo Mailan (UFPel)"]
+        "authors": ["Henrique Gabriel Rodrigues (UFPel)", "Andre Rauber Du Bois (UFPel)", "Gerson Geraldo H. Cavalheiro (UFPel)", "Eduardo Mailan (UFPel)"],
+        "schedule": {
+            "start": "2026-09-11T14:20:00-03:00",
+            "end": "2026-09-11T14:40:00-03:00"
+        },
+        "rooms": ["b16"]
     },
     {
         "title": "PowerDSL: A Domain-Specific Language for Energy Management in Edge Computing Systems",
-        "authors": ["Victor Vidal (UFAM)", "Raimundo da Silva Barreto (UFAM)", "Horácio Oliveira (UFAM)"]
+        "authors": ["Victor Vidal (UFAM)", "Raimundo da Silva Barreto (UFAM)", "Horácio Oliveira (UFAM)"],
+        "schedule": {
+            "start": "2026-09-11T17:45:00-03:00",
+            "end": "2026-09-11T18:00:00-03:00"
+        },
+        "rooms": ["b16"]
     },
     {
         "title": "SmartLint: Static Detection of Insecure Patterns in Solidity Smart Contracts Inspired by Move's Resource Model",
-        "authors": ["Luiz Gonçalves (UFMG)"]
+        "authors": ["Luiz Gonçalves (UFMG)"],
+        "schedule": {
+            "start": "2026-09-10T11:40:00-03:00",
+            "end": "2026-09-10T12:00:00-03:00"
+        },
+        "rooms": ["b16"]
     },
     {
         "title": "SolForge: A Large Language Model-Based Approach for the Differential Testing of Solidity Compilers",
-        "authors": ["Gabriel Salvi (UFFS), Andrei Braga (UFFS), Guilherme Dal Bianco (UFFS), Samuel da Silva Feitosa (UFFS)"]
+        "authors": ["Gabriel Salvi (UFFS), Andrei Braga (UFFS), Guilherme Dal Bianco (UFFS), Samuel da Silva Feitosa (UFFS)"],
+        "schedule": {
+            "start": "2026-09-11T11:30:00-03:00",
+            "end": "2026-09-11T11:50:00-03:00"
+        },
+        "rooms": ["b16"]
     },
     {
         "title": "Spring MVC vs. WebFlux em Cargas I/O-bound: Reavaliando a Superioridade do Modelo Reativo",
-        "authors": ["Beatriz Teixeira (UFLA)", "Ricardo Terra (UFLA)"]
+        "authors": ["Beatriz Teixeira (UFLA)", "Ricardo Terra (UFLA)"],
+        "schedule": {
+            "start": "2026-09-11T17:30:00-03:00",
+            "end": "2026-09-11T17:45:00-03:00"
+        },
+        "rooms": ["b16"]
     },
     {
         "title": "Strong Normalization for Well-Typed Parsing Expression Grammars",
-        "authors": ["Guilherme Augusto Anício Drummond do Nascimento (UFOP)", "Elton Máximo Cardoso (UFOP)", "Samuel da Silva Feitosa (UFFS)", "Rodrigo Geraldo Ribeiro (UFOP)"]
+        "authors": ["Guilherme Augusto Anício Drummond do Nascimento (UFOP)", "Elton Máximo Cardoso (UFOP)", "Samuel da Silva Feitosa (UFFS)", "Rodrigo Geraldo Ribeiro (UFOP)"],
+        "schedule": {
+            "start": "2026-09-10T17:10:00-03:00",
+            "end": "2026-09-10T17:30:00-03:00"
+        },
+        "rooms": ["b16"]
     },
     {
         "title": "Structure-Aware Compiler Auto-Tuning",
-        "authors": ["Anderson Faustino da Silva (UEM)", "Christian Schwarz (TU Dresden)", "Jeronimo Castrillon (TU Dresden)"]
+        "authors": ["Anderson Faustino da Silva (UEM)", "Christian Schwarz (TU Dresden)", "Jeronimo Castrillon (TU Dresden)"],
+        "schedule": {
+            "start": "2026-09-10T11:00:00-03:00",
+            "end": "2026-09-10T11:20:00-03:00"
+        },
+        "rooms": ["b16"]
     },
     {
         "title": "Translating Finite-Typed Symmetric Pattern Matching into Ket",
-        "authors": ["Flávio Borin Júnior (UFSM)", "Juliana Kaizer Vizzotto (UFSM)"]
+        "authors": ["Flávio Borin Júnior (UFSM)", "Juliana Kaizer Vizzotto (UFSM)"],
+        "schedule": {
+            "start": "2026-09-10T17:50:00-03:00",
+            "end": "2026-09-10T18:10:00-03:00"
+        },
+        "rooms": ["b16"]
     },
     {
         "title": "Two induction-free constructions for finite automata determinization",
-        "authors": ["Matheus do Ó Santos Tiburcio (UFRJ)", "Hugo Musso Gualandi (UFRJ)"]
+        "authors": ["Matheus do Ó Santos Tiburcio (UFRJ)", "Hugo Musso Gualandi (UFRJ)"],
+        "schedule": {
+            "start": "2026-09-11T15:40:00-03:00",
+            "end": "2026-09-11T16:00:00-03:00"
+        },
+        "rooms": ["b16"]
     },
     {
         "title": "User-Directed Fusion of Parallel Skeletons Using Metaprogramming",
-        "authors": ["João Antonio Soares (UFPel)", "Andre Rauber Du Bois (UFPel)", "Gerson Geraldo H. Cavalheiro (UFPel)"]
+        "authors": ["João Antonio Soares (UFPel)", "Andre Rauber Du Bois (UFPel)", "Gerson Geraldo H. Cavalheiro (UFPel)"],
+        "schedule": {
+            "start": "2026-09-11T14:40:00-03:00",
+            "end": "2026-09-11T15:00:00-03:00"
+        },
+        "rooms": ["b16"]
     }
 ]
