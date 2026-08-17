@@ -35,67 +35,73 @@ async function ParentTable({ events, event, locale }: Props) {
       </tr>
     );
 
-  return (event?.parentIds || Object.values(events)).map(async (parentId, index) => {
-    const parentEvent = typeof parentId === 'string' ? (events[parentId] as Event) : parentId;
+  return (event?.parentIds || Object.values(events))
+    .sort((a, b) => {
+      const parentA = typeof a === 'string' ? (events[a] as Event) : a;
+      const parentB = typeof b === 'string' ? (events[b] as Event) : b;
+      return new Date(parentA.schedule?.start ?? '').getTime() - new Date(parentB.schedule?.start ?? '').getTime();
+    })
+    .map(async (parentId, index) => {
+      const parentEvent = typeof parentId === 'string' ? (events[parentId] as Event) : parentId;
 
-    const scheduleT = await getTranslations('schedule');
+      const scheduleT = await getTranslations('schedule');
 
-    let title = parentEvent.title;
+      let title = parentEvent.title;
 
-    if (scheduleT.has(parentEvent.title)) {
-      title = scheduleT(parentEvent.title);
-    }
+      if (scheduleT.has(parentEvent.title)) {
+        title = scheduleT(parentEvent.title);
+      }
 
-    return (
-      <tr key={index}>
-        <th style={{ display: 'flex', minWidth: 150 }}>
-          {parentEvent.schedule && parentEvent.schedule.start != parentEvent.schedule.end ? (
-            <p>
-              {new Date(parentEvent.schedule.start).toLocaleDateString(locale, {
-                month: 'short',
-                day: '2-digit',
-                hour: '2-digit',
-                minute: '2-digit',
-              })}
-            </p>
-          ) : (
-            ''
-          )}
-        </th>
-        <td>
-          <h6>{title}</h6>
-          <div className={styles['chips__grouped']}>
-            {parentEvent.track ? (
-              <span className={styles.chip}>
-                <small>{commonT(`siglas.trilhas.${parentEvent.track}`)}</small>
-              </span>
+      return (
+        <tr key={index}>
+          <th style={{ display: 'flex', minWidth: 150 }}>
+            {parentEvent.schedule && parentEvent.schedule.start != parentEvent.schedule.end ? (
+              <p>
+                {new Date(parentEvent.schedule.start).toLocaleDateString(locale, {
+                  month: 'short',
+                  day: '2-digit',
+                  hour: '2-digit',
+                  minute: '2-digit',
+                })}
+              </p>
             ) : (
               ''
             )}
-            {parentEvent.category &&
-            `common.siglas.${parentEvent.category}` != commonT(`siglas.${parentEvent.category}`) ? (
-              <span className={styles.chip}>
-                <small>{commonT(`siglas.${parentEvent.category}`)}</small>
-              </span>
-            ) : (
-              ''
-            )}
-          </div>
-          <p>{parentEvent.description}</p>
-          <i>
-            {parentEvent.participants &&
-              parentEvent.participants
-                .map((participant) =>
-                  typeof participant === 'object' && participant !== null && !Array.isArray(participant)
-                    ? ''
-                    : participant,
-                )
-                .join(', ')}
-          </i>
-        </td>
-      </tr>
-    );
-  });
+          </th>
+          <td>
+            <h6>{title}</h6>
+            <div className={styles['chips__grouped']}>
+              {parentEvent.track ? (
+                <span className={styles.chip}>
+                  <small>{commonT(`siglas.trilhas.${parentEvent.track}`)}</small>
+                </span>
+              ) : (
+                ''
+              )}
+              {parentEvent.category &&
+              `common.siglas.${parentEvent.category}` != commonT(`siglas.${parentEvent.category}`) ? (
+                <span className={styles.chip}>
+                  <small>{commonT(`siglas.${parentEvent.category}`)}</small>
+                </span>
+              ) : (
+                ''
+              )}
+            </div>
+            <p>{parentEvent.description}</p>
+            <i>
+              {parentEvent.participants &&
+                parentEvent.participants
+                  .map((participant) =>
+                    typeof participant === 'object' && participant !== null && !Array.isArray(participant)
+                      ? ''
+                      : participant,
+                  )
+                  .join(', ')}
+            </i>
+          </td>
+        </tr>
+      );
+    });
 }
 
 export default async function EventComponent({ events, event, locale }: Props) {
