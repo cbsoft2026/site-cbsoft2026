@@ -27,7 +27,7 @@
             "end": "2026-09-11T10:30:00-03:00"
         },
         "description": "Software is eating the world, and we have a challenging competition scenario. Software companies have been shifting from focusing on technology-driven to satisfying users’ expectations and needs. In this scenario, User Experience (UX) is currently a key factor in establishing the quality of a product or service. User eXperience (UX) is a holistic concept, considering not only pragmatic aspects (task-oriented) but also subjective aspects, such as affect, sensations, emotions, and value of user’s interaction in everyday life. UX is the differential that led many software apps to their (lack of) adoption in the market. Software engineers provide solutions for many software product qualities in architecture design. However, as software engineers, what can we do to provide positive UX? Or even better: to design software so valuable and pleasant up to the point it is indispensable and irreplaceable? This talk will present a research and practice landscape at the intersection of software engineering and human-computer interaction to solve UX challenges.",
-        "rooms": ["auditorio-fau", "auditorio-ime", "b5", "b16", "b9", "b10", "b1", "b2", "b3", "ccsl", "b101", "numec"]
+        "rooms": ["auditorio-fau", "auditorio-ime", "b5", "b16", "b9", "b10", "b1", "b2", "b3", "ccsl", "b101", "numec", "b7"]
     },
     {
         "title": "Invited Industry Keynote & Interactive Discussion: Responsible AI & Software Engineering Challenges",
