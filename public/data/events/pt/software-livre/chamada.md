@@ -44,7 +44,7 @@ Faça parte desse momento.
 | 15:00 - 15:30 | Palestra 3 |
 | 15:30 - 16:00 | Palestra 4 |
 | 16:00 - 16:30 | *Coffee break* |
-| 16:30 - 18:00 | Mesa 2: Desafios presentes e futuros do Software Livre |
+| 16:30 - 18:30 | Mesa 2: Desafios presentes e futuros do Software Livre |
 
 | | |
 |---|---|
