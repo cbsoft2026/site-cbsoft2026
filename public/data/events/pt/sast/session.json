@@ -1,6 +1,6 @@
 [
     {
-        "title": "SAST - ST1",
+        "title": "ST1 SAST",
         "schedule": {
             "start": "2026-09-08T11:00:00-03:00",
             "end": "2026-09-08T12:30:00-03:00"
@@ -9,12 +9,39 @@
         "rooms": ["auditorio-ime"]
     },
     {
-        "title": "SAST - ST2",
+        "title": "ST2 SAST",
+        "schedule": {
+            "start": "2026-09-08T11:00:00-03:00",
+            "end": "2026-09-08T12:30:00-03:00"
+        },
+        "type": "info",
+        "rooms": ["b10"]
+    },
+    {
+        "title": "ST3 SAST",
         "schedule": {
             "start": "2026-09-08T16:30:00-03:00",
             "end": "2026-09-08T18:30:00-03:00"
         },
         "type": "info",
-        "rooms": ["auditorio-ime"]
+        "rooms": ["b16"]
+    },
+    {
+        "title": "ST4 SAST",
+        "schedule": {
+            "start": "2026-09-08T16:30:00-03:00",
+            "end": "2026-09-08T18:30:00-03:00"
+        },
+        "type": "info",
+        "rooms": ["b9"]
+    },
+    {
+        "title": "ST5 SAST",
+        "schedule": {
+            "start": "2026-09-08T16:30:00-03:00",
+            "end": "2026-09-08T18:30:00-03:00"
+        },
+        "type": "info",
+        "rooms": ["b101"]
     }
 ]

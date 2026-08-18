@@ -17,6 +17,6 @@
             "end": "2026-09-08T18:30:00-03:00"
         },
         "description": "Reference architectures have significantly contributed to software system development, leading to system standardization, interoperability, and project costs and risk reduction. They can considerably promote architectural knowledge reuse, but most of them do not remain useful or even survive over the years. As a consequence, the cost, effort, and time designing them are wasted. This talk is then about sustainability-aware reference architecture and how researchers and practitioners from industry could reach sustainability of/in reference architectures, aiming to ensure their long-term value.",
-        "rooms": ["b16"]
+        "rooms": ["auditorio-ime"]
     }
 ]
