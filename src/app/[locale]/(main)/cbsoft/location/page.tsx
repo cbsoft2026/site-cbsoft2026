@@ -25,12 +25,30 @@ export default async function LocationPage({ params }: Props) {
   return (
     <section className='container' style={{ paddingTop: '50px' }}>
       <Title titulo={t('titulo')} align='center' />
+
       <div className={styles.local}>
         <div className={styles.descricao}>
-          <div className='content'>{commonT('localEvento')}</div>
-          <div className={styles.subcontent}>{commonT('localDetalhes')}</div>
+          <div className='content'>
+            {commonT('localEvento')} — {commonT('localDetalhes')}
+          </div>
         </div>
       </div>
+
+      <div className={styles.subcontent}>{t('atencao')}</div>
+
+      <div className={styles.venues}>
+        <div>
+          <h2>{t('fau.titulo')}</h2>
+          <p>{t('fau.descricao')}</p>
+          <strong>{t('fau.atividades')}</strong>
+        </div>
+        <br />
+        <div>
+          <h2>{t('ime.titulo')}</h2>
+          <p>{t('ime.descricao')}</p>
+        </div>
+      </div>
+
       <section className={styles.map}>
         <div className='container'>
           <iframe
@@ -44,6 +62,7 @@ export default async function LocationPage({ params }: Props) {
           ></iframe>
         </div>
       </section>
+
       {t('comochegar')}
     </section>
   );

@@ -1,5 +1,34 @@
 {
   "titulo": "Venue & Location",
+  "location": "Location",
+
+  "atencao": {
+    "tipo": "markdown",
+    "conteudo": [
+      "**Attention:** registration and the talks starting at 9:00 AM will take place at **FAU-USP**. When you arrive at the event, please go to FAU-USP first."
+    ]
+  },
+
+  "fau": {
+    "titulo": "FAU-USP",
+    "descricao": "Faculty of Architecture and Urbanism and Design of the University of São Paulo",
+    "atividades": "Registration and talks starting at 9:00 AM."
+  },
+  "ime": {
+    "titulo": "IME-USP",
+    "descricao": "Institute of Mathematics, Statistics, and Computer Science of the University of São Paulo"
+  },
+
+  "venue": {
+    "tipo": "markdown",
+    "conteudo": [
+      "### Where will CBSoft 2026 take place?",
+      "CBSoft 2026 will take place at two locations within the University of São Paulo's campus: the Faculty of Architecture and Urbanism (FAU-USP) and the Institute of Mathematics, Statistics, and Computer Science (IME-USP).",
+      "",
+      "**Attention:** registration and the talks starting at 9:00 AM will take place at **FAU-USP**. When you arrive at the event, please go to FAU first to register and attend the initial activities."
+    ]
+  },
+
   "comochegar": {
     "tipo": "markdown",
     "conteudo": [
@@ -16,6 +45,6 @@
     "2": "Bus 702U-10 (Cidade Universitária)",
     "3": "Metro Line 4 (Yellow) - Butantã Station"
   },
-  "location": "Location",
+
   "more_informations": "More information"
 }
