@@ -3,7 +3,8 @@ import styles from './styles.module.scss';
 import { Rooms } from '@/types/rooms';
 import Image from 'next/image';
 import { useTranslations } from 'next-intl';
-import LinkLocale from '../LinkLocale';
+import LinkLocale from '@/components/LinkLocale';
+import TemplateMarkdown from '@/components/TemplateMarkdown';
 import React from 'react';
 import { defaultLang } from '@/app/config/locales';
 
@@ -80,7 +81,7 @@ function EventCardWrapper(props: Props, start: Date, end: Date) {
         <div>
           <div>
             <h6 title={title}>{title}</h6>
-            {props.event.description && <p title={props.event.description}>{props.event.description}</p>}
+            {props.event.description && <TemplateMarkdown>{props.event.description}</TemplateMarkdown>}
             {props.view === 'list' && props.rooms.length > rooms.length ? <p>{eventRooms}</p> : ''}
           </div>
           <div className={styles['content__extra']}>
