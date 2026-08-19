@@ -1,5 +1,13 @@
 # TODO
 
+### Melhorar desempenho e tamanho da página de programação
+
+A quantidade de eventos na programação aumentou bastante e, com isso, a página está ficando muito grande e mais lenta para carregar.
+
+Precisa avaliar alguma solução para reduzir o tamanho da página e melhorar o tempo de carregamento, principalmente pensando no aumento da quantidade de eventos.
+
+`[enhancement]` `[performance]`
+
 ### Simplicar caminho `url` para simpósios
 
 Atualmente o caminho é:
