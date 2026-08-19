@@ -12,7 +12,7 @@ If you have little time between talks or want to enjoy the end of the day in the
 USP Cultural Complex:
 
 - **MAC USP:** The Museum of Contemporary Art is located near the main gate. It has an internationally renowned collection and an observation deck at the top with a view of Ibirapuera Park.
-- **University Museums:** Visit the MAE (Museum of Archaeology and Ethnology) and the Museum of Human Anatomy.
+- **University Museums:** Visit the MAE (Museum of Archaeology and Ethnology), the Museum of Human Anatomy, and the Museum of Geosciences.
 - **Praça do Relógio and CINUSP:** Spaces for socializing and culture within the campus itself.
 
 - **Vila Madalena and Beco do Batman:** A bohemian district just a few minutes from USP, famous for its concentration of bars and cafés and its alleys covered in urban art and graffiti.

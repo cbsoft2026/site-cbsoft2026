@@ -12,7 +12,7 @@ Se você tem pouco tempo entre as palestras ou quer aproveitar o fim de tarde na
 Complexo Cultural da USP:
 
 - **MAC USP:** O Museu de Arte Contemporânea fica próximo ao portão principal. Possui um acervo de renome internacional e um mirante no topo com vista para o Parque Ibirapuera.
-- **Museus Universitários:** Visite o MAE (Museu de Arqueologia e Etnologia) e o Museu de Anatomia Humana.
+- **Museus Universitários:** Visite o MAE (Museu de Arqueologia e Etnologia), o Museu de Anatomia Humana e o Museu de Geociências.
 - **Praça do Relógio e CINUSP:** Espaços de convivência e cultura dentro do próprio campus.
 
 - **Vila Madalena e Beco do Batman:** Bairro boêmio a poucos minutos da USP, famoso pela concentração de bares, cafés e pelas vielas cobertas de arte urbana e grafite.
