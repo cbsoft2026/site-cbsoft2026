@@ -52,15 +52,21 @@ function NavbarItemComponent(props: NavbarItemProps, ref: React.Ref<HTMLLIElemen
         <ul className={ClassNameDropdown}>
           {items?.map((item, i) => (
             <li key={i} className={`dropdown-item ${styles['dropdown-item']}`}>
-              <LinkLocale
-                className={`${ClassNameA}`}
-                href={{ pathname: item.items && item.items?.length > 0 ? undefined : item.href }}
-                onClick={!item.items?.length ? onClick : undefined}
-                locale={locale}
-              >
-                {`${item.title}`}
-                {item.items?.length && item.dropdownActive != false ? <FontAwesomeIcon icon={faAnglesRight} /> : ''}
-              </LinkLocale>
+              {item.href?.startsWith('https') ? (
+                <a className={ClassNameA} href={item.href} target='_blank' rel='noopener noreferrer'>
+                  {item.title}
+                </a>
+              ) : (
+                <LinkLocale
+                  className={`${ClassNameA}`}
+                  href={{ pathname: item.items && item.items?.length > 0 ? undefined : item.href }}
+                  onClick={!item.items?.length ? onClick : undefined}
+                  locale={locale}
+                >
+                  {`${item.title}`}
+                  {item.items?.length && item.dropdownActive != false ? <FontAwesomeIcon icon={faAnglesRight} /> : ''}
+                </LinkLocale>
+              )}
               {item.items && item.dropdownActive != false && (
                 <ul className={`submenu dropdown-menu ${styles['submenu']}`}>
                   {item.items.map((subItem, j) => (

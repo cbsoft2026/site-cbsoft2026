@@ -33,6 +33,7 @@ export function findItemCollection(items: NavbarItemProps[], path: string): Navb
 }
 
 export default function generatedCollection(t: Translator, commonT: Translator) {
+  const womenLunch = programs.find((program) => program.slug == 'women-lunch');
   const cbsoftMenuItem: NavbarItemProps = {
     title: t('cbsoft.titulo', { ano: appConfig.year }),
     href: '/cbsoft',
@@ -41,6 +42,7 @@ export default function generatedCollection(t: Translator, commonT: Translator) 
       { title: t('cbsoft.organizacao'), href: '/cbsoft/organization' },
       { title: t('cbsoft.acomodacoes'), href: '/cbsoft/accommodation' },
       { title: t('cbsoft.dinner'), href: '/cbsoft/dinner' },
+      { title: t('cbsoft.women-lunch'), href: withUTM(womenLunch?.url ?? '/women-lunch') },
       { title: t('schedule.titulo'), href: '/schedule/calendar' },
       { title: t('cbsoft.speakers'), href: '/cbsoft/speakers' },
       { title: t('cbsoft.volunteers'), href: '/cbsoft/volunteers' },
