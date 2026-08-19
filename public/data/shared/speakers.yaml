@@ -212,3 +212,10 @@
   image: Anderson_Faustino.webp
   institution: Universidade Estadual de Maringá
   institution_acronym: UEM
+
+- id: henrique-souza
+  name: Henrique Souza
+  image: Henrique_Souza.webp
+  institution: iFood
+  institution_acronym: iFood
+  webpage: https://www.linkedin.com/in/luizhenrique1987/

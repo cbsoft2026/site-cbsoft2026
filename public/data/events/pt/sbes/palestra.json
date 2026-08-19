@@ -39,5 +39,15 @@
         "description": "Interactive Discussion & Reaction Session: 2-3 industry practitioners/sponsors share 5-minute reactions on AI governance & guardrails, followed by open audience Q&A. (ENGLISH)",
         "lang": "en",
         "rooms": ["auditorio-ime"]
+    },
+    {
+        "title": "Deploy Canário com Guardrails Automatizados: Evidências de Aumento de Disponibilidade e Aceleração do Ciclo de Entrega em Larga Escala",
+        "speakers": ["henrique-souza"],
+        "schedule": {
+            "start": "2026-09-10T16:30:00-03:00",
+            "end": "2026-09-10T18:30:00-03:00"
+        },
+        "track": "industry",
+        "rooms": ["numec"]
     }
 ]
