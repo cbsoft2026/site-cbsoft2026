@@ -4,6 +4,7 @@ export const programs = [
   { slug: 'latam-school', type: 'internal' },
   { slug: 'workshops', type: 'internal' },
   { slug: 'volunteers', type: 'internal' },
+  { slug: 'special-activities', type: 'internal' },
   { slug: 'software-livre', type: 'internal' },
   { slug: 'aiware', type: 'external', url: 'https://aiware-latam.github.io/' },
 ] as const;
