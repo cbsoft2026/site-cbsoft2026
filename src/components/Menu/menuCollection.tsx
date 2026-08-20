@@ -52,6 +52,7 @@ export default function generatedCollection(t: Translator, commonT: Translator) 
         items: [
           { title: t('cbsoft.tourism'), href: '/cbsoft/tourism' },
           { title: t('cbsoft.shows'), href: '/cbsoft/shows' },
+          { title: t('cbsoft.gastronomy'), href: '/cbsoft/gastronomy' },
         ],
       },
       { title: t('cbsoft.special-activities'), href: '/cbsoft/special-activities' },
