@@ -26,6 +26,7 @@
   "industry": "Industry Track",
   "ise": "Workshop on Intelligent Software Engineering",
   "vem": "Workshop on Software Visualization, Maintenance and Evolution",
+  "women-lunch": "Women's Lunch",
   "siglas": {
     "cbsoft": "Brazilian Conference on Software: Practice and Theory",
     "sbes": "Brazilian Symposium on Software Engineering",
@@ -58,7 +59,9 @@
     "finalistas": "Finalists",
     "mencoes-honrosas": "Honorable Mentions",
     "ise": "ISE",
-    "vem": "VEM"
+    "vem": "VEM",
+
+    "women-lunch": "Women's Lunch"
   },
   "eventos": {
     "artigo": "Article",
