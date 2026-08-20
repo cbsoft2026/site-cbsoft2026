@@ -49,7 +49,10 @@ export default function generatedCollection(t: Translator, commonT: Translator) 
       { title: t('cbsoft.local'), href: '/cbsoft/location' },
       {
         title: t('cbsoft.experiences'),
-        items: [{ title: t('cbsoft.tourism'), href: '/cbsoft/tourism' }],
+        items: [
+          { title: t('cbsoft.tourism'), href: '/cbsoft/tourism' },
+          { title: t('cbsoft.shows'), href: '/cbsoft/shows' },
+        ],
       },
       { title: t('cbsoft.special-activities'), href: '/cbsoft/special-activities' },
       { title: t('cbsoft.codigo_conduta'), href: '/cbsoft/code-of-conduct' },
