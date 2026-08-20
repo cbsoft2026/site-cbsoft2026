@@ -1,20 +1,36 @@
 [
     {
-        "title": "SBCARS - ST1",
+        "title": "Abertura SBCARS - Sala Alan Turing (auditório FAU)",
+        "schedule": {
+            "start": "2026-09-08T09:00:00-03:00",
+            "end": "2026-09-08T09:30:00-03:00"
+        },
+        "type": "info",
+        "rooms": ["auditorio-fau", "auditorio-ime", "b5", "b16", "b9", "b10", "b1", "b2", "b3", "b7", "ccsl", "b101", "numec"]
+    },
+    {
+        "title": "Encerramento SBCARS",
+        "schedule": {
+            "start": "2026-09-08T18:00:00-03:00",
+            "end": "2026-09-08T18:30:00-03:00"
+        },
+        "type": "info",
+        "rooms": ["auditorio-ime"]
+    },
+    {
+        "title": "ST1 SBCARS",
         "schedule": {
             "start": "2026-09-08T11:00:00-03:00",
             "end": "2026-09-08T12:30:00-03:00"
         },
-        "type": "info",
         "rooms": ["b16"]
     },
     {
-        "title": "SBCARS - ST2",
+        "title": "ST2 SBCARS",
         "schedule": {
             "start": "2026-09-08T14:00:00-03:00",
             "end": "2026-09-08T16:00:00-03:00"
         },
-        "type": "info",
         "rooms": ["b16"]
     }
 ]
