@@ -85,6 +85,7 @@ export default async function HomePage({ params }: Props) {
     },
     locale,
   );
+  const noPromiseHomeT = await getTranslations({ locale, namespace: 'pages/home' });
 
   const infiniteScrollElements = await (async () => {
     return speakers
@@ -258,7 +259,7 @@ export default async function HomePage({ params }: Props) {
           <p className={styles.description}>{homeT('search')}</p>
 
           <div className={styles.search}>
-            <Search placeholder={`${homeT('looking')}`} />
+            <Search placeholder={noPromiseHomeT('looking')} />
           </div>
         </div>
       </section>
