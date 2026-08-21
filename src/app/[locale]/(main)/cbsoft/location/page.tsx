@@ -23,7 +23,7 @@ export default async function LocationPage({ params }: Props) {
   const commonT = await getTranslations({ locale, namespace: 'common' });
 
   return (
-    <section className='container' style={{ paddingTop: '50px' }}>
+    <section className='container' style={{ paddingTop: '50px' }} data-pagefind-body>
       <Title titulo={t('titulo')} align='center' />
 
       <div className={styles.local}>

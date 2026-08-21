@@ -1,0 +1,76 @@
+@use 'variables' as *;
+
+.searchContainer {
+  width: 100%;
+
+  :global(pagefind-modal-trigger) {
+    display: block;
+    width: 100%;
+  }
+
+  :global(pagefind-modal-trigger .pf-trigger-btn) {
+    width: 100% !important;
+    min-height: 3.25rem !important;
+
+    display: flex !important;
+    align-items: center !important;
+    gap: 0.75rem !important;
+
+    padding: 0.75rem 1rem !important;
+
+    border: 1px solid #{$border-color} !important;
+    border-radius: 0.75rem !important;
+
+    background: #{$body-bg} !important;
+    color: #{$text-primary} !important;
+
+    font-size: 0.95rem !important;
+    font-weight: 400 !important;
+    text-align: left !important;
+
+    cursor: pointer !important;
+
+    transition:
+      background-color 0.2s ease,
+      border-color 0.2s ease,
+      box-shadow 0.2s ease !important;
+
+    &:hover {
+      background-color: #faece8 !important;
+      border-color: #eeb6a4 !important;
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.06) !important;
+    }
+
+    &:focus-visible {
+      outline: none !important;
+      border-color: #eeb6a4 !important;
+      box-shadow: 0 0 0 3px rgba(238, 182, 164, 0.25) !important;
+    }
+  }
+
+  :global(pagefind-modal-trigger .pf-trigger-icon) {
+    flex: 0 0 auto !important;
+  }
+
+  :global(pagefind-modal-trigger .pf-trigger-text) {
+    flex: 1 !important;
+    color: #{$text-primary} !important;
+  }
+
+  :global(pagefind-modal-trigger .pf-trigger-shortcut) {
+    display: flex !important;
+    gap: 0.25rem !important;
+  }
+
+  :global(pagefind-modal-trigger .pf-trigger-key) {
+    padding: 0.15rem 0.4rem !important;
+
+    border: 1px solid #{$border-color} !important;
+    border-radius: 0.3rem !important;
+
+    background: rgba(0, 0, 0, 0.03) !important;
+
+    font-size: 0.75rem !important;
+    line-height: 1.2 !important;
+  }
+}

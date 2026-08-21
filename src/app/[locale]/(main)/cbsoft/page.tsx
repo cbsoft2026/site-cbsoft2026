@@ -49,7 +49,7 @@ export default async function CbsoftPage({ params }: Props) {
     locale,
   );
   return (
-    <div style={{ paddingTop: '50px' }}>
+    <div style={{ paddingTop: '50px' }} data-pagefind-body>
       <section className={styles.about}>
         <div className={`container ${styles.container}`}>
           <picture>

@@ -51,7 +51,7 @@ export default async function EventsList(props: Props) {
       {eventsObject.map((key) => {
         if (filteredObj[key].type != 'artigo') {
           return (
-            <div key={key} id={filteredObj[key].id} style={{ marginBottom: 56 }}>
+            <div key={key} id={filteredObj[key].id} style={{ marginBottom: 56 }} data-pagefind-body>
               <EventComponent key={key} events={filteredObj} event={filteredObj[key]} locale={locale} />
             </div>
           );

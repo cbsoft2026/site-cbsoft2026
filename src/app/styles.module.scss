@@ -489,3 +489,33 @@
     margin-bottom: 72px
   }
 }
+
+.section-section {
+  padding: 4rem 1.5rem;
+
+  .content {
+  width: 100%;
+  max-width: 720px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.title {
+  margin: 0;
+  font-size: 1.75rem;
+  font-weight: 700;
+  line-height: 1.25;
+}
+
+.description {
+  max-width: 600px;
+  margin: 0.75rem auto 0;
+  color: var(--text-secondary);
+  font-size: 1rem;
+  line-height: 1.6;
+}
+
+.search {
+  margin-top: 2rem;
+}
+}

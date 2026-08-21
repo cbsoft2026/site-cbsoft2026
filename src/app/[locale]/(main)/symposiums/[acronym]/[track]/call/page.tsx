@@ -21,7 +21,7 @@ export default async function CallPage({ params }: Props) {
   const commonT = await getTranslations({ locale, namespace: 'common' });
   return (
     <>
-      <div className='container' style={{ marginBottom: 56 }}>
+      <div className='container' style={{ marginBottom: 56 }} data-pagefind-body>
         <Title titulo={`${commonT(`siglas.trilhas.${track}`)}`}></Title>
       </div>
       <div className='container'>

@@ -23,7 +23,7 @@ export default async function AccommodationPage() {
   const t = await getTObject('pages/cbsoft/accommodation', {});
 
   return (
-    <section className={styles['local-acomodacoes']} style={{ paddingTop: '50px' }}>
+    <section className={styles['local-acomodacoes']} style={{ paddingTop: '50px' }} data-pagefind-body>
       <Title titulo={t('titulo')} align='center' />
       <div className='container'>
         {t('description')}

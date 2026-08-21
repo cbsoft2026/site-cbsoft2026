@@ -27,7 +27,7 @@ export default async function OrganizationPage({ params }: Props) {
   });
 
   return (
-    <section style={{ paddingTop: '50px' }}>
+    <section style={{ paddingTop: '50px' }} data-pagefind-body>
       <Title titulo={t('titulo')} align='center' />
       {Object.entries(groups).reduce((components, [group, data]) => {
         const [groupName] = group.split('-');

@@ -49,7 +49,7 @@ export default async function DatesPage({ params }: Props) {
   const sortedDatesList = datesList.sort((a, b) => new Date(a.when).getTime() - new Date(b.when).getTime());
 
   return (
-    <article style={{ padding: '30px 0 0' }}>
+    <article style={{ padding: '30px 0 0' }} data-pagefind-body>
       <div className='container' style={{ marginBottom: 56 }}>
         <Title titulo={datesT('important_dates')} />
         <table className='table table-hover'>

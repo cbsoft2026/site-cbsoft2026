@@ -56,7 +56,7 @@ export default async function CategoryEventsList({ events, locale, emptyMessage 
   return (
     <>
       {categories.map((category) => (
-        <div key={category}>
+        <div key={category} data-pagefind-body>
           {category !== DEFAULT_CATEGORY && (
             <div className='container'>
               <h4>

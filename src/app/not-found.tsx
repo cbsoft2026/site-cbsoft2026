@@ -7,7 +7,7 @@ import Link from 'next/link';
 // de forma estatica
 export default async function NotFound() {
   return (
-    <article className={`container ${styles['not-found']}`}>
+    <article className={`container ${styles['not-found']}`} data-pagefind-ignore>
       <h1>404 - Página não encontrada</h1>
       <div className={styles['background-geometric']}>
         <BackgroundGeometric amount={9} />

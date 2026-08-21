@@ -21,7 +21,7 @@ export default async function CodeOfConductPage({ params }: Props) {
   const t = await getTObject('pages/cbsoft/codeOfConduct', {}, locale);
 
   return (
-    <article className='container' style={{ paddingTop: '50px' }}>
+    <article className='container' style={{ paddingTop: '50px' }} data-pagefind-body>
       <header>
         <Title titulo={t('titulo')} />
       </header>

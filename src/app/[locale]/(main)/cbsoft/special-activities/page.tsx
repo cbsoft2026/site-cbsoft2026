@@ -19,7 +19,7 @@ export default async function CallPage({ params }: Props) {
   const { locale } = await params;
   const t = await getTranslations({ locale, namespace: 'pages/cbsoft/special-activities' });
   return (
-    <article style={{ padding: '30px 0 0' }}>
+    <article style={{ padding: '30px 0 0' }} data-pagefind-body>
       <header className='container' style={{ marginBottom: 56 }}>
         <Title titulo={t('titulo')}></Title>
       </header>

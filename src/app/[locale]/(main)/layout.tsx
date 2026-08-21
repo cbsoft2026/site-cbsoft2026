@@ -16,9 +16,9 @@ export default async function RootLayout({ children, params }: Props) {
 
   return (
     <NextIntlClientProvider locale={locale} messages={messages} timeZone={appConfig.timezone}>
-      <Menu />
+      <Menu data-pagefind-ignore='all' />
       <main>{children}</main>
-      <Footer />
+      <Footer data-pagefind-ignore='all' />
     </NextIntlClientProvider>
   );
 }

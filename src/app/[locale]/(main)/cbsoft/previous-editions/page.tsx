@@ -43,7 +43,7 @@ export default async function PreviousEditionsPage({ params }: Props) {
   const t = await getTranslations({ locale, namespace: 'pages/cbsoft/previousEditions' });
 
   return (
-    <section className={`speakers overlay-lighter about`} style={{ paddingTop: '50px' }}>
+    <section className={`speakers overlay-lighter about`} style={{ paddingTop: '50px' }} data-pagefind-body>
       <div className='container'>
         <div className='col-12'>
           <Title titulo={t('titulo')} align='center' />

@@ -40,7 +40,7 @@ export default async function ProgramPage({ params }: Props) {
 
   const commonT = await getTranslations({ locale, namespace: 'common' });
   return (
-    <article style={{ padding: '30px 0 0' }}>
+    <article style={{ padding: '30px 0 0' }} data-pagefind-body>
       <header className='container' style={{ marginBottom: 56 }}>
         <Title titulo={commonT(`siglas.${program}`)}></Title>
       </header>

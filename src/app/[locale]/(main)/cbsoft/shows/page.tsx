@@ -20,7 +20,7 @@ export default async function ShowsPage({ params }: Props) {
   const { locale } = await params;
   const t = await getTObject('pages/cbsoft/shows/index', {}, locale);
   return (
-    <section className='container' style={{ paddingTop: '50px' }}>
+    <section className='container' style={{ paddingTop: '50px' }} data-pagefind-body>
       <Title titulo={t('titulo')} align='center' />
       {t('page')}
     </section>

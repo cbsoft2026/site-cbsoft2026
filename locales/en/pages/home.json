@@ -13,5 +13,8 @@
     "patrocinio": "Sponsorship",
     "patrocinio_de_workshop": "Workshop Sponsorship",
     "apoio": "Support"
-  }
+  },
+  "didnt_find": "Didn't find what you were looking for?",
+  "search": "Search for talks, events, registrations, submissions, and other CBSoft content.",
+  "looking": "What are you looking for?"
 }

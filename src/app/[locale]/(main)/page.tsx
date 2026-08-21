@@ -19,6 +19,7 @@ import AboveGeometric from '@/components/AboveGeometric';
 import LinkLocale from '@/components/LinkLocale';
 import InboundCarousel from '@/components/InboundCarousel';
 import { withUTM } from '@/utils/utm';
+import Search from '@/components/Search';
 
 type SponsorSection = {
   label: string;
@@ -247,6 +248,18 @@ export default async function HomePage({ params }: Props) {
                 />
               ),
           )}
+        </div>
+      </section>
+
+      <section className={styles['section-section']}>
+        <div className={styles.content}>
+          <h2 className={styles.title}>{homeT('didnt_find')}</h2>
+
+          <p className={styles.description}>{homeT('search')}</p>
+
+          <div className={styles.search}>
+            <Search placeholder={`${homeT('looking')}`} />
+          </div>
         </div>
       </section>
     </article>

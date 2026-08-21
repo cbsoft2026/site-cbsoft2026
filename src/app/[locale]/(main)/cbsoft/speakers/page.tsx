@@ -32,7 +32,7 @@ export default async function SpeakersPage({ params }: Props) {
     .sort((a, b) => a.name.localeCompare(b.name));
 
   return (
-    <article style={{ padding: '30px 0 0' }}>
+    <article style={{ padding: '30px 0 0' }} data-pagefind-body>
       <header className='container' style={{ marginBottom: 56 }}>
         <Title titulo={t('titulo')}></Title>
       </header>

@@ -38,12 +38,12 @@ export default async function PapersPage({ params }: Props) {
   const events = await getCategoryEvents(locale, (event) => event.type === 'artigo' && event.simposio === program);
 
   return (
-    <>
+    <article style={{ padding: '30px 0 0' }}>
       <div className='container' style={{ marginBottom: 56 }}>
         <Title titulo={`${commonT(`siglas.${program}`)} - ${t('artigos_aceitos')}`}></Title>
       </div>
 
       <CategoryEventsList events={events} locale={locale} emptyMessage={symposiumsT('emptyPapers')} />
-    </>
+    </article>
   );
 }

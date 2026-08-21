@@ -22,7 +22,7 @@ export default async function RegistrationPage({ params }: Props) {
   const { locale } = await params;
   const t = await getTObject('pages/registration', { year: appConfig.year }, locale);
   return (
-    <section className='container' style={{ paddingTop: '50px' }}>
+    <section className='container' style={{ paddingTop: '50px' }} data-pagefind-body>
       <div className='row'>
         <div className='col-lg-12 align-self-center'>
           <Title titulo={t('titulo')} align='center' />
