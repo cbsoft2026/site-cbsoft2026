@@ -25,3 +25,9 @@ What Red Hat® Academy offers your institution:
 Stop by Room B7 at IME-USP, in the same location where the CBSoft technical sessions will take place, to talk with our team, ask questions about the enrollment process, and learn how to connect your university with the world leader in enterprise open source solutions.
 
 If you would like to schedule a time to learn more about the program and bring it to your university, register [here](https://www.redhat.com/en/services/training/red-hat-academy) or connect with the person responsible for the program in Brazil on LinkedIn ([Gabriela Lima](https://www.linkedin.com/in/gabriela-lima-450b16215/)).
+
+#### Coffee Deploy with Irya Solutions
+
+An in-person, invitation-only event promoted by Irya Solutions for technology leaders. The proposal is to bring together a small group of people who face similar challenges in their daily work to talk about the real problems of leading software teams and products and about trends in the field.
+
+The central theme of this edition of the event is development workflow automation: what has been tested and what the best practices are, what to avoid, and what the next steps are.

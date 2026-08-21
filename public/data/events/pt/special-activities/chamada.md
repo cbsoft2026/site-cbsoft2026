@@ -25,3 +25,9 @@ O que o Red Hat® Academy oferece para a sua instituição:
 Passe na Sala B7 do IME-USP, no mesmo local em que haverá as sessões técnicas do CBSoft, para conversar com nossa equipe, tirar dúvidas sobre o processo de adesão e entender como conectar sua universidade à líder mundial em soluções open source corporativas.
 
 Caso queira agendar um horário para conhecer o programa e levá-lo a sua universidade, se inscreva [aqui](https://www.redhat.com/en/services/training/red-hat-academy) ou conecte-se com a responsável pelo programa no Brasil no LinkedIn ([Gabriela Lima](https://www.linkedin.com/in/gabriela-lima-450b16215/)).
+
+#### Café com Deploy da Irya Solutions
+
+Um evento presencial e por convite promovido pela Irya Solutions para lideranças de tecnologia. A proposta é reunir um grupo pequeno de pessoas que enfrentam desafios similares no dia a dia para conversar sobre os problemas reais de conduzir times e produtos de software e sobre as tendências da área.
+
+O tema central dessa edição do evento é automação de fluxos de desenvolvimento: o que foi testado e quais as melhores práticas, o que evitar e quais os próximos passos.
