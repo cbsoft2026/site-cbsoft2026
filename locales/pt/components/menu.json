@@ -1,5 +1,21 @@
 {
   "cbsoft": {
+    "evento": {
+      "titulo": "Evento"
+    },
+    "programa": {
+      "titulo": "Programa"
+    },
+    "participacao": {
+      "titulo": "Participação"
+    },
+    "guia-do-participante": {
+      "titulo": "Guia do participante"
+    },
+    "historico": {
+      "titulo": "Histórico"
+    },
+
     "titulo": "CBSoft { ano }",
     "sobre": "Sobre",
     "organizacao": "Organização",

@@ -40,7 +40,7 @@ export default function generatedCollection(t: Translator, commonT: Translator) 
     items: [
       // Evento
       {
-        title: 'Evento',
+        title: t('cbsoft.evento.titulo'),
         items: [
           { title: t('cbsoft.sobre'), href: '/cbsoft' },
           { title: t('cbsoft.organizacao'), href: '/cbsoft/organization' },
@@ -51,7 +51,7 @@ export default function generatedCollection(t: Translator, commonT: Translator) 
 
       // Programa
       {
-        title: 'Programa',
+        title: t('cbsoft.programa.titulo'),
         items: [
           { title: t('schedule.titulo'), href: '/schedule/calendar' },
           { title: t('cbsoft.special-activities'), href: '/cbsoft/special-activities' },
@@ -61,7 +61,7 @@ export default function generatedCollection(t: Translator, commonT: Translator) 
 
       // Participação
       {
-        title: 'Participação',
+        title: t('cbsoft.participacao.titulo'),
         items: [
           { title: t('cbsoft.volunteers'), href: '/cbsoft/volunteers' },
           { title: t('cbsoft.codigo_conduta'), href: '/cbsoft/code-of-conduct' },
@@ -71,7 +71,7 @@ export default function generatedCollection(t: Translator, commonT: Translator) 
 
       // Guia do participante
       {
-        title: 'Guia do participante',
+        title: t('cbsoft.guia-do-participante.titulo'),
         items: [
           { title: t('cbsoft.local'), href: '/cbsoft/location' },
           { title: t('cbsoft.acomodacoes'), href: '/cbsoft/accommodation' },
@@ -91,7 +91,7 @@ export default function generatedCollection(t: Translator, commonT: Translator) 
 
       // Histórico
       {
-        title: 'Histórico',
+        title: t('cbsoft.historico.titulo'),
         items: [{ title: t('cbsoft.edicoes_anteriores'), href: '/cbsoft/previous-editions' }],
         dropdown: false,
       },
