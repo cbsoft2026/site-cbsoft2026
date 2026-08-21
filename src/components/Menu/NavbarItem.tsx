@@ -16,8 +16,62 @@ export const ClassNameA = `nav-link ${styles['nav-link']}`;
 
 export const ClassNameDropdown = `dropdown-menu ${styles['dropdown-menu']} dropdown-menu-end`;
 
+type SubitemProps = {
+  item: NavbarItemProps;
+  onClick?: () => any;
+  locale: string;
+  dropdown?: boolean;
+};
+
+function Subitem(props: SubitemProps) {
+  const { item, onClick, locale, dropdown } = props;
+
+  return (
+    <li
+      className={
+        item.dropdown != false && dropdown != false
+          ? `dropdown-item ${styles['dropdown-item']}`
+          : styles['category-item']
+      }
+    >
+      {item.href?.startsWith('https') ? (
+        <a className={ClassNameA} href={item.href} target='_blank' rel='noopener noreferrer'>
+          {item.title}
+        </a>
+      ) : (
+        <LinkLocale
+          className={ClassNameA}
+          href={{ pathname: item.items && item.items?.length > 0 ? undefined : item.href }}
+          onClick={!item.items?.length ? onClick : undefined}
+          locale={locale}
+        >
+          {item.title}
+          {item.items?.length && item.dropdown != false ? <FontAwesomeIcon icon={faAnglesRight} /> : ''}
+        </LinkLocale>
+      )}
+      {item.items && (
+        <ul className={item.dropdown != false ? `submenu dropdown-menu ${styles['submenu']}` : styles['category-menu']}>
+          {item.items.map((subItem, j) => (
+            // <li key={j} className={item.dropdown != false ? `dropdown-item ${styles['dropdown-item']}` : styles['category-item']}>
+            //   <LinkLocale
+            //     className={ClassNameA}
+            //     href={{ pathname: subItem.href }}
+            //     onClick={onClick}
+            //     locale={locale}
+            //   >
+            //     {subItem.title}
+            //   </LinkLocale>
+            // </li>
+            <Subitem key={j} item={subItem} locale={locale} onClick={onClick} dropdown={item.dropdown} />
+          ))}
+        </ul>
+      )}
+    </li>
+  );
+}
+
 function NavbarItemComponent(props: NavbarItemProps, ref: React.Ref<HTMLLIElement>) {
-  const { title, href, items, className, onClick, dropdownActive } = props;
+  const { title, href, items, className, onClick } = props;
 
   const pathname = usePathname();
   const locale = useLocale();
@@ -40,50 +94,14 @@ function NavbarItemComponent(props: NavbarItemProps, ref: React.Ref<HTMLLIElemen
           {title}
         </a>
       ) : (
-        <LinkLocale
-          className={ClassNameA}
-          href={{ pathname: items || dropdownActive == true ? undefined : href }}
-          locale={locale}
-        >
+        <LinkLocale className={ClassNameA} href={{ pathname: items ? undefined : href }} locale={locale}>
           {title}
         </LinkLocale>
       )}
-      {items && dropdownActive != false && (
+      {items && (
         <ul className={ClassNameDropdown}>
           {items?.map((item, i) => (
-            <li key={i} className={`dropdown-item ${styles['dropdown-item']}`}>
-              {item.href?.startsWith('https') ? (
-                <a className={ClassNameA} href={item.href} target='_blank' rel='noopener noreferrer'>
-                  {item.title}
-                </a>
-              ) : (
-                <LinkLocale
-                  className={`${ClassNameA}`}
-                  href={{ pathname: item.items && item.items?.length > 0 ? undefined : item.href }}
-                  onClick={!item.items?.length ? onClick : undefined}
-                  locale={locale}
-                >
-                  {`${item.title}`}
-                  {item.items?.length && item.dropdownActive != false ? <FontAwesomeIcon icon={faAnglesRight} /> : ''}
-                </LinkLocale>
-              )}
-              {item.items && item.dropdownActive != false && (
-                <ul className={`submenu dropdown-menu ${styles['submenu']}`}>
-                  {item.items.map((subItem, j) => (
-                    <li key={j} className={`dropdown-item ${styles['dropdown-item']}`}>
-                      <LinkLocale
-                        className={ClassNameA}
-                        href={{ pathname: subItem.href }}
-                        onClick={onClick}
-                        locale={locale}
-                      >
-                        {subItem.title}
-                      </LinkLocale>
-                    </li>
-                  ))}
-                </ul>
-              )}
-            </li>
+            <Subitem key={i} item={item} locale={locale} onClick={onClick} />
           ))}
         </ul>
       )}

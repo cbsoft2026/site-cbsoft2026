@@ -8,7 +8,7 @@ export type NavbarItemProps = {
   href?: string;
   items?: Array<NavbarItemProps>;
   className?: string;
-  dropdownActive?: boolean;
+  dropdown?: boolean;
   onClick?: () => any;
 };
 
@@ -38,26 +38,63 @@ export default function generatedCollection(t: Translator, commonT: Translator) 
     title: t('cbsoft.titulo', { ano: appConfig.year }),
     href: '/cbsoft',
     items: [
-      { title: t('cbsoft.sobre'), href: '/cbsoft' },
-      { title: t('cbsoft.organizacao'), href: '/cbsoft/organization' },
-      { title: t('cbsoft.acomodacoes'), href: '/cbsoft/accommodation' },
-      { title: t('cbsoft.dinner'), href: '/cbsoft/dinner' },
-      { title: t('cbsoft.women-lunch'), href: withUTM(womenLunch?.url ?? '/women-lunch') },
-      { title: t('schedule.titulo'), href: '/schedule/calendar' },
-      { title: t('cbsoft.speakers'), href: '/cbsoft/speakers' },
-      { title: t('cbsoft.volunteers'), href: '/cbsoft/volunteers' },
-      { title: t('cbsoft.local'), href: '/cbsoft/location' },
+      // Evento
       {
-        title: t('cbsoft.experiences'),
+        title: 'Evento',
         items: [
-          { title: t('cbsoft.tourism'), href: '/cbsoft/tourism' },
-          { title: t('cbsoft.shows'), href: '/cbsoft/shows' },
-          { title: t('cbsoft.gastronomy'), href: '/cbsoft/gastronomy' },
+          { title: t('cbsoft.sobre'), href: '/cbsoft' },
+          { title: t('cbsoft.organizacao'), href: '/cbsoft/organization' },
+          { title: t('cbsoft.speakers'), href: '/cbsoft/speakers' },
         ],
+        dropdown: false,
       },
-      { title: t('cbsoft.special-activities'), href: '/cbsoft/special-activities' },
-      { title: t('cbsoft.codigo_conduta'), href: '/cbsoft/code-of-conduct' },
-      { title: t('cbsoft.edicoes_anteriores'), href: '/cbsoft/previous-editions' },
+
+      // Programa
+      {
+        title: 'Programa',
+        items: [
+          { title: t('schedule.titulo'), href: '/schedule/calendar' },
+          { title: t('cbsoft.special-activities'), href: '/cbsoft/special-activities' },
+        ],
+        dropdown: false,
+      },
+
+      // Participação
+      {
+        title: 'Participação',
+        items: [
+          { title: t('cbsoft.volunteers'), href: '/cbsoft/volunteers' },
+          { title: t('cbsoft.codigo_conduta'), href: '/cbsoft/code-of-conduct' },
+        ],
+        dropdown: false,
+      },
+
+      // Guia do participante
+      {
+        title: 'Guia do participante',
+        items: [
+          { title: t('cbsoft.local'), href: '/cbsoft/location' },
+          { title: t('cbsoft.acomodacoes'), href: '/cbsoft/accommodation' },
+          { title: t('cbsoft.dinner'), href: '/cbsoft/dinner' },
+          { title: t('cbsoft.women-lunch'), href: withUTM(womenLunch?.url ?? '/women-lunch') },
+          {
+            title: t('cbsoft.experiences'),
+            items: [
+              { title: t('cbsoft.tourism'), href: '/cbsoft/tourism' },
+              { title: t('cbsoft.shows'), href: '/cbsoft/shows' },
+              { title: t('cbsoft.gastronomy'), href: '/cbsoft/gastronomy' },
+            ],
+          },
+        ],
+        dropdown: false,
+      },
+
+      // Histórico
+      {
+        title: 'Histórico',
+        items: [{ title: t('cbsoft.edicoes_anteriores'), href: '/cbsoft/previous-editions' }],
+        dropdown: false,
+      },
     ],
   };
 
