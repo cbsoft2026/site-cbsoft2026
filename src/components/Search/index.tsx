@@ -87,6 +87,7 @@ export default function Search({ placeholder }: Props) {
         lang={locale}
         bundle-path={`${basepath}/${locale}/`}
         base-url={`${process.env.NEXT_PUBLIC_SITE_URL}/${locale}/`}
+        highlight-param={'highlight'}
       ></pagefind-config>
       <pagefind-modal-trigger />
 
