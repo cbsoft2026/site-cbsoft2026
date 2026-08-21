@@ -119,6 +119,7 @@ export default function BackgroundGeometric({ amount }: Props) {
                 opacity: animateIds.has(i) ? '0' : '1',
               }}
               className={styles.box}
+              data-pagefind-ignore
             >
               {element}
             </div>

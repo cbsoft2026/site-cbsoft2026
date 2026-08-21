@@ -79,7 +79,7 @@ export default function InboundCarousel() {
   const slide = slides[index];
 
   return (
-    <div className={styles.carousel}>
+    <div className={styles.carousel} data-pagefind-ignore>
       <div className={styles.content}>
         <div className={styles.badge}>
           <h5>{componentT('symposiums')}</h5>

@@ -102,7 +102,7 @@ export default function AddCalendar({
         </div>
         <div className={styles['items__wrapper']}>
           {openFilter && (
-            <div className={styles['collapser__items']}>
+            <div className={styles['collapser__items']} data-pagefind-ignore>
               <a target='_blank' href={`http://www.google.com/calendar/event?${googleCalendar}`}>
                 Google Calendar
               </a>

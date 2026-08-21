@@ -87,6 +87,7 @@ export default function InfiniteScroll({ items, className }: InfiniteScrollProps
         overflowX: 'auto',
         scrollbarWidth: 'none',
       }}
+      data-pagefind-ignore
     >
       {[...items, ...items].map((item, index) => (
         <div key={index}>{item}</div>

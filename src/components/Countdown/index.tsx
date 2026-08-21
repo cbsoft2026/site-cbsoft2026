@@ -13,7 +13,7 @@ export default function Countdown({ date, ...props }: { date: string | Date } & 
   const [days, hours, minutes, seconds] = useCountdown(new Date(date));
 
   return (
-    <section {...props} className={`${props.className} ${styles.countdown}`}>
+    <section {...props} className={`${props.className} ${styles.countdown}`} data-pagefind-ignore>
       <div>
         <span>{days}</span>
         <span>{t('days')}</span>

@@ -70,7 +70,7 @@ async function ParentTable({ events, event, locale }: Props) {
           </th>
           <td>
             <h6>{title}</h6>
-            <div className={styles['chips__grouped']}>
+            <div className={styles['chips__grouped']} data-pagefind-ignore>
               {parentEvent.track ? (
                 <span className={styles.chip}>
                   <small>{commonT(`siglas.trilhas.${parentEvent.track}`)}</small>
@@ -142,7 +142,7 @@ export default async function EventComponent({ events, event, locale }: Props) {
                     )}
                   </h1>
 
-                  <div className={styles['chips__grouped']}>
+                  <div className={styles['chips__grouped']} data-pagefind-ignore>
                     {event.simposio ? (
                       <span className={styles.chip}>
                         <small>{commonT.has(event.simposio) ? commonT(event.simposio) : event.simposio}</small>

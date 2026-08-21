@@ -19,7 +19,7 @@ export default function Footer() {
   const t = useTranslations('components/footer');
 
   return (
-    <footer className={styles.footer}>
+    <footer className={styles.footer} data-pagefind-ignore>
       <div className={`${styles['footer__wrapper']} container`}>
         <div>
           <p>

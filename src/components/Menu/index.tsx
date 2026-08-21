@@ -109,6 +109,7 @@ export default function Menu(props: HTMLAttributes<HTMLDivElement>) {
       <nav
         {...props}
         className={`navbar ${styles.navbar} ${styles['navbar__organized-by']} ${visible ? styles['organized-by--visible'] : ''}`}
+        data-pagefind-ignore
       >
         <Link
           className={`navbar-brand ${styles['navbar-brand']}`}
@@ -122,7 +123,12 @@ export default function Menu(props: HTMLAttributes<HTMLDivElement>) {
           </picture>
         </Link>
       </nav>
-      <nav {...props} ref={div} className={`navbar navbar-expand-lg ${styles.navbar} ${styles['navbar__stick']}`}>
+      <nav
+        {...props}
+        ref={div}
+        className={`navbar navbar-expand-lg ${styles.navbar} ${styles['navbar__stick']}`}
+        data-pagefind-ignore
+      >
         <LinkLocale
           className={`navbar-brand ${styles['navbar-brand']}`}
           href={{ pathname: '/' }}
