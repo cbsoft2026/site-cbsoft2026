@@ -252,7 +252,7 @@ export default async function HomePage({ params }: Props) {
         </div>
       </section>
 
-      <section className={styles['section-section']}>
+      <section id='search' className={styles['search-section']}>
         <div className={styles.content}>
           <h2 className={styles.title}>{homeT('didnt_find')}</h2>
 
