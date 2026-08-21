@@ -11,6 +11,8 @@ type Props = {
 
 let pagefindPromise: Promise<void> | null = null;
 
+const basepath = `${process.env.NEXT_PUBLIC_ASSET_PREFIX}/pagefind`;
+
 function loadPagefind(locale: string) {
   if (pagefindPromise) {
     return pagefindPromise;
@@ -21,7 +23,7 @@ function loadPagefind(locale: string) {
       const link = document.createElement('link');
 
       link.rel = 'stylesheet';
-      link.href = `/pagefind/${locale}/pagefind-component-ui.css`;
+      link.href = `${basepath}/${locale}/pagefind-component-ui.css`;
       link.dataset.pagefindComponentUi = 'true';
 
       document.head.appendChild(link);
@@ -34,7 +36,7 @@ function loadPagefind(locale: string) {
 
     const script = document.createElement('script');
 
-    script.src = `/pagefind/${locale}/pagefind-component-ui.js`;
+    script.src = `${basepath}/${locale}/pagefind-component-ui.js`;
     script.async = true;
     script.dataset.pagefindComponentUi = 'true';
 
@@ -63,8 +65,6 @@ export default function Search({ placeholder }: Props) {
       .catch(console.error);
   }, [locale]);
 
-  const triggerRef = useRef<HTMLElement>(null);
-
   useEffect(() => {
     if (!loaded) return;
 
@@ -83,7 +83,11 @@ export default function Search({ placeholder }: Props) {
 
   return (
     <div className={styles.searchContainer}>
-      <pagefind-config lang={locale} bundle-path={`/pagefind/${locale}/`} base-url={`/${locale}/`}></pagefind-config>
+      <pagefind-config
+        lang={locale}
+        bundle-path={`${basepath}/${locale}/`}
+        base-url={`${process.env.NEXT_PUBLIC_SITE_URL}/${locale}/`}
+      ></pagefind-config>
       <pagefind-modal-trigger />
 
       <pagefind-modal />
