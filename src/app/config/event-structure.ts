@@ -7,11 +7,7 @@ export const programs = [
   { slug: 'special-activities', type: 'internal' },
   { slug: 'software-livre', type: 'internal' },
   { slug: 'aiware', type: 'external', url: 'https://aiware-latam.github.io/' },
-  {
-    slug: 'women-lunch',
-    type: 'external',
-    url: 'https://docs.google.com/forms/d/e/1FAIpQLSemS283uGw_WkDtxYm-8ZDEtUR5ppA3RYgEsZvRFDhczBwuMg/viewform',
-  },
+  { slug: 'women-lunch', type: 'internal' },
 ] as const;
 
 export const symposiums = ['sbcars', 'sast', 'sblp', 'sbes'] as const;

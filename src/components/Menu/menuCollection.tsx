@@ -79,7 +79,7 @@ export default function generatedCollection(t: Translator, commonT: Translator) 
             title: t('cbsoft.social-events'),
             items: [
               { title: t('cbsoft.dinner'), href: '/cbsoft/dinner' },
-              { title: t('cbsoft.women-lunch'), href: withUTM(womenLunch?.url ?? '/women-lunch') },
+              { title: t('cbsoft.women-lunch'), href: '/cbsoft/women-lunch' },
             ],
           },
           {
