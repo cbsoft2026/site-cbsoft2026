@@ -75,8 +75,13 @@ export default function generatedCollection(t: Translator, commonT: Translator) 
         items: [
           { title: t('cbsoft.local'), href: '/cbsoft/location' },
           { title: t('cbsoft.acomodacoes'), href: '/cbsoft/accommodation' },
-          { title: t('cbsoft.dinner'), href: '/cbsoft/dinner' },
-          { title: t('cbsoft.women-lunch'), href: withUTM(womenLunch?.url ?? '/women-lunch') },
+          {
+            title: t('cbsoft.social-events'),
+            items: [
+              { title: t('cbsoft.dinner'), href: '/cbsoft/dinner' },
+              { title: t('cbsoft.women-lunch'), href: withUTM(womenLunch?.url ?? '/women-lunch') },
+            ],
+          },
           {
             title: t('cbsoft.experiences'),
             items: [
