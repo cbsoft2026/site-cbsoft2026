@@ -310,8 +310,8 @@
         "category": "vem"
     },
     {
-        "title": "Maus Cheiros de Código em PowerScript: Uma Proposta de Catálogo",
-        "authors": ["João Vitor Kreusch de Mello (UTFPR)", "Gustavo Santos (UTFPR)"],
+        "title": "Exploring Code Ownership Concentration in the Linux Kernel",
+        "authors": ["Arthur Pilone (USP)", "Paulo Meirelles (USP)"],
         "schedule": {
             "start": "2026-09-11T11:45:00-03:00",
             "end": "2026-09-11T11:55:00-03:00"
@@ -520,8 +520,8 @@
         "category": "vem"
     },
     {
-        "title": "Code Smells in React Projects of a Junior Enterprise",
-        "authors": ["Victor Peixoto Barbosa (UFBA)", "Cláudio Sant'Anna (UFBA)"],
+        "title": "A New Visualization for Refactorings in Pull Requests: Proposal and Preliminary Evaluation",
+        "authors": ["Alicia Paiva (UECE)", "Matheus Paixão (UECE)", "Victor Manoel Magalhães Timbó (UECE)", "Adriely Silva (UECE)", "Alysson Diniz dos Santos (UFC)", "Matheus Chagas (UECE)"],
         "schedule": {
             "start": "2026-09-11T16:30:00-03:00",
             "end": "2026-09-11T16:40:00-03:00"
@@ -530,8 +530,8 @@
         "category": "vem"
     },
     {
-        "title": "A New Visualization for Refactorings in Pull Requests: Proposal and Preliminary Evaluation",
-        "authors": ["Alicia Paiva (UECE)", "Matheus Paixão (UECE)", "Victor Manoel Magalhães Timbó (UECE)", "Adriely Silva (UECE)", "Alysson Diniz dos Santos (UFC)", "Matheus Chagas (UECE)"],
+        "title": "The Governance-at-Scale Paradox: Technical Debt Variance across Java Ecosystems",
+        "authors": ["Mateus Rakoski (IFPR)", "Evanise Araujo Caldas Ruiz (IFPR)"],
         "schedule": {
             "start": "2026-09-11T16:40:00-03:00",
             "end": "2026-09-11T16:50:00-03:00"
@@ -540,8 +540,8 @@
         "category": "vem"
     },
     {
-        "title": "The Governance-at-Scale Paradox: Technical Debt Variance across Java Ecosystems",
-        "authors": ["Mateus Rakoski (IFPR)", "Evanise Araujo Caldas Ruiz (IFPR)"],
+        "title": "Django-Specific Code Smells: Catalog, Prevalence, and Automated Detection",
+        "authors": ["Leopoldo Motta Teixeira (UFPE)", "Eduardo Silva (UFPE)"],
         "schedule": {
             "start": "2026-09-11T16:50:00-03:00",
             "end": "2026-09-11T17:00:00-03:00"
@@ -550,8 +550,8 @@
         "category": "vem"
     },
     {
-        "title": "Django-Specific Code Smells: Catalog, Prevalence, and Automated Detection",
-        "authors": ["Leopoldo Motta Teixeira (UFPE)", "Eduardo Silva (UFPE)"],
+        "title": "Branching Echoes: Exploring Branching Models as Sociotechnical Lenses for Community Smells",
+        "authors": ["Diogo Menezes (UFMS)", "Eos Xavier (UFMS)", "Rafael Tsutomu Jyoboji (UFMS)", "Hudson Silva Borges (UFMS)", "Awdren de Lima Fontão (UFMS)"],
         "schedule": {
             "start": "2026-09-11T17:00:00-03:00",
             "end": "2026-09-11T17:10:00-03:00"
@@ -560,18 +560,8 @@
         "category": "vem"
     },
     {
-        "title": "Branching Echoes: Exploring Branching Models as Sociotechnical Lenses for Community Smells",
-        "authors": ["Diogo Menezes (UFMS)", "Eos Xavier (UFMS)", "Rafael Tsutomu Jyoboji (UFMS)", "Hudson Silva Borges (UFMS)", "Awdren de Lima Fontão (UFMS)"],
-        "schedule": {
-            "start": "2026-09-11T17:10:00-03:00",
-            "end": "2026-09-11T17:20:00-03:00"
-        },
-        "rooms": ["b9"],
-        "category": "vem"
-    },
-    {
-        "title": "Exploring Code Ownership Concentration in the Linux Kernel",
-        "authors": ["Arthur Pilone (USP)", "Paulo Meirelles (USP)"],
+        "title": "Code Smells in React Projects of a Junior Enterprise",
+        "authors": ["Victor Peixoto Barbosa (UFBA)", "Cláudio Sant'Anna (UFBA)"],
         "schedule": {
             "start": "2026-09-11T16:30:00-03:00",
             "end": "2026-09-11T16:40:00-03:00"
