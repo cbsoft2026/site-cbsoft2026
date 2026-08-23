@@ -5,11 +5,11 @@
       "items": [
         {
           "href": "https://www5.usp.br",
-          "image": "usp.png"
+          "image": "usp.webp"
         },
         {
           "href": "https://www.ime.usp.br",
-          "image": "ime.png"
+          "image": "ime.webp"
         }
       ]
     },
@@ -22,7 +22,7 @@
         },
         {
           "href": "https://ic.unicamp.br",
-          "image": "ic-unicamp.png"
+          "image": "ic-unicamp.webp"
         }
       ]
     }
@@ -33,7 +33,7 @@
       "items": [
         {
           "href": "http://www.sbc.org.br",
-          "image": "sbc.png"
+          "image": "sbc.webp"
         }
       ]
     }
@@ -44,11 +44,11 @@
       "items": [
         {
           "href": "https://ceia.ufg.br/",
-          "image": "ceia.png"
+          "image": "ceia.webp"
         },
         {
           "href": "https://www.ifood.com.br/",
-          "image": "ifood.png"
+          "image": "ifood.webp"
         }
       ]
     },
@@ -57,19 +57,19 @@
       "items": [
         {
           "href": "https://aws.amazon.com",
-          "image": "aws.png"
+          "image": "aws.webp"
         },
         {
           "href": "https://www.cesar.org.br/",
-          "image": "cesar.png"
+          "image": "cesar.webp"
         },
         {
           "href": "https://www.google.com/",
-          "image": "google.png"
+          "image": "google.webp"
         },
         {
           "href": "https://www.marlabs.com",
-          "image": "marlabs.png"
+          "image": "marlabs.webp"
         },
         {
           "href": "https://www.redhat.com/pt-br/services/training/red-hat-academy",
@@ -86,11 +86,11 @@
       "items": [
         {
           "href": "https://www.iryasolutions.com.br/",
-          "image": "irya_solution.png"
+          "image": "irya_solution.webp"
         },
         {
           "href": "https://www.kunumi.com",
-          "image": "kunumi.png"
+          "image": "kunumi.webp"
         },
         {
           "href": "https://lablivre.unb.br/",
@@ -98,11 +98,11 @@
         },
         {
           "href": "https://pencillabs.tec.br/",
-          "image": "pencil_labs.png"
+          "image": "pencil_labs.webp"
         },
         {
           "href": "https://www.vibetecnologia.com/",
-          "image": "vibe.png"
+          "image": "vibe.webp"
         }
       ]
     }
@@ -128,7 +128,7 @@
       "items": [
         {
           "href": "https://fapesp.br",
-          "image": "fapesp.png"
+          "image": "fapesp.webp"
         }
       ]
     },
@@ -137,7 +137,7 @@
       "items": [
         {
           "href": "https://www.gov.br/cnpq",
-          "image": "cnpq.png"
+          "image": "cnpq.webp"
         }
       ]
     },
@@ -146,7 +146,7 @@
       "items": [
         {
           "href": "https://www.gov.br/capes",
-          "image": "capes.png"
+          "image": "capes.webp"
         }
       ]
     },
@@ -173,7 +173,7 @@
       "items": [
         {
           "href": "https://www.rnp.br/",
-          "image": "rnp.png"
+          "image": "rnp.webp"
         }
       ]
     }
