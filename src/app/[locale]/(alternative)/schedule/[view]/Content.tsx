@@ -2,18 +2,10 @@
 
 import styles from './styles.module.scss';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import {
-  faBars,
-  faChevronDown,
-  faChevronLeft,
-  faChevronRight,
-  faChevronUp,
-  faClose,
-} from '@fortawesome/free-solid-svg-icons';
-import Image from 'next/image';
+import { faChevronDown, faChevronLeft, faChevronRight, faChevronUp } from '@fortawesome/free-solid-svg-icons';
 import ChangeView from './ChangeView';
 import Schedule from './Schedule';
-import { ChangeEventHandler, useCallback, useEffect, useState } from 'react';
+import { ChangeEventHandler, useCallback, useState } from 'react';
 import { Event } from '@/types/event';
 import { Rooms } from '@/types/rooms';
 import useEventFilter, { EventFilter } from '@/hooks/useEventFilter';
@@ -22,6 +14,7 @@ import useWindowDimensions from '@/hooks/useWindowDimentions';
 import LinkLocale from '@/components/LinkLocale';
 import useDayNavigation from '@/hooks/useDayNavigation';
 import { formatDate } from '@/utils/dates';
+import Layout from '@/app/[locale]/(alternative)/components/layout';
 
 type Props = {
   commonEvents: { salas: Rooms; startsInDate: string };
@@ -154,12 +147,6 @@ export default function Content({ loading = false, ...props }: Props) {
 
   const { width } = useWindowDimensions();
 
-  const [openAsideBar, setOpenAsideBar] = useState<boolean | null>(null);
-  useEffect(() => {
-    setOpenAsideBar(width != null && width > 768);
-  }, [width]);
-  const toggleOpenAsideBar = useCallback(() => setOpenAsideBar((prev) => !prev), []);
-
   const filters: EventFilter[] = [
     {
       id: 'keynote',
@@ -181,55 +168,10 @@ export default function Content({ loading = false, ...props }: Props) {
   const lastUpdate = new Date(process.env.NEXT_PUBLIC_GIT_COMMIT_DATE_SCHEDULE!);
 
   return (
-    <>
-      <aside
-        className={styles.aside}
-        {...(openAsideBar !== null
-          ? {
-              style: {
-                '--aside-display': openAsideBar ? 'flex' : 'none',
-              } as React.CSSProperties,
-            }
-          : {})}
-      >
-        <div>
-          <header>
-            <LinkLocale className={`${styles['aside-logo']}`} href={{ pathname: '/' }} locale={locale}>
-              <picture>
-                <Image
-                  src={`${process.env.NEXT_PUBLIC_ASSET_PREFIX}/images/logos/cbsoft-logo.svg`}
-                  alt='logo'
-                  width={210}
-                  height={47}
-                  priority
-                />
-              </picture>
-            </LinkLocale>
-            {width && width <= 768 && (
-              <div onClick={toggleOpenAsideBar} className={`${styles.icon} ${styles.less} ${styles['icon--small']}`}>
-                <FontAwesomeIcon icon={faClose} />
-              </div>
-            )}
-          </header>
-          <p>{t('wip')}</p>
-          <div className={styles['aside-filter']}>
-            <Filter
-              filters={filters.map((filter) => filter.id)}
-              eventFilters={activeFilters}
-              toggleFilter={toggleFilter}
-            />
-            <SymposiumsFilter
-              symposiums={symposiums}
-              eventSymposiums={eventSymposiums}
-              toggleSymposiums={toggleSymposiums}
-            />
-          </div>
-        </div>
-        <div>
-          <p>
-            <small>{t('brasiliaTime')}</small>
-          </p>
-
+    <Layout locale={locale}>
+      <Layout.Sidebar
+        locale={locale}
+        footnote={
           <p>
             <small>
               {t('lastUpdate')}:{' '}
@@ -239,20 +181,29 @@ export default function Content({ loading = false, ...props }: Props) {
               })}
             </small>
           </p>
+        }
+      >
+        <p>{t('wip')}</p>
+        <div className={styles['aside-filter']}>
+          <Filter
+            filters={filters.map((filter) => filter.id)}
+            eventFilters={activeFilters}
+            toggleFilter={toggleFilter}
+          />
+          <SymposiumsFilter
+            symposiums={symposiums}
+            eventSymposiums={eventSymposiums}
+            toggleSymposiums={toggleSymposiums}
+          />
         </div>
-      </aside>
-      <main>
-        <header>
-          <div>
-            <div
-              onClick={toggleOpenAsideBar}
-              className={`${styles.icon} ${styles.less} ${styles['icon--small']} ${
-                openAsideBar !== null ? (openAsideBar ? styles.open : styles.closed) : ''
-              }`}
-            >
-              <FontAwesomeIcon icon={faClose} className={styles.closeIcon} />
-              <FontAwesomeIcon icon={faBars} className={styles.barsIcon} />
-            </div>
+        <p>
+          <small>{t('brasiliaTime')}</small>
+        </p>
+      </Layout.Sidebar>
+      <Layout.Header
+        locale={locale}
+        title={
+          <>
             {typeView === 'day' && (
               <>
                 <LinkLocale
@@ -286,41 +237,41 @@ export default function Content({ loading = false, ...props }: Props) {
                 )}
               </>
             )}
-          </div>
-
-          <div>
-            {(view === 'list' || (width && width < 768)) && (
-              <select className={styles.select} onChange={(value) => setTypeView(value.target.value)}>
-                <option value='day'>{t('dia')}</option>
-                <option value='complete'>{t('completo')}</option>
-              </select>
-            )}
-            <ChangeView />
-          </div>
-        </header>
-        <div className={styles['grid-shedule__wrapper']}>
-          {!loading ? (
-            <Schedule
-              rooms={commonEvents.salas}
-              events={filteredEvents}
-              startsIn={startsIn.toUTCString()}
-              finishIn={finishIn.toUTCString()}
-              typeView={typeView}
-              view={view}
-            />
-          ) : (
-            <Schedule
-              rooms={commonEvents.salas}
-              events={filteredEvents}
-              // random date, fallback
-              startsIn={new Date('1999-10-10').toUTCString()}
-              finishIn={new Date('1999-10-10').toUTCString()}
-              typeView={typeView}
-              view={view}
-            />
+          </>
+        }
+      >
+        <div>
+          {(view === 'list' || (width && width < 768)) && (
+            <select className={styles.select} onChange={(value) => setTypeView(value.target.value)}>
+              <option value='day'>{t('dia')}</option>
+              <option value='complete'>{t('completo')}</option>
+            </select>
           )}
+          <ChangeView />
         </div>
-      </main>
-    </>
+      </Layout.Header>
+      <Layout.Panel locale={locale}>
+        {!loading ? (
+          <Schedule
+            rooms={commonEvents.salas}
+            events={filteredEvents}
+            startsIn={startsIn.toUTCString()}
+            finishIn={finishIn.toUTCString()}
+            typeView={typeView}
+            view={view}
+          />
+        ) : (
+          <Schedule
+            rooms={commonEvents.salas}
+            events={filteredEvents}
+            // random date, fallback
+            startsIn={new Date('1999-10-10').toUTCString()}
+            finishIn={new Date('1999-10-10').toUTCString()}
+            typeView={typeView}
+            view={view}
+          />
+        )}
+      </Layout.Panel>
+    </Layout>
   );
 }

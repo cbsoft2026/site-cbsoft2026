@@ -1,6 +1,8 @@
 import appConfig from '@/app/app.config';
 import { NextIntlClientProvider } from 'next-intl';
 
+import styles from './components/layout/styles.module.scss';
+
 import { getMessages } from 'next-intl/server';
 
 type Props = {
@@ -14,7 +16,7 @@ export default async function RootLayout({ children, params }: Props) {
 
   return (
     <NextIntlClientProvider locale={locale} messages={messages} timeZone={appConfig.timezone}>
-      <main>{children}</main>
+      <section className={styles.layout}>{children}</section>
     </NextIntlClientProvider>
   );
 }
