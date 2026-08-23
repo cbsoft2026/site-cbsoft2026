@@ -123,8 +123,8 @@
       "tier": "ouro",
       "items": [
         {
-          "href": "https://www.gov.br/capes",
-          "image": "capes.png"
+          "href": "https://fapesp.br",
+          "image": "fapesp.png"
         }
       ]
     },
@@ -141,26 +141,8 @@
       "tier": "ouro",
       "items": [
         {
-          "href": "https://www.elsevier.com",
-          "image": "elsevier.svg"
-        }
-      ]
-    },
-    {
-      "tier": "ouro",
-      "items": [
-        {
-          "href": "https://fapesp.br",
-          "image": "fapesp.png"
-        }
-      ]
-    },
-    {
-      "tier": "ouro",
-      "items": [
-        {
-          "href": "https://www.rnp.br/",
-          "image": "rnp.png"
+          "href": "https://www.gov.br/capes",
+          "image": "capes.png"
         }
       ]
     },
@@ -170,6 +152,24 @@
         {
           "href": "https://www2.sigsoft.org/",
           "image": "sigsoft.svg"
+        }
+      ]
+    },
+    {
+      "tier": "ouro",
+      "items": [
+        {
+          "href": "https://www.elsevier.com",
+          "image": "elsevier.svg"
+        }
+      ]
+    },
+    {
+      "tier": "ouro",
+      "items": [
+        {
+          "href": "https://www.rnp.br/",
+          "image": "rnp.png"
         }
       ]
     }
