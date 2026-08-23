@@ -1,55 +1,6 @@
 @use 'variables' as *;
 @use 'elements' as *;
 
-.aside-filter {
-  display: flex;
-  flex-direction: column;
-
-  .checkbox-control {
-    display: flex;
-    gap: 0.5em;
-    padding: 1px 1px 1px 16px;
-  }
-
-  input[type='checkbox'] {
-    appearance: none;
-    background-color: $body-bg;
-    margin: 0;
-    font: inherit;
-    color: $text-primary;
-    width: 1.15em;
-    min-width: 1.15em;
-    height: 1.15em;
-    min-height: 1.15em;
-    border: 0.15em solid $text-primary;
-    border-radius: 0.15em;
-    transform: translateY(-0.075em);
-    margin-top: 0.25em;
-
-    display: grid;
-    place-content: center;
-  }
-
-  input[type='checkbox']::before {
-    content: '';
-    width: 0.65em;
-    min-width: 0.65em;
-    height: 0.65em;
-    min-height: 0.65em;
-    transform: scale(0);
-    transition: 120ms transform ease-in-out;
-    box-shadow: inset 1em 1em $primary;
-  }
-
-  input[type='checkbox']:checked::before {
-    transform: scale(1);
-  }
-
-  .checkbox-control + .checkbox-control {
-    margin-top: 0.35em;
-  }
-}
-
 .list-schedule {
   min-width: min-content;
   background: $overlay-bg-2;

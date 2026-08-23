@@ -10,7 +10,16 @@ import Image from 'next/image';
 import useWindowDimensions from '@/hooks/useWindowDimentions';
 import LinkLocale from '@/components/LinkLocale';
 
-import { ReactElement, ReactNode, createContext, useCallback, useContext, useEffect, useState } from 'react';
+import {
+  ChangeEventHandler,
+  ReactElement,
+  ReactNode,
+  createContext,
+  useCallback,
+  useContext,
+  useEffect,
+  useState,
+} from 'react';
 
 type LayoutContextType = {
   openAsideBar: boolean | null;
@@ -51,6 +60,21 @@ type LayoutProps = {
   children: ReactElement[];
   locale: string;
 };
+
+export function FilterCheckBox(
+  index: number,
+  value: string,
+  label: string,
+  checked: boolean,
+  onChange: ChangeEventHandler<HTMLInputElement>,
+) {
+  return (
+    <label key={`label-${index}`} className={styles['checkbox-control']}>
+      <input type='checkbox' value={value} checked={checked} onChange={onChange} />
+      {label}
+    </label>
+  );
+}
 
 function Layout(props: LayoutProps) {
   const { children } = props;

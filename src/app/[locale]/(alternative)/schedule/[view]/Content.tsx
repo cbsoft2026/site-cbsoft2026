@@ -1,11 +1,12 @@
 'use client';
 
 import styles from './styles.module.scss';
+import stylesLayout from '@/app/[locale]/(alternative)/components/layout/styles.module.scss';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faChevronDown, faChevronLeft, faChevronRight, faChevronUp } from '@fortawesome/free-solid-svg-icons';
 import ChangeView from './ChangeView';
 import Schedule from './Schedule';
-import { ChangeEventHandler, useCallback, useState } from 'react';
+import { useCallback, useState } from 'react';
 import { Event } from '@/types/event';
 import { Rooms } from '@/types/rooms';
 import useEventFilter, { EventFilter } from '@/hooks/useEventFilter';
@@ -14,7 +15,7 @@ import useWindowDimensions from '@/hooks/useWindowDimentions';
 import LinkLocale from '@/components/LinkLocale';
 import useDayNavigation from '@/hooks/useDayNavigation';
 import { formatDate } from '@/utils/dates';
-import Layout from '@/app/[locale]/(alternative)/components/layout';
+import Layout, { FilterCheckBox } from '@/app/[locale]/(alternative)/components/layout';
 
 type Props = {
   commonEvents: { salas: Rooms; startsInDate: string };
@@ -25,21 +26,6 @@ type Props = {
   date?: string;
   loading?: boolean;
 };
-
-function FilterCheckBox(
-  index: number,
-  value: string,
-  label: string,
-  checked: boolean,
-  onChange: ChangeEventHandler<HTMLInputElement>,
-) {
-  return (
-    <label key={`label-${index}`} className={styles['checkbox-control']}>
-      <input type='checkbox' value={value} checked={checked} onChange={onChange} />
-      {label}
-    </label>
-  );
-}
 
 type PropsFilter = {
   filters: readonly string[];
@@ -184,7 +170,7 @@ export default function Content({ loading = false, ...props }: Props) {
         }
       >
         <p>{t('wip')}</p>
-        <div className={styles['aside-filter']}>
+        <div className={stylesLayout['aside-filter']}>
           <Filter
             filters={filters.map((filter) => filter.id)}
             eventFilters={activeFilters}

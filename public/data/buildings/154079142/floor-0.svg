@@ -1,0 +1,223 @@
+<svg
+   viewBox="80 90 950 1200"
+   width="100%"
+   height="100%"
+   xmlns="http://www.w3.org/2000/svg"
+>
+  <g>
+    <rect
+       id="room-1"
+       width="118.97632"
+       height="243.97632"
+       x="85.511841"
+       y="450.51184"
+       fill="#eeeeee"
+       stroke="#333333" />
+    <rect
+       id="rect5"
+       width="114.64536"
+       height="103.31423"
+       x="204.48816"
+       y="450.51184"
+       fill="#eeeeee"
+       stroke="#333333" />
+    <rect
+       id="rect6"
+       width="115.58857"
+       height="103.31423"
+       x="319.13351"
+       y="450.51184"
+       fill="#eeeeee"
+       stroke="#333333" />
+    <rect
+       id="rect7"
+       width="234.15422"
+       height="103.22027"
+       x="434.72208"
+       y="450.55887"
+       fill="#eeeeee"
+       stroke="#333333" />
+    <rect
+       id="rect10"
+       width="118.56513"
+       height="347.13394"
+       x="550.35803"
+       y="103.45807"
+       fill="#eeeeee"
+       stroke="#333333" />
+    <rect
+       id="rect12"
+       width="114.5964"
+       height="104.67468"
+       x="783.76959"
+       y="101.15642"
+       fill="#eeeeee"
+       stroke="#333333" />
+    <rect
+       id="rect13"
+       width="114.59637"
+       height="126.50253"
+       x="783.76959"
+       y="205.8311"
+       fill="#eeeeee"
+       stroke="#333333" />
+    <rect
+       id="rect15"
+       width="114.59637"
+       height="230.68103"
+       x="783.76959"
+       y="332.33362"
+       fill="#eeeeee"
+       stroke="#333333" />
+    <rect
+       id="rect17"
+       width="68.956268"
+       height="241.98309"
+       x="694.00891"
+       y="206.30733"
+       fill="#eeeeee"
+       stroke="#333333" />
+    <rect
+       id="rect20"
+       width="114.00711"
+       height="99.007111"
+       x="204.48816"
+       y="694.48816"
+       fill="#eeeeee"
+       stroke="#333333" />
+    <rect
+       id="rect22"
+       width="114.01113"
+       height="99.011154"
+       x="318.49527"
+       y="694.48816"
+       fill="#eeeeee"
+       stroke="#333333" />
+    <rect
+       id="rect23"
+       width="115.5929"
+       height="99.004364"
+       x="432.50641"
+       y="694.48816"
+       fill="#eeeeee"
+       stroke="#333333" />
+    <rect
+       id="rect24"
+       width="118.5714"
+       height="99.005356"
+       x="548.0993"
+       y="694.48816"
+       fill="#eeeeee"
+       stroke="#333333" />
+    <rect
+       id="rect25"
+       width="103.19064"
+       height="99.005363"
+       x="666.67072"
+       y="694.48816"
+       fill="#eeeeee"
+       stroke="#333333" />
+    <rect
+       id="rect26"
+       width="103.19667"
+       height="171.29311"
+       x="666.67072"
+       y="793.49353"
+       fill="#eeeeee"
+       stroke="#333333" />
+    <rect
+       id="rect27"
+       width="103.18634"
+       height="140.98788"
+       x="666.67072"
+       y="964.78662"
+       fill="#eeeeee"
+       stroke="#333333" />
+    <rect
+       id="rect28"
+       width="102.79943"
+       height="117.09341"
+       x="666.67072"
+       y="1138.7777"
+       fill="#eeeeee"
+       stroke="#333333" />
+    <rect
+       id="rect31"
+       width="102.28513"
+       height="115.90043"
+       x="913.15503"
+       y="1139.968"
+       fill="#eeeeee"
+       stroke="#333333" />
+    <rect
+       id="rect32"
+       width="102.29048"
+       height="56.554012"
+       x="913.15234"
+       y="1083.4114"
+       fill="#eeeeee"
+       stroke="#333333" />
+    <rect
+       id="rect32-3"
+       width="102.29048"
+       height="56.554012"
+       x="913.15234"
+       y="1026.8574"
+       fill="#eeeeee"
+       stroke="#333333" />
+    <rect
+       id="rect33"
+       width="102.46814"
+       height="117.07631"
+       x="913.06354"
+       y="909.78082"
+       fill="#eeeeee"
+       stroke="#333333" />
+    <rect
+       id="rect34"
+       width="117.07682"
+       height="299.14124"
+       x="898.36603"
+       y="610.63916"
+       fill="#eeeeee"
+       stroke="#333333" />
+    <rect
+       id="rect35"
+       width="73.91716"
+       height="74.413246"
+       x="800.60529"
+       y="698.44678"
+       fill="#eeeeee"
+       stroke="#333333" />
+    <rect
+       id="rect36"
+       width="73.857971"
+       height="126.99905"
+       x="800.60504"
+       y="772.8598"
+       fill="#eeeeee"
+       stroke="#333333" />
+    <rect
+       id="rect39"
+       width="40.981525"
+       height="25.796629"
+       x="877.22803"
+       y="563.01465"
+       fill="#eeeeee"
+       stroke="#333333" />
+  </g>
+  <path
+     d="m 85.5,450.5 h 464.9 v -347 L 668.92316,103.45807 668.9,206.3 H 783.8 V 101.2 h 114.6 l -0.034,461.81465 117.034,0 0,47.58535 v 645.3 H 666.7 V 793.5 H 204.5 v -99 h -119 z"
+     fill="none"
+     stroke="#333333"
+     strokeWidth="4"
+     id="path1" />
+  <rect
+     fill="#ffffff"
+     stroke="none"
+     id="rect2"
+     width="5"
+     height="37"
+     x="1013"
+     y="570" />
+</svg>

@@ -1,0 +1,66 @@
+import { BuildingData } from '@/types/buildings';
+import BlocoBFloor0 from './154079142/floor-0.svg';
+import BlocoBCecFloor0 from './154079144/floor-0.svg';
+import CCSLFloor0 from './154079143/floor-0.svg';
+
+export const buildingData: Record<number, BuildingData> = {
+  154079142: {
+    name: 'bloco-b',
+    type: 'building',
+    floors: [
+      {
+        id: 0,
+        name: 'Térreo',
+        component: BlocoBFloor0,
+      },
+      {
+        id: 1,
+        name: 'Primeiro Andar',
+        component: BlocoBFloor0,
+      },
+    ],
+  },
+  154079144: {
+    name: 'bloco-b-cec',
+    type: 'building',
+    floors: [
+      {
+        id: 0,
+        name: 'Térreo',
+        component: BlocoBCecFloor0,
+      },
+    ],
+  },
+  154079143: {
+    name: 'ccsl',
+    type: 'building',
+    rotationOffset: 0,
+    floors: [
+      {
+        id: 0,
+        name: 'Térreo',
+        component: CCSLFloor0,
+      },
+    ],
+  },
+  900000001: {
+    name: 'caju',
+    type: 'restaurant',
+    floors: []
+  },
+  419956330: {
+    name: 'viveiro',
+    type: 'restaurant',
+    floors: []
+  },
+  174633274: {
+    name: 'restaurante-ipen',
+    type: 'restaurant',
+    floors: []
+  },
+  159420792: {
+    name: 'restaurante-sweden',
+    type: 'restaurant',
+    floors: []
+  }
+};

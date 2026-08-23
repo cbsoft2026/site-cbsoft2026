@@ -149,6 +149,16 @@
     border: none;
   }
 
+  &.small {
+    padding: 8px 12px;
+    font-size: 11pt;
+    font-weight: normal;
+  }
+
+  &.selected {
+    background: #eeb6a4 !important;
+  }
+
   > svg:not(:only-child) {
     margin-left: 12px;
     transition: transform 0.1s ease-in;

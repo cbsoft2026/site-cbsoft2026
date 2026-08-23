@@ -13,8 +13,10 @@ import datesJson from "../generated/shared/dates.json";
 import speakersJson from "../generated/shared/speakers.json";
 import coverSpeakersJson from "./shared/cover_speakers.json";
 import commonJson from './common.json'
+import buildingsJson from "./buildings/index.json"
 import { DatesData, DatesDataSchema } from '@/types/dates';
 import { Participants, ParticipantsSchema } from '@/types/participants';
+import { BuildingsGeoJSON } from '@/types/buildings';
 
 export const sponsors: Sponsors = validateData(SponsorsSchema, sponsorsJson, 'Sponsors');
 
@@ -30,3 +32,5 @@ export const speakers: Participants = validateData(ParticipantsSchema, speakersJ
 
 export const common = commonJson
 export const coverSpeakers = coverSpeakersJson["speakers"]
+
+export const buildings = buildingsJson as BuildingsGeoJSON;
