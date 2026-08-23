@@ -77,7 +77,7 @@ export default async function HomePage({ params }: Props) {
   const year = appConfig.year.toString();
 
   const commonT = await getTranslations({ locale, namespace: 'common' });
-  const locationT = await getTranslations({ locale, namespace: 'pages/cbsoft/location' });
+  const locationT = await getTObject('pages/cbsoft/location', {}, locale);
   const homeT = await getTObject(
     'pages/home',
     {
@@ -202,6 +202,7 @@ export default async function HomePage({ params }: Props) {
             <h3>
               {commonT('localEvento')} &ndash; {commonT('localDetalhes')}
             </h3>
+            <p>{locationT('atencao')}</p>
             <div className={styles['description_grid']}>
               <div>
                 <p>{locationT('location_tips.1')}</p>
