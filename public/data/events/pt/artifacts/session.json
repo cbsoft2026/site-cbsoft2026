@@ -1,5 +1,14 @@
 [
     {
+        "title": "Abertura e premiação Festival de Artefato",
+        "schedule": {
+            "start": "2026-09-09T11:00:00-03:00",
+            "end": "2026-09-09T11:30:00-03:00"
+        },
+        "type": "info",
+        "rooms": ["auditorio-ime"]
+    },
+    {
         "title": "Festival de Artefatos",
         "schedule": {
             "start": "2026-09-09T14:00:00-03:00",
