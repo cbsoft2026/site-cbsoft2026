@@ -26,5 +26,15 @@
             "end": "2026-09-11T15:00:00-03:00"
         },
         "rooms": ["b9", "b10"]
+    },
+    {
+        "title": "Invited Talk WBOTS: O papel dos bots na avaliação e no desenvolvimento de software acessível",
+        "description": "A acessibilidade digital é uma característica essencial de aplicações interativas, permitindo que pessoas com diferentes habilidades utilizem sistemas, serviços e informações digitais de forma autônoma e segura. Apesar da existência de legislação, padrões e diretrizes consolidadas, incorporar acessibilidade ao processo de desenvolvimento de software ainda é um desafio: muitos problemas são identificados apenas nas etapas finais do ciclo de vida, enquanto as ferramentas automatizadas tradicionais conseguem detectar apenas parte das barreiras enfrentadas pelas pessoas com deficiência. Esta palestra apresenta como a automação de atividades de desenvolvimento pode apoiar a acessibilidade ao longo do ciclo de vida de um software, incluindo conceitos fundamentais de acessibilidade, iniciativas consolidadas de automação da avaliação de aplicações interativas e avanços recentes no uso de agentes inteligentes e Grandes Modelos de Linguagem (LLMs), tanto na avaliação quanto no desenvolvimento de aplicações, inclusive por pessoas com deficiência que atuam diretamente na construção de software.",
+        "speakers": ["marcelo-medeiros-eler"],
+        "schedule": {
+            "start": "2026-09-11T14:00:00-03:00",
+            "end": "2026-09-11T15:30:00-03:00"
+        },
+        "rooms": ["b5"]
     }
 ]
