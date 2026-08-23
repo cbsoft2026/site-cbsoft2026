@@ -5,7 +5,7 @@ Prezado(a) autor(a), após o surgimento de várias dúvidas não previstas inici
    _Você precisa editar sua inscrição e adicionar um item extra correspondente à sua categoria de associado da SBC. Veja a imagem abaixo._
 
 <p align="center">
-<img src="faq-authors/extras-1.png">
+<img src="faq-authors/extras-1.webp">
 </p>
 
 2. Sou autor de vários artigos e já me inscrevi como autor. A minha inscrição é suficiente para todos os meus artigos?
@@ -17,7 +17,7 @@ Prezado(a) autor(a), após o surgimento de várias dúvidas não previstas inici
    _Você precisa adicionar um extra correspondente à sua categoria de associado à SBC. Veja a imagem abaixo._
 
 <p align="center">
-<img src="faq-authors/extras-1.png">
+<img src="faq-authors/extras-1.webp">
 </p>
 
 4. Sou autor e Professor de Educação Básica e não há outro autor do meu artigo que possa participar do CBSoft 2026 para se inscrever na categoria Profissionais/Efetivos. Posso me inscrever como Professor de Educação Básica mesmo sendo autor?
@@ -25,7 +25,7 @@ Prezado(a) autor(a), após o surgimento de várias dúvidas não previstas inici
    _Você precisa adicionar um extra correspondente à sua categoria de associado à SBC. Veja a imagem abaixo._
 
 <p align="center">
-<img src="faq-authors/extras-2.png">
+<img src="faq-authors/extras-2.webp">
 </p>
 
 5. Sou autor de um artigo e professor da Educação Básica Federal. É necessário realizar a inscrição na categoria Profissionais/Efetivos para publicação do artigo no CBSoft 2026?
@@ -45,7 +45,7 @@ Prezado(a) autor(a), após o surgimento de várias dúvidas não previstas inici
    _Nesse caso, a pessoa precisa entrar em contato com a SBC por meio do e-mail: faturamento@sbc.org.br. É importante informar o ID de sócio no e-mail. Outra forma de verificar é acessar o sistema ECOS e clicar no ícone de associado mostrado na imagem para verificar se a anuidade está em dia. Ao clicar no ícone, será baixado um PDF contendo a carteirinha de sócio._
 
 <p align="center">
-<img src="faq-authors/ecos.png">
+<img src="faq-authors/ecos.webp">
 </p>
 
 9. Sou estudante de pós-graduação e também atuo como profissional. Devo me inscrever como estudante e pagar a taxa complementar para autor estudante sem co-autor profissional inscrito? Ou devo me inscrever logo na categoria profissional/efetivo?
