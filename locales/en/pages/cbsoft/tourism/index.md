@@ -8,15 +8,14 @@ If you have little time between talks or want to enjoy the end of the day in the
 
 - **Butantan Institute:** Adjacent to the USP campus, it has a large green area, the traditional Serpentarium, and the Biological, Historical, and Vaccine Museums.
 - **Villa-Lobos Park and Roda Rico:** Excellent for outdoor walks. It is home to Roda Rico, the largest Ferris wheel in Latin America, with panoramic views of the city.
+- **Vila Madalena and Beco do Batman:** A bohemian district just a few minutes from USP, famous for its concentration of bars and cafés and its alleys covered in urban art and graffiti.
+- **Tomie Ohtake Institute:** Located in Pinheiros, it offers free exhibitions of contemporary art, architecture, and design in an architecturally striking building.
 
 USP Cultural Complex:
 
 - **MAC USP:** The Museum of Contemporary Art is located near the main gate. It has an internationally renowned collection and an observation deck at the top with a view of Ibirapuera Park.
 - **University Museums:** Visit the MAE (Museum of Archaeology and Ethnology), the Museum of Human Anatomy, and the Museum of Geosciences.
 - **Praça do Relógio and CINUSP:** Spaces for socializing and culture within the campus itself.
-
-- **Vila Madalena and Beco do Batman:** A bohemian district just a few minutes from USP, famous for its concentration of bars and cafés and its alleys covered in urban art and graffiti.
-- **Tomie Ohtake Institute:** Located in Pinheiros, it offers free exhibitions of contemporary art, architecture, and design in an architecturally striking building.
 
 ## 2. Activities for the September 7 Holiday
 
