@@ -23,6 +23,7 @@ import RotatedImageOverlay from './RotatedImageOverlay';
 import { Building, getBuildingName, getBuildingRotation, normalizeAngle } from './utils';
 import { useTranslations } from 'next-intl';
 import OpenMaps from '@/components/OpenMaps';
+import ChangeFloor from './ChangeFloor';
 
 type Props = {
   locale: string;
@@ -494,21 +495,13 @@ export default function Content({ locale }: Props) {
         }
       >
         <div className={styles.floors}>
-          {floorVisible &&
-            selectedBuilding &&
-            selectedBuilding.floors.map((floor) => (
-              <button
-                key={floor.id}
-                type='button'
-                className={`
-                    ${selectedFloor === floor.id ? styles.selected : ''}
-                    ${styles.button} ${styles.small}
-                  `}
-                onClick={() => setSelectedFloor(floor.id)}
-              >
-                {floor.name}
-              </button>
-            ))}
+          {floorVisible && selectedBuilding && (
+            <ChangeFloor
+              floors={selectedBuilding.floors}
+              selectedFloor={selectedFloor}
+              setSelectedFloor={setSelectedFloor}
+            />
+          )}
         </div>
       </Layout.Header>
 
