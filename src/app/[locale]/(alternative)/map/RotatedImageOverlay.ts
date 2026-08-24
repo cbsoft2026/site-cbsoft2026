@@ -19,6 +19,8 @@ export default class RotatedImageOverlay extends L.Layer {
 
   private tooltipTarget: SVGElement | null = null;
 
+  private callbackText: (text: string, simplifiedMode: boolean) => string | undefined = (v) => v;
+
   constructor(src: string, bounds: L.LatLngBounds, rotation: number) {
     super();
 
@@ -73,6 +75,10 @@ export default class RotatedImageOverlay extends L.Layer {
     return this;
   }
 
+  setCallbackText(callback: (v: string, s: boolean) => string | undefined) {
+    this.callbackText = callback;
+  }
+
   private async loadSvg(map: L.Map) {
     try {
       const response = await fetch(this.src);
@@ -122,11 +128,74 @@ export default class RotatedImageOverlay extends L.Layer {
       this.svg.style.transform = `rotate(${this.rotation}deg)`;
 
       this.container.appendChild(this.svg);
-
+      this.addRectLabels();
       this.bindTooltips(map);
     } catch (error) {
       console.error('Não foi possível carregar o SVG:', error);
     }
+  }
+
+  private addRectLabels() {
+    if (!this.svg) {
+      return;
+    }
+
+    const rects = this.svg.querySelectorAll<SVGRectElement>('rect[id]');
+
+    rects.forEach((rect) => {
+      const text = rect.getAttribute('id');
+
+      if (!text || !this._map) {
+        return;
+      }
+
+      const x = parseFloat(rect.getAttribute('x') || '0');
+      const y = parseFloat(rect.getAttribute('y') || '0');
+      const width = parseFloat(rect.getAttribute('width') || '0');
+      const height = parseFloat(rect.getAttribute('height') || '0');
+
+      const textResponse = this.callbackText(text, true);
+
+      if (!textResponse) {
+        return;
+      }
+
+      const textElement = document.createElementNS('http://www.w3.org/2000/svg', 'text');
+
+      textElement.setAttribute('x', String(x + width / 2));
+      textElement.setAttribute('y', String(y + height / 2));
+
+      textElement.setAttribute('text-anchor', 'middle');
+      textElement.setAttribute('dominant-baseline', 'middle');
+
+      textElement.setAttribute('fill', '#000');
+      textElement.setAttribute('font-size', '12');
+      textElement.setAttribute('font-family', 'Arial, sans-serif');
+      textElement.setAttribute('font-weight', 'bold');
+
+      textElement.style.pointerEvents = 'none';
+
+      textElement.textContent = textResponse;
+
+      this.svg?.appendChild(textElement);
+
+      const padding = 4;
+      const maxWidth = Math.max(0, width - padding * 2);
+
+      const textWidth = textElement.getComputedTextLength();
+
+      if (textWidth > maxWidth && maxWidth > 0) {
+        const scale = maxWidth / textWidth;
+
+        textElement.setAttribute(
+          'transform',
+          `translate(${x + width / 2} ${y + height / 2}) scale(${scale} 1) translate(${-(
+            x +
+            width / 2
+          )} ${-(y + height / 2)})`,
+        );
+      }
+    });
   }
 
   private bindTooltips(map: L.Map) {
@@ -159,6 +228,12 @@ export default class RotatedImageOverlay extends L.Layer {
       return;
     }
 
+    const textResponse = this.callbackText(text, false);
+
+    if (!textResponse) {
+      return;
+    }
+
     this.tooltipTarget = element;
 
     this.tooltip = L.tooltip({
@@ -166,7 +241,7 @@ export default class RotatedImageOverlay extends L.Layer {
       sticky: true,
       opacity: 0.9,
     })
-      .setContent(text)
+      .setContent(textResponse)
       .setLatLng(this._map.mouseEventToLatLng(event))
       .addTo(this._map);
   };

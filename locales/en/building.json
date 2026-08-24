@@ -8,7 +8,12 @@
   "restaurante-sweden": "Sweden Restaurant",
 
   "predios": "Buildings",
+  "escada": "Stairs",
+  "recepcao": "Front desk",
   "restaurantes": "Restaurants",
+
+  "banheiro": "Restroom",
+  "refeitorio-ime": "IME Cafeteria",
 
   "titulo": "Map",
   "open-maps": "Open in maps",

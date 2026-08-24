@@ -73,7 +73,7 @@
        fill="#eeeeee"
        stroke="#333333" />
     <rect
-       id="banheiro-2"
+       id="banheiro"
        width="68.956268"
        height="241.98309"
        x="694.00891"
@@ -177,7 +177,7 @@
        fill="#3388ff30"
        stroke="#3388ff" />
     <rect
-       id="refeitorio"
+       id="refeitorio-ime"
        width="117.07682"
        height="299.14124"
        x="898.36603"
@@ -193,7 +193,7 @@
        fill="#64748b30"
        stroke="#64748b" />
     <rect
-       id="banheiro-1"
+       id="banheiro"
        width="73.857971"
        height="126.99905"
        x="800.60504"

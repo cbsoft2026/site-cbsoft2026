@@ -112,6 +112,7 @@ export default function Content({ locale }: Props) {
   const [selectedBuildingCenter, setSelectedBuildingCenter] = useState<L.LatLng | null>(null);
 
   const buildingT = useTranslations('building');
+  const scheduleT = useTranslations('schedule');
 
   const hideSelectedBuilding = useCallback(() => {
     const layer = selectedLayerRef.current;
@@ -420,6 +421,21 @@ export default function Content({ locale }: Props) {
     const overlay = new RotatedImageOverlay(src, bounds, rotation);
 
     overlay.addTo(map);
+    overlay.setCallbackText((v, simplifiedMode) => {
+      if (simplifiedMode && scheduleT.has(v)) {
+        return scheduleT(v);
+      }
+
+      if (scheduleT.has(v) && scheduleT.has(`${v}-name`)) {
+        return `${scheduleT(v)} - ${scheduleT(`${v}-name`)}`;
+      }
+
+      if (buildingT.has(v)) {
+        return buildingT(v);
+      }
+
+      return undefined;
+    });
 
     floorLayerRef.current = overlay;
 
