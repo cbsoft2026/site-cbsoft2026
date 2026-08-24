@@ -2,7 +2,11 @@ _Um co-evento especial no CBSoft 2026, aberto e gratuito a toda a comunidade, pa
 
 O Congresso Brasileiro de Software (CBSoft) 2026 tem o prazer de convidar você para um momento histórico. No dia 11 de setembro, teremos um co-evento para celebrar o movimento que redefiniu a engenharia de software global e consolidou a colaboração como o motor da inovação tecnológica. Vamos aproveitar este encontro também para comemorar o aniversário de 23 anos de fundação da [**Associação Software Livre**](https://asl.org.br/) (ASL), entidade fundamental para a consolidação do ecossistema do software livre no Brasil.
 
-O sucesso do software livre no Brasil não aconteceu por acaso. Ele foi forjado pela união entre comunidades de desenvolvedores apaixonados e uma base acadêmica visionária. Durante o evento, revisitaremos as raízes desse movimento no país, destacando o papel fundamental de instituições, projetos e iniciativas que ajudaram a pavimentar esse caminho.
+#### Participe!
+
+Faça parte desse momento.
+
+**O evento acontecerá no dia 11 de setembro de 2026, das 11h às 18h** (com sessões às 11h, 14h e 16h30), na **Faculdade de Arquitetura e Urbanismo (FAU-USP)**, localizada ao lado do IME-USP.
 
 #### Inscrições
 
@@ -13,7 +17,44 @@ O sucesso do software livre no Brasil não aconteceu por acaso. Ele foi forjado 
 **Nota:** as inscrições da Celebração do Software Livre são gratuitas e
 independentes da inscrição no CBSOFT.
 
-#### No IME-USP
+#### Programação
+
+| Horário       | Atividade                    |
+| ------------- | ---------------------------- |
+| 11:00 - 12:30 | **Mesa 1: Histórico da inserção do Brasil na comunidade internacional do Software Livre** |
+|               | Moderação: Paulo Meirelles (USP)             |
+|               | Aracele Torres (Viceri SEIDOR)               |
+|               | Carla Rocha (UnB, LabLivre)                  |
+|               | Carlos Machado (Serpro)                      |
+|               | Daniel Batista (USP)                         |
+|               | Deivi Kuhn (Serpro)                          |
+|               | Fabio Kon (USP)                              |
+|               | Rafael Evangelista (UNICAMP)                 |
+|               | Sady Jacques (Associação Software Livre.Org) |
+| 12:30 - 14:00 | *Intervalo para almoço*                      |
+| 14:00 - 14:30 | **Software Livre: Liberdade, Autonomia, Soberania** |
+|               | Alexandre Oliva (FSFLA)                      |
+| 14:30 - 15:00 | **Inovação Aberta e Empregabilidade: A História do Open Source e o Papel da Red Hat** |
+|               | Alexon Oliveira (Red Hat)                    |
+| 15:00 - 15:30 | **Software livre, IA e o futuro do modelo B2B** |
+|               | David Carlos de Araújo Silva (Pencil)        |
+| 15:30 - 16:00 | **Aprendizado em comunidade: A construção de novas gerações de contribuidores e líderes no software livre através de mentorias abertas** |
+|               | Anna e só (Outreachy, LabLivre)              |
+| 16:00 - 16:30 | *Coffee break* |
+| 16:30 - 18:30 | **Mesa 2: Desafios presentes e futuros do Software Livre** |
+|               | Moderação: Antonio Terceiro (Debian, ICTL)   |
+|               | Alexandre Oliva (FSFLA)                      |
+|               | Anna e só (Outreachy, LabLivre)              |
+|               | Beatriz Tibiriçá (Rede pela Soberania Digital) |
+|               | Jerônimo Cordoni (UFABC)                     |
+|               | Nelson Lago (USP)                            |
+|               | Rodolfo Avelino (Insper)                     |
+|               | Valessio Brito  (iCAT)                       |
+
+
+#### Software Livre no Brasil e no IME-USP
+
+O sucesso do software livre no Brasil não aconteceu por acaso. Ele foi forjado pela união entre comunidades de desenvolvedores apaixonados e uma base acadêmica visionária. Durante o evento, revisitaremos as raízes desse movimento no país, destacando o papel fundamental de instituições, projetos e iniciativas que ajudaram a pavimentar esse caminho.
 
 Em especial, no **IME-USP**, houve o pioneirismo e a visão do trabalho do professor **Imre Simon**, que nos ensinou a ver o software livre como um instrumento de emancipação e competência tecnológica.
 
@@ -25,26 +66,9 @@ Também fazem parte dessa história **projetos internacionais** e os **trabalhos
 
 Estamos preparando uma programação dedicada a conectar o passado, o presente e o futuro do software livre no Brasil. Convidamos algumas pessoas que fazem parte dessa história para contribuírem em painéis e palestras, passando pela inserção do Brasil na comunidade internacional de software livre, discutindo os desafios atuais para a comunidade e abordando o software livre no ensino, na pesquisa e na extensão em Engenharia de Software.
 
-#### Participe!
+### Organização
 
-Faça parte desse momento.
-
-**O evento acontecerá no dia 11 de setembro de 2026, das 11h às 18h** (com sessões às 11h, 14h e 16h30), na **Faculdade de Arquitetura e Urbanismo (FAU-USP)**, localizada ao lado do IME-USP.
-
-#### Programação
-
-*A programação será finalizada em breve*.
-
-| Horário       | Atividade                    |
-| ------------- | ---------------------------- |
-| 11:00 - 12:30 | Mesa 1: Histórico da inserção do Brasil na comunidade internacional do Software Livre |
-| 12:30 - 14:00 | *Intervalo para almoço*      |
-| 14:00 - 14:30 | Palestra 1 |
-| 14:30 - 15:00 | Palestra 2 |
-| 15:00 - 15:30 | Palestra 3 |
-| 15:30 - 16:00 | Palestra 4 |
-| 16:00 - 16:30 | *Coffee break* |
-| 16:30 - 18:30 | Mesa 2: Desafios presentes e futuros do Software Livre |
+Curadoria: Paulo Meirelles (USP) e Antonio Terceiro (Debian, ICTL)
 
 | | |
 |---|---|
