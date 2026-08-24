@@ -425,6 +425,7 @@ export default function Content({ locale }: Props) {
   return (
     <Layout locale={locale}>
       <Layout.Sidebar locale={locale}>
+        <p>{buildingT('disclaimer')}</p>
         <div className={stylesLayout['aside-filter']}>
           <Filter
             label={buildingT('predios')}
