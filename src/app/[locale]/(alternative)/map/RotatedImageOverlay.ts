@@ -9,11 +9,15 @@ export default class RotatedImageOverlay extends L.Layer {
 
   private container: HTMLDivElement | null = null;
 
-  private image: HTMLImageElement | null = null;
+  private svg: SVGSVGElement | null = null;
 
   private animationFrame: number | null = null;
 
   private isAnimating = false;
+
+  private tooltip: L.Tooltip | null = null;
+
+  private tooltipTarget: SVGElement | null = null;
 
   constructor(src: string, bounds: L.LatLngBounds, rotation: number) {
     super();
@@ -25,7 +29,6 @@ export default class RotatedImageOverlay extends L.Layer {
 
   onAdd(map: L.Map) {
     this.container = L.DomUtil.create('div', 'rotated-floor-overlay');
-    this.image = L.DomUtil.create('img', 'rotated-floor-overlay__image', this.container);
     this.container.style.position = 'absolute';
     this.container.style.margin = '0';
     this.container.style.padding = '0';
@@ -35,27 +38,10 @@ export default class RotatedImageOverlay extends L.Layer {
     this.container.style.background = 'transparent';
     this.container.style.pointerEvents = 'none';
     this.container.style.overflow = 'visible';
-    this.image.src = this.src;
-    this.image.alt = '';
-    this.image.draggable = false;
-    this.image.style.position = 'absolute';
-    this.image.style.left = '0';
-    this.image.style.top = '0';
-    this.image.style.width = '100%';
-    this.image.style.height = '100%';
-    this.image.style.display = 'block';
-    this.image.style.margin = '0';
-    this.image.style.padding = '0';
-    this.image.style.border = 'none';
-    this.image.style.outline = 'none';
-    this.image.style.boxShadow = 'none';
-    this.image.style.background = 'transparent';
-    this.image.style.pointerEvents = 'none';
-    this.image.style.userSelect = 'none';
-    this.image.style.transformOrigin = '50% 50%';
-    this.image.style.transform = `rotate(${this.rotation}deg)`;
 
     map.getPanes().overlayPane.appendChild(this.container);
+
+    this.loadSvg(map);
 
     this.update();
 
@@ -75,14 +61,135 @@ export default class RotatedImageOverlay extends L.Layer {
 
     this.stopAnimation();
 
+    this.removeTooltip();
+
     if (this.container) {
       this.container.remove();
     }
 
     this.container = null;
-    this.image = null;
+    this.svg = null;
 
     return this;
+  }
+
+  private async loadSvg(map: L.Map) {
+    try {
+      const response = await fetch(this.src);
+
+      if (!response.ok) {
+        throw new Error(`Erro ao carregar SVG: ${response.status}`);
+      }
+
+      const svgText = await response.text();
+
+      if (!this.container || !this._map) {
+        return;
+      }
+
+      const parser = new DOMParser();
+
+      const document = parser.parseFromString(svgText, 'image/svg+xml');
+
+      const svgElement = document.documentElement;
+
+      if (svgElement.namespaceURI !== 'http://www.w3.org/2000/svg' || svgElement.tagName.toLowerCase() !== 'svg') {
+        throw new Error('O arquivo carregado não é um SVG válido.');
+      }
+
+      const importedSvg = document.importNode(svgElement, true);
+
+      if (!(importedSvg instanceof SVGSVGElement)) {
+        throw new Error('O elemento importado não é um SVG.');
+      }
+
+      this.svg = importedSvg;
+
+      this.svg.style.position = 'absolute';
+      this.svg.style.left = '0';
+      this.svg.style.top = '0';
+      this.svg.style.width = '100%';
+      this.svg.style.height = '100%';
+      this.svg.style.display = 'block';
+      this.svg.style.margin = '0';
+      this.svg.style.padding = '0';
+      this.svg.style.border = 'none';
+      this.svg.style.outline = 'none';
+      this.svg.style.boxShadow = 'none';
+      this.svg.style.background = 'transparent';
+      this.svg.style.userSelect = 'none';
+      this.svg.style.transformOrigin = '50% 50%';
+      this.svg.style.transform = `rotate(${this.rotation}deg)`;
+
+      this.container.appendChild(this.svg);
+
+      this.bindTooltips(map);
+    } catch (error) {
+      console.error('Não foi possível carregar o SVG:', error);
+    }
+  }
+
+  private bindTooltips(map: L.Map) {
+    if (!this.svg) {
+      return;
+    }
+
+    const elements = this.svg.querySelectorAll<SVGElement>('[id]');
+
+    elements.forEach((element) => {
+      element.style.pointerEvents = 'all';
+      element.style.cursor = 'pointer';
+
+      element.addEventListener('mouseenter', this.handleMouseEnter);
+      element.addEventListener('mousemove', this.handleMouseMove);
+      element.addEventListener('mouseleave', this.handleMouseLeave);
+    });
+  }
+
+  private handleMouseEnter = (event: MouseEvent) => {
+    const element = event.currentTarget;
+
+    if (!(element instanceof SVGElement)) {
+      return;
+    }
+
+    const text = element.getAttribute('id');
+
+    if (!text || !this._map) {
+      return;
+    }
+
+    this.tooltipTarget = element;
+
+    this.tooltip = L.tooltip({
+      direction: 'top',
+      sticky: true,
+      opacity: 0.9,
+    })
+      .setContent(text)
+      .setLatLng(this._map.mouseEventToLatLng(event))
+      .addTo(this._map);
+  };
+
+  private handleMouseMove = (event: MouseEvent) => {
+    if (!this.tooltip || !this._map) {
+      return;
+    }
+
+    this.tooltip.setLatLng(this._map.mouseEventToLatLng(event));
+  };
+
+  private handleMouseLeave = () => {
+    this.removeTooltip();
+  };
+
+  private removeTooltip() {
+    if (this.tooltip && this._map) {
+      this._map.removeLayer(this.tooltip);
+    }
+
+    this.tooltip = null;
+    this.tooltipTarget = null;
   }
 
   private startAnimation = () => {
