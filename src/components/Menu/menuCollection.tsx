@@ -33,7 +33,6 @@ export function findItemCollection(items: NavbarItemProps[], path: string): Navb
 }
 
 export default function generatedCollection(t: Translator, commonT: Translator) {
-  const womenLunch = programs.find((program) => program.slug == 'women-lunch');
   const cbsoftMenuItem: NavbarItemProps = {
     title: t('cbsoft.titulo', { ano: appConfig.year }),
     href: '/cbsoft',
