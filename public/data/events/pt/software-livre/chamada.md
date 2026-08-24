@@ -46,7 +46,7 @@ independentes da inscrição no CBSOFT.
 |               | Alexandre Oliva (FSFLA)                      |
 |               | Anna e só (Outreachy, LabLivre)              |
 |               | Beatriz Tibiriçá (Rede pela Soberania Digital) |
-|               | Jerônimo Cordoni (UFABC)                     |
+|               | Jerônimo Pellegrini (UFABC)                     |
 |               | Nelson Lago (USP)                            |
 |               | Rodolfo Avelino (Insper)                     |
 |               | Valessio Brito  (iCAT)                       |
