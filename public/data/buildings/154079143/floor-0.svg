@@ -5,27 +5,26 @@
   xmlns="http://www.w3.org/2000/svg"
 >
   <rect
-    id="rect1"
+    id="ccsl"
     x="868.84058"
     y="119.22678"
     width="213.45848"
     height="139.32806"
-    fill="#eeeeee"
-    stroke="#333333"
+    fill="#3388ff30"
+    stroke="#3388ff"
   />
 
   <rect
-    id="rect1-5"
+    id="numec"
     x="209.43283"
     y="119.16635"
     width="213.45848"
     height="183.16425"
-    fill="#eeeeee"
-    stroke="#333333"
+    fill="#3388ff30"
+    stroke="#3388ff"
   />
 
   <path
-    id="path1"
     d="M 1200.7742,302.33059
        H 119.87865
        V 259.36513
