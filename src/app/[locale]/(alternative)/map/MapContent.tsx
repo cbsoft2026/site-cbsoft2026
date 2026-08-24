@@ -274,10 +274,6 @@ export default function Content({ locale }: Props) {
   }, []);
 
   function openBuilding(id: number, layer?: L.Layer) {
-    if (layer && 'unbindTooltip' in layer) {
-      layer.unbindTooltip();
-    }
-
     const map = mapRef.current;
 
     restoreSelectedBuilding();
