@@ -139,6 +139,12 @@ export default function Content({ locale }: Props) {
       weight: 0,
       fillOpacity: 0,
     });
+
+    const element = layer.getElement();
+
+    if (element instanceof SVGElement) {
+      element.style.pointerEvents = 'none';
+    }
   }, []);
 
   const restoreSelectedBuilding = useCallback(() => {
@@ -151,6 +157,12 @@ export default function Content({ locale }: Props) {
     }
 
     layer.setStyle(originalStyle);
+
+    const element = layer.getElement();
+
+    if (element instanceof SVGElement) {
+      element.style.pointerEvents = '';
+    }
 
     selectedLayerStyleRef.current = null;
   }, []);
@@ -262,6 +274,10 @@ export default function Content({ locale }: Props) {
   }, []);
 
   function openBuilding(id: number, layer?: L.Layer) {
+    if (layer && 'unbindTooltip' in layer) {
+      layer.unbindTooltip();
+    }
+
     const map = mapRef.current;
 
     restoreSelectedBuilding();
