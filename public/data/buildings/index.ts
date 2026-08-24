@@ -1,7 +1,9 @@
 import { BuildingData } from '@/types/buildings';
 import BlocoBFloor0 from './154079142/floor-0.svg';
+import BlocoBFloor1 from './154079142/floor-1.svg';
 import BlocoBCecFloor0 from './154079144/floor-0.svg';
 import CCSLFloor0 from './154079143/floor-0.svg';
+import CCSLFloor1 from './154079143/floor-1.svg';
 
 export const buildingData: Record<number, BuildingData> = {
   154079142: {
@@ -16,7 +18,7 @@ export const buildingData: Record<number, BuildingData> = {
       {
         id: 1,
         name: 'Primeiro Andar',
-        component: BlocoBFloor0,
+        component: BlocoBFloor1,
       },
     ],
   },
@@ -28,7 +30,7 @@ export const buildingData: Record<number, BuildingData> = {
         id: 0,
         name: 'Térreo',
         component: BlocoBCecFloor0,
-      },
+      }
     ],
   },
   154079143: {
@@ -40,6 +42,11 @@ export const buildingData: Record<number, BuildingData> = {
         id: 0,
         name: 'Térreo',
         component: CCSLFloor0,
+      },
+      {
+        id: 1,
+        name: 'Primeiro Andar',
+        component: CCSLFloor1,
       },
     ],
   },

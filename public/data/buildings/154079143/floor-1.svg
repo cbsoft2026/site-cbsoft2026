@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   viewBox="65.607785 90.607785 1139.4198 215.97613"
+   width="1139.4198"
+   height="215.97614"
+   version="1.1"
+   id="svg1"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs1" />
+  <g
+     id="g1">
+    <rect
+       id="escada"
+       x="1133.8381"
+       y="203.66248"
+       width="70.689415"
+       height="102.42144"
+       fill="#64748b30"
+       stroke="#64748b" />
+  </g>
+  <path
+     d="M 1202.7742,304.33059 H 121.87865 V 261.36513 H 67.607785 V 121.16635 H 424.89126 V 92.607785 h 72.64358 V 121.16635 H 786.82429 V 92.607785 h 83.94593 v 28.558565 h 332.00398 z"
+     fill="none"
+     stroke="#333333"
+     stroke-width="4"
+     id="path1" />
+  <rect
+     fill="#ffffff"
+     stroke="none"
+     width="55.907272"
+     height="10.416183"
+     x="127.76598"
+     y="-1204.7743"
+     id="rect1"
+     transform="rotate(90)" />
+</svg>

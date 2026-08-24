@@ -1,47 +1,47 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <svg
-  viewBox="65.607785 90.607785 1135.166415 212.722805"
-  width="100%"
-  height="100%"
-  xmlns="http://www.w3.org/2000/svg"
->
+   viewBox="65.607785 90.607785 1139.1665 215.72282"
+   width="1139.1665"
+   height="215.72282"
+   version="1.1"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+   <g>
   <rect
-    id="ccsl"
-    x="868.84058"
-    y="119.22678"
-    width="213.45848"
-    height="139.32806"
-    fill="#3388ff30"
-    stroke="#3388ff"
-  />
-
+     id="ccsl"
+     x="870.84058"
+     y="121.22678"
+     width="213.45848"
+     height="139.32806"
+     fill="#3388ff30"
+     stroke="#3388ff" />
   <rect
-    id="numec"
-    x="209.43283"
-    y="119.16635"
-    width="213.45848"
-    height="183.16425"
-    fill="#3388ff30"
-    stroke="#3388ff"
-  />
-
+     id="escada"
+     x="1133.8381"
+     y="203.66248"
+     width="70.689415"
+     height="102.42144"
+     fill="#64748b30"
+      stroke="#64748b" />
+  <rect
+     id="numec"
+     x="211.43283"
+     y="121.16635"
+     width="213.45848"
+     height="183.16425"
+     fill="#3388ff30"
+     stroke="#3388ff" />
+   </g>
   <path
-    d="M 1200.7742,302.33059
-       H 119.87865
-       V 259.36513
-       H 65.607785
-       V 119.16635
-       H 422.89126
-       V 90.607785
-       H 495.53484
-       V 119.16635
-       H 784.82429
-       V 90.607785
-       H 868.77022
-       V 119.16635
-       H 1200.7742
-       Z"
-    fill="none"
-    stroke="#333333"
-    stroke-width="4"
-  />
+     d="M 1202.7742,304.33059 H 121.87865 V 261.36513 H 67.607785 V 121.16635 H 424.89126 V 92.607785 h 72.64358 V 121.16635 H 786.82429 V 92.607785 h 83.94593 v 28.558565 h 332.00398 z"
+     fill="none"
+     stroke="#333333"
+     stroke-width="4" />
+  <rect
+     fill="#ffffff"
+     stroke="none"
+     width="55.907272"
+     height="10.416183"
+     x="146.89832"
+     y="116.41621" />
 </svg>
