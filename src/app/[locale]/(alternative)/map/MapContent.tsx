@@ -190,7 +190,7 @@ export default function Content({ locale }: Props) {
 
     const map = L.map(container, {
       maxZoom: 22,
-    }).setView([-23.5595, -46.731], 16);
+    }).setView([-23.5595, -46.731], 18);
 
     L.tileLayer('https://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}{r}.png', {
       attribution: '&copy; OpenStreetMap contributors &copy; CARTO',
@@ -259,14 +259,6 @@ export default function Content({ locale }: Props) {
     buildingsLayerRef.current = layer;
 
     setBuildings(loadedBuildings);
-
-    const bounds = layer.getBounds();
-
-    if (bounds.isValid()) {
-      map.fitBounds(bounds, {
-        padding: [120, 120],
-      });
-    }
 
     return () => {
       layer.remove();
