@@ -10,7 +10,7 @@ Em 2026, o SBCARS celebra sua 20ª edição, reafirmando seu papel como o princi
 | Prazo para submissão de artigos completos | {submission_date} |
 | Notificação de aceitação | {notification_acceptance} | 
 | Envio da versão final (camera-ready) | {camera_ready} |
-| Datas do simpósio | 9 de setembro de 2026 (a confirmar) |
+| Datas do simpósio | {symposium_dates} |
 
 #### Escopo
 
