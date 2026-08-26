@@ -26,6 +26,7 @@
   "industry": "Industry Track",
   "ise": "Workshop on Intelligent Software Engineering",
   "vem": "Workshop on Software Visualization, Maintenance and Evolution",
+  "se4games": "Workshop on Software Engineering for Game Development",
   "women-lunch": "Women's Lunch",
   "siglas": {
     "cbsoft": "Brazilian Conference on Software: Practice and Theory",
@@ -60,6 +61,7 @@
     "mencoes-honrosas": "Honorable Mentions",
     "ise": "ISE",
     "vem": "VEM",
+    "se4games": "SE4Games",
 
     "women-lunch": "Women's Lunch"
   },

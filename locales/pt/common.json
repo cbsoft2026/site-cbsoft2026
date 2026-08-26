@@ -26,6 +26,7 @@
   "industry": "Trilha da Indústria",
   "ise": "Workshop on Intelligent Software Engineering",
   "vem": "Workshop on Software Visualization, Maintenance and Evolution",
+  "se4games": "Workshop on Software Engineering for Game Development",
   "women-lunch": "Almoço entre Elas",
   "siglas": {
     "cbsoft": "Congresso Brasileiro de Software: Teoria e Prática",
@@ -60,6 +61,7 @@
     "mencoes-honrosas": "Menções Honrosas",
     "ise": "ISE",
     "vem": "VEM",
+    "se4games": "SE4Games",
 
     "women-lunch": "Almoço entre Elas"
   },

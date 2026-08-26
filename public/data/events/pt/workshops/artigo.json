@@ -1,4 +1,125 @@
+
 [
+    {
+        "title": "QuestGuard: Quality Gates and Diversity-Aware Repair for Reliable LLM-Generated Game Quests",
+        "authors": ["Lucas Souza (UNESP)", "Murilo Mazzotti Silvestrini (USP)", "Leopoldo Lusquino Filho (UNESP)"],
+        "schedule": {
+            "start": "2026-09-08T12:05:00-03:00",
+            "end": "2026-09-08T12:17:00-03:00"
+        },
+        "rooms": ["b9"],
+        "category": "se4games"
+    },
+    {
+        "title": "A Software Architecture to Support Difficulty Adaptation in Puzzle Game Level Design",
+        "authors": ["Francisco Wendel Almeida Cavalcante (Unifor)", "Maria Andréia Formico Rodrigues (Unifor)"],
+        "schedule": {
+            "start": "2026-09-08T12:17:00-03:00",
+            "end": "2026-09-08T12:29:00-03:00"
+        },
+        "rooms": ["b9"],
+        "category": "se4games"
+    },
+    {
+        "title": "Ganhar a Entrega, Perder o Protagonista: Elicitação, Design e Avaliação de um Jogo Sério para Gerência de Projetos de Software",
+        "authors": ["Inaiara Seibel (UNIPAMPA)", "Fabner Aguiar (UNIPAMPA)", "Lucas Serrano (UNIPAMPA)", "Gilleanes Thorwald Araujo Guedes (UNIPAMPA)", "Williamson Alison Freitas Silva (UFCA)", "Maicon Bernardino (UNIPAMPA)"],
+        "schedule": {
+            "start": "2026-09-08T14:00:00-03:00",
+            "end": "2026-09-08T14:12:00-03:00"
+        },
+        "rooms": ["b9"],
+        "category": "se4games"
+    },
+    {
+        "title": "Play Your Protocol: Structuring the Development of Clinical-Protocol-Based Serious Games",
+        "authors": ["Caroline da Conceição Lima (UFRJ)", "Daniel de Sant'anna Martins (UFRJ)", "Geraldo Xexéo (UFRJ)", "Ryan Dias (UFRJ)", "Samuel Araujo (UFRJ)", "Thomas Cardoso de Miranda (UFRJ)", "Antonio Pena (UFRJ)", "Gláucia Maria Moraes de Oliveira (UFRJ)", "Julia Marques (UFRJ)", "Mariara Marques (UFRJ)", "Paolo Blanco Villela (UFRJ)", "Thais Salim (UFRJ)", "Camila Marques Lopes (UFRJ)", "José Alexandre (UFRJ)", "Ana Cavalcanti (UFRJ)", "Tadeu Moreira de Classe (UNIRIO)"],
+        "schedule": {
+            "start": "2026-09-08T14:12:00-03:00",
+            "end": "2026-09-08T14:24:00-03:00"
+        },
+        "rooms": ["b9"],
+        "category": "se4games"
+    },
+    {
+        "title": "Evaluating a Requirements Engineering Framework for Serious Games for Health",
+        "authors": ["Bruna Barbosa (UFG)", "Carlos Henrique Rorato Souza (UFG)", "Halleffy Henryk Reis Santos (UFG)", "Pedro Silva (UFG)", "Luciana de Oliveira Berretta (UFG)", "Sergio Carvalho (UFG)"],
+        "schedule": {
+            "start": "2026-09-08T14:24:00-03:00",
+            "end": "2026-09-08T14:36:00-03:00"
+        },
+        "rooms": ["b9"],
+        "category": "se4games"
+    },
+    {
+        "title": "A Pedagogical Authoring Platform for AI-Enhanced Educational Role-Playing Games in Requirements Engineering",
+        "authors": ["Chessman K. Faria (UFRJ)", "Geraldo Xexéo (UFRJ)"],
+        "schedule": {
+            "start": "2026-09-08T14:36:00-03:00",
+            "end": "2026-09-08T14:48:00-03:00"
+        },
+        "rooms": ["b9"],
+        "category": "se4games"
+    },
+    {
+        "title": "Construção e Avaliação de uma Linha de Processos de Software para Jogos Sérios Digitais",
+        "authors": ["Marcos Benigno (UFRJ)", "Eldânae Nogueira Teixeira (UFRJ)", "Claudia Werner (UFRJ)"],
+        "schedule": {
+            "start": "2026-09-08T14:48:00-03:00",
+            "end": "2026-09-08T15:00:00-03:00"
+        },
+        "rooms": ["b9"],
+        "category": "se4games"
+    },
+    {
+        "title": "PDFGameBuilder: A Reusable Game Engine for Executable PDF Documents",
+        "authors": ["Wilson Ramos do Carmo Junior (UEFS)", "Victor Travassos Sarinho (UEFS)"],
+        "schedule": {
+            "start": "2026-09-08T15:00:00-03:00",
+            "end": "2026-09-08T15:12:00-03:00"
+        },
+        "rooms": ["b9"],
+        "category": "se4games"
+    },
+    {
+        "title": "Mr. OCL: An Escape Room Board Game for Teaching Object Constraints",
+        "authors": ["Victor Travassos Sarinho (UEFS)"],
+        "schedule": {
+            "start": "2026-09-08T15:12:00-03:00",
+            "end": "2026-09-08T15:24:00-03:00"
+        },
+        "rooms": ["b9"],
+        "category": "se4games"
+    },
+    {
+        "title": "A Conceptual Proposal for an Architecture of an Adaptive Gamebook with GLA and GenAI for Interdisciplinary Learning",
+        "authors": ["Iris Cabral (UFABC)", "Guilherme Hugo Araujo Silva (UFABC)", "Karla Vittori (UFABC)", "André Luiz Brandão (UFABC)"],
+        "schedule": {
+            "start": "2026-09-08T15:24:00-03:00",
+            "end": "2026-09-08T15:36:00-03:00"
+        },
+        "rooms": ["b9"],
+        "category": "se4games"
+    },
+    {
+        "title": "Proposta de Artefato para Apoio ao Desenvolvimento de Interfaces de Jogos Cognitivos Digitais Destinados à Primeira Infância",
+        "authors": ["Daniela Alves de Azevedo (UFPel)", "Ânderson dos Santos Ritta (UFPel)", "Vinicius Kruger Costa (UFPel)", "Tatiana Tavares (UFPel)"],
+        "schedule": {
+            "start": "2026-09-08T15:36:00-03:00",
+            "end": "2026-09-08T15:42:00-03:00"
+        },
+        "rooms": ["b9"],
+        "category": "se4games"
+    },
+    {
+        "title": "SOLID Tanks: A Serious Game Proposal to Teach SOLID Design Principles",
+        "authors": ["Miguel Nascimento (UFRJ)", "Diego Castro (UFRJ)", "Claudia Werner (UFRJ)"],
+        "schedule": {
+            "start": "2026-09-08T15:42:00-03:00",
+            "end": "2026-09-08T15:48:00-03:00"
+        },
+        "rooms": ["b9"],
+        "category": "se4games"
+    },
     {
         "title": "Uma Abordagem Multiagente para Geração de Requisitos com Base em Personas",
         "authors": ["Giovanna Lavouras", "Cassio Emanuel Ferreira da Silva", "Thiago Barcellos Mattos", "Rodrigo da Silva Nogueira", "Rafael Maiani de Mello"],

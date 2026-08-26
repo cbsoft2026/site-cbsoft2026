@@ -1,20 +1,18 @@
 [
     {
-        "title": "SE4Games",
+        "title": "Paper Session I SE4Games: AI, Adaptation, and Software Design for Games",
         "schedule": {
-            "start": "2026-09-08T11:00:00-03:00",
+            "start": "2026-09-08T12:00:00-03:00",
             "end": "2026-09-08T12:30:00-03:00"
         },
-        "type": "info",
         "rooms": ["b9"]
     },
     {
-        "title": "SE4Games",
+        "title": "Paper Session II SE4Games: Engineering and Evaluating Serious and Educational Games",
         "schedule": {
             "start": "2026-09-08T14:00:00-03:00",
             "end": "2026-09-08T16:00:00-03:00"
         },
-        "type": "info",
         "rooms": ["b9"]
     },
     {

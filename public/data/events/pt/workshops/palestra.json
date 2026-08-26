@@ -1,5 +1,15 @@
 [
     {
+        "title": "Keynote SE4Games: Dynamic Systems in Games: How AI and Modern Tools Are Shaping What Players and Publishers Want",
+        "description": "Opening & Welcome + Keynote",
+        "speakers": ["alexandre-costa-kikuchi"],
+        "schedule": {
+            "start": "2026-09-08T11:00:00-03:00",
+            "end": "2026-09-08T12:00:00-03:00"
+        },
+        "rooms": ["b9"]
+    },
+    {
         "title": "Keynote I ISE: Intelligent Agents in Software Engineering: From Classical Rationality to LLM-based Agents and Neuro-Symbolic Integration",
         "description": "Abertura + Keynote",
         "speakers": ["evandro-costa"],
