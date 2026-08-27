@@ -9,8 +9,8 @@
         "rooms": ["b16"]
     },
     {
-        "title": "ISearchAI: A Hybrid Framework for Streamlining Interactive Search-Based Software Engineering with Machine Learning",
-        "authors": ["Willian Marques Freire (UTFPR)", "Aline Maria M. M. Amaral (UEM)", "Thelma Elita Colanzi (UEM)"],
+        "title": "A Dataset of CodeRabbit Activities in Open Source Software Projects",
+        "authors": ["Tiago Nascimento (UECE)", "Denis Sousa (UECE)", "Matheus Paixão (UECE)", "Italo Uchoa (UECE)", "Márcio Gabriel (UECE)"],
         "schedule": {
             "start": "2026-09-08T11:20:00-03:00",
             "end": "2026-09-08T11:40:00-03:00"
@@ -81,8 +81,8 @@
         "rooms": ["b16"]
     },
     {
-        "title": "A Dataset of CodeRabbit Activities in Open Source Software Projects",
-        "authors": ["Tiago Nascimento (UECE)", "Denis Sousa (UECE)", "Matheus Paixão (UECE)", "Italo Uchoa (UECE)", "Márcio Gabriel (UECE)"],
+        "title": "ISearchAI: A Hybrid Framework for Streamlining Interactive Search-Based Software Engineering with Machine Learning",
+        "authors": ["Willian Marques Freire (UTFPR)", "Aline Maria M. M. Amaral (UEM)", "Thelma Elita Colanzi (UEM)"],
         "schedule": {
             "start": "2026-09-08T15:40:00-03:00",
             "end": "2026-09-08T16:00:00-03:00"
