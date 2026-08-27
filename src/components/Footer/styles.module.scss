@@ -4,14 +4,18 @@
   margin-top: 50px;
   border-top: 1px solid $border-color;
 
+  background-image: url('/2026/images/background.svg');
+  background-repeat: repeat;
+  background-size: 500px;
+
   .footer__wrapper {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 23px;
+    padding: 50px 23px;
   }
 
-  p {
+  p, ul {
     margin-bottom: 0;
   }
 
