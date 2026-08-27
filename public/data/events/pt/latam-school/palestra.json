@@ -1,22 +1,67 @@
 [
     {
-        "title": "LATAM SE School",
+        "title": "Keynote I LATAM SE School",
         "speakers": ["klaas-jan-stol"],
         "schedule": {
-            "start": "2026-09-08T11:00:00-03:00",
-            "end": "2026-09-08T12:30:00-03:00"
+            "start": "2026-09-08T11:10:00-03:00",
+            "end": "2026-09-08T12:10:00-03:00"
         },
         "description": "(Metodologia)",
         "rooms": ["b5"]
     },
     {
-        "title": "Keynote LATAM SE School",
+        "title": "Keynote II LATAM SE School",
+        "speakers": ["jose-carlos-maldonado"],
+        "schedule": {
+            "start": "2026-09-08T12:10:00-03:00",
+            "end": "2026-09-08T12:30:00-03:00"
+        },
+        "rooms": ["b5"]
+    },
+    {
+        "title": "Keynote III LATAM SE School",
         "speakers": ["roberto-di-cosmo"],
         "schedule": {
             "start": "2026-09-08T14:00:00-03:00",
-            "end": "2026-09-08T16:00:00-03:00"
+            "end": "2026-09-08T15:00:00-03:00"
         },
         "description": "(Ciência Aberta)",
+        "rooms": ["b5"]
+    },
+    {
+        "title": "Keynote III LATAM SE School",
+        "speakers": ["djamel-eddine-khelladi"],
+        "schedule": {
+            "start": "2026-09-08T15:00:00-03:00",
+            "end": "2026-09-08T16:00:00-03:00"
+        },
+        "rooms": ["b5"]
+    },
+    {
+        "title": "Keynote IV LATAM SE School",
+        "speakers": ["lilian-passos-scatalon"],
+        "schedule": {
+            "start": "2026-09-09T11:00:00-03:00",
+            "end": "2026-09-09T11:40:00-03:00"
+        },
+        "rooms": ["b5"]
+    },
+    {
+        "title": "Keynote V LATAM SE School",
+        "speakers": ["kiev-gama"],
+        "schedule": {
+            "start": "2026-09-09T11:40:00-03:00",
+            "end": "2026-09-09T12:30:00-03:00"
+        },
+        "rooms": ["b5"]
+    },
+    {
+        "title": "Keynote VI LATAM SE School",
+        "speakers": ["joao-soares"],
+        "schedule": {
+            "start": "2026-09-09T15:30:00-03:00",
+            "end": "2026-09-09T16:00:00-03:00"
+        },
         "rooms": ["b5"]
     }
 ]
