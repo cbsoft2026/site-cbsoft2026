@@ -152,8 +152,6 @@ Awdren de Lima Fontão — Universidade Federal do Mato Grosso do Sul (UFMS)
 
 Bruno Lopes — Universidade Federal de São Carlos (UFSCar)
 
-Caio Monteiro — Universidade Federal de São Carlos (UFSCar)
-
 Carlos Eduardo Carvalho Dantas — Instituto Federal de Educação, Ciência e Tecnologia do Triângulo Mineiro (IFTM)
 
 Cristiane Alves Estevo — Universidade Estadual de Maringá (UEM)
@@ -216,8 +214,6 @@ Pamella Soares — Universidade Estadual do Ceará (UECE)
 
 Paola Accioly — Universidade Federal de Pernambuco (UFPE)
 
-Rafael Passos — Universidade de São Paulo (USP)
-
 Raphael Lima Saraiva — Universidade Estadual do Ceará (UECE)
 
 Rodrigo Lima — Universidade Federal de Pernambuco (UFPE)
@@ -231,8 +227,6 @@ Sergio Soares — Universidade Federal de Pernambuco (UFPE)
 Valter Vieira Camargo — Universidade Federal de São Carlos (UFSCar)
 
 Vânia de Oliveira Neves — Universidade Federal Fluminense (UFF)
-
-Victor Sobreira — Universidade Federal de Uberlândia (UFU)
 
 Waldemar Pires Ferreira Neto — Universidade Federal Rural de Pernambuco (UFRPE)
 
