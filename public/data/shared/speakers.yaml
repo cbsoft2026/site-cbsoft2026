@@ -265,3 +265,23 @@
 
 - id: joao-soares
   name: João Soares
+
+- id: benicio-goulart
+  name: Benício Goulart
+  institution: Motorola
+  institution_acronym: Motorola
+
+- id: lucas-boscaini
+  name: Lucas Boscaini
+  institution: Google
+  institution_acronym: Google
+
+- id: ricardo-ribani
+  name: Ricardo Ribani
+  institution: HP
+  institution_acronym: HP
+
+- id: rodolfo-azevedo
+  name: Rodolfo Azevedo
+  institution: UNICAMP
+  institution_acronym: UNICAMP

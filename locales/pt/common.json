@@ -28,6 +28,7 @@
   "vem": "Workshop on Software Visualization, Maintenance and Evolution",
   "se4games": "Workshop on Software Engineering for Game Development",
   "se4fp": "Workshop on Software Engineering for Functional Programming",
+  "aisecdev": "Secure Software Development in the Age of AI",
   "women-lunch": "Almoço entre Elas",
   "siglas": {
     "cbsoft": "Congresso Brasileiro de Software: Teoria e Prática",
@@ -66,6 +67,7 @@
     "vem": "VEM",
     "se4games": "SE4Games",
     "se4fp": "SE4FP",
+    "aisecdev": "AISecDev",
 
     "women-lunch": "Almoço entre Elas"
   },
