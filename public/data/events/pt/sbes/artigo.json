@@ -2168,5 +2168,175 @@
         },
         "rooms": ["ccsl"],
         "track": "tools"
+    },
+    {
+        "title": "A Compiler Infrastructure for Analysis and Transformation of Textual Specifications",
+        "authors": ["Cristiano Lacerda (USP)", "Simone do Rocio Senger Souza (USP)", "José Carlos Maldonado (ICMC/USP)"],
+        "schedule": {
+            "start": "2026-09-11T11:00:00-03:00",
+            "end": "2026-09-11T11:00:00-03:00"
+        },
+        "rooms": ["ccsl"],
+        "track": "tools"
+    },
+    {
+        "title": "GenIA-E2ETest: An AI-Driven Platformn for End-to-End Test Automation",
+        "authors": ["Elvis Junior (UFF)", "Pedro Amaro (UFF)", "Allber Ferreira", "Vânia de Oliveira Neves (UFF)"],
+        "schedule": {
+            "start": "2026-09-11T11:00:00-03:00",
+            "end": "2026-09-11T11:00:00-03:00"
+        },
+        "rooms": ["ccsl"],
+        "track": "tools"
+    },
+    {
+        "title": "ARIT: A Tool for Detecting Code Smells in Clojure Programs",
+        "authors": ["Thiago Laurentino (UFCG)", "Rafael Serey (UFCG)", "Walber Araújo (UFCG)", "Natália Rodrigues João Brunet (UFCG)"],
+        "schedule": {
+            "start": "2026-09-11T11:00:00-03:00",
+            "end": "2026-09-11T11:00:00-03:00"
+        },
+        "rooms": ["ccsl"],
+        "track": "tools"
+    },
+    {
+        "title": "JADE: A VSCode Plugin for Static Analysis-Guided AI-Assisted Refactoring",
+        "authors": ["Ruan Neres (IFTM)", "Marcelo de Almeida Maia (UFU)", "Carlos Eduardo Carvalho Dantas (IFTM-UDI-CENTRO)"],
+        "schedule": {
+            "start": "2026-09-11T11:00:00-03:00",
+            "end": "2026-09-11T11:00:00-03:00"
+        },
+        "rooms": ["ccsl"],
+        "track": "tools"
+    },
+    {
+        "title": "LLMContextBench: A Benchmark Tool for Evaluating Context Provisioning Strategies in LLM-Based Systems",
+        "authors": ["Michel A. Vasconcelos (Unifor)", "Nabor Mendonca (Unifor)"],
+        "schedule": {
+            "start": "2026-09-11T11:00:00-03:00",
+            "end": "2026-09-11T11:00:00-03:00"
+        },
+        "rooms": ["ccsl"],
+        "track": "tools"
+    },
+    {
+        "title": "Patchlens: A Static Analysis Tool for Variant-Aware Change Impact Analysis in Configurable Systems",
+        "authors": ["Felipe Paixão (UFBA)", "Joanna Cecilia da Silva Santos", "Paulo Neto", "Daniel Sadoc Menasche (UFRJ)", "Gustavo B. Figueiredo (UFBA)", "Eduardo Almeida (UFBA)"],
+        "schedule": {
+            "start": "2026-09-11T11:00:00-03:00",
+            "end": "2026-09-11T11:00:00-03:00"
+        },
+        "rooms": ["ccsl"],
+        "track": "tools"
+    },
+    {
+        "title": "SoftBoard: A Multi-Agent Tool for the Creation and Evaluation of Low-Fidelity Prototypes",
+        "authors": ["Gabriel Scapim (UEM)", "Gislaine Camila Lapasini Leal (UEM)", "Guilherme Guerino (UNESPAR)"],
+        "schedule": {
+            "start": "2026-09-11T11:00:00-03:00",
+            "end": "2026-09-11T11:00:00-03:00"
+        },
+        "rooms": ["ccsl"],
+        "track": "tools"
+    },
+    {
+        "title": "NoseSense: Benchmarking Tools",
+        "authors": ["Magno Macedo Miranda (UFBA)", "Tassio Guerreiro Antunes Virginio (UFBA)", "Lucas Lopes Fraga (UEFS)", "Letícia Barreto", "Ivan C Machado (UFBA)"],
+        "schedule": {
+            "start": "2026-09-11T11:00:00-03:00",
+            "end": "2026-09-11T11:00:00-03:00"
+        },
+        "rooms": ["ccsl"],
+        "track": "tools"
+    },
+    {
+        "title": "QAQuest: A Gamified Plugin for Manual Test",
+        "authors": ["Joyce de Almeida (UFPE)", "Breno Miranda (UFPE)"],
+        "schedule": {
+            "start": "2026-09-11T11:00:00-03:00",
+            "end": "2026-09-11T11:00:00-03:00"
+        },
+        "rooms": ["ccsl"],
+        "track": "tools"
+    },
+    {
+        "title": "Js-Distributor Extension for Automated Test Migration From Monoliths to Microservices",
+        "authors": ["Ivan Capeli Navas (UFSCAR)", "Daniel Lucrédio (UFSCAR)"],
+        "schedule": {
+            "start": "2026-09-11T11:00:00-03:00",
+            "end": "2026-09-11T11:00:00-03:00"
+        },
+        "rooms": ["ccsl"],
+        "track": "tools"
+    },
+    {
+        "title": "CBLTool: A Web-Based Tool for Documenting Challenge Based Learning Journeys",
+        "authors": ["Júlio Maia (PUC-Rio)", "Andrew Costa (Pontifícia Universidade Católica do RJ)", "Juliana Alves Pereira (PUC-Rio)", "Alessandro Garcia (Departamento de Informática PUC-Rio)", "Carlos Lucena (PUC)"],
+        "schedule": {
+            "start": "2026-09-11T11:00:00-03:00",
+            "end": "2026-09-11T11:00:00-03:00"
+        },
+        "rooms": ["ccsl"],
+        "track": "tools"
+    },
+    {
+        "title": "CodeVital: Aplicativo Móvel para Promoção da Saúde e do Bem-estar de Desenvolvedores de Software",
+        "authors": ["Kaik Ferreira Bomfim (IFBA)", "Alexandro dos Santos Silva (IFBA)", "Leonardo Barreto Campos (IFBA)", "Djan Santos (IFBA)", "Crescencio Lima (IFBA)"],
+        "schedule": {
+            "start": "2026-09-11T11:00:00-03:00",
+            "end": "2026-09-11T11:00:00-03:00"
+        },
+        "rooms": ["ccsl"],
+        "track": "tools"
+    },
+    {
+        "title": "AI LitReview: A Web-Based Tool for LLM-Assisted Systematic Literature Reviews",
+        "authors": ["Anderson Deizepe (Universidade Federal do Paraná UFPR)", "Katia Romero Felizardo (UTFPR)", "Roberto Pereira (UFPR)"],
+        "schedule": {
+            "start": "2026-09-11T11:00:00-03:00",
+            "end": "2026-09-11T11:00:00-03:00"
+        },
+        "rooms": ["ccsl"],
+        "track": "tools"
+    },
+    {
+        "title": "AnnotAISE: A Web-Based Data Annotation Platform For Software Engineering Research",
+        "authors": ["João Paulo Lopes (PUC-Rio)", "Bruno Tardin Fernandes", "Beatriz Ritter", "Daniel Coutinho (PUC-Rio)", "Robbie Carvalho", "Alessandro Garcia (PUC-Rio)", "Juliana Alves Pereira (PUC-Rio)"],
+        "schedule": {
+            "start": "2026-09-11T11:00:00-03:00",
+            "end": "2026-09-11T11:00:00-03:00"
+        },
+        "rooms": ["ccsl"],
+        "track": "tools"
+    },
+    {
+        "title": "Uma Ferramenta para Análise Temporal de Regras de Associação em Dados de Repositórios de Software",
+        "authors": ["Silvana Andrade Gonçalves (IFAC)", "Alexandre Plastino (UFF)", "Daricélio Moreira Soares (Federal University of Acre)"],
+        "schedule": {
+            "start": "2026-09-11T11:00:00-03:00",
+            "end": "2026-09-11T11:00:00-03:00"
+        },
+        "rooms": ["ccsl"],
+        "track": "tools"
+    },
+    {
+        "title": "Um Observatório de Inteligência Artificial com Curadoria Semiautomatizada Apoiada pelo Plugin AI Research Curator",
+        "authors": ["Guilherme Gomes (PUC-Rio)", "Andrew Costa (Pontificia Universidade Católica do RJ)", "Jorge Calmon de Almeida Biolchini (UFRJ)", "Carlos Lucena (PUC)"],
+        "schedule": {
+            "start": "2026-09-11T11:00:00-03:00",
+            "end": "2026-09-11T11:00:00-03:00"
+        },
+        "rooms": ["ccsl"],
+        "track": "tools"
+    },
+    {
+        "title": "An AI-Assisted Tool for Practically Relevant Research Problem Formulation in Software Engineering",
+        "authors": ["João Pedro Theodoro", "Victoria Cruz de Figueiredo", "Anrafel Fernandes Pereira (PUC-Rio)", "Wallace Albertini Boquimpani", "Mariana Martins, (UFG)", "Marcos Kalinowski (PUC-Rio)"],
+        "schedule": {
+            "start": "2026-09-11T11:00:00-03:00",
+            "end": "2026-09-11T11:00:00-03:00"
+        },
+        "rooms": ["ccsl"],
+        "track": "tools"
     }
 ]
