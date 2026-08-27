@@ -233,3 +233,20 @@
   institution: 1M Bits Horde
   institution_acronym: 1M Bits Horde
   bio: CEO, Head of Studio, and Founder of 1M Bits Horde, with over 14 years of experience in the games and applications industry. Former Tech Evangelist and Head of Developer Advocacy for Games at Unity Technologies. He has developed more than 150 game prototypes, launched over eight games, and delivered 80+ talks at events such as GDC, Gamescom, and Unite.
+
+- id: mario-souto
+  name: Mario Souto
+  image: Mario_Souto.webp
+  institution: Nubank
+  institution_acronym: Nubank
+  bio: Começou a criar sites aos 11 anos e não parou mais! Hoje, com mais de 10 anos de experiência, é Staff Software Engineer no Nubank, Google Developer Expert e GitHub Star. Já palestrou em grandes eventos como BrazilJS, ajudou a resolver bugs no Google Chrome e criou o canal DevSoutinho, com mais de 90k inscritos.
+
+- id: elaine-naomi-watanabe
+  name: Elaine Naomi Watanabe
+  image: Elaine_Naomi_Watanabe.webp
+  bio: Engenheira de software com mais de 18 anos de experiência, apaixonada por construir sistemas confiáveis e escaláveis e por promover excelência técnica. Tem interesse especial por arquitetura de software, sistemas distribuídos, qualidade de software, evolução de sistemas e liderança técnica, com experiência principalmente em Ruby e Elixir e em programação funcional. Atualmente, é Staff Software Engineer em uma empresa que opera um marketplace de revenda de produtos de luxo. É coorganizadora do workshop Rails Girls São Paulo e do meetup Elixir São Paulo.
+
+- id: renan-ranelli
+  name: Renan Ranelli
+  image: Renan_Ranelli.webp
+  bio: Engenheiro de Software profissional atuando com Elixir e programação funcional a mais de uma decada, ja palestrei em eventos nacionais e internacionais falando sobre o tema.

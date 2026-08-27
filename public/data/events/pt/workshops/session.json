@@ -16,18 +16,26 @@
         "rooms": ["b9"]
     },
     {
-        "title": "SE4FP",
+        "title": "Technical Paper Presentation Session 1: Authors of Accepted Papers at SE4FP 2026",
         "schedule": {
-            "start": "2026-09-08T14:00:00-03:00",
+            "start": "2026-09-08T15:00:00-03:00",
             "end": "2026-09-08T16:00:00-03:00"
         },
-        "type": "info",
         "rooms": ["b10"]
     },
     {
-        "title": "SE4FP",
+        "title": "Technical Paper Presentation Session 2: Authors of Accepted Papers at SE4FP 2026",
         "schedule": {
             "start": "2026-09-08T16:30:00-03:00",
+            "end": "2026-09-08T17:30:00-03:00"
+        },
+        "rooms": ["b10"]
+    },
+    {
+        "title": "Awards Ceremony and Closing SE4FP",
+        "description": "Join us for the Best Paper and Best Reviewer awards, PragProg book giveaways, and the announcement of plans for SE4FP 2027.",
+        "schedule": {
+            "start": "2026-09-08T18:10:00-03:00",
             "end": "2026-09-08T18:30:00-03:00"
         },
         "type": "info",

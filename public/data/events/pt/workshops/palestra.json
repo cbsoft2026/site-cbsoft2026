@@ -1,5 +1,35 @@
 [
     {
+        "title": "Opening & Keynote SE4FP: Trabalhando com Clojure no Nubank",
+        "description": "Nesta palestra, será apresentada uma imersão no dia a dia de engenharia do Nubank sob a perspectiva do código. A apresentação abordará como o uso do REPL em Clojure alavanca a produtividade dos times, a forma como os serviços são organizados e a lógica por trás da premissa de evitar rodar aplicações localmente para incentivar o desenvolvimento orientado a testes (TDD). Para fechar, será exibido como as ferramentas atuais de IA estão integradas ao fluxo de trabalho para potencializar o desenvolvimento em escala.",
+        "speakers": ["mario-souto"],
+        "schedule": {
+            "start": "2026-09-08T14:00:00-03:00",
+            "end": "2026-09-08T15:00:00-03:00"
+        },
+        "rooms": ["b10"]
+    },
+    {
+        "title": "Lightning talk SE4FP: Além do Código: Elixir em Produção",
+        "description": "A partir da minha experiência com a adoção e evolução de sistemas em Elixir em produção, vou discutir uma questão central: o que acontece depois que uma linguagem funcional passa a fazer parte de um sistema em produção? A partir dessa pergunta, abordarei desafios relacionados à evolução do código, à entrada de novas pessoas desenvolvedoras no projeto, às dependências, à infraestrutura e ao equilíbrio entre evolução e manutenção. Também vou discutir como decisões técnicas tomadas durante o desenvolvimento podem facilitar ou dificultar a evolução do sistema ao longo do tempo.",
+        "speakers": ["elaine-naomi-watanabe"],
+        "schedule": {
+            "start": "2026-09-08T17:30:00-03:00",
+            "end": "2026-09-08T17:50:00-03:00"
+        },
+        "rooms": ["b10"]
+    },
+    {
+        "title": "Lightning talk SE4FP: Execução no Reino dos Verbos",
+        "description": "\"Execution in the Kingdom of Nouns\" é aquele texto que todo mundo cita e quase ninguém leu. Nele, Steve Yegge mostra o mundo Java onde o verbo não tem passaporte: para agir, precisa se disfarçar de substantivo. A questão é que muita gente fugiu daquele reino e levou os substantivos na bagagem. FazedorDeCoisa.call() aparece com uma frequência constrangedora em código funcional. Esta é uma lightning talk sobre o que acontece quando a unidade de organização do programa passa a ser o que ele faz, e não uma taxonomia do que as coisas são: o koan de Qc Na (\"objetos são closures de pobre\"), padrões de projeto evaporando, e hierarquia de compile-time perdendo pra composição. No final não tem moral da história — tem (possivelmente) música e um convite a soltar o verbo e a imaginação.",
+        "speakers": ["renan-ranelli"],
+        "schedule": {
+            "start": "2026-09-08T17:50:00-03:00",
+            "end": "2026-09-08T18:10:00-03:00"
+        },
+        "rooms": ["b10"]
+    },
+    {
         "title": "Keynote SE4Games: Dynamic Systems in Games: How AI and Modern Tools Are Shaping What Players and Publishers Want",
         "description": "Opening & Welcome + Keynote",
         "speakers": ["alexandre-costa-kikuchi"],
