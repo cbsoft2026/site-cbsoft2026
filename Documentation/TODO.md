@@ -1,5 +1,37 @@
 # TODO
 
+### Melhorar o cadastro de artigos em sessões técnicas
+
+`[enhancement]` `[content]`
+
+Para cadastrar artigos vinculados a uma sessão técnica, precisa repetir várias
+informações que são iguais para todos os artigos da sessão.
+
+Por exemplo:
+
+```json
+{
+  "title": "{TITLE}",
+  "authors": ["{AUTHOR1}", "{AUTHOR2}"],
+  "schedule": {
+    "start": "2026-09-10T16:30:00-03:00",
+    "end": "2026-09-10T16:50:00-03:00"
+  },
+  "rooms": ["ccsl"],
+  "track": "tools"
+}
+```
+
+Para os artigos de uma mesma sessão, `rooms` e `track`, por exemplo, acabam
+sendo repetidos várias vezes. Na prática, o que muda entre os artigos é o
+título, autores e horário.
+
+Isso também deixa mais complicado mover um artigo de uma sessão para outra, já
+que é necessário alterar manualmente essas informações.
+
+Seria interessante revisar essa estrutura para evitar essa repetição e deixar
+mais simples o gerenciamento dos artigos dentro das sessões técnicas.
+
 ### Melhorar desempenho e tamanho da página de programação
 
 A quantidade de eventos na programação aumentou bastante e, com isso, a página está ficando muito grande e mais lenta para carregar.
