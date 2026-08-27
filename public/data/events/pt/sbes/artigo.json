@@ -962,8 +962,8 @@
         "track": "tools"
     },
     {
-        "title": "Toward evaluating the impact of ChatGPT on learning data structures and algorithms: an experiment with undergraduate students.",
-        "authors": ["Waldemar Pires Ferreira Neto (UFRPE)", "Sergio Soares (UFPE)"],
+        "title": "How Can We Support Educators in Adopting Example-Based Learning in Software Engineering Education? An Exploratory Study",
+        "authors": ["Tiago Piperno Bonetti (UEM)", "Matheus Molina Dias (UEM)", "Williamson Silva (UFCA)", "Thelma Elita Colanzi (UEM)"],
         "schedule": {
             "start": "2026-09-10T11:00:00-03:00",
             "end": "2026-09-10T11:20:00-03:00"
@@ -1382,8 +1382,8 @@
         "track": "educacao"
     },
     {
-        "title": "How Can We Support Educators in Adopting Example-Based Learning in Software Engineering Education? An Exploratory Study",
-        "authors": ["Tiago Piperno Bonetti (UEM)", "Matheus Molina Dias (UEM)", "Williamson Silva (UFCA)", "Thelma Elita Colanzi (UEM)"],
+        "title": "Toward evaluating the impact of ChatGPT on learning data structures and algorithms: an experiment with undergraduate students.",
+        "authors": ["Waldemar Pires Ferreira Neto (UFRPE)", "Sergio Soares (UFPE)"],
         "schedule": {
             "start": "2026-09-10T17:30:00-03:00",
             "end": "2026-09-10T17:50:00-03:00"
