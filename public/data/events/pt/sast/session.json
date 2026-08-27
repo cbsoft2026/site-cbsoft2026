@@ -9,48 +9,44 @@
         "rooms": ["auditorio-ime"]
     },
     {
-        "title": "ST1 SAST",
+        "title": "ST1 SAST: Mutation Testing and RAG",
         "schedule": {
             "start": "2026-09-08T11:00:00-03:00",
             "end": "2026-09-08T12:30:00-03:00"
         },
-        "type": "info",
         "rooms": ["auditorio-ime"]
     },
     {
-        "title": "ST2 SAST",
+        "title": "ST2 SAST: English Presentations",
         "schedule": {
             "start": "2026-09-08T11:00:00-03:00",
             "end": "2026-09-08T12:30:00-03:00"
         },
-        "type": "info",
+        "lang": "en",
         "rooms": ["b10"]
     },
     {
-        "title": "ST3 SAST",
+        "title": "ST3 SAST: LLMs and AI Agents",
         "schedule": {
             "start": "2026-09-08T16:30:00-03:00",
             "end": "2026-09-08T18:30:00-03:00"
         },
-        "type": "info",
         "rooms": ["b16"]
     },
     {
-        "title": "ST4 SAST",
+        "title": "ST4 SAST: Test Smells and Automation",
         "schedule": {
             "start": "2026-09-08T16:30:00-03:00",
             "end": "2026-09-08T18:30:00-03:00"
         },
-        "type": "info",
         "rooms": ["b9"]
     },
     {
-        "title": "ST5 SAST",
+        "title": "ST5 SAST: Test Evaluation and Automation",
         "schedule": {
             "start": "2026-09-08T16:30:00-03:00",
             "end": "2026-09-08T18:30:00-03:00"
         },
-        "type": "info",
         "rooms": ["b101"]
     }
 ]

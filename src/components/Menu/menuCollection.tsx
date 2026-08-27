@@ -200,6 +200,7 @@ export default function generatedCollection(t: Translator, commonT: Translator) 
     items: [
       { title: t('chamada_trabalhos'), href: '/symposiums/sast/call' },
       { title: t('events'), href: '/symposiums/sast/event' },
+      { title: t('artigos_aceitos'), href: '/symposiums/sast/papers' },
     ],
   };
 
