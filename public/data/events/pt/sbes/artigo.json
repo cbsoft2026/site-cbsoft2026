@@ -1988,5 +1988,185 @@
         "rooms": ["b3"],
         "category": "mencoes-honrosas",
         "track": "ctic"
+    },
+    {
+        "title": "EXEMPLIFY-SEE: Planejamento de Aulas com Aprendizagem Baseada em Exemplos no Ensino de Engenharia de Software",
+        "authors": ["Tiago Piperno Bonetti (UEM)", "Marcelo Yuzo Itami (UEM)", "Williamson Silva (UFCA)", "Thelma Elita Colanzi (UEM)"],
+        "schedule": {
+            "start": "2026-09-10T16:30:00-03:00",
+            "end": "2026-09-10T16:30:00-03:00"
+        },
+        "rooms": ["ccsl"],
+        "track": "tools"
+    },
+    {
+        "title": "toMicroservices 2.0: Empowering Architects in the Interactive Modernization of Monolithic Systems",
+        "authors": ["João Castanho (UEM / Universidade Paranaense)", "João Gomes", "Thelma Elita Colanzi (UEM)", "Aline Maria M. M. Amaral (UEM)", "Wesley Klewerton Guez Assunção (North Carolina State University, United States of America)", "Alessandro Garcia (PUC-Rio)"],
+        "schedule": {
+            "start": "2026-09-10T16:30:00-03:00",
+            "end": "2026-09-10T16:30:00-03:00"
+        },
+        "rooms": ["ccsl"],
+        "track": "tools"
+    },
+    {
+        "title": "DevDog: A Gamified Web Platform for Teaching Code Smell Identification",
+        "authors": ["Luciano Ricardo Silva Junior", "Sergio Antonio Andrade de Freitas (UnB)", "Andre Luiz Peron Martins Lanna (UnB)"],
+        "schedule": {
+            "start": "2026-09-10T16:30:00-03:00",
+            "end": "2026-09-10T16:30:00-03:00"
+        },
+        "rooms": ["ccsl"],
+        "track": "tools"
+    },
+    {
+        "title": "DataFabric-DermAlert: A Tool for Federated Health Data Integration and Fairness-Aware Dataset Construction",
+        "authors": ["ABDUL HANNAN (UnB)", "Heitor Barbosa (Universidade de Brasília, UnB)", "Isaque Alves (USP)", "Carla Silva Rocha Aguiar (UnB)"],
+        "schedule": {
+            "start": "2026-09-10T16:30:00-03:00",
+            "end": "2026-09-10T16:30:00-03:00"
+        },
+        "rooms": ["ccsl"],
+        "track": "tools"
+    },
+    {
+        "title": "MLExp: A Tool for Applying Experimentation to Compare the Performance of Supervised ML Model Versions",
+        "authors": ["Iury Rosal (PUC-Rio)", "Eduardo Almentero (UFRRJ)", "Marcos Kalinowski (PUC-Rio)"],
+        "schedule": {
+            "start": "2026-09-10T16:30:00-03:00",
+            "end": "2026-09-10T16:30:00-03:00"
+        },
+        "rooms": ["ccsl"],
+        "track": "tools"
+    },
+    {
+        "title": "D.aise: An Automated README Generator from Source Code Repositories",
+        "authors": ["Arthur Alesi (PUC-Rio)", "Gabriela Soares", "Juliana Alves Pereira (PUC-Rio)"],
+        "schedule": {
+            "start": "2026-09-10T16:30:00-03:00",
+            "end": "2026-09-10T16:30:00-03:00"
+        },
+        "rooms": ["ccsl"],
+        "track": "tools"
+    },
+    {
+        "title": "RAI: An LLM-Based Multi-Agent Tool for Requirements Engineering Artifacts Generation",
+        "authors": ["Guilherme Borges Cabral", "Nicolas Duarte Botelho (IFES)", "Victorio Albani Carvalho, (IFES)", "Moises Savedra Omena (Federal Institute of Espírito Santo)", "Rodrigo Calhau (IFES)", "Paulo Sérgio Santos Júnior (IFES)", "Monalessa P. Barcellos (UFES)"],
+        "schedule": {
+            "start": "2026-09-10T16:30:00-03:00",
+            "end": "2026-09-10T16:30:00-03:00"
+        },
+        "rooms": ["ccsl"],
+        "track": "tools"
+    },
+    {
+        "title": "Story AI Generator: A ChatGPT-Based Tool for User Story Generation",
+        "authors": ["Reine Santos (UFAM)", "Hamiê Tomás (Ifam)", "Bruno Gadelha (UFAM)", "Tayana Conte (UFAM)", "Ana Carolina Oran (UFAM)"],
+        "schedule": {
+            "start": "2026-09-10T16:30:00-03:00",
+            "end": "2026-09-10T16:30:00-03:00"
+        },
+        "rooms": ["ccsl"],
+        "track": "tools"
+    },
+    {
+        "title": "PBI Grid: A Dashboard as Code Tool for Enhancing Maintainability and GovBR Compliance in Power BI Reports",
+        "authors": ["Fernando Maia da Mota (UFMS)", "Eos Xavier (Fundação Universidade Federal de Mato Grosso do Sul)", "Debora Maria Barroso Paiva (Universidade Federal de Mato Grosso do Sul)", "Edson Takashi Matsubara (Fundação Universidade Federal de Mato Grosso do Sul)", "Ricardo Marcondes Marcacini"],
+        "schedule": {
+            "start": "2026-09-10T16:30:00-03:00",
+            "end": "2026-09-10T16:30:00-03:00"
+        },
+        "rooms": ["ccsl"],
+        "track": "tools"
+    },
+    {
+        "title": "GUAPI: A Gateway-Agnostic, Unified, Data-Driven Platform for API Governance Based on Event Streaming",
+        "authors": ["Estêvão Bissoli Saleme (SERPRO)", "Hellyan Alves de Oliveira", "João Vitor da Silva Gomes", "Flávio Lisboa (SERPRO)"],
+        "schedule": {
+            "start": "2026-09-10T16:30:00-03:00",
+            "end": "2026-09-10T16:30:00-03:00"
+        },
+        "rooms": ["ccsl"],
+        "track": "tools"
+    },
+    {
+        "title": "Um sistema web para inspeção de conformidade em dispositivos IoT aplicados à saúde",
+        "authors": ["Cesar Yuri e Silva Santos", "Ivonildo Pereira Gomes Neto", "Matheus Frej Lemos Cavalcanti (UFPE)", "Waldemar Pires Ferreira Neto (UFRPE)", "Sergio Soares"],
+        "schedule": {
+            "start": "2026-09-10T16:30:00-03:00",
+            "end": "2026-09-10T16:30:00-03:00"
+        },
+        "rooms": ["ccsl"],
+        "track": "tools"
+    },
+    {
+        "title": "Observa: Framework para Detecção Automática de Anti-padrões de Observabilidade",
+        "authors": ["Francisco Gomes (UFC)", "Paulo Antonio Leal Rego (Federal University of Ceará)", "Fernando Antonio Mota Trinta (UFC)"],
+        "schedule": {
+            "start": "2026-09-10T16:30:00-03:00",
+            "end": "2026-09-10T16:30:00-03:00"
+        },
+        "rooms": ["ccsl"],
+        "track": "tools"
+    },
+    {
+        "title": "Reactify: An Intelligent Platform for Agile Requirements Engineering Based on REACT and REACT-M",
+        "authors": ["Katlen Vanessa dos Santos da Silva (Unifap)", "Luma Gabriela Andrade da Silva (Unifap)", "Julio Cezar Costa Furtado (Unifap)"],
+        "schedule": {
+            "start": "2026-09-10T16:30:00-03:00",
+            "end": "2026-09-10T16:30:00-03:00"
+        },
+        "rooms": ["ccsl"],
+        "track": "tools"
+    },
+    {
+        "title": "Xtract: Um plugin baseado em IA para Recomendações Explicáveis da Refatoração Extract Method",
+        "authors": ["Guisella Ângulo (Universidade Federal de São Carlos)", "Igor Ueno", "Valter Vieira Camargo (UFSCAR)"],
+        "schedule": {
+            "start": "2026-09-10T16:30:00-03:00",
+            "end": "2026-09-10T16:30:00-03:00"
+        },
+        "rooms": ["ccsl"],
+        "track": "tools"
+    },
+    {
+        "title": "Scylla: A Unified Tool for Code Smell Classification in Python",
+        "authors": ["Igor Soares de Oliveira (PUC-Rio)", "Alexandre César Brandão de Andrade (PUC-Rio)", "Rayssa Athayde (PUC-Rio)", "Eduardo Nadai (PUC-Rio)", "Juliana Alves Pereira (PUC-Rio)"],
+        "schedule": {
+            "start": "2026-09-10T16:30:00-03:00",
+            "end": "2026-09-10T16:30:00-03:00"
+        },
+        "rooms": ["ccsl"],
+        "track": "tools"
+    },
+    {
+        "title": "GovHub: Plataforma livre de integração e qualificação de dados governamentais",
+        "authors": ["Davi Vieira (UnB)", "Isaque Alves (USP)", "Mateus Santos (UnB)", "Arthur Alves Melo (UnB)", "Milena Rocha (UnB)", "Wallyson Souza (Universidade de Brasília, UnB)", "Carla Silva Rocha Aguiar (UnB)"],
+        "schedule": {
+            "start": "2026-09-10T16:30:00-03:00",
+            "end": "2026-09-10T16:30:00-03:00"
+        },
+        "rooms": ["ccsl"],
+        "track": "tools"
+    },
+    {
+        "title": "REFINE: REst From code and INferred Enhancement",
+        "authors": ["André Mesquita Rincon (UFSCAR)", "Auri Marcelo Rizzo Vincenzi (FEUP/INESC TEC, Portugal)"],
+        "schedule": {
+            "start": "2026-09-10T16:30:00-03:00",
+            "end": "2026-09-10T16:30:00-03:00"
+        },
+        "rooms": ["ccsl"],
+        "track": "tools"
+    },
+    {
+        "title": "MinimapSignatures: A Multi-IDE Ecosystem for Analysis of Visual Source Code Signatures",
+        "authors": ["Munif Gebara Junior (UEM)", "Jamily Souza", "Vitor Correa (UEM)", "Lucas Carvalho", "André Cordeiro (UEM)", "Igor Wiese (UTFPR)", "Yandre M. G. Costa (UEM)"],
+        "schedule": {
+            "start": "2026-09-10T16:30:00-03:00",
+            "end": "2026-09-10T16:30:00-03:00"
+        },
+        "rooms": ["ccsl"],
+        "track": "tools"
     }
 ]
