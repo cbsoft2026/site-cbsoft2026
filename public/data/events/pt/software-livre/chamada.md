@@ -29,7 +29,6 @@ independentes da inscrição no CBSOFT.
 |               | Daniel Batista (USP)                         |
 |               | Deivi Kuhn (Serpro)                          |
 |               | Fabio Kon (USP)                              |
-|               | Rafael Evangelista (UNICAMP)                 |
 |               | Sady Jacques (Associação Software Livre.Org) |
 | 12:30 - 14:00 | *Intervalo para almoço*                      |
 | 14:00 - 14:30 | **Software Livre: Liberdade, Autonomia, Soberania** |
