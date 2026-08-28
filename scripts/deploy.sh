@@ -99,6 +99,8 @@ RewriteEngine On
 RewriteCond %{HTTPS} !=on
 RewriteRule ^ https://%{HTTP_HOST}%{REQUEST_URI} [L,R=301]
 ErrorDocument 404 /2026/404/
+
+AddType application/javascript .mjs
 EOF
 
 sshpass -p "$SSH_PASSWORD" ssh -o StrictHostKeyChecking=no "$SSH_USER@$SSH_HOST" "mkdir -p ~/tmp/deploy_temp && rm -rf ~/tmp/deploy_temp/*"

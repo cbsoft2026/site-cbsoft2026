@@ -4,9 +4,11 @@ import Layout from '@/app/[locale]/(alternative)/components/layout';
 
 import { useCallback, useEffect, useRef, useState } from 'react';
 
-import L from 'leaflet';
-
+import * as L from 'leaflet';
+import * as maplibregl from 'maplibre-gl';
+import { maplibreGL } from '@maplibre/maplibre-gl-leaflet';
 import 'leaflet/dist/leaflet.css';
+import 'maplibre-gl/dist/maplibre-gl.css';
 
 import styles from './styles.module.scss';
 import stylesLayout from '@/app/[locale]/(alternative)/components/layout/styles.module.scss';
@@ -189,11 +191,14 @@ export default function Content({ locale }: Props) {
     }
 
     const map = L.map(container, {
+      minZoom: 1,
       maxZoom: 22,
     }).setView([-23.5595, -46.731], 18);
 
-    L.tileLayer('https://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}{r}.png', {
-      attribution: '&copy; OpenStreetMap contributors &copy; CARTO',
+    maplibregl.setWorkerUrl('/2026/maplibre-gl-worker.mjs');
+
+    maplibreGL({
+      style: 'https://tiles.openfreemap.org/styles/positron',
     }).addTo(map);
 
     mapRef.current = map;
