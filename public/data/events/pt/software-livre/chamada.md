@@ -41,7 +41,7 @@ independentes da inscrição no CBSOFT.
 |               | Anna e só (Outreachy, LabLivre)              |
 | 16:00 - 16:30 | *Coffee break* |
 | 16:30 - 18:30 | **Mesa 2: Desafios presentes e futuros do Software Livre** |
-|               | Moderação: Antonio Terceiro (Debian, ICTL)   |
+|               | Moderação: Antonio Terceiro (Freexian, ICTL)   |
 |               | Alexandre Oliva (FSFLA)                      |
 |               | Anna e só (Outreachy, LabLivre)              |
 |               | Beatriz Tibiriçá (Rede pela Soberania Digital) |
@@ -67,7 +67,7 @@ Estamos preparando uma programação dedicada a conectar o passado, o presente e
 
 ### Organização
 
-Curadoria: Paulo Meirelles (USP) e Antonio Terceiro (Debian, ICTL)
+Curadoria: Paulo Meirelles (USP) e Antonio Terceiro (Freexian, ICTL)
 
 | | |
 |---|---|
