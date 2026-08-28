@@ -1,17 +1,23 @@
-'use client';
-
-import dynamic from 'next/dynamic';
-
-const MapContent = dynamic(() => import('./MapContent'), {
-  ssr: false,
-});
+import { createPageMetadata } from '@/lib/metadata';
+import { getTranslations } from 'next-intl/server';
+import MapWrapper from './MapWrapper';
 
 type Props = {
-  locale: string;
+  params: Promise<{
+    locale: string;
+  }>;
 };
 
-export default function Page(props: Props) {
-  const { locale } = props;
+export async function generateMetadata({ params }: Props) {
+  const { locale } = await params;
+  const t = await getTranslations({ locale, namespace: 'building' });
+  const title = t('titulo');
 
-  return <MapContent locale={locale} />;
+  return createPageMetadata(title);
+}
+
+export default async function SchedulePage({ params }: Props) {
+  const { locale } = await params;
+
+  return <MapWrapper locale={locale} />;
 }
