@@ -22,3 +22,11 @@
     display: block;
   }
 }
+
+:global(.leaflet-interactive) {
+  outline: none;
+
+  &:focus {
+    outline: none;
+  }
+}
