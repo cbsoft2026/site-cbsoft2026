@@ -10,7 +10,7 @@ export type Building = {
 };
 
 export function getBuildingName(building: Building) {
-  return building.data?.name || building.name || `Prédio ${building.osm_id}`;
+  return building.data?.name || building.name || undefined;
 }
 
 export function getBuildingRotation(layer: L.Layer): number {

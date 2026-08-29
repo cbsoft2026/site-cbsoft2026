@@ -77,21 +77,24 @@ function Filter(props: PropsFilter) {
             if (!building.data) {
               return null;
             }
+            const name = getBuildingName(building);
 
             return (
-              <button
-                key={building.osm_id}
-                type='button'
-                className={
-                  selectedBuildingId === building.osm_id
-                    ? `${styles.selected} ${stylesLayout['button-control']}`
-                    : stylesLayout['button-control']
-                }
-                onClick={() => selectBuilding(building.osm_id)}
-              >
-                {buildingT(getBuildingName(building))}
-                <FontAwesomeIcon icon={faChevronRight} />
-              </button>
+              name != undefined && (
+                <button
+                  key={building.osm_id}
+                  type='button'
+                  className={
+                    selectedBuildingId === building.osm_id
+                      ? `${styles.selected} ${stylesLayout['button-control']}`
+                      : stylesLayout['button-control']
+                  }
+                  onClick={() => selectBuilding(building.osm_id)}
+                >
+                  {buildingT(name)}
+                  <FontAwesomeIcon icon={faChevronRight} />
+                </button>
+              )
             );
           })}
         </div>
@@ -250,9 +253,11 @@ export default function Content({ locale }: Props) {
 
         loadedBuildings.push(building);
 
-        const name = buildingT.has(getBuildingName(building))
-          ? buildingT(getBuildingName(building))
-          : getBuildingName(building);
+        const buildingName = getBuildingName(building);
+
+        if (buildingName == undefined) return;
+
+        const name = buildingT.has(buildingName) ? buildingT(buildingName) : buildingName;
         leafletLayer.bindTooltip(name);
 
         leafletLayer.on('click', () => {
