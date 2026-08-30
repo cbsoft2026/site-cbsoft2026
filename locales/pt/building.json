@@ -2,6 +2,7 @@
   "bloco-b": "Bloco B",
   "ccsl": "Bloco C - CCSL",
   "bloco-b-cec": "Bloco B - CEC",
+  "fau-usp": "FAU-USP",
   "caju": "Lanchonete e Restaurante Caju",
   "viveiro": "Restaurante do Viveiro",
   "restaurante-sweden": "Sweden Restaurante",
@@ -13,6 +14,8 @@
   "escada": "Escadas",
   "recepcao": "Recepção",
   "refeitorio-ime": "Refeitório IME",
+
+  "refeitorio-fau": "Academicus (Restaurante FAU)",
 
   "predios": "Prédios",
   "restaurantes": "Restaurantes",

@@ -15,18 +15,22 @@ export default function ChangeView(props: Props) {
 
   return (
     <div className={styles['grouped-icons']}>
-      {floors.map((floor) => (
-        <button
-          key={floor.id}
-          type='button'
-          className={`
+      {floors.map((floor) =>
+        floor.name !== '' ? (
+          <button
+            key={floor.id}
+            type='button'
+            className={`
                 ${selectedFloor === floor.id ? styles.active : ''}
                 `}
-          onClick={() => setSelectedFloor(floor.id)}
-        >
-          {floor.name}
-        </button>
-      ))}
+            onClick={() => setSelectedFloor(floor.id)}
+          >
+            {floor.name}
+          </button>
+        ) : (
+          <></>
+        ),
+      )}
     </div>
   );
 }

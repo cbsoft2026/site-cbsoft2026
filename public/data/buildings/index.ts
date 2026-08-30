@@ -4,6 +4,7 @@ import BlocoBFloor1 from './154079142/floor-1.svg';
 import BlocoBCecFloor0 from './154079144/floor-0.svg';
 import CCSLFloor0 from './154079143/floor-0.svg';
 import CCSLFloor1 from './154079143/floor-1.svg';
+import Fau0 from './158966879/fau.svg'
 
 export const buildingData: Record<number, BuildingData> = {
   154079142: {
@@ -32,6 +33,17 @@ export const buildingData: Record<number, BuildingData> = {
         component: BlocoBCecFloor0,
       }
     ],
+  },
+  158966879: {
+    name: 'fau-usp',
+    type: 'building',
+    floors: [
+      {
+        id: 0,
+        name: '',
+        component: Fau0
+      }
+    ]
   },
   154079143: {
     name: 'ccsl',

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   viewBox="78.5 88.5 239.20095 401.74573"
+   width="239.20096"
+   height="401.74573"
+   version="1.1"
+   xml:space="preserve"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg"><defs
+   id="defs1" />
+   <g
+   transform="translate(-1.649515,-1.64952)">
+     <rect
+   id="refeitorio-fau"
+   width="181.35696"
+   height="90.907623"
+   x="137.49352"
+   y="400.48761"
+   fill="#d9770630"
+   stroke="#d97706" /><rect
+   id="auditorio-fau"
+   width="166.76314"
+   height="207.69582"
+   x="123.3474"
+   y="148.06775"
+   fill="#3388ff30"
+   stroke="#3388ff" /></g>
+    <path
+   fill="none"
+   stroke="#333333"
+   d="M 79,89 H 317.20096 V 489.7457 H 79 Z" />
+     </svg>

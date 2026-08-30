@@ -2,6 +2,7 @@
   "bloco-b": "Building B",
   "ccsl": "Building C - CCSL",
   "bloco-b-cec": "Building B - CEC",
+  "fau-usp": "FAU-USP",
   "caju": "Caju Cafeteria and Restaurant",
   "viveiro": "Viveiro Restaurant",
   "restaurante-sweden": "Sweden Restaurant",
@@ -13,6 +14,8 @@
   "escada": "Stairs",
   "recepcao": "Front desk",
   "restaurantes": "Restaurants",
+
+  "refeitorio-fau": "Academicus (Restaurant FAU)",
 
   "banheiro": "Restroom",
   "refeitorio-ime": "IME Cafeteria",
