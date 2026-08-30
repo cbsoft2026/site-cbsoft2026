@@ -13,6 +13,8 @@ type Props = {
   rooms: Rooms;
   view: string;
   href?: string;
+
+  nested?: boolean;
 };
 
 export function timeFormat(datetime: Date) {
@@ -200,23 +202,34 @@ export default function EventCard(props: Props) {
     finishRoom = props.rooms.length + 3;
   }
 
-  return props.href ? (
-    <LinkLocale
-      href={props.href}
-      className={`${styles['schedule-default']} ${props.event?.type ? styles['schedule--' + props.event.type] : ''} ${styles['schedule-type--' + props.view]}`}
-      style={{
-        gridArea: `${labelSlice(start)} / ${startRoom} / ${labelSlice(end)} / ${finishRoom}`,
-      }}
-    >
-      {EventCardWrapper(props, start, end)}
-    </LinkLocale>
-  ) : (
-    <div
-      className={`${styles['schedule-default']} ${props.event?.type ? styles['schedule--' + props.event.type] : ''} ${styles['schedule-type--' + props.view]}`}
-      style={{
-        gridArea: `${labelSlice(start)} / ${startRoom} / ${labelSlice(end)} / ${finishRoom}`,
-      }}
-    >
+  const className = `${styles['schedule-default']} ${
+    props.event?.type ? styles['schedule--' + props.event.type] : ''
+  } ${styles['schedule-type--' + props.view]}`;
+
+  if (props.nested) {
+    if (props.href) {
+      return (
+        <LinkLocale href={props.href} className={`${className} ${styles['schedule-default__nested']}`}>
+          {EventCardWrapper(props, start, end)}
+        </LinkLocale>
+      );
+    }
+
+    return <div className={className}>{EventCardWrapper(props, start, end)}</div>;
+  }
+
+  const gridArea = `${labelSlice(start)} / ${startRoom} / ${labelSlice(end)} / ${finishRoom}`;
+
+  if (props.href) {
+    return (
+      <LinkLocale href={props.href} className={className} style={{ gridArea }}>
+        {EventCardWrapper(props, start, end)}
+      </LinkLocale>
+    );
+  }
+
+  return (
+    <div className={className} style={{ gridArea }}>
       {EventCardWrapper(props, start, end)}
     </div>
   );
