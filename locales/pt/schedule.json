@@ -35,5 +35,8 @@
   "ccsl": "CCSL",
   "ccsl-name": "Imre Simon",
   "numec": "NUMEC",
-  "numec-name": "Charles Babbage"
+  "numec-name": "Charles Babbage",
+
+  "ime-cec": "IME CEC",
+  "ime-cec-name": "Silent [work] Space"
 }

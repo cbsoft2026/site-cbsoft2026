@@ -6,6 +6,11 @@
    version="1.1"
    xmlns="http://www.w3.org/2000/svg"
    xmlns:svg="http://www.w3.org/2000/svg">
+   <path
+     d="M 544.88816,439.84358 V 90.544 h 348 l -0.034,461.81423 h 117.03404 v 47.58535 493.30002 H 661.18816 V 782.84358 H 544.90463 Z"
+     fill="#eeeeee"
+     stroke="#333333"
+     strokeWidth="4" />
   <g
      transform="translate(-5.5118408,-10.656418)">
     <rect
@@ -25,9 +30,4 @@
        fill="#64748b30"
        stroke="#64748b" />
   </g>
-  <path
-     d="M 544.88816,439.84358 V 90.544 h 348 l -0.034,461.81423 h 117.03404 v 47.58535 493.30002 H 661.18816 V 782.84358 H 544.90463 Z"
-     fill="none"
-     stroke="#333333"
-     strokeWidth="4" />
 </svg>

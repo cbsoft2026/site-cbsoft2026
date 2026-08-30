@@ -5,7 +5,6 @@
       "type": "Feature",
       "properties": {
         "osm_id": 154079142,
-        "name": "Bloco B",
         "building": "university"
       },
       "geometry": {
@@ -129,6 +128,30 @@
               -23.559672
             ],
             [
+              -46.7321497,
+              -23.5596591
+            ],
+            [
+              -46.7321626,
+              -23.5597339
+            ],
+            [
+              -46.7323397,
+              -23.5597102
+            ],
+            [
+              -46.7322969,
+              -23.5594613
+            ],
+            [
+              -46.7321179,
+              -23.5594841
+            ],
+            [
+              -46.7321388,
+              -23.5596163
+            ],
+            [
               -46.7320551,
               -23.5596311
             ]
@@ -140,7 +163,6 @@
       "type": "Feature",
       "properties": {
         "osm_id": 154079143,
-        "name": "Bloco C",
         "building": "university"
       },
       "geometry": {
@@ -214,51 +236,7 @@
     {
       "type": "Feature",
       "properties": {
-        "osm_id": 154079144,
-        "name": "Centro de Ensino em Computação",
-        "building": "university"
-      },
-      "geometry": {
-        "type": "Polygon",
-        "coordinates": [
-          [
-            [
-              -46.73215,
-              -23.5596593
-            ],
-            [
-              -46.732143,
-              -23.5596183
-            ],
-            [
-              -46.7321204,
-              -23.5594859
-            ],
-            [
-              -46.7322965,
-              -23.5594644
-            ],
-            [
-              -46.7323383,
-              -23.55971
-            ],
-            [
-              -46.7321622,
-              -23.5597315
-            ],
-            [
-              -46.73215,
-              -23.5596593
-            ]
-          ]
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
         "osm_id": 158966879,
-        "name": "Edifício Vilanova Artigas",
         "building": "university"
       },
       "geometry": {
@@ -301,7 +279,6 @@
       "type": "Feature",
       "properties": {
         "osm_id": 900000001,
-        "name": "Lanchonete e Restaurante Caju",
         "building": "restaurant"
       },
       "geometry": {
@@ -336,7 +313,6 @@
       "type": "Feature",
       "properties": {
         "osm_id": 419956330,
-        "name": "Restaurante do Viveiro",
         "building": "restaurant"
       },
       "geometry": {
@@ -381,8 +357,7 @@
         "osm_id": 159420792,
         "amenity": "restaurant",
         "building": "retail",
-        "check_date": "2023-12-06",
-        "name": "Sweden's"
+        "check_date": "2023-12-06"
       },
       "geometry": {
         "type": "Polygon",

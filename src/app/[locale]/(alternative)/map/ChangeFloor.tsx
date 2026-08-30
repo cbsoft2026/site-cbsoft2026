@@ -2,6 +2,7 @@
 
 import styles from './styles.module.scss';
 import { Floor } from '@/types/buildings';
+import React from 'react';
 import { SetStateAction } from 'react';
 
 type Props = {
@@ -28,7 +29,7 @@ export default function ChangeView(props: Props) {
             {floor.name}
           </button>
         ) : (
-          <></>
+          <React.Fragment key={floor.id}></React.Fragment>
         ),
       )}
     </div>
