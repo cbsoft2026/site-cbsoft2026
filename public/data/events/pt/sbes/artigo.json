@@ -1812,16 +1812,6 @@
         "track": "industry"
     },
     {
-        "title": "Deploy Canário com Guardrails Automatizados: Evidências de Aumento de Disponibilidade e Aceleração do Ciclo de Entrega em Larga Escala",
-        "authors": ["Luiz Henrique de Souza"],
-        "schedule": {
-            "start": "2026-09-11T16:30:00-03:00",
-            "end": "2026-09-11T16:30:00-03:00"
-        },
-        "rooms": ["auditorio-ime"],
-        "track": "industry"
-    },
-    {
         "title": "Uma Solução Industrial para Gargalos de Escalabilidade em Sistemas Embarcados do Setor de Energia Solar",
         "authors": ["Pedro Cobucci", "Heitor Augustus Xavier Costa"],
         "schedule": {
