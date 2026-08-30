@@ -74,5 +74,10 @@ export const buildingData: Record<number, BuildingData> = {
     name: 'restaurante-chacrinha',
     type: 'restaurant',
     floors: []
+  },
+  900000004: {
+    name: 'restaurante-fisica',
+    type: 'restaurant',
+    floors: []
   }
 };
