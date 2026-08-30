@@ -29,6 +29,7 @@
   "se4games": "Workshop on Software Engineering for Game Development",
   "se4fp": "Workshop on Software Engineering for Functional Programming",
   "aisecdev": "Secure Software Development in the Age of AI",
+  "se4as": "Workshop on Software Engineering for Agentic Systems",
   "women-lunch": "Almoço entre Elas",
   "siglas": {
     "cbsoft": "Congresso Brasileiro de Software: Teoria e Prática",
@@ -68,6 +69,7 @@
     "se4games": "SE4Games",
     "se4fp": "SE4FP",
     "aisecdev": "AISecDev",
+    "se4as": "SE4AS",
 
     "women-lunch": "Almoço entre Elas"
   },

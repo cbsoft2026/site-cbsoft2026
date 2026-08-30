@@ -879,5 +879,155 @@
         },
         "rooms": ["b3"],
         "category": "aisecdev"
+    },
+    {
+        "title": "Humans in Control: A Methodological Framework for Quality Assurance in Agentic Software Engineering (Vision Paper)",
+        "authors": [],
+        "schedule": {
+            "start": "2026-09-08T12:10:00-03:00",
+            "end": "2026-09-08T12:18:00-03:00"
+        },
+        "rooms": ["b1"],
+        "category": "se4as"
+    },
+    {
+        "title": "Accountability in Agentic Secure Software Development Life Cycles: Challenges, Degradation Scenarios, and Governance Principles",
+        "authors": [],
+        "schedule": {
+            "start": "2026-09-08T12:18:00-03:00",
+            "end": "2026-09-08T12:26:00-03:00"
+        },
+        "rooms": ["b1"],
+        "category": "se4as"
+    },
+    {
+        "title": "Beyond Task Completion: Product and Human-Agent Process Quality in Agentic Software Engineering",
+        "authors": [],
+        "schedule": {
+            "start": "2026-09-08T14:00:00-03:00",
+            "end": "2026-09-08T14:08:00-03:00"
+        },
+        "rooms": ["b1"],
+        "category": "se4as"
+    },
+    {
+        "title": "System Prompts as Specifications: Assessing the Verifiability of Claude Code Sub-Agent Behavioral Claims",
+        "authors": [],
+        "schedule": {
+            "start": "2026-09-08T14:08:00-03:00",
+            "end": "2026-09-08T14:18:00-03:00"
+        },
+        "rooms": ["b1"],
+        "category": "se4as"
+    },
+    {
+        "title": "Measure the Right Thing, at the Right Grain: Three Measurement Traps in Evaluating Code-Repair Agents",
+        "authors": [],
+        "schedule": {
+            "start": "2026-09-08T14:18:00-03:00",
+            "end": "2026-09-08T14:26:00-03:00"
+        },
+        "rooms": ["b1"],
+        "category": "se4as"
+    },
+    {
+        "title": "Benchmarking Agentic Frameworks for Incremental Software Evolution",
+        "authors": [],
+        "schedule": {
+            "start": "2026-09-08T14:26:00-03:00",
+            "end": "2026-09-08T14:36:00-03:00"
+        },
+        "rooms": ["b1"],
+        "category": "se4as"
+    },
+    {
+        "title": "Fairness Risk Triage in Pull Requests Using an LLM-Based Reviewer: An Experiment on Prompting Strategies",
+        "authors": [],
+        "schedule": {
+            "start": "2026-09-08T14:36:00-03:00",
+            "end": "2026-09-08T14:46:00-03:00"
+        },
+        "rooms": ["b1"],
+        "category": "se4as"
+    },
+    {
+        "title": "Agentes de Codificação de IA como Prática Colaborativa: Implicações para Equipes de Desenvolvimento de Software",
+        "authors": [],
+        "schedule": {
+            "start": "2026-09-08T15:10:00-03:00",
+            "end": "2026-09-08T15:20:00-03:00"
+        },
+        "rooms": ["b1"],
+        "category": "se4as"
+    },
+    {
+        "title": "Agile Management for Foundation Model Based Agentic Systems: A Vision",
+        "authors": [],
+        "schedule": {
+            "start": "2026-09-08T15:20:00-03:00",
+            "end": "2026-09-08T15:28:00-03:00"
+        },
+        "rooms": ["b1"],
+        "category": "se4as"
+    },
+    {
+        "title": "From Meeting Audio to Requirements: A Generative-AI Multi-Agent Pipeline",
+        "authors": [],
+        "schedule": {
+            "start": "2026-09-08T15:28:00-03:00",
+            "end": "2026-09-08T15:38:00-03:00"
+        },
+        "rooms": ["b1"],
+        "category": "se4as"
+    },
+    {
+        "title": "Towards a Perspective-Based Multi-Agent Architecture for Requirements Engineering of ML-Enabled Systems",
+        "authors": [],
+        "schedule": {
+            "start": "2026-09-08T15:38:00-03:00",
+            "end": "2026-09-08T15:46:00-03:00"
+        },
+        "rooms": ["b1"],
+        "category": "se4as"
+    },
+    {
+        "title": "Towards an Agentic MAPE-K Architecture for Self-Adaptive Robotic Arm Systems",
+        "authors": [],
+        "schedule": {
+            "start": "2026-09-08T17:30:00-03:00",
+            "end": "2026-09-08T17:40:00-03:00"
+        },
+        "rooms": ["b1"],
+        "category": "se4as"
+    },
+    {
+        "title": "Towards Agentic Research Problem Engineering: A Vision for Human-AI Collaboration in Software Engineering Research",
+        "authors": [],
+        "schedule": {
+            "start": "2026-09-08T17:40:00-03:00",
+            "end": "2026-09-08T17:48:00-03:00"
+        },
+        "rooms": ["b1"],
+        "category": "se4as"
+    },
+    {
+        "title": "Lessons Learned from Developing a Multi-Agent Healthcare Chatbot for Sickle Cell Disease Care",
+        "authors": [],
+        "schedule": {
+            "start": "2026-09-08T17:48:00-03:00",
+            "end": "2026-09-08T17:58:00-03:00"
+        },
+        "rooms": ["b1"],
+        "category": "se4as"
+    },
+    {
+        "title": "Improving Agentic AI Opportunity Identification Through GORE Driven Prompt Engineering",
+        "authors": [],
+        "schedule": {
+            "start": "2026-09-08T17:58:00-03:00",
+            "end": "2026-09-08T18:12:00-03:00"
+        },
+        "rooms": ["b1"],
+        "category": "se4as"
     }
 ]

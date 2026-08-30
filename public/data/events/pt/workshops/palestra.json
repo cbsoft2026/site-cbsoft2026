@@ -76,5 +76,24 @@
             "end": "2026-09-11T15:30:00-03:00"
         },
         "rooms": ["b5"]
+    },
+    {
+        "title": "Abertura & Palestra Convidada SE4AS: A Research Agenda on Agents and Software Engineering",
+        "description": "Agentic systems are moving software engineering beyond applications that merely invoke LLMs toward systems that can act, coordinate, adapt, use tools, maintain state, and make decisions in dynamic environments. This shift creates major opportunities for automation, productivity, and new forms of human-AI collaboration, but also raises new challenges for requirements, architecture, orchestration, quality, governance, sustainability, and human oversight. This keynote discusses how software engineering must evolve to support the responsible development of agentic systems, while also exploring how agents can transform software engineering itself. The talk will delineate a research agenda on agents and software engineering, arguing that agentic systems should not be treated as isolated AI components or experimental prototypes, but as complex software-intensive systems that require robust engineering foundations, shared methods, reusable patterns, evaluation approaches, and trustworthy practices.",
+        "speakers": ["marcos-kalinowski"],
+        "schedule": {
+            "start": "2026-09-08T11:00:00-03:00",
+            "end": "2026-09-08T12:10:00-03:00"
+        },
+        "rooms": ["b1"]
+    },
+    {
+        "title": "Palestra Convidada SE4AS",
+        "speakers": ["andrews-medina"],
+        "schedule": {
+            "start": "2026-09-08T16:30:00-03:00",
+            "end": "2026-09-08T17:30:00-03:00"
+        },
+        "rooms": ["b1"]
     }
 ]
