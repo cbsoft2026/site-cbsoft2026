@@ -60,11 +60,6 @@ export const buildingData: Record<number, BuildingData> = {
     type: 'restaurant',
     floors: []
   },
-  174633274: {
-    name: 'restaurante-ipen',
-    type: 'restaurant',
-    floors: []
-  },
   159420792: {
     name: 'restaurante-sweden',
     type: 'restaurant',
