@@ -137,7 +137,6 @@
       flex-grow: 1;
       display: flex;
       justify-content: right;
-      padding-right: 1em;
 
       @media (max-width: 992px) {
         padding-right: 0;
@@ -293,24 +292,43 @@
     }
   }
 
-  .ticket {
-    background: $primary;
-    display: block;
+  .schedule, .ticket {
+    display: flex;
+    align-items: center;
+    justify-content: center;
     padding: 12px 36px;
     border-radius: 32px;
     font-weight: bold;
     text-align: center;
     max-width: 360px;
+    text-decoration: none;
 
     span {
-      color: $text-secondary;
-      font-size: 0.9rem;
       text-transform: uppercase;
     }
 
     @media (max-width: 992px) {
       margin-top: 1em;
       text-align: center;
+    }
+  }
+
+  .schedule {
+    border: 1px solid $primary;
+    margin-left: 1em;
+
+    span {
+      font-size: 0.8rem;
+    }
+  }
+
+  .ticket {
+    background: $primary;
+    margin-left: 0.5em;
+
+    span {
+      font-size: 0.9rem;
+      color: $text-secondary;
     }
   }
 }

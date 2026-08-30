@@ -216,6 +216,14 @@ export default function Menu(props: HTMLAttributes<HTMLDivElement>) {
               </LinkLocale>
             </li>
           </ul>
+          <LinkLocale
+            href={{ pathname: '/schedule/calendar' }}
+            className={styles.schedule}
+            onClick={collapse}
+            locale={locale}
+          >
+            <span> {t('schedule.titulo')}</span>
+          </LinkLocale>
           <LinkLocale href={{ pathname: '/registration' }} className={styles.ticket} onClick={collapse} locale={locale}>
             <span> {t('inscricoes')}</span>
           </LinkLocale>
