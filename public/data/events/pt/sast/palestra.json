@@ -7,6 +7,7 @@
             "end": "2026-09-08T16:00:00-03:00"
         },
         "description": "We push the button and let our tests run. But what really happens? What machinery is put into motion when we test and what are the environmental consequences of our quality assurance process? In this talk, I will take you through some of the insights that we have made while closely examining the potential environmental impact of building and testing 204 Java open source projects. The outlook is that testing is perhaps not as green as we might have thought.",
+        "lang": "en",
         "rooms": ["auditorio-ime"]
     }
 ]

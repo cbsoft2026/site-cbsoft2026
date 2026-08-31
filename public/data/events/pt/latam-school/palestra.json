@@ -7,6 +7,7 @@
             "end": "2026-09-08T12:10:00-03:00"
         },
         "description": "(Metodologia)",
+        "lang": "en",
         "rooms": ["b5"]
     },
     {
@@ -26,6 +27,7 @@
             "end": "2026-09-08T15:00:00-03:00"
         },
         "description": "(Ciência Aberta)",
+        "lang": "en",
         "rooms": ["b5"]
     },
     {

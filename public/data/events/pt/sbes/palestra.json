@@ -7,6 +7,7 @@
             "end": "2026-09-09T10:30:00-03:00"
         },
         "description": "The Software Engineering research community produces hundreds, if not thousands of papers every year, and yet the impact of most studies remains limited. In this talk I discuss why this might be so, namely, a lack of direction. The SE community is quite well prepared in its methodological designs (though improvements can be made here too), but not so well in the creation of a cumulative body of knowledge. The SE community tends to focus very strongly on the “topic of the day”, and as a community we chase every topic we can find, without grounding these topics in prior literature. I posit that this constant stream of publications that remain disconnected is due to a lack of attention and appreciation for theory building. In this talk I will illustrate the problem using examples, and offer a potential way forward to address this. The solution offered will not be straightforward to implement, but if successful, we can strengthen the SE literature and make it more relevant for both research and practice.",
+        "lang": "en",
         "rooms": ["auditorio-fau", "auditorio-ime", "b5", "b16", "b9", "b10", "b1", "b2", "b3", "ccsl", "b101"]
     },
     {
@@ -17,6 +18,7 @@
             "end": "2026-09-09T18:30:00-03:00"
         },
         "description": "Software engineering has always been a story of tools and teamwork. Today, both are being redefined. As organizations experiment with hybrid and remote models, and as generative AI reshapes how we write, review, and reason about code, we face a dual transformation: of work and of intelligence. This talk explores the five paradoxes of modern software work—balancing productivity, engagement, innovation, belonging, and well-being—through evidence from multiple empirical studies across companies worldwide. It connects these insights to the emerging use of GenAI in development, asking: what happens when not only where we work but how we think changes? The keynote invites researchers and practitioners to look beyond efficiency metrics and engage with the deeper design of intelligent, intentional workplaces that actually work.",
+        "lang": "en",
         "rooms": ["auditorio-ime"]
     },
     {
