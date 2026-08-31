@@ -6,6 +6,7 @@
             "end": "2026-09-11T12:30:00-03:00"
         },
         "type": "info",
+        "url": "/software-livre/",
         "rooms": ["auditorio-fau"]
     },
     {
@@ -15,6 +16,7 @@
             "end": "2026-09-11T16:00:00-03:00"
         },
         "type": "info",
+        "url": "/software-livre/",
         "rooms": ["auditorio-fau"]
     },
     {
@@ -24,6 +26,7 @@
             "end": "2026-09-11T18:30:00-03:00"
         },
         "type": "info",
+        "url": "/software-livre/",
         "rooms": ["auditorio-fau"]
     }
 ]

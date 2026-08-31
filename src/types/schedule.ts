@@ -29,6 +29,9 @@ export const ScheduleSchema = Type.Object({
 
   /* usar o padrao i18n como lang (pt, en) */
   lang: Type.Optional(Type.String()),
+
+  /* link para uma página da conferência */
+  url: Type.Optional(Type.String()),
 });
 
 export type Track = (typeof trackValues)[number];

@@ -123,6 +123,7 @@ export function loadEvents(lang: string = defaultLang): Map<string, Event> {
             participants: participantsSession,
             parentIds: [],
             lang: p.lang || defaultLang,
+            url: p.url,
           };
 
           sessionMap.push(sessionEvent);
@@ -172,6 +173,7 @@ export function loadEvents(lang: string = defaultLang): Map<string, Event> {
             participants: participantsArticle,
             parentIds: parentSession ? [parentSession.id] : [],
             category: p.category,
+            url: p.url,
           });
         });
       },
@@ -200,6 +202,7 @@ export function loadEvents(lang: string = defaultLang): Map<string, Event> {
             participants: participantsPainel,
             moderators: moderatorsPainel,
             lang: p.lang || defaultLang,
+            url: p.url,
           });
         });
       },
@@ -224,6 +227,7 @@ export function loadEvents(lang: string = defaultLang): Map<string, Event> {
           participants: participantsSession,
           moderators: moderatorsSession,
           lang: p.lang || defaultLang,
+          url: p.url,
         });
       });
     });
@@ -247,6 +251,7 @@ export function loadEvents(lang: string = defaultLang): Map<string, Event> {
           participants: participantsSession,
           moderators: moderatorsSession,
           lang: p.lang || defaultLang,
+          url: p.url,
         });
       });
     });

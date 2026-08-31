@@ -92,7 +92,12 @@ export default function Schedule(props: Props) {
   const hrefEvent = (event: Event) => {
     let prefix = 'symposiums/';
     if (programs.find((program) => program.slug == event.simposio)) prefix = '';
-    return event.type == 'info' ? undefined : `${prefix}${event.simposio}/event#${event.id}`;
+
+    if (event.type != 'info') return `${prefix}${event.simposio}/event#${event.id}`;
+
+    if (event.url != undefined) return event.url;
+
+    return undefined;
   };
 
   const scheduleT = useTranslations('schedule');
