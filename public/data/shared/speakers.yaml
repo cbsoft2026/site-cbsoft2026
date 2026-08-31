@@ -289,10 +289,14 @@
 - id: andrews-medina
   name: Andrews Medina
 
-- id: thiago-silva-Conceicao
+- id: thiago-silva-conceicao
   name: Thiago da Silva Conceição
+  image: Thiago_Silva_Conceicao.webp
   institution: Engineering Productivity/Reliability
+  bio: Sou Thiago da Silva Conceição, Senior Software Engineer no time de Platform Engineering da Unico.
 
 - id: luiz-eduardo-negrato-casali
-  name: Luiz Eduardo Negrato Casali
+  name: Luiz Casali
+  image: Luiz_Eduardo_Negrato_Casali.webp
   institution: Sênior Engineering Manager, UNICO
+  bio: Conhecido apenas como Casali, estou na Unico há 5 anos — os últimos 3 anos e meio como Senior Engineering Manager liderando o time de Platform Engineering.

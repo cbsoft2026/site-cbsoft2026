@@ -1,7 +1,8 @@
 [
     {
-        "title": "Uma breve Visão do Ecossistema Unico de PD&I e de Formação de Recursos Humanos em Identidade Digital e Prevenção a Fraudes",
-        "speakers": ["thiago-silva-Conceicao", "luiz-eduardo-negrato-casali"],
+        "title": "O Novo Gargalo da Engenharia de Sistemas de Software: Como Infraestrutura e Escalabilidade Absorvem o Boom de Código Gerado por IA? A experiência da Unico.",
+        "description": "A Unico empresa brasileira, tem a sua origem em 2007, com a criação da Acesso Digital. Ao longo desses anos fez diversas aquisições de outras empresas e em 2020 tornou-se a Unico, tendo neste mesmo ano recebido o seu primeiro aporte de investimentos. Já em 2021, com diversos outros aportes recebidos obteve o status de Unicórnio, inclusive sendo sendo em verificação de identidade digital e a 2ª maior empresa SaaS mais valiosa da América Latina. Nesta palestra abordaremos o impacto do aumento significativo de código gerado por IA no contexto da Unico. A adoção de código gerado por IA no fluxo de desenvolvimento traz um novo desafio: como preparar a esteira de CI (Integração Contínua) para suportar um volume de mudanças até quatro vezes  maior que o atual?",
+        "speakers": ["thiago-silva-conceicao", "luiz-eduardo-negrato-casali"],
         "schedule": {
             "start": "2026-09-11T16:30:00-03:00",
             "end": "2026-09-11T18:30:00-03:00"
