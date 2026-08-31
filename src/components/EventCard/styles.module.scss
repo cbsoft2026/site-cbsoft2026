@@ -1,22 +1,8 @@
 @use 'variables' as *;
 
-.schedule-type--calendar {
-  display: inherit; 
-}
-
-.schedule-type--list {
-  padding: 8px 8px 0 8px !important;
-
-  .schedule-default__wrapper {
-    display: grid !important;
-    grid-template-columns: 120px 1fr !important;
-  }
-}
-.schedule-type--list:last-child {
-  padding: 8px !important;
-}
-
 .schedule-default {
+  --schedule-color: #{$primary};
+
   display: flex;
   flex-direction: column;
   padding: 8px;
@@ -36,12 +22,10 @@
   .schedule__info {
     min-width: 90px;
     padding: 12px 16px;
-    background-color: $primary;
+    background-color: var(--schedule-color);
     text-align: center;
     color: $text-secondary;
-    border-left: 1px solid $primary;
-    border-bottom: 1px solid $primary;
-    border-top: 1px solid $primary;
+    border: 1px solid var(--schedule-color);
     border-top-left-radius: 16px;
     border-bottom-left-radius: 16px;
     transition: border ease-in-out 0.1s;
@@ -60,7 +44,6 @@
   .schedule__content {
     height: 100%;
     border: 1px solid $border-color;
-    border-top: 1px solid $border-color;
     display: flex;
     flex-grow: 1;
     flex-direction: column;
@@ -118,22 +101,25 @@
       }
     }
   }
-}
 
-.schedule-default:hover {
-  .schedule__info,
-  .schedule__content {
-    border-color: $primary;
-  }
-  .schedule__content {
-    p {
+  &:hover {
+    .schedule__info,
+    .schedule__content {
+      border-color: var(--schedule-color);
+    }
+
+    .schedule__content p {
       color: $text-primary;
     }
   }
 }
 
 .schedule--info {
+  --schedule-color: #{$overlay-bg};
+
   .schedule__info {
+    color: $text-primary-alt;
+
     h1,
     h2,
     h3,
@@ -143,10 +129,8 @@
     p {
       color: $text-primary-alt;
     }
-    background-color: $overlay-bg !important;
-    border-left: 1px solid $border-color;
-    border-bottom: 1px solid $border-color;
-    border-top: 1px solid $border-color;
+
+    border-color: $border-color;
   }
   &:hover {
     .schedule__info,
@@ -157,55 +141,39 @@
 }
 
 .schedule--session {
+  --schedule-color: #{$accent};
   cursor: pointer;
-  .schedule__info {
-    background-color: $accent !important;
-    border-left: 1px solid $accent;
-    border-bottom: 1px solid $accent;
-    border-top: 1px solid $accent;
-  }
-  &:hover {
-    .schedule__info,
-    .schedule__content {
-      border-color: $accent;
-    }
-  }
 }
 
 .schedule--artigo {
+  --schedule-color: #{$secondary};
   cursor: pointer;
-  .schedule__info {
-    background-color: $secondary !important;
-    border-left: 1px solid $secondary;
-    border-bottom: 1px solid $secondary;
-    border-top: 1px solid $secondary;
-  }
-  &:hover {
-    .schedule__info,
-    .schedule__content {
-      border-color: $secondary;
-    }
-  }
 }
 
 .schedule--painel {
+  --schedule-color: #{$accent-2};
   cursor: pointer;
-  .schedule__info {
-    background-color: $accent-2 !important;
-    border-left: 1px solid $accent-2;
-    border-bottom: 1px solid $accent-2;
-    border-top: 1px solid $accent-2;
-  }
-  &:hover {
-    .schedule__info,
-    .schedule__content {
-      border-color: $accent-2;
-    }
-  }
 }
 
 .schedule--palestra {
   cursor: pointer;
+}
+
+.schedule-type--calendar {
+  display: inherit;
+}
+
+.schedule-type--list {
+  padding: 8px 8px 0 8px !important;
+
+  .schedule-default__wrapper {
+    display: grid !important;
+    grid-template-columns: 120px 1fr !important;
+  }
+
+  &:last-child {
+    padding: 8px !important;
+  }
 }
 
 .schedule-default__wrapper:hover .content__images > * {
@@ -217,6 +185,7 @@
     display: flex;
     align-items: center;
     flex-wrap: wrap;
+
     > * {
       transition: margin ease-in-out 0.1s;
       margin-right: -6px;
@@ -257,29 +226,58 @@
   min-width: 0;
   width: 100%;
   height: 100%;
-  padding-left: 0 !important;
+  padding-top: 0 !important;
+
+  .schedule-default__wrapper {
+    box-shadow: none;
+  }
 
   &:first-child {
-    padding-right: 0 !important;
-    padding-left: 8px !important;
-
+    padding-bottom: 0;
+    padding-top: 8px !important;
 
     .schedule__info {
-      display: block;
+      border-bottom-left-radius: 0;
     }
+
     .schedule__content {
-      border-radius: 0;
-      border-left: 1px solid $border-color !important;
+      border-bottom-right-radius: 0;
     }
   }
 
-  .schedule__info {
-    display: none;
+  &:not(:first-child) {
+    .schedule__info {
+      border-top-left-radius: 0;
+
+      > * {
+        display: none;
+      }
+    }
+
+    .schedule__content {
+      border-top-right-radius: 0;
+    }
   }
-  .schedule__content {
-    border-left: 1px solid $border-color !important;
+}
+
+.schedule-default__nested:first-child {
+  &.schedule--session ~ .schedule-default__nested {
+    --schedule-color: #{$accent};
   }
-  &:hover .schedule__content {
-    border-left: 1px solid $accent !important;
+
+  &.schedule--artigo ~ .schedule-default__nested {
+    --schedule-color: #{$secondary};
+  }
+
+  &.schedule--painel ~ .schedule-default__nested {
+    --schedule-color: #{$accent-2};
+  }
+
+  &.schedule--palestra ~ .schedule-default__nested {
+    --schedule-color: #{$primary};
+  }
+
+  &.schedule--info ~ .schedule-default__nested {
+    --schedule-color: #{$overlay-bg};
   }
 }

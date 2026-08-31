@@ -220,8 +220,6 @@ export default function Schedule(props: Props) {
             const startRoom = availableRooms[0] + 2;
             const finishRoom = availableRooms[availableRooms.length - 1] + 3;
 
-            console.log(group.events);
-
             return (
               <div
                 key={`parallel-group-${groupIndex}`}
@@ -233,8 +231,8 @@ export default function Schedule(props: Props) {
               >
                 {[...group.events]
                   .sort((a, b) => {
-                    if (a.type === 'session' && b.type !== 'session') return -1;
-                    if (a.type !== 'session' && b.type === 'session') return 1;
+                    if (a.type === 'session' && b.type !== 'session') return 1;
+                    if (a.type !== 'session' && b.type === 'session') return -1;
                     return 0;
                   })
                   .map((event, eventIndex) => (
