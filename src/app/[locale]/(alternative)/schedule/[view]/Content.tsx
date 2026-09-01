@@ -140,7 +140,7 @@ export default function Content({ loading = false, ...props }: Props) {
     },
     {
       id: 'english',
-      predicate: (event) => event.lang === 'en',
+      predicate: (event) => (event.lang === 'en' || event.type == 'info') && event.lang != 'pt',
     },
     {
       id: 'industry',
