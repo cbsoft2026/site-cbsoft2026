@@ -231,6 +231,13 @@ export default function Schedule(props: Props) {
               >
                 {[...group.events]
                   .sort((a, b) => {
+                    if (a.title.toLowerCase().includes('keynote') && !b.title.toLowerCase().includes('keynote'))
+                      return -1;
+                    if (!a.title.toLowerCase().includes('keynote') && b.title.toLowerCase().includes('keynote'))
+                      return 1;
+                    return 0;
+                  })
+                  .sort((a, b) => {
                     if (a.type === 'session' && b.type !== 'session') return 1;
                     if (a.type !== 'session' && b.type === 'session') return -1;
                     return 0;
