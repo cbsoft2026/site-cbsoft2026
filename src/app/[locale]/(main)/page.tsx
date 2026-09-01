@@ -236,7 +236,7 @@ export default async function HomePage({ params }: Props) {
 
       <section id='org-apoio-patro' className={styles.sponsors}>
         <div className={`container ${styles['sponsors__description']}`}>
-          <p>Quem está contribuindo</p>
+          <p>{homeT('who_contributing')}</p>
         </div>
         <div className={`container ${styles['sponsors__container']}`}>
           {Object.entries(sponsors).map(
