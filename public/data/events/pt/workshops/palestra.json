@@ -59,7 +59,8 @@
         "rooms": ["b1"]
     },
     {
-        "title": "Keynote VEM (B9 Room)",
+        "title": "Keynote VEM: Rethinking Software Maintenance in the Age of AI (B9 Room)",
+        "description": "Generative AI is rapidly moving Software Engineering from coding assistance toward agents capable of understanding repositories, planning changes, modifying artifacts, and verifying solutions. This shift invites us to rethink what software maintenance means when changes are increasingly performed through human–AI collaboration and autonomous agents. In particular, we discuss a triad of debts that is relevant in this new landscape: Technical Debt, related to the quality and sustainability of software artifacts; Cognitive Debt, associated with the loss or insufficiency of human understanding of systems increasingly modified with AI support; and Intent Debt, arising from the difficulty of preserving and recovering the motivations, decisions, constraints, and goals behind those changes. The keynote also discusses context as a new maintenance artifact and presents challenges for the effective and safe evolution of software through human-AI collaboration and increasingly autonomous agents.",
         "speakers": ["marcos-kalinowski"],
         "schedule": {
             "start": "2026-09-11T14:00:00-03:00",
