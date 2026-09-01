@@ -288,6 +288,8 @@
 
 - id: andrews-medina
   name: Andrews Medina
+  image: Andrews_Medina.webp
+  bio: Andrews Medina has spent his career building and leading engineering teams behind large-scale systems. His work combines leadership and hands-on experience—from writing code to deploying systems that serve millions of users. He held leadership engineering positions at Globo.com, Jusbrasil, and Indaband, where he built and scaled teams and infrastructure to operate at high volume. He is the co-creator of the open-source projects tsuru.io and Splinter. More recently, his focus has shifted to researching sustainable and scalable ways to build AI agents. When he's not architecting distributed systems, he can be found reading or playing guitar.
 
 - id: thiago-silva-conceicao
   name: Thiago da Silva Conceição
