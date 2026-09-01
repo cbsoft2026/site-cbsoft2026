@@ -70,4 +70,9 @@ ou simplesmente realizar o build.
 - `src/app/app.config.ts`: configurações globais do evento, como ano, conferência, organização e fuso horário.
 - `src/app/config/`: configurações relacionadas ao evento.
 
+<br/>
+
+<small>Realização:</small><br/>
+<img src="./public/images/logos/sbc-logo.svg" width="300px">
+
 [^1]: Idealmente
