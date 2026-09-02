@@ -1272,8 +1272,8 @@
         "track": "pesquisa"
     },
     {
-        "title": "Detecting Behavioral Changes in Python Refactoring Implementation with Foundation Models",
-        "authors": ["Jonhnanthan Oliveira (UFCG)", "Rohit Gheyi (UFCG)", "Marcio Ribeiro (UFAL)", "Alessandro Garcia (PUC-Rio)"],
+        "title": "Detecting, Ranking and Planning Issue-based Refactorings with a Multi-Agent Architecture",
+        "authors": ["Henrique Peres (PUC-Rio)", "Alessandro Garcia (PUC-Rio)"],
         "schedule": {
             "start": "2026-09-10T17:30:00-03:00",
             "end": "2026-09-10T17:50:00-03:00"
@@ -1282,21 +1282,11 @@
         "track": "pesquisa"
     },
     {
-        "title": "Detecting, Ranking and Planning Issue-based Refactorings with a Multi-Agent Architecture",
-        "authors": ["Henrique Peres (PUC-Rio)", "Alessandro Garcia (PUC-Rio)"],
-        "schedule": {
-            "start": "2026-09-10T17:50:00-03:00",
-            "end": "2026-09-10T18:10:00-03:00"
-        },
-        "rooms": ["b10"],
-        "track": "pesquisa"
-    },
-    {
         "title": "ARIT: A Tool for Detecting Code Smells in Clojure Programs",
         "authors": ["Thiago Laurentino (UFCG)", "Rafael Serey (UFCG)", "Walber Araújo (UFCG)", "Natália Rodrigues João Brunet (UFCG)"],
         "schedule": {
-            "start": "2026-09-10T18:10:00-03:00",
-            "end": "2026-09-10T18:20:00-03:00"
+            "start": "2026-09-10T17:50:00-03:00",
+            "end": "2026-09-10T18:00:00-03:00"
         },
         "rooms": ["b10"],
         "track": "tools"
@@ -1305,11 +1295,22 @@
         "title": "JADE: A VSCode Plugin for Static Analysis-Guided AI-Assisted Refactoring",
         "authors": ["Ruan Neres (IFTM)", "Marcelo de Almeida Maia (UFU)", "Carlos Eduardo Carvalho Dantas (IFTM-UDI-CENTRO)"],
         "schedule": {
-            "start": "2026-09-10T18:20:00-03:00",
-            "end": "2026-09-10T18:30:00-03:00"
+            "start": "2026-09-10T18:00:00-03:00",
+            "end": "2026-09-10T18:10:00-03:00"
         },
         "rooms": ["b10"],
         "track": "tools"
+    },
+    {
+        "title": "Detecting Behavioral Changes in Python Refactoring Implementation with Foundation Models",
+        "authors": ["Jonhnanthan Oliveira (UFCG)", "Rohit Gheyi (UFCG)", "Marcio Ribeiro (UFAL)", "Alessandro Garcia (PUC-Rio)"],
+        
+        "schedule": {
+            "start": "2026-09-10T18:10:00-03:00",
+            "end": "2026-09-10T18:30:00-03:00"
+        },
+        "rooms": ["b10"],
+        "track": "pesquisa"
     },
     {
         "title": "O Retrato de uma Comunidade Científica: Uma Viagem pelos 39 anos de História da Engenharia de Software Brasileira no SBES",
