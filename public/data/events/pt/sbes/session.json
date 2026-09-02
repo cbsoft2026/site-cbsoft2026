@@ -135,7 +135,7 @@
             "start": "2026-09-11T11:00:00-03:00",
             "end": "2026-09-11T12:30:00-03:00"
         },
-        "rooms": ["ccsl"]
+        "rooms": ["ime-cec"]
     },
     {
         "title": "ST20 SBES: Testes e Qualidade III",
@@ -268,7 +268,7 @@
             "start": "2026-09-10T16:30:00-03:00",
             "end": "2026-09-10T18:30:00-03:00"
         },
-        "rooms": ["ccsl"]
+        "rooms": ["ime-cec"]
     },
     {
         "title": "ST27 SBES: Práticas e Ferramentas de Engenharia de Software",
