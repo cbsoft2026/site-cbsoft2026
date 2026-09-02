@@ -18,7 +18,7 @@
         "rooms": ["auditorio-fau", "auditorio-ime", "b5", "b16", "b9", "b10", "b1", "b2", "b3", "b101", "ime-cec", "b7", "ccsl"]
     },
     {
-        "title": "ST01 SBES: Educação em Engenharia de Software I",
+        "title": "st01-sbes",
         "schedule": {
             "start": "2026-09-09T11:00:00-03:00",
             "end": "2026-09-09T12:30:00-03:00"
@@ -26,7 +26,7 @@
         "rooms": ["b16"]
     },
     {
-        "title": "ST08 SBES: Arquitetura, APIs, Microsserviços e Cloud",
+        "title": "st08-sbes",
         "schedule": {
             "start": "2026-09-09T14:00:00-03:00",
             "end": "2026-09-09T16:00:00-03:00"
@@ -34,7 +34,7 @@
         "rooms": ["auditorio-ime"]
     },
     {
-        "title": "ST02 SBES: Engenharia de Software para IA e Ciência de Dados",
+        "title": "st02-sbes",
         "schedule": {
             "start": "2026-09-09T11:00:00-03:00",
             "end": "2026-09-09T12:30:00-03:00"
@@ -42,7 +42,7 @@
         "rooms": ["b9"]
     },
     {
-        "title": "ST09 SBES: Educação em Engenharia de Software II",
+        "title": "st09-sbes",
         "schedule": {
             "start": "2026-09-09T14:00:00-03:00",
             "end": "2026-09-09T16:00:00-03:00"
@@ -50,7 +50,7 @@
         "rooms": ["b9"]
     },
     {
-        "title": "ST03 SBES: Manutenção, Refatoração e Dívida Técnica I",
+        "title": "st03-sbes",
         "schedule": {
             "start": "2026-09-09T11:00:00-03:00",
             "end": "2026-09-09T12:30:00-03:00"
@@ -58,7 +58,7 @@
         "rooms": ["b10"]
     },
     {
-        "title": "ST10 SBES: Fatores Humanos em Engenharia de Software I",
+        "title": "st10-sbes",
         "schedule": {
             "start": "2026-09-09T14:00:00-03:00",
             "end": "2026-09-09T16:00:00-03:00"
@@ -66,7 +66,7 @@
         "rooms": ["b10"]
     },
     {
-        "title": "ST04 SBES: IA para Engenharia de Software I",
+        "title": "st04-sbes",
         "schedule": {
             "start": "2026-09-09T11:00:00-03:00",
             "end": "2026-09-09T12:30:00-03:00"
@@ -74,7 +74,7 @@
         "rooms": ["b1"]
     },
     {
-        "title": "ST11 SBES: IA para Engenharia de Software II",
+        "title": "st11-sbes",
         "schedule": {
             "start": "2026-09-09T14:00:00-03:00",
             "end": "2026-09-09T16:00:00-03:00"
@@ -82,7 +82,7 @@
         "rooms": ["b1"]
     },
     {
-        "title": "ST05 SBES: Requisitos, UX e Acessibilidade I",
+        "title": "st05-sbes",
         "schedule": {
             "start": "2026-09-09T11:00:00-03:00",
             "end": "2026-09-09T12:30:00-03:00"
@@ -90,7 +90,7 @@
         "rooms": ["b2"]
     },
     {
-        "title": "ST12 SBES: Análise Estática e Evolução de Software",
+        "title": "st12-sbes",
         "schedule": {
             "start": "2026-09-09T14:00:00-03:00",
             "end": "2026-09-09T16:00:00-03:00"
@@ -98,7 +98,7 @@
         "rooms": ["b2"]
     },
     {
-        "title": "ST06 SBES: Segurança e Confiabilidade I",
+        "title": "st06-sbes",
         "schedule": {
             "start": "2026-09-09T11:00:00-03:00",
             "end": "2026-09-09T12:30:00-03:00"
@@ -106,7 +106,7 @@
         "rooms": ["b3"]
     },
     {
-        "title": "ST13 SBES: Requisitos, UX e Acessibilidade II",
+        "title": "st13-sbes",
         "schedule": {
             "start": "2026-09-09T14:00:00-03:00",
             "end": "2026-09-09T16:00:00-03:00"
@@ -114,7 +114,7 @@
         "rooms": ["b3"]
     },
     {
-        "title": "ST07 SBES: Sustentabilidade e IoT",
+        "title": "st07-sbes",
         "schedule": {
             "start": "2026-09-09T11:00:00-03:00",
             "end": "2026-09-09T12:30:00-03:00"
@@ -122,7 +122,7 @@
         "rooms": ["b101"]
     },
     {
-        "title": "ST14 SBES: Testes e Qualidade I",
+        "title": "st14-sbes",
         "schedule": {
             "start": "2026-09-09T14:00:00-03:00",
             "end": "2026-09-09T16:00:00-03:00"
@@ -138,7 +138,7 @@
         "rooms": ["ime-cec"]
     },
     {
-        "title": "ST20 SBES: Testes e Qualidade III",
+        "title": "st20-sbes",
         "schedule": {
             "start": "2026-09-10T16:30:00-03:00",
             "end": "2026-09-10T18:30:00-03:00"
@@ -166,7 +166,7 @@
         "rooms": ["auditorio-ime"]
     },
     {
-        "title": "ST15 SBES: Segurança e Confiabilidade II",
+        "title": "st15-sbes",
         "schedule": {
             "start": "2026-09-10T11:00:00-03:00",
             "end": "2026-09-10T12:30:00-03:00"
@@ -174,7 +174,7 @@
         "rooms": ["b9"]
     },
     {
-        "title": "ST21 SBES: Educação em Engenharia de Software IV",
+        "title": "st21-sbes",
         "schedule": {
             "start": "2026-09-10T16:30:00-03:00",
             "end": "2026-09-10T18:30:00-03:00"
@@ -182,7 +182,7 @@
         "rooms": ["b9"]
     },
     {
-        "title": "ST16 SBES: Testes e Qualidade II",
+        "title": "st16-sbes",
         "schedule": {
             "start": "2026-09-10T11:00:00-03:00",
             "end": "2026-09-10T12:30:00-03:00"
@@ -190,7 +190,7 @@
         "rooms": ["b10"]
     },
     {
-        "title": "ST22 SBES: Manutenção, Refatoração e Dívida Técnica II",
+        "title": "st22-sbes",
         "schedule": {
             "start": "2026-09-10T16:30:00-03:00",
             "end": "2026-09-10T18:30:00-03:00"
@@ -198,7 +198,7 @@
         "rooms": ["b10"]
     },
     {
-        "title": "ST17 SBES: Educação em Engenharia de Software III",
+        "title": "st17-sbes",
         "schedule": {
             "start": "2026-09-10T11:00:00-03:00",
             "end": "2026-09-10T12:30:00-03:00"
@@ -206,7 +206,7 @@
         "rooms": ["b1"]
     },
     {
-        "title": "ST23 SBES: SBES 40 Anos: História, Comunidade e Futuro",
+        "title": "st23-sbes",
         "schedule": {
             "start": "2026-09-10T16:30:00-03:00",
             "end": "2026-09-10T18:30:00-03:00"
@@ -214,7 +214,7 @@
         "rooms": ["b1"]
     },
     {
-        "title": "ST18 SBES: Fatores Humanos em Engenharia de Software II",
+        "title": "st18-sbes",
         "schedule": {
             "start": "2026-09-10T11:00:00-03:00",
             "end": "2026-09-10T12:30:00-03:00"
@@ -222,7 +222,7 @@
         "rooms": ["b2"]
     },
     {
-        "title": "ST24 SBES: Educação em Engenharia de Software V",
+        "title": "st24-sbes",
         "schedule": {
             "start": "2026-09-10T16:30:00-03:00",
             "end": "2026-09-10T18:30:00-03:00"
@@ -238,7 +238,7 @@
         "rooms": ["b3"]
     },
     {
-        "title": "ST19 SBES: Métodos e Ferramentas para Pesquisa em Engenharia de Software",
+        "title": "st19-sbes",
         "schedule": {
             "start": "2026-09-10T11:00:00-03:00",
             "end": "2026-09-10T12:30:00-03:00"
@@ -271,7 +271,7 @@
         "rooms": ["ime-cec"]
     },
     {
-        "title": "ST27 SBES: Práticas e Ferramentas de Engenharia de Software",
+        "title": "st27-sbes",
         "schedule": {
             "start": "2026-09-11T14:00:00-03:00",
             "end": "2026-09-11T16:00:00-03:00"
@@ -311,7 +311,7 @@
         "rooms": ["auditorio-ime"]
     },
     {
-        "title": "ST25 SBES: Requisitos, UX e Acessibilidade III",
+        "title": "st25-sbes",
         "schedule": {
             "start": "2026-09-11T11:00:00-03:00",
             "end": "2026-09-11T12:30:00-03:00"
@@ -319,7 +319,7 @@
         "rooms": ["b2"]
     },
     {
-        "title": "ST28 SBES: Processos, Gestão e Ecossistemas",
+        "title": "st28-sbes",
         "schedule": {
             "start": "2026-09-11T14:00:00-03:00",
             "end": "2026-09-11T16:00:00-03:00"
@@ -327,7 +327,7 @@
         "rooms": ["b2"]
     },
     {
-        "title": "ST26 SBES: Manutenção, Refatoração e Dívida Técnica III",
+        "title": "st26-sbes",
         "schedule": {
             "start": "2026-09-11T11:00:00-03:00",
             "end": "2026-09-11T12:30:00-03:00"
