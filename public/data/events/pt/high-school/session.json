@@ -9,12 +9,22 @@
     },
     {
         "title": "Ensino Médio: Conhecendo a USP e o Bacharelado em Ciência da Computação do IME-USP",
-        "description": "Apresentação do Bacharelado em Ciência da Computação e caminhada do IEE-USP até a FAU-USP.",
+        "description": "Apresentação do Bacharelado em Ciência da Computação.",
         "schedule": {
             "start": "2026-09-08T09:00:00-03:00",
             "end": "2026-09-08T11:00:00-03:00"
         },
         "type": "info"
+    },
+    {
+        "title": "Ensino Médio: Almoço no Bandejão Central",
+        "description": "Após o almoço, os estudantes farão uma caminhada até a Faculdade de Arquitetura, Urbanismo e Design (FAU-USP) para participarem das demais atividades previstas.",
+        "schedule": {
+            "start": "2026-09-08T12:00:00-03:00",
+            "end": "2026-09-08T14:00:00-03:00"
+        },
+        "type": "info",
+        "rooms": ["auditorio-fau"]
     },
     {
         "title": "Ensino Médio: Sessão de pôsteres",
