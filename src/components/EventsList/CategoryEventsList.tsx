@@ -10,6 +10,8 @@ type Props = {
   events: Record<string, Event>;
   locale: string;
   emptyMessage: string;
+  sort?: (a: Event, b: Event) => number;
+  groupByCategory?: boolean;
 };
 
 function deduplicateEvents(events: Record<string, Event>) {
@@ -57,13 +59,45 @@ export async function getCategoryEvents(locale: string, filter: (event: Event) =
     }, {});
 }
 
-export default async function CategoryEventsList({ events, locale, emptyMessage }: Props) {
-  const commonT = await getTranslations({ locale, namespace: 'common' });
+type CategoryNameProps = {
+  locale: string;
+  category: string;
+};
 
+async function CategoryName({ locale, category }: CategoryNameProps) {
+  const commonT = await getTranslations({ locale, namespace: 'common' });
+  let name = '';
+
+  if (commonT.has(category) && commonT.has(`siglas.${category}`)) {
+    const categoryName = commonT(`siglas.${category}`);
+    const categoryAcronym = commonT(category);
+    if (categoryName == categoryAcronym) {
+      name = commonT(`siglas.${category}`);
+    } else {
+      name = `${commonT(`siglas.${category}`)} (${commonT(category)})`;
+    }
+  } else if (commonT.has(category)) {
+    name = commonT(category);
+  } else if (commonT.has(`siglas.${category}`)) {
+    name = commonT(`siglas.${category}`);
+  } else {
+    name = category.toLowerCase().replace(/\b\w/g, (c) => c.toUpperCase());
+  }
+
+  return name;
+}
+
+export default async function CategoryEventsList({
+  events,
+  locale,
+  emptyMessage,
+  sort,
+  groupByCategory = true,
+}: Props) {
   const uniqueEvents = deduplicateEvents(events);
 
   const grouped = Object.entries(uniqueEvents).reduce<Record<string, Record<string, Event>>>((acc, [id, event]) => {
-    const category = event.category ?? DEFAULT_CATEGORY;
+    const category = groupByCategory ? (event.category ?? DEFAULT_CATEGORY) : (event.simposio ?? DEFAULT_CATEGORY);
 
     (acc[category] ??= {})[id] = event;
 
@@ -92,16 +126,12 @@ export default async function CategoryEventsList({ events, locale, emptyMessage 
           {category !== DEFAULT_CATEGORY && (
             <div className='container'>
               <h4>
-                {commonT.has(category)
-                  ? commonT(category)
-                  : commonT.has(`siglas.${category}`)
-                    ? commonT(`siglas.${category}`)
-                    : category.toLowerCase().replace(/\b\w/g, (c) => c.toUpperCase())}
+                <CategoryName locale={locale} category={category} />
               </h4>
             </div>
           )}
 
-          <EventComponent events={grouped[category]} locale={locale} />
+          <EventComponent events={grouped[category]} locale={locale} sort={sort} />
         </div>
       ))}
     </>

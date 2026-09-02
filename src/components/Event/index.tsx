@@ -12,9 +12,10 @@ type Props = {
   events: Record<string, Event>;
   event?: Event;
   locale: string;
+  sort?: (a: Event, b: Event) => number;
 };
 
-async function ParentTable({ events, event, locale }: Props) {
+async function ParentTable({ events, event, locale, sort }: Props) {
   const t = await getTranslations({ locale, namespace: 'pages/schedule' });
   const commonT = await getTranslations({ locale, namespace: 'common' });
 
@@ -35,76 +36,79 @@ async function ParentTable({ events, event, locale }: Props) {
       </tr>
     );
 
-  return (event?.parentIds || Object.values(events))
+  const sortedEvents = (event?.parentIds || Object.values(events))
+    .map((parentId) => (typeof parentId === 'string' ? (events[parentId] as Event) : parentId))
     .sort((a, b) => {
-      const parentA = typeof a === 'string' ? (events[a] as Event) : a;
-      const parentB = typeof b === 'string' ? (events[b] as Event) : b;
-      return new Date(parentA.schedule?.start ?? '').getTime() - new Date(parentB.schedule?.start ?? '').getTime();
-    })
-    .map(async (parentId, index) => {
-      const parentEvent = typeof parentId === 'string' ? (events[parentId] as Event) : parentId;
+      const result = sort?.(a, b) ?? 0;
 
-      const scheduleT = await getTranslations('schedule');
-
-      let title = parentEvent.title;
-
-      if (scheduleT.has(parentEvent.title)) {
-        title = scheduleT(parentEvent.title);
+      if (result !== 0) {
+        return result;
       }
 
-      return (
-        <tr key={index}>
-          <th style={{ display: 'flex', minWidth: 150 }}>
-            {parentEvent.schedule && parentEvent.schedule.start != parentEvent.schedule.end ? (
-              <p>
-                {new Date(parentEvent.schedule.start).toLocaleDateString(locale, {
-                  month: 'short',
-                  day: '2-digit',
-                  hour: '2-digit',
-                  minute: '2-digit',
-                })}
-              </p>
+      return new Date(a.schedule?.start ?? '').getTime() - new Date(b.schedule?.start ?? '').getTime();
+    });
+
+  return sortedEvents.map(async (parentEvent, index) => {
+    const scheduleT = await getTranslations('schedule');
+
+    let title = parentEvent.title;
+
+    if (scheduleT.has(parentEvent.title)) {
+      title = scheduleT(parentEvent.title);
+    }
+
+    return (
+      <tr key={index}>
+        <th style={{ display: 'flex', minWidth: 150 }}>
+          {parentEvent.schedule && parentEvent.schedule.start != parentEvent.schedule.end ? (
+            <p>
+              {new Date(parentEvent.schedule.start).toLocaleDateString(locale, {
+                month: 'short',
+                day: '2-digit',
+                hour: '2-digit',
+                minute: '2-digit',
+              })}
+            </p>
+          ) : (
+            ''
+          )}
+        </th>
+        <td>
+          <h6>{title}</h6>
+          <div className={styles['chips__grouped']} data-pagefind-ignore>
+            {parentEvent.track ? (
+              <span className={styles.chip}>
+                <small>{commonT(`siglas.trilhas.${parentEvent.track}`)}</small>
+              </span>
             ) : (
               ''
             )}
-          </th>
-          <td>
-            <h6>{title}</h6>
-            <div className={styles['chips__grouped']} data-pagefind-ignore>
-              {parentEvent.track ? (
-                <span className={styles.chip}>
-                  <small>{commonT(`siglas.trilhas.${parentEvent.track}`)}</small>
-                </span>
-              ) : (
-                ''
-              )}
-              {parentEvent.category &&
-              `common.siglas.${parentEvent.category}` != commonT(`siglas.${parentEvent.category}`) ? (
-                <span className={styles.chip}>
-                  <small>{commonT(`siglas.${parentEvent.category}`)}</small>
-                </span>
-              ) : (
-                ''
-              )}
-            </div>
-            <p>{parentEvent.description}</p>
-            <i>
-              {parentEvent.participants &&
-                parentEvent.participants
-                  .map((participant) =>
-                    typeof participant === 'object' && participant !== null && !Array.isArray(participant)
-                      ? ''
-                      : participant,
-                  )
-                  .join(', ')}
-            </i>
-          </td>
-        </tr>
-      );
-    });
+            {parentEvent.category && commonT.has(`siglas.${parentEvent.category}`) ? (
+              <span className={styles.chip}>
+                <small>{commonT(`siglas.${parentEvent.category}`)}</small>
+              </span>
+            ) : (
+              ''
+            )}
+          </div>
+          <p>{parentEvent.description}</p>
+          <i>
+            {parentEvent.participants &&
+              parentEvent.participants
+                .map((participant) =>
+                  typeof participant === 'object' && participant !== null && !Array.isArray(participant)
+                    ? ''
+                    : participant,
+                )
+                .join(', ')}
+          </i>
+        </td>
+      </tr>
+    );
+  });
 }
 
-export default async function EventComponent({ events, event, locale }: Props) {
+export default async function EventComponent({ events, event, locale, sort }: Props) {
   const t = await getTranslations({ locale, namespace: 'pages/schedule' });
   const commonT = await getTranslations({ locale, namespace: 'common' });
 
@@ -200,7 +204,7 @@ export default async function EventComponent({ events, event, locale }: Props) {
 
         <table className={styles.table}>
           <tbody>
-            <ParentTable events={events} event={event} locale={locale} />
+            <ParentTable events={events} event={event} locale={locale} sort={sort} />
           </tbody>
         </table>
       </main>
