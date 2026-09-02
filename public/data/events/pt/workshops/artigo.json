@@ -881,8 +881,8 @@
         "category": "aisecdev"
     },
     {
-        "title": "Humans in Control: A Methodological Framework for Quality Assurance in Agentic Software Engineering (Vision Paper)",
-        "authors": [],
+        "title": "Humans in Control: A Methodological Framework for Quality Assurance in Agentic Software Engineering",
+        "authors": ["Matheus Silveira (USP, Brazil)", "Paulo Meirelles (USP, Brazil)", "Igor Steinmacher (NAU, USA)", "Fabio Kon (USP, Brazil)"],
         "schedule": {
             "start": "2026-09-08T12:10:00-03:00",
             "end": "2026-09-08T12:18:00-03:00"
@@ -892,7 +892,7 @@
     },
     {
         "title": "Accountability in Agentic Secure Software Development Life Cycles: Challenges, Degradation Scenarios, and Governance Principles",
-        "authors": [],
+        "authors": ["Rubens Abraão da Silva Sousa (UECE, Brazil)", "Gabriel Pinheiro (UECE, Brazil)", "Igor Ramsés Temóteo dos Santos (UECE, Brazil)", "Sávio Freire (IFCE, Brazil)", "Ismayle Santos (UECE, Brazil)", "Paulo Maia  (UECE, Brazil)"],
         "schedule": {
             "start": "2026-09-08T12:18:00-03:00",
             "end": "2026-09-08T12:26:00-03:00"
@@ -902,7 +902,7 @@
     },
     {
         "title": "Beyond Task Completion: Product and Human-Agent Process Quality in Agentic Software Engineering",
-        "authors": [],
+        "authors": ["Rubens Abraão da Silva Sousa (UECE, Brazil)", "Gabriel Pinheiro (UECE, Brazil)", "Evellin Moura (UECE, Brazil)", "Ismayle Santos (UECE, Brazil)", "Sávio Freire (IFCE, Brazil)", "Paulo Maia (UECE, Brazil)"],
         "schedule": {
             "start": "2026-09-08T14:00:00-03:00",
             "end": "2026-09-08T14:08:00-03:00"
@@ -912,7 +912,7 @@
     },
     {
         "title": "System Prompts as Specifications: Assessing the Verifiability of Claude Code Sub-Agent Behavioral Claims",
-        "authors": [],
+        "authors": ["Débora Souza (UFCG, Brazil)", "Pedro Lima (UFCG, Brazil)"],
         "schedule": {
             "start": "2026-09-08T14:08:00-03:00",
             "end": "2026-09-08T14:18:00-03:00"
@@ -922,7 +922,7 @@
     },
     {
         "title": "Measure the Right Thing, at the Right Grain: Three Measurement Traps in Evaluating Code-Repair Agents",
-        "authors": [],
+        "authors": ["Joao Wieland (COPPE / UFRJ, Brazil)", "Diego Castro (CEFET/RJ, Brazil)", "Claudia Werner (COPPE / UFRJ, Brazil)"],
         "schedule": {
             "start": "2026-09-08T14:18:00-03:00",
             "end": "2026-09-08T14:26:00-03:00"
@@ -932,7 +932,7 @@
     },
     {
         "title": "Benchmarking Agentic Frameworks for Incremental Software Evolution",
-        "authors": [],
+        "authors": ["Vitor Linhares (UECE, Brazil)", "Anderson Gomes (UECE, Brazil)", "Ingrid Vieira (UECE, Brazil)", "Paulo Maia (UECE, Brazil)"],
         "schedule": {
             "start": "2026-09-08T14:26:00-03:00",
             "end": "2026-09-08T14:36:00-03:00"
@@ -942,7 +942,7 @@
     },
     {
         "title": "Fairness Risk Triage in Pull Requests Using an LLM-Based Reviewer: An Experiment on Prompting Strategies",
-        "authors": [],
+        "authors": ["Gabriel Fernandes de Oliveira Caitano (UFMS, Brazil)", "Arthur Cacciatore (UFMS, Brazil)", "Awdren de Lima Fontão (UFMS, Brazil)"],
         "schedule": {
             "start": "2026-09-08T14:36:00-03:00",
             "end": "2026-09-08T14:46:00-03:00"
@@ -952,7 +952,7 @@
     },
     {
         "title": "Agentes de Codificação de IA como Prática Colaborativa: Implicações para Equipes de Desenvolvimento de Software",
-        "authors": [],
+        "authors": ["Lucas Feksa Hickmann (UFRGS, Brazil)", "Barbara de Jesus Hoch (UFRGS, Brazil)", "Rafael Parizi (IFFar, Brazil)", "Leticia Machado (UFRGS, Brazil)"],
         "schedule": {
             "start": "2026-09-08T15:10:00-03:00",
             "end": "2026-09-08T15:20:00-03:00"
@@ -962,7 +962,7 @@
     },
     {
         "title": "Agile Management for Foundation Model Based Agentic Systems: A Vision",
-        "authors": [],
+        "authors": ["Lucas Romão (PUC-Rio, Brazil)", "Yasmin Sandes (PUC-Rio, Brazil)", "Gabriel Mariquito (PUC-Rio, Brazil)", "José Matheus Boaro (PUC-Rio, Brazil)", "Marcos Antonio Alves (UFMG, Brazil)", "Marcos Kalinowski (PUC-Rio, Brazil)"],
         "schedule": {
             "start": "2026-09-08T15:20:00-03:00",
             "end": "2026-09-08T15:28:00-03:00"
@@ -972,7 +972,7 @@
     },
     {
         "title": "From Meeting Audio to Requirements: A Generative-AI Multi-Agent Pipeline",
-        "authors": [],
+        "authors": ["Gabriel Silva (INF/UFG, Brazil)", "Jacson Rodrigues Barbosa (UFG, Brazil)", "Paulo Marcos Soares Rodrigues (LIGO, Brazil)", "Heitor Rodrigues (UFG, Brazil)"],
         "schedule": {
             "start": "2026-09-08T15:28:00-03:00",
             "end": "2026-09-08T15:38:00-03:00"
@@ -982,7 +982,7 @@
     },
     {
         "title": "Towards a Perspective-Based Multi-Agent Architecture for Requirements Engineering of ML-Enabled Systems",
-        "authors": [],
+        "authors": ["José Matheus Boaro (PUC-Rio, Brazil)", "Matheus Soranço (PUC-Rio, Brazil)", "Marcos Kalinowski (PUC-Rio, Brazil)"],
         "schedule": {
             "start": "2026-09-08T15:38:00-03:00",
             "end": "2026-09-08T15:46:00-03:00"
@@ -992,7 +992,7 @@
     },
     {
         "title": "Towards an Agentic MAPE-K Architecture for Self-Adaptive Robotic Arm Systems",
-        "authors": [],
+        "authors": ["Joaquim Ribeiro (UECE, Brazil)", "Beatriz Andrade (UECE, Brazil)", "Suyane Freitas (UECE, Brazil)", "Lucas Vieira Alves (UECE, Brazil)", "Paulo Maia (UECE, Brazil)"],
         "schedule": {
             "start": "2026-09-08T17:30:00-03:00",
             "end": "2026-09-08T17:40:00-03:00"
@@ -1002,7 +1002,7 @@
     },
     {
         "title": "Towards Agentic Research Problem Engineering: A Vision for Human-AI Collaboration in Software Engineering Research",
-        "authors": [],
+        "authors": ["Anrafel Fernandes Pereira (PUC-Rio, Brazil)", "Rafael Tomaz (PUC Rio, Brazil)", "Paloma Guenes Costa (PUC-Rio, Brazil)", "Eduardo Almentero (UFRRJ, Brazil)", "Allysson Allex Araújo (UFCA, Brazil)", "Marcos Kalinowski (PUC-Rio, Brazil)"],
         "schedule": {
             "start": "2026-09-08T17:40:00-03:00",
             "end": "2026-09-08T17:48:00-03:00"
@@ -1011,8 +1011,8 @@
         "category": "se4as"
     },
     {
-        "title": "Lessons Learned from Developing a Multi-Agent Healthcare Chatbot for Sickle Cell Disease Care",
-        "authors": [],
+        "title": "HemaChat: Lessons Learned from Developing a Multi-Agent Healthcare Chatbot for Sickle Cell Disease Care",
+        "authors": ["David Pereira (UFCG, Brazil)", "Herman Martins Gomes (UFCG, Brazil)", "Cláudio Elízio Calazans Campelo (UFCG, Brazil)", "Eliane Araújo (UFCG, Brazil)"],
         "schedule": {
             "start": "2026-09-08T17:48:00-03:00",
             "end": "2026-09-08T17:58:00-03:00"
@@ -1022,7 +1022,7 @@
     },
     {
         "title": "Improving Agentic AI Opportunity Identification Through GORE Driven Prompt Engineering",
-        "authors": [],
+        "authors": ["Edson Andrade de Moraes (PUC-Rio, Brazil)", "Marcos Kalinowski (PUC-Rio, Brazil)"],
         "schedule": {
             "start": "2026-09-08T17:58:00-03:00",
             "end": "2026-09-08T18:12:00-03:00"
