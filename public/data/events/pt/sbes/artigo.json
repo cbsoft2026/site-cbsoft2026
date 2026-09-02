@@ -110,14 +110,14 @@
         "track": "tools"
     },
     {
-        "title": "Gigantes ou Moinhos de Vento? Um Estudo Empírico sobre a Evolução e Disseminação de Arquivos Grandes",
-        "authors": ["Mateus Batichotti Silva (UTFPR Campo Mourão)", "Tiago Defendi da Silva (UTFPR)", "Igor Scaliante Wiese (UTFPR)", "Ivanilton Polato (UTFPR)", "Reginaldo Ré (UTFPR)"],
+        "title": "An Architecture for Explanation-Oriented Agents in Predictive Maintenance Systems",
+        "authors": ["Vitor Linhares (UECE Universidade Estadual do Ceará)", "Paulo Maia (Uece)", "Lucas Almeida Aguiar (State University of Ceara)", "Murilo Coelho (Uece)", "Lucas Alves", "Cleilton Rocha (Instituto Atlântico)"],
         "schedule": {
             "start": "2026-09-09T11:00:00-03:00",
             "end": "2026-09-09T11:20:00-03:00"
         },
         "rooms": ["b10"],
-        "track": "pesquisa"
+        "track": "ideias"
     },
     {
         "title": "Mining Architectural Technical Debt through LLM-Assisted Issue Inspection: An Empirical Study with Apache Projects",
@@ -150,14 +150,14 @@
         "track": "ideias"
     },
     {
-        "title": "An Architecture for Explanation-Oriented Agents in Predictive Maintenance Systems",
-        "authors": ["Vitor Linhares (UECE Universidade Estadual do Ceará)", "Paulo Maia (Uece)", "Lucas Almeida Aguiar (State University of Ceara)", "Murilo Coelho (Uece)", "Lucas Alves", "Cleilton Rocha (Instituto Atlântico)"],
+        "title": "Gigantes ou Moinhos de Vento? Um Estudo Empírico sobre a Evolução e Disseminação de Arquivos Grandes",
+        "authors": ["Mateus Batichotti Silva (UTFPR Campo Mourão)", "Tiago Defendi da Silva (UTFPR)", "Igor Scaliante Wiese (UTFPR)", "Ivanilton Polato (UTFPR)", "Reginaldo Ré (UTFPR)"],
         "schedule": {
             "start": "2026-09-09T12:15:00-03:00",
             "end": "2026-09-09T12:30:00-03:00"
         },
         "rooms": ["b10"],
-        "track": "ideias"
+        "track": "pesquisa"
     },
     {
         "title": "When the Pair Becomes Three: An Empirical Study of GitHub Copilot in Pair Programming",
