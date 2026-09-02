@@ -181,6 +181,7 @@
             "end": "2026-09-10T21:00:00-03:00"
         },
         "type": "info",
+        "lang": "pt",
         "rooms": ["auditorio-fau", "auditorio-ime", "b5", "b16", "b9", "b10", "b1", "b2", "b3", "b7", "ccsl", "b101", "numec"]
     },
     {
