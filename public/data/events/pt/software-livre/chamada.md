@@ -6,7 +6,7 @@ O Congresso Brasileiro de Software (CBSoft) 2026 tem o prazer de convidar você 
 
 Faça parte desse momento.
 
-**O evento acontecerá no dia 11 de setembro de 2026, das 11h às 18h** (com sessões às 11h, 14h e 16h30), na **Faculdade de Arquitetura e Urbanismo (FAU-USP)**, localizada ao lado do IME-USP.
+**O evento acontecerá no dia 11 de setembro de 2026, das 11h às 18h** (com sessões às 11h, 14h e 16h30), no **Auditório do CCSL** (_Imre Simon_).
 
 #### Inscrições
 

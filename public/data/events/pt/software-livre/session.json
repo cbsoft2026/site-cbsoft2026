@@ -7,7 +7,7 @@
         },
         "type": "info",
         "url": "/software-livre/",
-        "rooms": ["auditorio-fau"]
+        "rooms": ["ccsl"]
     },
     {
         "title": "celebration-of-free-software",
@@ -17,7 +17,7 @@
         },
         "type": "info",
         "url": "/software-livre/",
-        "rooms": ["auditorio-fau"]
+        "rooms": ["ccsl"]
     },
     {
         "title": "celebration-of-free-software",
@@ -27,6 +27,6 @@
         },
         "type": "info",
         "url": "/software-livre/",
-        "rooms": ["auditorio-fau"]
+        "rooms": ["ccsl"]
     }
 ]
