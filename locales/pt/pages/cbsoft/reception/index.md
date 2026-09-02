@@ -5,6 +5,7 @@ Para termos um primeiro dia com muita integração, networking e boa comida, con
 - **Data:** 08 de setembro de 2026 (Terça-feira)
 - **Horário:** Das 19h às 22h (teremos alguns ônibus saindo da USP, mais informações em breve)
 - **Local:** Chacrinha – Vila Leopoldina
+- **Endereço:** R. Aroaba, 51 – Vila Leopoldina, São Paulo – SP
 - **Acesso:** Espaço reservado exclusivamente para os participantes do evento.
 
 ## Sobre o Espaço

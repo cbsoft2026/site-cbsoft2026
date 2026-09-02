@@ -5,6 +5,7 @@ To kick off the first day with plenty of interaction, networking, and good food,
 - **Date:** September 8, 2026 (Tuesday)
 - **Time:** 7:00 PM to 10:00 PM (there will be a few buses leaving from USP; more information coming soon)
 - **Location:** Chacrinha – Vila Leopoldina
+- **Address:** R. Aroaba, 51 – Vila Leopoldina, São Paulo – SP
 - **Access:** The space is reserved exclusively for event participants.
 
 ## About the Venue
