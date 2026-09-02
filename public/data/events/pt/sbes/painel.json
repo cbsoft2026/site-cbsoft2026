@@ -18,7 +18,7 @@
             "end": "2026-09-10T16:00:00-03:00"
         },
         "lang": "en",
-        "rooms": ["auditorio-fau", "auditorio-ime", "b5", "b16", "b9", "b10", "b1", "b2", "b3", "ccsl", "b101", "numec"]
+        "rooms": ["auditorio-fau", "auditorio-ime", "b5", "b16", "b9", "b10", "b1", "b2", "b3", "b101", "ime-cec"]
     },
     {
         "title": "Painel 4",

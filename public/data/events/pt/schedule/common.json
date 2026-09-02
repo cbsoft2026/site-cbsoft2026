@@ -31,16 +31,16 @@
             "label": "b101"
         },
         {
-            "label": "ccsl"
-        },
-        {
-            "label": "numec"
-        },
-        {
             "label": "ime-cec"
         },
         {
             "label": "b7"
+        },
+        {
+            "label": "ccsl"
+        },
+        {
+            "label": "numec"
         }
     ],
     "startsInDate": "2026-09-08T08:00:00-03:00"

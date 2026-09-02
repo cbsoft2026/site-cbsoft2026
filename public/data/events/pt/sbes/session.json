@@ -6,7 +6,7 @@
             "end": "2026-09-09T09:30:00-03:00"
         },
         "type": "info",
-        "rooms": ["auditorio-fau", "auditorio-ime", "b5", "b16", "b9", "b10", "b1", "b2", "b3", "ccsl", "b101"]
+        "rooms": ["auditorio-fau", "auditorio-ime", "b5", "b16", "b9", "b10", "b1", "b2", "b3", "b101", "ime-cec", "b7", "ccsl"]
     },
     {
         "title": "Premiação do SBES - Sala Alan Turing (auditório FAU)",
@@ -15,7 +15,7 @@
             "end": "2026-09-11T09:30:00-03:00"
         },
         "type": "info",
-        "rooms": ["auditorio-fau", "auditorio-ime", "b5", "b16", "b9", "b10", "b1", "b2", "b3", "ccsl", "b101"]
+        "rooms": ["auditorio-fau", "auditorio-ime", "b5", "b16", "b9", "b10", "b1", "b2", "b3", "b101", "ime-cec", "b7", "ccsl"]
     },
     {
         "title": "ST01 SBES: Educação em Engenharia de Software I",

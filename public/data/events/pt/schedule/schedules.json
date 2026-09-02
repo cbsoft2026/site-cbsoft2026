@@ -6,7 +6,7 @@
             "end": "2026-09-08T09:00:00-03:00"
         },
         "type": "info",
-        "rooms": ["auditorio-fau", "auditorio-ime", "b5", "b16", "b9", "b10", "b1", "b2", "b3", "b7", "ccsl", "b101", "numec"]
+        "rooms": ["auditorio-fau", "auditorio-ime", "b5", "b16", "b9", "b10", "b1", "b2", "b3", "b101", "ime-cec", "b7", "ccsl", "numec"]
     },
     {
         "title": "registration",
@@ -15,7 +15,7 @@
             "end": "2026-09-09T09:00:00-03:00"
         },
         "type": "info",
-        "rooms": ["auditorio-fau", "auditorio-ime", "b5", "b16", "b9", "b10", "b1", "b2", "b3", "b7", "ccsl", "b101", "numec"]
+        "rooms": ["auditorio-fau", "auditorio-ime", "b5", "b16", "b9", "b10", "b1", "b2", "b3", "b101", "ime-cec", "b7", "ccsl", "numec"]
     },
     {
         "title": "registration",
@@ -24,7 +24,7 @@
             "end": "2026-09-10T09:00:00-03:00"
         },
         "type": "info",
-        "rooms": ["auditorio-fau", "auditorio-ime", "b5", "b16", "b9", "b10", "b1", "b2", "b3", "b7", "ccsl", "b101", "numec"]
+        "rooms": ["auditorio-fau", "auditorio-ime", "b5", "b16", "b9", "b10", "b1", "b2", "b3", "b101", "ime-cec", "b7", "ccsl", "numec"]
     },
     {
         "title": "registration",
@@ -33,7 +33,7 @@
             "end": "2026-09-11T09:00:00-03:00"
         },
         "type": "info",
-        "rooms": ["auditorio-fau", "auditorio-ime", "b5", "b16", "b9", "b10", "b1", "b2", "b3", "b7", "ccsl", "b101", "numec"]
+        "rooms": ["auditorio-fau", "auditorio-ime", "b5", "b16", "b9", "b10", "b1", "b2", "b3", "b101", "ime-cec", "b7", "ccsl", "numec"]
     },
     {
         "title": "morning-coffee-break",
@@ -42,7 +42,7 @@
             "end": "2026-09-08T11:00:00-03:00"
         },
         "type": "info",
-        "rooms": ["auditorio-fau", "auditorio-ime", "b5", "b16", "b9", "b10", "b1", "b2", "b3", "b7", "ccsl", "b101", "numec"]
+        "rooms": ["auditorio-fau", "auditorio-ime", "b5", "b16", "b9", "b10", "b1", "b2", "b3", "b101", "ime-cec", "b7", "ccsl", "numec"]
     },
     {
         "title": "morning-coffee-break",
@@ -51,7 +51,7 @@
             "end": "2026-09-09T11:00:00-03:00"
         },
         "type": "info",
-        "rooms": ["auditorio-fau", "auditorio-ime", "b5", "b16", "b9", "b10", "b1", "b2", "b3", "b7", "ccsl", "b101", "numec"]
+        "rooms": ["auditorio-fau", "auditorio-ime", "b5", "b16", "b9", "b10", "b1", "b2", "b3", "b101", "ime-cec", "b7", "ccsl", "numec"]
     },
     {
         "title": "morning-coffee-break",
@@ -60,7 +60,7 @@
             "end": "2026-09-10T11:00:00-03:00"
         },
         "type": "info",
-        "rooms": ["auditorio-fau", "auditorio-ime", "b5", "b16", "b9", "b10", "b1", "b2", "b3", "b7", "ccsl", "b101", "numec"]
+        "rooms": ["auditorio-fau", "auditorio-ime", "b5", "b16", "b9", "b10", "b1", "b2", "b3", "b101", "ime-cec", "b7", "ccsl", "numec"]
     },
     {
         "title": "morning-coffee-break",
@@ -69,7 +69,7 @@
             "end": "2026-09-11T11:00:00-03:00"
         },
         "type": "info",
-        "rooms": ["auditorio-fau", "auditorio-ime", "b5", "b16", "b9", "b10", "b1", "b2", "b3", "b7", "ccsl", "b101", "numec"]
+        "rooms": ["auditorio-fau", "auditorio-ime", "b5", "b16", "b9", "b10", "b1", "b2", "b3", "b101", "ime-cec", "b7", "ccsl", "numec"]
     },
     {
         "title": "lunch",
@@ -78,7 +78,7 @@
             "end": "2026-09-08T14:00:00-03:00"
         },
         "type": "info",
-        "rooms": ["auditorio-fau", "auditorio-ime", "b5", "b16", "b9", "b10", "b1", "b2", "b3", "b7", "ccsl", "b101", "numec"]
+        "rooms": ["auditorio-fau", "auditorio-ime", "b5", "b16", "b9", "b10", "b1", "b2", "b3", "b101", "ime-cec", "b7", "ccsl", "numec"]
     },
     {
         "title": "lunch",
@@ -87,7 +87,7 @@
             "end": "2026-09-09T14:00:00-03:00"
         },
         "type": "info",
-        "rooms": ["auditorio-fau", "auditorio-ime", "b5", "b16", "b9", "b10", "b1", "b2", "b3", "b7", "ccsl", "b101", "numec"]
+        "rooms": ["auditorio-fau", "auditorio-ime", "b5", "b16", "b9", "b10", "b1", "b2", "b3", "b101", "ime-cec", "b7", "ccsl", "numec"]
     },
     {
         "title": "women-lunch",
@@ -107,7 +107,7 @@
             "end": "2026-09-10T14:00:00-03:00"
         },
         "type": "info",
-        "rooms": ["auditorio-ime", "b5", "b16", "b9", "b10", "b1", "b2", "b3", "b7", "ccsl", "b101", "numec"]
+        "rooms": ["auditorio-ime", "b5", "b16", "b9", "b10", "b1", "b2", "b3", "b101", "ime-cec", "b7", "ccsl", "numec"]
     },
     {
         "title": "lunch",
@@ -116,7 +116,7 @@
             "end": "2026-09-11T14:00:00-03:00"
         },
         "type": "info",
-        "rooms": ["auditorio-fau", "auditorio-ime", "b5", "b16", "b9", "b10", "b1", "b2", "b3", "b7", "ccsl", "b101", "numec"]
+        "rooms": ["auditorio-fau", "auditorio-ime", "b5", "b16", "b9", "b10", "b1", "b2", "b3", "b101", "ime-cec", "b7", "ccsl", "numec"]
     },
     {
         "title": "afternoon-coffee-break",
@@ -125,7 +125,7 @@
             "end": "2026-09-08T16:30:00-03:00"
         },
         "type": "info",
-        "rooms": ["auditorio-ime", "b5", "b16", "b9", "b10", "b1", "b2", "b3", "ccsl", "b101", "numec"]
+        "rooms": ["auditorio-ime", "b5", "b16", "b9", "b10", "b1", "b2", "b3", "b101", "ime-cec", "b7", "ccsl", "numec"]
     },
     {
         "title": "afternoon-coffee-break",
@@ -134,7 +134,7 @@
             "end": "2026-09-09T16:30:00-03:00"
         },
         "type": "info",
-        "rooms": ["auditorio-fau", "auditorio-ime", "b5", "b16", "b9", "b10", "b1", "b2", "b3", "b7", "ccsl", "b101", "numec"]
+        "rooms": ["auditorio-fau", "auditorio-ime", "b5", "b16", "b9", "b10", "b1", "b2", "b3", "b101", "ime-cec", "b7", "ccsl", "numec"]
     },
     {
         "title": "afternoon-coffee-break",
@@ -143,7 +143,7 @@
             "end": "2026-09-10T16:30:00-03:00"
         },
         "type": "info",
-        "rooms": ["auditorio-fau", "auditorio-ime", "b5", "b16", "b9", "b10", "b1", "b2", "b3", "b7", "ccsl", "b101", "numec"]
+        "rooms": ["auditorio-fau", "auditorio-ime", "b5", "b16", "b9", "b10", "b1", "b2", "b3", "b101", "ime-cec", "b7", "ccsl", "numec"]
     },
     {
         "title": "afternoon-coffee-break",
@@ -152,7 +152,7 @@
             "end": "2026-09-11T16:30:00-03:00"
         },
         "type": "info",
-        "rooms": ["auditorio-fau", "auditorio-ime", "b5", "b16", "b9", "b10", "b1", "b2", "b3", "b7", "ccsl", "b101", "numec"]
+        "rooms": ["auditorio-fau", "auditorio-ime", "b5", "b16", "b9", "b10", "b1", "b2", "b3", "b101", "ime-cec", "b7", "ccsl", "numec"]
     },
     {
         "title": "opening-reception",
@@ -162,7 +162,7 @@
         },
         "type": "info",
         "url": "/cbsoft/reception/",
-        "rooms": ["auditorio-fau", "auditorio-ime", "b5", "b16", "b9", "b10", "b1", "b2", "b3", "b7", "ccsl", "b101", "numec"]
+        "rooms": ["auditorio-fau", "auditorio-ime", "b5", "b16", "b9", "b10", "b1", "b2", "b3", "b101", "ime-cec", "b7", "ccsl", "numec"]
     },
     {
         "title": "cbsoft-dinner",
@@ -172,7 +172,7 @@
         },
         "type": "info",
         "url": "/cbsoft/dinner/",
-        "rooms": ["auditorio-fau", "auditorio-ime", "b5", "b16", "b9", "b10", "b1", "b2", "b3", "b7", "ccsl", "b101", "numec"]
+        "rooms": ["auditorio-fau", "auditorio-ime", "b5", "b16", "b9", "b10", "b1", "b2", "b3", "b101", "ime-cec", "b7", "ccsl", "numec"]
     },
     {
         "title": "special-committees-meeting",
@@ -182,7 +182,7 @@
         },
         "type": "info",
         "lang": "pt",
-        "rooms": ["auditorio-fau", "auditorio-ime", "b5", "b16", "b9", "b10", "b1", "b2", "b3", "b7", "ccsl", "b101", "numec"]
+        "rooms": ["auditorio-fau", "auditorio-ime", "b5", "b16", "b9", "b10", "b1", "b2", "b3", "b101", "ime-cec", "b7", "ccsl", "numec"]
     },
     {
         "title": "happy-hour",
@@ -192,6 +192,6 @@
         },
         "type": "info",
         "url": "/cbsoft/happy-hour/",
-        "rooms": ["auditorio-fau", "auditorio-ime", "b5", "b16", "b9", "b10", "b1", "b2", "b3", "b7", "ccsl", "b101", "numec"]
+        "rooms": ["auditorio-fau", "auditorio-ime", "b5", "b16", "b9", "b10", "b1", "b2", "b3", "b101", "ime-cec", "b7", "ccsl", "numec"]
     }
 ]
