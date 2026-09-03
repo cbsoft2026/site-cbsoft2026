@@ -7,6 +7,7 @@
             "end": "2026-09-08T11:20:00-03:00"
         },
         "badges": ["available"],
+        "artifact": "https://zenodo.org/records/22127454",
         "rooms": ["b16"]
     },
     {
@@ -17,6 +18,7 @@
             "end": "2026-09-08T11:40:00-03:00"
         },
         "badges": ["available", "functional"],
+        "artifact": "https://zenodo.org/records/21878471",
         "rooms": ["b16"]
     },
     {
@@ -54,6 +56,7 @@
             "end": "2026-09-08T14:40:00-03:00"
         },
         "badges": ["available", "functional"],
+        "artifact": "https://doi.org/10.5281/zenodo.22146387",
         "rooms": ["b16"]
     },
     {
@@ -64,6 +67,7 @@
             "end": "2026-09-08T15:00:00-03:00"
         },
         "badges": ["available", "functional"],
+        "artifact": "https://doi.org/10.5281/zenodo.22135439",
         "rooms": ["b16"]
     },
     {

@@ -69,6 +69,7 @@
         "lang": "en",
         "category": "research",
         "badges": ["available"],
+        "artifact": "https://zenodo.org/records/22119557",
         "rooms": ["b10"]
     },
     {
@@ -135,6 +136,7 @@
         },
         "category": "research",
         "badges": ["available"],
+        "artifact": "https://doi.org/10.5281/zenodo.21866721",
         "rooms": ["b16"]
     },
     {
@@ -186,6 +188,7 @@
         },
         "category": "research",
         "badges": ["available", "functional"],
+        "artifact": "https://doi.org/10.5281/zenodo.22130934",
         "rooms": ["b16"]
     },
     {
@@ -217,6 +220,7 @@
         },
         "category": "pindustry",
         "badges": ["available"],
+        "artifact": "https://doi.org/10.5281/zenodo.22117826",
         "rooms": ["b16"]
     },
     {
@@ -268,6 +272,7 @@
         },
         "category": "research",
         "badges": ["available", "functional"],
+        "artifact": "https://doi.org/10.5281/zenodo.22119340",
         "rooms": ["b9"]
     },
     {
@@ -279,6 +284,7 @@
         },
         "category": "research",
         "badges": ["available", "functional"],
+        "artifact": "https://doi.org/10.5281/zenodo.22118906",
         "rooms": ["b9"]
     },
     {
@@ -320,6 +326,7 @@
         },
         "category": "research",
         "badges": ["available"],
+        "artifact": "https://doi.org/10.5281/zenodo.21121958",
         "rooms": ["b101"]
     },
     {

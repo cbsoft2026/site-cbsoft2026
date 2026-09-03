@@ -9,6 +9,7 @@ export const PaperSchema = Type.Object({
   category: Type.Optional(Type.String()),
   authors: Type.Array(Type.String()),
   badges: Type.Optional(Type.Array(BadgeType)),
+  artifact: Type.Optional(Type.String({ pattern: '^https?://.+$' })),
   ...ScheduleSchema.properties,
 });
 

@@ -15,6 +15,8 @@ export const EventType = Type.Union([
 
 export const eventType = ['info', 'palestra', 'painel', 'tutorial', 'session', 'artigo', null] as const;
 
+export const MetadataType = Type.Record(Type.String(), Type.Union([Type.String()]));
+
 export const EventSchema = Type.Object({
   ...ScheduleSchema.properties,
   id: Type.String(),
@@ -27,9 +29,12 @@ export const EventSchema = Type.Object({
   parentIds: Type.Optional(Type.Array(Type.String())),
   category: Type.Optional(Type.String()),
   badges: Type.Optional(Type.Array(BadgeType)),
+  metadata: Type.Optional(MetadataType),
 });
 
 export const EventsSchema = Type.Array(EventSchema);
+
+export type MetadataType = Static<typeof MetadataType>;
 
 export type EventType = Static<typeof EventType>;
 export type Event = Static<typeof EventSchema>;

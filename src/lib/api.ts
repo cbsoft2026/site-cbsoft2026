@@ -12,7 +12,7 @@ import { defaultLang, Locale } from '@/app/config/locales';
 import { SessionsSchema } from '@/types/session';
 import { Participant } from '@/types/participants';
 import { Rooms } from '@/types/rooms';
-import { Event, Events, EventType } from '@/types/event';
+import { Event, Events, EventType, MetadataType } from '@/types/event';
 import { events, EventStructureType } from '@/app/config/event-structure';
 import { speakers } from '@/data';
 
@@ -160,6 +160,11 @@ export function loadEvents(lang: string = defaultLang): Map<string, Event> {
             return isParentSession;
           });
 
+          const metadata: MetadataType = {};
+          if (p.artifact) {
+            metadata['artifact_url'] = p.artifact;
+          }
+
           events.push({
             type: (p.type as EventType) || 'artigo',
             simposio: slug,
@@ -174,6 +179,7 @@ export function loadEvents(lang: string = defaultLang): Map<string, Event> {
             category: p.category,
             url: p.url,
             badges: p.badges || [],
+            metadata: metadata || {},
           });
         });
       },

@@ -16,6 +16,7 @@
             "end": "2026-09-10T16:50:00-03:00"
         },
         "badges": ["available"],
+        "artifact": "https://doi.org/10.17605/OSF.IO/A27VE",
         "rooms": ["b16"]
     },
     {
@@ -53,6 +54,7 @@
             "end": "2026-09-11T17:10:00-03:00"
         },
         "badges": ["available", "functional"],
+        "artifact": "https://doi.org/10.5281/zenodo.22149511",
         "rooms": ["b16"]
     },
     {
@@ -72,6 +74,7 @@
             "end": "2026-09-11T17:30:00-03:00"
         },
         "badges": ["available", "functional"],
+        "artifact": "https://zenodo.org/records/21682992",
         "rooms": ["b16"]
     },
     {
@@ -82,6 +85,7 @@
             "end": "2026-09-11T15:20:00-03:00"
         },
         "badges": ["available", "functional"],
+        "artifact": "https://doi.org/10.5281/zenodo.22135610",
         "rooms": ["b16"]
     },
     {
@@ -111,6 +115,7 @@
             "end": "2026-09-11T11:15:00-03:00"
         },
         "badges": ["available", "functional"],
+        "artifact": "https://doi.org/10.5281/zenodo.22181982",
         "rooms": ["b16"]
     },
     {
@@ -121,6 +126,7 @@
             "end": "2026-09-11T12:10:00-03:00"
         },
         "badges": ["available", "functional"],
+        "artifact": "https://doi.org/10.5281/zenodo.21730607",
         "rooms": ["b16"]
     },
     {
@@ -167,6 +173,7 @@
             "end": "2026-09-10T12:00:00-03:00"
         },
         "badges": ["available", "functional"],
+        "artifact": "https://doi.org/10.5281/zenodo.22217671",
         "rooms": ["b16"]
     },
     {

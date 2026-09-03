@@ -53,3 +53,19 @@
 
   flex: 1;
 }
+
+.external_urls {
+  margin-top: 12px;
+  font-size: small;
+
+  a {
+    text-decoration: none;
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+
+  svg {
+    margin-right: 4px;
+  }
+}

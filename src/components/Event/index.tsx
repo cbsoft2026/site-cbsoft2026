@@ -10,6 +10,8 @@ import { defaultLang } from '@/app/config/locales';
 
 import Image from 'next/image';
 import LinkLocale from '@/components/LinkLocale';
+import { faLink } from '@fortawesome/free-solid-svg-icons';
+import { withUTM } from '@/utils/utm';
 
 type Props = {
   events: Record<string, Event>;
@@ -156,6 +158,22 @@ async function ParentTable({ events, event, locale, sort }: Props) {
                 )
                 .join(', ')}
           </i>
+          {Object.keys(parentEvent.metadata || {}).length > 0 && (
+            <div className={styles['external_urls']}>
+              {Object.entries(parentEvent.metadata || {}).map(([key, value]) => {
+                switch (key) {
+                  case 'artifact_url':
+                    return (
+                      <a key={key} target='_blank' rel='noopener noreferrer' href={withUTM(value)}>
+                        <FontAwesomeIcon icon={faLink} />
+                        {t('artifact')}
+                      </a>
+                    );
+                }
+                return null;
+              })}
+            </div>
+          )}
         </td>
       </tr>
     );
