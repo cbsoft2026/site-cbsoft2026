@@ -29,13 +29,3 @@ $link-color: $primary !default;
 $link-hover-color: $primary-alt !default;
 
 $box-shadow: 0px 4px 16px rgba(0, 0, 0, 0.08);
-
-:root {
-    --primary: #{$primary};
-    --primary-alt: #{$primary-alt};
-
-    --secondary: #{$secondary};
-    --secondary-alt: #{$secondary-alt};
-
-    --accent: #{$accent};
-}

@@ -6,6 +6,16 @@
   box-sizing: border-box;
 }
 
+:root {
+  --primary: #{vars.$primary};
+  --primary-alt: #{vars.$primary-alt};
+
+  --secondary: #{vars.$secondary};
+  --secondary-alt: #{vars.$secondary-alt};
+
+  --accent: #{vars.$accent};
+}
+
 h1,
 h2,
 h3,
