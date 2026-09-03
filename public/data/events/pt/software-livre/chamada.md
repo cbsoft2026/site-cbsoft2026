@@ -8,6 +8,10 @@ Faça parte desse momento.
 
 **O evento acontecerá no dia 11 de setembro de 2026, das 11h às 18h** (com sessões às 11h, 14h e 16h30), no **Auditório do CCSL** (_Imre Simon_).
 
+Endereço: [Av. Prof. Luciano Gualberto, 1171. Cidade Universitária, Butantã - São Paulo - SP][endereco].
+
+[endereco]: https://ccsl.ime.usp.br/pt-br/localizacao/
+
 #### Inscrições
 
 [Faça a sua inscrição aqui][inscricao]!
