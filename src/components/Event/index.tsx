@@ -8,6 +8,9 @@ import SpeakerCard from '@/components/SpeakerCard';
 import TemplateMarkdown from '../TemplateMarkdown';
 import { defaultLang } from '@/app/config/locales';
 
+import Image from 'next/image';
+import LinkLocale from '@/components/LinkLocale';
+
 type Props = {
   events: Record<string, Event>;
   event?: Event;
@@ -74,7 +77,58 @@ async function ParentTable({ events, event, locale, sort }: Props) {
           )}
         </th>
         <td>
-          <h6>{title}</h6>
+          <h6>
+            {title}
+            {parentEvent.badges ? (
+              <span
+                style={{
+                  height: '1em',
+                  verticalAlign: 'middle',
+                  marginLeft: '4px',
+                  paddingBottom: '4px',
+                  userSelect: 'none',
+                }}
+              >
+                {' '}
+                {parentEvent.badges.map((badge) => {
+                  return (
+                    <LinkLocale key={badge} href={{ pathname: '/artifacts' }} locale={locale}>
+                      <picture>
+                        {(() => {
+                          if (badge == 'available') {
+                            return (
+                              <Image
+                                src={`${process.env.NEXT_PUBLIC_ASSET_PREFIX}/images/artifacts/artifacts_available.webp`}
+                                style={{ height: '1em', verticalAlign: 'middle', marginLeft: '4px' }}
+                                alt='artifacts available'
+                                width={16}
+                                height={16}
+                                priority
+                              />
+                            );
+                          }
+                          if (badge == 'functional') {
+                            return (
+                              <Image
+                                src={`${process.env.NEXT_PUBLIC_ASSET_PREFIX}/images/artifacts/artifacts_functional.webp`}
+                                style={{ height: '1em', verticalAlign: 'middle', marginLeft: '4px' }}
+                                alt='artifacts functional'
+                                width={16}
+                                height={16}
+                                priority
+                              />
+                            );
+                          }
+                        })()}
+                      </picture>
+                    </LinkLocale>
+                  );
+                })}
+              </span>
+            ) : (
+              ''
+            )}
+          </h6>
           <div className={styles['chips__grouped']} data-pagefind-ignore>
             {parentEvent.track ? (
               <span className={styles.chip}>

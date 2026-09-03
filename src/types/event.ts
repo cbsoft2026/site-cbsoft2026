@@ -1,6 +1,7 @@
 import { Type, Static } from '@sinclair/typebox';
 import { ScheduleSchema } from './schedule';
 import { ParticipantSchema } from './participants';
+import { BadgeType } from './papers';
 
 export const EventType = Type.Union([
   Type.Literal('info'),
@@ -25,6 +26,7 @@ export const EventSchema = Type.Object({
   track: Type.Union([Type.Null(), Type.String()]),
   parentIds: Type.Optional(Type.Array(Type.String())),
   category: Type.Optional(Type.String()),
+  badges: Type.Optional(Type.Array(BadgeType)),
 });
 
 export const EventsSchema = Type.Array(EventSchema);

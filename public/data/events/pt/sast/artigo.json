@@ -68,6 +68,7 @@
         },
         "lang": "en",
         "category": "research",
+        "badges": ["available"],
         "rooms": ["b10"]
     },
     {
@@ -133,6 +134,7 @@
             "end": "2026-09-08T16:45:00-03:00"
         },
         "category": "research",
+        "badges": ["available"],
         "rooms": ["b16"]
     },
     {
@@ -183,6 +185,7 @@
             "end": "2026-09-08T18:00:00-03:00"
         },
         "category": "research",
+        "badges": ["available", "functional"],
         "rooms": ["b16"]
     },
     {
@@ -213,6 +216,7 @@
             "end": "2026-09-08T18:27:00-03:00"
         },
         "category": "pindustry",
+        "badges": ["available"],
         "rooms": ["b16"]
     },
     {
@@ -263,6 +267,7 @@
             "end": "2026-09-08T17:45:00-03:00"
         },
         "category": "research",
+        "badges": ["available", "functional"],
         "rooms": ["b9"]
     },
     {
@@ -273,6 +278,7 @@
             "end": "2026-09-08T18:00:00-03:00"
         },
         "category": "research",
+        "badges": ["available", "functional"],
         "rooms": ["b9"]
     },
     {
@@ -313,6 +319,7 @@
             "end": "2026-09-08T16:45:00-03:00"
         },
         "category": "research",
+        "badges": ["available"],
         "rooms": ["b101"]
     },
     {

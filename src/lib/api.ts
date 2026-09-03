@@ -173,6 +173,7 @@ export function loadEvents(lang: string = defaultLang): Map<string, Event> {
             parentIds: parentSession ? [parentSession.id] : [],
             category: p.category,
             url: p.url,
+            badges: p.badges || [],
           });
         });
       },
