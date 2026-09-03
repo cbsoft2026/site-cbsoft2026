@@ -27,6 +27,7 @@
             "end": "2026-09-09T12:00:00-03:00"
         },
         "rooms": ["b16"],
+        "badges": ["available", "functional"],
         "track": "educacao"
     },
     {
@@ -97,6 +98,7 @@
             "end": "2026-09-09T12:20:00-03:00"
         },
         "rooms": ["b9"],
+        "badges": ["available", "functional"],
         "track": "tools"
     },
     {
@@ -157,6 +159,7 @@
             "end": "2026-09-09T12:30:00-03:00"
         },
         "rooms": ["b10"],
+        "badges": ["available", "functional"],
         "track": "pesquisa"
     },
     {
@@ -177,6 +180,7 @@
             "end": "2026-09-09T11:40:00-03:00"
         },
         "rooms": ["b1"],
+        "badges": ["available"],
         "track": "pesquisa"
     },
     {
@@ -187,6 +191,7 @@
             "end": "2026-09-09T12:00:00-03:00"
         },
         "rooms": ["b1"],
+        "badges": ["available", "functional"],
         "track": "pesquisa"
     },
     {
@@ -197,6 +202,7 @@
             "end": "2026-09-09T12:10:00-03:00"
         },
         "rooms": ["b1"],
+        "badges": ["available", "functional"],
         "track": "tools"
     },
     {
@@ -227,6 +233,7 @@
             "end": "2026-09-09T11:40:00-03:00"
         },
         "rooms": ["b2"],
+        "badges": ["available"],
         "track": "pesquisa"
     },
     {
@@ -317,6 +324,7 @@
             "end": "2026-09-09T12:20:00-03:00"
         },
         "rooms": ["b3"],
+        "badges": ["available", "functional"],
         "track": "tools"
     },
     {
@@ -388,6 +396,7 @@
             "end": "2026-09-09T14:20:00-03:00"
         },
         "rooms": ["auditorio-ime"],
+        "badges": ["available"],
         "track": "pesquisa"
     },
     {
@@ -408,6 +417,7 @@
             "end": "2026-09-09T15:00:00-03:00"
         },
         "rooms": ["auditorio-ime"],
+        "badges": ["available", "functional"],
         "track": "pesquisa"
     },
     {
@@ -478,6 +488,7 @@
             "end": "2026-09-09T15:00:00-03:00"
         },
         "rooms": ["b9"],
+        "badges": ["available"],
         "track": "educacao"
     },
     {
@@ -548,6 +559,7 @@
             "end": "2026-09-09T15:20:00-03:00"
         },
         "rooms": ["b10"],
+        "badges": ["available", "functional"],
         "track": "pesquisa"
     },
     {
@@ -588,6 +600,7 @@
             "end": "2026-09-09T14:40:00-03:00"
         },
         "rooms": ["b1"],
+        "badges": ["available", "functional"],
         "track": "pesquisa"
     },
     {
@@ -628,6 +641,7 @@
             "end": "2026-09-09T15:45:00-03:00"
         },
         "rooms": ["b1"],
+        "badges": ["available", "functional"],
         "track": "tools"
     },
     {
@@ -668,6 +682,7 @@
             "end": "2026-09-09T14:55:00-03:00"
         },
         "rooms": ["b2"],
+        "badges": ["available", "functional"],
         "track": "pesquisa"
     },
     {
@@ -688,6 +703,7 @@
             "end": "2026-09-09T15:20:00-03:00"
         },
         "rooms": ["b2"],
+        "badges": ["available", "functional"],
         "track": "tools"
     },
     {
@@ -698,6 +714,7 @@
             "end": "2026-09-09T15:40:00-03:00"
         },
         "rooms": ["b2"],
+        "badges": ["available", "functional"],
         "track": "pesquisa"
     },
     {
@@ -708,6 +725,7 @@
             "end": "2026-09-09T16:00:00-03:00"
         },
         "rooms": ["b2"],
+        "badges": ["available", "functional"],
         "track": "pesquisa"
     },
     {
@@ -728,6 +746,7 @@
             "end": "2026-09-09T14:40:00-03:00"
         },
         "rooms": ["b3"],
+        "badges": ["available"],
         "track": "pesquisa"
     },
     {
@@ -798,6 +817,7 @@
             "end": "2026-09-09T14:40:00-03:00"
         },
         "rooms": ["b101"],
+        "badges": ["available"],
         "track": "pesquisa"
     },
     {
@@ -808,6 +828,7 @@
             "end": "2026-09-09T15:00:00-03:00"
         },
         "rooms": ["b101"],
+        "badges": ["available", "functional"],
         "track": "pesquisa"
     },
     {
@@ -828,6 +849,7 @@
             "end": "2026-09-09T15:35:00-03:00"
         },
         "rooms": ["b101"],
+        "badges": ["available", "functional"],
         "track": "tools"
     },
     {
@@ -849,6 +871,7 @@
             "end": "2026-09-09T15:55:00-03:00"
         },
         "rooms": ["b101"],
+        "badges": ["available", "functional"],
         "track": "pesquisa"
     },
     {
@@ -959,6 +982,7 @@
             "end": "2026-09-10T12:30:00-03:00"
         },
         "rooms": ["b10"],
+        "badges": ["available", "functional"],
         "track": "tools"
     },
     {
@@ -999,6 +1023,7 @@
             "end": "2026-09-10T12:20:00-03:00"
         },
         "rooms": ["b1"],
+        "badges": ["available"],
         "track": "tools"
     },
     {
@@ -1099,6 +1124,7 @@
             "end": "2026-09-10T11:55:00-03:00"
         },
         "rooms": ["b3"],
+        "badges": ["available", "functional"],
         "track": "tools"
     },
     {
@@ -1109,6 +1135,7 @@
             "end": "2026-09-10T12:05:00-03:00"
         },
         "rooms": ["b3"],
+        "badges": ["available"],
         "track": "tools"
     },
     {
@@ -1119,6 +1146,7 @@
             "end": "2026-09-10T12:15:00-03:00"
         },
         "rooms": ["b3"],
+        "badges": ["available"],
         "track": "tools"
     },
     {
@@ -1129,6 +1157,7 @@
             "end": "2026-09-10T12:25:00-03:00"
         },
         "rooms": ["b3"],
+        "badges": ["available", "functional"],
         "track": "tools"
     },
     {
@@ -1139,6 +1168,7 @@
             "end": "2026-09-10T16:50:00-03:00"
         },
         "rooms": ["b5"],
+        "badges": ["available", "functional"],
         "track": "pesquisa"
     },
     {
@@ -1199,6 +1229,7 @@
             "end": "2026-09-10T16:50:00-03:00"
         },
         "rooms": ["b9"],
+        "badges": ["available", "functional"],
         "track": "educacao"
     },
     {
@@ -1249,6 +1280,7 @@
             "end": "2026-09-10T16:50:00-03:00"
         },
         "rooms": ["b10"],
+        "badges": ["available", "functional"],
         "track": "pesquisa"
     },
     {
@@ -1269,6 +1301,7 @@
             "end": "2026-09-10T17:30:00-03:00"
         },
         "rooms": ["b10"],
+        "badges": ["available", "functional"],
         "track": "pesquisa"
     },
     {
@@ -1289,6 +1322,7 @@
             "end": "2026-09-10T18:00:00-03:00"
         },
         "rooms": ["b10"],
+        "badges": ["available", "functional"],
         "track": "tools"
     },
     {
@@ -1299,6 +1333,7 @@
             "end": "2026-09-10T18:10:00-03:00"
         },
         "rooms": ["b10"],
+        "badges": ["available", "functional"],
         "track": "tools"
     },
     {
@@ -1380,6 +1415,7 @@
             "end": "2026-09-10T17:30:00-03:00"
         },
         "rooms": ["b2"],
+        "badges": ["available", "functional"],
         "track": "educacao"
     },
     {
@@ -1440,6 +1476,7 @@
             "end": "2026-09-11T12:00:00-03:00"
         },
         "rooms": ["b2"],
+        "badges": ["available", "functional"],
         "track": "pesquisa"
     },
     {
@@ -1500,6 +1537,7 @@
             "end": "2026-09-11T12:00:00-03:00"
         },
         "rooms": ["b3"],
+        "badges": ["available", "functional"],
         "track": "tools"
     },
     {
@@ -1530,6 +1568,7 @@
             "end": "2026-09-11T14:35:00-03:00"
         },
         "rooms": ["b3"],
+        "badges": ["available"],
         "track": "pesquisa"
     },
     {
@@ -1600,6 +1639,7 @@
             "end": "2026-09-11T14:40:00-03:00"
         },
         "rooms": ["b2"],
+        "badges": ["available", "functional"],
         "track": "pesquisa"
     },
     {
@@ -1640,6 +1680,7 @@
             "end": "2026-09-11T16:00:00-03:00"
         },
         "rooms": ["b2"],
+        "badges": ["available"],
         "track": "tools"
     },
     {
@@ -2018,6 +2059,7 @@
             "end": "2026-09-10T16:30:00-03:00"
         },
         "rooms": ["ime-cec"],
+        "badges": ["available", "functional"],
         "track": "tools"
     },
     {
@@ -2038,6 +2080,7 @@
             "end": "2026-09-10T16:30:00-03:00"
         },
         "rooms": ["ime-cec"],
+        "badges": ["available", "functional"],
         "track": "tools"
     },
     {
@@ -2068,6 +2111,7 @@
             "end": "2026-09-10T16:30:00-03:00"
         },
         "rooms": ["ime-cec"],
+        "badges": ["available", "functional"],
         "track": "tools"
     },
     {
@@ -2128,6 +2172,7 @@
             "end": "2026-09-10T16:30:00-03:00"
         },
         "rooms": ["ime-cec"],
+        "badges": ["available", "functional"],
         "track": "tools"
     },
     {
@@ -2158,6 +2203,7 @@
             "end": "2026-09-10T16:30:00-03:00"
         },
         "rooms": ["ime-cec"],
+        "badges": ["available"],
         "track": "tools"
     },
     {
@@ -2188,6 +2234,7 @@
             "end": "2026-09-11T11:00:00-03:00"
         },
         "rooms": ["ime-cec"],
+        "badges": ["available", "functional"],
         "track": "tools"
     },
     {
@@ -2198,6 +2245,7 @@
             "end": "2026-09-11T11:00:00-03:00"
         },
         "rooms": ["ime-cec"],
+        "badges": ["available", "functional"],
         "track": "tools"
     },
     {
@@ -2208,6 +2256,7 @@
             "end": "2026-09-11T11:00:00-03:00"
         },
         "rooms": ["ime-cec"],
+        "badges": ["available", "functional"],
         "track": "tools"
     },
     {
@@ -2218,6 +2267,7 @@
             "end": "2026-09-11T11:00:00-03:00"
         },
         "rooms": ["ime-cec"],
+        "badges": ["available", "functional"],
         "track": "tools"
     },
     {
@@ -2238,6 +2288,7 @@
             "end": "2026-09-11T11:00:00-03:00"
         },
         "rooms": ["ime-cec"],
+        "badges": ["available", "functional"],
         "track": "tools"
     },
     {
@@ -2258,6 +2309,7 @@
             "end": "2026-09-11T11:00:00-03:00"
         },
         "rooms": ["ime-cec"],
+        "badges": ["available", "functional"],
         "track": "tools"
     },
     {
@@ -2268,6 +2320,7 @@
             "end": "2026-09-11T11:00:00-03:00"
         },
         "rooms": ["ime-cec"],
+        "badges": ["available"],
         "track": "tools"
     },
     {
@@ -2298,6 +2351,7 @@
             "end": "2026-09-11T11:00:00-03:00"
         },
         "rooms": ["ime-cec"],
+        "badges": ["available", "functional"],
         "track": "tools"
     },
     {
@@ -2308,6 +2362,7 @@
             "end": "2026-09-11T11:00:00-03:00"
         },
         "rooms": ["ime-cec"],
+        "badges": ["available"],
         "track": "tools"
     },
     {
@@ -2318,6 +2373,7 @@
             "end": "2026-09-11T11:00:00-03:00"
         },
         "rooms": ["ime-cec"],
+        "badges": ["available"],
         "track": "tools"
     },
     {
@@ -2328,6 +2384,7 @@
             "end": "2026-09-11T11:00:00-03:00"
         },
         "rooms": ["ime-cec"],
+        "badges": ["available", "functional"],
         "track": "tools"
     }
 ]

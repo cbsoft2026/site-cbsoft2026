@@ -83,9 +83,9 @@ async function ParentTable({ events, event, locale, sort }: Props) {
             ) : (
               ''
             )}
-            {parentEvent.category && commonT.has(`siglas.${parentEvent.category}`) ? (
+            {parentEvent.category && commonT.has(parentEvent.category) ? (
               <span className={styles.chip}>
-                <small>{commonT(`siglas.${parentEvent.category}`)}</small>
+                <small>{commonT(parentEvent.category)}</small>
               </span>
             ) : (
               ''
