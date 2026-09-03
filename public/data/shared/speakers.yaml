@@ -115,6 +115,7 @@
   image: Rodrigo_Bonifacio.webp
   name: Rodrigo Bonifácio de Almeida
   institution: CIn - UFPE
+  institution_acronym: UFPE
 
 - id: itana-maria-gimenes
   image: Itana_Maria_Gimenes.webp
@@ -308,3 +309,99 @@
   image: Renato_Bulcao.webp
   institution: CEIA – Centro de Excelência em IA - UFG
   institution_acronym: CEIA
+
+- id: renato-bulcao-neto
+  name: Renato Bulcão Neto
+
+- id: rodrigo-santos
+  name: Rodrigo Santos
+  image: Rodrigo_Santos.webp
+  institution: UNIRIO
+  institution_acronym: UNIRIO
+
+- id: patricia-machado
+  name: Patrícia Machado
+
+- id: edna-dias-canedo
+  name: Edna Dias Canedo
+  image: Edna_Canedo.webp
+  institution: Cin, UFPE
+  institution_acronym: Cin, UFPE
+
+- id: thelma-colanzi
+  name: Thelma Colanzi
+  image: Thelma_Colanzi.webp
+  institution: UEM
+  institution_acronym: UEM
+
+- id: carla-silva
+  name: Carla Silva
+
+- id: igor-wiese
+  name: Igor Wiese
+
+- id: allysson-araujo
+  name: Allysson Araújo
+  institution: UFCA
+  institution_acronym: UFCA
+
+- id: savio-freire
+  name: Sávio Freire
+
+- id: windson-viana
+  name: Windson Viana
+
+- id: walter-nakamura
+  name: Walter T. Nakamura
+
+- id: everton-alves
+  name: Everton L. G. Alves
+
+- id: awdren-fontao
+  name: Awdren Fontão
+  image: Awdren_Fontao.webp
+  institution: UFMS
+  institution_acronym: UFMS
+
+- id: aline-miotto-amaral
+  name: Aline Miotto Amaral
+
+- id: sheila-reinehr
+  name: Sheila Reinehr
+
+- id: gleison-santos
+  name: Gleison Santos
+
+- id: anielle-severo-lisboa-andrade
+  name: Anielle Severo Lisboa de Andrade
+
+- id: vania-neves
+  name: Vânia Neves
+  image: Vania_Neves.webp
+  institution: UFF
+  institution_acronym: UFF
+
+- id: marcia-lima
+  name: Márcia Lima
+
+- id: carla-bezerra
+  name: Carla Bezerra
+  image: Carla_Bezerra.webp
+  institution: UFC
+  institution_acronym: UFC
+
+- id: itana-gimenes
+  image: Itana_Maria_Souza_Gimenes.webp
+  name: Itana Gimenes
+
+- id: igor-pereira
+  name: Igor Muzetti Pereira
+
+- id: bruno-gadelha
+  name: Bruno Gadelha
+
+- id: leopoldo-teixeira
+  name: Leopoldo Teixeira
+
+- id: helvio-jeronimo
+  name: Helvio Jeronimo Jr.

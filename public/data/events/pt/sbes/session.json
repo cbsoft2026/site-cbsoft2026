@@ -19,6 +19,7 @@
     },
     {
         "title": "st01-sbes",
+        "chair": ["rodrigo-santos"],
         "schedule": {
             "start": "2026-09-09T11:00:00-03:00",
             "end": "2026-09-09T12:30:00-03:00"
@@ -27,6 +28,7 @@
     },
     {
         "title": "st08-sbes",
+        "chair": ["carla-silva"],
         "schedule": {
             "start": "2026-09-09T14:00:00-03:00",
             "end": "2026-09-09T16:00:00-03:00"
@@ -35,6 +37,7 @@
     },
     {
         "title": "st02-sbes",
+        "chair": ["rodrigo-bonifacio"],
         "schedule": {
             "start": "2026-09-09T11:00:00-03:00",
             "end": "2026-09-09T12:30:00-03:00"
@@ -43,6 +46,7 @@
     },
     {
         "title": "st09-sbes",
+        "chair": ["igor-wiese"],
         "schedule": {
             "start": "2026-09-09T14:00:00-03:00",
             "end": "2026-09-09T16:00:00-03:00"
@@ -51,6 +55,7 @@
     },
     {
         "title": "st03-sbes",
+        "chair": ["patricia-machado"],
         "schedule": {
             "start": "2026-09-09T11:00:00-03:00",
             "end": "2026-09-09T12:30:00-03:00"
@@ -59,6 +64,7 @@
     },
     {
         "title": "st10-sbes",
+        "chair": ["allysson-araujo"],
         "schedule": {
             "start": "2026-09-09T14:00:00-03:00",
             "end": "2026-09-09T16:00:00-03:00"
@@ -67,6 +73,7 @@
     },
     {
         "title": "st04-sbes",
+        "chair": ["renato-bulcao-neto"],
         "schedule": {
             "start": "2026-09-09T11:00:00-03:00",
             "end": "2026-09-09T12:30:00-03:00"
@@ -75,6 +82,7 @@
     },
     {
         "title": "st11-sbes",
+        "chair": ["savio-freire"],
         "schedule": {
             "start": "2026-09-09T14:00:00-03:00",
             "end": "2026-09-09T16:00:00-03:00"
@@ -83,6 +91,7 @@
     },
     {
         "title": "st05-sbes",
+        "chair": ["edna-dias-canedo"],
         "schedule": {
             "start": "2026-09-09T11:00:00-03:00",
             "end": "2026-09-09T12:30:00-03:00"
@@ -91,6 +100,7 @@
     },
     {
         "title": "st12-sbes",
+        "chair": ["windson-viana"],
         "schedule": {
             "start": "2026-09-09T14:00:00-03:00",
             "end": "2026-09-09T16:00:00-03:00"
@@ -107,6 +117,7 @@
     },
     {
         "title": "st13-sbes",
+        "chair": ["walter-nakamura"],
         "schedule": {
             "start": "2026-09-09T14:00:00-03:00",
             "end": "2026-09-09T16:00:00-03:00"
@@ -115,6 +126,7 @@
     },
     {
         "title": "st07-sbes",
+        "chair": ["thelma-colanzi"],
         "schedule": {
             "start": "2026-09-09T11:00:00-03:00",
             "end": "2026-09-09T12:30:00-03:00"
@@ -123,6 +135,7 @@
     },
     {
         "title": "st14-sbes",
+        "chair": ["everton-alves"],
         "schedule": {
             "start": "2026-09-09T14:00:00-03:00",
             "end": "2026-09-09T16:00:00-03:00"
@@ -139,6 +152,7 @@
     },
     {
         "title": "st20-sbes",
+        "chair": ["vania-neves"],
         "schedule": {
             "start": "2026-09-10T16:30:00-03:00",
             "end": "2026-09-10T18:30:00-03:00"
@@ -167,6 +181,7 @@
     },
     {
         "title": "st15-sbes",
+        "chair": ["awdren-fontao"],
         "schedule": {
             "start": "2026-09-10T11:00:00-03:00",
             "end": "2026-09-10T12:30:00-03:00"
@@ -175,6 +190,7 @@
     },
     {
         "title": "st21-sbes",
+        "chair": ["marcia-lima"],
         "schedule": {
             "start": "2026-09-10T16:30:00-03:00",
             "end": "2026-09-10T18:30:00-03:00"
@@ -183,6 +199,7 @@
     },
     {
         "title": "st16-sbes",
+        "chair": ["aline-miotto-amaral"],
         "schedule": {
             "start": "2026-09-10T11:00:00-03:00",
             "end": "2026-09-10T12:30:00-03:00"
@@ -191,6 +208,7 @@
     },
     {
         "title": "st22-sbes",
+        "chair": ["carla-bezerra"],
         "schedule": {
             "start": "2026-09-10T16:30:00-03:00",
             "end": "2026-09-10T18:30:00-03:00"
@@ -199,6 +217,7 @@
     },
     {
         "title": "st17-sbes",
+        "chair": ["sheila-reinehr"],
         "schedule": {
             "start": "2026-09-10T11:00:00-03:00",
             "end": "2026-09-10T12:30:00-03:00"
@@ -207,6 +226,7 @@
     },
     {
         "title": "st23-sbes",
+        "chair": ["rodrigo-bonifacio", "itana-gimenes"],
         "schedule": {
             "start": "2026-09-10T16:30:00-03:00",
             "end": "2026-09-10T18:30:00-03:00"
@@ -215,6 +235,7 @@
     },
     {
         "title": "st18-sbes",
+        "chair": ["gleison-santos"],
         "schedule": {
             "start": "2026-09-10T11:00:00-03:00",
             "end": "2026-09-10T12:30:00-03:00"
@@ -223,6 +244,7 @@
     },
     {
         "title": "st24-sbes",
+        "chair": ["igor-pereira"],
         "schedule": {
             "start": "2026-09-10T16:30:00-03:00",
             "end": "2026-09-10T18:30:00-03:00"
@@ -239,6 +261,7 @@
     },
     {
         "title": "st19-sbes",
+        "chair": ["anielle-severo-lisboa-andrade"],
         "schedule": {
             "start": "2026-09-10T11:00:00-03:00",
             "end": "2026-09-10T12:30:00-03:00"
@@ -272,6 +295,7 @@
     },
     {
         "title": "st27-sbes",
+        "chair": ["kiev-gama"],
         "schedule": {
             "start": "2026-09-11T14:00:00-03:00",
             "end": "2026-09-11T16:00:00-03:00"
@@ -312,6 +336,7 @@
     },
     {
         "title": "st25-sbes",
+        "chair": ["bruno-gadelha"],
         "schedule": {
             "start": "2026-09-11T11:00:00-03:00",
             "end": "2026-09-11T12:30:00-03:00"
@@ -320,6 +345,7 @@
     },
     {
         "title": "st28-sbes",
+        "chair": ["helvio-jeronimo"],
         "schedule": {
             "start": "2026-09-11T14:00:00-03:00",
             "end": "2026-09-11T16:00:00-03:00"
@@ -328,6 +354,7 @@
     },
     {
         "title": "st26-sbes",
+        "chair": ["leopoldo-teixeira"],
         "schedule": {
             "start": "2026-09-11T11:00:00-03:00",
             "end": "2026-09-11T12:30:00-03:00"

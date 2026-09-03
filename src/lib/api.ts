@@ -108,8 +108,7 @@ export function loadEvents(lang: string = defaultLang): Map<string, Event> {
       (schedule) => {
         schedule.forEach((p) => {
           const id = createId(p.title);
-          const participantsSession = [];
-          if (p.chair) participantsSession.push(participants[p.chair]);
+          const participantsSession = formatParticipants(participants, p.chair ?? []);
 
           const sessionEvent: Event = {
             type: (p.type as EventType) || 'session',

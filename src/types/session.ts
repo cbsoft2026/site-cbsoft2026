@@ -2,7 +2,7 @@ import { Type, Static } from '@sinclair/typebox';
 import { ScheduleSchema } from './schedule';
 
 export const SessionSchema = Type.Object({
-  chair: Type.Optional(Type.String()),
+  chair: Type.Optional(Type.Array(Type.String())),
   ...ScheduleSchema.properties,
 });
 
