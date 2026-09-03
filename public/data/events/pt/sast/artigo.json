@@ -1,7 +1,7 @@
 [
     {
         "title": "Threshold Mutation Operators for Test Data Selection Applied to Machine Learning Testing",
-        "authors": ["Waisman Braga <waismanfb@gmail.com>", "Marcio Delamaro <delamaro@icmc.usp.br>", "Simone do Rocio Senger Souza <srocio@icmc.usp.br>"],
+        "authors": ["Waisman Braga", "Marcio Delamaro", "Simone do Rocio Senger Souza"],
         "schedule": {
             "start": "2026-09-08T11:00:00-03:00",
             "end": "2026-09-08T11:15:00-03:00"
@@ -11,7 +11,7 @@
     },
     {
         "title": "Fidelity Is Not Effectiveness: Limits of Mutation Score in LLM-Inferred Mealy Machines",
-        "authors": ["Alecsander Gonçalves de Matos <alecsander.tec@gmail.com>", "Simone do Rocio Senger Souza <srocio@icmc.usp.br>", "Marcio Delamaro <delamaro@icmc.usp.br>"],
+        "authors": ["Alecsander Gonçalves de Matos", "Simone do Rocio Senger Souza", "Marcio Delamaro"],
         "schedule": {
             "start": "2026-09-08T11:15:00-03:00",
             "end": "2026-09-08T11:30:00-03:00"
@@ -21,7 +21,7 @@
     },
     {
         "title": "LLM-Pyro: LLM-Based Mutation Testing with Equivalence Triage for Python",
-        "authors": ["Victor Manuel Chang <victormanuelchang@gmail.com>", "Marcelo Manoel de Lima Filho <marcelolimafilho144@gmail.com>", "Awdren de Lima Fontão <awdrenfontao@gmail.com>"],
+        "authors": ["Victor Manuel Chang", "Marcelo Manoel de Lima Filho", "Awdren de Lima Fontão"],
         "schedule": {
             "start": "2026-09-08T11:30:00-03:00",
             "end": "2026-09-08T11:45:00-03:00"
@@ -31,7 +31,7 @@
     },
     {
         "title": "Detecção de Mutantes Equivalentes com MutantBench: Uma Replicação Experimental e Avaliação de Baselines Supervisionados",
-        "authors": ["Vinicius Nunez <viniciuslopes.vn@gmail.com>", "Maicon Bernardino <bernardino@acm.org>", "Elder Macedo Rodrigues <eldermr@gmail.com>"],
+        "authors": ["Vinicius Nunez", "Maicon Bernardino", "Elder Macedo Rodrigues"],
         "schedule": {
             "start": "2026-09-08T11:45:00-03:00",
             "end": "2026-09-08T12:00:00-03:00"
@@ -41,7 +41,7 @@
     },
     {
         "title": "AutoMutSec: Mutation Testing for Authorization Policies in Spring Security",
-        "authors": ["Caio Jhonatan Alves Pereira <caio.jhonatan.pereira@ccc.ufcg.edu.br>", "Everton L.G. Alves <everton@computacao.ufcg.edu.br>"],
+        "authors": ["Caio Jhonatan Alves Pereira", "Everton L.G. Alves"],
         "schedule": {
             "start": "2026-09-08T12:00:00-03:00",
             "end": "2026-09-08T12:15:00-03:00"
@@ -51,7 +51,7 @@
     },
     {
         "title": "Cassiopeia: A Retrieval-Augmented Generation Tool for Automated Test-Case Creation",
-        "authors": ["Flavia Camila Morais de Oliveira <flavia.oliveira@sidia.com>", "Leonardo Tiago <leonardo.albuquerque@sidia.com>", "Lennon Chaves <lennon@icomp.ufam.edu.br>"],
+        "authors": ["Flavia Camila Morais de Oliveira", "Leonardo Tiago", "Lennon Chaves"],
         "schedule": {
             "start": "2026-09-08T12:15:00-03:00",
             "end": "2026-09-08T12:24:00-03:00"
@@ -61,7 +61,7 @@
     },
     {
         "title": "Assessing Postcondition Completeness in Auto-Generated Function Contracts for Software Verification",
-        "authors": ["Caio Vinícius Pereira Silveira <caiovpsilveira@gmail.com>", "Mateus Tymburibá <mateustymbu@cefetmg.br>"],
+        "authors": ["Caio Vinícius Pereira Silveira", "Mateus Tymburibá"],
         "schedule": {
             "start": "2026-09-08T11:00:00-03:00",
             "end": "2026-09-08T11:15:00-03:00"
@@ -72,7 +72,7 @@
     },
     {
         "title": "Investigating Cognitive Demands in Software Testing Activities: An EEG-Based Experimental Study",
-        "authors": ["Roselane Farias <silva.roselane@ufba.br>", "Dhyego Tavares <dhyegocruz@ufba.br>", "José Garcia Vivas Miranda <viva@ufba.br>", "Eduardo Almeida <esa@rise.com.br>"],
+        "authors": ["Roselane Farias", "Dhyego Tavares", "José Garcia Vivas Miranda", "Eduardo Almeida"],
         "schedule": {
             "start": "2026-09-08T11:15:00-03:00",
             "end": "2026-09-08T11:30:00-03:00"
@@ -83,7 +83,7 @@
     },
     {
         "title": "Can LLMs Detect and Refactor Test Smells in Performance Tests?",
-        "authors": ["Adelson José de Ornellas Filho <ornellasfilho88@live.com>", "Manoel Aranda III <mpat@ic.ufal.br>", "Marcio Ribeiro <marcio@ic.ufal.br>", "Samira Santos da Silva <samirapgti@gmail.com>", "Rohit Gheyi <rohit@dsc.ufcg.edu.br>", "Baldoino Fonseca <baldoino@ic.ufal.br>", "Ivan C Machado <ivanmachado@gmail.com>"],
+        "authors": ["Adelson José de Ornellas Filho", "Manoel Aranda III", "Marcio Ribeiro", "Samira Santos da Silva", "Rohit Gheyi", "Baldoino Fonseca", "Ivan C Machado"],
         "schedule": {
             "start": "2026-09-08T11:30:00-03:00",
             "end": "2026-09-08T11:45:00-03:00"
@@ -94,7 +94,7 @@
     },
     {
         "title": "Can LLMs Write Your Tests? Evaluating Automated ISO/IEC 25010-Based Test Generation for VR Metaverse Environments",
-        "authors": ["João Vitor Sigliani Azevêdo <joaosigliani@gmail.com>", "Alana Agne Brandao Rocha <alanaagne0@gmail.com>", "Erica Meire Prates Ferreira <ericameirepratesferreira@gmail.com>", "Guilherme Prado Silva <202211130001@ifba.edu.br>", "José Alberto Diaz Amado <jose_diaz@ifba.edu.br>", "Carina Santos Silveira <csssilveira@ufba.br>", "France Ferreira de Souza Arnaut <francearnaut@ifba.edu.br>", "Rosângela Accioly Correia <ranaaccioly@yahoo.com.br>", "Andrea de Matos Machado <andreamachado3d@gmail.com>", "Crescencio Lima <crescencio@gmail.com>"],
+        "authors": ["João Vitor Sigliani Azevêdo", "Alana Agne Brandao Rocha", "Erica Meire Prates Ferreira", "Guilherme Prado Silva", "José Alberto Diaz Amado", "Carina Santos Silveira", "France Ferreira de Souza Arnaut", "Rosângela Accioly Correia", "Andrea de Matos Machado", "Crescencio Lima"],
         "schedule": {
             "start": "2026-09-08T11:45:00-03:00",
             "end": "2026-09-08T12:00:00-03:00"
@@ -105,7 +105,7 @@
     },
     {
         "title": "Teste de Mutação em System Prompts para Avaliação de Conjuntos de Testes de Chatbots Baseados em LLMs",
-        "authors": ["Carlos Eduardo Chiarella Braga <carlos.braga@discente.ufg.br>", "Sofia Costa Paiva <sofialarissa@ufg.br>"],
+        "authors": ["Carlos Eduardo Chiarella Braga", "Sofia Costa Paiva"],
         "schedule": {
             "start": "2026-09-08T12:00:00-03:00",
             "end": "2026-09-08T12:15:00-03:00"
@@ -116,7 +116,7 @@
     },
     {
         "title": "BitcoinFuzz: Differential Fuzzing of Bitcoin and Lightning Network Implementations",
-        "authors": ["Bruno Ely Reis Garcia <bruno.erg@usp.br>", "Erick Cestari <erickcestari03@gmail.com>"],
+        "authors": ["Bruno Ely Reis Garcia", "Erick Cestari"],
         "schedule": {
             "start": "2026-09-08T12:15:00-03:00",
             "end": "2026-09-08T12:24:00-03:00"
@@ -127,7 +127,7 @@
     },
     {
         "title": "Aplicando Ferramentas SAST com IA Gratuitas em uma Ferramenta de Ensino de Gestão de Projetos - Um Benchmarking",
-        "authors": ["Dionas Luan Müller <dionasmuller.aluno@unipampa.edu.br>", "Matheus Fialho <matheuslf25@gmail.com>", "Maicon Bernardino <bernardino@acm.org>", "Elder Macedo Rodrigues <eldermr@gmail.com>"],
+        "authors": ["Dionas Luan Müller", "Matheus Fialho", "Maicon Bernardino", "Elder Macedo Rodrigues"],
         "schedule": {
             "start": "2026-09-08T16:30:00-03:00",
             "end": "2026-09-08T16:45:00-03:00"
@@ -137,7 +137,7 @@
     },
     {
         "title": "Cronos: Automating Bug Report Validation with LLMs using RAG Approach",
-        "authors": ["Alay Nascimento <alay.nascimento@sidia.com>", "Ana Paula Silva <silva.ana@sidia.com>", "Lennon Chaves <lennon@icomp.ufam.edu.br>"],
+        "authors": ["Alay Nascimento", "Ana Paula Silva", "Lennon Chaves"],
         "schedule": {
             "start": "2026-09-08T16:45:00-03:00",
             "end": "2026-09-08T17:00:00-03:00"
@@ -147,7 +147,7 @@
     },
     {
         "title": "Do SAST Alerts Become Reproducible Tests? Evaluating Context-Enriched LLMs for Security Verification",
-        "authors": ["Rubens Abraão da Silva Sousa <abraao.sousa@aluno.uece.br>", "Gabriel Pinheiro <gabriel.rezende@aluno.uece.br>", "Samuel Sousa Teles <samuel.teles@aluno.uece.br>", "Sávio Freire <savio.essf@gmail.com>", "Ismayle Santos <ismayle.santos@uece.br>"],
+        "authors": ["Rubens Abraão da Silva Sousa", "Gabriel Pinheiro", "Samuel Sousa Teles", "Sávio Freire", "Ismayle Santos"],
         "schedule": {
             "start": "2026-09-08T17:00:00-03:00",
             "end": "2026-09-08T17:15:00-03:00"
@@ -157,7 +157,7 @@
     },
     {
         "title": "Comparação Empírica entre EvoSuite e ChatUniTest na Geração de Testes de Unidade: Um Estudo de Replicação com Extensão",
-        "authors": ["Djeymisson Moraes <djeymisson.moraes@ufape.edu.br>", "Thaís Burity <thais.burity@ufape.edu.br>"],
+        "authors": ["Djeymisson Moraes", "Thaís Burity"],
         "schedule": {
             "start": "2026-09-08T17:15:00-03:00",
             "end": "2026-09-08T17:30:00-03:00"
@@ -167,7 +167,7 @@
     },
     {
         "title": "Evaluating the Use of Large Language Models for Heuristic Evaluation of Web User Interfaces",
-        "authors": ["Ana Beatriz de Araújo Farias <ana.farias.1@academico.ifpb.edu.br>", "Danyllo Albuquerque <danyllo@copin.ufcg.edu.br>", "Emanuel Dantas <emanueldan@gmail.com>, Rohit Gheyi <rohit@dsc.ufcg.edu.br>", "Francisco Petrônio Medeiros <petronio@cefetpb.edu.br>"],
+        "authors": ["Ana Beatriz de Araújo Farias", "Danyllo Albuquerque", "Emanuel Dantas", "Rohit Gheyi", "Francisco Petrônio Medeiros"],
         "schedule": {
             "start": "2026-09-08T17:30:00-03:00",
             "end": "2026-09-08T17:45:00-03:00"
@@ -177,7 +177,7 @@
     },
     {
         "title": "When the Trigger Fails: Metamorphic Testing of Tool-Calling AI Agents",
-        "authors": ["Wyllgner França de Amorim <wyllgner_franca@hotmail.com>"],
+        "authors": ["Wyllgner França de Amorim"],
         "schedule": {
             "start": "2026-09-08T17:45:00-03:00",
             "end": "2026-09-08T18:00:00-03:00"
@@ -187,7 +187,7 @@
     },
     {
         "title": "Otimização da Geração de Casos de Teste em Aplicativos Móveis via Aprendizado por Reforço e Agentes de IA",
-        "authors": ["Mailton Farias <mvf2@icomp.ufam.edu.br>", "Mateus Luiz de Oliveira Souza <mateus.souza@indt.org.br>", "Letícia dos Santos <leticia.santos@icomp.ufam.edu.br>", "Ana Caroline Gomes <ana.gomes@icomp.ufam.edu.br>", "Suelen Pereira <suelen.pereira@icomp.ufam.edu.br>", "Eliane Collins <eliane.collins@indt.org.br>"],
+        "authors": ["Mailton Farias", "Mateus Luiz de Oliveira Souza", "Letícia dos Santos", "Ana Caroline Gomes", "Suelen Pereira", "Eliane Collins"],
         "schedule": {
             "start": "2026-09-08T18:00:00-03:00",
             "end": "2026-09-08T18:09:00-03:00"
@@ -197,7 +197,7 @@
     },
     {
         "title": "Automating Bug Analysis in Regulatory Information Requirements Using AI Agents",
-        "authors": ["WENDELL MARQUES <wendellmarques359@gmail.com>", "Cainã Oliveira <csoliveira01@gmail.com>", "Edluce Leitão Veras <edluce.ed@gmail.com>", "Thiago Henrique Fragata <thiago.fragata@samsung.com>", "Eduardo Peluchi de Oliveira Filho <eduardopeluchi@outlook.com>"],
+        "authors": ["WENDELL MARQUES", "Cainã Oliveira", "Edluce Leitão Veras", "Thiago Henrique Fragata", "Eduardo Peluchi de Oliveira Filho"],
         "schedule": {
             "start": "2026-09-08T18:09:00-03:00",
             "end": "2026-09-08T18:18:00-03:00"
@@ -207,7 +207,7 @@
     },
     {
         "title": "Relato de Experiência: Arquitetura de Testes e Validação Semântica para um Sistema RAG no Setor Público",
-        "authors": ["icaro de oliveira <icaro.santos@aluno.uece.br>", "Felipe Rodrigues de Oliveira <felipeo.rodrigues@aluno.uece.br>", "Ismayle Santos <ismayle.santos@uece.br>"],
+        "authors": ["icaro de oliveira", "Felipe Rodrigues de Oliveira", "Ismayle Santos"],
         "schedule": {
             "start": "2026-09-08T18:18:00-03:00",
             "end": "2026-09-08T18:27:00-03:00"
@@ -217,7 +217,7 @@
     },
     {
         "title": "NoseSense: Benchmarking LLMs for Test Smell Detection",
-        "authors": ["Magno Macedo Miranda <magnomiranda@ufba.br>", "Lucas Lopes Fraga <lucasfraga884@gmail.com>", "Letícia Barreto <leticiabarreto@ufba.br>", "Tassio Guerreiro Antunes Virginio <tassiovirginio@gmail.com>", "Marcio Ribeiro <marcio@ic.ufal.br>", "Ivan C Machado <ivanmachado@gmail.com>"],
+        "authors": ["Magno Macedo Miranda", "Lucas Lopes Fraga", "Letícia Barreto", "Tassio Guerreiro Antunes Virginio", "Marcio Ribeiro", "Ivan C Machado"],
         "schedule": {
             "start": "2026-09-08T16:30:00-03:00",
             "end": "2026-09-08T16:45:00-03:00"
@@ -227,7 +227,7 @@
     },
     {
         "title": "Test Smells through the Lens of the Dart Community: A Mixed-Methods Study on Grey Literature and Developer Perceptions",
-        "authors": ["Eronildo José da Silva Junior <eronildosilva@ufba.br>", "Rafael Vieira <mouravieira44@gmail.com>", "Paloma Passos <palomabcp@ufba.br>", "Paulo Cerqueira <paulocer@gmail.com>", "Tássio Vírginio <tassio.virginio@ufba.br>", "Antonio Rito <Rito.Silva@tecnico.ulisboa.pt>", "Ivan C Machado <ivanmachado@gmail.com>"],
+        "authors": ["Eronildo José da Silva Junior", "Rafael Vieira", "Paloma Passos", "Paulo Cerqueira", "Tássio Vírginio", "Antonio Rito", "Ivan C Machado"],
         "schedule": {
             "start": "2026-09-08T16:45:00-03:00",
             "end": "2026-09-08T17:00:00-03:00"
@@ -237,7 +237,7 @@
     },
     {
         "title": "Auditoria Automática de Consistência Lógica em Casos de Teste por Meio de Extração Semântica com Abordagem Neuro-Simbólica",
-        "authors": ["Christopher Ric Coelho Saar <cristophersaar@gmail.com>", "Victor Alexandre Ribeiro <victoralexandre922@gmail.com>", "Luan Reis <luan.reis@sou.ufac.br>", "Igsonfiure Rodrigues Félix <igson660@gmail.com>", "LAURA COSTA SARKIS <laura.sarkis@ufac.br>", "Nícolas Riccieri Gardin Assumpção <nicolas@motorola.com>", "Olacir Rodrigues Castro Junior <olacirjr@gmail.com>", "Marlon Amaro Coelho Teixeira <marlon.teixeira@ifac.edu.br>"],
+        "authors": ["Christopher Ric Coelho Saar", "Victor Alexandre Ribeiro", "Luan Reis", "Igsonfiure Rodrigues Félix", "LAURA COSTA SARKIS", "Nícolas Riccieri Gardin Assumpção", "Olacir Rodrigues Castro Junior", "Marlon Amaro Coelho Teixeira"],
         "schedule": {
             "start": "2026-09-08T17:00:00-03:00",
             "end": "2026-09-08T17:15:00-03:00"
@@ -247,7 +247,7 @@
     },
     {
         "title": "NASC: Neuro-symbolic Architecture for Smart Contracts Vulnerability Detection",
-        "authors": ["Cleidimar L. dos Passos <cleidimar.passos@gmail.com>", "José Augusto Miranda Nacif <jnacif@ufv.br>", "Josué Campos <josue.campos@ufv.br>", "Luís Henrique Santos de Carvalho <luis.h.carvalho@ufv.br>", "Matheus Silva <matheus.junio@ufv.br>"],
+        "authors": ["Cleidimar L. dos Passos", "José Augusto Miranda Nacif", "Josué Campos", "Luís Henrique Santos de Carvalho", "Matheus Silva"],
         "schedule": {
             "start": "2026-09-08T17:15:00-03:00",
             "end": "2026-09-08T17:30:00-03:00"
@@ -257,7 +257,7 @@
     },
     {
         "title": "Evaluating Shaker for Flaky Test Detection in Python Projects",
-        "authors": ["Gabriela Leal <gabrielamfleal@gmail.com>", "Denini Silva <denini.gabriel@ufrpe.br>", "Leopoldo Motta Teixeira <lmt@cin.ufpe.br>"],
+        "authors": ["Gabriela Leal", "Denini Silva", "Leopoldo Motta Teixeira"],
         "schedule": {
             "start": "2026-09-08T17:30:00-03:00",
             "end": "2026-09-08T17:45:00-03:00"
@@ -267,7 +267,7 @@
     },
     {
         "title": "The Vocabulary of Flaky Tests in Swift",
-        "authors": ["João Mederios <jpcm2@cin.ufpe.br>", "Denini Silva <denini.gabriel@ufrpe.br>", "Breno Miranda <bafm@cin.ufpe.br>"],
+        "authors": ["João Mederios", "Denini Silva", "Breno Miranda"],
         "schedule": {
             "start": "2026-09-08T17:45:00-03:00",
             "end": "2026-09-08T18:00:00-03:00"
@@ -277,7 +277,7 @@
     },
     {
         "title": "Leveraging Generative AI to Support Functional Test Case Specification in a Public Sector Software System",
-        "authors": ["Aline Lima de Souza <limaals@cos.ufrj.br>", "Jessica Soares da Costa <jessicacosta@cos.ufrj.br>", "Rebeca Motta <rcmotta@ic.uff.br>", "Elaine Nunes <elainenunes@cos.ufrj.br>", "Gustavo Rocha Barreto Pinto <grbpinto@cos.ufrj.br>", "Rafael Maiani de Mello <rafaelmello@ic.ufrj.br>"],
+        "authors": ["Aline Lima de Souza", "Jessica Soares da Costa", "Rebeca Motta", "Elaine Nunes", "Gustavo Rocha Barreto Pinto", "Rafael Maiani de Mello"],
         "schedule": {
             "start": "2026-09-08T18:00:00-03:00",
             "end": "2026-09-08T18:09:00-03:00"
@@ -287,7 +287,7 @@
     },
     {
         "title": "SideForge: Evolving Functional Tests Automation in the Public Sector",
-        "authors": ["Alexandre Almeida de Oliveira <aaoliveira@cos.ufrj.br>", "Rebeca Motta <rcmotta@ic.uff.br>", "Elaine Nunes <elainenunes@cos.ufrj.br>", "Gustavo Rocha Barreto Pinto <grbpinto@cos.ufrj.br>", "Rafael Maiani de Mello <rafaelmello@ic.ufrj.br>"],
+        "authors": ["Alexandre Almeida de Oliveira", "Rebeca Motta", "Elaine Nunes", "Gustavo Rocha Barreto Pinto", "Rafael Maiani de Mello"],
         "schedule": {
             "start": "2026-09-08T18:09:00-03:00",
             "end": "2026-09-08T18:18:00-03:00"
@@ -297,7 +297,7 @@
     },
     {
         "title": "Identificando Lacunas de Competências para Cloud Testing: Um Relato da Indústria de Software",
-        "authors": ["Nayane Alves <nayane.alves@eldorado.org.br>", "Jose Alves <jose.alves@eldorado.org.br>", "PAULA PAVAO <paula.pavao@eldorado.org.br>"],
+        "authors": ["Nayane Alves", "Jose Alves", "PAULA PAVAO"],
         "schedule": {
             "start": "2026-09-08T18:18:00-03:00",
             "end": "2026-09-08T18:27:00-03:00"
@@ -307,7 +307,7 @@
     },
     {
         "title": "Rubrica Analítica para Avaliação de Artefatos de Teste de Desempenho Gerados por LLMs: Um Estudo Exploratório",
-        "authors": ["Lucie Grillo <luciegrilloaq@gmail.com>", "Graziela Espindola <grazielaespindola82@gmail.com>", "Maicon Bernardino <bernardino@acm.org>", "Elder Macedo Rodrigues <eldermr@gmail.com>"],
+        "authors": ["Lucie Grillo", "Graziela Espindola", "Maicon Bernardino", "Elder Macedo Rodrigues"],
         "schedule": {
             "start": "2026-09-08T16:30:00-03:00",
             "end": "2026-09-08T16:45:00-03:00"
@@ -317,7 +317,7 @@
     },
     {
         "title": "Investigando o Impacto da Conteinerização, Orquestração e Infraestrutura de Nuvem na Reprodutibilidade de Testes de Desempenho",
-        "authors": ["Eduardo dos Santos Paim <eduardopaim.aluno@unipampa.edu.br>", "Gabriel Gonsalez <gabrielgonsalez.aluno@unipampa.edu.br>", "Elder Macedo Rodrigues <eldermr@gmail.com>"],
+        "authors": ["Eduardo dos Santos Paim", "Gabriel Gonsalez", "Elder Macedo Rodrigues"],
         "schedule": {
             "start": "2026-09-08T16:45:00-03:00",
             "end": "2026-09-08T17:00:00-03:00"
@@ -327,7 +327,7 @@
     },
     {
         "title": "Custo Experimental e Valor Diagnóstico em Estratégias de Teste de Desempenho para Aplicações Web",
-        "authors": ["Eric Moraes <ericmoraes.aluno@unipampa.edu>", "Luan Evander Tavares <luantavares.aluno@unipampa.edu.br>", "Anielle Severo Lisboa de Andrade <anielle.lisboa@gmail.com>", "Elder Macedo Rodrigues <eldermr@gmail.com>"],
+        "authors": ["Eric Moraes", "Luan Evander Tavares", "Anielle Severo Lisboa de Andrade", "Elder Macedo Rodrigues"],
         "schedule": {
             "start": "2026-09-08T17:00:00-03:00",
             "end": "2026-09-08T17:15:00-03:00"
@@ -337,7 +337,7 @@
     },
     {
         "title": "Enabling Scalable Mobile Test Automation on Linux: A Case Study in a Public Financial Institution",
-        "authors": ["Maicon Bernardino <bernardino@acm.org>", "Jonnathan Riquelmo Lopes <jonnathan.riquelmo@gmail.com>", "Elrison Gomes da Silva <elrisonsilva.aluno@unipampa.edu.br>", "Michael Trindade da Silva <michaeltrindadedasilva@gmail.com>", "Elder Macedo Rodrigues <eldermr@gmail.com>"],
+        "authors": ["Maicon Bernardino", "Jonnathan Riquelmo Lopes", "Elrison Gomes da Silva", "Michael Trindade da Silva", "Elder Macedo Rodrigues"],
         "schedule": {
             "start": "2026-09-08T17:15:00-03:00",
             "end": "2026-09-08T17:30:00-03:00"
@@ -347,7 +347,7 @@
     },
     {
         "title": "Uma Abordagem Unificada para Testes Automatizados em Arquiteturas Web Modernas",
-        "authors": ["João Victor de Morais <joaomorais.ti@fundecc.org.br>", "Rafael Serapilha Durelli <rafael.durelli@ufla.br>", "Ricardo Terra <terra@ufla.br>"],
+        "authors": ["João Victor de Morais", "Rafael Serapilha Durelli", "Ricardo Terra"],
         "schedule": {
             "start": "2026-09-08T17:30:00-03:00",
             "end": "2026-09-08T17:45:00-03:00"
@@ -357,7 +357,7 @@
     },
     {
         "title": "Evaluating the Effectiveness of MQTT Fuzzing Tools Using Mutation Testing in IoT Systems",
-        "authors": ["Darla Alves <darlagalves@usp.br>", "Bruno Ely Reis Garcia <bruno.erg@usp.br>", "Marcio Delamaro <delamaro@icmc.usp.br>", "Simone do Rocio Senger Souza <srocio@icmc.usp.br>"],
+        "authors": ["Darla Alves", "Bruno Ely Reis Garcia", "Marcio Delamaro", "Simone do Rocio Senger Souza"],
         "schedule": {
             "start": "2026-09-08T17:45:00-03:00",
             "end": "2026-09-08T18:00:00-03:00"
@@ -367,7 +367,7 @@
     },
     {
         "title": "Mutation Testing in the Wild: Challenges and Lessons from Bitcoin Core",
-        "authors": ["Bruno Ely Reis Garcia <bruno.erg@usp.br>"],
+        "authors": ["Bruno Ely Reis Garcia"],
         "schedule": {
             "start": "2026-09-08T18:00:00-03:00",
             "end": "2026-09-08T18:09:00-03:00"
@@ -377,7 +377,7 @@
     },
     {
         "title": "Testes Funcionais Automatizados como Fonte para Geração Automatizada de Manuais de Usuário no Instituto Mineiro de Agropecuária",
-        "authors": ["L. Kennedy Turola <luis.turola@estudante.ufla.br>", "João Victor de Morais <joaomorais.ti@fundecc.org.br>", "Ricardo Terra <terra@ufla.br>"],
+        "authors": ["L. Kennedy Turola", "João Victor de Morais", "Ricardo Terra"],
         "schedule": {
             "start": "2026-09-08T18:09:00-03:00",
             "end": "2026-09-08T18:18:00-03:00"

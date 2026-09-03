@@ -1920,7 +1920,7 @@
     },
     {
         "title": "NoseSense: Benchmarking LLMs for Test Smell Detection",
-        "authors": ["Magno Macedo Miranda <magnomiranda@ufba.br> (UFBA, Brazil)", "Tassio Guerreiro Antunes Virginio <tassiovirginio@gmail.com> (UFBA, Brazil)", "Ivan C Machado <ivanmachado@dcc.ufba.br> (UFBA, Brazil)" ],
+        "authors": ["Magno Macedo Miranda (UFBA, Brazil)", "Tassio Guerreiro Antunes Virginio (UFBA, Brazil)", "Ivan C Machado (UFBA, Brazil)" ],
         "schedule": {
             "start": "2026-09-10T16:30:00-03:00",
             "end": "2026-09-10T16:30:00-03:00"
@@ -1931,9 +1931,9 @@
     },
     {
         "title": "Predictability and Bottlenecks in the Development Flow of Open Source Projects: an Analysis with Agile Metrics",
-        "authors": ["Maria Eduarda Chrispim Santana <mariae.chrispims@gmail.com> (PUCMG, Brazil)", 
-"Michelle Hanne Soares de Andrade <michelleandrade@pucminas.br> (Pontifical Catholic University of Minas Gerais - PUC Minas, Brazil)", 
-"Cleiton Silva Tavares <cleitonsilvatavares@gmail.com> (Pontifical Catholic University of Minas Gerais - PUC Minas, Brazil)"],
+        "authors": ["Maria Eduarda Chrispim Santana (PUCMG, Brazil)", 
+"Michelle Hanne Soares de Andrade (Pontifical Catholic University of Minas Gerais - PUC Minas, Brazil)", 
+"Cleiton Silva Tavares (Pontifical Catholic University of Minas Gerais - PUC Minas, Brazil)"],
         "schedule": {
             "start": "2026-09-10T16:30:00-03:00",
             "end": "2026-09-10T16:30:00-03:00"
@@ -1944,8 +1944,8 @@
     },
     {
         "title": "Test Smell Detection and Refactoring with Agentic LLMs: An Empirical Study of Small Open Models",
-        "authors": ["Rian Ismael Elias de Melo <rian.melo@ccc.ufcg.edu.br> (UFCG, Brazil)", 
-"Rohit Gheyi <rohit@dsc.ufcg.edu.br> (Federal University of Campina Grande, Brazil)"],
+        "authors": ["Rian Ismael Elias de Melo (UFCG, Brazil)", 
+"Rohit Gheyi (Federal University of Campina Grande, Brazil)"],
         "schedule": {
             "start": "2026-09-10T16:30:00-03:00",
             "end": "2026-09-10T16:30:00-03:00"
@@ -1956,9 +1956,9 @@
     },
     {
         "title": "Teaching Requirements for Responsible AI Systems: Educational Strategies for Intelligent Systems",
-        "authors": ["Bruna Santos <brunal.santos83@gmail.com> (IComp/UFAM, Brazil)", 
-"Márcia S. Lima <msllima@uea.edu.br> (Uea, Brazil)", 
-"Tayana Conte <tayanaconte@gmail.com> (Ufam, Brazil)"],
+        "authors": ["Bruna Santos (IComp/UFAM, Brazil)", 
+"Márcia S. Lima (Uea, Brazil)", 
+"Tayana Conte (Ufam, Brazil)"],
         "schedule": {
             "start": "2026-09-10T16:30:00-03:00",
             "end": "2026-09-10T16:30:00-03:00"
@@ -1969,9 +1969,9 @@
     },
     {
         "title": "From Reactive to Preventive: Real-Time Test Smell Avoidance with Linting",
-        "authors": ["Rafael Vieira <mouravieira44@gmail.com> (Universiade Federal da Bahia, Brazil)", 
-"Tássio Vírginio <tassio.virginio@ufba.br> (UFBA, Brazil)", 
-"Ivan C Machado <ivanmachado@gmail.com> (UFBA, Brazil)"],
+        "authors": ["Rafael Vieira (Universiade Federal da Bahia, Brazil)", 
+"Tássio Vírginio (UFBA, Brazil)", 
+"Ivan C Machado (UFBA, Brazil)"],
         "schedule": {
             "start": "2026-09-10T16:30:00-03:00",
             "end": "2026-09-10T16:30:00-03:00"
