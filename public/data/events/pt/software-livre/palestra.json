@@ -1,0 +1,38 @@
+[
+    {
+        "title": "Software Livre: Liberdade, Autonomia, Soberania",
+        "speakers": ["alexandre-oliva"],
+        "schedule": {
+            "start": "2026-09-11T14:00:00-03:00",
+            "end": "2026-09-11T14:30:00-03:00"
+        },
+        "rooms": ["ccsl"]
+    },
+    {
+        "title": "Software Livre: Inovação Aberta e Empregabilidade: A História do Open Source e o Papel da Red Hat",
+        "speakers": ["alexon-oliveira"],
+        "schedule": {
+            "start": "2026-09-11T14:30:00-03:00",
+            "end": "2026-09-11T15:00:00-03:00"
+        },
+        "rooms": ["ccsl"]
+    },
+    {
+        "title": "Software livre, IA e o futuro do modelo B2B",
+        "speakers": ["david-carlos-araujo-silva"],
+        "schedule": {
+            "start": "2026-09-11T15:00:00-03:00",
+            "end": "2026-09-11T15:30:00-03:00"
+        },
+        "rooms": ["ccsl"]
+    },
+    {
+        "title": "Software Livre: Aprendizado em comunidade: A construção de novas gerações de contribuidores e líderes no software livre através de mentorias abertas",
+        "speakers": ["anna-e-so"],
+        "schedule": {
+            "start": "2026-09-11T15:30:00-03:00",
+            "end": "2026-09-11T16:00:00-03:00"
+        },
+        "rooms": ["ccsl"]
+    }
+]

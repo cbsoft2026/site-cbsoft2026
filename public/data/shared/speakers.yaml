@@ -405,3 +405,108 @@
 
 - id: helvio-jeronimo
   name: Helvio Jeronimo Jr.
+
+- id: paulo-meirelles
+  name: Paulo Meirelles
+  image: Paulo_Meirelles.webp
+  institution: Universidade de São Paulo
+  institution_acronym: USP
+
+- id: aracele-torres
+  name: Aracele Torres
+  image: Aracele_Torres.webp
+  institution: Viceri SEIDOR
+  institution_acronym: Viceri SEIDOR
+
+- id: carla-rocha
+  name: Carla Rocha
+  image: Carla_Rocha.webp
+  institution: UnB, LabLivre
+  institution_acronym: UnB, LabLivre
+
+- id: carlos-machado
+  name:	Carlos Machado
+  institution: Serpro
+  institution_acronym: Serpro
+
+- id: daniel-batista
+  name: Daniel Batista
+  image: Daniel_Batista.webp
+  institution: Universidade de São Paulo
+  institution_acronym: USP
+
+- id: deivi-kuhn
+  name: Deivi Kuhn
+  image: Deivi_Kuhn.webp
+  institution: Serpro
+  institution_acronym: Serpro
+
+- id: fabio-kon
+  name: Fabio Kon
+  image: Fabio_Kon.webp
+  institution: Universidade de São Paulo
+  institution_acronym: USP
+
+- id: sady-jacques
+  name: Sady Jacques
+  image: Sady_Jacques.webp
+  institution: Associação Software Livre.Org
+  institution_acronym: Associação Software Livre.Org
+
+- id: alexandre-oliva
+  name: Alexandre Oliva
+  image:  Alexandre_Oliva.webp   
+  institution: FSFLA
+  institution_acronym: FSFLA
+
+- id: alexon-oliveira
+  name: Alexon Oliveira
+  image: Alexon_Oliveira.webp
+  institution: Red Hat
+  institution_acronym: Red Hat
+
+- id: david-carlos-araujo-silva
+  name: David Carlos de Araújo Silva
+  institution: Pencil
+  institution_acronym: Pencil
+
+- id: anna-e-so
+  name: Anna e só
+  image: Anna_e_So.webp
+  institution: Outreachy, LabLivre
+  institution_acronym: Outreachy, LabLivre
+
+- id: antonio-terceiro
+  name: Antonio Terceiro
+  image: Antonio_Terceiro.webp
+  institution: Freexian, ICT
+  institution_acronym: Freexian, ICT
+
+
+- id: beatriz-tibirica
+  name: Beatriz Tibiriçá
+  institution: Rede pela Soberania Digital
+  institution_acronym: Rede pela Soberania Digital
+
+- id: jeronimo-pellegrini
+  name: Jerônimo Pellegrini
+  institution: UFABC
+  institution_acronym: UFABC
+
+- id: nelson-lago
+  name: Nelson Lago
+  image: Nelson_Lago.webp
+  institution: Universidade de São Paulo
+  institution_acronym: USP
+
+- id: rodolfo-avelino
+  name: Rodolfo Avelino
+  image: Rodolfo_Avelino.webp
+  institution: Insper
+  institution_acronym: Insper
+
+- id: valessio-brito
+  name: Valessio Brito
+  image: Valessio_Brito.webp
+  institution: iCAT
+  institution_acronym: iCAT

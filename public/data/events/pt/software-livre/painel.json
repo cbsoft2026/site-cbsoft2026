@@ -1,0 +1,22 @@
+[
+    {
+        "title": "Mesa 1 Software Livre: Histórico da inserção do Brasil na comunidade internacional do Software Livre",
+        "moderator": ["paulo-meirelles"],
+        "speakers": ["aracele-torres", "carla-rocha", "carlos-machado", "daniel-batista", "deivi-kuhn", "fabio-kon", "sady-jacques"],
+        "schedule": {
+            "start": "2026-09-11T11:00:00-03:00",
+            "end": "2026-09-11T12:30:00-03:00"
+        },
+        "rooms": ["ccsl"]
+    },
+    {
+        "title": "Mesa 2 Software Livre: Desafios presentes e futuros do Software Livre",
+        "moderator": ["antonio-terceiro"],
+        "speakers": ["alexandre-oliva", "anna-e-so", "beatriz-tibirica", "jeronimo-pellegrini", "nelson-lago", "rodolfo-avelino", "valessio-brito"],
+        "schedule": {
+            "start": "2026-09-11T16:30:00-03:00",
+            "end": "2026-09-11T18:30:00-03:00"
+        },
+        "rooms": ["ccsl"]
+    }
+]
