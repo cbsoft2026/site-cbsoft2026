@@ -327,7 +327,7 @@
         "category": "research",
         "badges": ["available"],
         "artifact": "https://doi.org/10.5281/zenodo.21121958",
-        "rooms": ["b101"]
+        "rooms": ["b3"]
     },
     {
         "title": "Investigando o Impacto da Conteinerização, Orquestração e Infraestrutura de Nuvem na Reprodutibilidade de Testes de Desempenho",
@@ -337,7 +337,7 @@
             "end": "2026-09-08T17:00:00-03:00"
         },
         "category": "research",
-        "rooms": ["b101"]
+        "rooms": ["b3"]
     },
     {
         "title": "Custo Experimental e Valor Diagnóstico em Estratégias de Teste de Desempenho para Aplicações Web",
@@ -347,7 +347,7 @@
             "end": "2026-09-08T17:15:00-03:00"
         },
         "category": "research",
-        "rooms": ["b101"]
+        "rooms": ["b3"]
     },
     {
         "title": "Enabling Scalable Mobile Test Automation on Linux: A Case Study in a Public Financial Institution",
@@ -357,7 +357,7 @@
             "end": "2026-09-08T17:30:00-03:00"
         },
         "category": "research",
-        "rooms": ["b101"]
+        "rooms": ["b3"]
     },
     {
         "title": "Uma Abordagem Unificada para Testes Automatizados em Arquiteturas Web Modernas",
@@ -367,7 +367,7 @@
             "end": "2026-09-08T17:45:00-03:00"
         },
         "category": "research",
-        "rooms": ["b101"]
+        "rooms": ["b3"]
     },
     {
         "title": "Evaluating the Effectiveness of MQTT Fuzzing Tools Using Mutation Testing in IoT Systems",
@@ -377,7 +377,7 @@
             "end": "2026-09-08T18:00:00-03:00"
         },
         "category": "research",
-        "rooms": ["b101"]
+        "rooms": ["b3"]
     },
     {
         "title": "Mutation Testing in the Wild: Challenges and Lessons from Bitcoin Core",
@@ -387,7 +387,7 @@
             "end": "2026-09-08T18:09:00-03:00"
         },
         "category": "pindustry",
-        "rooms": ["b101"]
+        "rooms": ["b3"]
     },
     {
         "title": "Testes Funcionais Automatizados como Fonte para Geração Automatizada de Manuais de Usuário no Instituto Mineiro de Agropecuária",
@@ -397,6 +397,6 @@
             "end": "2026-09-08T18:18:00-03:00"
         },
         "category": "pindustry",
-        "rooms": ["b101"]
+        "rooms": ["b3"]
     }
 ]
