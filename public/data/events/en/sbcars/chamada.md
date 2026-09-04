@@ -129,88 +129,88 @@ All submitted works must comply with the [Code of Conduct for Authors in Publica
  
 ###### Program Committee Coordinators
 
-Juliana Alves Pereirad — Pontifícia Universidade Católica do Rio de Janeiro (PUC-Rio)
+Juliana Alves Pereira — Pontifícia Universidade Católica do Rio de Janeiro (PUC-Rio)
 
-Breno Bernard Nicolau de Françad — Universidade Estadual de Campinas (UNICAMP)
+Breno Bernard Nicolau de França — Universidade Estadual de Campinas (UNICAMP)
 
 ###### Program Committee
 
-Adenilso Simaod — Universidade de São Paula (USP)
+Adenilso Simao — Universidade de São Paula (USP)
 
-Aline Miotto Amarald — Universidade Estadual de Maringá (UEM)
+Aline Miotto Amaral — Universidade Estadual de Maringá (UEM)
 
-Ana Carla Bibianod — Pontifícia Universidade Católica do Rio de Janeiro (PUC-Rio)
+Ana Carla Bibiano — Pontifícia Universidade Católica do Rio de Janeiro (PUC-Rio)
 
-Anderson Uchôad — Universidade Federal do Ceará (UFC)
+Anderson Uchôa — Universidade Federal do Ceará (UFC)
 
-Andre Horad — Universidade Federal de Minas Gerais (UFMG)
+Andre Hora — Universidade Federal de Minas Gerais (UFMG)
 
-Awdren Fontãod — Universidade Federal do Mato Grosso do Sul (UFMS)
+Awdren Fontão — Universidade Federal do Mato Grosso do Sul (UFMS)
 
-Catarina Costad — Universidade Federal do Acre (UFAC)
+Catarina Costa — Universidade Federal do Acre (UFAC)
 
-Daniel Lucrédiod — Universidade Federal de São Carlos (UFSCar)
+Daniel Lucrédio — Universidade Federal de São Carlos (UFSCar)
 
-Daniel San Martind — Universidad Catolica del Norte
+Daniel San Martin — Universidad Catolica del Norte
 
-Daniel Tenorio Martins de Oliveirad — Universidade Federal de Alagoas (UFAL)
+Daniel Tenorio Martins de Oliveira — Universidade Federal de Alagoas (UFAL)
 
-Delano Medeiros Bederd — Universidade Federal de São Carlos (UFSCar)
+Delano Medeiros Beder — Universidade Federal de São Carlos (UFSCar)
 
-Denivan Camposd — University of Molise (UNIMOL)
+Denivan Campos — University of Molise (UNIMOL)
 
-Edna Dias Canedod — Universidade Federal de Pernambuco (UFPE)
+Edna Dias Canedo — Universidade Federal de Pernambuco (UFPE)
 
-Eduardo Figueiredod — Universidade Federal de Minas Gerais (UFMG)
+Eduardo Figueiredo — Universidade Federal de Minas Gerais (UFMG)
 
-Elisa Y. Nakagawad — Universidade de São Paula (USP)
+Elisa Y. Nakagawa — Universidade de São Paula (USP)
 
-Emanoel Francisco Sposito Barreirosd — Universidade de Pernambuco
+Emanoel Francisco Sposito Barreiros — Universidade de Pernambuco
 
-Evilasio Costa Juniord — Universidade Federal do Ceará (UFC)
+Evilasio Costa Junior — Universidade Federal do Ceará (UFC)
 
-Fernando Antonio Mota Trintad — Universidade Federal do Ceará (UFC)
+Fernando Antonio Mota Trinta — Universidade Federal do Ceará (UFC)
 
-Heitor Augustus Xavier Costad — Universidade Federal de Lavras (UFLA)
+Heitor Augustus Xavier Costa — Universidade Federal de Lavras (UFLA)
 
-Isabel Azevedod — Instituto Superior de Engenharia do Porto (ISEP)
+Isabel Azevedo — Instituto Superior de Engenharia do Porto (ISEP)
 
-Ivan C Machadod — Universidade Federal da Bahia (UFBA)
+Ivan C Machado — Universidade Federal da Bahia (UFBA)
 
-João Choma Netod — Universidade Estadual de Maringá (UEM)
+João Choma Neto — Universidade Estadual de Maringá (UEM)
 
-Lincoln S. Rochad — Universidade Federal do Ceará (UFC)
+Lincoln S. Rocha — Universidade Federal do Ceará (UFC)
 
-Luciana Zainad — Universidade Federal de São Carlos (UFSCar)
+Luciana Zaina — Universidade Federal de São Carlos (UFSCar)
 
-Marcelo de Almeida Maiad — Universidade Federal de Uberlândia (UFU)
+Marcelo de Almeida Maia — Universidade Federal de Uberlândia (UFU)
 
-Matheus Paixãod — Universidade Estadual do Ceará (UECE)
+Matheus Paixão — Universidade Estadual do Ceará (UECE)
 
-Paola Acciolyd — Universidade Federal de Pernambuco (UFPE)
+Paola Accioly — Universidade Federal de Pernambuco (UFPE)
 
-Paulo Maiad — Universidade Estadual do Ceará (UECE)
+Paulo Maia — Universidade Estadual do Ceará (UECE)
 
-Pedro Henrique Dias Valled — Universidade de São Paula (USP)
+Pedro Henrique Dias Valle — Universidade de São Paula (USP)
 
-Rafael Serapilha Durellid — Universidade Federal de Lavras (UFLA)
+Rafael Serapilha Durelli — Universidade Federal de Lavras (UFLA)
 
-Roberta Coelhod — Universidade Federal do Rio Grande do Norte (UFRN)
+Roberta Coelho — Universidade Federal do Rio Grande do Norte (UFRN)
 
-Rodrigo Andraded — Universidade Federal do Agreste de Pernambuco (UFAPE)
+Rodrigo Andrade — Universidade Federal do Agreste de Pernambuco (UFAPE)
 
-Rodrigo Bonifaciod — Universidade Federal de Pernambuco (UFPE)
+Rodrigo Bonifacio — Universidade Federal de Pernambuco (UFPE)
 
-Talita Ribeirod — Universidade do Estado do Rio de Janeiro (UERJ)
+Talita Ribeiro — Universidade do Estado do Rio de Janeiro (UERJ)
 
-Thatiane de Oliveira Rosad — Instituto Federal do Tocantins (IFTO)
+Thatiane de Oliveira Rosa — Instituto Federal do Tocantins (IFTO)
 
-Uirá Kuleszad — Universidade Federal do Rio Grande do Norte (UFRN)
+Uirá Kulesza — Universidade Federal do Rio Grande do Norte (UFRN)
 
-Valter Vieira Camargod — Universidade Federal de São Carlos (UFSCar)
+Valter Vieira Camargo — Universidade Federal de São Carlos (UFSCar)
 
-Vinicius Cardoso Garciad — Universidade Federal de Pernambuco (UFPE)
+Vinicius Cardoso Garcia — Universidade Federal de Pernambuco (UFPE)
 
-Willian Marques Freired — Universidade Estadual de Maringá (UEM)
+Willian Marques Freire — Universidade Estadual de Maringá (UEM)
 
-Willian Nalepa Oizumid — Google
+Willian Nalepa Oizumi — Google
