@@ -2,26 +2,35 @@
     {
         "title": "Abertura e premiação Festival de Artefato",
         "schedule": {
-            "start": "2026-09-09T11:00:00-03:00",
-            "end": "2026-09-09T11:30:00-03:00"
+            "start": "2026-09-08T11:00:00-03:00",
+            "end": "2026-09-08T11:10:00-03:00"
+        },
+        "type": "info",
+        "rooms": ["b3"]
+    },
+    {
+        "title": "Festival de Artefatos 1",
+        "schedule": {
+            "start": "2026-09-08T11:10:00-03:00",
+            "end": "2026-09-08T12:30:00-03:00"
+        },
+        "type": "info",
+        "rooms": ["b3"]
+    },
+    {
+        "title": "Festival de Artefatos 2",
+        "schedule": {
+            "start": "2026-09-09T12:00:00-03:00",
+            "end": "2026-09-09T12:30:00-03:00"
         },
         "type": "info",
         "rooms": ["auditorio-ime"]
     },
     {
-        "title": "Festival de Artefatos",
+        "title": "Festival de Artefatos 3",
         "schedule": {
             "start": "2026-09-09T14:00:00-03:00",
             "end": "2026-09-09T16:00:00-03:00"
-        },
-        "type": "info",
-        "rooms": ["b16"]
-    },
-    {
-        "title": "Festival de Artefatos",
-        "schedule": {
-            "start": "2026-09-09T16:30:00-03:00",
-            "end": "2026-09-09T18:30:00-03:00"
         },
         "type": "info",
         "rooms": ["b16"]
