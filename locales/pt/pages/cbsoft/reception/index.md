@@ -42,7 +42,9 @@ A trilha sonora da noite ficará por conta do show ao vivo do grupo **Jazz Prazz
 - Coração
 - Pão de alho (**Opção vegetariana**)
 - Queijo coalho (**Opção vegetariana**)
-- Medalhão de mandioca com abobrinha (**Opção vegetariana**)
+- Medalhão de mandioca com abobrinha (**Opção vegana**)
+
+e outras surpresas...
 
 ## Consumo Extra / Comanda Individual
 
