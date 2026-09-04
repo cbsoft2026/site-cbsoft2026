@@ -253,6 +253,10 @@ export default function generatedCollection(t: Translator, commonT: Translator) 
   const softwareLivreMenuItem: NavbarItemProps = {
     title: commonT('software-livre'),
     href: '/software-livre',
+    items: [
+      { title: t('about_event'), href: '/software-livre' },
+      { title: t('events'), href: '/software-livre/event' },
+    ],
   };
 
   return [
