@@ -53,6 +53,7 @@ export default function generatedCollection(t: Translator, commonT: Translator) 
         title: t('cbsoft.programa.titulo'),
         items: [
           { title: t('schedule.titulo'), href: '/schedule/calendar' },
+          { title: t('artigos_aceitos'), href: '/cbsoft/papers' },
           { title: t('cbsoft.special-activities'), href: '/cbsoft/special-activities' },
         ],
         dropdown: false,
