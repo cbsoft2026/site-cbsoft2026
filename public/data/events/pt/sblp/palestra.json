@@ -8,6 +8,6 @@
         },
         "description": "The demise of scaling laws in micro-electronics has led to the so-called golden era of computer architectures. This includes massive parallelism, hardware specialization, new technologies and non Von-Neumann computing models. This talk discusses high-level programming and compiler abstractions for specific application domains such as high-performance computing, cyber-physical systems and machine learning. Concretely, we discuss coordination programming languages, methodologies to exploit and adapt to heterogeneous computing systems, and current efforts to model and compile for non Von-Neumann computing accelerators. The latter includes abstractions and optimizations flows for reconfigurable systems as well as near and in-memory computing architectures. We report on experiences building such abstractions and optimizations in an extensible framework built upon the MLIR compiler infrastructure. We believe that this kind of unification and automation is key to more quickly navigate the heterogeneous landscape of emerging accelerators and to bring the benefits of emerging architectures to a boarder range of applications.",
         "lang": "en",
-        "rooms": ["auditorio-fau", "auditorio-ime", "b5", "b16", "b9", "b10", "b1", "b2", "b3", "b101", "ime-cec", "b7", "ccsl", "numec"]
+        "rooms": ["auditorio-fau", "auditorio-ime", "b5", "b16", "b9", "b10", "b1", "b2", "b3", "b101"]
     }
 ]

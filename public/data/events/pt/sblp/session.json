@@ -6,7 +6,7 @@
             "end": "2026-09-10T09:30:00-03:00"
         },
         "type": "info",
-        "rooms": ["auditorio-fau", "auditorio-ime", "b5", "b16", "b9", "b10", "b1", "b2", "b3", "b101", "ime-cec", "b7", "ccsl", "numec"]
+        "rooms": ["auditorio-fau", "auditorio-ime", "b5", "b16", "b9", "b10", "b1", "b2", "b3", "b101"]
     },
     {
         "title": "ST1 SBLP",

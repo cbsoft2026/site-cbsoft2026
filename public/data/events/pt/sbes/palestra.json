@@ -8,7 +8,7 @@
         },
         "description": "The Software Engineering research community produces hundreds, if not thousands of papers every year, and yet the impact of most studies remains limited. In this talk I discuss why this might be so, namely, a lack of direction. The SE community is quite well prepared in its methodological designs (though improvements can be made here too), but not so well in the creation of a cumulative body of knowledge. The SE community tends to focus very strongly on the “topic of the day”, and as a community we chase every topic we can find, without grounding these topics in prior literature. I posit that this constant stream of publications that remain disconnected is due to a lack of attention and appreciation for theory building. In this talk I will illustrate the problem using examples, and offer a potential way forward to address this. The solution offered will not be straightforward to implement, but if successful, we can strengthen the SE literature and make it more relevant for both research and practice.",
         "lang": "en",
-        "rooms": ["auditorio-fau", "auditorio-ime", "b5", "b16", "b9", "b10", "b1", "b2", "b3", "b101", "ime-cec", "b7", "ccsl"]
+        "rooms": ["auditorio-fau", "auditorio-ime", "b5", "b16", "b9", "b10", "b1", "b2", "b3", "b101"]
     },
     {
         "title": "Keynote II SBES: The Good, The Bad, and The Hybrid: Rethinking Work and Intelligence in Software Engineering",
