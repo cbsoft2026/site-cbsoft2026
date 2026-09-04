@@ -129,6 +129,7 @@ export default async function HomePage({ params }: Props) {
         <div className={`${styles['hero__wrapper']}`}>
           <h1>{homeT('titulo')}</h1>
           {homeT('descricao')}
+          {locationT('atencao')}
 
           <div className={styles.local}>
             <FontAwesomeIcon icon={faLocationDot} />
