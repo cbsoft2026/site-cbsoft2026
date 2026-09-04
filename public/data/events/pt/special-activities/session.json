@@ -60,6 +60,36 @@
         "rooms": ["b7"]
     },
     {
+        "title": "partnership-red-hat-academy",
+        "schedule": {
+            "start": "2026-09-09T11:00:00-03:00",
+            "end": "2026-09-09T12:30:00-03:00"
+        },
+        "type": "info",
+        "url": "/cbsoft/special-activities/",
+        "rooms": ["b7"]
+    },
+    {
+        "title": "partnership-red-hat-academy",
+        "schedule": {
+            "start": "2026-09-09T14:00:00-03:00",
+            "end": "2026-09-09T16:00:00-03:00"
+        },
+        "type": "info",
+        "url": "/cbsoft/special-activities/",
+        "rooms": ["b7"]
+    },
+    {
+        "title": "partnership-red-hat-academy",
+        "schedule": {
+            "start": "2026-09-09T16:30:00-03:00",
+            "end": "2026-09-09T18:30:00-03:00"
+        },
+        "type": "info",
+        "url": "/cbsoft/special-activities/",
+        "rooms": ["b7"]
+    },
+    {
         "title": "Café com Deploy (Irya Solutions)",
         "schedule": {
             "start": "2026-09-09T09:00:00-03:00",
