@@ -73,6 +73,7 @@ export default function generatedCollection(t: Translator, commonT: Translator) 
         title: t('cbsoft.guia-do-participante.titulo'),
         items: [
           { title: t('cbsoft.local'), href: '/cbsoft/location' },
+          { title: t('cbsoft.map'), href: '/map' },
           { title: t('cbsoft.acomodacoes'), href: '/cbsoft/accommodation' },
           {
             title: t('cbsoft.social-events'),
