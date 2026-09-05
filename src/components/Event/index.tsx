@@ -99,26 +99,48 @@ async function ParentTable({ events, event, locale, sort }: Props) {
                         {(() => {
                           if (badge == 'available') {
                             return (
-                              <Image
-                                src={`${process.env.NEXT_PUBLIC_ASSET_PREFIX}/images/artifacts/artifacts_available.webp`}
-                                style={{ height: '1em', verticalAlign: 'middle', marginLeft: '4px' }}
-                                alt='artifacts available'
-                                width={16}
-                                height={16}
-                                priority
-                              />
+                              <span
+                                className={styles.tooltip}
+                                data-tooltip={commonT('artifacts_available')}
+                                style={{
+                                  display: 'inline-flex',
+                                  alignItems: 'center',
+                                  marginLeft: '4px',
+                                  verticalAlign: 'middle',
+                                }}
+                              >
+                                <Image
+                                  src={`${process.env.NEXT_PUBLIC_ASSET_PREFIX}/images/artifacts/artifacts_available.webp`}
+                                  alt={commonT('artifacts_available')}
+                                  width={16}
+                                  height={16}
+                                  priority
+                                  style={{ height: '1em', width: 'auto' }}
+                                />
+                              </span>
                             );
                           }
                           if (badge == 'functional') {
                             return (
-                              <Image
-                                src={`${process.env.NEXT_PUBLIC_ASSET_PREFIX}/images/artifacts/artifacts_functional.webp`}
-                                style={{ height: '1em', verticalAlign: 'middle', marginLeft: '4px' }}
-                                alt='artifacts functional'
-                                width={16}
-                                height={16}
-                                priority
-                              />
+                              <span
+                                className={styles.tooltip}
+                                data-tooltip={commonT('artifacts_functional')}
+                                style={{
+                                  display: 'inline-flex',
+                                  alignItems: 'center',
+                                  marginLeft: '4px',
+                                  verticalAlign: 'middle',
+                                }}
+                              >
+                                <Image
+                                  src={`${process.env.NEXT_PUBLIC_ASSET_PREFIX}/images/artifacts/artifacts_functional.webp`}
+                                  alt={commonT('artifacts_functional')}
+                                  width={16}
+                                  height={16}
+                                  priority
+                                  style={{ height: '1em', width: 'auto' }}
+                                />
+                              </span>
                             );
                           }
                         })()}

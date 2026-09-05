@@ -86,5 +86,8 @@
     "tutorial": "Tutorial",
     "session": "Sessão",
     "info": "Informações"
-  }
+  },
+
+  "artifacts_available": "Artefato Disponível",
+  "artifacts_functional": "Artefato Funcional"
 }
