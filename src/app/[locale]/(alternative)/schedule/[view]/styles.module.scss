@@ -82,7 +82,7 @@
 .parallel-events {
   display: grid;
   grid-template-columns: none !important;
-  grid-template-rows: 1fr 1fr !important;
+  // grid-template-rows: 1fr 1fr !important;
   gap: 0;
 
   min-width: 0;

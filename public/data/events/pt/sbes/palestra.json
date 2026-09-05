@@ -3,7 +3,7 @@
         "title": "Keynote I SBES: Why are you doing this study? On the role of theory in software engineering research - Sala Alan Turing (auditório FAU)",
         "speakers": ["klaas-jan-stol"],
         "schedule": {
-            "start": "2026-09-09T09:30:00-03:00",
+            "start": "2026-09-09T09:00:00-03:00",
             "end": "2026-09-09T10:30:00-03:00"
         },
         "description": "The Software Engineering research community produces hundreds, if not thousands of papers every year, and yet the impact of most studies remains limited. In this talk I discuss why this might be so, namely, a lack of direction. The SE community is quite well prepared in its methodological designs (though improvements can be made here too), but not so well in the creation of a cumulative body of knowledge. The SE community tends to focus very strongly on the “topic of the day”, and as a community we chase every topic we can find, without grounding these topics in prior literature. I posit that this constant stream of publications that remain disconnected is due to a lack of attention and appreciation for theory building. In this talk I will illustrate the problem using examples, and offer a potential way forward to address this. The solution offered will not be straightforward to implement, but if successful, we can strengthen the SE literature and make it more relevant for both research and practice.",
@@ -25,7 +25,7 @@
         "title": "Keynote III SBES: From Software Quality to Human-Centered Software Engineering: The Journey of USES - Sala Alan Turing (auditório FAU)",
         "speakers": ["tayana-conte"],
         "schedule": {
-            "start": "2026-09-11T09:30:00-03:00",
+            "start": "2026-09-11T09:00:00-03:00",
             "end": "2026-09-11T10:30:00-03:00"
         },
         "description": "Software quality can be understood from multiple perspectives: the quality of the products we build, the processes through which we build them, and the experiences of the people who use and develop software. This talk explores these perspectives through the research journey of the USES Research Group, from early work on usability and user experience to research on requirements engineering, software architecture, and human factors in software engineering.<br/>Beyond research results, this journey also highlights another dimension of quality: fostering researchers. Over the years, USES has become not only a place for investigating how to build better software and better support software development, but also an environment where new generations of Software Engineering researchers can grow and thrive. Today, former USES researchers hold faculty positions at universities across four of Brazil’s five regions, where they continue to conduct research and mentor new researchers. Drawing on selected research contributions and lessons learned along this journey, the talk reflects on how a human-centered view of Software Engineering can extend from the software we build and the people who build it to the researchers who will shape the future of the field.",

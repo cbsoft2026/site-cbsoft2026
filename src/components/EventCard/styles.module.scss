@@ -101,8 +101,9 @@
       }
     }
   }
+}
 
-  &:hover {
+a.schedule-default:hover {
     .schedule__info,
     .schedule__content {
       border-color: var(--schedule-color);
@@ -112,7 +113,6 @@
       color: $text-primary;
     }
   }
-}
 
 .schedule--info {
   --schedule-color: #{$overlay-bg};
@@ -257,7 +257,7 @@
       border-top-left-radius: 0;
 
       > * {
-        display: none;
+        opacity: 0;
       }
     }
 

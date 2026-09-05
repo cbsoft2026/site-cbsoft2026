@@ -242,6 +242,12 @@ export default function Schedule(props: Props) {
                     if (a.type !== 'session' && b.type === 'session') return -1;
                     return 0;
                   })
+                  .sort((a, b) => {
+                    if (a.type === 'info' && b.type !== 'info') return -1;
+                    if (a.type !== 'info' && b.type === 'info') return 1;
+                    return 0;
+                  })
+
                   .map((event, eventIndex) => (
                     <EventCard
                       key={`parallel-event-${event.id ?? eventIndex}`}

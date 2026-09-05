@@ -202,11 +202,10 @@ export default function EventCard(props: Props) {
     finishRoom = props.rooms.length + 3;
   }
 
-  const className = `${styles['schedule-default']} ${
-    props.event?.type ? styles['schedule--' + props.event.type] : ''
-  } ${styles['schedule-type--' + props.view]}`;
+  let className = `${styles['schedule-default']} ${styles['schedule-type--' + props.view]} `;
 
   if (props.nested) {
+    if (props.event.type != 'info') className += props.event?.type ? styles['schedule--' + props.event.type] : '';
     if (props.href) {
       return (
         <LinkLocale href={props.href} className={`${className} ${styles['schedule-default__nested']}`}>
@@ -215,8 +214,12 @@ export default function EventCard(props: Props) {
       );
     }
 
-    return <div className={className}>{EventCardWrapper(props, start, end)}</div>;
+    return (
+      <div className={`${className} ${styles['schedule-default__nested']}`}>{EventCardWrapper(props, start, end)}</div>
+    );
   }
+
+  className += props.event?.type ? styles['schedule--' + props.event.type] : '';
 
   const gridArea = `${labelSlice(start)} / ${startRoom} / ${labelSlice(end)} / ${finishRoom}`;
 
