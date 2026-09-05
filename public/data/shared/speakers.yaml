@@ -304,6 +304,13 @@
   institution: Sênior Engineering Manager, UNICO
   bio: Conhecido apenas como Casali, estou na Unico há 5 anos — os últimos 3 anos e meio como Senior Engineering Manager liderando o time de Platform Engineering.
 
+- id: mariana-crisostomo-martins
+  name: Mariana Crisostomo Martins
+  image: Mariana_Crisostomo_Martins.webp
+  institution: CEIA – Centro de Excelência em IA - UFG
+  institution_acronym: CEIA
+  bio: Doutora em Ciência da Computação pela Universidade Federal de Goiás, com pesquisa em Discovery de projetos de IA. Atua como Subject-Matter Expert de projetos de IA na TOTVS. Product Owner e Gerente de projetos no CEIA, onde lidera produtos de IA aplicados à saúde, ao agronegócio e outros domínios. Professora de Engenharia de Software para IA e Gestão de Produtos de IA.
+
 - id: renato-bulcao
   name: Renato Bulcão
   image: Renato_Bulcao.webp
