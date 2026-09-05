@@ -43,7 +43,7 @@ export default async function PapersPage({ params }: Props) {
   const events = mapToObject(loadEvents(locale));
 
   const papers = Object.entries(events)
-    .filter(([, event]) => event.type === 'artigo')
+    .filter(([, event]) => event.type === 'artigo' && event.simposio != 'artifacts')
     .reduce<Record<string, Event>>((acc, [id, event]) => {
       acc[id] = {
         ...event,

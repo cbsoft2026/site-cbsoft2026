@@ -1,0 +1,255 @@
+[
+    {
+        "title": "Characterizing Horizontal Pod Autoscaler Usage in Open-Source Kubernetes Projects: A Large-Scale Empirical Study",
+        "authors": ["Thiago Serafim Rodrigues (Unifor)", "Humberto F. Ribeiro Júnior (Unifor)", "Nabor Mendonca (Unifor)"],
+        "schedule": {
+            "start": "2026-09-08T11:15:00-03:00",
+            "end": "2026-09-08T11:25:00-03:00"
+        },
+        "rooms": ["b3"],
+        "badges": ["available", "functional"],
+        "artifact": "https://doi.org/10.5281/zenodo.22134989"
+    },
+    {
+        "title": "Patchlens: A Static Analysis Tool for Variant-Aware Change Impact Analysis in Configurable Systems",
+        "authors": ["Felipe Paixão (UFBA)", "Joanna Cecilia da Silva Santos", "Paulo Neto", "Daniel Sadoc Menasche (UFRJ)", "Gustavo B. Figueiredo (UFBA)", "Eduardo Almeida (UFBA)"],
+        "schedule": {
+            "start": "2026-09-08T11:25:00-03:00",
+            "end": "2026-09-08T11:35:00-03:00"
+        },
+        "rooms": ["b3"],
+        "badges": ["available", "functional"],
+        "artifact": "https://doi.org/10.5281/zenodo.22211457"
+    },
+    {
+        "title": "NoseSense: Benchmarking Tools",
+        "authors": ["Magno Macedo Miranda (UFBA)", "Tassio Guerreiro Antunes Virginio (UFBA)", "Lucas Lopes Fraga (UEFS)", "Letícia Barreto", "Ivan C Machado (UFBA)"],
+        "schedule": {
+            "start": "2026-09-08T11:35:00-03:00",
+            "end": "2026-09-08T11:45:00-03:00"
+        },
+        "rooms": ["b3"],
+        "badges": ["available", "functional"],
+        "artifact": "https://doi.org/10.5281/zenodo.22149462"
+    },
+    {
+        "title": "Js-Distributor Extension for Automated Test Migration From Monoliths to Microservices",
+        "authors": ["Ivan Capeli Navas (UFSCAR)", "Daniel Lucrédio (UFSCAR)"],
+        "schedule": {
+            "start": "2026-09-08T11:45:00-03:00",
+            "end": "2026-09-08T11:55:00-03:00"
+        },
+        "rooms": ["b3"],
+        "badges": ["available", "functional"],
+        "artifact": "https://zenodo.org/records/21415687"
+    },
+    {
+        "title": "The Impact of Static Analysis Depth Limit on Semantic Conflict Detection",
+        "authors": ["Pedro Patriota (UFPE)", "Matheus Barbosa (UFPE)", "Paulo Borba (UFPE)"],
+        "schedule": {
+            "start": "2026-09-08T11:55:00-03:00",
+            "end": "2026-09-08T12:05:00-03:00"
+        },
+        "rooms": ["b3"],
+        "badges": ["available", "functional"],
+        "artifact": "https://doi.org/10.17605/OSF.IO/BAXRP"
+    },
+    {
+        "title": "Awaiting Trouble: Characterizing Concurrency Issues in Modern Promise-based JavaScript Applications",
+        "authors": ["Pedro Vicente (UFSCar)", "Andre Takeshi Endo (UFSCar)"],
+        "schedule": {
+            "start": "2026-09-08T12:05:00-03:00",
+            "end": "2026-09-08T12:15:00-03:00"
+        },
+        "rooms": ["b3"],
+        "badges": ["available", "functional"],
+        "artifact": "https://zenodo.org/records/21682992"
+    },
+    {
+        "title": "Micro Frontends: Definition, Classifications, Challenges, Implementation Approaches and Communication Methods",
+        "authors": ["Joao Luiz Castro (UFSCAR)", "Daniel Lucrédio (UFSCAR)"],
+        "schedule": {
+            "start": "2026-09-08T12:15:00-03:00",
+            "end": "2026-09-08T12:25:00-03:00"
+        },
+        "rooms": ["b3"],
+        "badges": ["available", "functional"],
+        "artifact": "https://doi.org/10.5281/zenodo.21412837"
+    },
+    {
+        "title": "Exploring the Impact of Music on Brain Activity during Testing: An EEG-based Investigation",
+        "authors": ["Dhyego Tavares (UFBA)", "Roselane Farias (UFBA)", "Michelle Carvalho (RiSE Labs)", "José Garcia Vivas Miranda (UFBA)", "Eduardo Almeida (UFBA)"],
+        "schedule": {
+            "start": "2026-09-08T12:25:00-03:00",
+            "end": "2026-09-08T12:30:00-03:00"
+        },
+        "rooms": ["b3"],
+        "badges": ["available", "functional"],
+        "artifact": "https://zenodo.org/records/22119099"
+    },
+    {
+        "title": "Evaluating Shaker for Flaky Test Detection in Python Projects",
+        "authors": ["Gabriela Leal", "Denini Silva", "Leopoldo Motta Teixeira"],
+        "schedule": {
+            "start": "2026-09-09T12:00:00-03:00",
+            "end": "2026-09-09T12:10:00-03:00"
+        },
+        "badges": ["available", "functional"],
+        "artifact": "https://doi.org/10.5281/zenodo.22119340",
+        "rooms": ["auditorio-ime"]
+    },
+    {
+        "title": "LLMContextBench: A Benchmark Tool for Evaluating Context Provisioning Strategies in LLM-Based Systems",
+        "authors": ["Michel A. Vasconcelos (Unifor)", "Nabor Mendonca (Unifor)"],
+        "schedule": {
+            "start": "2026-09-09T12:10:00-03:00",
+            "end": "2026-09-09T12:20:00-03:00"
+        },
+        "badges": ["available", "functional"],
+        "artifact": "https://doi.org/10.5281/zenodo.22118922",
+        "rooms": ["auditorio-ime"]
+    },
+    {
+        "title": "Grading Is Easy, Feedback Is Hard: Evaluating LLMs for Design-Oriented OOP Assessment",
+        "authors": ["Eli Pedro Cordeiro da Silva (UFCG)", "Eliane Araújo (UFCG)", "Everton L. G. Alves (UFCG)"],
+        "schedule": {
+            "start": "2026-09-09T12:20:00-03:00",
+            "end": "2026-09-09T12:30:00-03:00"
+        },
+        "badges": ["available", "functional"],
+        "artifact": "https://doi.org/10.5281/zenodo.21385431",
+        "rooms": ["auditorio-ime"]
+    },
+    {
+        "title": "An AI-Assisted Tool for Practically Relevant Research Problem Formulation in Software Engineering",
+        "authors": ["João Pedro Theodoro", "Victoria Cruz de Figueiredo", "Anrafel Fernandes Pereira (PUC-Rio)", "Wallace Albertini Boquimpani", "Mariana Martins (UFG)", "Marcos Kalinowski (PUC-Rio)"],
+        "schedule": {
+            "start": "2026-09-09T14:00:00-03:00",
+            "end": "2026-09-09T14:10:00-03:00"
+        },
+        "badges": ["available", "functional"],
+        "artifact": "https://doi.org/10.5281/zenodo.21385837",
+        "rooms": ["b16"]
+    },
+    {
+        "title": "Who Holds the Power? Managing Power in Software Ecosystems",
+        "authors": ["Juliana Carvalho Silva (UNIRIO)", "Paulo Malcher (UFRA)", "Rodrigo Pereira dos Santos (UNIRIO)", "Eleni Constantinou", "Alexander Serebrenik (Eindhoven University of Technology)"],
+        "schedule": {
+            "start": "2026-09-09T14:10:00-03:00",
+            "end": "2026-09-09T14:20:00-03:00"
+        },
+        "badges": ["available", "functional"],
+        "artifact": "https://doi.org/10.5281/zenodo.22129023",
+        "rooms": ["b16"]
+    },
+    {
+        "title": "Gigantes ou Moinhos de Vento? Um Estudo Empírico sobre a Evolução e Disseminação de Arquivos Grandes",
+        "authors": ["Mateus Batichotti Silva (UTFPR Campo Mourão)", "Tiago Defendi da Silva (UTFPR)", "Igor Scaliante Wiese (UTFPR)", "Ivanilton Polato (UTFPR)", "Reginaldo Ré (UTFPR)"],
+        "schedule": {
+            "start": "2026-09-09T14:20:00-03:00",
+            "end": "2026-09-09T14:30:00-03:00"
+        },
+        "badges": ["available", "functional"],
+        "artifact": "https://zenodo.org/records/21366286",
+        "rooms": ["b16"]
+    },
+    {
+        "title": "D.aise: An Automated README Generator from Source Code Repositories",
+        "authors": ["Arthur Alesi (PUC-Rio)", "Gabriela Soares", "Juliana Alves Pereira (PUC-Rio)"],
+        "schedule": {
+            "start": "2026-09-09T14:30:00-03:00",
+            "end": "2026-09-09T14:40:00-03:00"
+        },
+        "badges": ["available", "functional"],
+        "artifact": "https://zenodo.org/records/21464226",
+        "rooms": ["b16"]
+    },
+    {
+        "title": "GTAA-LM: Arquitetura de Agentes Baseados em LLMs para Diagnóstico e Apoio à Orquestração de Microsserviços em Sistemas Distribuídos",
+        "authors": ["Julio C. S. Lima (UFLA)", "Luiz H. A. Correia (UFLA)", "André de Lima Salgado (UFLA)", "Maurício Souza (UFLA)"],
+        "schedule": {
+            "start": "2026-09-09T14:40:00-03:00",
+            "end": "2026-09-09T14:50:00-03:00"
+        },
+        "badges": ["available", "functional"],
+        "artifact": "https://doi.org/10.5281/zenodo.22146387",
+        "rooms": ["b16"]
+    },
+    {
+        "title": "An Empirical Study on the Use of Augmented Reality to Support the Teaching of Model Needs in Requirements Engineering for AI Systems",
+        "authors": ["Giovanna Bonilha (IFAM)", "Bruna Santos (UFAM)", "Ayumi Aoki Santana (UFAM)", "Bianca Trinkenreich", "Fabiann Matthaus Barbosa (IFAM)", "Tayana Conte (UFAM)"],
+        "schedule": {
+            "start": "2026-09-09T14:50:00-03:00",
+            "end": "2026-09-09T15:00:00-03:00"
+        },
+        "badges": ["available", "functional"],
+        "artifact": "https://zenodo.org/records/22151219",
+        "rooms": ["b16"]
+    },
+    {
+        "title": "Programming Dojo as a Pedagogical Strategy in Object-Oriented Programming Education: A Multi-Semester Study at a Public and a Private Institution",
+        "authors": ["Talita Ribeiro (UERJ)", "Rebeca Motta (UFF)"],
+        "schedule": {
+            "start": "2026-09-09T15:00:00-03:00",
+            "end": "2026-09-09T15:10:00-03:00"
+        },
+        "badges": ["available", "functional"],
+        "artifact": "https://doi.org/10.6084/m9.figshare.33021725.v4",
+        "rooms": ["b16"]
+    },
+    {
+        "title": "How AI Coding Agents Resolve Merge Conflicts: An Empirical Study",
+        "authors": ["Heleno de Souza Campos Junior (UFF)", "Leonardo Gresta Paulino Murta (UFF)"],
+        "schedule": {
+            "start": "2026-09-09T15:10:00-03:00",
+            "end": "2026-09-09T15:20:00-03:00"
+        },
+        "badges": ["available", "functional"],
+        "artifact": "https://zenodo.org/records/22131603",
+        "rooms": ["b16"]
+    },
+    {
+        "title": "The Vocabulary of Flaky Tests in Swift",
+        "authors": ["João Mederios", "Denini Silva", "Breno Miranda"],
+        "schedule": {
+            "start": "2026-09-09T15:20:00-03:00",
+            "end": "2026-09-09T15:30:00-03:00"
+        },
+        "badges": ["available", "functional"],
+        "artifact": "https://doi.org/10.5281/zenodo.22118906",
+        "rooms": ["b16"]
+    },
+    {
+        "title": "Scylla: A Unified Tool for Code Smell Classification in Python",
+        "authors": ["Igor Soares de Oliveira (PUC-Rio)", "Alexandre César Brandão de Andrade (PUC-Rio)", "Rayssa Athayde (PUC-Rio)", "Eduardo Nadai (PUC-Rio)", "Juliana Alves Pereira (PUC-Rio)"],
+        "schedule": {
+            "start": "2026-09-09T15:30:00-03:00",
+            "end": "2026-09-09T15:40:00-03:00"
+        },
+        "badges": ["available", "functional"],
+        "artifact": "https://zenodo.org/records/21461946",
+        "rooms": ["b16"]
+    },
+    {
+        "title": "Dependency Version Migration in Software Projects: A Rapid Review of Motivations, Techniques, Tools, and Challenges",
+        "authors": ["Arthur Vinícius Bezerra da Silva (IFPE)", "Leopoldo Motta Teixeira (UFPE)", "Wesley K. G. Assunção (North Carolina State University)", "Bruno Cartaxo (IFPE)"],
+        "schedule": {
+            "start": "2026-09-09T15:40:00-03:00",
+            "end": "2026-09-09T15:50:00-03:00"
+        },
+        "badges": ["available", "functional"],
+        "artifact": "https://zenodo.org/records/22127847",
+        "rooms": ["b16"]
+    },
+    {
+        "title": "PBI Grid: A Dashboard as Code Tool for Enhancing Maintainability and GovBR Compliance in Power BI Reports",
+        "authors": ["Fernando Maia da Mota (UFMS)", "Eos Xavier (Fundação Universidade Federal de Mato Grosso do Sul)", "Debora Maria Barroso Paiva (Universidade Federal de Mato Grosso do Sul)", "Edson Takashi Matsubara (Fundação Universidade Federal de Mato Grosso do Sul)", "Ricardo Marcondes Marcacini"],
+        "schedule": {
+            "start": "2026-09-09T15:50:00-03:00",
+            "end": "2026-09-09T16:00:00-03:00"
+        },
+        "badges": ["available", "functional"],
+        "artifact": "https://doi.org/10.5281/zenodo.22135423",
+        "rooms": ["b16"]
+    }
+]

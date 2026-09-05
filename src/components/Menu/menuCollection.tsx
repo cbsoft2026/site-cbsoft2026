@@ -243,6 +243,7 @@ export default function generatedCollection(t: Translator, commonT: Translator) 
     items: [
       { title: t('chamada_trabalhos'), href: '/artifacts' },
       { title: t('events'), href: '/artifacts/event' },
+      { title: t('artigos_aceitos'), href: '/artifacts/papers' },
     ],
   };
 
