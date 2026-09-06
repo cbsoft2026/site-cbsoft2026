@@ -9,7 +9,13 @@ The lunch will take place at `Restaurante Sweden`, located within USP, at Tv. do
 
 - **How to participate?** Participation is by registration. Please fill out the [form](https://docs.google.com/forms/d/e/1FAIpQLSemS283uGw_WkDtxYm-8ZDEtUR5ppA3RYgEsZvRFDhczBwuMg/viewform)[^1]
 
-- **Special discount:** Students will receive a discount of at least 50% on the lunch fee. A maximum of 40 students can benefit from this discount. This benefit is made possible thanks to ZUP!
+- **Special discount:** Students will receive a discount of at least 50% on the lunch fee. A maximum of 40 students can benefit from this discount (if there are fewer than 40 students, those who attend will receive a discount greater than 50%). This benefit is a courtesy of ZUP, a partner of the IAware event. We thank ZUP and our colleagues from IAware for their support.
+
+<p style="max-width: 200px; margin-left: 2rem">
+<img src="sponsors/zup.webp">
+</p>
+
+<br/>
 
 <p align="center" style="max-width: 720px; margin: 0 auto">
 <img src="women-lunch/photo-last-year.webp">
