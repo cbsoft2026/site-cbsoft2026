@@ -4,7 +4,12 @@ The lunch will take place at `Restaurante Sweden`, located within USP, at Tv. do
 
 - **Date:** September 10
 - **Time:** 12:30 PM to 2:00 PM
-- **Cost:** R$137.00 (upon registration by filling out the [formulário](https://docs.google.com/forms/d/e/1FAIpQLSemS283uGw_WkDtxYm-8ZDEtUR5ppA3RYgEsZvRFDhczBwuMg/viewform)[^1])
+- **Cost:** ~~R$137.00~~ R$130.15 (discount already negotiated by the CBSoft 2026 coordinators)
+- **Spots:** 60 women
+
+- **How to participate?** Participation is by registration. Please fill out the [form](https://docs.google.com/forms/d/e/1FAIpQLSemS283uGw_WkDtxYm-8ZDEtUR5ppA3RYgEsZvRFDhczBwuMg/viewform)[^1]
+
+- **Special discount:** Students will receive a discount of at least 50% on the lunch fee. A maximum of 40 students can benefit from this discount. This benefit is made possible thanks to ZUP!
 
 <p align="center" style="max-width: 720px; margin: 0 auto">
 <img src="women-lunch/photo-last-year.webp">
