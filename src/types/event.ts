@@ -29,6 +29,7 @@ export const EventSchema = Type.Object({
   parentIds: Type.Optional(Type.Array(Type.String())),
   category: Type.Optional(Type.String()),
   badges: Type.Optional(Type.Array(BadgeType)),
+  awards: Type.Optional(Type.Array(Type.String())),
   metadata: Type.Optional(MetadataType),
 });
 

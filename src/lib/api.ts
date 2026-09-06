@@ -179,6 +179,7 @@ export function loadEvents(lang: string = defaultLang): Map<string, Event> {
             category: p.category,
             url: p.url,
             badges: p.badges || [],
+            awards: p.awards || [],
             metadata: metadata || {},
           });
         });

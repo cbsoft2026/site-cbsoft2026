@@ -81,7 +81,7 @@ async function ParentTable({ events, event, locale, sort }: Props) {
         <td>
           <h6>
             {title}
-            {parentEvent.badges ? (
+            {parentEvent.badges || parentEvent.awards ? (
               <span
                 style={{
                   height: '1em',
@@ -92,7 +92,31 @@ async function ParentTable({ events, event, locale, sort }: Props) {
                 }}
               >
                 {' '}
-                {parentEvent.badges.map((badge) => {
+                {parentEvent.awards?.map((award) => {
+                  return (
+                    <span
+                      key={award}
+                      className={styles.tooltip}
+                      data-tooltip={award}
+                      style={{
+                        display: 'inline-flex',
+                        alignItems: 'center',
+                        marginLeft: '4px',
+                        verticalAlign: 'middle',
+                      }}
+                    >
+                      <Image
+                        src={`${process.env.NEXT_PUBLIC_ASSET_PREFIX}/images/awards.webp`}
+                        alt={award}
+                        width={16}
+                        height={16}
+                        priority
+                        style={{ height: '1em', width: 'auto' }}
+                      />
+                    </span>
+                  );
+                })}
+                {parentEvent.badges?.map((badge) => {
                   return (
                     <LinkLocale key={badge} href={{ pathname: '/artifacts' }} locale={locale}>
                       <picture>

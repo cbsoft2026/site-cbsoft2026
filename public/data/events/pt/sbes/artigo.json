@@ -165,6 +165,7 @@
         "rooms": ["b10"],
         "badges": ["available", "functional"],
         "artifact": "https://zenodo.org/records/21366286",
+        "awards": ["Distinguished Artifact Award"],
         "track": "pesquisa"
     },
     {
@@ -660,6 +661,7 @@
         "rooms": ["b1"],
         "badges": ["available", "functional"],
         "artifact": "https://doi.org/10.5281/zenodo.22118922",
+        "awards": ["Distinguished Artifact Award"],
         "track": "tools"
     },
     {
@@ -1466,6 +1468,7 @@
         "rooms": ["b2"],
         "badges": ["available", "functional"],
         "artifact": "https://doi.org/10.5281/zenodo.21385431",
+        "awards": ["Distinguished Artifact Award"],
         "track": "educacao"
     },
     {
@@ -2320,6 +2323,7 @@
         "rooms": ["ime-cec"],
         "badges": ["available", "functional"],
         "artifact": "https://doi.org/10.5281/zenodo.22118922",
+        "awards": ["Distinguished Artifact Award"],
         "track": "tools"
     },
     {

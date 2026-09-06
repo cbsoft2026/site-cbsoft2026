@@ -96,6 +96,7 @@
         },
         "badges": ["available", "functional"],
         "artifact": "https://doi.org/10.5281/zenodo.22119340",
+        "awards": ["Distinguished Artifact Award"],
         "rooms": ["auditorio-ime"]
     },
     {
@@ -107,6 +108,7 @@
         },
         "badges": ["available", "functional"],
         "artifact": "https://doi.org/10.5281/zenodo.22118922",
+        "awards": ["Distinguished Artifact Award"],
         "rooms": ["auditorio-ime"]
     },
     {
@@ -118,6 +120,7 @@
         },
         "badges": ["available", "functional"],
         "artifact": "https://doi.org/10.5281/zenodo.21385431",
+        "awards": ["Distinguished Artifact Award"],
         "rooms": ["auditorio-ime"]
     },
     {
@@ -151,6 +154,7 @@
         },
         "badges": ["available", "functional"],
         "artifact": "https://zenodo.org/records/21366286",
+        "awards": ["Distinguished Artifact Award"],
         "rooms": ["b16"]
     },
     {
