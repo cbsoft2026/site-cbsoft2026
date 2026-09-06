@@ -180,11 +180,17 @@ Ademar França de Sousa Neto — Universidade Federal Rural do Semi-Árido (UFER
 
 Adenilso Simao — Universidade de São Paulo (USP)
 
+Ana Carolina Oran Rocha — Universidade Federal do Amazonas (UFAM)
+
 Anderson Uchoa — Universidade Federal do Ceará (UFC)
+
+André Luis Andrade Menolli — Universidade Estadual de Londrina (UEL)
 
 Awdren de Lima Fontão — Universidade Federal de Mato Grosso do Sul (UFMS)
 
 Baldoino Fonseca — Universidade Federal de Alagoas (UFAL)
+
+Breno Miranda — Universidade Federal de Pernambuco (UFPE)
 
 Bruno Gadelha — Universidade Federal do Amazonas (UFAM)
 
@@ -217,6 +223,8 @@ Everton Tavares Guimaraes — The Pennsylvania State University
 Fabiano Cutigi Ferrari — Universidade Federal de São Carlos (UFSCar)
 
 Fernanda Madeiral — Universidade Federal de Pernambuco (UFPE)
+
+Fernando Castor — University of Twente
 
 Francisco Henrique Cerdeira Ferreira — Universidade Federal de Juiz de Fora (UFJF)
 
@@ -262,6 +270,8 @@ Luana Martins — University of Salerno
 
 Lucas Vegi — Universidade Federal de Viçosa (UFV)
 
+Maicon Bernardino — Universidade Federal do Pampa (Unipampa)
+
 Marcelo de Almeida Maia — Universidade Federal de Uberlândia (UFU)
 
 Márcio O. Barros — Universidade Federal do Rio de Janeiro (UFRJ)
@@ -290,6 +300,8 @@ Renato Balancieri — Universidade Estadual de Maringá (UEM)
 
 Renato Bulcão-Neto — Universidade Federal de Goiás (UFG)
 
+Ricardo Ferreira Vilela — Universidade Estadual de Campinas
+
 Ricardo Theis Geraldi — Universidade Federal de Mato Grosso do Sul (UFMS)
 
 Rita Suzana Pitangueira Maciel — Universidade Federal da Bahia (UFBA)
@@ -317,6 +329,8 @@ Troy Costa Kohwalter — Universidade Federal Fluminense (UFF)
 Uirá Kulesza — Universidade Federal do Rio Grande do Norte (UFRN)
 
 Valdemar Vicente Graciano Neto — Universidade Federal de Goiás (UFG)
+
+Vinicius Cardoso Garcia — Universidade Federal de Pernambuco (UFPE)
 
 Williamson Silva — Universidade Federal do Cariri (UFCA)
 
