@@ -273,6 +273,10 @@
 
 - id: kiev-gama
   name: Kiev Gama
+  image: Kiev_Gama.webp
+  institution: UFPE
+  institution_acronym: UFPE
+  bio: Professor do Centro de Informática da UFPE e pesquisador do INES. IA (Instituto Nacional de Ciência e Tecnologia para Engenharia de Software Baseada em e para Inteligência Artificial). Desde 2024, é membro do Comitê de Ética em Pesquisa da UFPE, acumulando experiência na emissão de pareceres sobre mais de 50 projetos de pesquisa.
 
 - id: joao-soares
   name: João Soares
