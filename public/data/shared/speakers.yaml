@@ -266,6 +266,10 @@
 
 - id: lilian-passos-scatalon
   name: Lilian Passos Scatalon
+  image: Lilian_Passos_Scatalon.webp
+  institution: IME-USP
+  institution_acronym: IME-USP
+  bio: Professora da Universidade de São Paulo (IME-USP), Brasil. Atua nas áreas de Engenharia de Software e Linguagens de Programação. Seus interesses de pesquisa incluem Engenharia de Software Experimental, Teste de Software e Educação em Computação.
 
 - id: kiev-gama
   name: Kiev Gama
