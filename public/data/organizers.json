@@ -356,11 +356,6 @@
     "category": "web",
     "chairs": [
       {
-        "image": "rafaelPassos.webp",
-        "name": "Rafael Passos",
-        "university": "IME-USP"
-      },
-      {
         "image": "guilhermeIvo.webp",
         "name": "Guilherme Ivo",
         "university": "IME-USP"
