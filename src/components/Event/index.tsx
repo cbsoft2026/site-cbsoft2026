@@ -208,6 +208,18 @@ async function ParentTable({ events, event, locale, sort }: Props) {
             <div className={styles['external_urls']}>
               {Object.entries(parentEvent.metadata || {}).map(([key, value]) => {
                 switch (key) {
+                  case 'file_attached_url':
+                    return (
+                      <a
+                        key={key}
+                        target='_blank'
+                        rel='noopener noreferrer'
+                        href={`${process.env.NEXT_PUBLIC_ASSET_PREFIX}/${value}`}
+                      >
+                        <FontAwesomeIcon icon={faLink} />
+                        {t('file_attached')}
+                      </a>
+                    );
                   case 'artifact_url':
                     return (
                       <a key={key} target='_blank' rel='noopener noreferrer' href={withUTM(value)}>

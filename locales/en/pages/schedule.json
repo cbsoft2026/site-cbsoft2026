@@ -15,5 +15,6 @@
   "brasiliaTime": "All session times are based on Brasília Time (BRT/UTC-3).",
   "lastUpdate": "Last updated",
   "noContent": "No content related to this event is currently available.",
-  "artifact": "Artifact"
+  "artifact": "Artifact",
+  "file_attached": "File Attached"
 }

@@ -15,5 +15,6 @@
   "brasiliaTime": "Os horários de todas as sessões referem-se ao horário de Brasília (BRT/UTC-3).",
   "lastUpdate": "Última atualização",
   "noContent": "Nenhum conteúdo relacionado a este evento está disponível no momento.",
-  "artifact": "Artefato"
+  "artifact": "Artefato",
+  "file_attached": "Arquivo anexado"
 }
