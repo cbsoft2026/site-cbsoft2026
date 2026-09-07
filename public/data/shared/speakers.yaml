@@ -154,6 +154,8 @@
   image: Eduardo_Almeida.webp
   name: Eduardo Santana de Almeida
   institution: UFBA
+  institution_acronym: UFBA
+  bio: Professor na Universidade Federal da Bahia (UFBA), Brasil. É especialista em engenharia de software, com pesquisas voltadas a reuso de software, SE4AI e AI4SE.
 
 - id: guilherme-travassos
   image: Guilherme_Travassos.webp
