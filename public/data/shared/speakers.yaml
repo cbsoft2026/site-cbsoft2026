@@ -280,6 +280,10 @@
 
 - id: joao-soares
   name: João Soares
+  image: Joao_Soares.webp
+  institution: XP Inc.
+  institution_acronym: XP Inc.
+  bio: "Gerente de Desenvolvimento Quantitativo na XP Inc., uma das maiores instituições financeiras do Brasil, onde constrói há quase 8 anos os sistemas que sustentam a mesa de trading da empresa: precificação e risco de derivativos, cálculo de gregas e PnL, gestão de posições proprietárias, sourcing e armazenamento de dados de mercado (superfícies de volatilidade, curvas de juros, spots, correlações e fixings) e booking de operações junto a clearinghouses no Brasil e no exterior. Formado em Engenharia Elétrica e Eletrônica pela Escola Politécnica da USP, com intercâmbio na KU Leuven e certificação em Finanças Quantitativas pelo CQF Institute, João traz para a talk a visão de quem projeta arquitetura orientada a eventos sob as exigências reais de confiabilidade, latência e consistência de um dos ambientes financeiros mais críticos do país."
 
 - id: benicio-goulart
   name: Benício Goulart

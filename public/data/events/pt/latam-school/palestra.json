@@ -58,7 +58,8 @@
         "rooms": ["b5"]
     },
     {
-        "title": "Keynote VI LATAM SE School",
+        "title": "Keynote VII LATAM SE School: Event-driven architecture: atingindo at-least-once delivery com (e sem) um outbox",
+        "description": "Produzir eventos em um sistema distribuído vai além de chamar um broker via uma API: faz parte do processo de design da própria aplicação criar as ferramentas corretas para garantir confiabilidade no envio das mensagens. Nesta talk, o palestrante mostra o padrão do Outbox adotado pelo time de desenvolvimento que atende a mesa de trading da XP Inc., além do caso em que foi necessário abrir mão dele. Ao final, a XP apresenta o Rota XP, programa em parceria com a Marlabs que oferece um caminho acelerado de ingresso na empresa para talentos de tecnologia.",
         "speakers": ["joao-soares"],
         "schedule": {
             "start": "2026-09-09T15:30:00-03:00",
