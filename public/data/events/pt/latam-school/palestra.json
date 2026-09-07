@@ -20,13 +20,13 @@
         "rooms": ["b5"]
     },
     {
-        "title": "Keynote III LATAM SE School",
+        "title": "Keynote III LATAM SE School: Beyond FAIR Data: Making Research Software a First-Class Research Output",
         "speakers": ["roberto-di-cosmo"],
+        "moderator": ["sergio-soares"],
         "schedule": {
             "start": "2026-09-08T14:00:00-03:00",
             "end": "2026-09-08T15:00:00-03:00"
         },
-        "description": "(Ciência Aberta)",
         "lang": "en",
         "rooms": ["b5"]
     },

@@ -523,3 +523,9 @@
   image: Valessio_Brito.webp
   institution: iCAT
   institution_acronym: iCAT
+
+- id: sergio-soares
+  name: Sergio Soares
+  image: Sergio_Soares.webp
+  institution: UFPE
+  institution_acronym: UFPE
