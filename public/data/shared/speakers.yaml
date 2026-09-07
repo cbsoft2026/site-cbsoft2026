@@ -254,6 +254,10 @@
 
 - id: jose-carlos-maldonado
   name: Jose Carlos Maldonado
+  image: Jose_Carlos_Maldonado.webp
+  institution: ICMC-USP
+  institution_acronym: ICMC-USP
+  bio: "Professor na Universidade de São Paulo (ICMC-USP), Brasil. É especialista em engenharia de software, atuando principalmente nos seguintes temas: teste de software, educação em engenharia de software, engenharia de software experimental, sistemas embarcados críticos, e ambientes e métodos de ensino."
 
 - id: djamel-eddine-khelladi
   name: Djamel Eddine Khelladi
