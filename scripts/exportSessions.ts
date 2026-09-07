@@ -30,15 +30,21 @@ function formatTime(date: string): string {
   return new Intl.DateTimeFormat(locale, {
     hour: '2-digit',
     minute: '2-digit',
+    timeZone: 'America/Sao_Paulo',
   }).format(new Date(date));
 }
 
 function formatWeek(date: string): string {
-  return new Date(date).toLocaleDateString(locale, {
+  const day = date.split('T')[0];
+
+  const [year, month, dayOfMonth] = day.split('-').map(Number);
+
+  return new Intl.DateTimeFormat(locale, {
     weekday: 'long',
     month: 'short',
     day: '2-digit',
-  });
+    timeZone: 'America/Sao_Paulo',
+  }).format(new Date(year, month - 1, dayOfMonth, 12, 0, 0));
 }
 
 function getEventsByDay(filter: (event: Event) => boolean) {
