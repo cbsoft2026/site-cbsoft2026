@@ -22,7 +22,7 @@
         "artifact": "https://doi.org/10.5281/zenodo.22211457"
     },
     {
-        "title": "NoseSense: Benchmarking Tools",
+        "title": "NoseSense: Benchmarking Tool",
         "authors": ["Magno Macedo Miranda (UFBA)", "Tassio Guerreiro Antunes Virginio (UFBA)", "Lucas Lopes Fraga (UEFS)", "Letícia Barreto", "Ivan C Machado (UFBA)"],
         "schedule": {
             "start": "2026-09-08T11:35:00-03:00",
@@ -55,7 +55,7 @@
         "artifact": "https://doi.org/10.17605/OSF.IO/BAXRP"
     },
     {
-        "title": "Awaiting Trouble: Characterizing Concurrency Issues in Modern Promise-based JavaScript Applications",
+        "title": "Awaiting Trouble: Characterizing Concurrency Issues in Modern Promise-Based JavaScript Applications",
         "authors": ["Pedro Vicente (UFSCar)", "Andre Takeshi Endo (UFSCar)"],
         "schedule": {
             "start": "2026-09-08T12:05:00-03:00",
@@ -135,7 +135,7 @@
         "rooms": ["b16"]
     },
     {
-        "title": "Who Holds the Power? Managing Power in Software Ecosystems",
+        "title": "Who Holds the Cards? Managing Power in Software Ecosystems",
         "authors": ["Juliana Carvalho Silva (UNIRIO)", "Paulo Malcher (UFRA)", "Rodrigo Pereira dos Santos (UNIRIO)", "Eleni Constantinou", "Alexander Serebrenik (Eindhoven University of Technology)"],
         "schedule": {
             "start": "2026-09-09T14:10:00-03:00",

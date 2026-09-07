@@ -261,7 +261,7 @@
         "category": "ise"
     },
     {
-        "title": "Bayesian Decision Architecture for Adaptive IoT Monitoring under Energy, Connectivity, and Measurement Uncertainty",
+        "title": "A Bayesian Decision Architecture for Adaptive IoT Monitoring under Energy, Connectivity, and Measurement Uncertainty",
         "authors": ["José Jefferson Pires Gonçalves", "Bruno Neiva Moreno", "Emanuel Filho", "Danyllo Albuquerque. Industry Paper / Emerging Results"],
         "schedule": {
             "start": "2026-09-11T16:05:00-03:00",
@@ -291,7 +291,7 @@
         "category": "ise"
     },
     {
-        "title": "Um pipeline híbrido para detecção inteligente e confiável de bugs e code smells em Python com modelos de linguagem e verificação formal",
+        "title": "Um pipeline híbrido para detecção inteligente e confiável de bugs e code smells em Python",
         "authors": ["Fernanda Duarte", "Lucas Carvalho Cordeiro", "Rosiane de Freitas. Industry Paper / Emerging Results"],
         "schedule": {
             "start": "2026-09-11T16:05:00-03:00",
@@ -331,7 +331,7 @@
         "category": "ise"
     },
     {
-        "title": "Visual Test Automation with Convolutional Neural Networks: Comparative Study of Pre-trained Models for Android Screenshot Validation",
+        "title": "Visual Test Automation with Convolutional Neural Networks: Comparative Study of Pre‑trained Models for Android Screenshot Validation",
         "authors": ["Leonardo Tiago", "Elza Bisneta", "Mateus Costa", "Ana Paula Silva", "Lennon Chaves", "Flavia Camila Morais de Oliveira. Industry Paper / Emerging Results"],
         "schedule": {
             "start": "2026-09-11T16:05:00-03:00",
@@ -411,7 +411,7 @@
         "category": "vem"
     },
     {
-        "title": "Subreddit Temporal Network: an Interactive Web Interface",
+        "title": "Subreddit Temporal Network: An Interactive Web Interface",
         "authors": ["Gabriel Mota (UFV)", "Sabrina Azevedo Silveira (UFV)", "Julio C. S. Reis (UFV)"],
         "schedule": {
             "start": "2026-09-11T11:25:00-03:00",
@@ -441,7 +441,7 @@
         "category": "vem"
     },
     {
-        "title": "Manutenibilidade no Acesso a Dados Analíticos: Um Estudo Empírico Comparando SDK Nativo e Query Builders Tipados",
+        "title": "Indicadores de Manutenibilidade no Acesso a Dados Analíticos: Um Estudo Exploratório Comparando SDK Nativo e Query Builders Tipados",
         "authors": ["Joao Vitor Coimbra Gomes Rodrigues (CEFET/RJ)", "Diego Castro (CEFET/RJ)", "Eduardo Ferreira (CEFET/RJ)"],
         "schedule": {
             "start": "2026-09-11T11:55:00-03:00",
@@ -461,7 +461,7 @@
         "category": "vem"
     },
     {
-        "title": "EEVEE: Execução Agnóstica a Linguagem para Avaliação Automatizada de Programação por meio de Imagens de Contêiner",
+        "title": "EEVEE: Uma Arquitetura Extensível Baseada em Workers para Avaliação Automatizada de Programação",
         "authors": ["Joao Vitor Coimbra Gomes Rodrigues (CEFET/RJ)", "Diego Castro (CEFET/RJ)"],
         "schedule": {
             "start": "2026-09-11T12:15:00-03:00",
@@ -471,7 +471,7 @@
         "category": "vem"
     },
     {
-        "title": "An Evaluation of ChatGPT in Assisting Java Code Refactoring",
+        "title": "An Evaluation of GPT-4.1 in Assisting Java Code Refactoring",
         "authors": ["Henrique Silva (UFPA)", "Cleidson de Souza (UFPA)"],
         "schedule": {
             "start": "2026-09-11T11:15:00-03:00",
@@ -531,7 +531,7 @@
         "category": "vem"
     },
     {
-        "title": "Metadata Is Not Enough: Characterizing Failure Modes in LLM-Generated Kubernetes Validation Artifacts",
+        "title": "Metadata Is Not Enough: Characterizing Pre-Execution Issues in Mixtral-Generated Kubernetes Validation Commands",
         "authors": ["Bento Rafael Siqueira (UFLA)", "Samira Santos da Silva (UFLA)", "Johnatan Alves Oliveira (UFLA)", "Juka Gonçalves (UFLA)", "Maria Júlia Pedroso Pimenta (UFLA)", "Fabiano Cutigi Ferrari (UFSCAR)"],
         "schedule": {
             "start": "2026-09-11T12:15:00-03:00",
@@ -591,7 +591,7 @@
         "category": "vem"
     },
     {
-        "title": "More Than Just Code: What Public Repositories Whisper About Developer Skills",
+        "title": "What Public Repositories Reveal: Inferring Developer Skills from GitHub",
         "authors": ["Gustavo Vitor da Silva (UFLA)", "Enzo Augusto Valentim (UFLA)", "Johnatan Alves Oliveira (UFLA)"],
         "schedule": {
             "start": "2026-09-11T15:00:00-03:00",
@@ -601,7 +601,7 @@
         "category": "vem"
     },
     {
-        "title": "Extração e Avaliação de Métricas Estruturais e Evolutivas Em Linhas de Produto de Software",
+        "title": "Extração e Visualização de Métricas Evolutivas em LPS: um Estudo de Caso com o Eclipse IDE",
         "authors": ["Kevin Strey (UDESC)", "Paulo Farah (UDESC)", "Willian Douglas Ferrari Mendonça (UFPR)"],
         "schedule": {
             "start": "2026-09-11T15:10:00-03:00",
@@ -831,7 +831,7 @@
         "category": "aisecdev"
     },
     {
-        "title": "Trojans in Financial Code Generated by LLMs: Empirical Evaluation with PAI",
+        "title": "Trojans in Financial Code Generated by LLMs: Empirical Evaluation with PAIR",
         "authors": ["Ygor Maria (POLI/USP, Brazil)", "Victor Takashi Hayashi (USP, Brazil)", "Marcos Antonio Simplicio Jr (USP, Brazil)"],
         "schedule": {
             "start": "2026-09-08T11:00:00-03:00",

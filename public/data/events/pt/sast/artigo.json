@@ -10,7 +10,7 @@
         "rooms": ["auditorio-ime"]
     },
     {
-        "title": "Fidelity Is Not Effectiveness: Limits of Mutation Score in LLM-Inferred Mealy Machines",
+        "title": "Fidelity Is Not Effectiveness: Limits of the Mutation Score in LLM-Inferred Mealy Machines",
         "authors": ["Alecsander Gonçalves de Matos", "Simone do Rocio Senger Souza", "Marcio Delamaro"],
         "schedule": {
             "start": "2026-09-08T11:15:00-03:00",
@@ -170,7 +170,7 @@
         "rooms": ["b16"]
     },
     {
-        "title": "Evaluating the Use of Large Language Models for Heuristic Evaluation of Web User Interfaces",
+        "title": "An Exploratory Study on Prompting Strategies for LLM-Assisted Heuristic Evaluation of Web User Interfaces",
         "authors": ["Ana Beatriz de Araújo Farias", "Danyllo Albuquerque", "Emanuel Dantas", "Rohit Gheyi", "Francisco Petrônio Medeiros"],
         "schedule": {
             "start": "2026-09-08T17:30:00-03:00",
@@ -244,7 +244,7 @@
         "rooms": ["b9"]
     },
     {
-        "title": "Auditoria Automática de Consistência Lógica em Casos de Teste por Meio de Extração Semântica com Abordagem Neuro-Simbólica",
+        "title": "Detecção de Inconsistências Lógicas em Casos de Teste por Meio de Extração Semântica e Análise de Alcançabilidade",
         "authors": ["Christopher Ric Coelho Saar", "Victor Alexandre Ribeiro", "Luan Reis", "Igsonfiure Rodrigues Félix", "LAURA COSTA SARKIS", "Nícolas Riccieri Gardin Assumpção", "Olacir Rodrigues Castro Junior", "Marlon Amaro Coelho Teixeira"],
         "schedule": {
             "start": "2026-09-08T17:00:00-03:00",
@@ -289,7 +289,7 @@
         "rooms": ["b9"]
     },
     {
-        "title": "Leveraging Generative AI to Support Functional Test Case Specification in a Public Sector Software System",
+        "title": "Utilizando a IA Generativa para Apoiar a Especificação de Casos de Teste Funcionais em um Sistema de Software do Setor Público",
         "authors": ["Aline Lima de Souza", "Jessica Soares da Costa", "Rebeca Motta", "Elaine Nunes", "Gustavo Rocha Barreto Pinto", "Rafael Maiani de Mello"],
         "schedule": {
             "start": "2026-09-08T18:00:00-03:00",

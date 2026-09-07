@@ -161,14 +161,15 @@ export function loadEvents(lang: string = defaultLang): Map<string, Event> {
           });
 
           const metadata: MetadataType = {};
-          const fileAttachedUrl = path.join(
-            process.cwd(),
-            'public/data/papers',
-            slug,
-            `${p.title.replace(':', '')}.pdf`,
-          );
+          const fileAttachedName = p.title
+            .replaceAll(':', '')
+            .replaceAll('/', '')
+            .replaceAll('\"', '_')
+            .replaceAll("'", '_')
+            .replaceAll('?', '');
+          const fileAttachedUrl = path.join(process.cwd(), 'public/data/papers', slug, `${fileAttachedName}.pdf`);
           if (fs.existsSync(fileAttachedUrl)) {
-            metadata['file_attached_url'] = path.join('data/papers', slug, `${p.title.replace(':', '')}.pdf`);
+            metadata['file_attached_url'] = path.join('data/papers', slug, `${fileAttachedName}.pdf`);
           }
           if (p.artifact) {
             metadata['artifact_url'] = p.artifact;
