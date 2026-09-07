@@ -1,12 +1,12 @@
 [
     {
-        "title": "Keynote I LATAM SE School",
+        "title": "Keynote I LATAM SE School: The ABC of Software Engineering Research",
+        "moderator": ["fernanda-delfim", "lincoln-rocha"],
         "speakers": ["klaas-jan-stol"],
         "schedule": {
             "start": "2026-09-08T11:00:00-03:00",
             "end": "2026-09-08T12:10:00-03:00"
         },
-        "description": "(Metodologia)",
         "lang": "en",
         "rooms": ["b5"]
     },
