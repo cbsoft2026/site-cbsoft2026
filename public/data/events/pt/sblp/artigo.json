@@ -166,17 +166,6 @@
         "rooms": ["b16"]
     },
     {
-        "title": "SmartLint: Static Detection of Insecure Patterns in Solidity Smart Contracts Inspired by Move's Resource Model",
-        "authors": ["Luiz Gonçalves (UFMG)"],
-        "schedule": {
-            "start": "2026-09-10T11:40:00-03:00",
-            "end": "2026-09-10T12:00:00-03:00"
-        },
-        "badges": ["available", "functional"],
-        "artifact": "https://doi.org/10.5281/zenodo.22217671",
-        "rooms": ["b16"]
-    },
-    {
         "title": "SolForge: A Large Language Model-Based Approach for the Differential Testing of Solidity Compilers",
         "authors": ["Gabriel Salvi (UFFS), Andrei Braga (UFFS), Guilherme Dal Bianco (UFFS), Samuel da Silva Feitosa (UFFS)"],
         "schedule": {
