@@ -1,2 +1,398 @@
 [
+    {
+        "title": "AromaLIA: A Language-Independent Approach To Detect Test Smells",
+        "authors": ["Estudante: Publio Silva (UFC)", "Orientadora: Carla Bezerra (UFC)", "Co-orientador/colaboradores: Ivan Machado (UFBA)"],
+        "schedule": {
+            "start": "2026-09-08T16:30:00-03:00",
+            "end": "2026-09-08T16:30:00-03:00"
+        },
+        "rooms": ["b5"]
+    },
+    {
+        "title": "Beyond Human Error: Evaluating LLM Capabilities in Identifying and Refactoring Atoms of Confusion",
+        "authors": ["Estudante: Paulo Guilherme Medeiros Marques (UFC)", "Orientador: Windson Viana de Carvalho (UFC)", "Co-orientador/colaboradores: Lincoln Souza Rocha (UFC)"],
+        "schedule": {
+            "start": "2026-09-08T16:30:00-03:00",
+            "end": "2026-09-08T16:30:00-03:00"
+        },
+        "rooms": ["b5"]
+    },
+    {
+        "title": "CiD: Recuperando Visualizações de Grafos Conceituais em Repositórios de Código Aberto para Novatos",
+        "authors": ["Estudante: João Victor Godinho Woitschach (PUC-Rio)", "Orientador: Alessandro Garcia (PUC-Rio)"],
+        "schedule": {
+            "start": "2026-09-08T16:30:00-03:00",
+            "end": "2026-09-08T16:30:00-03:00"
+        },
+        "rooms": ["b5"]
+    },
+    {
+        "title": "Comprehending Python Repetition Structures: An Eye-tracking Study with Novice Developers",
+        "authors": ["Estudante: José Júnior Silva da Costa (UFCG)", "Orientador: Rohit Gheyi (UFCG)", "Co-orientador/colaboradores: José Aldo Silva da Costa (UEPB), Márcio Ribeiro (UFAL)"],
+        "schedule": {
+            "start": "2026-09-08T16:30:00-03:00",
+            "end": "2026-09-08T16:30:00-03:00"
+        },
+        "rooms": ["b5"]
+    },
+    {
+        "title": "D.aise: An Automated README Generator from Source Code Repositories",
+        "authors": ["Estudante: Arthur Souza (PUC-Rio)", "Orientadora: Juliana Alves Pereira (PUC-Rio)", "Co-orientador/colaboradores: Gabriela Soares (PUC-Rio)"],
+        "schedule": {
+            "start": "2026-09-08T16:30:00-03:00",
+            "end": "2026-09-08T16:30:00-03:00"
+        },
+        "rooms": ["b5"]
+    },
+    {
+        "title": "Detecting Code Smells Through Different Approaches in Python",
+        "authors": ["Estudante: Igor Soares de Oliveira (PUC-Rio)", "Orientadora: Juliana Alves Pereira (PUC-Rio)"],
+        "schedule": {
+            "start": "2026-09-08T16:30:00-03:00",
+            "end": "2026-09-08T16:30:00-03:00"
+        },
+        "rooms": ["b5"]
+    },
+    {
+        "title": "Evaluator Bias in LLM-Based Program Repair: A Disagreement Analysis on Android Resource Leaks",
+        "authors": ["Estudante: Andrezza Bonfim (UFPE)", "Orientador: Leopoldo Teixeira (UFPE)"],
+        "schedule": {
+            "start": "2026-09-08T16:30:00-03:00",
+            "end": "2026-09-08T16:30:00-03:00"
+        },
+        "rooms": ["b5"]
+    },
+    {
+        "title": "Experimental Performance Evaluation of Event-Driven Applications Integrating Agentic Frameworks",
+        "authors": ["Estudante: Michelle Teixeira Martins (UFRN)", "Orientador: Nelio Alessandro Azevedo Cacho (UFRN)"],
+        "schedule": {
+            "start": "2026-09-08T16:30:00-03:00",
+            "end": "2026-09-08T16:30:00-03:00"
+        },
+        "rooms": ["b5"]
+    },
+    {
+        "title": "GenIA-E2ETest: A Generative AI-Based Platform for End-to-End Test Automation",
+        "authors": ["Estudante: Elvis Júnior (UFF)", "Orientadora: Vânia de Oliveira Neves (UFF)"],
+        "schedule": {
+            "start": "2026-09-08T16:30:00-03:00",
+            "end": "2026-09-08T16:30:00-03:00"
+        },
+        "rooms": ["b5"]
+    },
+    {
+        "title": "JADE: A VSCode Plugin for Static Analysis-Guided AI-Assisted Refactoring",
+        "authors": ["Estudante: Ruan Pablo de Assis Neres (UFU)", "Orientador: Marcelo de Almeida Maia (UFU)", "Co-orientador/colaboradores: Carlos Eduardo de Carvalho Dantas (IFTM)"],
+        "schedule": {
+            "start": "2026-09-08T16:30:00-03:00",
+            "end": "2026-09-08T16:30:00-03:00"
+        },
+        "rooms": ["b5"]
+    },
+    {
+        "title": "Language Models for Improving Natural Language Manual Test Cases",
+        "authors": ["Estudante: Keila Lucas (UFCG)", "Orientador: Rohit Gheyi (UFCG)", "Co-orientador/colaboradores: Márcio Ribeiro (UFAL)"],
+        "schedule": {
+            "start": "2026-09-08T16:30:00-03:00",
+            "end": "2026-09-08T16:30:00-03:00"
+        },
+        "rooms": ["b5"]
+    },
+    {
+        "title": "Mutation testing for reliable Machine Learning Operations (MLOps)",
+        "authors": ["Estudante: Waisman Braga (ICMC-USP)", "Orientadora: Simone do Rocio Senger de Souza (ICMC-USP)"],
+        "schedule": {
+            "start": "2026-09-08T16:30:00-03:00",
+            "end": "2026-09-08T16:30:00-03:00"
+        },
+        "rooms": ["b5"]
+    },
+    {
+        "title": "Specification as a Control Language: Developers' Experience with AI Agents in the Context of Spec-Driven Development",
+        "authors": ["Estudante: Henrique Silva (UFPA)", "Orientador: Cleidson R. B. de Souza (UFPA)", "Co-orientador/colaboradores: Simonne Callegario (UFPA), Walber Costa (UFPA), Carlos Hesketh (UFPA), Mayara Figueiredo (UFPA)"],
+        "schedule": {
+            "start": "2026-09-08T16:30:00-03:00",
+            "end": "2026-09-08T16:30:00-03:00"
+        },
+        "rooms": ["b5"]
+    },
+    {
+        "title": "StoryUI2Test: Rastreabilidade Multimodal e Geração Automatizada de Cenários de Teste com IA a partir de Histórias de Usuário",
+        "authors": ["Estudante: Suelen Pereira (UFAM)", "Orientadora: Ana Carolina Oran (UFAM)", "Co-orientador/colaboradores: Bruno Gadelha (UFAM)"],
+        "schedule": {
+            "start": "2026-09-08T16:30:00-03:00",
+            "end": "2026-09-08T16:30:00-03:00"
+        },
+        "rooms": ["b5"]
+    },
+    {
+        "title": "Supporting Issue-Driven Automated Refactoring with a Multi-Agent Architecture",
+        "authors": ["Estudante: Henrique Peres (PUC-Rio)", "Orientador: Alessandro Garcia (PUC-Rio)"],
+        "schedule": {
+            "start": "2026-09-08T16:30:00-03:00",
+            "end": "2026-09-08T16:30:00-03:00"
+        },
+        "rooms": ["b5"]
+    },
+    {
+        "title": "Test Coverage of Code Changes in AI-Generated Pull Requests",
+        "authors": ["Estudante: Tales Cunha (UFPE)", "Orientador: Leopoldo Teixeira (UFPE)"],
+        "schedule": {
+            "start": "2026-09-08T16:30:00-03:00",
+            "end": "2026-09-08T16:30:00-03:00"
+        },
+        "rooms": ["b5"]
+    },
+    {
+        "title": "The Impact of Prompting Strategies on LLM-Based Microservices Extraction: A Systematic Investigation",
+        "authors": ["Estudante: Ruan Basilio (UFLA)", "Orientador: Heitor Costa (UFLA)"],
+        "schedule": {
+            "start": "2026-09-08T16:30:00-03:00",
+            "end": "2026-09-08T16:30:00-03:00"
+        },
+        "rooms": ["b5"]
+    },
+    {
+        "title": "Towards a Hybrid Generative AI-Based Framework for Automotive Cybersecurity: A Feasibility Study",
+        "authors": ["Estudante: André Gheventer (UFRJ)", "Orientador: Claudio Miceli de Farias (UFRJ)", "Co-orientador/colaboradores: Rafael Maiani de Mello (UFRJ)"],
+        "schedule": {
+            "start": "2026-09-08T16:30:00-03:00",
+            "end": "2026-09-08T16:30:00-03:00"
+        },
+        "rooms": ["b5"]
+    },
+    {
+        "title": "Towards Specifying Reinforcement Learning Systems",
+        "authors": ["Estudante: Laura Mendonça da Glória Luz (PUC-Rio)", "Orientador: Marcos Kalinowski (PUC-Rio)", "Co-orientador/colaboradores: Eduardo Kinder Almentero (UFRRJ), Romeu Ferreira de Oliveira (PUC-Rio), Matheus Soranço (PUC-Rio)"],
+        "schedule": {
+            "start": "2026-09-08T16:30:00-03:00",
+            "end": "2026-09-08T16:30:00-03:00"
+        },
+        "rooms": ["b5"]
+    },
+    {
+        "title": "Uma Abordagem Híbrida Baseada em Análise Estática e Modelos de Linguagem para Detecção e Refatoração de SQL Code Smells",
+        "authors": ["Estudante: Patricia Damasceno (UFAM)", "Orientadora: Ana Carolina Oran (UFAM)", "Co-orientador/colaboradores: Eduardo Souto (UFAM)"],
+        "schedule": {
+            "start": "2026-09-08T16:30:00-03:00",
+            "end": "2026-09-08T16:30:00-03:00"
+        },
+        "rooms": ["b5"]
+    },
+    {
+        "title": "Usando LLMs para Gerar Scripts de Automação de Testes para o Framework Cypress: Uma Comparação entre StackSpot AI e LangGraph",
+        "authors": ["Estudante: Allan Gonçalves da Silva Teixeira (UFF)", "Orientadora: Vânia de Oliveira Neves (UFF)", "Co-orientador/colaboradores: Myrela França de Siqueira (UFF)"],
+        "schedule": {
+            "start": "2026-09-08T16:30:00-03:00",
+            "end": "2026-09-08T16:30:00-03:00"
+        },
+        "rooms": ["b5"]
+    },
+    {
+        "title": "What Static Structure Can and Cannot Decide: A Graph-Based Study of Architecture Migration Tactics",
+        "authors": ["Estudante: Vinicius Lopes Nogueira (UEM)", "Orientadora: Aline Maria Malachini Miotto Amaral (UEM)", "Co-orientador/colaboradores: Wesley Klewerton Guez Assunção (NCSU)"],
+        "schedule": {
+            "start": "2026-09-08T16:30:00-03:00",
+            "end": "2026-09-08T16:30:00-03:00"
+        },
+        "rooms": ["b5"]
+    },
+    {
+        "title": "A Framework to Support Novices in SAST Vulnerability Screening Using LLMs",
+        "authors": ["Estudante: Rubens Abraão da Silva Sousa (UECE)", "Orientador: Ismayle de Sousa Santos (UECE)", "Co-orientador/colaboradores: Sávio Freire (UECE e IFCE)"],
+        "schedule": {
+            "start": "2026-09-09T16:30:00-03:00",
+            "end": "2026-09-09T16:30:00-03:00"
+        },
+        "rooms": ["b5"]
+    },
+    {
+        "title": "A Tool for Supporting Data Protection Compliance in the Internet of Medical Things (IoMT)",
+        "authors": ["Estudante: Ivonildo Pereira (UFPE)", "Orientador: Sergio Soares (UFPE)", "Co-orientador/colaboradores: Waldemar Ferreira (UFRPE)"],
+        "schedule": {
+            "start": "2026-09-09T16:30:00-03:00",
+            "end": "2026-09-09T16:30:00-03:00"
+        },
+        "rooms": ["b5"]
+    },
+    {
+        "title": "Carga de Trabalho de Profissionais de Tecnologia: Fatores que a Influenciam e suas Mitigações",
+        "authors": ["Estudante: Gabriel Freitas (UFAM)", "Orientador: Bruno Gadelha (UFAM)"],
+        "schedule": {
+            "start": "2026-09-09T16:30:00-03:00",
+            "end": "2026-09-09T16:30:00-03:00"
+        },
+        "rooms": ["b5"]
+    },
+    {
+        "title": "CBLTool: A Web-Based Tool to Enhance Challenge Based Learning Journeys",
+        "authors": ["Estudante: Júlio Necyk Maia (PUC-Rio)", "Orientador: Carlos José Pereira de Lucena (PUC-Rio)", "Co-orientador/colaboradores: Andrew Diniz da Costa (PUC-Rio), Juliana Alves Pereira (PUC-Rio), Alessandro Garcia (PUC-Rio)"],
+        "schedule": {
+            "start": "2026-09-09T16:30:00-03:00",
+            "end": "2026-09-09T16:30:00-03:00"
+        },
+        "rooms": ["b5"]
+    },
+    {
+        "title": "Centralized Coordination in MAS-LLM applied to Requirements Engineering",
+        "authors": ["Estudante: Maria Gabriela Alves Zuppardo (UFPE)", "Orientador: Vinicius Cardoso Garcia (UFPE)"],
+        "schedule": {
+            "start": "2026-09-09T16:30:00-03:00",
+            "end": "2026-09-09T16:30:00-03:00"
+        },
+        "rooms": ["b5"]
+    },
+    {
+        "title": "Cognitive effort or cognitive reinforcement: A study of practices and skills expected by academics and industry professionals in the era of LLMs",
+        "authors": ["Estudante: Enne Rebeca Silva de Freitas (UFPA)", "Orientador: Gustavo Pinto (UFPA)"],
+        "schedule": {
+            "start": "2026-09-09T16:30:00-03:00",
+            "end": "2026-09-09T16:30:00-03:00"
+        },
+        "rooms": ["b5"]
+    },
+    {
+        "title": "Developer Experience and Large Language Models: An Exploratory Study Involving Software Professionals with ADHD",
+        "authors": ["Estudante: Gabriel Velloso (PUCRS)", "Orientadora: Sabrina Marczak (PUCRS)", "Co-orientador/colaboradores: Karina Kohl (UFRGS)"],
+        "schedule": {
+            "start": "2026-09-09T16:30:00-03:00",
+            "end": "2026-09-09T16:30:00-03:00"
+        },
+        "rooms": ["b5"]
+    },
+    {
+        "title": "Do Accessibility Guidelines Change What LLM Assistants Say to Older Adults? An LLM-as-a-Judge Study",
+        "authors": ["Estudante: Lara Lima (ICMC-USP)", "Orientadora: Maria da Graça Pimentel (ICMC-USP)"],
+        "schedule": {
+            "start": "2026-09-09T16:30:00-03:00",
+            "end": "2026-09-09T16:30:00-03:00"
+        },
+        "rooms": ["b5"]
+    },
+    {
+        "title": "Does ISO-Grounded NFR Specification Improve LLM Code Generation?",
+        "authors": ["Estudante: João Pedro Monteiro Pereira (UFPE)", "Orientador: Vinicius Cardoso Garcia (UFPE)"],
+        "schedule": {
+            "start": "2026-09-09T16:30:00-03:00",
+            "end": "2026-09-09T16:30:00-03:00"
+        },
+        "rooms": ["b5"]
+    },
+    {
+        "title": "Evaluating LLMs for Extracting User Stories from Elicitation Interviews",
+        "authors": ["Estudante: Patrícia Sousa (UECE)", "Orientador: Sávio Freire (UECE e IFCE)"],
+        "schedule": {
+            "start": "2026-09-09T16:30:00-03:00",
+            "end": "2026-09-09T16:30:00-03:00"
+        },
+        "rooms": ["b5"]
+    },
+    {
+        "title": "How Do Teaching Assistants Supervise AI-Generated Feedback? A Human-in-the-Loop Study in Programming Education",
+        "authors": ["Estudante: Eli Pedro Cordeiro da Silva (UFCG)", "Orientadora: Eliane Cristina de Araújo (UFCG)", "Co-orientador/colaboradores: Everton Leandro Galdino Alves (UFCG)"],
+        "schedule": {
+            "start": "2026-09-09T16:30:00-03:00",
+            "end": "2026-09-09T16:30:00-03:00"
+        },
+        "rooms": ["b5"]
+    },
+    {
+        "title": "Impacts of Generative AI on Cognitive Debt: From Educational Ecosystems to Industry Practice",
+        "authors": ["Estudante: Ana Carolina Barbosa dos Santos (UPE)", "Orientadora: Mariana Maia Peixoto (UPE)"],
+        "schedule": {
+            "start": "2026-09-09T16:30:00-03:00",
+            "end": "2026-09-09T16:30:00-03:00"
+        },
+        "rooms": ["b5"]
+    },
+    {
+        "title": "Integrando Agentes Inteligentes à Engenharia de Requisitos com uma Perspectiva Longitudinal da UX",
+        "authors": ["Estudante: Carla Rodrigues Bruschi (UFSCar)", "Orientadora: Luciana Zaina (UFSCar)", "Co-orientador/colaboradores: Leonardo Aparecido Ciscon (UFSCar)"],
+        "schedule": {
+            "start": "2026-09-09T16:30:00-03:00",
+            "end": "2026-09-09T16:30:00-03:00"
+        },
+        "rooms": ["b5"]
+    },
+    {
+        "title": "Investigating the use of LLMs in Deductive Coding within the Context of Software Engineering",
+        "authors": ["Estudante: Samuel Mercês (UEFS)", "Orientador: José Amancio Macedo Santos (UEFS)", "Co-orientador/colaboradores: Moaath Alshaikh (UFBA), Gabriel Moraes (UEFS), Lucca de A. H. Coutinho (UEFS), Glauco Carneiro (UFS), Manoel Mendonça (UFBA)"],
+        "schedule": {
+            "start": "2026-09-09T16:30:00-03:00",
+            "end": "2026-09-09T16:30:00-03:00"
+        },
+        "rooms": ["b5"]
+    },
+    {
+        "title": "LLM-Assisted Thematic Analysis in Software Engineering",
+        "authors": ["Estudante: Tatiane Ornelas (PUC-Rio)", "Orientador: Marcos Kalinowski (PUC-Rio)", "Co-orientador/colaboradores: Allysson Allex Araújo (UFCA)"],
+        "schedule": {
+            "start": "2026-09-09T16:30:00-03:00",
+            "end": "2026-09-09T16:30:00-03:00"
+        },
+        "rooms": ["b5"]
+    },
+    {
+        "title": "LLMs na Especificação e na Verificação da Qualidade dos Requisitos",
+        "authors": ["Estudante: Almeida Simões Dos Santos (UFRN)", "Orientadora: Márcia Jacyntha Nunes Rodrigues Lucena (UFRN)"],
+        "schedule": {
+            "start": "2026-09-09T16:30:00-03:00",
+            "end": "2026-09-09T16:30:00-03:00"
+        },
+        "rooms": ["b5"]
+    },
+    {
+        "title": "Sustainability as a Software Quality Attribute: An Approach to Technical Specifications in Public Procurement",
+        "authors": ["Estudante: Marcelo Adalton Balisa (UFLA)", "Orientador: Heitor Costa (UFLA)"],
+        "schedule": {
+            "start": "2026-09-09T16:30:00-03:00",
+            "end": "2026-09-09T16:30:00-03:00"
+        },
+        "rooms": ["b5"]
+    },
+    {
+        "title": "The Evolution of a Machine Learning Pipeline in the Public Sector: Requirements, Implementation, and Evaluation Criteria",
+        "authors": ["Estudante: Ronivaldo Ferreira (UFPA)", "Orientador: Gustavo Pinto (UFPA)"],
+        "schedule": {
+            "start": "2026-09-09T16:30:00-03:00",
+            "end": "2026-09-09T16:30:00-03:00"
+        },
+        "rooms": ["b5"]
+    },
+    {
+        "title": "Understanding ADHD Developers' Challenges Through the Lens of Developer Experience",
+        "authors": ["Estudante: Natalya Marjana Goelzer (PUCRS)", "Orientadora: Sabrina Marczak (PUCRS)", "Co-orientador/colaboradores: Karina Kohl (UFRGS)"],
+        "schedule": {
+            "start": "2026-09-09T16:30:00-03:00",
+            "end": "2026-09-09T16:30:00-03:00"
+        },
+        "rooms": ["b5"]
+    },
+    {
+        "title": "Understanding the Impact of LLM-Based Tools on Software Development - Towards a Taxonomy and an Evaluation Technique",
+        "authors": ["Estudante: Ana Carolina Freitas das Chagas (UFAM)", "Orientadora: Ana Carolina Oran (UFAM)"],
+        "schedule": {
+            "start": "2026-09-09T16:30:00-03:00",
+            "end": "2026-09-09T16:30:00-03:00"
+        },
+        "rooms": ["b5"]
+    },
+    {
+        "title": "VISION: A Requirements Elicitation Approach for Machine Learning- and Artificial Intelligence-Enabled Systems",
+        "authors": ["Estudante: Yasmin Medeiros (UFMS)", "Orientadora: Patricia Matsubara (UFMS)", "Co-orientador/colaboradores: Vinicius Feitosa Gonçalves (UFMS)"],
+        "schedule": {
+            "start": "2026-09-09T16:30:00-03:00",
+            "end": "2026-09-09T16:30:00-03:00"
+        },
+        "rooms": ["b5"]
+    },
+    {
+        "title": "When Risk-Taking Is Collaboration: Psychological Safety and Interactional Behaviors in Pair Programming",
+        "authors": ["Estudante: Jardiana Galvão (UECE)", "Orientador: Sávio Freire (UECE e IFCE)"],
+        "schedule": {
+            "start": "2026-09-09T16:30:00-03:00",
+            "end": "2026-09-09T16:30:00-03:00"
+        },
+        "rooms": ["b5"]
+    }
 ]
