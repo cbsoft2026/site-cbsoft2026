@@ -225,6 +225,7 @@ export default function generatedCollection(t: Translator, commonT: Translator) 
     items: [
       { title: t('chamada_trabalhos'), href: '/latam-school' },
       { title: t('events'), href: '/latam-school/event' },
+      { title: t('latam-school.students'), href: '/latam-school/students' },
     ],
   };
 

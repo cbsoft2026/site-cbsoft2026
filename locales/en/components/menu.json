@@ -59,5 +59,9 @@
   "workshops_call": "Call for Workshops",
   "more": "More",
 
-  "about_event": "About the Event"
+  "about_event": "About the Event",
+
+  "latam-school": {
+    "students": "Students"
+  }
 }
