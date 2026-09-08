@@ -52,6 +52,7 @@ independentes da inscrição no CBSOFT.
 |               | Jerônimo Pellegrini (UFABC)                     |
 |               | Nelson Lago (USP)                            |
 |               | Rodolfo Avelino (Insper)                     |
+|               | Sérgio Amadeu da Silveira (UFABC)            |
 |               | Valessio Brito  (iCAT)                       |
 
 
