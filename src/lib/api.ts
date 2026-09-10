@@ -7,7 +7,7 @@ import { PapersSchema } from '@/types/papers';
 import { Track, trackValues } from '@/types/schedule';
 import { TalksSchema } from '@/types/talks';
 import { validateData } from '@/public/data/validator';
-import { createIdGenerator } from '@/utils/slugify';
+import { createIdGenerator, slugify_file } from '@/utils/slugify';
 import { defaultLang, Locale } from '@/app/config/locales';
 import { SessionsSchema } from '@/types/session';
 import { Participant } from '@/types/participants';
@@ -161,16 +161,17 @@ export function loadEvents(lang: string = defaultLang): Map<string, Event> {
           });
 
           const metadata: MetadataType = {};
-          const fileAttachedName = p.title
-            .replaceAll(':', '')
-            .replaceAll('/', '')
-            .replaceAll('\"', '_')
-            .replaceAll("'", '_')
-            .replaceAll('?', '');
-          const fileAttachedUrl = path.join(process.cwd(), 'public/data/papers', slug, `${fileAttachedName}.pdf`);
-          if (fs.existsSync(fileAttachedUrl)) {
-            metadata['file_attached_url'] = path.join('data/papers', slug, `${fileAttachedName}.pdf`);
+
+          if (!p.file_attached) {
+            const fileAttachedName = slugify_file(p.title);
+            const fileAttachedUrl = path.join(process.cwd(), 'public/data/papers', slug, `${fileAttachedName}.pdf`);
+            if (fs.existsSync(fileAttachedUrl)) {
+              metadata['file_attached_url'] = path.join('data/papers', slug, `${fileAttachedName}.pdf`);
+            }
+          } else {
+            metadata['file_attached_url'] = p.file_attached;
           }
+
           if (p.artifact) {
             metadata['artifact_url'] = p.artifact;
           }
@@ -256,6 +257,18 @@ export function loadEvents(lang: string = defaultLang): Map<string, Event> {
         const participantsSession = formatParticipants(participants, p.speakers);
         const moderatorsSession = formatParticipants(participants, p.moderator ?? []);
 
+        const metadata: MetadataType = {};
+
+        if (!p.slides) {
+          const slidesName = slugify_file(p.title);
+          const slidesUrl = path.join(process.cwd(), 'public/data/slides', slug, `${slidesName}.pdf`);
+          if (fs.existsSync(slidesUrl)) {
+            metadata['slides_url'] = path.join('data/slides', slug, `${slidesName}.pdf`);
+          }
+        } else {
+          metadata['slides_url'] = path.join('data/slides', slug, `${p.slides}.pdf`);
+        }
+
         events.push({
           type: (p.type as EventType) || 'palestra',
           simposio: slug,
@@ -269,6 +282,7 @@ export function loadEvents(lang: string = defaultLang): Map<string, Event> {
           moderators: moderatorsSession,
           lang: p.lang || defaultLang,
           url: p.url,
+          metadata: metadata || {},
         });
       });
     });

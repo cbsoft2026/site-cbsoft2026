@@ -56,12 +56,15 @@
 
 .external_urls {
   margin-top: 12px;
-  font-size: small;
   gap: 12px;
-
+  
   display: flex;
   align-items: center;
   flex-wrap: wrap;
+  
+  &.small {
+    font-size: small;
+  }
 
   a {
     text-decoration: none;

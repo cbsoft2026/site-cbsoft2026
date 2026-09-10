@@ -11,6 +11,7 @@ export const PaperSchema = Type.Object({
   badges: Type.Optional(Type.Array(BadgeType)),
   awards: Type.Optional(Type.Array(Type.String())),
   artifact: Type.Optional(Type.String({ pattern: '^https?://.+$' })),
+  file_attached: Type.Optional(Type.String()),
   ...ScheduleSchema.properties,
 });
 

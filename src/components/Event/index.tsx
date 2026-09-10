@@ -2,7 +2,7 @@ import { Event } from '@/types/event';
 
 import styles from './styles.module.scss';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faCalendar } from '@fortawesome/free-regular-svg-icons';
+import { faCalendar, faFile, faFilePowerpoint } from '@fortawesome/free-regular-svg-icons';
 import { getTranslations } from 'next-intl/server';
 import SpeakerCard from '@/components/SpeakerCard';
 import TemplateMarkdown from '../TemplateMarkdown';
@@ -19,6 +19,57 @@ type Props = {
   locale: string;
   sort?: (a: Event, b: Event) => number;
 };
+
+type PropsExternalUrl = {
+  locale: string;
+  object: { [x: string]: string } | undefined;
+  small?: boolean;
+};
+
+async function ExternalUrls({ locale, object, small = true }: PropsExternalUrl) {
+  const t = await getTranslations({ locale, namespace: 'pages/schedule' });
+
+  return (
+    <div className={`${styles['external_urls']} ${small ? styles['small'] : ''}`}>
+      {Object.entries(object || {}).map(([key, value]) => {
+        switch (key) {
+          case 'file_attached_url':
+            return (
+              <a
+                key={key}
+                target='_blank'
+                rel='noopener noreferrer'
+                href={`${process.env.NEXT_PUBLIC_ASSET_PREFIX}/${value}`}
+              >
+                <FontAwesomeIcon icon={faFile} />
+                {t('file_attached')}
+              </a>
+            );
+          case 'slides_url':
+            return (
+              <a
+                key={key}
+                target='_blank'
+                rel='noopener noreferrer'
+                href={`${process.env.NEXT_PUBLIC_ASSET_PREFIX}/${value}`}
+              >
+                <FontAwesomeIcon icon={faFilePowerpoint} />
+                {t('slides')}
+              </a>
+            );
+          case 'artifact_url':
+            return (
+              <a key={key} target='_blank' rel='noopener noreferrer' href={withUTM(value)}>
+                <FontAwesomeIcon icon={faLink} />
+                {t('artifact')}
+              </a>
+            );
+        }
+        return null;
+      })}
+    </div>
+  );
+}
 
 async function ParentTable({ events, event, locale, sort }: Props) {
   const t = await getTranslations({ locale, namespace: 'pages/schedule' });
@@ -205,32 +256,7 @@ async function ParentTable({ events, event, locale, sort }: Props) {
                 .join(', ')}
           </i>
           {Object.keys(parentEvent.metadata || {}).length > 0 && (
-            <div className={styles['external_urls']}>
-              {Object.entries(parentEvent.metadata || {}).map(([key, value]) => {
-                switch (key) {
-                  case 'file_attached_url':
-                    return (
-                      <a
-                        key={key}
-                        target='_blank'
-                        rel='noopener noreferrer'
-                        href={`${process.env.NEXT_PUBLIC_ASSET_PREFIX}/${value}`}
-                      >
-                        <FontAwesomeIcon icon={faLink} />
-                        {t('file_attached')}
-                      </a>
-                    );
-                  case 'artifact_url':
-                    return (
-                      <a key={key} target='_blank' rel='noopener noreferrer' href={withUTM(value)}>
-                        <FontAwesomeIcon icon={faLink} />
-                        {t('artifact')}
-                      </a>
-                    );
-                }
-                return null;
-              })}
-            </div>
+            <ExternalUrls locale={locale} object={parentEvent.metadata} />
           )}
         </td>
       </tr>
@@ -406,6 +432,9 @@ export default async function EventComponent({ events, event, locale, sort }: Pr
           <></>
         )}
       </aside>
+      {Object.keys(event?.metadata || {}).length > 0 && (
+        <ExternalUrls locale={locale} object={event?.metadata} small={false} />
+      )}
       <hr />
     </section>
   );

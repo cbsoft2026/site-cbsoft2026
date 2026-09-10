@@ -5,6 +5,9 @@ export const TalksSchema = Type.Array(
   Type.Object({
     moderator: Type.Optional(Type.Array(Type.String())),
     speakers: Type.Array(Type.String()),
+
+    slides: Type.Optional(Type.String()),
+
     ...ScheduleSchema.properties,
   }),
 );

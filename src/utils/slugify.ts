@@ -11,6 +11,12 @@ export function slugify(text: string | undefined) {
     : '';
 }
 
+export function slugify_file(text: string | undefined) {
+  return text
+    ? text.replaceAll(':', '').replaceAll('/', '').replaceAll('\"', '_').replaceAll("'", '_').replaceAll('?', '')
+    : '';
+}
+
 export function createIdGenerator() {
   const ids = new Map<string, number>();
 
