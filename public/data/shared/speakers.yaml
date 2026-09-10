@@ -543,3 +543,15 @@
   image: Sergio_Soares.webp
   institution: UFPE
   institution_acronym: UFPE
+
+- id: juliana-alves-pereira
+  name: Juliana Alves Pereira
+  image: Juliana_Alves.webp
+  institution: PUC-Rio
+  institution_acronym: PUC-Rio
+
+- id: ivan-machado
+  name: Ivan Machado
+  image: Ivan_Machado.webp
+  institution: UFBA
+  institution_acronym: UFBA
