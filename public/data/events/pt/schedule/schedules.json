@@ -185,6 +185,16 @@
         "rooms": ["b5"]
     },
     {
+        "title": "Reunião da Comissão Especial em Linguagens de Programação (CELP)",
+        "schedule": {
+            "start": "2026-09-10T18:30:00-03:00",
+            "end": "2026-09-10T21:00:00-03:00"
+        },
+        "type": "info",
+        "lang": "pt",
+        "rooms": ["auditorio-ime"]
+    },
+    {
         "title": "happy-hour",
         "schedule": {
             "start": "2026-09-11T19:00:00-03:00",
