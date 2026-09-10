@@ -9,10 +9,16 @@ O almoço será realizado no `Restaurante Sweden`, localizado dentro da USP, na 
 
 - **Como participar?** Por adesão, preenchendo o [formulário](https://docs.google.com/forms/d/e/1FAIpQLSemS283uGw_WkDtxYm-8ZDEtUR5ppA3RYgEsZvRFDhczBwuMg/viewform)[^1]
 
-- **Desconto especial:** O pagamento do almoço das alunas terá um desconto de, no mínimo, 50%. No máximo, 40 alunas podem se beneficiar desse desconto (caso não haja 40 alunas, as presentes terão um desconto superior a 50%). Esse benefício é uma cortesia da ZUP, parceira do evento AIware Latam. Agradecemos a Zup e aos colegas do AIware por esse apoio.
+- **Desconto especial:** O pagamento do almoço das alunas terá um desconto de, no mínimo, 50%. No máximo, 40 alunas podem se beneficiar desse desconto (caso não haja 40 alunas, as presentes terão um desconto superior a 50%). Esse benefício é uma cortesia da ZUP, parceira do evento AIware Latam, e XP 2026 (Agile Alliance Brazil). Agradecemos a Zup, aos colegas do AIware, a XP 2026 e a Agile Alliance Brazil por esse apoio.
 
 <p style="max-width: 200px; margin-left: 2rem">
 <img src="sponsors/zup.webp">
+</p>
+
+<br/>
+
+<p style="max-width: 200px; margin-left: 2rem">
+<img src="women-lunch/Agile_Alliance.svg">
 </p>
 
 <br/>
