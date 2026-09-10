@@ -9,15 +9,10 @@ The lunch will take place at `Restaurante Sweden`, located within USP, at Tv. do
 
 - **How to participate?** Participation is by registration. Please fill out the [form](https://docs.google.com/forms/d/e/1FAIpQLSemS283uGw_WkDtxYm-8ZDEtUR5ppA3RYgEsZvRFDhczBwuMg/viewform)[^1]
 
-- **Special discount:** Students will receive a discount of at least 50% on the lunch fee. A maximum of 40 students can benefit from this discount (if there are fewer than 40 students, those who attend will receive a discount greater than 50%). This benefit is a courtesy of ZUP, a partner of the AIware Latam event, and XP 2026 (Agile Alliance Brazil). We thank ZUP and our colleagues from IAware, XP 2026 and Agile Alliance Brazil for their support.
+- **Special discount:** Students will receive a discount of at least 50% on the lunch fee. A maximum of 40 students can benefit from this discount (if there are fewer than 40 students, those who attend will receive a discount greater than 50%). This benefit is a courtesy of ZUP, a partner of the AIware Latam event, and XP 2026. We thank ZUP and our colleagues from IAware and XP 2026 for their support.
 
 <p style="max-width: 200px; margin-left: 2rem">
 <img src="sponsors/zup.webp">
-</p>
-<br/>
-
-<p style="max-width: 200px; margin-left: 2rem">
-<img src="women-lunch/Agile_Alliance.svg">
 </p>
 
 <br/>
