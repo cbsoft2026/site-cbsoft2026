@@ -1596,16 +1596,6 @@
         "track": "tools"
     },
     {
-        "title": "Automated detection of algorithm debt in deep learning frameworks: an empirical study",
-        "authors": ["Emmanuel Iko-Ojo Simon", "Chirath Hettiarachchi", "Alex Potanin", "Fatemeh Fard", "Hanna Suominen"],
-        "schedule": {
-            "start": "2026-09-11T12:00:00-03:00",
-            "end": "2026-09-11T12:20:00-03:00"
-        },
-        "rooms": ["b3"],
-        "category": "J1C2"
-    },
-    {
         "title": "Aversão à Incerteza e Tomada de Decisão em Cenários Ágeis: Um Estudo Preliminar",
         "authors": ["Caroline Ferreira (UNIRIO)", "Gleison Santos (UNIRIO)"],
         "schedule": {
@@ -1661,8 +1651,8 @@
         "title": "Issues Faced by Software Practitioners When Using User Stories: An Empirical Study Based on Stack Exchange Discussions",
         "authors": ["Nicole Guerreiro(IFCE)", "Yuri Nunes (IFCE)", "Denivan Campos (UFNT)", "Edna Dias Canedo (UFPE)", "Sávio Freire(IFCE)"],
         "schedule": {
-            "start": "2026-09-11T15:10:00-03:00",
-            "end": "2026-09-11T15:30:00-03:00"
+            "start": "2026-09-11T12:00:00-03:00",
+            "end": "2026-09-11T12:20:00-03:00"
         },
         "rooms": ["b3"],
         "track": "pesquisa"
@@ -1671,8 +1661,8 @@
         "title": "Applying Design Thinking in Research and Development Environment: Insights from a case study in a Brazilian R&D institute",
         "authors": ["Maria Alcimar Costa Meireles", "Eriky Rodrigues", "Luana Lobão", "Edson Oliveira", "Igor Steinmacher", "José Carlos Maldonado", "Tayana Conte"],
         "schedule": {
-            "start": "2026-09-11T15:30:00-03:00",
-            "end": "2026-09-11T15:50:00-03:00"
+            "start": "2026-09-11T15:10:00-03:00",
+            "end": "2026-09-11T15:30:00-03:00"
         },
         "rooms": ["b3"],
         "category": "J1C2"
