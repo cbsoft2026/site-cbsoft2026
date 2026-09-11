@@ -1,6 +1,10 @@
+# Alguns links podem não existir mais, talvez seja interessante trocar para:
+# http://cbsoft.sbc.org.br/YEAR/
+# nesses casos
+
 -
   year: "2025"
-  url: http://cbsoft.sbc.org.br/2025/
+  url: https://cbsoft.sbc.org.br/2025/
   proceedings: 'https://sol.sbc.org.br/index.php/cbsoft'
   local: Recife, Pernambuco
 
@@ -12,7 +16,7 @@
 
 -
   year: "2023"
-  url: http://cbsoft.sbc.org.br/2023/
+  url: https://cbsoft.sbc.org.br/2023/
   proceedings: 'https://sol.sbc.org.br/index.php/cbsoft'
   local: Campo Grande, Mato Grosso do Sul
 
@@ -32,9 +36,10 @@
 
 -
   year: "2020"
-  url: https://cbsoft2020.imd.ufrn.br
+  url: https://cbsoft.sbc.org.br/2020/
   local: Natal, Rio Grande do Norte
   online: true
+# https://cbsoft2020.imd.ufrn.br
 
 -
   year: "2019"
@@ -43,18 +48,21 @@
 
 -
   year: "2018"
-  url: http://cbsoft2018.icmc.usp.br/#/cbsoft
+  url: https://cbsoft.sbc.org.br/2018/
   local: São Carlos, São Paulo
+# http://cbsoft2018.icmc.usp.br/#/cbsoft
 
 -
   year: "2017"
-  url: http://www.lia.ufc.br/~cbsoft2017/
+  url: https://cbsoft.sbc.org.br/2017/
   local: Fortaleza, Ceará
+# http://www.lia.ufc.br/~cbsoft2017/
 
 -
   year: "2016"
-  url: http://cbsoft.org/cbsoft2016/vii-congresso-brasileiro-de-software-teoria-e-pratica-cbsoft-2016.html
+  url: https://cbsoft.sbc.org.br/2016/
   local: Maringá, Paraná
+# http://cbsoft.org/cbsoft2016/vii-congresso-brasileiro-de-software-teoria-e-pratica-cbsoft-2016.html
 
 -
   year: "2015"
@@ -73,8 +81,9 @@
 
 -
   year: "2012"
-  url: https://www.facebook.com/cbsoft.natal/
+  url: https://cbsoft.sbc.org.br/2012/
   local: Natal, Rio Grande do Norte
+# https://www.facebook.com/cbsoft.natal/
 
 -
   year: "2011"
@@ -83,5 +92,6 @@
 
 -
   year: "2010"
-  url: http://wiki.dcc.ufba.br/CBSOFT
+  url: https://cbsoft.sbc.org.br/2010/
   local: Salvador, Bahia
+# http://wiki.dcc.ufba.br/CBSOFT
