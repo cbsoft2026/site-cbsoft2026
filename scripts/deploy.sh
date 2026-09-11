@@ -94,6 +94,9 @@ check_command npm
 check_command tar
 check_command gzip
 
+START_TIME=$(date +%s)
+
+echo "[1/6] Build"
 NODE_ENV=production npm run build
 
 cat <<EOF > out/.htaccess
@@ -109,39 +112,40 @@ ARCHIVE="/tmp/cbsoft-deploy.tar.gz"
 REMOTE_ARCHIVE="~/tmp/cbsoft-deploy.tar.gz"
 REMOTE_TMP="~/tmp/cbsoft-deploy"
 
-echo "Compressing..."
+echo "[2/6] Compressing..."
 
 tar -C out -cf - . | gzip > "$ARCHIVE"
 
-echo "Preparing remote directory..."
+echo "      Preparing remote directory..."
 
 sshpass -p "$SSH_PASSWORD" ssh \
     -o StrictHostKeyChecking=no \
     "$SSH_USER@$SSH_HOST" \
     "rm -rf $REMOTE_TMP && mkdir -p $REMOTE_TMP"
 
-echo "Uploading..."
+echo "[3/6] Uploading..."
 
-sshpass -p "$SSH_PASSWORD" scp \
-    -o StrictHostKeyChecking=no \
+sshpass -p "$SSH_PASSWORD" rsync \
+    -e "ssh -o StrictHostKeyChecking=no -o LogLevel=ERROR" \
+    --info=progress2 \
     "$ARCHIVE" \
     "$SSH_USER@$SSH_HOST:$REMOTE_ARCHIVE"
 
-echo "Extracting..."
+echo "[4/6] Extracting..."
 
 sshpass -p "$SSH_PASSWORD" ssh \
     -o StrictHostKeyChecking=no \
     "$SSH_USER@$SSH_HOST" \
     "gzip -dc $REMOTE_ARCHIVE | tar -xf - -C $REMOTE_TMP"
 
-echo "Synchronizing..."
+echo "[5/6] Synchronizing..."
 
 sshpass -p "$SSH_PASSWORD" ssh \
     -o StrictHostKeyChecking=no \
     "$SSH_USER@$SSH_HOST" \
-    "rsync -rp --no-times --chown=$SSH_USER:cbsoft --delete $REMOTE_TMP/ \"$APP_PATH\""
+    "rsync -rp --no-times --info=progress2 --chown=$SSH_USER:cbsoft --delete $REMOTE_TMP/ \"$APP_PATH\""
 
-echo "Cleaning up..."
+echo "[6/6] Cleaning up..."
 
 sshpass -p "$SSH_PASSWORD" ssh \
     -o StrictHostKeyChecking=no \
@@ -150,6 +154,9 @@ sshpass -p "$SSH_PASSWORD" ssh \
 
 rm -f "$ARCHIVE"
 
-echo "Deploy completed successfully."
+ELAPSED=$(( $(date +%s) - START_TIME ))
+
+echo
+echo "Deploy completed successfully. (${ELAPSED}s)"
 
 exit 0
