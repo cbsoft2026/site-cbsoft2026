@@ -48,7 +48,7 @@ for arg in "$@"; do
             args+=("-h" "${arg#*=}") 
             ;;
         --password=*) 
-            args+=("-h" "${arg#*=}") 
+            args+=("-p" "${arg#*=}") 
             ;;
         *) 
             args+=("$arg") 
@@ -91,6 +91,8 @@ check_command ssh
 check_command scp
 check_command sshpass
 check_command npm
+check_command tar
+check_command gzip
 
 NODE_ENV=production npm run build
 
@@ -103,8 +105,51 @@ ErrorDocument 404 /2026/404/
 AddType application/javascript .mjs
 EOF
 
-sshpass -p "$SSH_PASSWORD" ssh -o StrictHostKeyChecking=no "$SSH_USER@$SSH_HOST" "mkdir -p ~/tmp/deploy_temp && rm -rf ~/tmp/deploy_temp/*"
-sshpass -p "$SSH_PASSWORD" scp -o StrictHostKeyChecking=no -r ./out/. "$SSH_USER@$SSH_HOST:~/tmp/deploy_temp"
-sshpass -p "$SSH_PASSWORD" ssh -o StrictHostKeyChecking=no "$SSH_USER@$SSH_HOST" "rsync -rpz --no-times --chown=$SSH_USER:cbsoft --delete ~/tmp/deploy_temp/ "$APP_PATH"; rm -rf ~/tmp/deploy_temp/*"
+ARCHIVE="/tmp/cbsoft-deploy.tar.gz"
+REMOTE_ARCHIVE="~/tmp/cbsoft-deploy.tar.gz"
+REMOTE_TMP="~/tmp/cbsoft-deploy"
+
+echo "Compressing..."
+
+tar -C out -cf - . | gzip > "$ARCHIVE"
+
+echo "Preparing remote directory..."
+
+sshpass -p "$SSH_PASSWORD" ssh \
+    -o StrictHostKeyChecking=no \
+    "$SSH_USER@$SSH_HOST" \
+    "rm -rf $REMOTE_TMP && mkdir -p $REMOTE_TMP"
+
+echo "Uploading..."
+
+sshpass -p "$SSH_PASSWORD" scp \
+    -o StrictHostKeyChecking=no \
+    "$ARCHIVE" \
+    "$SSH_USER@$SSH_HOST:$REMOTE_ARCHIVE"
+
+echo "Extracting..."
+
+sshpass -p "$SSH_PASSWORD" ssh \
+    -o StrictHostKeyChecking=no \
+    "$SSH_USER@$SSH_HOST" \
+    "gzip -dc $REMOTE_ARCHIVE | tar -xf - -C $REMOTE_TMP"
+
+echo "Synchronizing..."
+
+sshpass -p "$SSH_PASSWORD" ssh \
+    -o StrictHostKeyChecking=no \
+    "$SSH_USER@$SSH_HOST" \
+    "rsync -rp --no-times --chown=$SSH_USER:cbsoft --delete $REMOTE_TMP/ \"$APP_PATH\""
+
+echo "Cleaning up..."
+
+sshpass -p "$SSH_PASSWORD" ssh \
+    -o StrictHostKeyChecking=no \
+    "$SSH_USER@$SSH_HOST" \
+    "rm -rf $REMOTE_TMP $REMOTE_ARCHIVE"
+
+rm -f "$ARCHIVE"
+
+echo "Deploy completed successfully."
 
 exit 0
