@@ -54,7 +54,19 @@ export async function createPageMetadata(
     openGraph: {
       type: 'article',
       title: title,
+      images: [
+        {
+          url: `${process.env.NEXT_PUBLIC_SITE_URL}/images/logos/cbsoft-logo.png`,
+          width: 1200,
+          height: 630,
+          alt: 'logo',
+          type: 'image/png',
+        },
+      ],
       siteName: appConfig.organization,
+    },
+    icons: {
+      icon: `${process.env.NEXT_PUBLIC_ASSET_PREFIX}/favicon.ico`,
     },
   };
 
@@ -76,6 +88,10 @@ export async function createPageMetadata(
         'x-default': `${process.env.NEXT_PUBLIC_SITE_URL}${pathSuffix}/`,
       },
     };
+
+    if (metadata.openGraph) {
+      metadata.openGraph.url = `${process.env.NEXT_PUBLIC_SITE_URL}/${resolvedParams.locale || ''}${pathSuffix}/`;
+    }
   }
 
   return metadata;
