@@ -12,6 +12,8 @@ import Image from 'next/image';
 import LinkLocale from '@/components/LinkLocale';
 import { faLink } from '@fortawesome/free-solid-svg-icons';
 import { withUTM } from '@/utils/utm';
+import Heading from '../Heading';
+import { slugify } from '@/utils/slugify';
 
 type Props = {
   events: Record<string, Event>;
@@ -283,8 +285,8 @@ export default async function EventComponent({ events, event, locale, sort }: Pr
 
             return (
               <>
-                <header className={styles.header}>
-                  <h1>
+                <header className={styles.header} id={slugify(title)}>
+                  <Heading as='h1' anchor={slugify(title)}>
                     {title}
                     {event.lang && event.lang != defaultLang ? (
                       <>
@@ -300,7 +302,7 @@ export default async function EventComponent({ events, event, locale, sort }: Pr
                     ) : (
                       <></>
                     )}
-                  </h1>
+                  </Heading>
 
                   <div className={styles['chips__grouped']} data-pagefind-ignore>
                     {event.simposio ? (

@@ -1,8 +1,8 @@
 import { coverSpeakers, speakers } from '@/data';
-import Title from '@/components/Title';
 import { getTranslations } from 'next-intl/server';
 import { createPageMetadata } from '@/lib/metadata';
 import SpeakerCard from '@/components/SpeakerCard';
+import Heading from '@/components/Heading';
 
 type Props = {
   params: Promise<{ locale: string }>;
@@ -34,7 +34,7 @@ export default async function SpeakersPage({ params }: Props) {
   return (
     <article style={{ padding: '30px 0 0' }} data-pagefind-body>
       <header className='container' style={{ marginBottom: 56 }}>
-        <Title titulo={t('titulo')}></Title>
+        <Heading as='title'>{t('titulo')}</Heading>
       </header>
       <div className='container'>
         {speakersFiltered &&

@@ -1,5 +1,5 @@
+import Heading from '@/components/Heading';
 import { OrganizadorGrupo } from '@/components/Organizers';
-import Title from '@/components/Title';
 import { organizers } from '@/data';
 import { createPageMetadata } from '@/lib/metadata';
 import { getTranslations } from 'next-intl/server';
@@ -28,7 +28,9 @@ export default async function OrganizationPage({ params }: Props) {
 
   return (
     <section style={{ paddingTop: '50px' }} data-pagefind-body>
-      <Title titulo={t('titulo')} align='center' />
+      <Heading as='title' align='center'>
+        {t('titulo')}
+      </Heading>
       {Object.entries(groups).reduce((components, [group, data]) => {
         const [groupName] = group.split('-');
         const title = t.has(groupName) ? t(groupName) : groupName.toUpperCase();

@@ -1,8 +1,8 @@
 import { EventStructureType } from '@/app/config/event-structure';
 import { getTranslations } from 'next-intl/server';
-import Title from '@/components/Title';
 import EventsList, { getEvents } from '@/components/EventsList/EventsList';
 import { createPageMetadata } from '@/lib/metadata';
+import Heading from '@/components/Heading';
 
 type Props = {
   params: Promise<{ acronym: EventStructureType; locale: string }>;
@@ -31,7 +31,7 @@ export default async function EventsPage({ params }: Props) {
   return (
     <article style={{ padding: '30px 0 0' }}>
       <div className='container' style={{ marginBottom: 56 }}>
-        <Title titulo={`${commonT(`siglas.${acronym}`)} (${commonT(`${acronym}`)}) - ${t('events')}`}></Title>
+        <Heading as='title'>{`${commonT(`siglas.${acronym}`)} (${commonT(`${acronym}`)}) - ${t('events')}`}</Heading>
         {description && <p>{description}</p>}
       </div>
       <EventsList events={events} locale={locale} emptyMessage={symposiumsT('emptyEvents')} />

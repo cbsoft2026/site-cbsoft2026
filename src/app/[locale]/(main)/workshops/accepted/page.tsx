@@ -1,4 +1,4 @@
-import Title from '@/components/Title';
+import Heading from '@/components/Heading';
 import { createPageMetadata } from '@/lib/metadata';
 import { withUTM } from '@/utils/utm';
 import { getTranslations } from 'next-intl/server';
@@ -61,7 +61,7 @@ export default async function AcceptsPage({ params }: Props) {
   return (
     <article style={{ padding: '30px 0 0' }} data-pagefind-body>
       <header className='container' style={{ marginBottom: 56 }}>
-        <Title titulo={`${commonT(`workshops_accepts`)}`}></Title>
+        <Heading as='title'>{commonT(`workshops_accepts`)}</Heading>
       </header>
       <section className='container'>
         <ul>

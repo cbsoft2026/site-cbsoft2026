@@ -3,6 +3,7 @@ import { Event } from '@/types/event';
 import { loadEvents } from '@/lib/api';
 import { mapToObject } from '@/utils/mapToObject';
 import { getTranslations } from 'next-intl/server';
+import Heading from '../Heading';
 
 const DEFAULT_CATEGORY = '__uncategorized__';
 
@@ -122,12 +123,12 @@ export default async function CategoryEventsList({
   return (
     <>
       {categories.map((category) => (
-        <div key={category} data-pagefind-body>
+        <div key={category} data-pagefind-body id={category}>
           {category !== DEFAULT_CATEGORY && (
             <div className='container'>
-              <h4>
+              <Heading as='h4' anchor={category}>
                 <CategoryName locale={locale} category={category} />
-              </h4>
+              </Heading>
             </div>
           )}
 

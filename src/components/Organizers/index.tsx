@@ -4,6 +4,7 @@ import Image from 'next/image';
 
 import { Chair } from '../../types/organizers';
 import styles from './styles.module.scss';
+import Heading from '../Heading';
 
 function OrganizadorCard(props: Chair) {
   const { email, image, link, name, university } = props;
@@ -52,8 +53,10 @@ function OrganizadorCard(props: Chair) {
 
 export function OrganizadorGrupo(props: { title: string; chairs: Chair[] }) {
   return (
-    <div>
-      <div className={styles['group__title']}>{props.title}</div>
+    <div id={props.title}>
+      <Heading className={styles['group__title']} as={'h3'} anchor={props.title}>
+        {props.title}
+      </Heading>
       <div className={styles['group__content']}>
         {[...props.chairs].map((gc, index) => (
           <OrganizadorCard {...gc} key={index} />

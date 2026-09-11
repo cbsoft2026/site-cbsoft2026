@@ -1,5 +1,5 @@
 import AddCalendar from '@/components/AddCalendar';
-import Title from '@/components/Title';
+import Heading from '@/components/Heading';
 import { dates } from '@/data';
 import { createPageMetadata } from '@/lib/metadata';
 import { dateOnlyFromISO, formatDate } from '@/utils/dates';
@@ -51,7 +51,7 @@ export default async function DatesPage({ params }: Props) {
   return (
     <article style={{ padding: '30px 0 0' }} data-pagefind-body>
       <div className='container' style={{ marginBottom: 56 }}>
-        <Title titulo={datesT('important_dates')} />
+        <Heading as='title'>{datesT('important_dates')}</Heading>
         <table className='table table-hover'>
           <thead>
             <tr>

@@ -1,10 +1,9 @@
-import Title from '@/components/Title';
-
 import styles from './styles.module.scss';
 import { createPageMetadata } from '@/lib/metadata';
 import { getTObject } from '@/lib/getTObject';
 import ImagePopup from '@/components/ImagePopup';
 import { getTranslations } from 'next-intl/server';
+import Heading from '@/components/Heading';
 
 type Props = {
   params: Promise<{ locale: string }>;
@@ -24,7 +23,9 @@ export default async function AccommodationPage() {
 
   return (
     <section className={styles['local-acomodacoes']} style={{ paddingTop: '50px' }} data-pagefind-body>
-      <Title titulo={t('titulo')} align='center' />
+      <Heading as='title' align='center'>
+        {t('titulo')}
+      </Heading>
       <div className='container'>
         {t('description')}
         <div className={styles['banners-wrapper']}>

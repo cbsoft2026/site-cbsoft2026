@@ -1,7 +1,7 @@
+import Heading from '@/components/Heading';
 import styles from './styles.module.scss';
 
 import ImagePopup from '@/components/ImagePopup';
-import Title from '@/components/Title';
 
 import { getTObject } from '@/lib/getTObject';
 import { createPageMetadata } from '@/lib/metadata';
@@ -24,7 +24,9 @@ export default async function HappyHourPage({ params }: Props) {
   const t = await getTObject('pages/cbsoft/happy-hour/index', {}, locale);
   return (
     <section className='container' style={{ paddingTop: '50px' }} data-pagefind-body>
-      <Title titulo={t('titulo')} align='center' />
+      <Heading as='title' align='center'>
+        {t('titulo')}
+      </Heading>
       {t('page')}
       <div className={styles['banners-wrapper-1']}>
         <ImagePopup src={`${process.env.NEXT_PUBLIC_ASSET_PREFIX}/images/happy-hour/image--1.jpg`} loading={'lazy'} />

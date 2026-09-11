@@ -1,10 +1,9 @@
-import Title from '@/components/Title';
-
 import styles from './styles.module.scss';
 import appConfig from '@/app/app.config';
 import { getTObject } from '@/lib/getTObject';
 import { createPageMetadata } from '@/lib/metadata';
 import { getTranslations } from 'next-intl/server';
+import Heading from '@/components/Heading';
 
 type Props = {
   params: Promise<{ locale: string }>;
@@ -25,7 +24,9 @@ export default async function RegistrationPage({ params }: Props) {
     <section className='container' style={{ paddingTop: '50px' }} data-pagefind-body>
       <div className='row'>
         <div className='col-lg-12 align-self-center'>
-          <Title titulo={t('titulo')} align='center' />
+          <Heading as='title' align='center'>
+            {t('titulo')}
+          </Heading>
           <div className={styles['button-container']}>
             <a
               className={styles['button']}

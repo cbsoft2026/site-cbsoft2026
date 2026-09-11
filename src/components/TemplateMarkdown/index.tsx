@@ -10,6 +10,9 @@ import 'katex/dist/katex.min.css';
 import { interpolate } from '@/lib/getTObject';
 import AddCalendar from '../AddCalendar';
 import ImagePopup from '../ImagePopup';
+import Heading, { HeadingAttributes, isStringNode } from '../Heading';
+import { slugify } from '@/utils/slugify';
+import { AnchorHTMLAttributes } from 'react';
 
 type Props = {
   children: string | null | undefined;
@@ -28,6 +31,62 @@ export default function TemplateMarkdown({ children, className, variables, local
         remarkPlugins={[remarkMath]}
         rehypePlugins={[rehypeKatex, remarkGfm, [rehypeHighlight, { languages: { latex } }], rehypeRaw]}
         components={{
+          // eslint-disable-next-line @typescript-eslint/no-unused-vars
+          h1: ({ node, children, ...props }) => {
+            const extraProps: HeadingAttributes & AnchorHTMLAttributes<HTMLAnchorElement> = {};
+            if (isStringNode(children)) {
+              extraProps['anchor'] = slugify(children);
+              extraProps['id'] = slugify(children);
+            }
+
+            return (
+              <Heading as='h1' {...extraProps} {...props}>
+                {children}
+              </Heading>
+            );
+          },
+          // eslint-disable-next-line @typescript-eslint/no-unused-vars
+          h2: ({ node, children, ...props }) => {
+            const extraProps: HeadingAttributes & AnchorHTMLAttributes<HTMLAnchorElement> = {};
+            if (isStringNode(children)) {
+              extraProps['anchor'] = slugify(children);
+              extraProps['id'] = slugify(children);
+            }
+
+            return (
+              <Heading as='h2' {...extraProps} {...props}>
+                {children}
+              </Heading>
+            );
+          },
+          // eslint-disable-next-line @typescript-eslint/no-unused-vars
+          h3: ({ node, children, ...props }) => {
+            const extraProps: HeadingAttributes & AnchorHTMLAttributes<HTMLAnchorElement> = {};
+            if (isStringNode(children)) {
+              extraProps['anchor'] = slugify(children);
+              extraProps['id'] = slugify(children);
+            }
+
+            return (
+              <Heading as='h3' {...extraProps} {...props}>
+                {children}
+              </Heading>
+            );
+          },
+          // eslint-disable-next-line @typescript-eslint/no-unused-vars
+          h4: ({ node, children, ...props }) => {
+            const extraProps: HeadingAttributes & AnchorHTMLAttributes<HTMLAnchorElement> = {};
+            if (isStringNode(children)) {
+              extraProps['anchor'] = slugify(children);
+              extraProps['id'] = slugify(children);
+            }
+
+            return (
+              <Heading as='h4' {...extraProps} {...props}>
+                {children}
+              </Heading>
+            );
+          },
           // eslint-disable-next-line @typescript-eslint/no-unused-vars
           a: ({ node, ...props }) => {
             const href = props.href;

@@ -1,4 +1,4 @@
-import Title from '@/components/Title';
+import Heading from '@/components/Heading';
 
 import { getTObject } from '@/lib/getTObject';
 import { createPageMetadata } from '@/lib/metadata';
@@ -21,7 +21,9 @@ export default async function WomenLunchPage({ params }: Props) {
   const t = await getTObject('pages/cbsoft/women-lunch/index', {}, locale);
   return (
     <section className='container' style={{ paddingTop: '50px' }} data-pagefind-body>
-      <Title titulo={t('titulo')} align='center' />
+      <Heading as='title' align='center'>
+        {t('titulo')}
+      </Heading>
       {t('page')}
     </section>
   );

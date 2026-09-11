@@ -1,0 +1,61 @@
+@use 'variables' as *;
+
+.heading--title {
+  margin-bottom: 35;
+  display: block;
+
+  &::after {
+    display: block;
+    content: '';
+    width: 60px;
+    height: 4px;
+    background: $primary-alt;
+    margin-top: 8px;
+  }
+
+  &.heading-left::after {
+    margin-left: 0;
+  }
+  &.heading-center::after {
+    margin-left: calc(50% - 30px);
+  }
+  &.heading-right::after {
+    margin-left: calc(100% - 60px);
+  }
+}
+
+.heading-center {
+  text-align: center;
+}
+
+.heading-right {
+  text-align: right;
+}
+
+.heading-left {
+  text-align: left;
+}
+
+a.heading__link {
+  visibility: hidden;
+  font-family: sans-serif;
+  padding: 0 4px;
+  text-decoration: none;
+  font-weight: normal;
+  color: $text-primary-alt;
+  user-select: none;
+}
+
+h1:hover > a.heading__link,
+h2:hover > a.heading__link,
+h3:hover > a.heading__link,
+h4:hover > a.heading__link,
+h5:hover > a.heading__link,
+h6:hover > a.heading__link {
+  visibility: visible;
+}
+
+a.heading__link:hover {
+  color: $text-primary;
+  background-color: $overlay-bg-2;
+}

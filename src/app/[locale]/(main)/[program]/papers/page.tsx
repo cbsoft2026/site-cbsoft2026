@@ -1,9 +1,9 @@
-import Title from '@/components/Title';
 import { getTranslations } from 'next-intl/server';
 import CategoryEventsList, { getCategoryEvents } from '@/components/EventsList/CategoryEventsList';
 import { locales } from '@/app/config/locales';
 import { EventStructureType, programs } from '@/app/config/event-structure';
 import { createPageMetadata } from '@/lib/metadata';
+import Heading from '@/components/Heading';
 
 type Props = {
   params: Promise<{ program: EventStructureType; locale: string }>;
@@ -40,7 +40,7 @@ export default async function PapersPage({ params }: Props) {
   return (
     <article style={{ padding: '30px 0 0' }}>
       <div className='container' style={{ marginBottom: 56 }}>
-        <Title titulo={`${commonT(`siglas.${program}`)} - ${t('artigos_aceitos')}`}></Title>
+        <Heading as='title'>{`${commonT(`siglas.${program}`)} - ${t('artigos_aceitos')}`}</Heading>
       </div>
 
       <CategoryEventsList events={events} locale={locale} emptyMessage={symposiumsT('emptyPapers')} />

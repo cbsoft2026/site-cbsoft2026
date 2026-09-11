@@ -1,5 +1,5 @@
 import CallComponent from '@/components/Call';
-import Title from '@/components/Title';
+import Heading from '@/components/Heading';
 import { createPageMetadata } from '@/lib/metadata';
 import { getTranslations } from 'next-intl/server';
 
@@ -21,7 +21,7 @@ export default async function CallPage({ params }: Props) {
   return (
     <article style={{ padding: '30px 0 0' }} data-pagefind-body>
       <header className='container' style={{ marginBottom: 56 }}>
-        <Title titulo={t('titulo')}></Title>
+        <Heading as='title'>{t('titulo')}</Heading>
       </header>
       <CallComponent className='container' acronym={'special-activities'} locale={locale}></CallComponent>
     </article>

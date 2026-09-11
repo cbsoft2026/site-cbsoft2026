@@ -1,12 +1,12 @@
 import { getTranslations } from 'next-intl/server';
 
 import CallComponent from '@/components/Call';
-import Title from '@/components/Title';
 import { createPageMetadata } from '@/lib/metadata';
 import { locales } from '@/app/config/locales';
 import { EventStructureType, programs } from '@/app/config/event-structure';
 import { redirect } from 'next/navigation';
 import { withUTM } from '@/utils/utm';
+import Heading from '@/components/Heading';
 
 type Props = {
   params: Promise<{ program: EventStructureType; locale: string }>;
@@ -42,7 +42,7 @@ export default async function ProgramPage({ params }: Props) {
   return (
     <article style={{ padding: '30px 0 0' }} data-pagefind-body>
       <header className='container' style={{ marginBottom: 56 }}>
-        <Title titulo={commonT(`siglas.${program}`)}></Title>
+        <Heading as='title'>{commonT(`siglas.${program}`)}</Heading>
       </header>
       <CallComponent className='container' acronym={program} locale={locale}></CallComponent>
     </article>

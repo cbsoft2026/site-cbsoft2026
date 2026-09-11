@@ -1,10 +1,10 @@
-import Title from '@/components/Title';
 import appConfig from '@/app/app.config';
 import styles from './styles.module.scss';
 import { common } from '@/data';
 import { formatDateRange } from '@/utils/dates';
 import { getTObject } from '@/lib/getTObject';
 import { getTranslations } from 'next-intl/server';
+import Heading from '@/components/Heading';
 
 type Props = {
   params: Promise<{ locale: string }>;
@@ -61,7 +61,7 @@ export default async function CbsoftPage({ params }: Props) {
           </picture>
 
           <div>
-            <Title titulo={t('sobre')} />
+            <Heading as='title'>{t('sobre')}</Heading>
             {t('page')}
           </div>
 

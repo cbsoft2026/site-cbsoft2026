@@ -1,4 +1,3 @@
-import Title from '@/components/Title';
 import styles from './styles.module.scss';
 
 import { getTObject } from '@/lib/getTObject';
@@ -6,6 +5,7 @@ import { createPageMetadata } from '@/lib/metadata';
 import { withUTM } from '@/utils/utm';
 import ImagePopup from '@/components/ImagePopup';
 import { getTranslations } from 'next-intl/server';
+import Heading from '@/components/Heading';
 
 type Props = {
   params: Promise<{ locale: string }>;
@@ -24,7 +24,9 @@ export default async function FaqAuthorsPage({ params }: Props) {
   const t = await getTObject('pages/cbsoft/dinner/index', {}, locale);
   return (
     <section className='container' style={{ paddingTop: '50px' }} data-pagefind-body>
-      <Title titulo={t('titulo')} align='center' />
+      <Heading as='title' align='center'>
+        {t('titulo')}
+      </Heading>
       {t('page')}
       <h3>{t('galeria')}</h3>
       <div className={styles['banners-wrapper']}>

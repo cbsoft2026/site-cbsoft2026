@@ -1,6 +1,6 @@
 import { EventStructureType } from '@/app/config/event-structure';
 import CallComponent from '@/components/Call';
-import Title from '@/components/Title';
+import Heading from '@/components/Heading';
 import { createPageMetadata } from '@/lib/metadata';
 import { getTranslations } from 'next-intl/server';
 
@@ -22,7 +22,7 @@ export default async function CallPage({ params }: Props) {
   return (
     <article style={{ padding: '30px 0 0' }} data-pagefind-body>
       <div className='container' style={{ marginBottom: 56 }}>
-        <Title titulo={`${commonT(`siglas.${acronym}`)} (${commonT(`${acronym}`)})`}></Title>
+        <Heading as='title'>{`${commonT(`siglas.${acronym}`)} (${commonT(`${acronym}`)})`}</Heading>
       </div>
       <CallComponent className='container' acronym={acronym} locale={locale}></CallComponent>
     </article>

@@ -1,9 +1,9 @@
-import Title from '@/components/Title';
 import { previousEditions } from '@/data';
 
 import styles from './styles.module.scss';
 import { getTranslations } from 'next-intl/server';
 import { createPageMetadata } from '@/lib/metadata';
+import Heading from '@/components/Heading';
 
 type Props = {
   params: Promise<{ locale: string }>;
@@ -46,7 +46,9 @@ export default async function PreviousEditionsPage({ params }: Props) {
     <section className={`speakers overlay-lighter about`} style={{ paddingTop: '50px' }} data-pagefind-body>
       <div className='container'>
         <div className='col-12'>
-          <Title titulo={t('titulo')} align='center' />
+          <Heading as='title' align='center'>
+            {t('titulo')}
+          </Heading>
           <div className={styles.description}>
             {previousEditions.map((edicao, index) => (
               <Edicao {...edicao} key={index} />

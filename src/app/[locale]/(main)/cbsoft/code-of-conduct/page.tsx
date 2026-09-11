@@ -1,5 +1,5 @@
 import appConfig from '@/app/app.config';
-import Title from '@/components/Title';
+import Heading from '@/components/Heading';
 import { getTObject } from '@/lib/getTObject';
 import { createPageMetadata } from '@/lib/metadata';
 import { getTranslations } from 'next-intl/server';
@@ -23,7 +23,7 @@ export default async function CodeOfConductPage({ params }: Props) {
   return (
     <article className='container' style={{ paddingTop: '50px' }} data-pagefind-body>
       <header>
-        <Title titulo={t('titulo')} />
+        <Heading as='title'>{t('titulo')}</Heading>
       </header>
       <section>{t('descricao', { ano: appConfig.year })}</section>
     </article>

@@ -1,10 +1,10 @@
-import Title from '@/components/Title';
 import { getTranslations } from 'next-intl/server';
 import { Event } from '@/types/event';
 import CategoryEventsList from '@/components/EventsList/CategoryEventsList';
 import { createPageMetadata } from '@/lib/metadata';
 import { mapToObject } from '@/utils/mapToObject';
 import { loadEvents } from '@/lib/api';
+import Heading from '@/components/Heading';
 
 type Props = {
   params: Promise<{ locale: string }>;
@@ -47,7 +47,7 @@ export default async function PapersPage({ params }: Props) {
   return (
     <article style={{ padding: '30px 0 0' }}>
       <div className='container' style={{ marginBottom: 56 }}>
-        <Title titulo={`${commonT(`siglas.${program}`)} - ${t('artefatos_aceitos')}`}></Title>
+        <Heading as='title'>{`${commonT(`siglas.${program}`)} - ${t('artefatos_aceitos')}`}</Heading>
       </div>
 
       <CategoryEventsList events={filteredEvents} locale={locale} emptyMessage={symposiumsT('emptyPapers')} />
