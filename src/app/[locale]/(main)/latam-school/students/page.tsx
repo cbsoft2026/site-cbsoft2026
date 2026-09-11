@@ -14,7 +14,7 @@ export async function generateMetadata({ params }: Props) {
   const menuT = await getTranslations({ locale, namespace: 'components/menu' });
   const title = `${commonT(program)} - ${menuT('latam-school.students')}`;
 
-  return createPageMetadata(title);
+  return createPageMetadata(title, [], params, import.meta.url);
 }
 
 export default async function LatamSchoolStudentsPage({ params }: Props) {

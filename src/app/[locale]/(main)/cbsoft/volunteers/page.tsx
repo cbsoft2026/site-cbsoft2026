@@ -12,7 +12,7 @@ export async function generateMetadata({ params }: Props) {
   const t = await getTranslations({ locale, namespace: 'pages/cbsoft/volunteers' });
   const title = t('titulo');
 
-  return createPageMetadata(title);
+  return createPageMetadata(title, [], params, import.meta.url);
 }
 
 export default async function CallPage({ params }: Props) {

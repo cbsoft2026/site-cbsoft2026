@@ -17,7 +17,7 @@ export async function generateMetadata({ params }: Props) {
   const t = await getTranslations({ locale, namespace: 'pages/schedule' });
   const title = t('titulo');
 
-  return createPageMetadata(title);
+  return createPageMetadata(title, [], params, import.meta.url);
 }
 
 export function generateStaticParams() {

@@ -15,7 +15,7 @@ export async function generateMetadata({ params }: Props) {
   const menuT = await getTranslations({ locale, namespace: 'components/menu' });
   const title = `${commonT(program)} - ${menuT('events')}`;
 
-  return createPageMetadata(title);
+  return createPageMetadata(title, [], params, import.meta.url);
 }
 
 export async function generateStaticParams() {

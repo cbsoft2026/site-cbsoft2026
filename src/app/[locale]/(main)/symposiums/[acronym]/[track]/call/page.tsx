@@ -13,7 +13,7 @@ export async function generateMetadata({ params }: Props) {
   const t = await getTranslations({ locale, namespace: 'common' });
   const title = t(`siglas.trilhas.${track}`);
 
-  return createPageMetadata(title);
+  return createPageMetadata(title, [], params, import.meta.url);
 }
 
 export default async function CallPage({ params }: Props) {

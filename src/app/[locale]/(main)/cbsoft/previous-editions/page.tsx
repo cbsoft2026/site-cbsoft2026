@@ -14,7 +14,7 @@ export async function generateMetadata({ params }: Props) {
   const t = await getTranslations({ locale, namespace: 'pages/cbsoft/previousEditions' });
   const title = t('titulo');
 
-  return createPageMetadata(title);
+  return createPageMetadata(title, [], params, import.meta.url);
 }
 
 function Edicao(props: { year: string; url: string; local: string; online?: boolean; className?: string }) {

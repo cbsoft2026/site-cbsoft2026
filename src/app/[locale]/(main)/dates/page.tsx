@@ -14,7 +14,7 @@ export async function generateMetadata({ params }: Props) {
   const t = await getTranslations({ locale, namespace: 'pages/dates' });
   const title = t('important_dates');
 
-  return createPageMetadata(title);
+  return createPageMetadata(title, [], params, import.meta.url);
 }
 
 export default async function DatesPage({ params }: Props) {
