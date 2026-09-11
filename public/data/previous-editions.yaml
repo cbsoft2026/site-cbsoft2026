@@ -3,6 +3,12 @@
 # nesses casos
 
 -
+  year: "2026"
+  url: https://cbsoft.sbc.org.br/2026/
+  proceedings: 'https://sol.sbc.org.br/index.php/cbsoft'
+  local: São Paulo, SP
+
+-
   year: "2025"
   url: https://cbsoft.sbc.org.br/2025/
   proceedings: 'https://sol.sbc.org.br/index.php/cbsoft'
