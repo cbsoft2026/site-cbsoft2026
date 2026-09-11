@@ -1,5 +1,5 @@
 import { locales } from '@/app/config/locales';
-import LangSetter from './LangSetter';
+import { alegreyaSansUltraBold } from '@/app/layout';
 
 export async function generateStaticParams() {
   return locales.map((locale) => ({
@@ -23,9 +23,8 @@ type Props = {
 export default async function RootLayout({ children, params }: Props) {
   const { locale } = await params;
   return (
-    <>
-      <LangSetter lang={locale} />
-      {children}
-    </>
+    <html className={alegreyaSansUltraBold.variable} lang={locale}>
+      <body>{children}</body>
+    </html>
   );
 }

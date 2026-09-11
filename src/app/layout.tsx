@@ -9,7 +9,7 @@ import '@fortawesome/fontawesome-svg-core/styles.css';
 
 config.autoAddCss = false;
 
-const alegreyaSansUltraBold = localFont({
+export const alegreyaSansUltraBold = localFont({
   src: '../../public/fonts/alegreya-sans/AlegreyaSans-ExtraBold.ttf',
   variable: '--font-alegreya-sans-ultra-bold',
   weight: '800',
