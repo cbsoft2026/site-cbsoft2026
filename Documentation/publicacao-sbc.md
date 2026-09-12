@@ -25,6 +25,10 @@ Documentação:
 - [iOS/iPadOS](https://www.ufrgs.br/documentacaoti/vpn-instalacao-ios-ipad)
 - [Ativação da VPN](https://www.ufrgs.br/documentacaoti/vpn-ativacao)
 
+```bash
+sudo openvpn --config VPN-Servicos.ovpn
+```
+
 ## Deploy
 
 Execute:
