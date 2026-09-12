@@ -1029,5 +1029,45 @@
         },
         "rooms": ["b1"],
         "category": "se4as"
+    },
+    {
+        "title": "Uma Proposta de Arquitetura de Software para uma Plataforma Conversacional de Suporte a BNCC",
+        "authors": ["Francisco Gilvan de Oliveira", "Emanuel Coutinho"],
+        "category": "wbots"
+    },
+    {
+        "title": "Uma Ferramenta para Apoiar a Seleção de Instrumentos de Avaliação de Chatbots Educacionais",
+        "authors": ["Mariana Almeida Faustino", "Gabriel Felipe Jess Meira", "Silvana Morita Melo", "Leo Natan Paschoal", "Pedro Henrique Dias Valle"],
+        "category": "wbots"
+    },
+    {
+        "title": "ArcAssist-Web Bot: A Prototype Instantiation for Evidence-Grounded Architectural Decision Support",
+        "authors": ["Vanusa Rodrigues de Oliveira", "Bento Rafael Siqueira", "Samira Santos da Silva"],
+        "category": "wbots"
+    },
+    {
+        "title": "Pre-Deployment Evaluation of LLM-based Conversational Agents through a Digital Twin-Inspired Approach",
+        "authors": ["Caio Vinícius Cunha Bernardo", "Thais Rodrigues Neubauer", "Gregório A. de Almeida Filho", "Enio Alterman Blay", "Sarajane Marques Peres"],
+        "category": "wbots"
+    },
+    {
+        "title": "Além da Ortogonalidade: Preocupações Constitutivas em Software Quântico",
+        "authors": ["Jefferson de Oliveira Silva", "Bryan Kano Ferreira", "Murilo Zanini de Carvalho", "Fabiana Naomi Iegawa"],
+        "category": "wqse"
+    },
+    {
+        "title": "Software Engineering Tools for Quantum Computing: Systematic Mapping Study",
+        "authors": ["Camila Ferreira Alves", "Leonardo Murta", "Luis Kowada"],
+        "category": "wqse"
+    },
+    {
+        "title": "A Systematic Mapping Study of Quantum Software Engineering Maturity to Guide a Brazilian Research Agenda",
+        "authors": ["Filipe Fernandes", "Cláudia Werner", "Eduardo Figueiredo"],
+        "category": "wqse"
+    },
+    {
+        "title": "Are LLMs Reliable for Quantum Software Development? An Empirical Benchmark Study",
+        "authors": ["Filipe Fernandes"],
+        "category": "wqse"
     }
 ]

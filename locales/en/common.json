@@ -39,6 +39,8 @@
   "se4fp": "SE4FP",
   "aisecdev": "AISecDev",
   "se4as": "SE4AS",
+  "wbots": "WBOTS",
+  "wqse": "WQSE",
 
   "women-lunch": "Women's Lunch",
   "siglas": {
@@ -75,6 +77,8 @@
     "se4fp": "Workshop on Software Engineering for Functional Programming",
     "aisecdev": "Secure Software Development in the Age of AI",
     "se4as": "Workshop on Software Engineering for Agentic Systems",
+    "wbots": "Workshop sobre Bots na Engenharia de Software",
+    "wqse": "Workshop on Quantum Software Engineering",
 
     "women-lunch": "Women's Lunch"
   },
